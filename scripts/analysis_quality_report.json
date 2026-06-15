@@ -1,0 +1,74 @@
+{
+  "dataset": "refined_v5_dusuk_erken_v2.json",
+  "sha256_prefix": "1b278c966eba22a6",
+  "n": 571,
+  "fp_motifs": [
+    "Kanunsuz emir",
+    "FETÖ.*PDY",
+    "darbe teşebbüsü",
+    "Yurtta Sulh Konseyi",
+    "askeri hizmete müteallik",
+    "silahlı terör örgütü"
+  ],
+  "obs_motifs": [
+    "erken doğum",
+    "düşük yap",
+    "missed abortus",
+    "plasenta dekolman",
+    "intrauterin",
+    "fetus|fetüs|cenin",
+    "gebeliğ.*kayb",
+    "hamile.*darp|darp.*hamile",
+    "preeklampsi",
+    "HELLP",
+    "sezaryen|sezeryan",
+    "ölü doğum"
+  ],
+  "mm_motifs": [
+    "hizmet kusur",
+    "ATK.*kurul",
+    "malpraktis",
+    "tıbbi.*ihmal"
+  ],
+  "counts": {
+    "fp_boilerplate": {
+      "n": 67,
+      "pct": "11.7%"
+    },
+    "obstetric_motif": {
+      "n": 367,
+      "pct": "64.3%"
+    },
+    "medmal_signal": {
+      "n": 201,
+      "pct": "35.2%"
+    },
+    "clean_obstetric": {
+      "n": 313,
+      "pct": "54.8%"
+    }
+  },
+  "by_court_clean": {
+    "A.İ.H.M.": 19,
+    "Anayasa": 29,
+    "Danıştay": 30,
+    "Yargıtay": 229,
+    "Uyuşmazlık Mahkemesi": 2,
+    "Askeri Yargıtay": 2,
+    "A.Y.İ.M.": 2
+  },
+  "by_court_obs": {
+    "Yargıtay": 274,
+    "Anayasa": 38,
+    "A.İ.H.M.": 19,
+    "Danıştay": 30,
+    "Uyuşmazlık Mahkemesi": 2,
+    "Askeri Yargıtay": 2,
+    "A.Y.İ.M.": 2
+  },
+  "by_court_fp": {
+    "Yargıtay": 51,
+    "Anayasa": 10,
+    "Danıştay": 6
+  }
+}

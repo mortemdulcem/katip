@@ -1,0 +1,28 @@
+toplum üzerinde, ister artan sigorta primleri isterse mal ve hizmet fiyatlarında yükselme yoluyla olsun, tazmin yükünün (liability) oluşturacağı külfetin katlanılmaz hale gelmemesini sağlamak için belli tür bir dengeleme (balancing) yapılması gerektiği düşüncesi olmuştur.
+*Esanda Finance Corporation Ltd v Peat Marwick Hungerfords* davasında[34] McHugh Yargıcı, denetim (audit) gibi zorunlu bir işi, kendilerini hiç tanımadıkları kişiler tarafından açılabilecek çok yüksek tazminat (damages) talepleriyle karşılaşma korkusu duymaksızın üstlenmeye istekli ve ehil kişilerin varlığının önemini değerlendirmiştir. Yüksek Yargıç, sorumluluğa (liability) fazla geniş bir perspektiften bakılmasının toplum üzerindeki maliyetleri konusunda uyarmıştır:[35]
+
+> ... şu olasıdır ki, [ekonomik] kayıpların riskinin bedelini doğrudan ya da dolaylı olarak kamu ödemek zorunda kalacaktır.
+
+Yüksek Yargıç, ardından Profesör Siliciano’yu onaylayarak alıntılamıştır:[36]
+
+> Her iki potansiyel kayıp dağıtıcı – muhasebeci ve üçüncü kişi – maruz kalınan kayıpları asgariye indirmek için kaynak harcayabilir; muhasebeci daha titiz bir denetim yapmaya çalışabilirken, üçüncü kişi de müşteriyi bağımsız olarak denetleyebilir veya yatırım risklerine katlanabilir. Her iki aktör de teorik olarak bu tür maliyetleri, artı herhangi bir artık (residual) kaybı, kamuya yansıtabilir: muhasebeci, hizmetlerinin bedelini artırmak yoluyla; üçüncü kişi ise kredi maliyetlerini yükseltmek yoluyla. Her iki durumda da, artan maliyetler başlangıçta müvekkil (client) sınıfına yüklenir; bu sınıf da bunu fiyat artışları şeklinde kamuya yansıtır.
+
+McHugh Yargıcı şöyle devam etmiştir:[37]
+
+> Bu nedenle, kamunun bakış açısından birincil soru, kayıpların en etkin absorbe edicisinin (efficient absorber) kim olduğudur?
+
+Hekimlerin çok yüksek sigorta primleri ödediği doğrudur. Bazı sigortacıların piyasadan çekilmiş olması da doğrudur. Mendelson’un gözlemlediği gibi, hukukun yerine getirilmesi imkânsız standartlar dayattığı yönünde bir algının bulunması kaygı vericidir.[38]
+
+Bunlar, nedensellik (causation) kuralları şekillendirilirken dikkate alınması gereken hususlardan ibarettir.
+
+> **⚖️ Türk hukuku karşılaştırması:** Burada Avustralya hukukunda, sorumluluğun genişletilmesinin sigorta piyasası ve hizmet maliyetleri üzerinden topluma yayılması (loss spreading) tartışılmaktadır. Türk hukukunda TBK m.49 vd. haksız fiil sorumluluğunu düzenlerken açık bir “kayıp dağıtımı” doktrini öngörmez; ancak uygun illiyet bağı teorisi, objektif sorumluluk rejimleri (ör. tehlike sorumluluğu) ve zorunlu mali sorumluluk sigortaları (özellikle Karayolları Trafik Kanunu ve zorunlu trafik sigortası) yoluyla fiilî olarak benzer risk dağıtımı sonuçları ortaya çıkar. Yargıtay içtihadında da sigortacının ve profesyonellerin sigorta yoluyla risk absorbe edici rolü dolaylı olarak gözetilmektedir (ilgili Yargıtay yerleşik içtihadı; karar no doğrulanmalı).
+
+Ceza hukuku bağlamında nedensellik (causation in the criminal context) yakın tarihli *Osland v R*[39] davasında incelenmiştir. *Royall v R*[40] kararından bu yana, o davada uygulanan çeşitli testlerden (tests) hangisinin ileride Avustralya Yüksek Mahkemesi tarafından benimsenip uygulanacağı tartışma konusu olmuştur. *Osland* davasında maktule önce uyuşturucu verilmiş, ardından da dövülerek öldürülmüştür. Sanık olarak yargılananlar bir anne ile oğludur. Suç aleti birlikte seçilmiş, maktuleyi uyuşturan anne olmuş, ardından oğul onu döverek öldürmüştür. Anne, maktul ya vurulduğu sırada ya da darbeler vurulduktan hemen sonra, onu yere bastırarak tutmuştur. Bu fiiller önceden tasarlanmış (preconceived) bir plan çerçevesinde gerçekleştirilmiştir.
+
+Mahkemenin çoğunluğu, anneyi ölümden birinci derecede sorumlu fail (principal) olarak nedensel bakımdan sorumlu bulmuştur. *Royall* davasında McHugh Yargıç tarafından tercih edilen test uygulanmıştır; buna göre fiil veya ihmalin “yeterince önemli” (“sufficiently significant”) olması, ya da diğer ifadeyle “faal ve esaslı neden” (operating and substantial cause) testinin karşılanması gerekir. Bununla birlikte, testin somut olaya uygulanması bakımından varılan sonuçta farklılık ortaya çıkmıştır. Bu durum diğer testlerin artık uygulanamaz hale geldiği anlamına gelmemektedir; uygun koşullarda hâlen uygulanabilirler.
+
+*Royall* ve *Osland*, mahkemelerin zaman zaman hangi testin uygulanacağı ve bu testin nasıl uygulanacağı konusunda anlaşmazlığa düşmesinde yeni (novel) bir taraf bulunmadığını ortaya koymaktadır.
+
+Yakın gelecekte, özellikle – fakat muhtemelen sadece bunlarla sınırlı kalmamak üzere – tıbbi nitelikteki davalar bakımından, uygun tazmin ölçütü (proper measure of …) konusunda bazı sorunların belirmesi olasıdır.
+
+> **⚖️ Türk hukuku karşılaştırması:** *Osland v R* ve *Royall v R* Avustralya ceza hukukunda nedensellik için “operating and substantial cause” (faal ve esaslı neden) ve “sufficiently significant” testlerini tartışmaktadır. Türk ceza hukuku bakımından TCK genel hükümlerinde açıkça adlandırılmış bir test yoktur; ancak doktrin ve Yargıtay, şart teorisini (conditio sine qua non/“olmasaydı” testi) başlangıç noktası alıp objektif isnadiyet ve uygun illiyet (uygun sebep) ölçütü ile sınırlandırır. Kasten/taksirle öldürme (TCK m.81, 85) ve yaralama (m.86-89) suçlarında birden fazla failin katkısı durumunda müşterek faillik ve yardım etme hükümleri uygulanırken, fiilin neticeye “önemli katkı” sağlayıp sağlamadığı benzer biçimde değerlendirilir (ilgili Yargıtay yerleşik içtihadı; karar no doğrulanmalı). Özellikle tıbbi davalarda tazminatın kapsamı bakımından ise TBK m.49 vd. ile Yargıtay’ın uygun illiyet teorisi temel belirleyici çerçeveyi oluşturur.

@@ -1,0 +1,876 @@
+     Chapter 15: Software Interfaces
+ NASA lost its $125-million Mars Climate Orbiter because spacecraft engineers failed to
+  convert from English to metric measurements when exchanging vital data before the
+                                 craft was launched. . . .
+  A navigation team at [NASA] used the metric system of millimeters and meters in its
+calculations, while [the company that] designed and built the spacecraft provided crucial
+          acceleration data in the English system of inches, feet and pounds. . . .
+                    In a sense, the spacecraft was lost in translation.
+
+                                    —Robert Lee Hotz
+
+                              © Len Bass, Paul Clements, Rick Kazman,
+                               distributed under Creative Commons
+                                        Attribution License
+                           Chapter Outline
+
+• Interface Concepts
+• Designing an Interface
+• Documenting the Interface
+• Summary
+
+
+
+
+     © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Interface Concepts
+
+• An interface is a boundary across which elements
+  interact, communicate, and coordinate.
+  – An element’s actors are the other elements, users, or
+    systems with which it interacts.
+  – The collection of actors with which an element
+    interacts is called the environment of the element.
+  – The constructs that provide points of direct
+    interaction with an element, are called resources.
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Interface Concepts:
+                              Multiple Interfaces
+• It is possible to split a single interface into multiple
+  interfaces.
+   – Each of these has a related logical purpose, and serves a
+     different class of actors.
+• Multiple interfaces provide a kind of separation of
+  concerns.
+   – A specific class of actor might require only a subset of the
+     functionality available.
+   – Conversely, the provider of an element may want to grant
+     actors different access rights, or implement a security policy.
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                       Interface Concepts:
+                                         Resources
+
+• Resource syntax. The resource’s signature.
+  – The signature includes the name of the resource, the
+    names and data types of arguments, if any, etc.
+
+
+• Resource semantics. What is the result of
+  invoking this resource?
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Interface Concepts:
+       Operations, Events, and Properties
+• The resources of provided interfaces consist of operations,
+  events, and properties.
+   – These resources are complemented by a description of the behavior
+     caused or data exchanged.
+• Operations are invoked to transfer control and data to the
+  element for processing.
+• Events may be described in interfaces.
+   – Incoming events can be the receipt of a message, or the arrival of a
+     stream element to be consumed.
+   – Active elements produce outgoing events used to notify listeners.
+• An important aspect of interfaces is metadata, such as access
+  rights, units of measure, or formatting assumptions. Another
+  name for this interface metadata is properties.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                     Interface Evolution / 1
+• An interface is a contract between an element and its actors,
+  and it can be changed by three techniques:
+   – Deprecation. Deprecation means removing an interface.
+       • Best practice when deprecating an interface is to give extensive notice to
+         the actors of the element.
+       • In practice, many actors will not adjust in advance, but rather will discover
+         the deprecation only when the interface is removed.
+   – Versioning. Multiple interfaces support evolution by keeping the old
+     interface and adding a new one.
+       • The old one can be deprecated when it is no longer needed or the decision
+         has been made to no longer support it.
+       • This requires the actor to specify which version of an interface it is using.
+   – Extension. Extending an interface means leaving the original interface
+     unchanged and adding new resources to the interface that embody
+     the desired changes.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+           Interface Evolution / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                Designing an Interface / 1
+• Decisions about which resources should be externally visible
+  should be driven by the needs of actors that use the resources.
+   – Adding resources to an interface implies a commitment to maintain those
+     resources. Once actors start to depend on a resource, their elements will
+     break if the resource is changed or removed.
+• Some additional design principles for interfaces are:
+   – Principle of least surprise. Interfaces should behave consistently with the
+     actor’s expectations.
+   – Small interfaces principle. If two elements need to interact, have them
+     exchange as little information as possible.
+   – Uniform access principle. Avoid leaking implementation details through the
+     interface. A resource should be accessible to its actors in the same way
+     regardless of how they are implemented.
+   – Don’t repeat yourself principle. Interfaces should offer a set of composable
+     primitives as opposed to many redundant ways to achieve the same goal.
+
+
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+             Designing an Interface / 2
+
+• A successful interaction with an interface requires
+  agreement on the following aspects:
+  1. Interface scope
+  2. Interaction style
+  3. Representation and structure of the exchanged data
+  4. Error handling
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                           (1) Interface Scope
+• The scope of an interface defines the resources available to
+  the actors. A common pattern for constraining and mediating
+  access to resources is to establish a gateway element.
+• Gateways are useful for the following reasons:
+   – A gateway can translate between elements and actors.
+   – Actors may need access to, or be restricted to, specific subsets of the
+     resources.
+   – Specifics of the resources
+     (number, protocol, type,
+     location, properties) may
+     change over time, and the
+     gateway can provide a
+     more stable interface.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       (2) Interface Interaction Styles
+• Interfaces are meant to be connected together so
+  that elements can communicate (transfer data) and
+  coordinate (transfer control).
+• There are many ways for such interactions to take
+  place, depending on:
+  – the mix between communication and coordination, and
+  – whether the elements will be co-located or remotely
+    deployed.
+• The most widely used styles are: RPC and REST
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                   Interface Interaction Styles:
+            RPC (Remote Procedure Call)
+
+• RPC is modeled on procedure (method) calls in
+  imperative languages, except that the called
+  method is located elsewhere on a network.
+  – The programmer codes the call as if a local method
+    were being called (with some syntactic variation); the
+    call is translated into a message sent to a remote
+    element where the actual method is invoked.
+  – The results are sent back as a message to the calling
+    element.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                           Interface Interaction Styles:
+       REST (Representational State Transfer)
+• REST is a protocol for web services. It imposes six constraints
+  on the interactions between elements:
+   – Uniform interface. All interactions use the same form (typically
+     HTTP). Resources are specified via URIs.
+   – Client-server. The actors are clients and the resource providers
+     are servers using the client-server pattern.
+   – Stateless. All client-server interactions are stateless.
+   – Cacheable. Caching is applied to resources when applicable.
+   – Tiered system architecture. The “server” can be broken into
+     multiple elements, which may be deployed independently.
+   – Code on demand (optional). It is possible for the server to provide
+     code to the client to be executed.
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       (3) Representation and Structure of
+                 Exchanged Data
+• Choosing how to represent interchanged data has the following
+  dimensions:
+   – Expressiveness. Can the representation serialize arbitrary data
+     structures? Is it optimized for trees of objects? Does it need to carry
+     text written in different languages?
+   – Interoperability. Does the representation used by the interface match
+     what its actors expect and know how to parse?
+   – Performance. Does the chosen representation allow efficient usage of
+     the available communication bandwidth?
+   – Implicit coupling. What are the shared assumptions that could lead to
+     errors and data loss when decoding messages?
+   – Transparency. Is it possible to intercept the exchanged messages and
+     easily observe their content?
+
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                    Data Exchange Mechanisms:
+     EXtensible Markup Language (XML)
+• XML annotations to a textual document, called tags,
+  are used to specify how to interpret the information
+  in the document by breaking the information into
+  fields and identifying the data type of each field.
+  – Tags can be annotated with attributes.
+• XML is a meta-language.
+  – Out of the box, it does nothing except allow you to define
+    a customized language to describe your data.
+  – Your customized language is defined by an XML schema,
+    which specifies the tags you will use, the data type used to
+    interpret fields, and the constraints on the document.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                   Data Exchange Mechanisms:
+      JavaScript Object Notation (JSON)
+• JSON structures data as nested name/value pairs
+  and array data types.
+• Like XML, JSON is a textual representation
+  featuring its own schema.
+• JSON data types are derived from JavaScript, and
+  resemble those of any modern prg. language.
+  – This makes JSON serialization and deserialization much
+    more efficient than XML.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                   Data Exchange Mechanisms:
+                                                 gRPC
+
+• The most recent version of RPC, called gRPC, is a
+  modern open source high performance RPC
+  framework that can run in any environment.
+  – It transfers parameters in binary.
+  – It is asynchronous.
+  – It supports: authentication, bidirectional streaming
+    and flow control, blocking or nonblocking bindings,
+    and cancellation and timeouts.
+• By default gRPC uses protocol buffers.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                    Data Exchange Mechanisms:
+                            Protocol Buffers / 1
+• Like JSON, Protocol Buffers use data types that are
+  close to programming-language data types, making
+  serialization and deserialization efficient.
+• As with XML, Protocol Buffer messages have a schema
+  that defines a valid structure, and that schema can
+  specify both required and optional elements and
+  nested elements.
+• However, unlike both XML and JSON, Protocol Buffers
+  are a binary format, so they are extremely compact
+  and efficient.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                    Data Exchange Mechanisms:
+                            Protocol Buffers / 2
+• A protocol buffer specification is used to specify
+  an interface. Kept in a .proto file.
+• Language specific compilers used for each side of
+  an interface. This allows different languages to
+  communicate across a message based interface.
+• The collection of .proto files defines all of the
+  interfaces and hence all of the microservices.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                             (4) Error Handling
+• When designing an interface, architects naturally concentrate
+  on how it is supposed to be used in the nominal case.
+   – But a well-designed system must take appropriate action in the face
+     of undesired circumstances.
+• Strategies to do so include the following:
+   – Failed operations may throw an exception.
+   – Operations may return a status indicator with predefined codes,
+     which need to be tested to detect erroneous outcomes.
+   – Properties may be used to store data indicating whether the latest
+     operation was successful or not, or whether stateful elements are in
+     an erroneous state.
+   – Error events such as a timeout may be triggered for failed
+     asynchronous interactions.
+   – The error log may be read by connecting to a specific output data
+     stream.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+             Documenting the Interface
+• The interface documentation indicates what other developers need
+  to know about an interface to use it.
+• As you document an element’s interface, keep the following
+  stakeholder roles in mind:
+   – Developer of the element
+   – Maintainer
+   – Developer of an element using the interface
+   – Systems integrator and tester
+   – Analyst
+   – Architect looking for assets to reuse in a new system
+• Describing an element’s interface means making statements about
+  the element that other elements can depend on.
+• Documenting an interface means that you have to describe which
+  services and properties are parts of the contract.
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Summary / 1
+• Architectural elements have interfaces, which are boundaries over
+  which elements interact. Interface design is an architectural duty.
+• A primary use of an interface is to encapsulate an implementation, so
+  that it may change without affecting other elements.
+• Interfaces state which resources the element provides to its actors as
+  well as what the element needs from its environment.
+• Interfaces have operations, events, and properties; these are the parts
+  of an interface that the architect can design. To do so, the architect
+  must decide the element’s
+    – Interface scope
+    – Interaction style
+    – Representation, structure, and semantics of the exchanged data
+    – Error handling
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Summary / 2
+• Some of these issues can be addressed by standardized means.
+  For example, data exchange can use mechanisms such as XML,
+  JSON, or Protocol Buffers.
+• All software evolves, including interfaces. Three techniques that
+  can be used to change an interface are deprecation, versioning,
+  and extension.
+• The interface documentation indicates what other developers
+  need to know about an interface to use it in combination with
+  other elements.
+• Documenting an interface involves deciding which element
+  operations, events, and properties to expose to the element’s
+  actors, and detailing the interface’s syntax and semantics.
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Chapter 16: Virtualization
+
+Virtual means never knowing where
+   your next byte is coming from.
+
+             —Unknown
+
+        © Len Bass, Paul Clements, Rick Kazman,
+         distributed under Creative Commons
+                  Attribution License
+                            Chapter Outline
+
+• Shared Resources
+• Virtual Machines
+• Containers and Pods
+• Serverless Architecture
+• Summary
+
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                            Shared Resources
+• The goal of virtual machines and containers is to
+  isolate one application from another, while still
+  sharing resources.
+• Resource sharing can dramatically lower the costs of
+  deploying a system.
+• There are four resources that we typically care about
+  sharing:
+   – Central processor units (CPUs)
+   – Memory
+   – Disk storage
+   – Network connections
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                      Virtual Machines / 1
+• The physical computer is called the “host computer”;
+  the VMs are called “guest computers.”
+• The hypervisor is an OS for the VMs. This hypervisor
+  runs directly on the physical computer hardware and
+  is often called a bare-metal or Type 1 hypervisor.
+  – The VMs that it
+    hosts implement
+    applications
+    and services.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Virtual Machines / 2
+• Another type of hypervisor is a hosted or Type 2 hypervisor
+  which runs as a service on top of a host OS.
+   – The hypervisor in turn hosts one or more VMs.
+   – Hosted hypervisors are typically used on desktop or laptop
+     computers.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                         Virtual Machines / 3
+• A hypervisor performs two main functions:
+   1.   It manages the code running in each VM, and
+   2.   It manages the VMs themselves.
+• Code that communicates outside the VM (e.g., by accessing a
+  virtualized disk or network interface) is intercepted by the
+  hypervisor and executed by the hypervisor on behalf of the VM.
+• VMs must be managed, e.g. created and destroyed.
+• From the perspective of the OS and services inside a VM, it appears
+  as if the software is executing inside of a physical machine.
+   – The VM provides a CPU, memory, I/O devices, and a network connection.
+
+
+
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Virtual Machines / 4
+
+• The hypervisor is a complicated piece of software.
+   – One concern with VMs is the overhead introduced by the
+     sharing and isolation needed for virtualization.
+
+• Implications for the architect:
+   – Performance. Virtualization incurs a performance cost.
+   – Separation of concerns. Virtualization allows an architect
+     to treat runtime resources as commodities, deferring
+     provisioning and deployment decisions to another person
+     or organization.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                       VM Images
+
+• We call the contents of the disk storage, from which
+  we boot a VM, a VM image.
+  – You can build a VM image on your development computer
+    and then deploy it to the cloud.
+  – VM images are large, so transferring them over a network
+    can be slow.
+• It is customary to create images that contain only the
+  operating system and other essential programs, and
+  then add services to these images after the VM is
+  booted, in a process called configuration.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                Containers / 1
+• VMs solve the problem of sharing resources and
+  maintaining isolation. But VM images can be
+  large, and transferring them is time-consuming.
+• Containers maintain most of the advantages of
+  virtualization while reducing the image transfer
+  time and startup time.
+• Like VMs and VM images, containers are packaged
+  into executable container images for transfer.
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Containers / 2
+• Containers operate under the control of a container runtime engine
+  (CRE), which runs on top of a fixed OS.
+   – The container runtime engine acts as a virtualized OS.
+
+
+• The OS can be loaded either onto
+  a bare-metal physical machine or
+  a virtual machine.
+   – Containers are allocated by finding a
+     CRE that has sufficient unused
+     resources to support an additional
+     container.
+   – Containers impose some restrictions
+     on port usage.
+            © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                    Containers / 3
+• Sharing of the OS is a source of performance improvement.
+   – As long as the target machine has a standard CRE running on it,
+     there is no need to transfer OS as part of the container image.
+• Another source of performance improvement is the use of
+  “layers” in container images.
+
+
+
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                   Containers versus VMs
+• What are the tradeoffs between delivering your service in a
+  VM and delivering your service in a container?
+   – The software that you run on the VM includes an entire OS.
+      • This allows you to run multiple services in the same VM — desirable
+        when the services are tightly coupled or share large data sets.
+
+   – Container instances share an OS.
+   – Containers generally run a single service so the size of the
+     container image is small.
+   – Containers are portable.
+   – VMs persist beyond the termination of services running within
+     them; containers do not.
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                                   Pods
+• Kubernetes is orchestration software for deploying,
+  managing, and scaling containers.
+   – It has one more element in its hierarchy: Pods.
+• A Pod is a group of related containers.
+
+• In Kubernetes, nodes
+  (hardware or VMs) contain
+  Pods, and Pods contain
+  containers.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 Serverless Architecture
+• Serverless architectures are not, in fact, serverless.
+  – There are servers, which host CREs.
+
+• Containers are allocated dynamically with each
+  service request.
+  – They are cached in order to improve performance
+    (after initial load).
+  – These containers are typically stateless.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                     Summary / 1
+• Virtualization has been a boon for software and system
+  architects, as it provides efficient, cost-effective allocation
+  platforms for networked (typically web-based) services.
+• Hardware virtualization allows for the creation of several
+  virtual machines that share the same physical machine.
+   – It does this while enforcing isolation of the CPU, memory, disk
+     storage, and network.
+• Consequently, the resources of the physical machine can be
+  shared among several VMs, while the number of physical
+  machines that an organization must purchase or rent is
+  minimized.
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                     Summary / 2
+• A VM image is the set of bits that are loaded into a VM to
+  enable its execution.
+• Containers are a packaging mechanism that virtualizes the
+  operating system. A container can be moved from one
+  environment to another if a compatible container runtime
+  engine is available.
+• Placing several containers into a Pod means that they are
+  all allocated together and any communication between the
+  containers can be done quickly.
+• Serverless architecture allows for containers to be rapidly
+  instantiated and moves the responsibility for allocation and
+  deallocation to the cloud provider.
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Architectural Drivers
+
+Designing Software Architectures – A Practical Approach
+                Cervantes & Kazman ©2016
+               The SEI Series in Software Engineering
+                                     Design Purpose
+• When and why are you doing this architecture design? Which business goals is
+  the organization most concerned about at this time?
+    – Architectures exist to help achieve business goals.
+    – The architect should be clear about these goals and should communicate (and
+      negotiate) them & establish a clear design purpose before beginning the design process.
+
+• You may be doing architecture design as part of:
+    – a project proposal (for the pre-sales process in a consulting organization, or for internal
+      project selection and prioritization in a company),
+         • such an architecture would not be very detailed; its purpose is to understand and break down the
+           architecture in sufficient detail that the units of work are understood and hence may be estimated.
+    – the process of creating an exploratory prototype
+         • not so much to create a releasable or reusable system, but rather to explore the domain, to explore
+           new technology, to place something executable in front of a customer to elicit rapid feedback, or to
+           explore some quality attribute.
+    – your development process
+         • for an entire new system, for a substantial portion of a new system, or for a portion of an existing
+           system that is being refactored or replaced.
+               – the purpose is to do enough design work to satisfy requirements, guide system construction and work
+                 assignments, and prepare for an eventual release.
+             Primary Functional Requirements
+
+• Functionality is the ability of the system to do the work for which it was intended.
+   – When designing an architecture, you need to consider at least primary functionality.
+       •   Primary functionality is usually defined as functionality that is critical to achieve the business goals
+           that motivate the development of the system.
+       •   Other criteria for primary functionality might be that it implies a high level of technical difficulty or
+           that it requires the interaction of many architectural elements.
+   – As a rule of thumb, ~ 10% of your use cases or user stories are likely to be primary.
+
+• There are two important reasons why you need to consider primary functionality
+  when designing an architecture:
+   – 1. You need to think how functionality will be allocated to elements (usually modules)
+     to promote modifiability or reusability, and also to plan work assignments.
+   – 2. Some QA scenarios are directly connected to the primary functionality in the system.
+       •   E.g. in a movie streaming application, performance is an important QA. -- “Once the user presses
+           play, the movie should begin streaming in no more than 5 sec”.
+       •   In this case, the QA scenario is directly associated with the primary use case, so making decisions to
+           support this scenario also requires making decisions about how its associated functionality will be
+           supported.
+                               Quality Attributes
+• Measurable or testable properties of a system that are used to indicate how well
+  the system satisfies the needs of its stakeholders.
+    – Among the drivers, QAs are the ones that shape the architecture the most significantly.
+    – Given their importance, you must worry about eliciting, specifying, prioritizing & validating QAs.
+
+• One way to discuss, document, prioritize quality attribute requirements is as a
+  set of scenarios.
+    – A QA scenario is a short description of how a system is required to respond to some stimulus.
+         • Testable, falsifiable hypotheses about the quality attribute behavior of the system under consideration.
+
+• QA scenarios are prioritized with respect to importance & technical risk.
+    – the importance of the scenario w.r.t. the success of the system, is ranked by the customer.
+    – the degree of technical risk associated with the scenario, is ranked by the architect.
+
+• Quality Attribute Workshop (QAW) and the Utility Tree are different techniques
+  that are aimed at the same goal
+   – i.e. eliciting and prioritizing the most important QA requirements.
+                               Constraints
+• A constraint is a decision over which you have little or no control as an
+  architect.
+    – Your job is to satisfice:
+      design the best system that you can, despite the constraints you face.
+
+• Constraints may take the form of:
+    – mandated technologies,
+    – other systems with which your system needs to interoperate or integrate,
+    – laws and standards that must be complied with,
+    – the abilities and availability of your developers,
+    – deadlines that are non-negotiable,
+    – backward compatibility with older versions of systems,
+    – and so on.
+
+• Sometimes you might be able to argue for loosening a constraint, but in
+  most cases you have no choice but to design around the constraints.
+                          Architectural Concerns
+• Encompass additional aspects that need to be considered as part of architectural design but
+  that are not expressed as traditional requirements.
+   – General concerns. “Broad” issues that one deals with in creating the architecture, such as establishing an
+     overall system structure, the allocation of functionality to modules, the allocation of modules to teams,
+     organization of the code base, startup and shutdown, and supporting delivery, deployment, and updates.
+   – Specific concerns. More detailed system-internal issues such as exception management, dependency
+     management, configuration, logging, authentication, authorization, caching, and so forth that are common
+     across large numbers of applications.
+   – Internal requirements. Usually not specified explicitly in traditional requirement documents, as customers
+     usually seldom express them. Internal requirements may address aspects that facilitate development,
+     deployment, operation, or maintenance of the system. They are sometimes called “derived requirements”.
+   – Issues. These result from analysis activities, such as a design review, so they may not be present initially.
+     E.g., an architectural evaluation may uncover a risk that requires some changes to be performed in the
+     current design.
+
+• Frequently result in the introduction of new quality attribute scenarios that need to be
+  prioritized.
+   – In this case, however, the customer is the development team, operations, or other members of the
+     organization.
+   – During design, the architect must consider both the quality attribute scenarios that are provided by the
+     customer and those scenarios that are derived from architectural concerns.
+                            ADD 3.0
+• ADD has been used successfully for more than 15 years.
+• Architecture design is performed in a series of rounds
+  across the development of a software project.
+   – Each design round may take place within a project increment
+     such as a sprint.
+   – Within these rounds, a series of design iterations is performed.
+
+• Perhaps the most important characteristic of the ADD
+  method is that it provides detailed, step-by-step guidance
+  on the tasks that have to be performed inside the design
+  iterations.
+  The
+Design
+Process
+ (ADD
+  3.0)
+
+ADD: Attribute
+Driven Design
+Chapter 19: Architecturally
+ Significant Requirements
+   The most important single aspect of
+software development is to be clear about
+      what you are trying to build.
+
+          —Bjarne Stroustrup
+
+           © Len Bass, Paul Clements, Rick Kazman,
+            distributed under Creative Commons
+                     Attribution License
+                            Chapter Outline
+
+• Gathering ASRs from Requirements Documents
+• Gathering ASRs by Interviewing Stakeholders
+• Gathering ASRs by Understanding the Business Goals
+• Capturing ASRs in a Utility Tree
+• Change Happens
+• Summary
+
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                              Gathering ASRs
+
+• Architectures exist to build systems that satisfy
+  requirements.
+• Not all requirements are created equal.
+• Some have a profound effect on the architecture
+  than others: architecturally significant
+  requirements (ASRs).
+• You cannot hope to design a successful
+  architecture if you do not know the ASRs.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Gathering ASRs from Requirements
+               Documents / 1
+• An obvious location to look for candidate ASRs is in
+  the requirements document or in user stories.
+   – Many projects don’t have good (or any) requirements
+     document.
+   – And no architect can wait until the requirements are
+     “done” before starting work.
+   – In practice, though, we rarely see adequate capture of
+     QA requirements.
+• Much of what is useful to an architect won’t be
+  found in even the best requirements document.
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Gathering ASRs from Requirements
+                  Documents / 2
+Some things to look for:
+• Usage. User roles vs system modes, internationalization, language distinctions.
+• Time. Timeliness and element coordination.
+• External elements. External systems, protocols, sensors or actuators (devices),
+  middleware.
+• Networking. Network properties and configurations (including their security
+  properties).
+• Orchestration. Processing steps, information flows.
+• Security properties. User roles, permissions, authentication.
+• Data. Persistence and currency.
+• Resources. Time, concurrency, memory footprint, scheduling, multiple users,
+  multiple activities, devices, energy usage, soft resources (e.g., buffers, queues),
+  scalability requirements.
+• Project management. Plans for teaming, skill sets, training, team coordination.
+• Hardware choices. Processors, families of processors, evolution of processors.
+• Flexibility of functionality, portability, calibrations, configurations.
+• Named technologies, commercial packages.
+            © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Gathering ASRs by Interviewing
+              Stakeholders / 1
+• Stakeholders often don’t know what their QA
+  requirements actually are.
+  – In that case, architects may have to set the QA
+    requirements.
+  – If you insist on quantitative QA requirements, you may
+    get numbers that are arbitrary!
+• Experienced architects often have deep insights
+  based on similar systems.
+• Architects can also give feedback as to which QA
+  responses will be straightforward to achieve and
+  which will likely be problematic.
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+          Gathering ASRs by Interviewing
+                 Stakeholders / 2
+• Interviewing the relevant stakeholders is the surest
+  way to learn what they know and need.
+   – The results of stakeholder interviews include a prioritized
+     list of architectural drivers including QA scenarios.
+
+• One such method to do this is the Quality Attribute
+  Workshop (QAW).
+   – The QAW is a facilitated, stakeholder-focused method to
+     generate, prioritize, and refine quality attribute scenarios
+     before the software architecture is completed.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Steps of the QAW
+
+1. Business/mission presentation.
+2. Architectural plan presentation.
+3. Identification of architectural drivers.
+4. Scenario brainstorming.
+5. Scenario consolidation.
+6. Scenario prioritization.
+7. Scenario refinement.
+
+     © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Gathering ASRs by Understanding
+               Business Goals / 1
+• Business goals are of interest to architects because they
+  frequently lead directly to ASRs.
+• There are three possible relationships between business
+  goals and an architecture:
+   1. Business goals often lead to quality attribute requirements.
+   2. Business goals may affect the architecture without inducing
+      a quality attribute requirement at all.
+   3. No influence of a business goal on the architecture.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Gathering ASRs by Understanding
+              Business Goals / 2
+Categories of business goals:
+• Growth and continuity of the organization
+• Meeting financial objectives
+• Meeting personal objectives
+• Meeting responsibility to the employees
+• Meeting responsibility to society
+• Meeting responsibility to the state
+• Meeting responsibility to the shareholders
+• Managing market position
+• Improving business processes
+• Managing the quality and reputation of products
+• Managing change in the environment over time
+
+These categories can be used as an aid to brainstorming and elicitation.
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Capturing ASRs in a Utility Tree / 1
+
+• Architects can use a construct called a Utility Tree when
+  the “primary sources” of requirements are not available.
+   – A top-down representation of what you, as architect, believe to
+     be the most important QA-related ASRs.
+   – The leaves of the tree are scenarios that you prioritize along
+     two dimensions:
+      • business value and technical risk.
+
+   – Each dimension is scored H/M/L.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Example Utility Tree                                                                  Technical risk
+
+
+                                                                                                 Business value
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Capturing ASRs in a Utility Tree / 2
+
+• Once you have a utility tree filled out, you can use
+  it to make important checks. For instance:
+  – A QA without any ASR scenario is an area you should
+    investigate.
+  – ASR scenarios that receive a (H, H) rating are obviously
+    the ones that deserve the most attention from you.
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                            Change Happens
+• Requirements —whether captured or not—
+  change all the time.
+  – Architects have to adapt and keep up, to ensure that
+    their architectures are still the right ones that will
+    bring success to the project.
+  – Always keep a channel open to the key stakeholders
+    who determine the ASRs so you can keep up with
+    changing requirements.
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Summary
+• Architectures are driven by architecturally significant
+  requirements. An ASR must have:
+   – A profound impact on the architecture.
+   – A high business or mission value.
+
+• ASRs can be extracted from a requirements
+  document, captured from stakeholders during a
+  workshop (e.g., a QAW), captured from the architect
+  in a utility tree, or derived from business goals.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+

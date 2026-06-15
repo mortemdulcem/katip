@@ -1,0 +1,783 @@
+11 Death Causation in Palliative
+Medicine
+MICHAEL ASHBY*
+Introduction
+Analysis of causation is central to any deliberative process which has as its object
+the determination of the moral character and legality of medical decisions or
+palliative interventions at the end of life, but there are semantic, evidential and
+argumentation difficulties which require elucidation.1 The following quotation,
+from a 1996 judgment in the United States articulates (at its most extreme) the
+prevalent established international medico-legal view of palliative care
+interventions and death causation:
+as part of the tradition of administering comfort care, doctors have been supplying the causal agent of
+patients' deaths for decades.2
+Whilst it is undoubtedly true that throughout history certain doctors have
+administered treatment to terminally ill patients with the covert or overt
+intention of shortening their lives, this is not the clinical or ethical position which
+is put forward by palliative care practitioners.3 It is the central tenet of this
+chapter that death causation is a major factor influencing care and decision-
+making at end of life. There has been a failure within medicine itself to deal with
+causation in this context, and there are widespread anxieties about responsibility
+for causing death. As well, questionable assumptions by health care professionals
+and the public, concerning law and ethics, permeate practice and debate related
+to death and dying.
+These problems are apparent in an influential study published by Kuhse et al
+in 1997.4 They conducted a survey of a cross sectional sample of the Australian
+medical work force to study attitudes to end of life care and decision-making.
+Their work was based on the approach taken by Van der Maas and co-workers,5
+where a legal channel for such practices exists. In these studies euthanasia is
+categorised as a type of medical decision at the end of life (MDEL).6 The term
+medical decision at the end of life, used by both groups of researchers,
+encompasses:
+all decisions by physicians concerning courses of action aimed at hastening the end of life of the patient
+or courses of action for which the physician takes into account the probability that the end of life of the
+patient is hastened.7
+Two of the other categories (in addition to euthanasia) are: firstly,
+administration of "high doses of opioids" that "almost certainly would shorten the
+life of the patient" and secondly, decisions in which "lifeprolonging" treatment
+was withheld or withdrawn.8
+The Australian authors reported that some kind of end of life decision was
+made in 64.8 per cent of cases. The largest sub-group was "alleviation of pain and
+suffering through the administration of opioids in sufficient doses to hasten
+death" – 30.9 per cent (with a stated intention to hasten death in 6.5 per cent),
+followed by "decision not to treat" – 28.6 per cent (with an explicit intention to
+hasten death stated in 24.7 per cent).9 This study was based on doctors'
+perceptions and interpretations of their management and decision-making for the
+most recent patient who died under their care in the year prior to the completion
+of the study questionnaire. There was no attempt to validate these impressions,
+and the results should be viewed with caution. However, at the very least, they
+show that these general practitioners and non-palliative care specialists
+considered themselves to be making significant contributions to the cause of
+death of their dying patients, far in excess of what most palliative care specialists
+would expect.10
+In a 1995 survey of specialist Victorian nurses, some respondents expressed the
+following views about causation in their practice:
+Surprisingly, even within the palliative care and cancer nursing communities, myths exist about the
+power of morphine to lead to respiratory distress and death in narcotic-tolerant patients. Of further
+concern is that some respondents consider the routine escalation of morphine doses in response to
+increasing pain, as active euthanasia. The knowledge and attitudes of nurses about euthanasia, and the
+use of morphine in particular, requires further exploration.11
+So, within medicine and nursing themselves, there is no clear agreement on
+death causation with regard to palliative care interventions and treatment
+abatement decisions. The majority of palliative care practitioners, and all of their
+peak bodies, maintain the position that in clinical practice, provided that the
+prevailing standards of the field are adhered to, the process of dying is neither
+hastened nor prolonged. Death is therefore natural12 in a forensic sense, that is it
+results from natural causes, ie there is no human agency involved. However, there
+is a growing view, particularly in the health professions, that there are now very
+few natural deaths because they are mostly orchestrated13 by medical decisions.
+At the very least timing and mode of death, if not the main mechanism (disease
+or injury), are now determined, wholly or in part, by human intervention.
+Palliative care literature and practice is infused with a notion of the
+"naturalness" of death in an existential sense, that is death is an inevitable
+consequence of living, and dying is emphasised as being a normal part of the life
+cycle. Palliative care practice is therefore based on the recognition of a natural
+dying process.
+Opioid and Sedative Drugs in Palliative Care
+Significant obstacles to the good care of dying people can be shown to arise from
+deeply entrenched myths that morphine causes addiction and death.14 In
+countries like the United Kingdom and Australia, which have made substantial
+inroads into palliative care provision, access to opioids is good, but some
+bureaucratic hurdles still exist which generate inconvenience for prescribers. In
+many other countries, however, access to morphine is still limited or non-
+existent, and there is still serious concern that in global terms poor cancer pain
+control is commonly due, at least in part, to poor opioid access.15 This is largely
+due to the regulation of opioid use by governments in order to control illicit drug
+use and its enormous attendant social and health problems.
+In two surveys conducted in 1991 for a parliamentary select committee of the
+South Australian parliament, general practitioners showed minimal concern
+about addiction to pain-killing drugs, but over 80 per cent of the community
+sample thought that addiction was a significant issue. A causal question
+concerning pain relief was asked in the public survey and showed a wide
+divergence of views, and much uncertainty.16 Unfortunately, no such question
+was asked in the general practitioner study.17
+In a large retrospective case note review of 11,882 hospitalised inpatients at
+Boston University Medical Center, two physicians reported that only four
+patients showed evidence of addiction to opioids prescribed for pain.18 Marie
+Fallon (Glasgow, Scotland) and colleagues conducted a prospective comparative
+study of mood and drug use in three groups of patients receiving opioids for:
+cancer pain, chronic non-malignant pain and drug dependence. They found
+profound differences in opioid use between the groups. Whilst cancer and chronic
+pain patients mainly took opioids to relieve pain, those with drug dependence
+used them for mood elevation and sleep.19 Although medical opinion is now clear
+that addiction is not an issue in cancer pain management and palliative care,
+opinion is divided about opioid use in non-malignant pain,20 and patients and
+families in the wider community clearly still have a high level of concern about
+the potential for addiction.
+Despite an extensive and sustained international campaign by the World
+Health Organisation,21 many doctors still believe that they are causing or
+hastening the death of their palliative care patients, despite a lack of any evidence
+to support this view.22 These deep-seated fears are based on the fact that opioids,
+used inappropriately, can cause respiratory depression, coma and death. In
+particular, the notion that there is agreement about a "high" dose of an opioid
+drug such as morphine beyond which timing and possibly causation might be in
+question has permeated medicine, and hence, every legal deliberation on this
+issue since the 1957 instruction to the jury by Devlin J in R v Adams:
+But that does not mean that a doctor who is aiding the sick and the dying has to calculate in minutes or
+even hours, and perhaps not in days or weeks, the effect on the patient's life of the medicines that he
+administers or else be in peril of a charge of murder. If the first purpose of medicine, the restoration of
+health, can no longer be achieved, there is still much for a doctor to do and he is entitled to do all that is
+proper and necessary to relieve pain and suffering, even if the measures he takes may incidentally
+shorten life. This is not because there is a special defence for medical men but because no act is murder
+which does not cause death. We are not dealing here with the philosophical or technical cause, but with
+the commonsense cause. The cause of death is the illness or injury, and the proper medical treatment that
+is administered and that has an incidental effect on determining the exact moment of death is not the
+cause of death in any sensible use of the term. But ... no doctor, nor any man, no more in the case of the
+dying than of the healthy, has the right deliberately to cut the thread of life.23
+It is clear that expert medical evidence, given forty years ago has been
+incorporated into legal deliberations and public policy formulation ever since.
+Whilst the judgment is supportive of palliative care, and expresses double effect
+in law for the first time in this context, much has changed in medicine (and
+society) since the expert evidence which would have informed that judgment in
+1957. The title for Patrick Devlin's 1985 book as a result of the 1957 Bodkin
+Adams case, Easing the Passing,24 is perhaps illustrative of the prevailing views
+on palliative care at the time. The widespread use of the Brompton's Cocktail25
+also shows that the view of dying was that rapidity of death and oblivion were
+the goals of palliative interventions, which were almost exclusively focused on
+terminal care. Palliative care has now expanded well beyond terminal care, and is
+seeing patients far earlier in the course of their illness. Patient expectations have
+also changed, and until the last few hours or days of life, most patients wish to
+have optimal pain management with minimal side effects; in particular, they do
+not wish to be drowsy or cognitively impaired. Ognall J in his summing up to the
+jury in R v Cox, shows that, in 1992, this perception of the fine line for medical
+practitioners between provision of pain relief and causing death was still
+operating:
+We all appreciate that some medical treatment, whether of a positive, therapeutic character or solely of
+an analgesic kind – by which I mean designed solely to alleviate pain and suffering – some treatment
+carries with it a serious risk to the health or even the life of the patient. Doctors are frequently
+confronted with, no doubt, distressing dilemmas. They have to make up their minds as to whether the
+risk, even to the life of their patient, attendant upon their contemplated form of treatment, is such that
+the risk is, or is not, medically justified. If a doctor genuinely believes that a certain course is beneficial
+to his patient, either therapeutically or analgesically, then even though he recognises that that course
+carries with it a risk to life, he is fully entitled, nonetheless, to pursue it. If in those circumstances the
+patient dies, nobody could possibly suggest that in that situation the doctor was guilty of murder or
+attempted murder.26
+There is no clinical scientific evidence that morphine causes death, if used with
+appropriate skill to palliate symptoms. However, like any class of drugs, the
+opioids are dangerous if used inappropriately. There is now a substantial body of
+clinical experience in palliative care about safe standards of practice, with
+particular regard to initial doses for "opioidnaïve" patients and subsequent dose
+titration according to the person's pain or symptom reporting. It is widely
+assumed that the morphine (or other opioid) dose per se, is the main determinant
+of whether the drug causes or hastens death. In fact there is no such
+determinative or threshold dose, and this approach is flawed. What matters is the
+present dose in relation to the previous dose. Gradual dose escalation by a factor
+in the region of 50-100 per cent of the previous dose is usual practice, although
+substantially higher increases can usually be well tolerated by patients who are
+not new to the drug (that is they are no longer termed "opioid-naive"). It is
+therefore the size of the initial dose, and the rate of subsequent increases which
+are important.
+Cancer pain management with morphine is unusual compared to most other
+forms of drug treatment in that there are no predetermined dose ranges to
+achieve satisfactory pain control for adults or children. Most adults will achieve
+initial pain control with a daily dose in the range of 30 mg to 200 mg (per 24
+hours, orally), but the range of doses is very wide. The accepted practice is to
+adjust the regular dose upwards according to the requirements to keep the pain
+under control, balanced against incidence of side effects.
+Terminal Sedation
+Sedative drugs are commonly used in terminal care (when death is believed to be
+imminent), in order to maintain comfort and dignity (for patient and family) by
+alleviation of agitation, anxiety and so-called terminal restlessness. They are used
+proportionately to the patient's distress, and not to bring about death. It should
+incidentally be noted that patients are usually unconscious and/or cognitively
+impaired, and therefore incompetent at this stage. They are used proportionately
+to the patient's distress, and not to bring about death. It is clear that there is a
+robust disagreement within medicine itself, about whether such treatment
+contributes to the cause of death, and even what the therapeutic goals are or
+should be. There are those who contend that, within accepted palliative care
+practice, patients are sedated, and death is thereby caused, either through central
+nervous system and respiratory depression, or dehydration and starvation.27
+Billings and Block also contend that this is the result of the use of morphine
+infusions.28 Certainly, palliative care practitioners rarely use morphine for its
+sedative properties at any stage of an illness, especially when patients are trying
+to function as normally as possible, and sedation is usually unwelcome. In
+terminal care sedatives are titrated against agitation and distress, but occasionally
+also against another symptom (eg pain or shortness of breath) where other
+measures have failed and the patient may wish to be less aware of what they are
+going through. If patients are conscious and competent they are consulted about
+this and asked if they wish to be more sedated. However, patients in the terminal
+phase of their illness are often unable to give this consent due to incompetence as
+a result of unconsciousness and/or cognitive impairment. It is clearly not possible
+to state categorically that such sedation has no effect on time of death. The
+precise timing of death is unpredictable, and verification of the relative causal
+contributions to that timing of disease, physiological and pharmacological factors
+is not usually measurable. Outside the setting of terminal care, so-called
+"pharmacological oblivion" is not part of accepted palliative care practice,
+especially not as a way of ending a patient's life.
+Causation
+Dialogue between medicine and the law is hampered by the fact that the term
+"causation" in medicine and science is usually employed in a narrow empirical
+sense, a term which itself has a complex and interesting history,29 but taken here
+to mean the facts or data pertaining to a given situation, and their relationship to
+one another. Causation is a complex phenomenon in the law, and it might be
+reasonably argued that it is a misnomer in that context.30 Legal causation is a
+process whereby courts look at the chain of events in a case, and then attempt to
+attribute legal liability. In legal usage the term therefore encompasses the facts
+and determination of legal liability.31
+Most people without a legal background, and hence most health care
+practitioners, will have a narrow medical view of causation, which approximates
+to the but-for test of causation.32 In fact the law, particularly in Australia, tends to
+recognise the multifactorial nature of causation, and does not use the "but-for"
+test as the sole legal standard for ascertaining or apportioning legal responsibility,
+which is over-arched or controlled by the test of common sense and experience:
+In law ... problems of causation arise in the context of ascertaining or apportioning legal responsibility
+for a given occurrence ... Thus, at law a person may be responsible for damage when his or her wrongful
+conduct is one of a number of conditions sufficient to produce that damage.33
+With regard to palliative care, it can also be shown that in (at least)
+jurisdictions which follow the English common law tradition (eg, Australia, New
+Zealand, Canada, the United States, and of course, England and Wales), the
+leading reference case is still R v Adams, and, in particular, the famous passage
+on causation quoted above.
+Although there has been no known case where this position has been put to
+the test as such, it is always quoted in judicial and parliamentary deliberations
+concerning end of life issues. Absent any prosecutions of medical practitioners,
+except where intention is clearly in question,34 academic lawyers and
+parliamentary inquiries have continued to take the view that prosecution is at
+least theoretically possible, and various legal mechanisms have been put forward
+to allow lawful palliative care.35
+The Australian Attorney General's Department gave this (confusing) legal
+advice to the senate inquiry about the meaning of the term "intentional killing" in
+the Euthanasia Laws Bill, and whether the passage of the bill would generate
+legal "uncertainty" about end of life decisions:
+The Attorney-General's Department noted that English cases refer to a rule that a doctor caring for a
+dying patient may lawfully administer painkilling drugs despite the fact that he or she knows that an
+incidental effect of doing so will be to shorten the patient's life. The Department said it is uncertain
+whether the rule as stated is part of the law in all common law jurisdictions in Australia ... [and a]
+degree of further uncertainty exists as to code jurisdictions .... The Department said if the rule were to be
+adopted [in Australia], "which seems probable as to general principle, if uncertain as to reasoning and
+detail", many uncertainties remain on matters of significant detail.36
+In a 1989 paper on criminal law reform, by the Law Reform Commission of
+Canada, it was proposed that criminal liability not attach to the administration of
+life-shortening palliative care "appropriate to the circumstances". In a
+commentary on this, David Casswell (an academic lawyer in British Columbia at
+the time) urged more specific criteria (terminal illness, pain and suffering). In his
+paper he agreed with Devlin J's instruction to the jury on causation in R v Adams,
+but stated that he:
+did not support as a generalized proposition his Lordship's reasoning that palliative care which has the
+"incidental effect of determining the exact moment of death, or may have, is not the cause of death in
+any sensible use of the term". If a factual causal connection between the administration of palliative care
+and the patient's death is proved and if the physician subjectively knew that the palliative care he or she
+was about to administer would likely be life-shortening, it would seem that causation would be
+established. Further, two causes may operate together, with each legally being a cause of an event. In the
+present context both the patient's illness and the physician's administration of life-shortening palliative
+care would be the causes of death.37
+Casswell argued that Devlin J's "absence of causal analysis" in the case had led
+to reasoning by others that there was an absence of intent, or that the act was
+justified by necessity (to relieve pain).
+Peter Skegg (Professor of Law, Otago University, New Zealand) has written
+that there is a theoretical possibility that the administration of painkilling drugs
+which hasten death might lead to a prosecution of negligent homicide38 in a New
+Zealand court, although no such thing has so far happened, and criminal liability
+would not be established, provided that intention is clear. Reliance on causation is
+thought to be preferable to a defence of necessity, as these do not have a very
+successful track record in English courts.39
+It is of note that Skegg has contended that the principle of double effect has no
+standing in legal analysis. It has recently been subjected to penetrating
+intellectual assault by a number of writers, despite the fact that courts and
+parliaments have endorsed it.40 Singer has suggested that it is a "figleaf" behind
+which decisions at the end of life, which will have the effect of ending life, are
+hidden. In the Bland case, he makes the surely strong and self-evident case that
+the intended outcome of the court's decision was Anthony Bland's death.41 Jessica
+Corner, a prominent palliative care nurse, in commenting on the recent Annie
+Lindsell case in the United Kingdom, has made a plea for palliative care to
+recognise that there may be times when death is an intended outcome.42 Quill
+and coauthors have argued that patient self determination is more important than
+doctors' intentions as a guide to action in end of life decision making.43 This view
+has been shared by a South Australian palliative care specialist (Roger Hunt),44
+and another in Quebec (Marcel Boisvert).45
+Keyserlingk,46 in an argument against decriminalisation of assisted suicide
+based on an analysis of Rodriguez, proposes a move away from standard and
+"but-for" causality of death approaches in legal analysis, and the adoption of
+what he terms a normative causality approach, and what courts more commonly
+term the common sense and experience test of causation. He divides causality
+into three categories: standard, empirical and normative.
+Standard causality entails the characterisation of treatments (eg ordinary v
+extraordinary) in order to allow abatement. Cause of death is usually ascribed to
+the underling disease rather than the decision or intervention in question. Any
+therapeutic intervention in palliative or terminal care may potentially affect the
+timing of death, but the cause remains the underlying condition from which the
+person is dying. Lord Goff appears to be articulating Keyserlingk's standard
+causality category in Bland:47
+As I see it, the doctor's decision whether or not to take any step must (subject to his patient's ability to
+give or withhold his consent) be made in the best interests of the patient. It is this principle too which, in
+my opinion, underlies the established rule that a doctor may, when caring for a patient who is, for
+example, dying of cancer, lawfully administer painkilling drugs despite the fact that he knows that an
+incidental effect of that application will be to abbreviate the patient's life. Such a decision may properly
+be made as part of the care of the living patient, in his best interests; and, on this basis, the treatment will
+be lawful. Moreover, where the doctor's treatment of his patient is lawful, the patient's death will be
+regarded in law as exclusively caused by the injury or disease to which his condition is attributable.
+"But-for" or empirical causality relies on the scientific cause. Normative
+causality allows a more comprehensive analysis including normative
+considerations and empirical data:
+(This) position emphasises not simple scientific causality, the cause-in-fact of a death, but normative or
+legal causality as well. This more nuanced and comprehensive analysis holds that empirical, scientific or
+"but-for" causality cannot alone account for what distinguishes assisted suicide from voluntary
+euthanasia, or what distinguishes both from withdrawal of life support or appropriate pain control
+resulting in death.48
+This normative, or "common sense and experience" approach allows the "but-
+for" cause of death to be overridden if a society (via its legal or parliamentary
+institutions) decides that the intervention or non-intervention in question should
+not be viewed as a cause of death in law. Jane Stapleton has suggested that
+causation in legal analysis sometimes masks more important public policy
+considerations which may be the true issues at stake in certain cases.49
+Margaret Somerville has given the most profound analysis of the difficulties
+which are encountered when those outside the law attempt to grapple with legal
+causation and its application to end of life issues.50 She points out the important
+but nuanced distinctions between causation in criminal, and tort (civil
+responsibility) law. In criminal law, for causal analysis to be relevant, there would
+need to be conduct which would constitute a crime, actus rea, together with the
+mens rea, criminal intent, and the "but-for" test is not always applied. She writes:
+When multiple causes are present, there is a value judgement involved in choosing which formulation of
+the "but-for" test predominates in establishing causation-in-fact, and whether none of the causal factors,
+one, more than one, or all of them, each of which could attract legal liability, count as relevant in
+establishing criminal liability.51
+Somerville points out the distinction between cause-in-fact and cause-in-law
+(causa causans) and its lesser emphasis in criminal compared to tort law. She
+cites this example:
+In a situation where one has a duty not to continue to treat the patient with artificial life support because
+the patient has refused this or because it is medically futile, then it is inappropriate to formulate the test
+of causation (even if it were relevant to assess causation, itself, which it is not if the act of withdrawing
+treatment is legal) in terms of whether the cause of death was the withdrawal of the treatment. The
+physician cannot have a legal obligation to withdraw the treatment and not withdraw it and we must
+choose which of these duties predominates in a given situation. If the former, then the relevant test of
+cause of the patient's death is "but for" the patient's underlying condition would the patient have died; if
+the latter, "but for" turning off the respirator would the patient have died.52
+Looking at withdrawal of life support, another approach is to see it as a
+situation of multiple causation, but here Somerville notes that courts, from the
+point of view of causation, where the act is legal, say turning off a respirator (for
+example) was not the cause of death, death resulted from "natural causes". Judges
+adopt this line of reasoning, she speculates:
+to avoid any possibility that they could be seen as setting a precedent to the effect that lethal injections
+would be legally acceptable.53
+In the law of torts, tests for causation-in-law are of "varying degrees of
+stringency", and are of two sorts, "reasonable foreseeability" (a prospective test)
+and "substantive cause" (a retrospective test). So with a treatment withdrawal
+decision, death may be foreseeable, but not the "substantive" cause of death. In
+tort cases, Somerville also points out that judges will sometimes attempt to
+determine the proximity or remoteness of the damage from the cause, another
+way of looking at foreseeability.
+The last test analysed by Somerville is that of public policy, which can be
+mobilised in tort law to provide immunity from legal liability, but not to impose
+it, and also has a special role in the criminal law to:
+characterise acts to which consent of the person affected by such acts may function as a defence. For
+instance, the intentional infliction of bodily harm, beyond a certain very limited degree, will be held to
+be contrary to public policy and, therefore at common law the consent of the person suffering that harm
+will not be a defence to such an act.54
+Lastly, Somerville addresses the public policy stance on the importance of the
+provision of pain and symptom relief, albeit with the causal assumption about
+pain relief and death risk:
+This raises the issue of how necessary pain relief treatment given with the primary intention of relieving
+pain that could or will shorten life should be prima facie characterised from a public policy perspective.
+Just as the intent to relieve pain and not to kill justifies, through the doctrine of double effect, the
+administration of such treatment, likewise this same intent legitimates this treatment from a public
+policy perspective and, therefore, it can be given with the consent of the patient. Indeed, it should be
+considered contrary to public policy to fail to offer fully adequate pain relief treatment to persons who
+need this.55
+A novel approach to these issues, in law, comes from South Australia. Double
+effect was put into statute law for the first time, with regard to the care of dying
+persons, with the Consent to Medical Treatment and Palliative Care Act 1995
+(SA). In Division 2 of the Act, entitled "The Care of People Who Are Dying",
+there is a non-culpability clause which specifically states that medical treatment
+for the relief of pain or distress, and the non-application or discontinuance of life
+sustaining measures (for people who are dying) does not constitute "an
+intervening cause of death" (novus actus interveniens, ie a cause that breaks a
+pre-existing chain of causation). A saving provision was inserted stating that the
+provision does not allow euthanasia.56
+The parliamentary select committee from which this piece of legislation
+emerged heard wide-ranging evidence, including assertions by palliative care
+physicians that death was not caused by palliative interventions and treatment
+abatement. Nonetheless, they heard sufficient professional and community
+concern about the issue to take the same view as the Canadian senate, namely
+that it was important to be specific in law, in order to prevent false perceptions of
+what the law had to say in this area from obstructing appropriate care of dying
+people. The House of Lords Select Committee on Medical Ethics, in 1994, also
+endorsed double effect but did not recommend any legislation.57
+The objects sections of the four Australian State and Territory pieces of
+legislation which have been passed over the last decade on matters related to
+death and dying all have significant comment to make about the issue of proper
+pain and symptom control,58 but only the South Australian Act specifically
+articulates and codifies the principle of double effect in this context. This is not to
+suggest that there have been prosecutions of doctors for treatment abatement
+decisions or palliative interventions, which there have not, nor to propose legal
+remedies for clinical problems. Rather, if the law specifically articulates, in
+statute, the priorities and parameters it sets for the care of dying people and
+differentiates palliative care from euthanasia,59 this sends a powerful message to
+practitioners and their teachers which may fundamentally influence such care for
+the better. This holds even if the predicate about opioids and causation is inflated
+and unsubstantiated.60
+The Ontario coroner seems to have captured the essence of palliative care
+practice, as the vast majority of its practitioners (internationally) see it, in laying
+down four conditions which apply for palliative care interventions to be legal in
+his jurisdiction, and these should be universally applicable:
+(1) the care must be intended solely to relieve suffering; (2) it must be administered in response to
+suffering or signs of suffering; (3) it must [be] commensurate with that suffering; and (4) it cannot be a
+deliberate infliction of death. Documentation is required, and the doses must increase progressively.61
+Modern palliative care practice standards are based on the notion that death is
+natural in the sense of being a universal and unavoidable consequence of having
+life, and that interventions or abatement decisions should neither hasten nor
+prolong the dying process. The intention is to relieve symptoms and suffering,
+not to bring forward the time of death. Whilst this position is sustainable in the
+palliative phase, it is susceptible to challenge in the terminal phase, when death is
+imminent (hours or days away).62 Signals that death is approaching may consist
+of overt and covert acknowledgment by the patient that death is both inevitable
+and imminent, and anticipatory grief behaviour on the part of patient, family,
+significant others and carers. Clinical evidence may consist of declining appetite,
+weight loss, recumbency, lassitude, physiological systems failure and disease
+progression. There is an associated decrease in oral intake which usually ceases
+altogether as the patient's conscious state lapses. It is both philosophically and
+medically contentious to suggest that it is consistently possible to distinguish
+between patients who are dying, and those who are not, but in medical practice it
+is often necessary to attempt to do so.63 The distinction is not made on religious
+or ethical grounds, but on biological and psychological observations, and no
+suggestion is inferred that the dying days are of lesser worth than non-dying
+ones, or that the dying have different rights to those which they previously
+enjoyed before they were dying.
+It is acknowledged that as death approaches, abatement of life-sustaining
+treatment and terminal sedation may indeed alter the time of death, although this
+matter cannot be verified scientifically, one way or the other, in a particular case,
+or in general. There are serious limitations to the use of clinical studies in this
+area, and the causal question itself cannot be directly asked in any interventional
+study for obvious reasons. We cannot know when a particular patient would have
+died in the absence of palliative interventions or treatment abatement,
+particularly during the final dying process, and it would be unethical to design
+randomised controlled trials to find out.
+In the absence of formal training in palliative care, doctors' attitudes and
+clinical behaviour are complex and variable, ranging from abrupt cessation of
+treatment, minimalist palliative care and treatment directed at bringing about a
+rapid dying process, to excessive caution about being seen to be instrumental in
+causing the death, particularly with regard to the provision of pain and symptom
+relief, cessation or non-initiation of artificial hydration and alimentation and
+cardio-pulmonary resuscitation. Whilst a doctor's intention may not always be
+easy to validate, evaluation of intention and motive are fundamental to legal
+analysis, and many would argue that intention is also determinative of the moral
+character of medical interventions.
+Conclusion
+There is almost universal support for the relief of pain and suffering, and
+avoidance of prolongation of the process of dying. Public policy and the law
+have, without known exception, endorsed these common sense principles. There
+is also wide support for the cessation of life-sustaining measures in certain non-
+dying persons, where it is clear that the intention is to bring about death, as for
+instance those in a permanent and irreversible coma, or the persistent vegetative
+state, such as in the case of Anthony Bland.64 However, there is deep division in
+societies about whether assisted suicide and euthanasia65 should be made legal,
+and the fundamental question is causal. Those who advocate such changes often
+cite accepted palliative care practice in support of their position, on causal and
+consequentialist grounds. The line of argument runs something like this: "if you
+agree with the administration of opioids and sedatives, or treatment abatement
+which even have the potential to alter the timing, and therefore the cause, of
+death, how could you disagree with the administration of a lethal injection which
+has the expressed intention of causing death?".
+It is concluded that, as argued by Keyserlingk,66 narrow empirical causality,
+applied in the setting of terminal care, cannot alone account for the distinction
+between accepted palliative care practice and euthanasia. It is both false and
+unhelpful if appropriate and skilfully administered and monitored pain and
+symptom relief, together with the abatement of futile treatment in the context of
+a person's dying process, are seen as causing death. Self-willed and planned
+death, with or without third party assistance, surely has better arguments in its
+favour anyway.
+In the experience of caring and being cared for, both intention and honesty are
+decisive. Palliative care must be clear about its intentions, and accept that there
+are some occasions when the process of death is hastened, either unknowingly or
+knowingly. Far from subverting its practice, this acknowledgment might liberate
+it from wider claims of ambiguity on causal issues.
+Divergence about whether third party assistance (medical or non-medical) to
+die is permissible reveals a deep and complex fault line in modern western
+democracies, as they chart their courses based more on individual conceptions of
+liberty and autonomy than organised religion and deontological codes. This
+process is ongoing and will not come to a sharp resolution. Societal energy should
+be more focused on palliative care, about which we can nearly all agree and
+where modest investments have yielded excellent results for patients and families
+by improving care and decision-making at the end of life. There is much still to
+do. Euthanasia should remain narrowly defined as "the deliberate action to
+terminate life by someone other than, and at the request of, the patient
+concerned",67 which is the matter at stake in the on-going societal debate.
+The public needs to have complete confidence that there is a safe and morally
+sound body of modern palliative care practice which is clearly and
+unambiguously distinguished from euthanasia. Palliative care practitioners are
+confident to give this reassurance. However, no matter what one's view of
+euthanasia, it is important to unpack what is meant by the term "natural death".68
+Causation can be an important analytical and reflective component of the process
+of determining whether palliative care is ethical and, therefore, legal. However,
+the concept of "natural" death, in the forensic sense of death without intervening
+human agency, which is intrinsic to the palliative care position of causal
+neutrality (neither hastening nor prolonging the process of dying), cannot be
+empirically defended in all cases. Natural death can be understood in a broader
+existential sense of inevitability, as a composite of causality, autonomy and
+dignity, and not solely in terms of the presence or absence of human agency.
+Perhaps one of contemporary medicine's biggest tasks is to embrace its
+limitations, so well articulated by the New Zealand judge Thomas J in Auckland
+AHA v A-G:
+Medical science and technology has advanced for a fundamental purpose: the purpose of benefiting the
+life and health of those who turn to medicine to be healed. It surely was never intended that it be used to
+prolong biological life in patients bereft of the prospect of returning to an even limited exercise of human
+life. Nothing in the inherent purpose of these scientific advances can require doctors to treat the dying as
+if they were curable. Natural death has not lost its meaning or significance. It may be deferred, but it
+need not be postponed indefinitely.69
+Appendix to Chapter 11
+The Australian Association for Hospice and Palliative Care Inc (AAHPC) issued
+the following position statement on voluntary active euthanasia on 27 October
+1995.
+The Australian Association for Hospice and Palliative Care:
+1. defines Hospice and Palliative Care as a concept of care which provides
+coordinated medical, nursing and allied services for people who are
+terminally ill, delivered where possible in the environment of the
+person's choice, and which provides physical, psychological, emotional
+and spiritual support for patients' families and friends. The provision of
+hospice and palliative care services includes grief and bereavement
+support for the family and other carers during the life of the patient,
+continuing after death;
+2. defines Voluntary Active Euthanasia (VAE) as the deliberate action to
+terminate life by someone other than, and at the request of, the patient
+concerned;
+3. believes that dying is a natural process and that the refusal or
+withdrawal of futile treatment is not voluntary active euthanasia;
+4. believes that legalisation of voluntary euthanasia is not a substitute for
+the proper provision of palliative care services to all Australians;
+5. believes that public interest in voluntary active euthanasia reflects a
+concern about lack of adequate support for people who are dying, and
+will continue to campaign for improved services, education and research
+in all aspects of palliative care;
+6. states that currently accepted palliative care practice does not include
+deliberate ending of life, even if this is requested by the patient;
+7. asserts that palliative care experience shows that appropriate and
+effective use of morphine and other drugs for pain relief does not cause
+death;
+8. recognises that there is a wide divergence of views about voluntary
+active euthanasia in Australian society, and also within the caring
+professions, including the palliative care community;
+9. recognises and respects the fact that some people rationally and
+consistently request voluntary active euthanasia;
+10. acknowledges that, while pain and symptoms can be addressed,
+complete relief is not always possible in all cases, even with optimal
+palliative care;
+11. welcomes open and frank discussion within the community, and
+particularly with the health professions, about all aspects of death and
+dying, including voluntary active euthanasia;
+12. nevertheless, due to the inherent risk to individuals and society, opposes
+all legalisation of euthanasia.
+* Professor of Palliative Care in the Department of Medicine, Monash University, Director of Palliative
+Care at McCulloch House, Monash Medical Centre, and Medical Director of the Cancer and
+Palliative Care Program of the Southern Health Care network in Melbourne, Australia.
+1 See M Ashby, "Palliative Care, Death Causation, Public Policy and the Law" (1998) 6 Progress in
+Palliative Care 69; M Ashby, "Of Life and Death: the Canadian and Australian Senates on Palliative
+Care and Euthanasia" (1997) 5 JLM 40; and M Ashby, "The Fallacies of Death Causation in Palliative
+Care" (1997) 166 Medical Journal of Australia 176.
+2 Compassion in Dying v Washington, 79 F 3d 790 (9th Cir 1996). quoted in GJ Annas, "The Promised
+End - Constitutional Aspects of Physician-Assisted Suicide" (1996) 335 New England Journal of
+Medicine 683.
+3 J Gilbert & S Kirkham, "Double Effect, Double Bind or Double Speak" (1999) 13 Palliative Medicine 365.
+4 H Kuhse et ai, "End of Life Decisions in Australian Medical Practice" (1997) 166 Medical Journal of
+Australia 191.
+5 J Van der Maas et al, "Euthanasia and Other Medical Decisions Concerning the End of Life" (1991) 338
+Lancet 669; L Pijneneborg et al, "Nationwide Study of Decisions Concerning the End of Life in
+General Practice in the Netherlands" (1994) 309 British Medical Journal 1209; P Van der Maas et al,
+"Euthanasia, Physician-Assisted Suicide, and Other Medical Practices Involving the End of Life in the
+Netherlands, 1990-1995" (1996) 335 New England Journal of Medicine 1699.
+6 Ibid.
+7 P Van der Maas et al, Euthanasia and Other Medical Decisions Concerning the End of Life, Elsevier,
+Amsterdam, 1992.
+8 Ibid.
+9 By the demonstration of a such a high incidence of so-called medical decisions at the end of life (65 per
+cent of the deaths studied by Kuhse et al, op cit, n4), that all have the same outcome of causing death,
+it is presumably hoped that the case for the legalisation of voluntary active euthanasia is advanced by
+undermining existing medical practice, which is thereby shown to be inconsistent in both its
+principles and processes. Euthanasia accounted for 1.8 per cent of cases, and in 3.5 per cent life was
+ended without the patient's request.
+10 Kuhse et al, op cit, n4.
+11 S Aranda & M O'Connor, "Euthanasia, Nursing and Care of the Dying; Rethinking Kuhse and Singer"
+(1995) 3 Australian Nurses Journal 18.
+12 See Raymond Williams' invaluable book Key Words: a Vocabulary of Culture and Society, rev edn,
+Oxford University Press, New York, 1985, pp219-24 for consideration of the word "nature", which he
+views as perhaps the most complex word in the English language. It is derived from the past
+participle (natura) of the Latin verb nasci, to be born, Williams shows that, historically, the word
+commences (like "culture") as a quality or process, defined by a specific reference, which later became
+a noun. Williams identifies three areas of meaning: (i) the essential quality and character of
+something, (ii) the inherent force which directs either the world or human beings or both; (iii) the
+material world itself, taken as including or not including human beings.
+13 See B Stoffell, "Orchestrating Death", in preparation.
+14 M Reidenberg, "Barriers to Controlling Pain in Patients with Cancer" (1996) 347 Lancet 1278; and, M
+Zenz & A Willweber-Strumpf, "Opiophobia and Cancer Pain in Europe" (1993) 341 Lancet 1075.
+15 See Rita Carter, "Give a Drug a Bad Name," (1996) New Scientist, 6 April, 14. The introduction reads:
+"Morphine is the world's most effective painkiller, yet because of its reputation as a dangerous drug it
+is rarely prescribed even to terminally ill patients." This is, of course, untrue, but nonetheless, the
+article highlighted the extent and depth of the negative attitudes and lack of knowledge concerning
+the safety and efficacy of opioids, even in the United Kingdom, where palliative care is well
+embedded, appearing in a scientific publication of the highest standing.
+16 Asked if too many pain-killers shorten life, the results were (n=462): very true 11.7 per cent, somewhat
+true 25 per cent, not at all true 28 per cent, don't know 35.3 per cent. M Ashby & M Wakefield,
+"Attitudes to Some Aspects of Death and Dying, Living Wills and Substituted Health Care Decision-
+making in South Australia: a Public Opinion Survey for a Parliamentary Select Committee" (1993) 7
+Palliative Medicine 273.
+17 M Wakefield, J Beilby & M Ashby, "General Practitioners and Palliative Care" (1993) 7 Palliative
+Medicine 117.
+18 J Porter & H Jack, "Addiction Rare in Patients Treated with Narcotics" (1980) 302 New England Journal
+of Medicine 123.
+19 Fallon, personal communication.
+20 For the prevailing views on the use of opioids for non-malignant pain, from the Australian Pain Society
+see: P Graziotti & R Goucke, "The Use of Oral Opioids in Patients with Chronic Non-malignant Pain"
+(1997) 167 Medical Journal of Australia 30, and an editorial in that journal: A Molloy et al, "Role of
+Opioids in Chronic Noncancer Pain" (1997) 167 Medical Journal of Australia 9. In Canada, see the
+website of the Canadian Pain Society: "Use of opioid analgesics for the treatment of chronic
+noncancer pain in a consensus statement and guidelines from the Canadian Pain Society"
+<www.pulsus.com/Pain/03_04/opio_ed.htm>.
+21 J Stjernsward & N Teoh, "The Cancer Pain Relief Programme of the World Health Organisation" (1989)
+4 Palliative Medicine 1; R Twycross, Pain Relief in Advanced
+Cancer, Churchill Livingstone, London, 1994; DF Zech et al, "Validation of World Health Organization
+Guidelines for Cancer Pain Relief: a 10-year Prospective Study" (1995) 63 Pain 65; Expert Working
+Group of the European Association for Palliative Care, "Morphine in Cancer Pain: Modes of
+Administration" (1996) 312 British Medical Journal 823; and R Twycross et al, "A Survey of Pain in
+Patients with Advanced Cancer" (1996) 12 Journal of Pain and Symptom Management 273.
+22 M Ashby, "The Fallacies of Death Causation in Palliative Care" (1997) 166 Medical Journal of Australia
+176; and D Mendelson, "Quill, Glucksberg and Palliative Care – Does Alleviation of Pain Necessarily
+Hasten Death?" (1997) 5 Journal of Law and Medicine 110.
+23 R v Adams [1957] Crim LR 365.
+24 Devlin, Easing the Passing: The Trial of Dr John Bodkin Adams, The Bodley Head, London, 1985.
+25 Named after the Brompton Hospital (a famous London postgraduate teaching hospital which specialises
+in chest diseases). The mixture usually contained heroin, cocaine and alcohol, although its
+composition has varied from one institution to another over the years. It was very extensively used
+prior to the advent of the modern hospice/palliative care movement. The effects of these ingredients
+include pain relief, but also "pharmacological oblivion", an attempt to relieve emotional and
+"existential" pain and anxiety associated with the dying process by a seemingly contradictory
+combination of mood modification (elevation) and sedation.
+26 R v Cox (1992) 12 BMLR 38.
+27 See the article by a British geriatrician, Gillian Craig and the author's riposte. G Craig, "On
+Withholding Nutrition and Hydration in the Terminally Ill: has Palliative Medicine Gone too Far?"
+(1994) 20 Journal of Medical Ethics 139; and M Ashby & B
+Stoffell, "Artificial Hydration and Alimentation at the End of Life: a reply to Craig" (1995) 21 Journal of
+Medical Ethics 135.
+28 J Billings & S Block "Slow Euthanasia" (1996) 12 Journal of Palliative Care 21. See also the palliative
+care riposte: B Mount "Morphine Drips, Terminal Sedation, and Slow Euthanasia: Definitions and
+Facts, Not Anecdotes" (1996) 12 Journal of Palliative Care 31.
+29 See Raymond Williams' invaluable book Key Words: a Vocabulary of Culture and Society, rev edn,
+Oxford University Press, New York, 1985, ppl 15-17, for an account of the various meanings of
+"empirical". Williams points out that the word is used, in English, in a medical context from the 16th
+century onwards, to refer to treatment based on assessment of individual patient response, rather
+than theory, which was the preserve of physicians. As such, the term had negative connotations,
+alluding to quackery and unqualified practice. In science and philosophy, the term is used to denote
+knowledge gained from experience, and hence experiment, rather than derived from reason. This
+distinction is complex and derives substantially from the work of the English philosophers Locke and
+Hume. In modern medical usage it can refer to treatment given on a "try and see" basis in individual
+patients (usually with some theoretical mechanistic basis, but perhaps without the existence of good
+supporting evidence – a practice which is also often seen as "unscientific" and lacking in rigour),
+or, perhaps paradoxically, it can refer to the scientific (experimental) tradition itself. In a legal context it
+appears to be used to describe facts of a case known through human experience, hence through the
+senses, a use in harmony with mainstream western scientific tradition.
+30 Danuta Mendelson, personal communication.
+31 D Mendelson, Torts, 2nd edn, Butterworths, Sydney, 2000.
+32 The "but for" test in law asks whether the damage or harm would have occurred but for the (plaintiff's)
+wrongful act, and serves to eliminate matters which could not have been the causes of the (plaintiff's)
+damage (other expressions include causa sine qua non, literally "the cause without which",
+"proximate cause" or "real effective cause").
+33 D Mendelson, "Medico-Legal Aspects of the 'Right to Die' Legislation in Australia" (1993) 19 MULR 112.
+For further reading, see D Mendelson, op cit, n31.
+34 Eg, R v Cox, op cit, n26.
+35 P Skegg, "Drugs Hastening Death" in Law, Ethics and Medicine: Studies in Medical Law, Clarendon
+Press, Oxford, 1984, 121; and P Skegg, "Pain-killing Drugs and the Law of Homicide" (1995) 4 Otago
+Bioethics Report 8.
+36 Parliament of the Commonwealth of Australia, Senate Legal and Constitutional Legislation Committee,
+Consideration of Legislation Referred to the Committee. Euthanasia Laws Bill 1996, Canberra, 1997,
+29.
+37 D Casswell, "Rejecting Criminal Liability for Life-shortening Palliative Care" (1990) 6 Journal of
+Contemporary Health Law and Policy 127.
+38 Note the specific provision in the criminal law of New Zealand re negligent homicide (Freckelton,
+personal communication).
+39 P Skegg, op cit, n 35.
+40 M Otlowski, Voluntary Euthanasia and the Common Law, Oxford University Press, Oxford, 1997. C
+Corns, "Withdrawal of Life-support: Some Criminal Prosecution Aspects" in I Freckelton & K
+Petersen (eds), Controversies in Health Law, Federation Press, Sydney, 1999, pp44-59.
+41 P Singer, Rethinking Life and Death, Text, Melbourne, 1994.
+42 J Corner, "More Openness Needed in Palliative Care" (1997) 315 British Medical Journal 1242.
+43 T Quill, "The Rule of Double Effect – a Critique of Its Role in End-of-Life Decision-Making" (1997) 337
+New England Journal of Medicine 1768.
+44 R Hunt, "Palliative Care: the Rhetoric-Reality Gap" in H Kuhse (ed), Willing to Listen, Wanting to Die,
+Penguin, Melbourne, 1994, 115; and R Hunt, "Taking Responsibility for Affecting the Time of Death"
+(1999) 13 Palliative Medicine 439.
+45 A Mullens, Timely Death. Considering Our Last Rights, Alfred A Knopf, Toronto. 1996.
+46 E Keyserlingk, "Assisted Suicide, Causality and the Supreme Court of Canada" (1994) 39 McGill L J 708.
+47 Airedale NHS Trust v Bland [1993] All ER 868.
+48 Keyserlingk, op cit, n46.
+49 J Stapleton "Perspectives on Causation" in J Horder (ed), Oxford Essays in Jurisprudence, Oxford
+University Press, Oxford, 2000; and J Stapleton, Chapter 2, above.
+50 M Somerville, "Euthanasia by Confusion" (1997) 20 NSWLJ 550-75.
+51 Ibid, p564.
+52 ibid.
+53 Ibid, p565.
+54 Ibid, p567.
+55 Ibid, p568.
+56 Consent to Medical Treatment and Palliative Care Act 1995 (SA): "The Care of People Who are Dying –
+17. (1) A medical practitioner responsible for the treatment and care in the terminal phase of a
+terminal illness, or a person participating in the treatment and care of the patient under the medical
+practitioner's supervision, incurs no civil or criminal liability by administering medical treatment
+with the intention of relieving pain or distress – (a) with the consent of the patient or of patient's
+representative; and (b) in good faith and without negligence; and (c) in accordance with proper
+professional standards of palliative care, even though an incidental effect of the treatment is to hasten
+the death of the patient. (2) A medical practitioner responsible for the treatment or care of a patient
+in the terminal phase of a terminal illness, or a person participating in the treatment or care of the
+patient under the medical practitioner's supervision, is, in the absence of an express direction by the
+patient or the patient's representative to the contrary, under no duty to use, or to continue to use, life
+sustaining measures in treating the patient if the effect of doing so would be merely to prolong life in
+a moribund state without any real prospect of recovery or in a persistent vegetative state. (3) For the
+purposes of the law of the State – (a) the administration of medical treatment for the relief of pain or
+distress in accordance with subsection (1) does not constitute cause of death; and (b) the
+nonapplication or discontinuance of life sustaining measures in accordance with subsection (2) does
+not constitute a cause of death."
+57 House of Lords, Report of Select Committee on Medical Ethics, HMSO, London, 1994.
+58 See eg Medical Treatment Act 1988 (Vic), Preamble: "(e) to encourage community and professional
+understanding of the changing focus of treatment from cure to pain relief for terminally-ill patients;
+and (f) to ensure that dying patients receive maximum relief from pain and suffering." Consent to
+Medical Treatment and Palliative Care Act 1995 (SA), Part 1, s3: "(c) to allow for the provision of
+palliative care, in accordance with proper standards, to people who are dying and to protect them
+from medical treatment that is intrusive, burdensome and futile."
+59 See Corns, op cit, n40.
+60 This "educational" role for the law is interesting, an expanded role which the author thinks is
+worthwhile, but one that may trouble some legal "purists". See T Faunce & B McSherry, "Chinese
+Whispers: Judicial Narratives and the Regulation of Clinical Medicine" (1997) 4 JLM 326.
+61 Dr James Young, the Ontario Coroner in 1997 quoted in: Senate of Canada, Of Life and Death: Report of
+Special Senate Committee on Euthanasia and Assisted Suicide (Ottawa, 1995); and JV Lavery and P
+Singer, "The 'Supremes' Decide on Assisted Suicide: What Should a Doctor Do?" (1997) 157 Canadian
+Medical Association Journal 405.
+62 For a description of these three phases of illness and goals of care: curative, palliative and terminal, see:
+M Ashby & B Stoffell, "Therapeutic Ratio and Defined Phases: Proposal of an Ethical Framework for
+Palliative Care" (1991) 302 British Medical Journal 1322.
+63 Certain American writers who have expressed fairly strong conservative and religiously-based
+"sanctity of life" arguments against most treatment abatement decisions, such as Ramsey, Dyck,
+Grisez and Barry cited in Weir, pp271-4, nonetheless recognise the process of dying. R Weir, Abating
+Treatment with Critically III Patients. Ethical and Legal Limits to the Prolongation of Life, Oxford
+University Press, New York, 1989.
+64 Airedale NHS Trust v Bland [1993] All ER 821.
+65 Defined by the peak body Palliative Care Australia as "the deliberate action to terminate life by
+someone other than, and at the request of, the patient concerned". Australian Association for Hospice
+and Palliative Care Inc (AAHPC). "Voluntary Euthanasia – Position Statement", 27 October 1995, The
+Association, Perth, 1995. (See appendix).
+66 Keyserlingk, op cit, n46.
+67 Weir, op cit, n63.
+68 The use of the term "natural" is ubiquitous in medicine, but its meanings are diverse and ill-defined:
+natural history means the course of a disease without treatment, natural causes means death absent
+human agency, natural therapy means treatment with natural (as opposed to man-made) substances.
+So-called "natural death" acts were passed in most states of the United States during the 1970-80s,
+starting with Natural Death Act 1976 (California) (for a comprehensive list of legislation in US
+jurisdictions as of 1992, see P Hill & D Shirley, A Good Death. Taking More Control at the End of
+Your Life Choice in Dying, The National Council for the Right to Die, Addison Wesley, New York,
+1992). Two such statutes were passed in Australia: in South Australia, Natural Death Act 1983 (SA).
+and the Northern Territory of Australia, Natural Death Act 1988 (NT). The Natural Death Act 1983
+(SA) was repealed by the Consent to Medical Treatment and Palliative Care Act 1995 (SA). The
+provisions of these "natural death" acts allow persons to make binding "living wills" to prevent them
+being subjected to life-sustaining medical treatment when incompetent, if the underlying condition is
+terminal and/or irreversible. There is an underlying theme of the need to bolster patients' rights to
+refuse treatment, redressing a past power imbalance, seen as being in favour of "paternalistic"
+doctors. The ethical and theoretical derivation of "natural death" in this context therefore appears to
+be focused on death absent human agency, and hence a causal construct. See also, for instance, the
+quote from the British Columbia Crown Counsel Policy Guidelines: "withholding or withdrawing
+treatment means ... discontinuing or not intervening with medical procedures to prolong life beyond
+its natural length." (emphasis added). Senate of Canada, Of Life and Death: Report of Special Senate
+Committee on euthanasia and assisted suicide, Ottawa, 1995, at 40. For a discussion of natural causes
+of death in a respirator withdrawal case see: B Schneiderman, "A Winnipeg Inquest: a Case of
+Natural Death or Physician Assisted Suicide?" (1996) 24 Manitoba Law Journal 365. See also B Stoffel
+& MA Ashby, "On Natural Death and Palliative care" in L Shotton (ed), Health Care Law and Ethics,
+Social Science Press, Katoomba, 1997, 163, at 164: "'Natural death' cannot be used without careful
+explication. It can be understood as a composite of two moral elements: patient self determination
+and avoidance of harm; that is, the priority of patient choice in determining what they personally
+find acceptable treatments in the terminal phase of an illness, plus the avoidance of certain
+obstructions to the process of dying. The first element is of course the one that the law is interested in
+protecting, whereas the latter will demand close scrutiny of treatment decisions ...."
+69 Auckland AHA v AG [1993] 1 NZLR 235.

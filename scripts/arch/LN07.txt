@@ -1,0 +1,363 @@
+Chapter 20: Designing an
+Architecture
+A designer knows he has achieved perfection
+not when there is nothing left to add, but
+when there is nothing left to take away.
+—Antoine de Saint-Exupéry
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Chapter Outline
+• Attribute-Driven Design (ADD)
+• The Steps of ADD
+• Choosing Design Concepts
+• Producing Structures
+• Creating Preliminary Documentation
+• Performing Analysis
+• Summary
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Attribute-Driven Design / 1
+• Architecture design is notoriously difficult to master.
+– Design can (and should) be performed in a systematic way.
+– Design decisions should be justified.
+
+• The architect is accountable for design decisions.
+• A systematic method provides guidance in performing
+this complex activity so that it can be learned and
+capably performed by mere mortals.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Attribute-Driven Design / 2
+• Architectural design involves making decisions, and working
+with the available materials and skills, to satisfy requirements
+and constraints.
+• In architectural design, we turn drivers into structures.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Attribute-Driven Design / 3
+• Architectural drivers comprise architecturally
+significant requirements (ASRs), but also include:
+– functionality,
+– constraints,
+– architectural concerns, and
+– design purpose.
+
+• The resulting structures guide analysis,
+implementation, and much more.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Attribute-Driven Design / 4
+• Prior to starting design, you need to determine the scope of
+the system
+– what is in and what is out, and
+– which external entities your system will interact with.
+
+• This can be represented as a context diagram.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+The Steps of ADD
+• In ADD, architecture design is performed in
+iterations.
+• Within each iteration, a series of design steps
+is performed.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Step 1: Review Inputs
+• Before starting a design round, you need to ensure
+that the architectural drivers (the inputs to the
+design process) are available and correct.
+• These include:
+– The purpose of the design round
+– The primary functional requirements
+– The primary quality attribute (QA) scenarios
+– Any constraints
+– Any concerns
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 2: Establish Iteration Goal by
+Selecting Drivers
+• Each design iteration focuses on achieving a
+particular goal – to satisfy a subset of the drivers.
+• When doing design, you need to establish a goal
+before you start an iteration.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 3: Choose One or More Elements
+of the System to Refine
+• Every design decision is manifested as a set of
+elements, relationship, and properties of
+architectural structures.
+• For existing systems (or later design iterations in
+greenfield systems) you refine elements that were
+identified in prior iterations.
+• When designing a greenfield system you may select
+a particular element and the associated drivers that
+you want to address.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 4: Choose One or More Design
+Concepts That Satisfy the Selected Drivers
+• Choosing the design concept(s) is probably the
+most difficult decision in design.
+• Many different types of design concepts are
+available such as:
+– tactics,
+– patterns,
+– reference architectures, and
+– externally developed components, etc.
+(and for each type there are many options)
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 5: Instantiate Architectural Elements,
+Allocate Responsibilities, Define Interfaces
+• Once you have selected one/more design concepts,
+you must make another type of design decision:
+– how to instantiate elements out of the design concepts
+that you have just selected.
+
+• After instantiating the elements, you then need to
+allocate responsibilities to each of them.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 6: Sketch Views and Record
+Design Decisions
+• At this point, you have finished performing the design
+activities for the iteration.
+• Now you should ensure that the views—the
+representations of the structures you created—are
+preserved.
+• You should also record any significant decisions made
+in the design iteration, as well as the rationale, to
+facilitate later analysis and understanding of the
+decisions.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 7: Perform Analysis of Design, Review
+Iteration Goal, and Design Purpose
+• By now, you have created a partial design that
+addresses the goals established for the iteration.
+• Making sure that this is actually the case is a good
+idea, to avoid unhappy stakeholders and later rework.
+• Once the design performed in the iteration has been
+analyzed, you should review the state of your
+architecture in terms of your established design
+purpose.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Iterate If Necessary
+• You should perform additional iterations and repeat
+steps 2–7 for every driver that was considered.
+• More often than not this kind of repetition will not
+be possible because of time or resource constraints.
+• What are the criteria for evaluating if more design
+iterations are necessary? Let risk be your guide.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Choosing Design Concepts
+• Most of the time you, as an architect, do not
+need to, and should not, reinvent the wheel.
+• Your major design activity is to identify and
+select design concepts to address drivers.
+• This is the hardest part of design.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Identifying Design Concepts
+• So how to choose a design concept?
+– The identification of design concepts might appear
+daunting, because of the vast number of options
+available, scattered across many blogs, and websites,
+and in books.
+
+• So … what to do?
+– Leverage existing best practices.
+– Leverage your own knowledge and experience.
+– Leverage the knowledge and experience of others.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Selecting Design Concepts
+• Once you have identified a list of alternative design
+concepts, you need to select.
+• You might create a table that lists the pros and cons
+of each alternative. This table could contain cost
+information.
+• Methods such as SWOT (strengths, weaknesses,
+opportunities, threats) analysis can help you here.
+
+• Decisions that you made in previous iterations may
+restrict the concepts you can now select.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Creation of Prototypes
+• Often you will need to create prototypes to determine the
+properties of technologies.
+• When thinking about whether you should create a prototype,
+ask these questions:
+– Does the project incorporate emerging technologies?
+– Is the technology new in the company?
+– Are there certain drivers, particularly QAs, whose satisfaction using
+the selected technology presents risks?
+– Is there a lack of trusted information that would provide some
+certainty that the selected technology will be useful to satisfy the
+project drivers?
+– Are there configuration options associated with the technology that
+need to be tested or understood?
+– Is it unclear whether the selected technology can be easily
+integrated with other technologies that are used in the project?
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Producing Structures
+• Design concepts will not help you unless you
+produce structures.
+– This is the “instantiation” phase for architectural
+elements in ADD: creating elements and relationships,
+and associating responsibilities with them.
+
+• When you instantiate a design concept, you may
+actually affect more than one structure.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Associating Responsibilities and
+Identifying Properties
+• When you are creating elements (instantiating
+design concepts) you need to consider the
+responsibilities allocated to them.
+• Elements should have high cohesion (internally),
+a narrow set of responsibilities, and low
+(external) coupling.
+• And you need to consider the properties of the
+elements.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Defining Relationships and
+Interfaces
+• The creation of structures also requires making
+decisions with respect to the relationships that
+exist between the elements and their properties.
+• Interfaces establish a contractual specification
+that allows elements to collaborate and exchange
+information.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Creating Preliminary Documentation
+• The formal documentation of views is not part of ADD.
+• Structures, however, are naturally produced as part of design.
+– Capture them, even if they are represented informally (as sketches).
+– This requires some discipline.
+– The benefits are worth it, as you will be able to more easily produce
+detailed architecture documentation later.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Recording Design Decisions
+• When you see an architectural diagram, you see the
+end product but cannot always understand the
+decisions made to achieve this result.
+
+• Recording design decisions beyond the elements,
+relationships, and properties is fundamental to clarify
+how you arrived at the result—your design rationale.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Perform Analysis of the Design,
+Review the Iteration Goals / 1
+• At the end of an iteration, it is prudent to do some
+analysis to reflect on the decisions you just made.
+• One kind of analysis that you need to perform at
+this point is to assess whether you have done
+enough design work. In particular:
+– How much design do you need to do?
+– How much design have you done so far?
+– Are you finished?
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Perform Analysis of the Design,
+Review the Iteration Goals / 2
+• Practices such as the use of backlogs and Kanban boards can
+help you track the design progress and answer these questions.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Summary
+• Design is hard.
+• Methods are needed to make it more tractable
+(and repeatable).
+• The ADD method allows an architecture to be
+designed in a systematic and cost-effective way.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Case Study – Banking System
+(Current Architecture and User Requirements for Maintenance)
+
+Designing Software Architectures – A Practical Approach
+
+Cervantes & Kazman ©2016
+The SEI Series in Software Engineering
+
+Business Case / 1
+• In 2010, the government of a Latin American country
+issued a regulation that required banking institutions to
+digitally sign bank statements.
+• To comply with the regulation, “ACME Bank” decided to
+commission the development of a software system, which
+we will call BankStat, whose main purpose was the
+generation of digitally signed bank statements.
+
+Business Case / 2
+• At its core, the system executes a batch process, which retrieves raw
+bank statement information from a data source (an external database)
+and then performs a series of validations on this data to generate the
+bank statements and prepare them for digital signature by an external
+provider.
+• The statements are sent to the provider, which returns the signed bank
+statements. These statements are then stored by BankStat for further
+processing, including sending the statements to customers.
+• This batch process is triggered automatically once a month and, during
+its execution, approximately 2 million bank statements are processed.
+
+Quality Attributes
+• Reliability: Under normal operating conditions, the batch process is
+executed in its entirety 100% of the time.
+• Performance: Under normal operating conditions, when the batch
+process starts, 2 million bank statements are read, processed, and
+sent to the signing provider in at most one hour.
+• Availability: During normal processing, a failure may occur when
+reading information from the data source or when sending
+information for digital signature.
+– A notification is then sent to the administrator, who manually restarts
+the process. When it is restarted, only the information that had not
+already been processed is treated.
+
+Need for an Extension of the
+BankStat
+• Due to time constraints imposed by the government, only the core
+batch process for the system was developed and put into production.
+– This initial release, however, did not provide a friendly interface with the
+system, which is necessary to monitor the state of the bank statement
+processing, to request the reprocessing of incorrect statements and to
+generate reports.
+– In the first release, the process could only be started or stopped manually
+from a console.
+
+• For a second release of the system, the ACME Bank requested an
+extension of the BankStat system to better address these shortcomings.
+
+

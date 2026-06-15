@@ -1,0 +1,57 @@
+@startuml soru6
+!include _style.iuml
+title Soru 6 — Kafe İçecek & İndirim · Decorator (iki katman)
+
+interface Icecek <<interface>> {
+  + aciklama() : String
+  + fiyat() : double
+}
+class Espresso
+class Americano
+class FiltreKahve
+abstract class EklentiDecorator {
+  # icecek : Icecek
+  + aciklama() : String
+  + fiyat() : double
+}
+class Sut
+class EkstraShot
+class Vanilya
+class Karamel
+
+abstract class IndirimDecorator {
+  # kaynak : Icecek
+  + fiyat() : double
+}
+class OgrenciIndirimi
+class SadakatIndirimi
+class KampanyaIndirimi
+
+Icecek <|.. Espresso
+Icecek <|.. Americano
+Icecek <|.. FiltreKahve
+Icecek <|.. EklentiDecorator
+EklentiDecorator <|-- Sut
+EklentiDecorator <|-- EkstraShot
+EklentiDecorator <|-- Vanilya
+EklentiDecorator <|-- Karamel
+EklentiDecorator o-- "1" Icecek : sarmalar >
+
+Icecek <|.. IndirimDecorator
+IndirimDecorator <|-- OgrenciIndirimi
+IndirimDecorator <|-- SadakatIndirimi
+IndirimDecorator <|-- KampanyaIndirimi
+IndirimDecorator o-- "1" Icecek : sarmalar >
+
+note bottom of EklentiDecorator
+  <b>Decorator (eklenti).</b> Her eklenti aynı Icecek
+  arayüzünü sarmalar; aciklama() ve fiyat() ÖZYİNELEMELİ
+  toplanır → istenildiği kadar süt/shot/şurup eklenebilir,
+  her eklemeden sonra toplam fiyat + açıklama üretilir.
+end note
+note right of IndirimDecorator
+  <b>Decorator (indirim).</b> Müşterinin sahip olduğu
+  öğrenci + sadakat + kampanya indirimlerinin HEPSİ
+  üst üste sarmalanarak fiyat()'a uygulanabilir.
+end note
+@enduml

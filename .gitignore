@@ -1,0 +1,15 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+data/
+scripts/output/
+
+# Large blobs that must NOT go to GitHub (>100MB hard reject). See scripts/revize/realdata/REPORT.md §9.
+# NOTE: .gitignore does NOT un-track already-committed files; a history rewrite (BFG / git lfs migrate)
+# is still required before any GitHub push can succeed.
+*.crdownload
+attached_assets/gdrive/epiclock/EpiClockPrototype.zip
+scripts/revize/realdata/out/*_CONFOUNDED.csv

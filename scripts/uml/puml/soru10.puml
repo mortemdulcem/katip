@@ -1,0 +1,87 @@
+@startuml soru10
+!include _style.iuml
+title Soru 10 — SimpleCar E-Satış · Strategy (ödeme) + Chain of Responsibility (kontroller) + Template Method (sipariş işleme)
+
+class Siparis {
+  - no : String
+  - miktar : int
+  - durum : SiparisDurumu
+  + odemeYontemiAta(o : OdemeYontemi)
+  + iptalEt()
+}
+class Musteri {
+  - ad : String
+  - bakiye : double
+  - limit : double
+}
+enum SiparisDurumu {
+  ALINDI
+  ONAYLI
+  IPTAL
+  ISLENDI
+}
+
+' ================= STRATEGY: ödeme yöntemi =================
+interface OdemeYontemi <<interface>> {
+  + ode(tutar : double) : boolean
+}
+class BankaHavalesi
+class PayPal
+class SogukCuzdan
+
+' ================= CHAIN OF RESPONSIBILITY: kontroller =================
+abstract class KontrolHalkasi {
+  - sonraki : KontrolHalkasi [0..1]
+  + kontrolEt(s : Siparis) : boolean
+  # {abstract} denetle(s : Siparis) : boolean
+}
+class SahtecilikKontrolu
+class LimitKontrolu
+class BakiyeKontrolu
+
+' ================= TEMPLATE METHOD: sipariş işleme =================
+abstract class SiparisIsleyici {
+  + {leaf} siparisiIsle(s : Siparis)
+  # {abstract} faturaDuzenle(s : Siparis)
+  # {abstract} faturaGonder(s : Siparis)
+  # {abstract} alacaklaraKaydet(s : Siparis)
+}
+class StandartSiparisIsleyici {
+  # faturaDuzenle(s)
+  # faturaGonder(s)
+  # alacaklaraKaydet(s)
+}
+
+OdemeYontemi <|.. BankaHavalesi
+OdemeYontemi <|.. PayPal
+OdemeYontemi <|.. SogukCuzdan
+Siparis o-- "1" OdemeYontemi : odeme >
+Siparis --> "1" Musteri : veren >
+Siparis --> "1" SiparisDurumu : durum >
+
+KontrolHalkasi <|-- SahtecilikKontrolu
+KontrolHalkasi <|-- LimitKontrolu
+KontrolHalkasi <|-- BakiyeKontrolu
+KontrolHalkasi o-- "0..1" KontrolHalkasi : sonraki >
+KontrolHalkasi ..> Siparis : denetler
+
+SiparisIsleyici <|-- StandartSiparisIsleyici
+SiparisIsleyici ..> Siparis : isler
+
+note bottom of OdemeYontemi
+  <b>Strategy.</b> Ödeme yöntemi banka havalesi, PayPal ya da
+  soğuk cüzdan olabilir; bu yöntemler sık genişler/daralır.
+  Yeni yöntem eklemek Siparis sınıfını değiştirmez (OCP).
+end note
+note bottom of KontrolHalkasi
+  <b>Chain of Responsibility.</b> Sipariş; sahtecilik, limit
+  ve bakiye kontrollerinden sırayla geçer. Herhangi biri
+  olumsuz olursa sipariş iptal edilir. Kontroller zamanla
+  artırılabilir — zincire yeni halka eklenir.
+end note
+note right of SiparisIsleyici
+  <b>Template Method.</b> Kontroller başarılıysa siparişi
+  işlemenin SIRALI iskeleti sabittir: fatura düzenle →
+  fatura gönder → alacaklar listesine kaydet.
+end note
+@enduml

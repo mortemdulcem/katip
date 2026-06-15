@@ -1,0 +1,576 @@
+3 The Cause of Disease and Illness:
+Medical Views and Uncertainties
+PETER GREENBERG*
+Studies concerning the cause of "disease" (pathological state) and "illness"
+(subjective state) reflect our needs to comprehend, prevent, treat, prognosticate
+and accept. Assumptions about causation are made by individuals and society,
+both to attribute blame and to provide a rational basis for compensation. In this
+chapter, the strengths and limitations of scientific approaches to causation and
+the differences between medical and legal approaches are reviewed.
+Historical Background: Scientific Knowledge Versus
+Popular Beliefs
+Contemporary medical views about "cause" are founded on the ancient Greek
+principle of determinism.1 All events, including diseases, are perceived as
+consequences of natural laws and earlier circumstances. Teleological notions
+about fundamental purpose, which were felt to be of great importance before the
+Renaissance, are no longer considered relevant. The development of empiricism
+in Britain during the eighteenth century meant that concepts of causation were
+subsequently based on observation and experience, not just hypothesis.
+Perceptions about causation at various times throughout history only partly
+depend on scientific and technological knowledge. The obvious contributions of
+diet, physical and chemical injury and inheritance to disease and illness were
+recognised from the dawn of time. Epidemics of infectious diseases especially
+were sometimes attributed to incorrect causes. Syphilis, the "French Pox" of 1492,
+first had astrological and astronomical explanations. Some believed syphilis was
+due to divine intervention, "a just and proper sentence for sins".
+Scientific knowledge does not exist in isolation. It is "framed" by current
+philosophical, cultural, religious, political and sociological ideas.2 Beliefs are
+stronger with recently recognised diseases and when scientific foundations are
+weak. In the early 1980s, when the cause of AIDS was unclear, as with syphilis
+400 years before, there was speculation about divine intervention. When "cures"
+by surgery became technically possible, it was considered that a "wandering
+womb" explained hysteria and that "focal sepsis" in the tonsils or colon caused
+systemic disease. A current belief is the popular view, not supported by scientific
+evidence, that "stress" plays a significant causal role in cancer.3
+Framing contributes to differences in beliefs about causation between
+individuals and communities and their advocates, including courts of law, in spite
+of the scientific evidence. Furthermore, beliefs may lag behind or ignore scientific
+progress. Consider "chronic fatigue syndrome". Although patients with similar
+symptoms were described in the second half of the 19th century,4 the condition
+only attracted widespread medical and lay interest following apparent epidemics.
+In 1987 it was given this particular diagnostic label at the time that HIV and
+AIDS were attracting public interest. Similarities with HIV/AIDS were noted. It
+was felt, with minimal scientific evidence, that "chronic fatigue syndrome" also
+had an infectious and immunological basis. Another example is the idea that
+disease and illness are caused by "multiple chemical sensitivity". The validity of
+"multiple chemical sensitivity" is debated, but beliefs persist.5
+Sometimes even the name of a disease determines myths about causation.
+"Multiple chemical sensitivity" implies there is no alternative explanation.
+Repetitive strain injury (RSI) implies that injury is the cause. The substitution of
+this name for an earlier name, "tenosynovitis", at least removed the implication of
+an inflammatory basis.
+Nosological constructions themselves can be causes of illness. Psychosomatic
+"merries", which are based on constructions of otherwise unexplained diseases or
+illnesses, may spread amongst susceptible individuals, rather like infectious
+diseases.6 Under such circumstances, the naming process can be the main cause
+of the disease.
+Factors determining discrepancies between lay and scientific views include the
+strength of entrenched beliefs, the dissemination and acceptance of both scientific
+knowledge and beliefs, and the zeal of stakeholders. The media play a critical role
+in dissemination of both scientific knowledge and of beliefs. The media are much
+more influential now than they were in Caxton's time, when syphilis first became
+widely recognised.
+Cause can never be unequivocally proven in a scientific sense. The scientific
+method involves creation of hypotheses, which are then tested and sometimes
+rejected. It is the failure of rejection of hypotheses that confirms scientific
+validity. As in all applications of science to medical thought and practice, the
+issue is not the absolute likelihood of cause, but rather the probability of a
+particular factor being relevant to cause. Reichenbach extended David Hume's
+concept of coincidental occurrence: "The happenings of nature are like rolling dice
+rather than like revolving stars; they are controlled by probability laws, not by
+causality, and the scientist resembles a gambler not a prophet".7
+Questions about causation can always be regressed until a more fundamental
+question that cannot be resolved is reached. Although genetic constitution and
+external influences must ultimately account for all disease, subtle interactions
+and complexities mean that scientific knowledge can approach the target of 100
+per cent certainty regarding causation but can never reach it. Scientists take a
+pragmatic approach. "When we think we have found an approximation to the
+truth, in the form of a scientific theory which has stood up to tests better than its
+competitors, we shall, as realists, accept it as a basis for practical action, simply
+because we have nothing better (or nearer the truth)."8
+An important limitation of the scientific approach is that currently accepted
+"causes" may not explain all cases. An example is ischaemic heart disease. Known
+"risk factors" such as family history, high blood pressure, smoking, and high
+blood lipid levels account for only about half of the prevalence.
+Single or Multiple Causes?
+Scientific knowledge framed by beliefs does not completely explain
+disagreements about causation. In discussing cause of death, Cordner has
+helpfully described philosophical differences in the views about causation.9 Hume
+(1711-1766) felt that a cause must be both necessary and sufficient, but JS Mill
+(1806-1873) argued that the concept of cause should comprehend the totality of
+conditions in which an event occurs.
+The views of individuals and communities are also shaped by the importance
+attached to "reductionist" rather than "holistic" approaches. Reductionism
+attributes disease to its individual components. An example of a reductionist
+approach is Occam's razor: "It is vain to do with more what can be done with
+fewer." In contrast, holism acknowledges the complex and sometimes occult
+interactions between the various individual components. One holistic model, the
+biopsychosocial model,10 views disease as a very complex interaction of a number
+of systems, both above (eg couple, family, culture) and below (eg organs, tissues,
+cells) the system level of the individual person (Figure 1). Alternative and equally
+compelling explanations for disease and illness often reflect the relative
+weighting given to reductionist versus holistic approaches.
+There may also be disagreement about the relative contributions of multiple
+possible components to causation. Estimations of relative contributions are often
+sought to quantify "blame". Even the very best combinations of reductionist and
+holistic approaches produce only crude estimates, especially when known causal
+factors do not account for all cases, and when some causal factors are
+controversial.
+Additional considerations apply when there are multiple causal factors, Causes
+may be linked with one another. It may then be necessary to dissect out the more
+fundamental and independent factors. An example is that both obesity and
+physical inactivity may be seen as causes of maturity-onset diabetes, but
+inactivity itself aggravates the tendency for obesity. Furthermore, some causes
+may only be apparent when other causal factors are present. A meal of fava
+beans may result in sudden anaemia due to red blood cell destruction, but only in
+persons who are genetically predisposed.
+Questions about causation need to be specific. Do we require an estimation of
+the relative contribution of possible causal factors, or an assessment of the
+contribution of one particular factor to the totality of factors relevant to
+causation?
+Scientific Views of Causation
+Current scientific views on causation arise from hypotheses based on clinical
+observations made in individuals and groups. Hypotheses are confirmed using
+hypothetico-deductive reasoning by the application of epidemiological methods.11
+In studies of causation, the following criteria, some of which were suggested by
+JS Mill ("Mill's Canons") and consolidated by Bradford Hill,12 strengthen the
+likelihood of a linkage between a possible cause and the subsequent development
+of a disease (Figure 2).
+None of these criteria are sufficient on their own. Exceptions can be found for
+each. It is the strength of the individual criteria, as well as the strength of their
+combinations, which determines the likelihood of a cause-disease relationship.
+The cause precedes the outcome.
+This is clearly inadequate as a sole criterion. It is problematic when there is
+lengthy interval between exposure to a causative event and the development of a
+disease. Consider two conditions: mesothelioma, a malignancy of the tissue lining
+the surface of the lung, and the human equivalent of "mad-cow" disease. There
+are many years between exposure to asbestos or to infectious material in brain
+tissue before either condition develops. Such long latent periods may obscure
+causal relationships.
+The cause/outcome association is consistent across time, and
+consistent in different patient groups and different geographical
+and other settings
+The greater the number of examples of the association, and the more reproducible
+it is in different circumstances, the greater the likelihood of a linkage between a
+cause and a disease.
+There is a relationship between the likelihood, and/or the
+severity of the disease, and the magnitude of the cause
+A "dose-response" relationship clearly increases the strength of the association.
+Examples are the relationships between the number of cigarettes smoked and the
+subsequent risk of lung cancer, and the level of serum cholesterol and the
+likelihood of coronary heart disease. But a dose-response relationship is not
+invariable. Some causes have a threshold effect, in which the chance or severity of
+disease is not increased once a critical threshold has been passed, such as
+anaphylaxis (severe allergic response) from penicillin.
+The cause/disease relationship is biologically plausible
+Plausibility makes causal factors more likely to be correct, but only if associated
+with other criteria. There is a real danger, especially when conclusions are based
+on weak criteria, in accepting conclusions largely from the theoretical possibility
+of a plausible mechanism, which could account for the association. Plausibility
+may reflect fashions, which wax and wane. It was quite plausible in the Salem of
+1692 to consider possession by demons as the cause for curious behaviour of
+young women. Another problem with relying on plausibility is that one plausible
+mechanism may be accepted whilst others are overlooked. Even if psychosocial
+stress contributes to coronary heart disease, there could be two plausible
+mechanisms, a direct effect of "stress" and an independent effect mediated by the
+chemical substances in cigarettes smoked in response to "stress".
+The apparent cause/outcome relationship is not a reflection of
+bias and confounding
+There have been few experiments where people are randomly allocated to
+"experimental" or "control" groups and then deliberately exposed to possible
+harms in order to prove that a potential cause was indeed responsible for a
+disease. Most of the scientific evidence about causation therefore comes from
+observational studies, although randomised studies of interventions likely to be
+beneficial sometimes provide sound evidence of harm as well. Critical appraisal
+of data is needed to ensure that the apparent linkage between cause and disease
+does not have alternative explanations, which reflect weaknesses of observational
+compared to experimental studies.13 The essential problem is that an association
+between an apparent cause and a disease does not necessarily imply
+cause/disease linkage. There may be other explanations.
+For instance, it was noted that some patients who had breast augmentation by
+the introduction of chemical substances into the breast area seemed to develop
+connective-tissue diseases. One way of establishing a cause-disease relationship
+would be a "cohort" study which compares the prevalence of connective-tissue
+diseases in patients following breast augmentation with "controls", who are
+similar in other respects, but who did not have the procedure. Alternatively,
+cause-disease relationships could be established by a case-control study. Patients
+with connective-tissue diseases and a control group are studied and the
+prevalence of the augmentation procedure in the cases and controls noted. In
+drawing conclusions from either of these observational studies, it is essential to
+ensure that the cases and controls were indeed similar in all other respects,
+including their predisposition to "connective-tissue" disease. Otherwise an
+alternative explanation, unrelated to the augmentation procedure might account
+for the differences observed between the groups. In addition, the possibility that
+it is whatever makes a woman choose to have chemical augmentation, rather
+than the augmentation procedure itself which causes the problem, needs to be
+excluded.
+There is a specific relationship between the apparent cause and
+the subsequent effect
+Cause could be firmly established if one cause was always followed by one
+disease, and if one disease was always a consequence of a particular cause, but
+there are notable exceptions. In tuberculosis and AIDS, for example, infected
+patients always harbour the relevant micro-organism yet many people exposed to
+the organism do not develop the disease. The microorganism is therefore
+necessary but not sufficient. In the past, tuberculosis was considered to be caused
+by particular socio-economic circumstances. A similar case could now be made
+for HIV disease in socially deprived urban areas of the United States.
+The same cause may also result in different expressions of disease. During
+poliomyelitis epidemics some people do not become infected at all. In others,
+infection can be demonstrated by tests and yet the person can be unaware of any
+symptoms. Some infected persons may have an influenza-like illness yet others
+develop paralysis. The determinants of the differences in the way the same
+disease is expressed are unclear, and there are many possible explanations.
+Depending on the specificity of names used to describe diseases, there are
+examples of diseases having multiple apparent causes. Thus "hepatitis" may be
+caused by Hepatitis A, B, or C virus, or by Epstein-Barr virus, which more
+commonly produces the clinical syndrome we recognise as glandular fever.
+"Purpura", a descriptive term rather than a disease, may have many causes.
+"Chronic fatigue syndrome" is much more likely to be a common response to a
+variety of causal contributions than a single disease entity.
+Prevention or specific therapy directed to the cause prevents or
+cures the associated disease
+Examples include the prevention of infectious diseases like smallpox and
+influenza by immunisation, arid the correction of diseases due to lack of
+hormones (eg under-active thyroid gland) by administering the deficient
+substance. This finding alone is certainly not sufficient to establish causation.
+Many diseases and illnesses resolve spontaneously and so improvement cannot be
+necessarily attributed to interventions.
+The scientific studies of causation are applicable to this
+particular person14
+Subtle, and often occult, differences between individuals may mean that
+scientifically-defined causes that have been found to be relevant in a group of
+persons studied may not apply to a particular person. Thus perhexilene, a drug
+sometimes used to treat angina pectoris (chest pain) in patients with ischaemic
+heart disease, is likely to cause side-effects in only some patients, those who
+metabolise it slowly.
+Evidence Based Medicine
+Although medicine has always had a scientific basis, there has been a recent re-
+emphasis on these foundations. The Evidence-Based Medicine (EBM)
+movement,15 which originated in Canada and in the United States, has now been
+embraced internationally. As a consequence, physicians expect an even firmer
+requirement for evidence regarding diagnosis, prevention, treatment, prognosis
+and causation.
+Proponents of EBM indicate a paradigm shift away from a hierarchical and
+and
+approach
+based
+dogmatic
+largely
+on
+pathological
+physiological
+considerations and experience, to a paradigm based mainly on evidence.
+Judgments about the value of opinions are now made less on the status of the
+opinion-holder, intuition and historical precedents, and more on the scientific
+evidence. The value of experience is not completely ignored as the practice of
+EBM involves integration of the practitioner's clinical expertise and judgment
+with the best available evidence.
+Evidence is classified according to its level (Figure 3). 16Thus evidence on
+causation which is based on only one or several anecdotes is judged as less
+valuable than evidence based on a larger series. Evidence obtained from
+comparative studies with historical controls is at a higher level. Case-control
+studies and studies with concurrent controls are at a higher level again. Although
+the level of evidence is even higher if there is pseudo-randomisation, or better
+still, formal randomisation, such high levels of evidence are seldom achieved in
+studies of causation because of ethical requirements to avoid deliberate harm.
+An evidence based approach to causation involves the following four steps:17
+Asking the right question about this cause and this disease
+Questions should be specifically directed to the current problem. For example: Is
+there any possible causal link between this cause and this disease? How likely is a
+causal link between this cause and this disease? If there are many possible causal
+factors, what is the likely contribution of this particular causal factor? Does this
+factor act independently of other factors?
+Searching for the evidence
+An important outcome of the EBM movement has been consensus concerning the
+value of the particular elements selected from the wide range of evidence
+sources.18 Books are limited by their publication date. Readily updatable
+electronic versions of texts, both "on line" (eg "Harrison's on line") and on CD (eg
+"UpToDate") are now available. Primary sources of published data (eg Medline),
+are very comprehensive but relatively difficult to search. Highly valuable and
+more easily searched secondary sources such as "Best Evidence" ("on line" and on
+CD) provide useful information on causation. A systematic search involves
+retrieval of all relevant publications. This can be time consuming as it involves
+searching numerous texts and databases including publications in many
+languages.
+Critical appraisal of the evidence
+In order to answer questions about causation, material obtained through
+comprehensive searches must be critically appraised for validity. Essential criteria
+for validity include consideration of whether groups being compared were indeed
+similar except in regard to the possible cause, whether outcomes and exposures
+were similar in both groups, and whether meaningful time and dose-response
+relationships apply. In addition, the strength of the association between cause and
+disease and the precision of the estimation of risk are important in interpreting
+results.19
+Applying the general evidence to a particular person
+"Applicability" refers to the implications of evidence obtained from other people
+in different settings to a particular person in a particular setting.20 One cannot
+assume that the results of a study linking a possible cause with a disease apply to
+the particular person under consideration. It is useful to begin by asking if there
+are compelling reasons why the results of the study should not apply to this
+particular patient. Possible reasons include differences in genetic predisposition,
+gender, age, inclusion and exclusion criteria, settings, use of medications, and
+other "co-morbidities" (eg medical, social and psychological circumstances).
+Additional reasons are differences in the degree of exposure to the possible cause
+and how the disease outcome was measured and detected.
+For all of these reasons it is more difficult to express an opinion about
+cause/disease linkage for an individual than for a group.
+The contemporary emphasis on evidence in medicine increases the likelihood
+that possible causes and their relative contribution to disease are considered,
+detected and correctly weighted. It is acknowledged that EBM approaches have
+limitations. They should be seen as absolutely necessary although sometimes
+insufficient to establish firm cause/disease relationships.
+Changing Concepts of Causation
+Scientific information concerning causation is not static and can expand
+dramatically over short periods of time.
+Causes
+In recent years the combination of sophisticated technological advances and
+epidemiological studies of populations has strengthened knowledge about the
+critical influence of both genetic predisposition and infection as causes of
+diseases.
+Genetic constitution is now seen to be a much stronger causal factor than
+previously recognised. It is relevant in conditions as diverse as bipolar affective
+disorder, maturity-onset diabetes, osteoporosis, cardiomyopathy and "auto-
+immune" diseases. Genome analysis is progressing rapidly. There are now known
+to be specific genes for some relatively rare diseases and several genes
+determining risks for more common diseases like ischaemic heart disease. Even
+when a specific genetic factor is found, estimates of its likely contribution to a
+disease may change over several years. A genetically determined vitamin D
+receptor is considered to account in part for osteoporosis, but initial estimates of
+its contribution were excessive.
+The manner in which genes can influence causation is diverse. Genes may not
+only determine behaviours (eg excessive alcohol consumption) that increase the
+probability of certain diseases, but also the extent and manifestations of
+consequences of behaviours, such as the spectrum of diseases resulting from
+alcoholism. Genetic composition can protect individuals against infection (eg
+HIV21and tuberculosis).22
+In addition to newly recognised infectious diseases (eg Legionnaires disease,
+Lyme disease, HIV), a new role for infection in conditions not previously known
+to have an infective basis is now established. Helicobacter pylori infection
+underlies the predisposition to peptic ulcer disease. There is strong but
+inconclusive evidence to suggest that infection plays a significant role in common
+chronic inflammatory joint diseases and even in ischaemic heart disease. There
+may be direct interactions between micro-organisms and genetic structures:
+retroviral particles like HIV become incorporated into host cell nucleotides and
+replicate when cells divide.
+Diseases
+Tuberculosis
+Infection with specific mycobacteria is essential for the development of
+tuberculosis. Both the risk of developing and the clinical expression of
+tuberculosis depend on factors in the micro-organisms and the potential host, as
+well as in the environment where host and micro-organisms meet. Tuberculosis
+strains vary in virulence.23 Individual risk for and expression of tuberculosis
+depends on genes24 and on immunological responses. These are partly genetically
+determined but may be modified by present (eg HIV) and possibly past infections.
+Medications (eg glucocorticosteroids like "cortisone"), immunisation and
+nutritional status may also affect responses.
+Mycobacterial infection is necessary but far from sufficient to cause
+tuberculosis. Environmental factors such as access to suitable food, overcrowding
+and ventilation are important. Death rates from respiratory tuberculosis in
+England and Wales began to decline from the middle of the nineteenth century,
+50 years before the causal mycobacterium was recognised, and 100 years before
+specific immunisation and treatment became available.25
+Ischaemic Heart Disease
+Although there are many contributory causes for ischaemic heart disease (eg
+genes, hyperlipidaemia, cigarette smoking, sedentary life style, obesity, and other
+diseases such as hypertension and diabetes), recognised "risk factors" only
+account for about 50 per cent of its prevalence. In recent years the possible role of
+micro-organisms (eg chlamydia) and the likely contribution of specific types of
+psycho-social stress in the workplace, such as lack of control over decision-
+making, have been considered to be causal.26 At present it is not known how
+these complex factors interact to "cause" disease and illness in any individual.
+Summary of Medical Views concerning the Cause of
+Disease and Illness
+Studies across the spectrum of disease and illness suggest the following
+aphorisms:
+Disease results from a subtle and complex interaction of multiple causes.
+Disease and possibly illness as well may be modified by psychosocial
+experiences, especially early-life experiences;
+Genetic constitution contributes significantly to the range, risk, severity
+and response to disease, as well as to interactions with environmental
+causes;
+Causal factors in "illness" and "disease" may operate at all
+biopsychosocial27 system levels;
+Given an inherent genetic constitution, physical, chemical, infectious and
+psychosocial causes interact to produce disease. The response is then
+subsequently modified by individual endocrinological, immunological
+and other responses. The experience of disease as illness is further
+modified by psychological and sociological responses.
+Differences Between Medical and Legal Views about
+Causation
+Diversity in views about linkages amongst causal factors and disease has been
+referred to previously. There are differences between individual practitioners
+from the same profession and between professional groups. Differences between
+legal and medical views sometimes reflect the historical characteristics of systems
+that have evolved to resolve disagreement. Although the necessity for courts to
+provide pragmatic and timely resolutions is clear, it is sometimes difficult for the
+scientific medical practitioner to comprehend legal decisions regarding causation.
+This is especially so when decisions with extensive repercussions are apparently
+made without scientific evidence or in spite of it. The problem is accentuated if
+previous decisions are not revised as new evidence becomes available.
+Consider the possible health risks of breast implants and the "interplay
+between medical science, law and public opinion".28 Breast augmentation was
+initially undertaken by direct injection and then by inserting siliconegel implants.
+About twenty years afterwards, anecdotes about connective tissue diseases
+affecting implant recipients were reported. Legal proceedings followed. Large
+settlements in the United States were made against implant manufactures on the
+basis of anecdotes in the absence of more scientific evidence. Soon after this the
+United States Food and Drug Administration banned breast implants, not because
+of demonstrable health risks, but because the manufacturers were unable to
+produce evidence that prostheses were safe. Two years later, as a result of more
+expensive settlements against them, the implant manufacturers agreed to a
+$US4.25 billion class-action settlement. The largest manufacturer, Dow Corning,
+filed for bankruptcy protection and in late 1999 a United States District
+bankruptcy judge approved Dow Coming's plan to settle for $3.2 billion. In 1996
+in an outstanding review of this case Angell concludes: "For now, however, we
+can say that the accumulated evidence that shows any link between breast
+implants and a variety of systemic diseases and symptoms is very small, if it
+exists at all."29 Recent publications support this view.30
+Sometimes the fear of litigation, possibly because of doubts about the capacity
+of legal processes to address scientific material fairly, may have striking
+consequences. "Bendectin" ("Debendox" in Australia), a drug mixture containing
+several constituents, was extensively used to treat nausea in pregnancy. It was
+withdrawn by the manufacturers when case-reports suggested possible foetal
+malformations. Although by current standards its efficacy is equivocal, a drug of
+probable value to many pregnant women is no longer available. The data on
+possible toxicity were only anecdotal.31
+What are the fundamental differences between legal and scientific standards
+for proof of causation? The medical approach, especially in this era of Evidence
+Based Medicine (EBM), is to review the available evidence, graded according to
+its scientific level, and then to apply this to the case at hand. The legal approach
+is quite different: "In contrast, a court may approach the issue from the
+standpoint of the presumptive inference which a sequence of events inspires in
+the mind of any common sense person."32 Although there is no absolute certainty
+about the validity of either approach, the scientific approach often requires more
+"hard" evidence than the legal utility of "presumptive inference", and is less
+subjective.
+The present legal paradigm is more like the medical paradigm that preceded
+EBM. It is relatively hierarchical and based more on authority than scientific
+evidence. "Medicine is a science and law is not. Developments in medicine are
+made by experiment and observation; in law they are made by the decisions of
+legislatures and judges. A medical fact is one which can be empirically supported
+or clinically determined; a legal fact is one which is more probable than other
+countervailing facts."33
+There are three elements of contemporary British, United States and Australian
+legal systems which tend to accentuate disagreement:
+The adversarial nature of the systems
+Contesting parties have no obligation to present all relevant evidence. They are
+entitled to present selected and potentially favourable evidence to the court.
+Furthermore, in contrast to the European inquisitorial model, the vision of the
+court, except in exceptional circumstances, is limited by the material presented by
+the adversaries. The judge cannot "... ferret out the truth in any absolute sense ...
+In our system the question is not 'What is the truth of the matter?' ... because the
+issue is whether the party carrying the burden of proof has discharged it".34
+The selection, qualifications and roles of expert witnesses
+Experts may be specifically chosen to present favourable opinions: "These
+witnesses are usually required to speak, not to facts, but to opinions; and when
+this is the case, it is often quite surprising to see with what facility, and to what
+extent, their views can be made to correspond with the wishes or the interests of
+the parties who call them".35 The capacity of the expert may be seen as very
+broad indeed. "... it follows that a medical practitioner nearly always is permitted
+to give evidence on any branch of medicine."36 Problems arise when "experts"
+undertake the very difficult task of extrapolating from the general issue to the
+particular case in the absence of significant past or ongoing clinical experience,
+and when the main emphasis in court is about their qualifications and status,
+rather than their evidence. The role of the expert is quite clear. "The expert's task
+is twofold. First, to furnish basic scientific or technical data. Second, to present
+inferences and conclusions from the facts which the judge or jury, for lack of
+specialised knowledge, cannot draw themselves. The expert is introduced to carry
+the proof to the conclusion for which the party presenting the evidence
+contends."37
+The relationship between the expert and the court is also unequivocal. "The
+expert evidence should give the medical or scientific basis and if appropriate the
+statistical likelihood of the requisite connection but it is then up to the jury to say
+whether the connection is established to their satisfaction."38
+The way in which the quality of evidence is assessed
+Structures to ensure that evidence is sound may be seen as fairly fragile: "Up to
+the present, Australian law has not contained any criterion for evaluating the
+quality of expert evidence as a threshold element to be satisfied as a test for
+admission. In the average case, where there is a conflict of medical evidence, the
+dispute is most often about a commonplace medical condition in which
+specialised support for any of the assertions that might be made are readily
+found. In the unusual case, the most novel proposition will have its adherents,
+who may compensate in vehemence for what they lack in scientific authority."39
+The clear communication of evidence about causation remains problematic.
+"There is the obvious danger that an expert when asked to provide an opinion as
+to whether a causal link exists may do so in terms of scientific proof that may be
+altogether too exacting for the degree of satisfaction necessary in a legal
+proceeding."40
+Resolving Differences in Views about Causation
+Responsibilities to our communities might be improved and professional
+disagreement reduced by:
+Accepting the historical evolution, strengths and weaknesses of current
+approaches to causation;
+Understanding the process of disease-framing and the role of influential
+stakeholders;
+Re-defining the role of the "expert witness";
+Evaluating the scientific quality of evidence presented in legal
+proceedings, and clearly distinguishing facts from opinions; and
+Improving communication both between professional groups and between
+professionals and the broader community.
+Figure 1
+Adapted from GL Engel 1980.41
+Figure 2
+Adapted from RB Hill.42
+Figure 3
+Adapted from NHMRC 1999.43
+* Clinical Director, General Medicine, at the Royal Melbourne Hospital, and a Principal Fellow in the
+University of Melbourne Department of Medicine.
+1 B Russell, History of Western Philosophy, 2nd edn, Routledge, London, 1961.
+2 CE Rosenberg & J Golden, Framing Disease: Studies in Cultural History, Rutgers University Press, New
+Jersey, 1992.
+3 R McGee, "Does Stress Cause Cancer?" (1999) 319 Brit Med J 1015.
+4 E Jones & S Wessely, "Case of Chronic Fatigue Syndrome after Crimean War and Indian Mutiny"
+(1999) 319 Brit Med J 1645.
+5 GE Simon, W Daniell, H Stockbridge, K Claypoole & L Rosenstock, "Immunologic, Psychological, and
+Neuropsychological Factors in Multiple Chemical Sensitivity: A Controlled Study" (1993) 119 Ann
+Intern Med 97.
+6 SE Ross, "Memes as Infectious Agents in Psychosomatic Illness" (1999) 131 Ann Intern Med 867.
+7 H Reichenbach, The Rise of Scientific Philosophy, University of California Press, Berkeley, 1951.
+8 K Popper, Unended Quest, Fontana-Collins, Glasgow, 1976, at p151.
+9 SM Cordner, "Deciding the Cause of Death after Necropsy" (1993) 341 Lancet 1458.
+10 GL Engel, "The Clinical Application of the Biopsychosocial Model" (1980) 137 Am J Psych 535.
+11 AS Feinstein & RI Horwitz, "Double Standards, Scientific Methods, and Epidemiological Research"
+(1982) 307 N Eng J Med 1611; B Russell, History of Western Philosophy, 2nd edn, Routledge, London,
+New York, 1961.
+12 AB Hill, "The Environment and Disease: Association or Causation?" (1965) 58 Proc R Soc Med 295.
+13 KS Trout, "How to Read Clinical Journals IV: To Determine Aetiology or Causation" (1981) 124 Canad
+Med Assos J 985: M Levine, S Walter, H Lee, T Haines, A Holbrook & V Moyer, "Users' Guides to the
+Medical Literature IV: How to Use an Article about Harm" (1994) 271 J Am Med Assoc 1615; MA
+Levine, "Readers' Guide for Causation: Was a Comparison Group for Those at Risk Clearly
+Identified?" (Jan-Feb 1992) 116 Am Coll Phys Journal Club A-12.
+14 AL Dans, LF Dans, GH Guyatt & S Richard, "Users' Guides to the Medical Literature XIV: How to
+Decide on the Applicability of Clinical Trial Results to Your Patient" (1998) 279 J Am Med Assoc 545.
+15 Evidence Based Medicine Working Group, "Evidence Based Medicine: A New Approach to the
+Teaching and Practice of Medicine" (1992) 268 J Am Med Assoc 2420.
+16 National Health and Medical Research Council, A Guide to the Development, Implementation and
+Evaluation of Clinical Practice Guidelines, NHMRC, Ausinfo, Canberra, 1999.
+17 DL Sackett, SE Strauss, WS Richardson, W Rosenberg & RB Haynes, Evidence-based Medicine. How to
+Practice and Teach EBM, 2nd edn, Churchill Livingstone, London, 2000.
+18 Ibid.
+19 M Levine, S Walter, H Lee, T Haines, A Holbrook & V Moyer, "Users' Guides to the Medical Literature
+IV: How to Use an Article about Harm" (1994) 271 J Am Med Assoc 1615.
+20 AL Dans, LF Dans, GH Guyatt & S Richard, "Users' Guides to the Medical Literature XIV: How to
+Decide on the Applicability of Clinical Trial Results to Your Patient" (1998) 279 J Am Med Assoc 545.
+21 G Stewart, "Chemokine Genes – Beating the Odds" (1998) 4 Nature Medicine 275.
+22 R Bellamy, C Ruwende, T Corrah, KPWJ McAdam, C Whittle & AVS Hill, "Variations in the NRAMP1
+Gene and Susceptibility to Tuberculosis an West Africans" (1998) 338 N Eng J Med 640.
+23 SE Valway, MPC Sanchez, TF Shinnick, I Orme, T Agerton, D Hoy, J Scott Jones, H Westmoreland & IM
+Onorato, "An Outbreak Involving Extensive Transmission of a Virulent Strain of Mycobacterium
+Tuberculosis" (1998) 338 N Eng J Med 633.
+24 Bellamy, Ruwende, Corrah, McAdam, Whittle & Hill, op cit, n22.
+25 T McKeown, The Modern Rise of Population, Edward Arnold, London, 1976.
+26 H Hemingway & M Marmot, "Evidence Based Cardiology: Psychosocial Factors in the Aetiology and
+Prognosis of Coronary Heart Disease: Systemic Review of Prospective Cohort Studies" (1999) 318 Brit
+Med J 1460.
+27 Engel, op cit, n10.
+28 M Angell, "Evaluating the Health Risks of Breast Implants: The Interplay of Medical Science, the Law,
+and Public Opinion" (1996) 334 New Eng J Med 1513.
+29 Ibid.
+30 C Cooper & E Dennison, "Do Silicone Breast Implants Cause Connective Tissue Disease?" (1998) 316
+Brit Med J 403; EC Janowsky, LL Kupper & BS Hulka, "Metaanalyses of the Relation Between Silicone
+Breast Implants and the Risk of Connective Tissue Diseases" (2000) 342 N Eng J Med 781.
+31 LB Holmes, "Teratogen Update, 'Bendectin'" (1983) 27 Teratology 277.
+32 H Gerber, "Lipovac v Black: was Dr Black Negligent?" (1999) 170 Med J Aust 550.
+33 G Samuels, "Medical Truth and Legal Proof: Changing Expectations of the Expert Witness" (1998) 168
+Med J Aust 84.
+34 Ibid.
+35 Ibid. See generally I Freckelton & H Selby, Expert Evidence: Law, Practice and Procedure, 2nd edn, Law
+Book Co, Sydney, 2002.
+36 G Samuels, op cit, n33.
+37 Ibid.
+38 Dahl and Anor v Grice [1981] VR 513, Young, Kaye, Gobbo.
+39 G Samuels, op cit, n33.
+40 Tubemakers of Australia Ltd v Fernandez (1976) 50 ALJR 720, per Stephen J.
+41 Engel, op cit, n10.
+42 Hill, op cit, n12.
+43 National Health and Medical Research Council, op cit, n16.

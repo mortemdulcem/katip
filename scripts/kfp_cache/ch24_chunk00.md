@@ -1,0 +1,42 @@
+## Disbarik Ölüm Olguları ve Barotravma
+
+### Giriş
+
+Vücutta dış basınç değişikliklerine bağlı oluşan hasarlar genellikle adli patologdan çok, belirli uzmanlık alanlarına sahip işyeri hekimliği veya silahlı kuvvetler hekimliğinin ilgi alanına girer. Bunun başlıca istisnası, 1943’te Fransız Donanması için Jacques-Yves Cousteau ve Émile Gagnan tarafından tasarlanan açık devre solunum sistemi olan “aqua-lung”tan geliştirilmiş SCUBA (self-contained underwater breathing apparatus; otonom sualtı solunum cihazı) ekipmanı ile yapılan rekreasyonel ve sportif dalışlardır.¹ Bu tür koşullarda ölüm meydana geldiğinde, her ne kadar kriminalite nadiren söz konusu olsa da, çoğunlukla yarı-yargısal (quasi-judicial) nitelikte resmi bir soruşturma veya kurum içi bir inceleme yürütülür. Tazminat talepli hukuk davaları da gündeme gelebilir ve bu durumlarda adli patolog, otopsi bulgularını sunan uzman tanık olarak sürece sıklıkla dâhil olur.
+
+Dalış, şu kaynaklara bağlı çeşitli riskler içerir:²  
+
+- Çevresel koşulların etkisi:  
+  Artan hidrostatik basıncın vücut yapısı ve fonksiyonu üzerindeki etkisi; artmış gaz yoğunluğuna bağlı solunum işinin (respiratory work) artması, değişen solunum mekaniği, periferden göğüs içine kan göçü ile akciğer hacminin azalması, solunum cihazına bağlı artmış ölü boşluk (dead space). Tüm bunlar ventilasyonun bozulmasına ve karbondioksit retansiyonuna katkıda bulunabilir; ayrıca özellikle çıkış sırasında basınçtaki hızlı değişikliklere bağlı, gazın genişlemesiyle ortaya çıkan doğrudan doku hasarı, barotravma veya dekompresyon hastalığı (decompression illness) gelişebilir.
+- Dalgıca ait bireysel özellikler:  
+  Örneğin kötü yüzdürme (buoyancy) kontrolü, yetersiz dalış planlaması ve stresli durumlarda paniğe yatkınlık.
+- Eşlik eden morbidite:  
+  Örneğin koroner kalp hastalığı, diabetes mellitus veya epilepsi.
+- Ekipman sorunları:  
+  Malfonksiyon veya uygunsuz gaz karışımları ya da kontaminant gazlarla zehirlenme.
+- Dalış ortamının potansiyel tehlikeleri:  
+  Soğuk su, kuvvetli akıntılar veya fiziksel travma.
+
+> **💬 Çevirmen notu:** Türkiye’de rekreasyonel dalışlarda ölüm olguları hem kolluk soruşturmalarında hem de sigorta/tazminat davalarında sıkça gündeme gelir. Adli otopsi raporunun, dalış planı ve dalış bilgisayarı kayıtları gibi teknik verilerle birlikte değerlendirilmesi önemlidir; bu tür olgularda çoğu zaman TÜBİTAK, Sahil Güvenlik veya dalış eğitmenlerinden teknik bilirkişilik de istenir.
+
+1670 gibi erken bir tarihte, 17. yüzyılın önde gelen bilim insanı Robert Boyle (1627–1691), ani atmosferik basınç düşüşüyle oluşabilecek etkileri çeşitli hayvan türleri üzerinde yaptığı deneylerle göstermiştir.³˒⁴ Calder, disbarik hastalık (dysbaric illness, DI) ile ilgili en erken gözlemlerden biri olabilecek 1631 tarihli Stockholm’deki bir olaya atıf yapar. 1628’de ilk seferinde alabora olup batan “Vasa” savaş gemisini yüzdürme girişimi sırasında, yüzeye çıkar çıkmaz “kan tükürdüğü” görülen bir dalgıçtan söz edilmektedir.⁵ DI semptomlarının bir başka erken gözlemi, 1839’da Fransız maden mühendisi Triger tarafından bildirilmiştir; Triger, kömür damarına, aradaki “bataklık kum” (quicksand) tabakasından geçerek ulaşmak için kömür madenciliğinde basınçlandırılmış metal tüpler veya kutular (“caisson”lar) kullanmaya başlamıştır.⁶ 1800’lerde, nehir köprülerinin nehir içi ayak ve dayanaklarının (abutment) su altı inşasında caisson’lar yaygın biçimde kullanılmıştır.⁷ 1854’te Fransa’daki Douchy madenlerinden, ikisi ölümcül olmak üzere çeşitli tıbbi sorunlar bildirilmiştir.⁸
+
+1878’de Paul Bert, DI’nin nedenini tanımlamış; yüksek dış basıncın atmosferik nitrojeni kan ve dokularda çözünmeye zorladığını göstermiştir.⁹ Hızlı dekompresyon, çeşitli zararlı etkilere yol açabilen kabarcık oluşumuna neden olur. Gaz kabarcıkları venöz staza, damar tıkanmasına ve dokularda iskemik hasara yol açabilir ve endoteli zedeleyebilir.¹⁰ Gaz kabarcıklarının kaynağı tam net olmasa da hayvan deneyleri, bunların perivasküler dokularda oluşabileceğini ve endotel aralıklarından damar içine kabul edilebileceğini düşündürmektedir.¹¹ İntravasküler kabarcıklar, genişleyen gazın alveol kılcallarını gerip yırtması ve arteriyel dolaşıma girmesi sonucu meydana gelen pulmoner barotravma sonucunda da oluşabilir.¹²
+
+> **💬 Çevirmen notu:** Paul Bert’in çalışmaları, dalış fizyolojisi ve hiperbarik tıp alanının temel taşlarındandır. Günümüzde dalış tabloları ve dekompresyon algoritmaları hâlâ Bert’in tanımladığı prensipler üzerine kuruludur.
+
+Zararlı basınç etkileri neredeyse her zaman, daha önceki bir düzeyden atmosferik basıncın düşmesi sonucu ortaya çıkar. Bu, ya yüksek basınçtan normal atmosferik basınca geçiş (hiperbarik maruziyet sonlanması) ya da normal basınçtan düşük basınca geçiş (hipobarik maruziyet) şeklinde olabilir. İlkine örnek, yüzeye doğru yükselen bir dalgıcın dekompresyonu iken; ikincisi, yüksek irtifada seyreden bir uçağın kabin basıncının düşmesi veya uzay aracının dışında uzay yürüyüşü sırasında ortaya çıkan koşullardır. Yaralanma ve ölüm açısından en sık olan ilk durumdur; bunun başlıca nedeni, son yıllarda açık deniz petrol endüstrisiyle ilişkili dalış faaliyetlerinde büyük artış olmasıdır; bu sektör Birleşik Krallık’ta en tehlikeli ticari istihdam türlerinden birini oluşturmaktadır.
+
+Disbarizm (dysbarism), disbarik hastalık (dysbaric illness) veya dekompresyon hastalığı/illness’ı (decompression illness, DI) terimleri, dekompresyonla ilişkili geniş yelpazede karmaşık patofizyolojik durumları kapsamak için birbirinin yerine kullanılmaktadır. Buna karşılık barotravma, gazın dokular içine geçmesiyle oluşan mekanik hasarı tanımlar.¹⁰  
+
+> **💬 Çevirmen notu:** Türkçe literatürde “disbarik hastalık” ve “dekompresyon hastalığı” terimleri birlikte kullanılmaktadır. Dekompresyon sonucu oluşan gaz kabarcıklarının oluşturduğu klinik tablo genellikle “dekompresyon hastalığı”, saf mekanik basınç hasarı ise “barotravma” olarak ayrılır; adli raporlarda bu ayrımın net yapılması önemlidir.
+
+Dalışta her 10 m su derinliği basıncı 1 atmosfer (101 kiloPaskal, kPa) artırır; bu, 760 mmHg’lik bir cıva sütununun basıncına eşdeğerdir. Bu nedenle rijit olmayan bir dalış giysisinde, hava tedarikinin çalışma derinliğine uygun basınçta sağlanması gerekir. Ulaşılabilen derinlik, kullanılan ekipmana bağlıdır ve yasal sınırlamalarla kısıtlanmıştır; örneğin Birleşik Krallık’ta nitrojen/oksijen karışımı kullanılarak 50 m (164 feet) üzerinde dalışa izin verilmez; bu derinliklerin ötesinde helyum gibi bir gazın kullanılması zorunludur.¹³ Benzer şekilde yüzey dekompresyonu da yalnızca 50 m (164 ft) altındaki derinlikler için kabul edilmektedir.
+
+Artmış basınçta hava verildiğinde, içindeki nitrojen (ve çok daha az ölçüde karbondioksit) progresif olarak plazma ve doku sıvılarında çözünür; çözünmüş miktar Henry yasası ile belirlenir: Bir gazın bir sıvı içindeki çözünürlüğü, o gazın parsiyel basıncı ile orantılıdır. Bu yasa, İngiliz hekim ve kimyager William Henry (1775–1836) tarafından 1803’te ortaya konmuştur. Bu durum, “nitrojen narkozu (nitrogen narcosis)” olarak adlandırılan ve oryantasyon, muhakeme ve rasyonel davranışın bozulduğu sarhoşluğa benzer bir tabloya yol açabilir; bu tablo 30 m’den daha derinlerde görülebilir.
+
+Buna karşın daha önemli fiziksel tehlike, yüksek basınç altında yeterince uzun süre kalarak dokularında anlamlı miktarda nitrojen çözünmüş bir dalgıcın, normal atmosferik basınca çok hızlı döndürülmesidir. Bu durumda çözünmüş gaz, tıpkı mantarı açılan şampanyanın köpürmesi gibi çözeltiden ayrılacaktır. Gaz kabarcıkları dolaşımda, dokularda ve eklem boşluklarında ortaya çıkarak geniş bir yelpazede klinik belirti ve bulguyla seyreden “dekompresyon hastalığı”na yol açabilir.
+
+Dolaşımdaki kabarcıklar, küçük damarları tıkayan gaz embolilerine neden olarak, özellikle omurilik gibi merkezi sinir sisteminde enfarktüslere yol açabilir. Buna ek olarak bu kabarcıklar, koagülasyon sistemine müdahale ederek trombosit agregasyonuna ve yaygın damar içi pıhtılaşmaya (dissemine intravasküler koagülasyon, DIC) neden olabilir. Deri altına giren gaz sonucunda subkutan amfizem ortaya çıkabilir.
+
+> **💬 Çevirmen notu:** Adli otopside omurilik, beyin ve akciğerlerin mümkünse su içinde kesilerek gaz kabarcığı araştırılması, özellikle şüpheli dalış ölümlerinde önemlidir. Bununla birlikte otopsi sırasında açığa çıkan çürüme gazları (putrefaction) ile gerçek intravasküler gaz embolilerini ayırt etmek güç olabilir; zaman faktörü ve makroskopik dağılım bu ayrımda kritik rol oynar.

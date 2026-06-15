@@ -1,0 +1,402 @@
+Introduction
+DANUTA MENDELSON AND IAN FRECKELTON
+Analysis of causation underpins both medical and legal practice, just as it
+pervades day-to-day functioning by members of the general community. Doctors,
+lawyers and people generally adopt rules of thumb and function on the basis of
+both assumptions and expectations in relation to what has caused things and
+what is likely to generate results in the future. Within clinical and research
+medical practice, though, causation in the form of aetiology or diagnostic or
+prognostic process is governed by rules and cultural norms that are significantly
+at variance with those prevalent within the legal system when it focuses upon the
+making of litigation findings.
+Under the law, the imperative of dichotomous decision-making constantly
+requires determinations of causation. The law is often not particularly interested
+in influences, impacts, or relationships. In criminal law, civil law, even coronial
+law, the question posed is whether an act has been proved to have caused or to be
+likely to cause something else. Because decision-making requires a finding about
+whether a fundamental issue such as causation is proved or not proved, the
+existence or non-existence of proof of causation is consistently fundamental to
+the outcome of litigation. It is surprising then that the law has struggled for so
+long with not just what constitutes "causation" but with how it cart be proved.
+This has resulted in a series of different tests, rules and procedures, making
+evaluation of litigants' prospects of success difficult and hard to explain to
+persons from a non-legal background.
+A particular aspect of the difficulty is that "causation" often means different
+things to representatives of different professions; this has impacted adversely
+upon the success of the law's search for resolution of different strands of thinking
+about causation. This book grapples with the conceptual complexities in a
+selection of different forensic contexts, employing perspectives from leading
+thinkers in medical, scientific, philosophical and jurisprudential backgrounds in
+an effort to locate both reconciliation and principles that can be applied across
+different categories of dispute.
+The book includes medical/scientific contributions and legal contributions. The
+legal chapters identify and discuss conceptual uncertainties embedded in the
+substantive law of causation and evidentiary and procedural principles that
+govern the forensic process involving medico-legal issues. The medical chapters
+define pertinent issues of aetiology and pathogenesis, the nature of proof in
+medicine, the concept of evidence-based medicine, and issues of medical
+morality. The book is divided into five parts.
+In part A, which examines different understandings of causation in law,
+medicine and science, the authors focus on particular aspects of this concept.
+Tony Honoré points out that since inquiries into the processes by which things
+happen, or have happened, are predicated on the concept of cause, the notion of
+causation, in the sense of objectivity, regularity and the possibility of cognition, is
+the same in law, medicine, science and everyday life. To establish a causal
+connection between events presents greater difficulty in the organic (including
+the medical) sphere than in the inorganic, purely physical, owing to the greater
+complexity of organic processes. The problem confronting the law is that of
+striking a balance which takes account of the complexity of organic processes and
+is at the same time fair to the wrongdoer. At their jurisprudential core, causation
+and legal liability are linked by the notion of responsibility for good or bad
+outcomes of human conduct.
+The application in Hippocratic medicine and the Roman law of delict of the
+Aristotelian theory of efficient or triggering and latent causes is discussed by
+Mendelson. The relationship between efficient causes (that can be determined on
+the basis of factual evidence drawn from sensory observation and experience),
+and the latent or underlying causes (which explain scientifically or
+philosophically why something has happened) is as controversial today as it was
+in classical Greece and Rome, though the language of the discourse may be
+different. In the modern common law of negligence, the causal connection
+between the defendant's wrongful act and the plaintiff's harm is considered to be
+one of the elements essential to the attribution of legal responsibility.
+Stapleton analyses conceptual implications of the rejection by the common law
+courts of causation as a scientific and philosophical concept in cases where there
+exists the so-called "evidentiary gap" in relation to past facts or about the weight
+to place on agreed facts in issue. Stapleton suggests that in such cases the courts
+should recognise the dispute as revolving around competing views of legal
+responsibility. Consequently, the courts should refuse to accept a formulation as
+being about "causation" and "causal tests", and instead insist that the parties argue
+directly about the issues of policy and principle relevant to the question of
+responsibility, If adopted by the courts, this approach would mean that other
+approaches to causation, including the modern scientific and medical models of
+causation, would be able to enter the arena of legal discourse. Mendelson is less
+certain, arguing that whereas modern medicine has developed scientific
+methodology to discover many causes, which Hippocratic medicine classified as
+"latent" or underlying causes, modern jurisprudence has failed to develop an
+equivalent legal methodology of ascertaining causal origins of wrongful events.
+Greenberg explains how causal methodology works within the model of
+"evidence-based" medicine whereby a cause is linked with a particular condition
+if a number of preconditions are satisfied. These preconditions include data
+gathered from statistical studies showing that the cause in question precedes the
+physiological or psychological outcome; that this cause/outcome association is
+consistent across time as well as patient groups and settings; that the
+cause/outcome relationship is biologically plausible, by demonstrating, for
+example, that there exists a relationship between the likelihood or severity of
+disease and the magnitude of the cause and that this relationship is independent
+of observational study bias. Yet the scientific methodology is far from fail-proof,
+for, as Greenberg demonstrates, "even when group studies show unequivocal
+relationships between causal factors and disease, it may be difficult to extrapolate
+conclusions to individuals", which, of course, is what the courts have to
+determine in medico-legal litigation. At the same time, taking up the strands of
+Stapleton's exposition, Greenberg notes that lay, including legal, perceptions
+about medical causation depend partly on scientific and technological knowledge
+of the time and partly on philosophical, cultural, religious, political and
+sociological beliefs that "frame" the questions which are asked about the illness or
+disease.
+Edmond and Mercer analyse the relationship between medical and scientific
+approaches to causation on the one hand and those found in legal settings on the
+other. They observe that the law tends to place greater emphasis on the
+apportionment of responsibility and explaining specific instances – the case at
+hand – rather than, as is often the case in science where the tendency is to make
+generalisations, about classes of relationships. However, they maintain that
+findings of a legal causation have social implications and should not be
+approached as a "simplistic or textbook-style" set of definitions and comparisons.
+They argue that decision-makers should strategically construct images of
+scientific and legal causation drawing from a variety of epistemic domains, policy
+considerations and practical contingencies. Specifically addressing what
+constructively can be done to ease the task of decision-makers, they argue that
+attempts to initiate change need to be systemic. In particular, the changes need to
+assist decision-makers' and witnesses' ability to marshal resources effectively.
+Part B focuses on different aspects of causation in the law of torts. Callinan
+examines judicial approaches to tests of causation, chronicling the climate of
+disagreement amongst the judiciary, legal commentators and the community
+about not only how rules of causation and responsibility should be applied, but
+even what rules should apply, particularly in such difficult factual situations as
+palliative care. He queries whether there is a tendency for lawyers to believe that
+all is controllable; that scientific development has replaced biological uncertainty.
+He notes the tension between the law's demarcation between lawful palliative
+care and unlawful homicide on the basis of the intention of the medical
+profession administering the treatment. Determination of causation in this
+context raises fundamental ethical and legal problems, which are yet to be
+resolved. That uncertainty, however, must inevitably result in very difficult
+decisions regarding responsibility of medical practitioners practising in the fieid.
+The theme of cause and legal responsibility discussed by Honoré from a
+jurisprudential and philosophical perspective is further examined by Mason, who
+concentrates on the "staggering march" of negligence. This cause of action has
+opened up new areas of responsibility for omissions, careless advice, pure
+psychiatric injury and pure economic loss. In particular, Mason examines judicial
+application of the notion that tort law is an instrument of corrective justice and
+that negligence at common law is still a fault-based system (though he also
+provides case law instances where principles of distributive justice have been
+influential). He argues that until recently the extent of the tortfeasor's moral
+responsibility has usually been explained through the concept of causation with
+control devices such as effective cause, remoteness of damage and novus actus
+interveniens. However, although causation principles continue to occupy a central
+role in the resolution of litigation, they have been affected by the need for greater
+transparency in enunciating reasons for the "hard" choices in tort liability. Like
+Stapleton, Mason argues that although the courts tend to emphasise that
+questions of causation are not answered in a legal vacuum, their approach
+remains normative and impressionistic.
+One of the "hard choices" in torts law, which also involves the issue of
+"evidentiary gap" is the loss of chance doctrine, discussed by a number of authors
+in different contexts. Luntz analyses the caselaw relating to this doctrine in the
+context of medical negligence litigation which would allow compensation where
+the only loss involves the loss of a chance at a favourable opportunity to have a
+medical condition treated at an early stage or of a chance of avoiding a
+detrimental event, such as the possibility of a cure. Luntz argues that loss or
+diminution of such chance, when caused by a medical practitioner's negligence,
+should be compensable, irrespective of whether the chance was greater or less
+than even, as long as it was more than speculative. This should be so despite the
+fact that whereas damages for past and present events which the parties allege
+are proved on the balance of probabilities (to have or to have not occurred), a loss
+of chance, is at best a hypothetical event, which could only be established as a
+possibility. Admittedly, the but for test of causation involves a hypothetical
+question of what would have happened had the defendant not been negligent in
+an identical set of circumstances. Whether obtaining damages for a loss of a
+hypothetical event can be equated with a test which utilises hypothetical
+reasoning, and which is not the sole test of causation, is another question.
+Another issue relating to the loss of chance doctrine which the courts are yet
+to resolve concerns the effective inversion of legal causation in negligence by
+shifting the legal burden of proof from the plaintiff, who traditionally is required
+to establish that the defendant's breach of duty of care had caused or materially
+contributed to his or her injury, to the defendant who has to prove not the
+absence of a legal nexus between the breach and injury but the absence of such
+nexus between the breach and the loss of a chance. This means that the
+defendant is expected to disprove a negative, namely that the breach of duty did
+not deprive the plaintiff of a chance not to suffer loss or of a possibility to
+minimise that loss. This is a question explored by Freckelton in the Epilogue to
+the book. In his chapter, Smith develops Greenberg's analysis of causation in the
+medical context by analysing the complex relationship between aetiology and
+perceptions in the context of pain and injury in cases of low back pain – a
+compensable injury that is often at the centre of forensic controversy in torts
+litigation.
+In Part C Lanham explains that the approach of the criminal law to
+determination of liability for causing death involves asking two questions: first, is
+there a factual link between the defendant's conduct and the victim's death;
+secondly, is the link sufficiently substantial to make the defendant's conduct the
+cause of death? The factual link is sometimes described as the but for
+requirement or causa sine qua non test. According to this test, causation is
+established if the death would not have occurred but for the act of the defendant.
+Conceptual and jurisprudential difficulties in the application of the but for test in
+torts and in criminal law have long been recognised. Lanham provides a number
+of examples where the but for test would result in acquittal, yet a wider analysis
+would suggest the presence of a causative link. Even if the factual link is
+established, the law has to test whether that link is sufficiently strong to attribute
+the death to the defendant's action. Lanham questions the appeal to common
+sense in resolving issues of causation, noting that although it is true that common
+sense or sound judgement will need to be applied in assessing any matters of
+degree in which the legal tests present, it is neither a substitute for these tests nor
+does it provide an independent legal test. Lanham analyses different tests of
+causation, which include the general formula that to found liability a cause must
+be a substantial and operating cause; special sub-rules; and the issues of
+intention, foresight and foreseeability. He argues that the formula of "substantial
+and operating cause" is deficient in capturing the basic principle in causation, for
+there must be a point at which a cause is still operating but is so insubstantial
+that it should not result in liability. At the same time, a cause cannot be
+substantial unless it is operating. This was the issue that the Roman jurists found
+difficult to resolve. Lanham argues that in the case where there is an original
+injury and a second and more direct cause of the death, like poor medical
+treatment, only if that second cause is so overwhelming as to make the original
+wound part of the history can it be said that death does not flow from the
+wound.
+The question whether the underlying illness or palliative care involving
+administration of high doses of opioid medication should be regarded as a cause
+of death, examined by Callinan from the perspective of criminal law, is analysed
+by Ashby from the point of view of a physician. Ashby notes that dialogue
+between medicine and the law is hampered by the fact that the term "causation"
+is usually employed in medicine and science in a narrow empirical sense,
+whereas in law causation is a complex phenomenon which encompasses the facts
+and determination of legal liability. Most people without a legal background, and
+hence most health care practitioners, will have first resort to the medical view of
+causation, which approximates to the but for test of causation without the over-
+arching test of common sense and experience.
+Like Stapleton and Greenberg, Ashby discusses the issues of perceptions and
+framing, but he does so in relation to death causation in palliative care. He asks
+why medicine itself has failed to deal with ethical and legal problems of
+causation in this context, and discusses such reasons as the anxieties experienced
+by physicians about responsibility for causing death, as well as questionable
+assumptions by health care professionals and the public concerning the
+established international medico-legal view of palliative care interventions and
+death causation. Ashby demonstrates that many doctors still believe that they are
+causing or hastening the death of their palliative care patients by the
+administration of pain-controlling medication, despite the absence of any clinical
+scientific evidence that morphine causes death, if used with appropriate skill to
+palliate symptoms.
+Palliative care is an excellent example of the inadequacy of the operative cause
+test as the sole determinant of legal causation, for, as Callinan and Ashby point
+out, it leaves out the issue of intention. Whilst a doctor's therapeutic intention
+may not always be easy to validate, evaluation of intention and motive are
+fundamental to legal analysis, and many would argue that intention is also
+determinative of the moral character of medical interventions. According to
+Ashby, the notion that there is agreement about a "high" dose of an opioid drug
+such as morphine beyond which timing and possibly causation might be in
+question has permeated medicine and found legal reflection in the 1957
+instruction to the jury by (later) Lord Devlin in R v Adams. Ashby argues that
+although incorporation of the double-effect doctrine into the legal system is
+supportive of palliative care, much has changed in medicine (and society) since
+1957. He discusses the deficiencies of the "double-effect" doctrine when viewed
+from the medical perspective.
+Malcolm also critically analyses different legal bases for Lord Devlin's doctrine
+of "double effect". He examines various judicial interpretations of this doctrine,
+including its consideration as a discrete legal precedent in the form of a test that
+focuses on the defendant's intention rather than a causal link, or a specific
+principle of causation. Again, he demonstrates how the determination of causal
+link for death that occurs following administration of high doses of pain-relieving
+drugs will depend on a particular interpretation of the doctrine that the court
+adopts.
+Another aspect of medical treatment where the issue of causation may arise
+involves refusal of life-saving or life-sustaining treatment. Malcolm discusses the
+approaches of North American, English and Australian courts to the right of a
+competent adult to refuse life-saving or life-sustaining treatment and doctors'
+liability for causing death, noting that the acceptance of this "right" in the law of
+tort may also provide an excuse at criminal law. As he puts it, where competent
+patients who have been fully informed of available treatment options refuse to
+give consent, medical practitioners are relieved of their duty to these patients.
+This principle is particularly significant in the context of the criminal sanctions
+that apply to an omission to provide such treatment, for in the absence of a duty
+to the patient, a medical practitioner may not be held liable for his or her failure
+to provide "necessaries".
+While Malcolm's discussion of liability of doctors for omissions and positive
+acts relating to withholding or withdrawal of medical treatment and life supports
+is predicated on the assumption that the refusing patient is a competent adult,
+Helme and Mendelson examine medical aspects of competency in relation to
+patients with Alzheimer's Dementia. This condition has profound implications for
+questions of decisional competence not only with regard to refusal and
+withdrawal of medical treatment, but also to issues of competence and decisional
+capacity relating to inter vivos and testamentary dispositions in the context of the
+equitable doctrines of unconscionability and undue influence. When severe, the
+diagnosis of dementia is easily made. In its earliest stages, however, even the
+most skilled clinicians remain unsure. Yet, it is at this relatively early stage that
+many elderly persons make decisions both about their health and their wealth.
+Helme and Mendelson query the appropriateness of applying a strict cognitive
+test to persons with Alzheimer's Dementia, and point out problems with medical
+and legal assessment of competence. This makes the task of those concerned with
+the judgement of competence particularly difficult when in issue is the refusal of
+life-saving treatment and exercise of the "right to die".
+In cases of persons diagnosed with dementia, their inter vivos and
+testamentary dispositions may be open to challenge on the ground that, due to
+"defective faculties", the disposing or transacting party was incapable of
+understanding their significance and purpose. Alternatively, dementia may be
+pleaded as the cause of the inability of the disposing party to consider his or her
+best interests, and the unfair exploitation of this circumstance by the defendant.
+Yet, the issues involved are much more complex. Helme and Mendelson argue
+that considerable care must be taken in making judgements based on personal or
+strictly juridical interpretations of observed behaviour. Rather, these behaviours
+should be interpreted from the subjective point of view of the affected person's
+brain and in the context of his or her social and personal situation.
+Part D of the book grapples with issues concerning death and injury
+investigation, again from both a medical and a legal perspective. Cordner
+describes the role of the forensic autopsy conducted by pathologists. He contrasts
+the Hume and Mills approaches and examines a variety of circumstances in
+which the causes of death are indirect, multiple and complex. He notes too that
+on occasions determination of causation of death from a medical point of view is
+entirely dependent upon circumstances. He contends that if there is operating at
+the time of death a disease or condition capable itself of causing or accelerating
+death, and in the circumstances of the particular death its effects apparently
+exerted themselves, then the disease or condition should be regarded as part of
+the cause of that person's death. Cordner also argues that if a disease or condition
+(whether or not a potentially fatal condition) aggravates or complicates another
+disease or condition (whether or not a potentially fatal condition) such that death
+occurs, then both diseases or conditions should generally be viewed as part of the
+cause of death.
+Wells addresses the issue of causation within the clinical forensic medicine
+context. He recognises that a range of factors is capable of contaminating the
+accurate assessment of the factors that, for instance, have caused injuries or that
+provide evidence in relation to sexual assaults upon either adults or children
+having taken place.
+Freckelton analyses coronial law to evaluate whether it has evolved its own
+distinctive jurisprudence in relation to causation. In the context of contending
+that causation assessment is intrinsically context-dependent, he argues that the
+orientation of modern coronial law toward findings that have a potential for
+avoiding avoidable death has affected the tests employed for causation at
+inquests. He argues that there is considerable social merit in causation being
+viewed broadly within the coronial context, thereby encouraging investigation of
+both direct and indirect factors that have brought about deaths, fires and other
+phenomena involving risk to the community.
+Part E deals with a number of different issues of causation as they manifest in
+forensic practice. Slovenko deals with the complex series of areas where
+psychiatric evidence seeks to assist courts in understanding causation issues in
+relation to mental health. He divides his chapter into sections dealing with
+behaviour that takes place as a result of mental illness, and mental illness that
+ensues as a result of a stressor. He poses the question: what does it mean to say
+that certain behaviour is a product or a feature of mental illness? He concludes
+that the terms used by legislatures and courts such as "product of", "a result of",
+"causal connection", "because of", "causative factor" are unsatisfying and
+impenetrable. He reviews a series of psychiatric theories about why people act in
+ways which may bring them into contact with the criminal justice system and
+argues that behaviour is a unitary process, but, with licence, it is spoken of in
+terms of either its subjective elements or its outward appearances. This can be
+like talking about the mind and body as though they had separate existence; we
+do it, he contends, because we do not have language expressive of continuous
+interactions with multiple or circular causality. He argues that the decision of
+whether behaviour is a "product" or a "result" of mental illness is not a matter of
+scientific expertise but a matter of social policy.
+In analysing "psychiatric injury" Slovenko traces the evolution in the attitudes
+of United States courts toward the phenomenon, as well as the evolving thinking
+of psychiatry, in particular in relation to post-traumatic stress disorder ("PTSD").
+He reviews another attribute of modern litigation involving mental health
+matters, the syndrome phenomenon, which is often associated with PTSD. He
+argues that in the law-psychiatry relationship, public policy plays a major role in
+determining whether certain kinds of behaviour will be considered to be the
+result of mental illness, or whether mental illness will be considered to be the
+result of a particular stressor.
+Like Callinan, but from a different perspective, Doyle analyses the tests for
+causation in tort. He argues that "a function", or perhaps "the function", of the
+concept of causation in negligence, is to define the outer limits of harm or loss
+suffered by other persons for which the defendant may be held liable, if found to
+have been negligent. He locates the law's interest in causation in the civil context
+in the need to allocate legal responsibility for harm or damage suffered by a
+plaintiff. He makes the point that the making of a finding of causation gives rise
+also to a number of other considerations which can have significant
+consequences beyond the decision between the immediate parties. He argues that
+it is legitimate to take into account these other considerations when considering
+the soundness of the concept. Doyle reviews Australian law in relation to
+causation in the contexts of failure to advise and failure to warn of risks. He
+observes that the "but for" test and the common sense tests will continue to test
+the courts in particular applications.
+Magnusson develops an aspect of Doyle's chapter by analysing a crucial aspect
+of proof of causation in a forensic setting – that sought to be done by the use of
+statistics. Statistical reasoning is employed increasingly frequently in the forensic
+context, in two ways – by the explicit presentation of statistical argument and,
+more broadly, by taking advantage of the conceptual approach inherent in
+statistical reasoning. Magnusson comments that statistical methods allow
+scientists and engineers to apply common sense to data that, like data of any
+other kind, are inexact. He accepts though that the potential for
+misunderstanding statistical proof of causation is substantial and illustrates the
+risk of mis-estimation by a series of worrying examples. He argues that the
+challenge for the courts is to ease the task for decision-makers by making
+statistical reasoning more accessible.
+In his Epilogue, Freckelton analyses a selection of issues that occur at the
+practical end of forensic assessment of causation. He argues that many of these
+issues arise out of expert evidence. Some are statistical, as outlined by
+Magnusson; others go to the capacity of decision-makers to apply the kinds of
+tests outlined by Doyle. The evidence given by patients that had they been
+properly informed of the potentially adverse consequences of medical
+intervention, they would not have undergone it, can be particularly problematic.
+The role of hindsight revision can be substantial, whether an objective, subjective
+or modified subjective test is utilised. Freckelton argues that broad notions of
+"common sense" pose significant difficulties for decision-makers when they have
+to decide whether an act caused an outcome or might at some stage in the future
+produce an outcome.
+Freckelton also discusses a number of difficult dilemmas faced by decision-
+makers when they have to evaluate epidemiological evidence, evidence about the
+aetiology of currently suffered psychiatric conditions and evidence about
+conditions that may have multiple aetiologies or that were prodromal at the time
+of a tortious or criminal act. Fie argues that difficulties exist both in criminal and
+tort law, resulting in a need for consistency and guidance for decision-makers if
+the sheer complexity of causation assessment in practice is not to retreat into
+impressionistic and unreliable fact-finding.
+The book therefore is cross-disciplinary and views issues concerning causation
+through a number of different Senses. It does not purport to provide an
+overarching "solution" to the complexities faced by the courts when dealing with
+causation evidence. Its concentration is upon identifying difficulties and
+incompatibilities amongst the approaches of different disciplines to causation and
+upon grappling with what these differences and lack of conceptual consistency
+mean for the practical conduct of litigation. We are convinced that the integrity
+and regard in which the law is held within the general community depend upon
+its being responsive, and being seen to be responsive, to the values and enriching
+approaches of other disciplines. This book airs those values and approaches, while
+commencing the process of exploring how, consistently with its own objectives,
+the law can draw upon them in defining causation and how causation is
+established within the legal domain. In this regard, Causation in Law and
+Medicine is a beginning, not an end.

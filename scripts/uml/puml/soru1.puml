@@ -1,0 +1,67 @@
+@startuml soru1
+!include _style.iuml
+title Soru 1 — Personel Takvimi · Observer (+ Mediator)
+
+interface Yayinci <<interface>> {
+  + aboneEkle(g : Gozlemci)
+  + aboneCikar(g : Gozlemci)
+  + haberVer()
+}
+interface Gozlemci <<interface>> {
+  + guncelle(olay : Etkinlik)
+}
+interface TakvimAracisi <<interface>> {
+  + etkinlikDegisti(e : Etkinlik)
+  + salonUygunMu(salonNo, b, s) : boolean
+}
+
+class Personel {
+  - sicilNo : int
+  - ad : String
+}
+class Takvim {
+  + etkinlikEkle(e : Etkinlik)
+  + ayniGunSonrakiler(e : Etkinlik) : List<Etkinlik>
+}
+class Etkinlik {
+  - ad : String
+  - tarih : Date
+  - salonNo : int
+  - baslangic : Time
+  - bitis : Time
+  + saatGuncelle(b : Time, s : Time)
+  + haberVer()
+}
+class KatilimciBildirimi {
+  + guncelle(olay : Etkinlik)
+}
+class SalonRandevuSistemi {
+  + guncelle(olay : Etkinlik)
+  + etkinlikDegisti(e : Etkinlik)
+  + salonUygunMu(salonNo, b, s) : boolean
+}
+
+Yayinci <|.. Etkinlik
+Gozlemci <|.. KatilimciBildirimi
+Gozlemci <|.. SalonRandevuSistemi
+TakvimAracisi <|.. SalonRandevuSistemi
+
+Personel "1" -- "1" Takvim : sahip >
+Takvim "1" o-- "0..*" Etkinlik : etkinlikler >
+Etkinlik "0..*" -- "1..*" Personel : diğer katılımcılar >
+Etkinlik "0..*" ..> "1" TakvimAracisi : koordinasyon
+Etkinlik o-- "0..*" Gozlemci : aboneler >
+KatilimciBildirimi "1" --> "1" Personel : bildirir >
+
+note top of Etkinlik
+  <b>Observer/Subject.</b> saatGuncelle()
+  çağrılınca haberVer() ile aynı gün
+  SONRAKİ etkinliklerin katılımcıları +
+  salon randevu sistemi OTOMATİK güncellenir.
+end note
+note right of SalonRandevuSistemi
+  <b>Mediator.</b> Personeli birbirine
+  doğrudan bağlamadan salon randevularını
+  ve çakışmaları tek noktadan koordine eder.
+end note
+@enduml

@@ -1,0 +1,30 @@
+@startuml soru4
+!include _style.iuml
+title Soru 4 — Kütüphane Ödünç · Alan Modeli (İlişki Sınıfı)
+
+class Ogrenci {
+  - ogrenciNo : String
+  - ad : String
+}
+class Kitap {
+  - isbn : String
+  - ad : String
+}
+class Odunc {
+  - alisTarihi : Date
+  - iadeTarihi : Date [0..1]
+  + iadeEdildiMi() : boolean
+}
+
+Ogrenci "1" -- "0..*" Odunc
+Kitap "1" -- "0..*" Odunc
+(Ogrenci, Kitap) .. Odunc
+
+note bottom of Odunc
+  <b>GoF örüntüsü gerekmez — saf alan modellemesi.</b>
+  Çok-çoğa ilişki (bir kitap farklı zamanlarda farklı
+  öğrencilerde; bir öğrenci aynı anda çok kitap) bir
+  <b>ilişki sınıfı</b> (Odunc) ile çözülür.
+  iadeTarihi boş (0..1) = henüz iade edilmedi.
+end note
+@enduml

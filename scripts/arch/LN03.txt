@@ -1,0 +1,630 @@
+- Viewpoints and Views –
+from the book:
+
+Software Systems Architecture - Working with Stakeholders using
+Viewpoints and Perspectives, 2nd ed; Rozanski & Woods
+
+BYZ652 Software Architectures (Week #3)
+
+Example Scenario – Revisited:
+
+Airline Reservation System (ARS)
+•
+
+An airline reservation system supports
+a number of different transactions to
+book airline seats, update or cancel
+them, transfer them, upgrade them,
+and so forth.
+
+•
+
+The externally visible behavior of the
+system (what it does) is its response to
+the transactions that can be submitted
+by customers, such as booking a seat,
+updating a reservation, or canceling a
+booking. The quality properties of the
+system (how it does it) include the
+average response time for a
+transaction under a specified load, the
+maximum throughput the system can
+support, system availability, and the
+time required to repair defects.
+-2-
+
+Some Architectural Questions
+• What are the main functional elements of your architecture?
+• How will these elements interact with one another and with the outside world?
+
+• What information will be managed, stored, and presented?
+• What physical hardware and software elements will be required to support
+these functional and information elements?
+• What operational features and capabilities will be provided?
+• What development, test, support, and training environments will be provided?
+-3-
+
+A possible (but not to do) solution
+• A common temptation is to try to answer all of these questions by means of a
+single, heavily overloaded, all-encompassing model.
+– This sort of model will probably use a mixture of formal and informal notations to
+describe a number of aspects of the system on one huge sheet of paper.
+• E.g. the functional structure, software layering, concurrency, intercomponent communication,
+physical deployment environment, and so on.
+
+• It simply is not possible to describe a software architecture by using a single model.
+– Such a model is hard to understand and is unlikely to clearly identify the architecture’s
+most important features.
+– It tends to poorly serve individual stakeholders because they struggle to understand the
+aspects that interest them.
+– Because of its complexity, a monolithic Architectural Description is often incomplete,
+incorrect, or out-of-date.
+-4-
+
+Example Scenario:
+
+Airline Reservation System (ARS)
+• ARS is conceptually fairly simple, but in practice, some aspects
+make it very complicated indeed.
+– The system’s data is distributed across a number of systems in
+different physical locations.
+– A number of different types of data entry devices must be supported.
+– The system must be able to present some information in different
+languages.
+– The system must be able to print tickets and other documents on a
+wide range of printers.
+
+– The plethora of international regulation complicates the picture even
+further.
+
+-5-
+
+The necessity for the views
+Principle
+• It is not possible to capture the functional features and quality properties
+of a complex system in a single comprehensible model that is
+understandable by and of value to all stakeholders.
+A widely used approach is to attack the problem from different directions
+simultaneously. Architectural Description is partitioned into a number of
+separate but interrelated views, each of which describes a separate aspect of
+the architecture. Collectively, the views describe the whole system.
+
+Strategy
+• A complex system is much more effectively described by using a set of
+interrelated views, which collectively illustrate its functional features and
+quality properties and demonstrate that it meets its goals.
+-6-
+
+Architectural Views
+Definition
+• A view is a representation of one or more structural aspects of
+an architecture that illustrates how the architecture addresses
+one or more concerns held by one or more of its stakeholders.
+– This idea goes back to the work of David Parnas in the 1970s and more recently Dewayne
+Perry & Alexander Wolf in the early 1990s.
+– In 1995, Phillipe Kruchten of the Rational Corporation published his widely accepted
+written description of view points, Architectural Blueprints—The 4+1 View Model of
+Software Architecture.
+• This suggested four different views of a system and the use of a set of scenarios (use cases) to
+check their correctness.
+
+– More recently, IEEE Standard 1471 has formalized these concepts and brought some
+welcome standardization of terminology.
+• IEEE Std 1471 - Recommended Practice for Architecture Description of Software-Intensive Systems
+
+-7-
+
+How to decide
+what to include in a view?
+• When deciding what to include in a view, ask yourself the following:
+– What class(es) of stakeholder is the view aimed at?
+• A view may be narrowly focused on one class of stakeholder or even a specific individual,
+or it may be aimed at a larger group whose members have varying interests and levels of
+expertise.
+
+– How much technical understanding do these stakeholders have?
+• Acquirers and users, for example, will be experts in their subject areas but are unlikely to
+know much about hardware or software, while the converse may apply to developers or
+support staff.
+
+– What stakeholder concerns is the view intended to address?
+• How much do the stakeholders know about the architectural context and background to
+these concerns?
+
+– How much do these stakeholders need to know about this aspect of the
+architecture?
+• For nontechnical stakeholders such as users, how competent are they in understanding its
+technical details?
+-8-
+
+Viewpoints
+• It would be hard work if every time you were creating a view of
+your architecture you had to go back to first principles to define
+what should go into it.
+– In his introductory paper, Kruchten defined four standard views, namely,
+Logical, Process, Physical, and Development. The IEEE standard makes this
+idea generic (and does not specify one set of views or another) by proposing
+the concept of a viewpoint.
+
+• The objective of the viewpoint concept is an ambitious one—no
+less than making available a library of templates and patterns:
+– that can be used off the shelf to guide the creation of an architectural view
+that can be inserted into an Architectural Description (AD).
+-9-
+
+Philippe Kruchten’s
+4+1 View Model of Software Architecture
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Architectural Viewpoint
+Definition
+• A viewpoint is a collection of patterns, templates, and conventions for
+constructing one type of view. It defines the stakeholders whose
+concerns are reflected in the viewpoint and the guidelines, principles,
+and template models for constructing its views.
+
+• In a relatively unstructured activity like architecture definition,
+the idea of the viewpoint is very appealing.
+– If we can define a standard approach, a standard language, and even a
+standard meta-model for describing different aspects of a system,
+stakeholders can understand any Architectural Description that conforms
+to these standards once familiar with them.
+- 11 -
+
+The Textbook’s Viewpoint Catalog
+
+Reference: “Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives”,
+Nick Rozanski & Eoin Woods. ISBN: 0321112296, Addison-Wesley Professional (25th April 2005).
+- 12 -
+
+The Functional View
+
+- 13 -
+
+Functional Viewpoint
+• The cornerstone of most ADs and often, the first part of the description that
+stakeholders try to read.
+• Drives the shape of other system structures such as the information structure,
+concurrency structure, deployment structure, and so on.
+• Has a significant impact on the system’s quality properties such as its ability to
+change, its ability to be secured, and its runtime performance.
+
+Notation: UML Component Diagram
+
+- 14 -
+
+The Information View
+
+- 15 -
+
+Information Viewpoint
+• Describes the way that the architecture stores, manipulates, manages, and
+distributes information.
+• Develops a high-level view of static data structure and information flow.
+• Answers the big questions around content, structure, ownership, latency,
+references, and data migration.
+
+Notation:
+Data-Flow
+Diagram (DFD)
+
+Notation:
+UML Class Diagram
+
+- 16 -
+
+The Deployment View
+
+- 17 -
+
+Deployment Viewpoint
+•
+•
+
+Describes the environment into which the system will be deployed, including capturing the
+dependencies the system has on its runtime environment.
+Captures hardware environment that your system needs (processing nodes, network interconnections, disk storage facilities), technical environment requirements for each element,
+and the mapping of the software elements to the runtime environment that executes them.
+
+Notation: UML Deployment Diagram
+- 18 -
+
+The Development View
+
+- 19 -
+
+Development Viewpoint
+• Describes the architecture
+that supports the software
+development process.
+• Communicates the aspects
+of the architecture of
+interest to those
+stakeholders involved in
+building, testing,
+maintaining, and
+enhancing the system.
+
+Notation:
+UML Package Diagram
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+The Concurrency View
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Concurrency Viewpoint
+• Describes the concurrency structure
+of the system and maps functional
+elements to concurrency units to
+clearly identify the parts of the
+system that can execute
+concurrently and how this is
+coordinated and controlled.
+• Entails the creation of models that
+show the process and thread
+structures that the system will use
+and the interprocess communication
+mechanisms used to coordinate
+their operation.
+
+Notation:
+UML Component Diagram
+(with process threads)
+
+- 22 -
+
+The Operational View
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Operational Viewpoint
+• Describes how the system will
+be operated, administered, and
+supported when it is running in
+its production environment.
+• The aim of the Operational
+viewpoint is to identify systemwide strategies for addressing
+the operational concerns of the
+system’s stakeholders and to
+identify solutions that address
+these.
+Notation: XXX
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Benefits of Using Views & Viewpoints (1)
+• Separation of concerns:
+– Describing many aspects of the system via a single representation can cloud
+communication and, more seriously, can result in independent aspects of the system
+becoming intertwined in the model. Separating different models of a system into
+distinct (but related) descriptions helps the design, analysis, and communication
+processes by allowing you to focus on each aspect separately.
+
+• Communication with stakeholder groups:
+– The concerns of each stakeholder group are typically quite different (e.g., contrast
+the primary concerns of end users, security auditors, and help-desk staff), and
+communicating effectively with the various stakeholder groups is quite a challenge.
+The viewpoint-oriented approach can help considerably with this problem. Different
+stakeholder groups can be guided quickly to different parts of the AD based on their
+particular concerns, and each view can be presented using language and notation
+appropriate to the knowledge, expertise, and concerns of the intended readership.
+- 25 -
+
+Benefits of Using Views & Viewpoints (2)
+• Management of complexity:
+– Dealing simultaneously with all of the aspects of a large system can result in
+overwhelming complexity that no one person can possibly handle. By treating
+each significant aspect of a system separately, the architect can focus on each
+in turn and so help conquer the complexity resulting from their combination.
+
+• Improved developer focus:
+– The AD is of course particularly important for the developers because they use it as
+the foundation of the system design. By separating out into different views those
+aspects of the system that are particularly important to the development team,
+you help ensure that the right system gets built.
+
+- 26 -
+
+Interrelationships Between the Core Concepts:
+A Summary
+
+- 27 -
+
+- Architectural Perspectives –
+from the book:
+
+Software Systems Architecture - Working with Stakeholders using
+Viewpoints and Perspectives, 2nd ed; Rozanski & Woods
+
+BBM485 Software Architectures (Week #3)
+
+Quality Properties
+• Many architectural decisions address concerns that are
+common to many or all views.
+– These concerns are normally driven by the need for the system
+to exhibit a certain quality property rather than to provide a
+particular function.
+– Trying to address these aspects of an architecture by using
+viewpoints does not work well.
+
+– e.g., Security
+• access to data or functionality to appropriate classes of users
+• good external and internal security in the age of Internet
+- 29 -
+
+Example quality property:
+
+Security (1)
+
+• Security is often not thought properly early in the project lifecycle.
+– It is hard—the means for achieving an appropriate level of security are
+complex and require sophisticated analysis
+– It is generally considered to be “someone else’s problem” (the responsibility
+of a specialist security group rather than of the organization as a whole).
+
+• It is an important factor that affects aspects of the architecture
+addressed by most –if not all– of the other viewpoints.
+– So our overall criterion of “the system must be secure” actually breaks
+down across the viewpoints into a number of more specific criteria.
+
+- 30 -
+
+Example quality property:
+
+Security (2)
+
+• Which of the system’s security qualities are significant depends on
+which viewpoint we are considering. Here are some examples:
+– From the Functional viewpoint;
+• the system needs the ability to identify and authenticate its users (internal and
+external, human and mechanical).
+
+– From the Information viewpoint;
+• the system must be able to control different classes of access to information
+(read, insert, update, delete).
+
+– From the Operational viewpoint;
+• the system must be able to maintain and distribute secret information (e.g., keys
+and passwords) and must be up-to-date with the latest security updates & patches.
+
+– etc.
+
+- 31 -
+
+Example quality property:
+
+Security (3)
+
+• A comprehensive security viewpoint would have to consider
+process security, information security, operational security,
+deployment security, and so on.
+– In other words, it would affect exactly the aspects of the system that we
+have considered so far using our viewpoints.
+
+• We need some way to modify and enhance our existing views to
+ensure that our architecture exhibits the desired quality properties.
+– i.e., something that can be considered “orthogonal” to viewpoints.
+
+- 32 -
+
+Architectural Perspectives
+Definition
+• An architectural perspective is a collection of activities, tactics, and
+guidelines that are used to ensure that a system exhibits a particular
+set of related quality properties that require consideration across a
+number of the system’s architectural views.
+– With perspectives, we are trying to systematize what a good architect does
+anyway – a framework to guide and formalize the following process:
+• Understand the quality properties that are required;
+• Assess and review the architectural models to ensure that the architecture
+exhibits the required properties;
+• Identify, prototype, test, and select architectural tactics to address cases when the
+architecture is lacking;
+• etc.
+
+– We describe this as applying the perspective to the view.
+- 33 -
+
+Applying Perspectives to Views
+• You apply each relevant perspective to some or all of the views to
+address that perspective’s system-wide quality property concerns.
+– The architectural views contain the description of the architecture, while
+the perspectives guide you through the process of analyzing and modifying
+your architecture to make sure it exhibits a particular quality property.
+
+• Although every perspective can be applied to every view (i.e., the
+relationship between perspectives and views is many-to-many), in
+practice, because of time constraints, you usually apply only some
+of the perspectives to some of the views.
+– An easy way to understand this process is to think of a two-dimensional
+grid, with views along one axis and perspectives along another.
+- 34 -
+
+Applying
+perspectives
+to views:
+An example
+
+- 35 -
+
+Example quality property:
+
+Security (4)
+
+• After deciding on a candidate architecture for your system and captured it as a set
+of views, you would then apply the Security perspective in order to ensure that
+the system meets its security requirements. For example, you might:
+– Partition the system differently in order to easily restrict access to the parts of it.
+• This would affect your Functional view.
+
+– Introduce new hardware and software elements to the system to limit access or to add
+additional guarantees (e.g., encryption to ensure privacy).
+• You might add these new elements to your Deployment view to define where they fit, and
+might update the Development view to define how these new elements should be used.
+
+– Identify new operational procedures to support secure operation (e.g., certificate mgt)
+or modify existing ones to ensure security (e.g., handling backups of sensitive data).
+• These procedural changes will modify the Operational view.
+
+- 36 -
+
+Typical View and Perspective Applicability
+
+- 37 -
+
+The Benefits of Using Perspectives (1)
+• The perspective provides common conventions, measurements, or even a
+notation or language you can use to describe the system’s qualities.
+– For example, the Performance perspective defines standardized measures
+such as response time, throughput, latency, and so forth, as well as how
+they are specified and captured.
+• The perspective defines concerns that guide architectural decision-making to
+help ensure that the resulting architecture will exhibit the quality properties
+considered by the perspective.
+– For example, the Performance perspective defines standard concerns such
+as response time, throughput, and predictability.
+– Understanding and prioritizing the concerns that a perspective addresses
+helps you bring a firm set of priorities to later decision-making.
+
+- 38 -
+
+The Benefits of Using Perspectives (2)
+• The perspective describes how you can validate the architecture to demonstrate
+that it meets its requirements across each of the views.
+– For example, the Performance perspective describes how to construct mathematical
+models or simulations to predict expected performance under a given load and
+techniques for prototyping and benchmarking.
+
+• The perspective may offer recognized solutions to common problems, thus
+helping to share knowledge between architects.
+– For example, the Performance perspective describes how hardware devices may be
+multiplexed to improve throughput.
+
+• The perspective helps you work in a systematic way to ensure that its concerns
+are addressed by the system.
+– This helps you organize the work and make sure that nothing is forgotten.
+
+- 39 -
+
+Interrelationships Between
+the Core Concepts
+
+The revised
+conceptual
+model for
+software
+architecture
+
+- 40 -
+
+- Reference Architectures –
+from the book:
+
+H.Cervantes & R.Kazman, "Designing Software Archtiectures – A Practical
+Approach", SEI Series in Software Engineering, Addison-Wesley, 2016.
+
+Example Reference Architectures
+• See the following in "Course Project" section under
+https://piazza.com/hacettepe.edu.tr/spring2026/byz652/resources
+– 2016-Cervantes-Kazman_Apdx-A_DesignConceptsCatalogue.pdf
+(from Annex-A of the book:
+H.Cervantes & R.Kazman, "Designing Software Archtiectures –
+A Practical Approach", SEI Series in Software Engineering,
+Addison-Wesley, 2016.)
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Web Application Reference Architecture
+
+(Key: UML)
+
+You should consider using this type of application when:
+You do not require a rich user interface.
+You do not want to deploy the application by installing anything on the client machine
+You require portability of the user interface.
+Your application needs to be accessible over the Internet.
+You want to use a minimum of client-side resources.
+
+Rich Internet Application
+Reference Architecture
+
+(Key: UML)
+
+You should consider using this type of application when:
+You want your application to have a rich user interface but still run
+inside a browser.
+You want to perform some of the processing on the client side.
+You want to deploy and update your application in a simple manner,
+without having to perform installations on the user machine.
+There are some limitations associated with this type of application:
+Access to local resources can be limited, because the application may
+run in a sandbox.
+Loading time is non-negligible.
+Plug-in execution environments may not be available in all platforms.
+
+Rich Client Application
+Reference Architecture
+
+(Key: UML)
+
+You should consider using this type of
+application when:
+- You want to deploy your application on
+the users’ machines.
+- You want your application to support
+intermittent or no network connectivity.
+- You want your application to be highly
+interactive and responsible.
+- You want to leverage the user’s machine
+resources (such as a graphics card).
+Since these applications are deployed on the
+user’s machine, they are less portable and
+deployment and updating is more
+complicated.
+
+Mobile Application
+Reference Architecture
+
+(Key: UML)
+A mobile application is typically executed on a handheld
+device and usually works in collaboration with a support
+infrastructure that resides remotely. These applications are
+structured using modules and layers similar to those found
+in a web application, although many of the components
+derived from these modules may be optional depending on
+whether a thin-client or a thick-client approach is followed.
+
+You should consider using this type of application when:
+You want your application to run in a handheld device.
+The network connectivity is unreliable, so the
+application needs to run in both offline and occasionally
+connected modes.
+There is a substantial limitation associated with this type of
+application:
+- Resources on the handheld device may be limited.
+
+Service Application
+Reference Architecture
+
+(Key: UML)
+
+Service applications are non-interactive applications that expose
+functionality through public interfaces (i.e., services). Services
+may be invoked by service consumer components remotely or
+from the same machine in which the service application is
+running. Services can be defined using a description language
+such as the Web Services Description Language (WSDL);
+operations are invoked using XML-based message schemas that
+are transferred over a transport channel. As a consequence,
+services promote interoperability.
+
+You should consider using this type of application when:
+- Your application is not used by humans but rather by other
+systems and, as a consequence, does not have a user interface.
+- Your application and the clients should be loosely coupled.
+Except in cases where services are consumed by applications that
+reside in the same machine, network connectivity is required for
+the clients to communicate with the service application.
+
+

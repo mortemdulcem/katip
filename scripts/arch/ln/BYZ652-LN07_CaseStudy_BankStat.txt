@@ -1,0 +1,160 @@
+Ch6: Case Study – Banking System
+ (Current Architecture and User Requirements for Maintenance)
+
+
+Designing Software Architectures – A Practical Approach
+                 Cervantes & Kazman ©2016
+               The SEI Series in Software Engineering
+Business Case / 1
+• In 2010, the government of a Latin American country issued a
+  regulation that required banking institutions to digitally sign
+  bank statements.
+• To comply with the regulation, “ACME Bank” decided to
+  commission the development of a software system, which we
+  will call BankStat, whose main purpose was the generation of
+  digitally signed bank statements.
+Business Case / 2
+• At its core, the system executes a batch process, which retrieves raw
+  bank statement information from a data source (an external database)
+  and then performs a series of validations on this data to generate the
+  bank statements and prepare them for digital signature by an external
+  provider.
+• The statements are sent to the provider, which returns the signed bank
+  statements. These statements are then stored by BankStat for further
+  processing, including sending the statements to customers.
+• This batch process is triggered automatically once a month and, during
+  its execution, approximately 2 million bank statements are processed.
+Quality Attributes
+• Reliability: Under normal operating conditions, the batch process is
+  executed in its entirety 100% of the time.
+• Performance: Under normal operating conditions, when the batch
+  process starts, 2 million bank statements are read, processed, and sent to
+  the signing provider in at most one hour.
+• Availability: During normal processing, a failure may occur when reading
+  information from the data source or when sending information for digital
+  signature.
+   • A notification is then sent to the administrator, who manually restarts the process.
+     When it is restarted, only the information that had not already been processed is
+     treated.
+Need for an Extension of the BankStat
+• Due to time constraints imposed by the government, only the core
+  batch process for the system was developed and put into production.
+   • This initial release, however, did not provide a friendly interface with the system,
+     which is necessary to monitor the state of the bank statement processing, to
+     request the reprocessing of incorrect statements and to generate reports.
+   • In the first release, the process could only be started or stopped manually from a
+     console.
+
+• For a second release of the system, the ACME Bank requested an
+  extension of the BankStat system to better address these shortcomings.
+Drivers for the Second Release
+1. Use-case Model
+2. Quality Attribute Scenarios
+3. Constraints
+4. Architectural Concerns
+(1) Use-case Model
+(2) Quality Attribute Scenarios
+(3) Constraints
+(4) Architectural Concerns
+Existing Architectural Documentation
+
+
+1. Module View
+
+2. Allocation View
+(1) Module View
+(2) Allocation View
+The
+Design
+Process
+(ADD 3.0)
+
+ADD: Attribute
+Driven Design
+The Design Process
+As this is not a huge change to the existing system, the
+architect expects that the design activities will require
+only a single iteration of ADD.
+• Step-1: Review inputs
+   • The first step of the
+     ADD method involves
+     reviewing the inputs.
+     They are summarized in
+     the table on the right.
+Architectural Drivers
+Iteration 1: Supporting the New Drivers / Steps 2-4
+• Step 2: Establish Iteration Goal by Selecting Drivers
+   • The goal of this iteration is to modify the existing design to support all of the new drivers
+     listed before.
+
+• Step 3: Choose One or More Elements of the System to Refine
+   • The elements to refine include the main modules from BankStat and the node where the
+     system is deployed (BankStat Server).
+   • In addition to refining these modules, the physical node where the application is hosted is
+     a candidate for refinement.
+
+• Step 4: Choose One/More Design Concepts That Satisfy the Selected Drivers
+   • The following table summarizes the design decisions made with respect to the selection
+     of design concepts.
+Iteration 1: Supporting the New Drivers / Step 5
+• Step 5: Instantiate Architectural Elements, Allocate Responsibilities,
+  and Define Interfaces
+   • The instantiated design decisions considered and made are summarized in
+     the following table.
+Iteration 1: Supporting the New Drivers / Step 6
+• Step 6: Sketch Views and Record Design Decisions
+   • The deployment diagram shown in Figure 6.5 depicts the new server that will
+     host the application and the external user directory server, along with their
+     connections to the existing nodes.
+   • The responsibilities of the newly introduced elements are described in the
+     following table.
+Iteration 1: Supporting the New Drivers / Step 6
+• The package diagram shown in Figure 6.6 illustrates how the reference
+  architecture is instantiated and identifies the modules that are
+  introduced to support the primary use case (UC-1).
+
+• It also shows how these newly introduced elements are integrated with
+  the existing layers and modules from the previous system release.
+Iteration 1: Supporting the New Drivers / Step 6
+• The responsibilities of the newly introduced elements are described
+  in the following table.
+Iteration 1: Supporting the New Drivers / Step 6
+Iteration 1: Supporting the New Drivers / Step 6
+• The sequence diagram shown in Figure 6.7 illustrates how UC-1 is performed.
+   • The user requests the state of bank statements to be displayed.
+   • This information is retrieved from the local database by the Local Database Connector.
+   • Once displayed, the user selects the statements to reprocess.
+   • These bank statements are marked for reprocessing (by changing a flag) and the
+     information is updated on the local database.
+   • Finally, the batch job is restarted.
+
+• Note that:
+   • The interactions with the system are recorded by Spring Security in the view.
+   • The invocation of the Batch Job Coordinator is asynchronous, which avoids the problem
+     of blocking the user interface.
+Iteration 1: Supporting the New Drivers / Step 6
+• From the interactions identified in the sequence diagram, initial methods
+  for the interfaces of the interacting elements can be identified.
+Step 7: Perform Analysis of Current Design & Review
+Iteration Goal and Achievement of Design Purpose
+• The Kanban table on the next page summarizes the status of the
+  various architectural drivers and the decisions that were made during
+  the iteration to address them.
+
+• As all the drivers were completely addressed, just a single iteration of
+  ADD was required.
+Wrap-up
+• Design in the context of brownfield systems usually involves more extensive
+  changes than the ones illustrated by this example.
+   • Such changes often require refactoring and modification of the existing architecture to
+     support the introduction of new elements and new relationships that result from the
+     design activity.
+
+• Modifying an existing architecture is oftentimes the most challenging aspect
+  of designing in the context of brownfield systems.
+   • In brownfield systems, it is all too common that detailed knowledge of some parts of
+     the system has been lost.
+   • Because this process can be complex and some uncertainty exists regarding the
+     consequences of changes, we recommend that you perform an analysis of the
+     proposed design changes before committing them to code.
+

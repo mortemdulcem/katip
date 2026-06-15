@@ -1,0 +1,25 @@
+@startuml soru3_seq
+!include _seq.iuml
+title Şekil 3b · Oyun araçları yüklenmesi ve çok biçimli iletiler (Abstract Factory + Strategy)
+participant Oyun
+participant "fab : GeliskinAracFabrikasi" as F
+participant "k : Kahraman" as K
+participant "sal : SaldiriAraci" as SA
+participant "sav : SavunmaAraci" as SV
+Oyun -> K : donanimYukle(fab)
+activate K
+K -> F : saldiriYarat()
+F --> K : sal
+K -> F : savunmaYarat()
+F --> K : sav
+deactivate K
+== Oyun sırasında ==
+Oyun -> K : saldirSimdi()
+K -> SA : saldirSimdi()  <<Strategy>>
+Oyun -> K : koruBeni()
+K -> SV : koruBeni()  <<Strategy>>
+note over F
+  Abstract Factory uyumlu saldırı+savunma
+  çiftini tek elden üretir (uyumsuz çift olmaz).
+end note
+@enduml

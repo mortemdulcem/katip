@@ -1,0 +1,942 @@
+◆MİMARİ TANIM & TEMEL KAVRAMLAR
+
+Mimari=sistemin anlaşılması için gerekli yapılar bütünü
+(elemanlar+ilişkiler+özellikler). Mimari bir tasarımdır; her tasarım
+mimari değildir. Elemanın iç detayları mimari değildir. Her sistemin
+mimarisi vardır; belgelenmemiş olsa bile. Mimari davranışı
+içerir—yalnızca kutu-çizgi diyagramları gerçek mimari değildir. Mimari
+soyutlama: tüm karmaşıklıkla her zaman uğraşmak ne mümkün ne istenen.
+
+Yapı: bir ilişki tarafından bir arada tutulan elemanlar kümesi
+
+Görünüm: yapının paydaşlar için belgelenmiş temsili
+
+Görünüm Noktası: görünüm oluşturmak için örüntüler/şablonlar/kurallar
+koleksiyonu (Kruchten 1995—4+1 Model)
+
+Perspektif: belirli bir KN'yi sağlamak için
+etkinlikler/taktikler/yönergeler koleksiyonu; görünümlere uygulanır
+
+Taktik: kalite niteliği yanıtını kontrol eden tasarım kararı; mimarın
+araç kutusu
+
+Mimari Örüntü: taktiklerin paketlenmiş koleksiyonu;
+bağlam+sorun+çözüm+sonuçlar
+
+Mimari Sürücü: mimari tasarım sürecini yönlendiren en kritik
+gereksinimler
+
+Mimari Önemi (13 başlık): KN'leri engeller/etkinleştirir | Değişim
+yönetimi | Erken kalite tahmini | Paydaş iletişimi | En erken tasarım
+kararları | Uygulamaya kısıtlamalar | Organizasyonel yapı | Evrimsel
+prototipleme | Maliyet/takvim tahmini | Aktarılabilir model | Bağımsız
+bileşenler | Tasarım kelime dağarcığı | Eğitim temeli.
+
+Toplam yazılım maliyetinin ~%80'i ilk dağıtımdan sonra gerçekleşir
+(bakım/yeni özellik/hata düzeltme). Conway Yasası: organizasyon iletişim
+yapısı→sistem mimarisi. Sistem gereksinimleri: İşlevsel gereksinimler +
+Kalite niteliği gereksinimleri + Kısıtlamalar (sıfır serbestlik dereceli
+kararlar). İşlevsellik mimariyi belirlemez—aynı işlevsellik için sonsuz
+mimari mümkündür (ortogonallik).
+
+İyi Mimari Süreç: tek mimar/küçük ekip→kavramsal bütünlük;
+önceliklendirilmiş KN listesi; görünümlerle belgeleme; erken
+değerlendirme. İyi Mimari Yapı: bilgi gizleme+sorumluluk ayrımı;
+değişebilir şeyleri kapsülle; veri üretici≠veri tüketici modüller;
+modül↔bileşen bire-bir değil; iyi tanımlanmış arayüzler. Mimari Borç:
+kısa vadeli kazanım için uzun vadeli maliyetli kararlar. Mimari Çürüme:
+kasıtsız sapmalar. Mimari Sapma: kasıtlı sapmalar.
+
+◆3 YAPI KATEGORİSİ
+
+MODÜL: Tasarım zamanı. Elemanlar: modül/sınıf/katman. İlişkiler:
+bağımlılık/miras/kullanım. KN: Değiştirilebilirlik, test edilebilirlik.
+Soru: Sistem nasıl inşa edilecek?
+
+C&C: Çalışma zamanı. Elemanlar: bileşen+bağlayıcı. İlişkiler:
+bağlantı/iletişim. KN: Başarım, erişilebilirlik. Soru: Sistem nasıl
+çalışır?
+
+TAHSİS: Her ikisi. Yazılım↔donanım/ortam eşleşmesi. KN: Başarım,
+güvenlik. Soru: Sistem nerede/kim tarafından geliştirilir?
+
+▸Modül Yapıları
+
+Ayrıştırma→'bir alt modülüdür' ilişkisi→değiştirilebilirliği belirler;
+değişikliği yerelleştirir; bilgi gizleme ilkesi; özyinelemeli bölünme
+
+Kullanım→'kullanır' ilişkisi (A doğruluğu B'nin doğru çalışmasını
+gerektirir)→genişletilebilir sistemler; artımlı geliştirme
+
+Katman→yönetilen arayüz ile tutarlı hizmet kümesi=sanal makine; tek
+yönlü kullanım zorunlu→taşınabilirlik; TCP/IP örneği
+
+Sınıf→'miras alır/örneğidir'→genelleme/özelleştirme; benzer davranış
+koleksiyonları; OOP
+
+Veri Modeli→statik bilgi yapısı; varlıklar ve ilişkiler (ör. Hesap,
+Müşteri, Kredi)
+
+▸C&C Yapıları
+
+Servis→SOAP gibi koordinasyon mekanizmaları; bağımsız geliştirilmiş
+bileşenler; SOA/mikroservis
+
+Eşzamanlılık→paralellik fırsatları+kaynak çekişme noktaları; mantıksal
+iş parçacıkları; kilitlenme/yarış koşulları tespiti
+
+▸Tahsis Yapıları
+
+Dağıtım→yazılım→donanım eşlemesi; performans/güvenlik/erişilebilirlik
+analizi; tek hata noktası riski
+
+Uygulama→yazılım elemanları→dosya sistemi/dizin yapısı; CI/CD
+entegrasyonu
+
+İş Atama→modüller→geliştirme ekipleri; Conway Yasası etkisi; ekipler
+arası iletişim kanalları
+
+Yapılar arası eşleme çoğunlukla çok-çok ilişkisidir. Modül yapısındaki
+bir modül, C&C'de bir, birinin parçası veya birkaç bileşen olabilir.
+Görünüm=yapının temsili; mimarlar yapıları tasarlar, görünümleri
+belgeler.
+
+◆6 MİMARİ GÖRÜNÜM (Rozanski & Woods)
+
+İşlevsel→işlevsel elemanlar/sorumluluklar/arayüzler/etkileşimler; diğer
+yapıların şeklini belirler; değiştirilebilirlik/güvenlik/başarım etkisi.
+Notasyon: UML Bileşen Diyagramı. Paydaş: Herkes. En önemli
+görünüm—paydaşların ilk okuduğu bölüm.
+
+Bilgi→veri nasıl saklanır/işlenir/dağıtılır;
+içerik/yapı/sahiplik/gecikme/referanslar/veri göçü soruları. Notasyon:
+DFD+UML Sınıf Diyagramı. Paydaş: Geliştiriciler, Veri Yöneticileri.
+
+Dağıtım→yazılım→donanım eşlemesi; işlem düğümleri/ağ bağlantıları/disk
+depolama. Notasyon: UML Dağıtım Diyagramı. Paydaş: Sistem yöneticileri,
+Operasyon.
+
+Geliştirme→geliştirme/test/bakım sürecini destekleyen mimari;
+derleme/entegrasyon. Notasyon: UML Paket Diyagramı. Paydaş:
+Geliştiriciler, PM.
+
+Eşzamanlılık→eşzamanlılık yapısı; hangi parçalar paralel çalışır;
+süreç/iş parçacığı yapıları+IPC mekanizmaları. Notasyon: UML Bileşen (iş
+parçacıklı). Paydaş: Geliştiriciler, Başarım Mühendisleri.
+
+Operasyonel→üretim ortamında işletme/yönetim/destek stratejileri; sistem
+genelinde stratejiler. Paydaş: Operasyon, destek ekibi.
+
+Görünüm faydaları: (1)Sorumlulukların ayrılması—her boyuta ayrı odak.
+(2)Paydaş iletişimi—her grup kendi endişesine uygun görünüm.
+(3)Karmaşıklık yönetimi—boyutları ayrı ayrı ele alma. (4)Geliştirici
+odağı—doğru sistemin inşası. Görünüm belgesi içeriği: Birincil
+sunum(diyagram/tablo)+Eleman kataloğu+Bağlam diyagramı+Değişkenlik
+kılavuzu+Gerekçe(rationale). Görünümlerin ötesinde: Görünümler arası
+eşleme|Örüntüleri belgeleme|Sözlük|Belge kontrol bilgisi.
+
+Güvenlik Perspektifi örneği: İşlevsel→kimlik doğrulama yeteneği;
+Bilgi→erişim sınıfları kontrolü (okuma/ekleme/güncelleme/silme);
+Operasyonel→gizli bilgi koruma+güvenlik güncellemeleri. Perspektifler
+görünümlere uygulanır; görünüm≠perspektif. Paydaş-Görünüm:
+PM→modüller/karmaşıklık; Geliştirici→arayüzler/kısıtlamalar;
+Test→davranış belirtimleri; Bakım→ayrıştırma+kullanım; Analist→KN
+değerlendirmesi.
+
+◆KALİTE NİTELİĞİ SENARYOSU (6 Bileşen)
+
+Uyarıcı Kaynağı→Uyarıcı→Ortam→Yapı→Yanıt→Yanıt Ölçüsü. KN senaryosu:
+dilden bağımsız, test edilebilir gereksinim belirtme yöntemi. Örnek: 500
+kullanıcı 30sn'de 2000 istek başlatır (normal çalışma); sistem tüm
+istekleri ortalama 2sn gecikmeyle işler.
+
+◆ERİŞİLEBİLİRLİK TAKTİKLERİ
+
+Hata=sapma koşulu|Arıza=aktif hata|Başarısızlık=işlev yerine
+getirilemiyor. Erişilebilirlik=Çalışma/(Çalışma+Duruş). '5
+Dokuz'=%99,999=yılda~5dk duruş. MTBF=ortalama arızalar arası süre;
+MTTR=ortalama onarım süresi.
+
+▸A) Hata Tespiti
+
+Ping/Echo→periyodik ping→yanıt gelmezse arıza; ağ/sunucu izleme için
+yaygın
+
+Kalp Atışı→bileşen 'yaşıyorum' gönderir; fark: mesajı izlenen bileşen
+gönderir (Ping/Echo'da izleyen gönderir)
+
+İstisna Tespiti→sistem çağrısı dönüş değerleri, parametre çitleme
+(parameter fence), tip kontrolü
+
+Zaman Aşımı→belirli sürede tamamlanmazsa hata; dağıtık sistemlerde uzak
+servis çağrılarında yaygın
+
+Durum İzleme→CPU/bellek/disk eşik değerleri sürekli izleme; eşik
+aşılınca uyarı
+
+Oylama→birden fazla bileşen aynı hesaplamayı bağımsız yapar;
+tutarsızlık=hata; güvenlik kritik sistemlerde
+
+▸B) Hatadan Kurtarma — Hazırlık ve Onarım
+
+Aktif Yedek (Hot Spare)→sürekli senkronizasyon→milisaniye kurtarma→en
+yüksek maliyet; birincil+yedek aynı girdileri alır
+
+Pasif Yedek (Warm Spare)→periyodik güncelleme→saniyeler→orta maliyet;
+yalnızca birincil istekleri işler
+
+Soğuk Yedek (Cold Spare)→güç kapalı bekler→dakikalar→en düşük maliyet
+
+Yeniden Başlatma (Retry)→geçici hatalar için; sayı ve aralık dikkatli
+ayarlanmalı; aşırı yük riski
+
+Hata Yoksayma→hizmet reddi saldırılarına karşı hatalı kaynak mesajlarını
+yoksay
+
+Servis Düzeyi Düşürme→kısmi işlevsellikle çalışmaya devam; tam
+kesintiden iyidir
+
+Geri Alma (Rollback)→önceki bilinen iyi duruma dön; veri bütünlüğü
+kritikse
+
+Yeniden Yapılandırma→başarısız bileşenler devre dışı; kalanlar maksimum
+işlevsellik için yeniden yapılandırılır
+
+İleri Hata Düzeltme→geriye dönmek yerine güvenli/düşürülmüş duruma
+ilerle
+
+Hata Düzeltme→veri fazlalığı ile yerleşik hata düzeltme; ECC bellek
+örneği
+
+▸C) Hata Önleme
+
+Hizmet Dışı Bırakma→bakım için geçici devre dışı; proaktif önlem
+
+İşlem (Transaction)→atomik işlemler—ya hep ya hiç; ACID:
+Atomicity/Consistency/Isolation/Durability
+
+Süreç İzleme→başarısız süreçleri yeniden başlatma; watchdog timer
+
+Hata Toleransı Artırma→anormal girdileri işleyebilme kapasitesi
+(competence set)
+
+Devre Kesici→Kapalı(normal)→Açık(hata,çağrılar engellenir)→Yarı
+Açık(deneme); başarısız servise gereksiz çağrıları önler; sistem
+kararlılığını korur
+
+◆DEĞİŞTİRİLEBİLİRLİK TAKTİKLERİ
+
+Yerel değişiklik(tek eleman)>Yerel olmayan(birden fazla, mimari
+bozulmaz)>Mimari değişiklik(tüm sistem). Türler: Ölçeklenebilirlik(artan
+yük)|Değişkenlik(çoklu yapılandırma)|Taşınabilirlik(farklı
+platform)|Konum bağımsızlığı. Değiştirilebilirlik planı: neyin
+değişebileceği+değişim olasılığı+ne zaman/kim tarafından.
+
+▸A) Uyumu Artırma (Increase Cohesion)
+
+Modülü Bölme→birbiriyle ilişkisiz sorumlulukları ayır→ortalama
+değişiklik maliyeti düşer
+
+Sorumlulukları Yeniden Dağıtma→farklı modüllere dağılmış A/A'/A''
+sorumluluklarını topla; yeni modül oluşturma veya taşıma
+
+▸B) Bağlaşımı Azaltma (Reduce Coupling)
+
+Kapsülleme→iç detayları gizle; arayüz değişmezse uygulama değişebilir;
+bilgi gizleme
+
+Aracı Kullanma→iki modül arasına aracı ekle→doğrudan bağımlılık ortadan
+kalkar; değişikliklerin yayılmasını engeller
+
+Ortak Servisleri Soyutlama→ortak işlevselliği soyut serviste topla;
+bağlaşımı azaltır
+
+Bağımlılıkları Kısıtlama→görünürlük kısıtlama+yetkilendirme ile erişimi
+sınırla; katman kısıtlamaları
+
+▸C) Bağlamayı Erteleme (Defer Binding)
+
+Derleme/Oluşturma zamanı→bileşen değiştirme, derleme zamanı
+parametrelendirme, yönler (aspects)
+
+Dağıtım/Başlangıç zamanı→yapılandırma zamanı bağlama, kaynak dosyalar
+
+Çalışma zamanı→keşif(discovery), parametreleri yorumlama, paylaşılan
+depolar, çok biçimlilik(polymorphism)
+
+◆BAŞARIM TAKTİKLERİ
+
+Yanıt ölçüleri: Gecikme(latency)|Aktarım hızı(throughput)|Kayıp
+oranı|Veri kaybı. Olay türleri:
+Periyodik|Stokastik(rastgele)|Tetiklenen. Başarım genellikle
+ölçeklenebilirlikle bağlantılıdır.
+
+▸A) Kaynak Talebini Kontrol Etme
+
+Olay Varışını Yönetme→örnekleme oranı yönetimi, olay sınırlama; sisteme
+gelen istek sayısını azalt
+
+Olay Yanıtını Sınırlama→kuyruğa alma veya atma; maksimum hız sınırı;
+kuyruk boyutu/işlemci uyarı düzeyi aşılınca tetiklenir; SLA ihlalinde
+
+Olayları Önceliklendirme→öncelik şeması; düşük öncelikli yoksayılabilir;
+kaynak yoksa düşük öncelikli atlanır
+
+Hesaplama Yükünü Azaltma→dolaylılığı azalt, kaynakları bir arada
+konuşlandır, periyodik temizlik
+
+Yürütme Sürelerini Sınırlama→yanıt süresi üst sınırı; gerçek zamanlı
+sistemlerde kritik; döngü sayısı sınırı
+
+Kaynak Kullanım Verimliliği→algoritma optimizasyonu→gecikme azalır,
+aktarım hızı artar; kritik alanlarda
+
+▸B) Kaynakları Yönetme
+
+Kaynakları Artırma→daha hızlı işlemci, ek bellek, hızlı ağ—genellikle en
+ucuz anlık çözüm; maliyet faktör
+
+Eşzamanlılık Getirme→farklı olay akışları farklı iş parçacıklarında;
+engelleme süresi azalır; paralel işleme
+
+Hesaplamaların Kopyaları→çekişmeyi azalt→yük dengeleme; tüm istekler tek
+örneğe gitmez
+
+Verinin Kopyaları→veri çoğaltma(replication)+önbelleğe alma(caching);
+sık erişilen veri daha hızlı konumda
+
+Kaynakları Zamanlama→öncelik tabanlı/döngüsel/FIFO zamanlama
+politikaları; birden fazla kaynak için rekabet
+
+◆GÜVENLİK TAKTİKLERİ
+
+CIA:
+Gizlilik(Confidentiality)+Bütünlük(Integrity)+Erişilebilirlik(Availability).
+Çatışmalar: Güvenlik↔Başarım(şifreleme gecikme ekler)|Güvenlik↔Kullanım
+Kolaylığı(2FA zorlaştırır)|Güvenlik↔Değiştirilebilirlik(sıkı entegrasyon
+değişimi zorlaştırır). Güvenlik genellikle yaşam döngüsünün başında
+yeterince düşünülmez.
+
+▸A) Saldırıları Tespit Etme
+
+Giriş Denetimi (Audit Trail)→tüm erişim/işlem kaydı; adli analiz için;
+değiştirilemez günlükler; güvenlik ihlali tespiti
+
+Saldırı Tespiti→İmza tabanlı(bilinen kalıplar/IDS)+Anomali
+tabanlı(normal davranıştan sapma/IPS)
+
+▸B) Saldırılara Dirençli Olma
+
+Kimlik Doğrulama (Authenticate)→parola, biyometri, 2FA/MFA; aktörlerin
+kimliğini doğrula
+
+Yetkilendirme (Authorize)→ACL, RBAC(rol tabanlı erişim kontrolü);
+yalnızca yetkili kaynaklara erişim
+
+Veri Gizliliği→şifreleme: aktarımda TLS/SSL, depolamada şifreleme;
+yetkisiz erişimi önler
+
+Veri Bütünlüğü→karma fonksiyonlar, dijital imzalar, MAC;
+değiştirilmediğini doğrula
+
+Giriş Noktalarını Sınırlama→gereksiz servisleri kapat, güvenlik duvarı,
+en az ayrıcalık ilkesi; saldırı yüzeyini azalt
+
+Kaynakları Ayırma→sanallaştırma, konteynerleştirme—bir bileşen ele
+geçirilse diğerleri korunur; izolasyon
+
+▸C) Tepki + D) Kurtarma
+
+Aktörleri Tanımlama→IP takibi, kullanıcı davranışı analizi; saldırganı
+tanımla
+
+Erişimi Kısıtlama→belirli IP/hesaplardan gelen erişimi geçici engelle
+
+Hesap Kilitleme→kaba kuvvet saldırılarına karşı; başarısız giriş sayısı
+sınırı
+
+Aktörleri Bilgilendirme→yönetici/kullanıcı bildirimi; güvenlik ihlali
+durumunda
+
+Kurtarma: erişilebilirlik taktikleri+saldırgan kimliği tespiti+güvenli
+duruma dönüş+açık giderme. Bankacılık güvenlik mimarisi:
+MFA+RBAC+TLS+depolama şifreleme+değiştirilemez audit trail.
+
+◆DİĞER KALİTE NİTELİKLERİ
+
+▸Test Edilebilirlik Taktikleri
+
+Girdileri/Çıktıları Kontrol Et→bileşeni test için izole et; test
+koşumunu kolaylaştır; mock/stub kullanımı
+
+Dahili Durumu Gözlemle→durum değişkenlerini dışarıya aç; kayıt/tekrar
+oynatma; sandbox
+
+Bileşeni Sınırla→bağımlılıkları minimize et; bağımsız test
+edilebilirlik; arayüz tabanlı tasarım
+
+▸Kullanım Kolaylığı Taktikleri
+
+Çalışma Zamanı→iptal etme, geri alma, toplu işlem, sistem durumu
+gösterme, çoklu görünüm, kullanıcı modeli
+
+Tasarım Zamanı→UI'ı iş mantığından ayır; yerelleştirme/erişilebilirlik
+desteği; MVC/MVP örüntüsü
+
+▸Mimari Metrikler
+
+Ca (Afferent)→modüle bağımlı olan modül sayısı; yüksek=kararlı ama
+değiştirmesi zor
+
+Ce (Efferent)→modülün bağımlı olduğu modül sayısı; yüksek=dengesiz
+
+I=Ce/(Ca+Ce)→0=tamamen kararlı, 1=tamamen dengesiz; ideal: soyut
+modüller kararlı
+
+LCOM→Lack of Cohesion of Methods; yüksek=düşük uyum; bölme sinyali
+
+Döngüsel Karmaşıklık→bağımsız yol sayısı; yüksek=test zorluğu; bakım
+maliyeti artar
+
+DIT→Depth of Inheritance Tree; derin=anlaşılması/değiştirilmesi güç
+
+◆MİMARİ ÖRÜNTÜLER
+
+Katmanlar→soyutlama düzeyleri; tek yönlü kullanım.
+✓Değiştirilebilirlik/Taşınabilirlik ✗başarım maliyeti/katman ihlalleri.
+Örnek: TCP/IP yığını, 3 katmanlı web.
+
+İstemci-Sunucu→istemci+sunucu rolleri; dinamik bağlantı; sunucunun
+istemci bilgisi yok. ✓Değiştirilebilirlik/Ölçeklenebilirlik ✗ağ
+gecikmesi/güvenlik.
+
+Yayımla-Abone Ol→yayımcı+abone+olay veri yolu; yayımcı aboneleri bilmez.
+✓Değiştirilebilirlik/Ölçeklenebilirlik ✗başarım/belirleyicilik/test
+zorluğu/uçtan uca şifreleme sınırlı.
+
+Eklenti (Microkernel)→çekirdek+sabit arayüzlü eklentiler; farklı ekipler
+geliştirebilir. ✓Değiştirilebilirlik/Genişletilebilirlik ✗güvenlik
+riskleri.
+
+Mikroservis→bağımsız dağıtılabilir servisler; her servis kendi DB'si;
+tek sorumluluk. ✓Ölçeklenebilirlik/Bağımsız Dağıtım ✗operasyonel
+karmaşıklık/veri tutarlılığı.
+
+Olay Odaklı (EDA)→üretici+tüketici+kanal; olaylar değişmezdir; geçmişi
+temsil eder. ✓Ölçeklenebilirlik/Değiştirilebilirlik ✗hata ayıklama/nihai
+tutarlılık.
+
+Boru Hattı & Filtre→filtreler bağımsız geliştirilir/test edilir; paralel
+işleme uygun. ✗veri paylaşımı zor/başarım. Örnek: Unix pipe, derleyici,
+ETL.
+
+Kara Tahta→ortak veri deposu üzerinde uzman bileşenler işbirliği;
+kontrol bileşeni koordine eder. Kullanım: AI/konuşma tanıma/görüntü
+işleme.
+
+Eşler Arası (P2P)→tüm bileşenler hem istemci hem sunucu; merkezi sunucu
+yok; tek hata noktası yok. ✗güvenlik yönetimi/tutarlılık zor.
+
+CQRS→okuma ve yazma işlemleri farklı modeller; yüksek
+başarım+ölçeklenebilirlik; karmaşıklık artar; Event Sourcing ile
+birlikte kullanılır.
+
+Aktif-Pasif Yedekleme→birincil tüm istekleri işler; yedek hazır bekler;
+durum senkronizasyonu
+
+Aktif-Aktif Yedekleme→birden fazla bileşen aynı anda istekleri işler;
+yük dengeleme+erişilebilirlik
+
+Monolitik vs Mikroservis: Monolitik=tek birim/tek ekip/tek yığın/düşük
+op.karmaşıklık/zayıf hata izolasyonu. Mikroservis=bağımsız/çoklu
+ekip/farklı yığın/yüksek op.karmaşıklık/güçlü hata izolasyonu.
+
+◆ADD YÖNTEMİ (Nitelik Odaklı Tasarım—6 Adım)
+
+ADD=Attribute-Driven Design. Yinelemeli süreç; her yinelemede belirli
+mimari sürücüler ele alınır. Cervantes & Kazman, 2016. İlk yinelemede
+genellikle tüm sistem rafine edilir; sonraki yinelemeler belirli
+bileşenlere odaklanır.
+
+1. Girdileri Gözden Geçir→mimari sürücülerin eksiksiz/doğru olduğunu
+kontrol et; eksik/belirsiz gereksinimler netleştirilir→Onaylanmış
+gereksinimler
+
+2. İterasyon Hedefini Belirle→hangi sürücülerin ele alınacağını seç; ilk
+yinelemede en kritik KN ve birincil işlevsellik→Önceliklendirilmiş
+sürücüler
+
+3. Rafine Edilecek Elemanı Seç→hangi elemanın detaylandırılacağını
+belirle; ilk yinelemede tüm sistem→Seçilen eleman
+
+4. Tasarım Kavramlarını Seç→taktikler+mimari örüntüler+referans
+mimariler+harici bileşenler(COTS/OSS/bulut); takasları
+değerlendir→Tasarım kararları
+
+5. Elemanları Somutlaştır→sorumlulukları ata, arayüzleri tanımla,
+ilişkileri kur, kaynakları tahsis et→Mimari yapılar
+
+6. Tasarımı Kayıt Altına Al→kararları belgele, analiz et; karşılanmayan
+gereksinimler sonraki iterasyona; gerekçe(rationale) kayıt→Mimari
+belgesi
+
+Mimari Sürücüler: Tasarım Amacı+Birincil İşlevsel Gereksinimler+Kalite
+Niteliği Senaryoları+Kısıtlamalar. Tasarım Kavramı Türleri:
+Taktikler|Mimari Örüntüler|Referans Mimariler|Harici Bileşenler.
+
+Referans Mimariler: Üç Katmanlı
+Web(sunum+uygulama+veri)|Lambda(toplu+hız+hizmet katmanı)|CQRS+Event
+Sourcing|Mikro Ön Uç|IoT(cihaz+ağ geçidi+platform+uygulama)|Mikroservis.
+BankStat örneği: istatistiksel analiz sistemi;
+başarım+erişilebilirlik+değiştirilebilirlik+güvenlik sürücüleri; olay
+odaklı+aktif yedek+eklenti+şifreleme kararları.
+
+◆ATAM (Mimari Takas Analizi Yöntemi)
+
+Değerlendiriciler mimariyi/iş hedeflerini önceden bilmek zorunda değil;
+sistem inşa edilmemiş olabilir. Bass, Clements & Kazman, 2013.
+
+Katılımcılar: Değerlendirme Ekibi(3-5 kişi, proje dışı, tarafsız)+Karar
+Vericiler(proje adına konuşma yetkisi, mimar dahil)+Mimari
+Paydaşlar(12-15 kişi büyük projelerde;
+geliştiriciler/test/entegratörler/bakım/kullanıcılar)
+
+Aşama 0→Birkaç hafta; lojistik/planlama/paydaş işe alımı/ekip
+oluşturma→Değerlendirme planı, paydaş listesi
+
+Aşama 1→2 gün; ekip+karar vericiler; ATAM sunumu/iş sürücüleri/mimari
+sunumu/mimari yaklaşımların belirlenmesi/nitelik ağacı
+oluşturma/analiz→İlk risk listesi
+
+Aşama 2→2 gün; tüm katılımcılar; beyin fırtınası/senaryo
+önceliklendirme/analiz/risklerin sunumu→Öncelikli
+senaryolar/riskler/takas noktaları
+
+Aşama 3→Birkaç hafta; değerlendirme ekibi→Kapsamlı değerlendirme raporu
+
+▸7 ATAM Çıktısı
+
+(1)Mimarinin özlü sunumu(1 saatte). (2)İş hedeflerinin ifadesi(çoğu
+katılımcı ilk kez görür). (3)Önceliklendirilmiş KN senaryoları.
+(4)Riskler ve risksizler. (5)Risk temaları(sistemik zayıflıklar).
+(6)Mimari kararlar↔KN eşlemesi. (7)Duyarlılık ve takas noktaları.
+
+Risk=istenmeyen sonuçlara yol açabilecek mimari karar. Risksiz=güvenli
+olduğu değerlendirilen karar. Takas Noktası=birden fazla KN'yi etkileyen
+karar. Duyarlılık Noktası=belirgin etkisi olan karar. Nitelik Ağacı:
+kök(genel kalite)→KN kategorileri→alt kategoriler→somut senaryolar; her
+yaprak için iş önemi(Y/O/D)×mimari zorluk(Y/O/D). Somut olmayan
+çıktılar: paydaşlar arası topluluk duygusu, açık iletişim kanalları.
+Hafif Değerlendirme: küçük/orta projeler, zaman kısıtı, erken tasarım
+aşaması.
+
+◆ARAYÜZ & VERİ DEĞİŞİM MEKANİZMALARI
+
+Arayüz=elemanın diğer elemanlarla etkileşime girdiği sınır. İçerir:
+işlemler(operations)+olaylar(events)+özellikler(properties). Bilgi
+gizleme ilkesinin pratik uygulaması. Arayüz kapsamı: en az ayrıcalık
+ilkesi—yalnızca ihtiyaç duyulan bilgi/işlevsellik.
+
+XML→Metin; XML Schema; düşük performans. Kurumsal/yapılandırma. Meta
+dil: özelleştirilmiş dil tanımlanabilir; şema ile kısıtlamalar.
+
+JSON→Metin; JSON Schema; orta performans. Web API/REST. Serileştirme
+XML'den verimli; JS veri türleri tabanlı.
+
+Protocol Buffers→İkili; .proto dosyası; yüksek performans. gRPC/yüksek
+başarım. Kompakt; dile özgü derleyiciler; tip güvenliği.
+
+REST 6 Kısıtlaması: (1)Tekdüze arayüz(URI+HTTP). (2)İstemci-sunucu.
+(3)Durumsuz—her istek tüm bilgiyi içerir. (4)Önbelleğe alınabilir.
+(5)Katmanlı sistem. (6)İstek üzerine kod(isteğe bağlı). gRPC:
+HTTP/2+Protocol Buffers; çift yönlü akış; kimlik doğrulama; akış
+kontrolü; iptal/zaman aşımı; mikroservisler arası ideal. Arayüz Evrimi:
+Kullanımdan
+Kaldırma(Deprecation)|Sürümleme(Versioning)|Genişletme(Extension). Hata
+Yönetimi: istisna fırlatma|durum kodu|özellik|olay|günlük.
+
+Etkileşim Stilleri: RPC(uzak prosedür çağrısı; yerel gibi kodlanır; gRPC
+modern versiyonu)|REST(HTTP üzerinden; URI ile kaynak; durumsuz)|Mesaj
+tabanlı(asenkron; gevşek bağlaşım). Veri Değişim Boyutları: İfade
+gücü|Birlikte çalışabilirlik|Başarım|Örtük bağlaşım|Şeffaflık.
+
+◆SANALLAŞTIRMA
+
+Fiziksel→İzolasyon:tam|Başlangıç:dakikalar|Kaynak:düşük|Taşınabilirlik:düşük|Yönetim:yüksek
+
+Sanal Makine→İzolasyon:tam(ayrı
+OS)|Başlangıç:dakikalar|Kaynak:yüksek|Taşınabilirlik:orta|Güvenlik:güçlü
+
+Konteyner→İzolasyon:süreç düzeyi(paylaşılan
+OS)|Başlangıç:saniyeler|Görüntü:küçük(MB)|Taşınabilirlik:yüksek|Güvenlik:orta
+
+Sunucusuz→İzolasyon:fonksiyon düzeyi|Başlangıç:milisaniyeler|Kaynak:çok
+düşük|Otomatik ölçekleme|Soğuk başlangıç riski
+
+Tip 1 Hipervizör→Bare-Metal: doğrudan donanım üzerinde→en yüksek
+başarım; sunucu ortamları; VMware ESXi, Hyper-V
+
+Tip 2 Hipervizör→Hosted: ana OS üzerinde servis olarak→masaüstü/dizüstü;
+VirtualBox, VMware Workstation
+
+Konteyner vs VM: VM=tüm OS içerir, birden fazla servis çalıştırabilir,
+büyük görüntü(GB); Konteyner=OS paylaşır, tek servis, küçük görüntü(MB),
+durumsuz, sonlandırılınca devam etmez. VM görüntüleri büyük→ağ aktarımı
+yavaş; yapılandırma(configuration) ile servis ekleme yaygın.
+Pod(Kubernetes): ilişkili konteynerler grubu; aynı ağ ad alanı+depolama
+paylaşımı; iletişimi hızlandırır. Kubernetes hiyerarşi:
+Düğüm(donanım/VM)→Pod→Konteyner. Sunucusuz dezavantaj: soğuk başlangıç
+gecikmesi, uzun süreli işlemler için uygun değil, satıcı bağımlılığı.
+Kaynaklar: CPU+bellek+disk+ağ bağlantıları.
+
+◆MIDDLEWARE KARŞILAŞTIRMA
+
+gRPC→Paradigma:RPC|Protokol:HTTP/2|Format:Protocol
+Buffers(İkili)|Başarım:Çok
+Yüksek|Aracı:Gerekmez|QoS:Temel|Kullanım:Mikroservisler|Çift yönlü akış
+
+MQTT→Paradigma:Pub-Sub|Protokol:TCP/IP|Format:Herhangi|Başarım:Yüksek|Aracı:Gerekli(Broker)|QoS:3
+düzey|Kullanım:IoT|Hafif
+
+DDS→Paradigma:Veri Merkezli
+Pub-Sub|Protokol:UDP/IP|Format:CDR(İkili)|Başarım:Çok
+Yüksek|Aracı:Gerekmez|QoS:Kapsamlı|Kullanım:Gerçek zamanlı/savunma
+
+REST/HTTP→Paradigma:İstek-Yanıt|Protokol:HTTP/1.1-2|Format:JSON/XML(Metin)|Başarım:Orta|Aracı:Gerekmez|QoS:Temel|Kullanım:Web
+API
+
+MQTT QoS: 0=en fazla 1x(onay yok, en iyi çaba) | 1=en az 1x(onay var,
+tekrar gönderilebilir) | 2=tam olarak 1x(garanti, 4-adım握手).
+Mosquitto: saniyede 60.000 bağlantı; libmosquitto ~1.3MB. MQTT Konu
+Hiyerarşisi: '+' tek düzey joker, '#' çok düzey joker. Örnek:
+'building1/+/room1'.
+
+DDS Varlıkları:
+Alan(Domain)→Konu(Topic)→Yayımcı(Publisher)/Abone(Subscriber)→DataWriter/DataReader.
+DDS QoS Politikaları:
+Güvenilirlik(Reliability)|Dayanıklılık(Durability)|Gecikme
+Bütçesi(Deadline)|Sahiplik(Ownership). DDS: aracısız, dinamik
+keşif(önceden yapılandırma gerekmez), geç katılım desteği, veri merkezli
+entegrasyon. Kullanım: savunma/otonom araçlar/endüstriyel
+otomasyon/sağlık/finans.
+
+FACE TSS: havacılık için DDS üzerine inşa edilmiş standart API; farklı
+tedarikçi bileşenlerinin birlikte çalışabilmesi; tip güvenli veri
+alışverişi; kod üretimi desteği.
+
+◆UML DİYAGRAMLARI & NOTASYON
+
+Bileşen Diyagramı→İşlevsel görünüm+Eşzamanlılık görünümü; bileşenler ve
+ilişkiler
+
+Paket Diyagramı→Geliştirme görünümü; modüller ve bağımlılıklar
+
+Dağıtım Diyagramı→Dağıtım görünümü; yazılım→donanım; düğümler ve
+bileşenler
+
+Sınıf Diyagramı→Bilgi görünümü; sınıflar, özellikler, ilişkiler
+
+Sıra Diyagramı→Bileşenler arası etkileşimler zaman sırasıyla; davranış
+belgeleme
+
+Durum Makinesi→Bileşenin farklı durumlardaki davranışı; kapsamlı
+davranış belgeleme
+
+DFD→Veri Akış Diyagramı; Bilgi görünümü için; veri akışı ve dönüşümleri
+
+C4 Modeli: C1=Bağlam(dış dünya ilişkisi; teknik olmayan paydaşlar
+için)|C2=Konteyner(uygulamalar/veri depoları; geliştiriciler/sysadmin
+için)|C3=Bileşen(konteyner içi; geliştiriciler için)|C4=Kod(UML sınıf;
+genellikle otomatik). ADL(Mimari Açıklama Dili): ACME/Wright/Rapide;
+resmi tanım; otomatik analiz; endüstride az benimsendi. Mimari
+Belgeleme: Tasarım gerekçesi kayıt: hangi kanıtlar üretildi/kim ne
+yaptı/neden kısayollar/neden takaslar/hangi varsayımlar.
+
+◆KISALTMALAR & TEMEL KAVRAMLAR
+
+ADD=Attribute-Driven Design|ADR=Architecture Decision
+Record|ASR=Architecturally Significant Requirement|ATAM=Architecture
+Tradeoff Analysis Method|C&C=Component &
+Connector|CIA=Confidentiality/Integrity/Availability|COTS=Commercial
+Off-The-Shelf|CQRS=Command Query Responsibility Segregation|DDS=Data
+Distribution Service|EDA=Event-Driven Architecture|FACE=Future Avionics
+Capability
+Environment|FCAPS=Fault/Configuration/Accounting/Performance/Security|IoT=Internet
+of Things|MQTT=Message Queuing Telemetry Transport|MTBF=Mean Time
+Between Failures|MTTR=Mean Time To Repair|QoS=Quality of
+Service|RBAC=Role-Based Access Control|REST=Representational State
+Transfer|RPC=Remote Procedure Call|SLA=Service Level
+Agreement|SOA=Service-Oriented Architecture|TSS=Transport Services
+Segment.
+
+◆ÖRNEK SORU KALIPLARI
+
+Yapı Eşleme: Modül yapısı DEĞİL=Dağıtım yapısı(tahsis). Çalışma zamanı
+davranışı=C&C yapısı. Ekiplere modül ataması=İş Atama(tahsis).
+Taşınabilirlik=Katman yapısı. 'Kullanır' ilişkisi=Kullanım yapısı.
+'Miras alır'=Sınıf yapısı. Paralellik+koordinasyon=Eşzamanlılık(C&C).
+Yazılım↔donanım=Dağıtım(tahsis). Dosya sistemi
+eşlemesi=Uygulama(tahsis).
+
+Taktik Eşleme: Ping/Echo→hata tespiti|Aktif Yedek→hatadan
+kurtarma|İşlem→hata önleme|Devre Kesici→hatadan kurtarma.
+Kapsülleme→bağlaşımı azaltma|Modülü Bölme→uyumu artırma|Çok
+Biçimlilik→bağlamayı erteleme(çalışma zamanı). Önbelleğe Alma→kaynakları
+yönetme(verinin kopyaları)|Olayları Önceliklendirme→kaynak talebini
+kontrol. Kimlik Doğrulama→dirençli olma|Audit Trail→tespit etme.
+
+ATAM Eşleme: Risk=istenmeyen sonuç|Risksiz=güvenli karar|Takas=birden
+fazla KN|Duyarlılık=belirgin etkili. ADD sırası:
+1.Girdiler→2.Hedef→3.Eleman→4.Kavram→5.Somutlaştır→6.Kayıt. ATAM aşama
+sırası: 0.Hazırlık(haftalar)→1.Değerlendirme I(2gün)→2.Değerlendirme
+II(2gün)→3.Takip(haftalar).
+
+Görünüm-Notasyon: İşlevsel→UML Bileşen|Bilgi→DFD+UML Sınıf|Dağıtım→UML
+Dağıtım|Geliştirme→UML Paket|Eşzamanlılık→UML Bileşen(iş parçacıklı).
+Middleware: IoT→MQTT|Mikroservisler→gRPC|Gerçek zamanlı/savunma→DDS|Web
+API→REST. Örüntü-Kalite:
+Katmanlar→Değiştirilebilirlik+Taşınabilirlik|İstemci-Sunucu→Değiştirilebilirlik+Ölçeklenebilirlik|Pub-Sub→Değiştirilebilirlik+Ölçeklenebilirlik|Microkernel→Değiştirilebilirlik+Genişletilebilirlik.
+
+Sanallaştırma: En hızlı başlangıç→Sunucusuz|En güçlü izolasyon→Sanal
+Makine|En iyi taşınabilirlik→Konteyner|Bare-Metal hipervizör→Tip
+1|Hosted hipervizör→Tip 2. MQTT QoS sırası: 0(onay yok)<1(en az
+1x)<2(tam olarak 1x). Yedekleme maliyet sırası: Soğuk<Pasif<Aktif.
+Kurtarma hızı sırası: Aktif(ms)<Pasif(sn)<Soğuk(dk).
+
+◆FCAPS & DAĞITIK SİSTEM KAVRAMLARI
+
+FCAPS:
+Fault(Hata)+Configuration(Yapılandırma)+Accounting(Hesap)+Performance(Başarım)+Security(Güvenlik)
+yönetimi. Telekomünikasyon ağı; binlerce cihazdan gerçek zamanlı veri.
+Mimari kararlar: Olay odaklı mimari(yüksek veri hacmi+düşük
+bağlaşım)|Mesaj kuyruğu(bileşenler arası bağlaşımı
+azaltır)|Mikroservis(bağımsız dağıtım)|Farklı depolama(zaman serisi
+DB+ilişkisel DB+nesne depolama). ATAM bulguları: Risk→mesaj kuyruğu tek
+hata noktası(çoğaltmayla azaltıldı)|Takas→mikroservis
+esnekliği↔operasyonel karmaşıklık; şifreleme↔başarım|Duyarlılık→mesaj
+kuyruğu kapasitesi kritik.
+
+CAP Teoremi: Tutarlılık(C)+Erişilebilirlik(A)+Bölünme Toleransı(P)—üçü
+aynı anda sağlanamaz. Güçlü Tutarlılık: her okuma son yazma sonucunu
+döndürür; yüksek maliyet. Nihai Tutarlılık(Eventual): belirli sürede
+tutarlı; yüksek başarım+erişilebilirlik; geçici tutarsızlık. Saga
+Örüntüsü: dağıtık işlemlerde telafi edici işlemler. Yatay Ölçeklendirme:
+sunucu ekleme; durumsuz uygulama gerektirir. Dikey Ölçeklendirme:
+kapasite artırma; sınıra ulaşır. Önbelleğe Alma: Redis/Memcached/CDN.
+Veritabanı Ölçekleme: okuma kopyaları(read replicas)+sharding+CQRS.
+
+◆MİMARİ TASARIM İLKELERİ & ÖRÜNTÜ DETAYLARI
+
+Bilgi Gizleme (Information Hiding): her modülün değişmesi muhtemel
+şeyleri kapsülleyen iyi tanımlanmış bir arayüzü olmalıdır.
+Sorumlulukların Ayrılması (Separation of Concerns): farklı endişeleri
+farklı modüllerde ele al. Tek Sorumluluk İlkesi (SRP): her modülün tek
+bir sorumluluk alanı olmalıdır. En Az Ayrıcalık (Least Privilege): bir
+eleman yalnızca ihtiyaç duyduğu bilgi/işlevselliğe erişebilmeli.
+Açık/Kapalı İlkesi: genişlemeye açık, değişime kapalı. Bağımlılık
+Tersine Çevirme: yüksek seviyeli modüller düşük seviyeli modüllere
+bağımlı olmamalı; ikisi de soyutlamalara bağımlı olmalı.
+
+▸Katmanlar Örüntüsü Detayı
+
+Bağlam: bağımsız geliştirilebilecek parçalara ayrılması gereken sistem.
+Sorun: farklı bölümler bağımsız geliştirilmeli ama etkileşim gerekli.
+Çözüm: soyutlama düzeylerine böl; tek yönlü kullanım. Faydalar: alt
+katmanlar üst katmanları etkilemeden değiştirilebilir; yeniden kullanım;
+taşınabilirlik. Dezavantajlar: başarım maliyeti (çok katman geçişi);
+yanlış tasarımda engel oluşturur. Katman ihlali (layer bridging):
+faydaları ortadan kaldırır. Gerçek dünya: TCP/IP, OSI modeli, 3 katmanlı
+web mimarisi.
+
+▸Yayımla-Abone Ol Detayı
+
+Çalışma zamanında mesaj yayımlandığında veri yolu ilgili tüm abonelere
+bildirir. Yayımcılar aboneler hakkında bilgisizdir; aboneler yalnızca
+mesaj türlerinden haberdardır. Faydalar: yayımcı-abone bağımsız; abone
+ekleme/değiştirme yayımcıyı etkilemez; olaylar kaydedilebilir.
+Dezavantajlar: gecikme; belirsiz bekleme süresi; belirleyicilik olumsuz
+etkilenir; test edilebilirlik zorlaşır; uçtan uca şifreleme sınırlı.
+
+▸Mikrokernel (Eklenti) Örüntüsü Detayı
+
+İki tür eleman: çekirdek elemanlar (temel işlevsellik) + eklentiler
+(sabit arayüz aracılığıyla işlevsellik ekler). Oluşturma zamanında veya
+sonra birbirine bağlanır. Faydalar: kontrollü genişleme mekanizması;
+farklı ekipler/organizasyonlar tarafından geliştirilebilir; arayüzler
+değişmediği sürece bağımsız evrim. Dezavantaj: güvenlik açıkları ve
+gizlilik tehditleri daha kolay ortaya çıkabilir.
+
+▸Olay Odaklı Mimari (EDA) Detayı
+
+Olay=sistemde meydana gelen şeyin kaydı; değişmez (immutable); geçmişi
+temsil eder. Olay Üreticisi: olayı üreten; kimin tüketeceğini bilmez.
+Olay Tüketicisi: olaylara abone olan; bir olay birden fazla tüketici
+tarafından işlenebilir. Olay Kanalı: mesaj kuyruğu/mesaj veri yolu/olay
+akışı. Event Sourcing: sistem durumu olayların dizisi olarak saklanır;
+geçmişe dönük sorgulama mümkün. CQRS ile birlikte kullanılır.
+
+◆YAZILIM MİMARİSİ & ORGANİZASYON
+
+Mimari, geliştirme projesinin yapısına kazınır. İş kırılım yapısı (WBS)
+temeli: planlama/zamanlama/bütçe birimleri; ekipler arası iletişim
+kanalları; yapılandırma kontrolü/dosya sistemi organizasyonu;
+entegrasyon ve test planları. Mimari, ürün ailesinin tüm üyeleri için
+neyin sabit neyin değişken olduğunu tanımlar. COTS/OSS/bulut servisleri:
+pazara çıkış süresi kısalır; güvenilirlik artar (yaygın kullanım);
+maliyet düşer; esneklik. Evrimsel prototipleme: iskelet sistem; erken
+çalıştırılabilir durum; performans sorunları erken tespiti.
+
+Mimari Değerlendirme: yaşam döngüsünün erken aşamalarında; tasarımdaki
+sorun ne kadar erken bulunursa düzeltmek o kadar ucuz. Maliyet ve takvim
+tahmini: yukarıdan aşağıya (hedef/bütçe) + aşağıdan yukarıya (daha
+doğru). Yeniden kullanılabilir model: benzer gereksinimli sistemler için
+mimari yeniden kullanımı; kod+gereksinimler+deneyim+altyapı yeniden
+kullanılabilir.
+
+◆PAYDAŞ ANALİZİ & İLETİŞİM
+
+Birincil paydaşlar: kullanıcılar/müşteriler/sistem operatörleri.
+İkincil: yöneticiler/düzenleyici kurumlar/toplum. Anahtar: proje
+sponsorları/üst yönetim/karar vericiler. Kullanıcı endişesi: kullanım
+kolaylığı/başarım/güvenilirlik. Geliştirici: değiştirilebilirlik/test
+edilebilirlik/verimlilik. Yönetici: maliyet/takvim/risk. Güvenlik
+uzmanı: güvenlik açıkları/uyumluluk.
+
+Paydaş iletişimi: teknik olmayan→yüksek düzeyli bağlam diyagramları+iş
+değeri odaklı. Teknik→ayrıntılı mimari diyagramlar+teknik gerekçeler.
+Yöneticiler→maliyet-fayda analizi+risk değerlendirmeleri. Mimari, tüm
+paydaşların karşılıklı anlayış oluşturmak için kullanabileceği ortak
+soyutlamayı temsil eder.
+
+◆YAZILIM MİMARİSİ ARAÇLARI
+
+Modelleme: Enterprise Architect(kapsamlı UML/büyük
+ölçekli)|Lucidchart(bulut
+tabanlı/işbirliği)|draw.io/diagrams.net(ücretsiz/açık
+kaynak)|PlantUML(metin tabanlı/sürüm kontrolü ile entegre). Statik
+Analiz: SonarQube(kod kalitesi/güvenlik; döngüsel
+karmaşıklık/tekrar/güvenlik açıkları)|ArchUnit(Java; mimari kısıtlamalar
+kod olarak)|NDepend(.NET; bağımlılık analizi/metrikler). Konteyner
+Orkestrasyon: Kubernetes(en yaygın; Pod/Deployment/Service/Ingress
+soyutlamaları)|Docker Swarm(basit; küçük ölçekli)|Apache Mesos(büyük
+ölçekli; konteyner+konteyner olmayan iş yükleri).
+
+◆ÖRÜNTÜ & TAKTİK KARAR AĞACI
+
+Yüksek erişilebilirlik gereksinimi → Aktif Yedek(ms kurtarma) veya Pasif
+Yedek(sn kurtarma) veya Soğuk Yedek(dk kurtarma). Yüksek
+değiştirilebilirlik → Kapsülleme+Bağımlılıkları Kısıtlama+Bağlamayı
+Erteleme. Yüksek başarım → Önbelleğe Alma+Eşzamanlılık+Yük Dengeleme.
+Yüksek güvenlik → CIA üçgeni: Kimlik
+Doğrulama+Yetkilendirme+Şifreleme+Audit Trail. IoT sistemi →
+MQTT+Pub-Sub+Katmanlı IoT Mimarisi. Gerçek zamanlı kritik → DDS+Aktif
+Yedek+Düşük gecikme protokolleri. Mikroservisler arası → gRPC+Service
+Mesh+API Gateway. Büyük veri işleme → Lambda Mimarisi+Olay Odaklı+Mesaj
+Kuyruğu.
+
+Kalite Niteliği Çatışma Yönetimi: Güvenlik↔Başarım→şifreleme seçici
+uygulanır; donanım hızlandırma. Güvenlik↔Kullanım Kolaylığı→risk tabanlı
+kimlik doğrulama; tek oturum açma(SSO).
+Değiştirilebilirlik↔Başarım→profil tabanlı optimizasyon; kritik yollarda
+soyutlamayı azalt. Erişilebilirlik↔Maliyet→iş kritikliğine göre
+yedekleme türü seç.
+
+◆MIMARI BELGELEME DETAYI
+
+Görünümleri belgeleme = mimariyi belgeleme. Görünüm belgesi: (1)Birincil
+sunum(diyagram/tablo) (2)Eleman kataloğu(her elemanın ayrıntılı
+açıklaması) (3)Bağlam diyagramı(görünümün sistemin geri kalanıyla
+ilişkisi) (4)Değişkenlik kılavuzu(mimarinin nasıl değişebileceği)
+(5)Gerekçe(neden bu tasarım kararları). Görünümlerin ötesinde:
+Görünümler arası eşleme(modül↔bileşen)|Örüntüleri belgeleme|Bağlam
+diyagramları|Değişkenlik kılavuzu|Gerekçe(rationale)|Sözlük ve
+kısaltmalar|Belge kontrol bilgisi(sürüm/yazarlar/değişiklik geçmişi).
+
+Görünümleri birleştirme: bazı durumlarda birden fazla görünümü tek
+gösterimde birleştirmek mümkün ve yararlı; dikkatli
+yapılmalı—anlaşılması güçleşebilir. Tasarım gerekçesi: hangi kanıtlar
+üretildi+kim ne yaptı+neden kısayollar+neden takaslar+hangi varsayımlar.
+Yeni proje üyelerine giriş: Modül görünümleri proje yapısını gösterir;
+C&C görünümleri çalışma mantığını açıklar.
+
+◆GERÇEK DÜNYA MİMARİ ÖRNEKLERİ
+
+▸E-Ticaret Sistemi
+
+Mikroservis mimarisi: Ürün
+Kataloğu+Kullanıcı+Sipariş+Ödeme+Öneri+Bildirim servisleri. Her servis
+kendi DB'si. Ürün kataloğu için Redis önbelleği. Sipariş için Apache
+Kafka mesaj kuyruğu. Yük dengeleme+çoklu örnek. Güçlü: bağımsız
+ölçeklendirme/farklı teknoloji/hata izolasyonu. Zayıf: servisler arası
+karmaşıklık/dağıtık işlem tutarlılığı/yüksek operasyonel karmaşıklık.
+
+▸Bankacılık Sistemi
+
+Katmanlı mimari: sunum+iş mantığı+veri erişim+entegrasyon. Aktif-aktif
+yedekleme. ACID işlemleri. Çok katmanlı güvenlik: ağ+uygulama+veri.
+MFA+RBAC+TLS+depolama şifreleme+değiştirilemez audit trail. %99,999
+erişilebilirlik hedefi.
+
+▸IoT Sistemi
+
+Katmanlar: Algılama(sensörler/aktüatörler)+Ağ Geçidi(protokol
+dönüşümü/filtreleme/yerel işleme)+Platform(bulut
+işleme/depolama/analiz)+Uygulama(gösterge paneli/uyarı/otomasyon).
+Middleware: MQTT(kısıtlı cihazlar/düşük bant genişliği)|DDS(gerçek
+zamanlı/yüksek güvenilirlik). AWS IoT/Azure IoT Hub/Google Cloud IoT.
+
+▸Gerçek Zamanlı Oyun Sunucusu
+
+UDP protokolü: düşük gecikme; güvenilirlik garantisi yok; kayıp paketler
+oyun mantığı tarafından ele alınır. Durum senkronizasyon protokolü:
+düzenli oyun durumu güncellemeleri. Tahminsel hareket(predictive
+movement): ağ gecikmesi etkisini azaltır. Sunucu taraflı doğrulama: hile
+önleme; tüm oyun mantığı sunucuda.
+
+◆ÇEVİK & MİMARİ BORÇ
+
+Yeterli Mimari (Just Enough Architecture): geri döndürülmesi
+zor/maliyetli kararlar önceden alınır; teknoloji seçimleri/temel yapısal
+kararlar/kritik KN taktikleri. Geri döndürülmesi kolay kararlar
+geliştirme sürecinde alınabilir. Mimari Borç: kısa vadeli kazanım için
+uzun vadeli maliyetli kararlar; teknik borcun alt kümesi. Örnekler:
+modüler olmayan yapı/güvenlik erteleme/başarım ihmal/belgeleme ihmal.
+Yönetim: düzenli değerlendirme+önceliklendirme; her sprintte kapasite
+ayırma; yeni özelliklerle birlikte ele alma.
+
+Mimari Uyum Denetimi: gerçek sistemin mimari kararlarla uyumlu olup
+olmadığını kontrol etme. Mimari Çürüme(erosion): kasıtsız sapmalar;
+geliştiricilerin kısıtlamaları görmezden gelmesi. Mimari Sapma(drift):
+kasıtlı sapmalar; yeni gereksinimler/teknoloji değişiklikleri. Araçlar:
+SonarQube/ArchUnit/NDepend; statik analiz+bağımlılık analizi.
+
+◆ÖLÇÜM & DEĞERLENDİRME
+
+Bağlaşım Metrikleri: Ca(afferent)=modüle bağımlı modül sayısı;
+Ce(efferent)=modülün bağımlı olduğu modül sayısı; I=Ce/(Ca+Ce):
+0=tamamen kararlı, 1=tamamen dengesiz. Uyum Metrikleri: LCOM(Lack of
+Cohesion of Methods)=yüksek→düşük uyum→bölme sinyali. Karmaşıklık:
+Döngüsel Karmaşıklık=bağımsız yol sayısı; yüksek→test zorluğu/bakım
+maliyeti. DIT(Depth of Inheritance
+Tree)=derin→anlaşılması/değiştirilmesi güç.
+
+Başarım Analizi Teknikleri: Kuyruk Teorisi(matematiksel modeller;
+ortalama yanıt süresi/aktarım hızı/kaynak kullanımı
+hesaplama)|Simülasyon(bilgisayar ortamında taklit)|Ölçüm(gerçek
+sistemden veri toplama). Mimari Değerlendirme Yöntemleri: ATAM(kapsamlı;
+4 aşama; 7 çıktı)|SAAM(Scenario-Based Architecture Analysis Method; ATAM
+öncülü)|ARID(Active Reviews for Intermediate Designs; hafif; erken
+aşama).
+
+◆TEMEL KAYNAK & REFERANSLAR
+
+Bass, Clements & Kazman—Software Architecture in Practice, 3.Baskı, MIT
+Press, 2013: temel kavramlar/KN/ADD/ATAM. Rozanski & Woods—Software
+Systems Architecture, 2.Baskı, Addison-Wesley, 2011: görünümler ve
+perspektifler. Cervantes & Kazman—Designing Software Architectures,
+Addison-Wesley, 2016: ADD yöntemi pratik uygulaması. Fowler—Patterns of
+Enterprise Application Architecture, 2002: kurumsal örüntüler.
+Newman—Building Microservices, O'Reilly, 2015: mikroservis mimarisi.
+Richards—Software Architecture Patterns, O'Reilly, 2015: örüntü özeti.
+SEI(sei.cmu.edu): yazılım mimarisi araştırmaları. martinfowler.com:
+mimari ve tasarım örüntüleri makaleleri.

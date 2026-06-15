@@ -1,0 +1,29 @@
+@startuml soru10_seq
+!include _seq.iuml
+title Şekil 10b · Sipariş kontrol, ödeme ve işleme (CoR + Strategy + Template Method)
+actor Musteri
+participant "sis : ESatis" as S
+participant "zincir : KontrolHalkasi" as Z
+participant "odeme : OdemeYontemi" as O
+participant "isleyici : SiparisIsleyici" as I
+Musteri -> S : siparisVer(siparis)
+activate S
+S -> Z : kontrolEt(siparis)  <<CoR>>
+activate Z
+Z -> Z : sahtecilik? → limit? → bakiye?
+Z --> S : sonuc
+deactivate Z
+alt herhangi biri olumsuz
+  S -> S : siparis.iptalEt()
+else hepsi başarılı
+  S -> O : ode(tutar)  <<Strategy>>
+  O --> S : onay
+  S -> I : siparisiIsle(siparis)  <<Template Method>>
+  activate I
+  I -> I : faturaDuzenle()
+  I -> I : faturaGonder()
+  I -> I : alacaklaraKaydet()
+  deactivate I
+end
+deactivate S
+@enduml

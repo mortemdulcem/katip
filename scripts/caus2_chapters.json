@@ -1,0 +1,20 @@
+[
+ {
+  "idx": 0,
+  "title": "Önsöz (Preface)",
+  "enrich": false,
+  "chars": 1071
+ },
+ {
+  "idx": 1,
+  "title": "Yazarlar Hakkında (The Authors)",
+  "enrich": false,
+  "chars": 1820
+ },
+ {
+  "idx": 2,
+  "title": "Karayolu Trafik Ölümleri — İnceleme (Road Traffic Fatalities)",
+  "enrich": true,
+  "chars": 52027
+ }
+]

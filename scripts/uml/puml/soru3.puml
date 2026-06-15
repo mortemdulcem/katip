@@ -1,0 +1,71 @@
+@startuml soru3
+!include _style.iuml
+title Soru 3 — Oyun Savunma/Saldırı Araçları · Abstract Factory + Strategy
+
+interface AracFabrikasi <<interface>> {
+  + saldiriYarat() : SaldiriAraci
+  + savunmaYarat() : SavunmaAraci
+}
+class IlkelAracFabrikasi {
+  + saldiriYarat() : SaldiriAraci
+  + savunmaYarat() : SavunmaAraci
+}
+class GeliskinAracFabrikasi {
+  + saldiriYarat() : SaldiriAraci
+  + savunmaYarat() : SavunmaAraci
+}
+
+interface SaldiriAraci <<interface>> {
+  + saldirSimdi()
+}
+interface SavunmaAraci <<interface>> {
+  + koruBeni()
+}
+class Kilic {
+  + saldirSimdi()
+}
+class Tabanca {
+  + saldirSimdi()
+}
+class Kalkan {
+  + koruBeni()
+}
+class CelikYelek {
+  + koruBeni()
+}
+
+class Kahraman {
+  - saldiri : SaldiriAraci
+  - savunma : SavunmaAraci
+  + donanimYukle(f : AracFabrikasi)
+  + saldirSimdi()
+  + koruBeni()
+}
+
+AracFabrikasi <|.. IlkelAracFabrikasi
+AracFabrikasi <|.. GeliskinAracFabrikasi
+SaldiriAraci <|.. Kilic
+SaldiriAraci <|.. Tabanca
+SavunmaAraci <|.. Kalkan
+SavunmaAraci <|.. CelikYelek
+
+Kahraman o-- "1" SaldiriAraci : saldiri >
+Kahraman o-- "1" SavunmaAraci : savunma >
+Kahraman ..> AracFabrikasi : kullanır
+IlkelAracFabrikasi ..> Kilic : <<creates>>
+IlkelAracFabrikasi ..> Kalkan : <<creates>>
+GeliskinAracFabrikasi ..> Tabanca : <<creates>>
+GeliskinAracFabrikasi ..> CelikYelek : <<creates>>
+
+note bottom of AracFabrikasi
+  <b>Abstract Factory.</b> Her düzey, BİRBİRİYLE UYUMLU
+  bir aile üretir: Düzey-1 (ilkel) → {Kılıç, Kalkan};
+  Düzey-2 (gelişkin) → {Tabanca, Çelik Yelek}.
+  Kahraman somut araçlara bağlanmaz.
+end note
+note right of Kahraman
+  <b>Strategy.</b> saldirSimdi() ve koruBeni()
+  araç arayüzleri üzerinden ÇOK BİÇİMLİ çağrılır;
+  araç çalışma anında değiştirilebilir.
+end note
+@enduml

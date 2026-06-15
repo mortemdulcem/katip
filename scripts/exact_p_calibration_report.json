@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "method": "Fisher exact two-sided + Haldane-Anscombe (0.5) düzeltmeli Wald 95% CI log-OR",
+    "tarih": "2026-05-13T05:33:31.641Z",
+    "girdi": "scripts/analysis_quality_report.json (Türk korpusu) + Aboutanos 2007 PMID 18073608 + El Kady 2004 PMID 15284756",
+    "not": "Önceki §7.5.1 değerleri Yates-düzeltmeli χ² yaklaşımıydı; bu sürüm kesin Fisher exact p ile değiştirilmiştir. Kural 5 (kesin p) gereği."
+  },
+  "results": [
+    {
+      "karşılaştırma": "fetal_death_vs_Aboutanos2007",
+      "tablo_2x2": {
+        "a": 30,
+        "b": 283,
+        "c": 32,
+        "d": 289
+      },
+      "OR": 0.958,
+      "OR_CI95": [
+        0.569,
+        1.613
+      ],
+      "fisher_exact_p_two_sided": 0.8943297175767578,
+      "p_text": "0.8943"
+    },
+    {
+      "karşılaştırma": "abruption_vs_ElKady2004",
+      "tablo_2x2": {
+        "a": 10,
+        "b": 303,
+        "c": 361,
+        "d": 9955
+      },
+      "OR": 0.953,
+      "OR_CI95": [
+        0.51,
+        1.778
+      ],
+      "fisher_exact_p_two_sided": 0.999999999977413,
+      "p_text": "1.0000"
+    },
+    {
+      "karşılaştırma": "preterm_vs_ElKady2004",
+      "tablo_2x2": {
+        "a": 46,
+        "b": 267,
+        "c": 2321,
+        "d": 7995
+      },
+      "OR": 0.599,
+      "OR_CI95": [
+        0.437,
+        0.82
+      ],
+      "fisher_exact_p_two_sided": 0.0008924337315754201,
+      "p_text": "0.0009"
+    },
+    {
+      "karşılaştırma": "fetal_death_vs_ElKady2004pop",
+      "tablo_2x2": {
+        "a": 30,
+        "b": 283,
+        "c": 37,
+        "d": 10279
+      },
+      "OR": 29.491,
+      "OR_CI95": [
+        18.026,
+        48.247
+      ],
+      "fisher_exact_p_two_sided": 1.107301524272758e-28,
+      "p_text": "1.11e-28"
+    }
+  ]
+}

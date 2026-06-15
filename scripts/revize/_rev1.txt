@@ -1,0 +1,50 @@
+2. sayfa
+Splicing-Uç birleştirme
+Elongasyonu-Uzama gibi ya da terimi açıklayan ifadelerle Türkçeleri kullanılmalı
+Diferansiyasyon-hücresel farklılaşma süreci
+3. Sayfa
+superior performans-üstün performans
+4. sayfa
+“HOMA-IR ile Horvath epigenetik yaşı arasında pozitif korelasyon (r=0.42, p&lt;0.001) göstermiş ve bu ilişkinin inflamatuar yolaklar aracılığıyla mediye edildiğini ortaya koymuştur.” mediye diye Türkçe kullanım yok. “Aracılığı ile gerçekleştiğini ortaya koymuştur.” gibi kullanılabilir.
+“…5,111 katılımcılık kohortlarında…” Türkçe’de virgül ondalık sayıları ayırmak için kullanılır. Virgülsüz yazımı önerilmektedir.
+5. sayfa
+“Psikolojik dayanıklılık faktörleri, madde kullanımının biyolojik etkilerini modere edebilir.” “modere etme” düzenleme olarak kullanılabilir. Sonraki 2. Cümlede “Zayıf duygu düzenleme” ifadesi kullanılıyor. Genel metin düzeyinde modere etme veya düzenleme olarak kullanımından biri seçilerek bütünlük sağlanmalı
+6. sayfa
+“…nucleus accumbens, hippokampus ve beyaz madde bölgelerinden elde edilmiştir.” Nükleus akkumbens, hipokampus akademik Türkçe kullanımları
+7. sayfa
+“PMC9979153 çalışmasından supplementary veriler indirilmiştir.””… ek veriler (supplementary data)…” şeklinde kullanılmalı
+Tablo 1 öncesindeki metinde, Tablo1’de ne sunulduğuyla ilgili Tablo 1’e atıf yapan bir cümle içermeli.
+8. sayfa
+“…oluşan bir popülasyon veritabanıyla entegre edilmiştir.” veri tabanıyla şeklinde ayrı yazılmalı
+9. sayfa
+“Platformun "Moleküler Kaynak Ayrımı" algoritması, DNA metilasyon profilindeki değişikliklerin etyolojisini belirleyebilir.” etiyolojisi olmalı
+10. sayfa
+“…değişikliklerini beyin bölgesi-spesifik değişikliklerle ilişkilendirmeyi hedefler ve invazif olmayan yöntemlerle nöroepigenetik değişimleri görselleştirme potansiyeline sahiptir.” invaziv olmalı
+11. sayfa
+Tablo numaralandırma yanlış, Tablo 1 den Tablo 6 ya geçiyor.
+Tablo 6 (yanlış numaralandırmış 2 olmalı) öncesindeki metinde Tablo2 de ne sunulduğuyla ilgili Tablo 2’ye atıf yapan bir cümle içermeli.
+Tablo 6’daki R2, R2 olmalı.
+12. sayfa
+Tablo 7 numaralandırma hatası, sıralama doğruysa 3 olmalı
+Tablo 7 öncesinde de metin olarak tablo açıklaması, atıflı olarak verilmeli
+Sayfa 16
+Şekil 1’deki yandaki yazılar kesik görünüyor. Ayrıca fotoğraf çözünürlük sorunu var. En az 300 dpi olacak şekilde kullanılmalı. Ayrıca üzerindeki İngilizce yazılar Türkçeleştirilmelidir. Orijinal kaynaktaki gibi sunuyorsan, şekil notunda A, B gibi şekle ait açıklamalar da Türkçe sunulmalıdır. Diğer yandan şeklin açıklama kısmında orjinal kaynak ve kaynaktaki şekil numarasını atıf yaparak verebilirsin ama görsel üstünde şekil numarası ve orijinal adı kalmamalı.
+
+GENEL değerlendirmeler
+Genel bir başlık akışı sorunu olduğunu düşünüyorum. Başlık akışının Bulgular ve Yorumlar olarak değiştirilmesini öneriyorum. Böylece sadece havada kalan veriler değil bu verilerin ne anlama geldiği bir akış ile verilebilir.
+Bulgular sadece tablo olarak sunulmamalı, tablo öncesinde tabloya ilişkin gerekli açıklama ve tabloya atıf eklenmeli, tablonun sonrasında ise tablo verileri literatür destekli yorumlanmalı. Bu çıktı neyi gösteriyor ve literatürde nasıl destekliyor veya çelişiyor. Aslında bu bölüm tartışmada 4.7’ye kadar yazılmış sadece metin akışı düzenlenmeli, çünkü okurken bütünlük kaybediliyor. Bulgu ve yorumunu vermek bütünlük açısından daha iyi ve çalışmayı okunabilir kılar. 
+Tartışma başlığının altında vurucu çıktıları sunarak güçlü zayıf yönler ve gelecek önerilerini vererek tamamlamak, çalışmayı daha akıcı sunar. 4.7 ve sonrası bu bölümde, yani tartışma başlığı altında sunulmalı.
+Teşekkür kısmında çok doğrudan çeviri olmuş, “cömertliği sayesinde”, “taktirle karşılıyoruz” gibi ifadeler çok moda mod çevirilerdir. Daha çok Türkçede yaygın kullanılan ifadeler ile düzenlenmesi önerilir.
+Kaynakça’daki makale sırasının “23-75: (BULGULAR ve TARTIŞMA bölümleri için)” ifade ile bölünerek sunulduğu belirlenmiştir. Makalenin bulgular ya da giriş kısımlarında kullanılmış olması önemli değil aynı makale iki kısımda da kullanılabilir. Bu nedenle kaynakça’daki bu ifade kaldırılmalı ve literatür numaraları sıralı bir şekilde sunulmalıdır.
+
+Yazar Katkıları kısmı olması zorunlu bir bölümse, Yazar adı ve tüm katkıları sırayla sunulabilir.
+Ekler başlığı altındaki Ek1 olarak sunulan kısaltmalar, kısaltmalar başlığı altında özetten sonra sunulmalıdır.
+Ayrıca ek de sunulan figur 1 vs kısımlar görselden kaldırılmalı, gerekli açıklama bu ek’e ait başlıkta sunulmalıdır. Kaynak ve verilmek isteniyorsa kaynaktaki şekil vs numarası burada verilebilir. Ama bunlar ek değil şekil olarak sunuluyorsa, bu şeklin makalenin ilgili bölümüne yerleştirilmesi gerekmektedir. Ek olarak sunuluyorsa Ekler sıralamasındaki numaraya göre Ek olarak sıralanmalı ve adlandırılmalıdır.
+Ekler de sunulan her bir görsel ayrı ayrı ek 1, ek 2 gibi numaralandırılmalı ve adlandırılmalıdır. Ayrıca bunlara ait açıklama yorum vb. ana metin içinde yapılmalıdır.
+Bu makale Türkçe yayınlanacağı için tüm şekil ve eklerdeki yazılar Türkçe olmalı
+Supplementary figure olarak verilenler de Ek olarak sunulmalı ve numaralandırılıp adlandırılmalıdır. Ayrıca metin içinde de ilgili atıflama yapılmalıdır..
+Bu uyarılar tüm makale düzeyinde kontrol edilmeli.
+Tabloya öncesindeki metinde atıf yapan paragraf eklenmeli
+Tablo numaralandırma kontrol edilmeli, 
+Tablodaki verilere ait detaylı yorumlama hemen tablonun alt paragrafında veya birkaç tablonunki bir arada ise ilgili tabloların sonundaki paragrafta tablolara atıf yaparak sunulmalı
+Genel makale atıflama sisteminde: yazar ismi ile oluşturulmuş cümlelerde, atıflar yazarın adının hemen arkasından değil, cümle sonunda sunulmalı.

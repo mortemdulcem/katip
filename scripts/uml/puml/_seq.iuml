@@ -1,0 +1,27 @@
+' Ortak sıra (sequence) diyagramı stili — sınıf diyagramı estetiğiyle uyumlu
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam dpi 150
+skinparam defaultFontName Serif
+skinparam defaultFontSize 12
+skinparam sequence {
+  ArrowColor #2A2A2A
+  LifeLineBorderColor #6B6B6B
+  LifeLineBackgroundColor #EFEFE8
+  ParticipantBackgroundColor #FBFBF7
+  ParticipantBorderColor #3A3A3A
+  ParticipantFontName Serif
+  ActorBackgroundColor #FBFBF7
+  ActorBorderColor #3A3A3A
+}
+skinparam note {
+  BackgroundColor #FCF6E3
+  BorderColor #B9A86A
+  FontName Serif
+  FontSize 11
+}
+skinparam title {
+  FontName Serif
+  FontSize 14
+  FontColor #1F3A5F
+}

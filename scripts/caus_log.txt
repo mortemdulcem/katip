@@ -1,0 +1,24 @@
+Segment: 24, toplam görev: 394
+Bekleyen: 1/394
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0
+.hb cache=393 done=0

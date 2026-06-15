@@ -1,0 +1,126 @@
+[
+  {
+    "n": 31,
+    "q": "Ikossi DG[Author] Knudson MM[Author] 2005[PDAT]",
+    "count": 1,
+    "first": {
+      "title": "Profile of mothers at risk: an analysis of injury and pregnancy loss in 1,195 trauma patients.",
+      "journal": "Journal of the American College of Surgeons",
+      "year": "2005 Jan",
+      "authors": "Ikossi DG, Lazar AA, Morabito D"
+    }
+  },
+  {
+    "n": 36,
+    "q": "Pearlman MD[Author] 1990[PDAT] Am J Obstet Gynecol[Journal]",
+    "count": 1,
+    "first": {
+      "title": "A prospective controlled study of outcome after trauma during pregnancy.",
+      "journal": "American journal of obstetrics and gynecology",
+      "year": "1990 Jun",
+      "authors": "Pearlman MD, Tintinallli JE, Lorenz RP"
+    }
+  },
+  {
+    "n": 45,
+    "q": "Goodwin TM[Author] Breen MT[Author] 1990[PDAT]",
+    "count": 1,
+    "first": {
+      "title": "Pregnancy outcome and fetomaternal hemorrhage after noncatastrophic trauma.",
+      "journal": "American journal of obstetrics and gynecology",
+      "year": "1990 Mar",
+      "authors": "Goodwin TM, Breen MT"
+    }
+  },
+  {
+    "n": 46,
+    "q": "Sokol RJ[Author] 1977[PDAT] high-risk scoring",
+    "count": 1,
+    "first": {
+      "title": "Clinical application of high-risk scoring on an obstetric service.",
+      "journal": "American journal of obstetrics and gynecology",
+      "year": "1977 Jul 15",
+      "authors": "Sokol RJ, Rosen MG, Stojkov J"
+    }
+  },
+  {
+    "n": 49,
+    "q": "Linden JA[Author] pregnancy test J Emerg Med",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 50,
+    "q": "Ghi T[Author] placental abruption sonographic",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 51,
+    "q": "Mancuso[Author] temporal causation Forensic Sci Int",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 52,
+    "q": "Pearl J[Author] Bareinboim E[Author] transportability",
+    "count": 1,
+    "first": {
+      "title": "Causal inference and the data-fusion problem.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": "2016 Jul 5",
+      "authors": "Bareinboim E, Pearl J"
+    }
+  },
+  {
+    "n": 60,
+    "q": "Cohen J[Author] 1960[PDAT] coefficient agreement",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 72,
+    "q": "El Kady D[Author] Gilbert WM[Author] 2004[PDAT]",
+    "count": 1,
+    "first": {
+      "title": "Trauma during pregnancy: an analysis of maternal and fetal outcomes in a large population.",
+      "journal": "American journal of obstetrics and gynecology",
+      "year": "2004 Jun",
+      "authors": "El-Kady D, Gilbert WM, Anderson J"
+    }
+  },
+  {
+    "n": 73,
+    "q": "Aboutanos MB[Author] 2007[PDAT] J Trauma[Journal]",
+    "count": 2,
+    "first": {
+      "title": "Clinical examination and its reliability in identifying cervical spine fractures.",
+      "journal": "The Journal of trauma",
+      "year": "2007 Jun",
+      "authors": "Duane TM, Dechert T, Wolfe LG"
+    }
+  },
+  {
+    "n": "74a",
+    "q": "Schiff MA[Author] Holt VL[Author] 2002[PDAT] Am J Epidemiol[Journal]",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 80,
+    "q": "ACOG Practice Bulletin 234 critical care",
+    "count": 0,
+    "first": null
+  },
+  {
+    "n": 41,
+    "q": "ACOG Practice Bulletin 211 critical care",
+    "count": 3,
+    "first": {
+      "title": "Disease Severity and Perinatal Outcomes of Pregnant Patients With Coronavirus Disease 2019 (COVID-19).",
+      "journal": "Obstetrics and gynecology",
+      "year": "2021 Apr 1",
+      "authors": "Metz TD, Clifton RG, Hughes BL"
+    }
+  }
+]

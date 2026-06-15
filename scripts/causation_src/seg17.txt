@@ -1,0 +1,673 @@
+Part D:
+Causation in Forensic Medicine and
+Coronial Law
+14 Cause in Forensic Pathology: The
+Cause and Manner of Death
+STEPHEN CORDNER*
+Introduction
+The attribution of "cause" in forensic pathology is a fascinating subject about
+which too little has been written.1 It is one particular area, amongst many, of
+confusion at the dynamic interface of law and medicine. One reason for this
+confusion is that those involved have to grapple with (at least) two different
+conceptions of cause: that used in medicine and that in law. This chapter has been
+written from a medical perspective – and the lawyers amongst the readers will
+have to take from it what they can!
+The chapter begins by outlining the terrain covered by forensic pathology and
+the main features in the landscape. It then briefly looks at the medical
+certification of the cause of death by doctors generally, before unwrapping some
+of the issues peculiar to forensic pathology. The main aim is to arrive at
+something like a coherent schema for the attribution of the cause of death
+following autopsy. While in most cases this is straightforward, in some it is not,
+and in those cases I do not think the discipline of forensic pathology has a
+uniform approach. This is not surprising as the attribution of cause, particularly
+in retrospect and in as complex and unpredictable field as biology, is essentially a
+philosophical question. During the course of this chapter examples of the issues
+arising in a number of cases will illustrate the breadth of the forensic
+pathologist's contribution and the complexity of the associated causal issues,
+which, it must be said, are sometimes not appreciated by either pathologists or
+lawyers.
+Forensic Pathology – The Terrain
+Forensic pathology is the application of the principles and practice of pathology
+to the needs of the courts or, more generally, the law. Pathology is the study of
+disease and forensic pathology is a subdiscipline of anatomical pathology (or
+what was once known as morbid anatomy). Anatomical pathology has left its
+morbid anatomical roots and concentrates in the main on surgical and biopsy
+pathology. Forensic pathology on the other hand is a mortuary-based speciality
+which provides the knowledge base for the performance of autopsies in deaths
+reported to coroners (or their equivalents in countries with other forms of death
+investigation systems).
+At the outset, it is important to appreciate the scope of the forensic autopsy.
+The aims of this part of a death investigation are:
+To discover, describe and record all the pathological processes present in
+the deceased and, where necessary, the identifying characteristics of the
+deceased;
+With knowledge of the medical history and circumstances of the death, to
+come to conclusions about the cause of death and factors contributing to
+death and, where necessary, the identity of the deceased;
+In situations where the circumstances of death are unknown or in
+question, to apply the autopsy findings and conclusions to the
+reconstruction of those circumstances. This will, on occasions, involve
+attendance at the scene of death, preferably with the body in situ; and
+To record the positive, and relevant negative, observations and findings in
+such a way as to enable another forensic pathologist at another time to
+independently come to his or her own conclusions about the case. As
+forensic pathology is essentially a visual exercise, this involves the use of
+good quality, and preferably colour, photographs.2
+Encapsulated in this approach to the forensic autopsy are two consequences at
+odds with a common perception of the specialty. Firstly, forensic pathology could
+be regarded as the "what happened" specialty (and not the "whodunnit"
+specialty). It is as part of this that the pathologist is concerned to come to the best
+conclusion about the cause of death, However, and this is the second
+consequence, in pursuit of answers to "what happened", conclusions about the
+cause of other findings on or in the body, or at the scene, or of events described in
+witness statements, may require the pathologist to attribute "cause" in areas other
+than the cause of death. Provided the pathologist keeps to his or her expertise,
+this is a quite proper exercise.
+Certification of Cause of Death Without Autopsy
+There is, however, a preliminary area which needs a little exploration. Every fully
+registered medical practitioner is imbued, by law, with the authority to "sign a
+death certificate". The function of the certification of the cause of death by
+doctors is poorly appreciated. In policy terms, it originated as part of the British
+Government's response in the 1820s and 1830s to the outrages of Burke and Hare.
+Together with a requirement to report deaths to coroners, the Registration of
+Births Deaths and Marriages Act 1836 (UK) meant that no body could be buried
+lawfully without a doctor certifying an opinion as to the cause of death. Thus,
+certification of the cause of death originated as a means of controlling or
+detecting hidden homicide. A side benefit (and a major one) was the collection of
+epidemiological data about why people were dying. As a tool for accurate
+information of this kind, however, death certificates are notoriously inaccurate,
+with numerous studies establishing error rates of as much as 20-30 per cent in the
+major condition reported as causing death.3 These rates have not altered, either
+historically or more recently, with advances in investigative and diagnostic
+technology. Many people find this hard to believe, but forensic pathologists –
+amongst others – know it to be true. That such error rates exist is not to be
+critical of one's clinical colleagues. Concluding the cause of death without the
+benefit of autopsy means that one is relying on the medical history and little else.
+The clinician cannot take a history of the period immediately before death, which
+is often riot witnessed, is limited to an external examination of the body and the
+only special test – an autopsy – is generally not available. It is perhaps surprising
+that clinicians certify correctly as many causes of death as they do.
+Writing death certificates can be tricky in some circumstances, and the
+following example shows how confusions may arise.
+Case 1
+Mr H was 75years old and suffering from metastatic lung cancer; that is, cancer of the lungs which had
+spread, in his case, to involve brain, liver and ribs. These were the cause of convulsions (fits), hemiplegia
+("stroke") and pain. He was admitted to a hospital for palliative care. At the time of admission a Refusal
+of Treatment Certificate, in the form of Schedule 1 of the Medical Treatment Act 1988 (Victoria), was
+properly completed. This recorded Mr H's decision to refuse both medical treatment generally and
+artificial hydration. He also requested complete relief of pain and suffering with analgesics and sedation.
+Combinations of varying amounts of these drugs were prescribed and administered. He appeared to be
+comfortable and deeply asleep, but rousable. On the third day after admission, he became unconscious (ie
+not rousable) and he died on the fourth day.
+The treating doctor reported the death to the coroner believing it to be possibly a suicide. This was on the
+basis, it seemed, that Mr H had refused medical treatment including artificial hydration and that this,
+together with the drugs prescribed and administered at Mr H's request, had hastened death. The treating
+doctor gave the cause of death as:
+CAUSE OF DEATH
+(a) Dehydration
+Disease or condition directly leading to death.*
+(b) Refusal of
+Antecedent causes (morbid conditions, if any, giving rise to
+fluids
+the above cause, stating the underlying condition last).
+(a) Sedation
+Other significant conditions (contributing to the death but not
+(b) Metastatic
+related to the disease or condition causing it).
+Carcinoma of
+lung
+* This means the disease, injury or complication which caused death not only, for
+example, the mode of dying such as "heart failure, asthenia" etc
+One needs to understand the form of the cause of death to appreciate what the
+treating doctor is saying (whether wittingly or unwittingly). The cause is divided
+into I and II. "I" is the direct cause of death or the disease or condition directly
+leading to death. "I" is subdivided, if necessary, into a, b and c (and theoretically d
+and e etc if necessary; it very rarely is). "I(a)" is due to or a result of "I(b)" and so
+on. The last listed condition under "I" is the main, central or underlying cause of
+the patient's death. "II" represents those other significant conditions contributing
+to the death but not directly related to the disease or condition causing it.
+This is the internationally accepted form that tends to want singular particular
+causes of death (which makes coding, classification and statistics easier) and does
+not invite multiple causes. There is an undefined distinction drawn between
+cause ("I(a), (b)" above) and contribution ("II(a), (b)" above) that is essentially
+arbitrary where the latter is some form of lesser cause of death.
+On this basis, the treating doctor in this case is saying that the underlying
+cause of Mr H's death is his refusal of fluids. This clearly cannot be right. Any
+correct statement of the underlying cause of Mr H's death must refer to his
+terrible metastatic cancer. The doctor is probably correct that the refusal of fluids
+has hastened Mr H's death as did the sedation, but Mr H was already very
+seriously and terminally ill.
+There is no doubt in my mind that the doctor could (and in my view, should)
+have completed a death certificate in this case, and not reported it to the coroner,
+as it was a death from natural causes. All the elements of the cause of death were
+the natural consequences of properly authorised sedation and pain relief, of
+properly authorised refusal of artificial hydration and of his underlying disease.
+The cause of death might have read:
+I(a) Probable dehydration and bronchopneumonia following sedation in a man with metastatic
+carcinoma of the lung (brain, liver, ribs).
+Admittedly this is a complicated example. It emphasises the gatekeeper role of
+medical practitioners generally in relation to the investigation of deaths and their
+causes. In doing so, they apply their own understanding of cause to the 90 per
+cent of deaths that never come to the attention of the forensic pathologist.
+This understanding is sometimes imperfect. For example, the cause of death
+will on occasions be certified simply as "cardio-respiratory arrest". This is a
+manifestation or a description of the body's cessation of function, not the reason
+or cause underlying this cessation of function. Generally speaking, however, I
+believe the medical profession discharges its obligations in this area well and has
+a good instinctive understanding of those deaths which, because of their cause or
+manner, should be reported to the coroner and those in which a medical
+certificate of the cause of death can be completed. Only rarely will the latter
+result in issues for evaluation by lawyers or a court. The cause of death is not
+often a contentious issue in litigation, and when it is there will almost always
+have been an autopsy. It is to these cases that I now turn.
+Deciding the Cause of Death Following Autopsy
+Deciding the cause of death is a fundamental responsibility for all anatomical
+pathologists after autopsy. The responsibility is greatest for forensic pathologists,
+yet very little has been written about the criteria that need to be satisfied to make
+a decision. This issue causes confusion in some court cases because both
+pathologists and lawyers fail to appreciate the philosophy of causation. Leaving
+aside the minority of cases where the lesion observed at autopsy is incompatible
+with life (eg decapitation), what in fact usually happens in coming to a
+conclusion is that a cause of death discovered at autopsy, which accords with the
+medical history and circumstances, is elevated to the cause of death. In general
+terms, the pathologist makes a subjective decision that a certain autopsy finding
+is capable of leading to death, and that this is consistent with the deceased's
+medical history and circumstances of death. Furthermore, a conclusion about the
+cause of death (unlike many medical diagnoses) is retrospective and cannot be
+tested. These problems emphasise the need to discover all the pathological
+processes present in the deceased before considering them in relation to the
+medical history and the circumstances of death.
+Causation: Philosophy and Problems
+David Hume (1711-1776) believed that for something to be the cause it must be
+both sufficient and necessary for the effect: X is always followed by Y, and Y
+never occurs unless X occurred. John Stuart Mill (1806-1873) disagreed, and
+thought that the cause was the sum total of the conditions in which an event
+occurred: it was not correct to isolate one of the conditions in which an event
+occurred as the exclusive cause. To Hume, the statement "the rising of the sun
+causes daylight", would have been reasonable, since the rising of the sun is
+always followed by daylight, and daylight never comes about unless the rising of
+the sun has occurred. The statement is, in fact, incomplete because daylight could
+not occur unless there was an atmosphere. Mill's approach would include an
+atmosphere in any statement about what caused daylight because it is one of the
+conditions in which the event occurs.
+The restrictiveness of Hume can be seen in the commonest cause of death in
+the western world: coronary atherosclerosis ("hardening of the arteries of the
+heart", "heart disease", "heart attack", "myocardial infarction"). The development
+of coronary atherosclerosis is not always followed by death, and death does not
+occur only when coronary atherosclerosis has developed. Yet clearly it is a
+reasonable proposition that coronary atherosclerosis has been the pathological
+basis for an enormous number of deaths. It seems that Hume's approach is suited
+more to those cases where the cause of death is incompatible with life. This is not
+to say that Mill's approach is necessarily the complete answer. Take the example
+of the heavy smoker who dies of carcinoma of the lung. One of the conditions in
+which the death occurred is smoking, bat there are more: a person may smoke
+because of the effect of advertising, because of parents' smoking, because of
+particular personality traits, and so on ad absurdum. Pathologists (and in some
+cases, courts) have to make a practical decision that cause stops somewhere. In
+general, the line is drawn at the "medical" cause of death but, as the example
+shows, this may be unsatisfactory: smoking is increasingly noted on death
+certificates. This, of course, raises the interesting question of whether such deaths
+are truly "natural".
+Pathologists have some instinctive understanding of these issues but there are
+particular sorts of cases where the difficulties are even greater. If Mill's approach
+is to be the basis of a coherent schema for the attribution of cause, let us see how
+it works in the various types of difficult cases that confront the forensic
+pathologist.
+Types of Cases Where Concluding the Cause of Death
+is Difficult
+Substantial delay between injury and death
+Case 2
+Injury or disease not sufficient in itself to cause death, but death has occurred.
+One of the classical causal problems is that of pulmonary embolus and its relation
+to antecedent events.
+Mr A was a postmaster of 57 with a history of chronic bronchitis and emphysema, associated with
+smoking. He was threatened in his office by a mart with a knife and was stabbed in the back of the chest
+when he refused to hand over arty money. Taken to hospital, he seemed in good condition and because of
+his past history of chronic airways disease, he was managed conservatively. Management included a
+chest drain and close observation. 24 hours after admission, he had a cardiovascular collapse from which
+he was resuscitated, but which left him with bilateral parietal lobe infarction. Intensive physiotherapy
+restored the patient to limited mobility, and he was discharged five weeks after admission. One week later
+he collapsed and died in his bathroom.
+The autopsy disclosed:
+1. Stab wound scar on the posterior pleura (ie the stab wound definitely
+entered the pleural – chest – cavity).
+2. Massive bilateral pulmonary thromboembolism ("clot on the lung")
+3. Deep vein thrombosis of calf ("clots in the leg").
+4. Chronic bronchitis and emphysema (the consequences of smoking).
+5. Diffuse myocardial fibrosis and coronary atherosclerosis (ie ischaemic
+heart disease, the commonest form of heart disease in the western
+world).
+6. Unsuspected adenocarcinoma of the rectum with liver metastases (ie
+cancer which had spread).
+The case was proceeded with as a homicide, the cause of death having been
+given as:
+1 (a) Pulmonary thromboembolism in a man with chronic bronchitis and emphysema and metastatic
+carcinoma of the rectum, six weeks after being stabbed in the chest leading to cardiovascular collapse
+and cerebral infarction.
+Part of the opinion included in the necropsy report was that the stab wound
+a
+chain
+culminated
+events
+in
+initiated
+of
+pulmonary
+the
+which
+thromboembolism. This opinion was provided in the face of the knowledge that
+the first presentation of metastatic carcinoma of the rectum could well be deep
+vein thrombosis of the calf and pulmonary thromboembolism. (It is also
+important to appreciate that the stab wound and the subsequent cardiovascular
+collapse which it precipitated by virtue of some haemorrhage and a small
+pneumothorax on a background of chronic bronchitis and emphysema, could
+well lead to deep vein thrombosis and pulmonary thromboembolism.) The
+original thrust of the defence indeed was that the deep vein thrombosis and
+subsequent pulmonary embolus could have been caused by the carcinoma of the
+rectum, and it was unnecessary to attribute any contribution to death from the
+stab wound and its consequences. This is Hume's approach to causation, which
+seeks particular and singular causes. This approach is encapsulated in the
+following question to the pathologist relied upon by the prosecution: "But Doctor,
+you cannot exclude, can you, that this man died from a complication of his
+metastatic cancer, a well-recognised complication I might add, and that the stab
+wound might have had nothing to do with it?"
+The answer, based on Mill, is that there are multiple causes in this case, and no
+way of apportioning weight to each. A corollary of this is that no one cause (eg
+the stabbing and its consequences) can be discarded as having no weight. In this
+case, there is an interaction between various factors: a man with these pre-
+existing conditions (heart disease, chronic bronchitis, emphysema and metastatic
+cancer) who is stabbed in the chest would be more likely to get a deep vein
+thrombosis and die from pulmonary thromboembolism than one who was not
+stabbed in the chest. On this basis, a pathologist cannot agree to exclude the
+stabbing from the cause of this man's death. Responsibility cannot be apportioned
+between the stabbing and the cancer, but the opinion must be that both are
+involved in causing death. It is useful in such cases to have some idea of Hume's
+and Mill's principles, since difficulties that arise will tend to arise from an
+application of Hume's principles.
+The accused in this case was tried for manslaughter at The Old Bailey. A
+defence submission at the conclusion of the prosecution case, that the prosecution
+had not established that the actions of the accused had caused the patient's death,
+was accepted by the judge. The submission at this stage was that the contribution
+of the stab wound was so minor compared to the metastatic cancer that it should
+be disregarded. When asked about this, the prosecution pathologist had declined
+to apportion any particular weight to either, simply emphasising that both had to
+be included in any statement purporting to encapsulate why death occurred. The
+defence submission was accepted. The accused was convicted of a wounding
+charge and sentenced to a term of 15 years imprisonment.
+In some cases of a pulmonary thromboembolus following some time after an
+injury and period of immobilisation, the suggestion will be made that the
+condition can occur spontaneously and therefore the injury did not cause death.
+A deep vein thrombosis and pulmonary thromboembolus can only be considered
+spontaneous if an autopsy fails to discover an adequate explanation. If an
+adequate explanation is discovered, then there is no need to resort to calling the
+embolus spontaneous (in reality, a synonym for "idiopathic" which means "of no
+apparent cause").
+Non-fatal injury precipitates death in a setting of natural
+disease
+Sudden death during a fight where the only findings at necropsy are some bruises
+and coronary atherosclerosis is common. The pathological cause of death will be
+given as coronary atherosclerosis and the legal process will require an opinion
+about any relationship between the fight and the cause of death. Linking the
+death to exertion during the fight may have substantial legal consequences as the
+survivor, if the aggressor, may be charged with manslaughter (or, in other
+jurisdictions, a homicide-related offence). At the trial, the pathologist will almost
+certainly be asked the Hume-type question "But doctor, could not this man have
+died at any time?". While it can be agreed in general that a person with this
+degree of atherosclerosis is at risk from sudden death, in this particular case the
+death cannot be separated from the circumstances in which it occurred. That is,
+the exertion and emotional impact of being in a fight increased his heart rate and
+blood pressure, putting a stress on the diseased heart which it was unable to
+withstand. In this way, the fight (or the exertion and other physiological effects of
+being involved in the fight) precipitated or caused his death from his underlying
+heart disease. Again, it can be seen that this approach follows Mill's view that
+cause is the sum of the conditions in which the event occurred.
+A peculiarity of the victim renders a survivable injury fatal
+Case 3
+This is a variation of the preceding category. In English-derived legal systems, it
+has traditionally been a rule that assailants take their victims as they are.4 This
+has the consequence that if the victim has a bleeding disorder which would turn
+a normally non-fatal injury into a fatal one, that does not diminish the
+responsibility of the assailant for causing death (although it will obviously affect
+the outcome of a trial or sentence).
+Mr J, 45, lived alone and was on warfarin (a "blood thinner") after cardiovascular surgery. He was sitting
+on a park bench when he was involved in an argument with the co-occupier of the bench. The description
+from eyewitnesses was that Mr J 's face was pushed, causing him to fall off the end of the bench onto the
+grass. The assailant then left. Mr J was found unconscious at home two days later and was dead on
+arrival at hospital. The cause of death was subdural haemorrhage (bleeding over the brain). No scalp or
+facial bruises were present, but there were five large scattered bruises on the chest and legs. That the
+medication contributed to this man's demise could not be denied. In fact, the assailant was not even
+proceeded against in this particular case, since it was felt that even had Mr J survived and complained to
+the police the assailant would not have been charged with assault. (Not everyone would agree with that
+logic. A pickpocket taking a wallet in ignorance of its contents will probably be charged if it happened to
+contain $100,000 and may not even be chased if it was empty.)
+Had this case gone to court there would also have been questions of fact
+making it difficult to relate the assault to the subdural haemorrhage. Unless there
+was good evidence that clinical deterioration could be related directly to the
+assault, it may have been difficult to refute the following argument by defence
+counsel: "Well, Doctor, we admit pushing Mr J off the bench, but you can't say
+whether or not he fell on the way home or possibly even turned his head sharply
+when something caught his eye. Because trivial trauma (which is the
+prosecution's case) could have precipitated his fatal subdural haemorrhage, it is
+possible that it was some other trivial trauma which initiated the fatal chain of
+events in this case."
+Decomposition Obscures the Effects of Injuries or
+Disease
+Case 4
+Forensic pathologists have encountered numerous cases where much or all of the
+pathological evidence has been obliterated by putrefaction. The greatest
+difficulties arise when there is the possibility of foul play.
+Mrs B, a woman of 70, came to stay with her 45 year old daughter and son-in-law. The relationship
+between mother and daughter was stormy and included, over the fortnight of the stay, a number of
+scuffles. According to the daughter, one night Mrs B was unwell and she stayed downstairs in the
+armchair. In the morning, Mrs B was found dead, but because of the number of bruises from the scuffles,
+the daughter was afraid she would get into trouble. She decided not to tell anyone, covered her mother up
+with blankets and a sheet of plastic, and pulled the chair over towards the heater. Five days later, when
+the smell had become too much, she went to a lawyer who advised her to contact the police. Every scrap of
+paper in the house was covered with the daughter's description of her hate for her mother.
+The autopsy findings were:
+1. Advancing putrefaction with greenish/purple discolouration of all body
+compartments and bloating.
+2. Numerous abrasions and widely scattered bruises.
+3. Severely fractured larynx:
+(a) Fractured right hyoid bone cornu.
+(b) Fractured right thyroid cartilage cornu.
+(c) Bilateral fractures of the cricoid cartilage.
+(These are the main cartilaginous and bony structures of the larynx
+or neck.)
+4. Multiple fractured ribs and fractured sternum (breast bone).
+5. Severe coronary atherosclerosis (ie the common form of heart disease in
+the western world).
+None of the injuries to the larynx or chest was associated with bruising, and
+therefore they could not he differentiated from injuries occurring after death. The
+daughter specifically denied that she or anyone else interfered with the body
+after death. Nothing happened to the body on its way to the mortuary or in the
+mortuary, and the neck was dissected in situ to identify the fractures (obviating
+the possible criticism that the autopsy itself may have caused the fractures), The
+conclusion thus arose that the fractures occurred in life, precipitating death so
+quickly as to minimise the bruising in the neck, which was then altered by
+putrefaction. (It is known that putrefaction can so alter bruises that they are not
+detectable.) Death could have occurred rapidly either as a direct result of the neck
+injuries themselves or because the injuries and the circumstances of their
+occurrence put a severe strain on the already diseased heart resulting in death.
+The cause of death was given as:
+1(a) Multiple laryngeal fractures, multiple rib fractures, and a fractured sternum in an elderly woman
+with severe coronary atherosclerosis.
+The report stated that the cause was conditional upon nothing having
+happened to the body after death, and that the court would have to be satisfied
+about this before it could accept the cause of death as given. The prosecution felt
+that because of the daughter's mental state, it could not rely on her evidence that
+she had not interfered with the body after death. Having admitted assaulting her
+mother, she was sentenced to six months imprisonment. Had it been possible to
+perform the autopsy in this case before the onset of decomposition, the timing of
+the neck and chest injuries would probably have been apparent and the main
+issue in this case, an issue of causation, therefore would have been resolved.
+The Humean approach, not actually followed by the defence in this case,
+would have been to propose the following:
+Look Doctor, the one thing you can say in this case is that the deceased woman had severe coronary
+artery disease. Depending on the circumstances the injuries could have occurred before or after death;
+you cannot actually say as a forensic pathologist that the injuries occurred in life. Surely the only
+conclusion that you can properly come to is that this woman probably died of her heart disease.
+A reasonable response from the pathologist might have been along these lines:
+I agree that a correct statement about the cause of this woman's death should make reference to her
+coronary artery disease. While it is true that I cannot say as a matter of pathology that the injuries
+observed occurred in life, the injuries are present. I simply put into the middle of the court room the
+obvious statement that if the injuries did not occur after death then they occurred during life and there
+are good reasons in this case why the appearance of the injuries is not what would normally be expected
+of those occurring in life. If the injuries occurred during life then, in my view, they are of such severity
+that they should be included in any statement purporting to accurately convey the cause of her death.
+Cause is Completely Dependent Upon Interpretation
+of Circumstances
+Case 5
+Occasionally, the cause of death is completely dependent upon an interpretation
+of the circumstances.
+Mr A was a 29 year old man with no known previous illnesses. He was working with electrical machinery
+when he suddenly collapsed and died. His workmates thought he had been electrocuted although others in
+contact with the same machine had no shock. The results of the examination of the machinery were
+controversial; government inspectors saying that it was conceivable that the machine had been
+electrically alive, electrical engineers retained by the factory saying it was not. At autopsy, there were no
+marks of electrocution. The only positive finding was appreciable hydrocephalus ("water on the brain " or
+dilatation of the ventricles of the brain) but no acute cerebral oedema (or brain swelling). Some basal
+meningeal thickening suggested the hydrocephalus may have been secondary to meningitis in infancy or
+childhood. There were no abnormal histological or toxicological findings.
+If it is assumed that uncomplicated hydrocephalus (as in this case) can cause
+sudden unexpected death (a matter of some dispute at the inquest), it is easy to
+see that the cause of death is completely dependent on the assessment of the
+machinery by electrical experts. Even the assessment of the circumstances
+contained causal issues because the inspectors, who said it was conceivable that
+the machine could become electrically live, could not say that it actually had
+been.
+Case 6
+Baby A was 3 months old and left in the care of a local authority nursery. It was windy and snow was on
+the ground. She was left outside in a pram unattended for 3 hours. When she was fetched in, it was found
+that she was dead. There were no significant pathological findings at autopsy.
+At the time, the definition of the Sudden Infant Death Syndrome (SIDS) was
+basically the sudden unexpected death of an infant in whom a thorough autopsy
+failed to find any adequate pathological cause for the death. The pathologist in
+this case accordingly gave the cause of death as SIDS. However, another
+pathologist at the inquest correctly pointed out that death from exposure (or
+hypothermia) in infants may leave no signs; the better conclusion, so the
+pathologist continued, would have been to say that the cause of death could not
+be ascertained, and then to have discussed the extent to which the exposure may
+have been involved in this death by a consideration of the circumstances. (The
+local authority in this case made a moderately sized ex gratia payment to the
+family following the inquest.)
+Case 7
+While this case was not completely dependent upon the interpretation of the
+circumstances, it certainly played a large part.
+Mr F was 33 years old and was severely overweight (Height: 1.85 M. Weight: 120 kgs). He was in receipt of
+benefits following a back injury at work causing him unremitting pain which was being managed by
+analgesic drugs. On this particular weekend his back pain was especially bad and he visited three
+different doctors receiving three different prescriptions of pain killers including pethidine, oxycodone and
+morphine.
+Subsequent events were described by his wife and can be summarised as
+follows:
+In the afternoon, Mr F appeared to her to be "really dopey". He was able
+to speak and eat but he was clearly affected by drugs and this was not
+uncommon when he self-medicated with pethidine.
+Later that evening when his wife returned from work, he was snoring
+very loudly.
+He was lying on his front on the bed with his head into the pillow.
+She was concerned with his position so she removed the pillow and
+moved his head to the side. He did not wake up.
+He continued to snore, did not respond to a nudge from her foot, so she
+went and slept elsewhere.
+She woke at 3.15 am and heard no snoring. She went to check on him and
+could not waken him. He was in the same position as when she had last
+seen him. He was too heavy for her to roll him over.
+An ambulance was called and she was told he was dead.
+Autopsy
+The relevant findings can be very briefly summarised. At autopsy, the only
+significant findings were:
+a heart weighing 510 g with thickening of the wall of the left ventricle
+and dilatation of the chamber of the left ventricle;
+50 per cent occlusion of the anterior descending branch of the left
+coronary artery by atheroma.
+Samples of blood taken for toxicology showed the presence of the
+following drugs:
+0.2 mg/1
+Morphine
+0.1 mg/1
+Oxycodone
+0.7 mg/1
+Pethidine
+Paracetamol
+~5 mg/1
+Naproxen
+~2 mg/1
+0.1 mg/1
+Diazepam
+0.2 mg/1
+Nordiazepam
+0.2 mg/1
+Sertraline
+The pathologist who performed the autopsy gave the cause of death as:
+1. (the disease or condition directly leading to death) (a) Unascertained
+2. (other conditions contributing to death but not to the condition causing
+death)
+Cardiomegaly, moderate coronary atherosclerosis.
+The wife was concerned about this conclusion and the case went to inquest.
+The pathologist persisted with the view that the drugs had no part to play in the
+death because at the levels they were not sufficient to cause unconsciousness, let
+alone death.
+A second pathologist gave evidence that there was a confluence of a number of
+events aggravating each other to produce the fatal outcome:
+the presence of drugs interacting with each other to render him, in the
+second pathologist's view, unconscious
+the level of unconsciousness may have been associated with a reduced
+respiratory drive
+his posture, associated as it was with snoring, indicated a degree of
+obstruction to breathing
+his size, being as overweight as he was, particularly when lying on his
+front would probably be associated with some reduction in the
+diaphragmatic component of his breathing
+his enlarged heart and moderate cardiomegaly.
+The second pathologist viewed the course of events as follows. Any person
+who is unconscious is at serious risk of death from respiratory obstruction. A
+certain level of respiratory obstruction was present in any event as evidenced by
+the snoring. Respiratory obstruction would have reduced the oxygen and allowed
+the accumulation of carbon dioxide in the blood. His heart, being abnormal,
+would have rendered him more susceptible to a fatal outcome from the effects of
+respiratory obstruction. The lowered oxygen levels triggered a fatal disturbance
+of heart rhythm.
+The cause of death was formally given by the second pathologist as:
+1 (a) Mixed drug toxicity causing unconsciousness in an obese man with cardiomegaly and moderate
+coronary atherosclerosis lying on his front.
+The second pathologist also offered the following caution:
+The absolute essential in this cause of death is the unconsciousness. If it was found that the deceased was
+not unconscious, but simply asleep, then the cause of death and the analysis I have made obviously
+cannot be right.
+Counsel for the doctors who had prescribed the drugs asked the second
+pathologist for the grounds that were relied on to conclude that the deceased was
+unconscious. The answer given was:
+the wife's view that earlier in the day he had been clearly affected by
+drugs
+the very loud snoring which did not awaken him
+the removal of the pillow and moving of the head by the wife which did
+not wake him
+the finding of him dead in the very same position
+nothing to positively suggest that he was just asleep.
+The second pathologist re-iterated, that while it was proper for a pathologist to
+form a view about the circumstances in formulating the cause of death, it was
+clearly open to the court to have a different view in which case it would have a
+different conclusion about the cause of death.
+Counsel was also concerned to understand the basis for the conclusion that the
+mixed drugs could result in unconsciousness or even death. The second
+pathologist pointed to experience in the form of a number of deaths – the
+complete reports of which were exhibited – where mixtures of similar drugs at
+similar levels had been concluded, by a variety of pathologists, to have resulted in
+death. This, the second pathologist stated, was sufficient basis for the conclusion
+that the drugs in Mr F's case were capable of causing unconsciousness, if not
+death.
+This case then, is not only an example of the cause of death being dependent
+upon the interpretation of the circumstances, but also the subjectivity of whether
+a particular finding at autopsy is capable of causing death.
+In the event, the coroner, having heard other conflicting evidence from
+anaesthetists and clinicians involved in pain management about the effects of the
+drugs, made no conclusion about the relationship between the drugs and the
+death.
+Summary
+What general rule, if any, can we formulate following all of this? In my view, if
+there is operating at the time of death a disease or condition capable itself of
+causing or accelerating death, and in the circumstances of the particular death, its
+effects apparently exerted themselves, then the disease or condition should be
+included as part of the cause of that person's death. (This formulation deals,
+amongst other things, with the situation where it would be nonsense to include
+coronary atherosclerosis in the cause of death of a man decapitated by a train
+having been seen by the driver to place himself on the line in the path of an
+oncoming train.) In addition, if a disease or condition (whether or not a
+potentially fatal condition) aggravates or complicates another disease or
+condition (whether or not a potentially fatal condition) such that death occurs
+then both diseases or conditions should generally be included as part of the cause
+of death.
+This formulation has its weaknesses as it does nothing to help draw the line in
+the areas of remoteness of cause. The example given above of the smoking-
+related death and its causal connection to advertising and the parents' smoking
+habits is a good one. Courts should, and will, have a view about the remoteness
+of a particular cause.
+Conclusions as to Manner of Death
+For many, the cause of death is synonymous with the manner of death, for
+example, murder, accident, suicide or natural death. A chapter purporting to deal
+with the cause of death needs to canvas some of the issues in relation to manner
+of death as well.
+It will have been apparent in many of the cases above that conclusions as to
+the cause of death often carry with them an implication as to the manner of
+death; but not always. Making conclusions as to the manner of death is a
+fundamental responsibility of medical examiners in the United States and of
+many coroners' jurisdictions around the world, but not all.
+Making these conclusions can be a bit like pushing square pegs into round
+holes. So much so, that some jurisdictions have moved away from requiring such
+conclusions. In Victoria, the coroner must find who the deceased was, the
+medical cause of death and how the deceased died.5 The last requirement is met
+in descriptive terms. For example: "The deceased, who was an intravenous drug
+addict, unemployed and depressed, was found on the floor in the kitchen of the
+house he was sharing with friends. Intravenous drug paraphernalia was found on
+the kitchen table, recent injection marks were identified on his forearms at
+autopsy and metabolites of heroin together with alcohol and a benzodiazepine
+were found on toxicology. The cause of death was 'Mixed Drug Toxicity'." The
+words "accident" or "suicide" are not used although on occasions reference will be
+made to apparent intentions on the part of the deceased to take his/her own life.
+This, of course, causes problems for those charged with compiling mortality
+statistics!
+The reverse is true in England where coroners are required to classify the
+death into one of a number of categories:6 for example, "natural cause",
+"industrial disease", "want of attention at birth", "dependence on drugs", "killed
+himself (while the balance of his mind was disturbed)", "accident",
+"misadventure", "murder", "manslaughter", "infanticide", "accident", "open verdict".
+Doing so may not be straightforward as some recent work from the United States
+has verified.
+A study by Hazlick and Goodin7 in is interesting in demonstrating the high
+level of disagreement amongst the "experts" in this area. Twenty-three succinct,
+well described classical forensic pathology situations were presented to more
+than 700 medical examiners/coroners (ie forensic pathologists) who were
+members of the National Association of Medical Examiners, eliciting responses
+from 198 of them. The manner of death inferred from the ICD Code that was
+assigned by the (US) National Centre for Health Statistics matched the most
+common response of participants in 18 (78 per cent) of the 23 scenarios. Table 1
+shows the percentage agreement for the most popular conclusion (homicide,
+suicide, accident, natural, undetermined, other/blank).
+TABLE 1
+Percentage of 198 forensic pathologists agreeing on the most popular manner of deaths in 23 scenarios
+No. of scenarios
+Percentage
+41-50
+51-60
+61-70
+71-80
+81-90
+91-100
+In fewer than half the eases, admittedly chosen because they were at the
+boundary of different manners of death, was there greater than 80 per cent
+agreement. In other words, in only 11 out of 23 cases did more than 80 per cent of
+198 United States forensic pathologists agree on the manner of death. There was
+considerable diversity of opinion amongst the relevant experts as to the manner
+of death in these examples. This points to different understandings even on the
+same facts, of the criteria to establish particular manners of death. Such
+differences commonly include:
+how certain the pathologist should be to make a conclusion (eg the special
+consequences of concluding suicide may be such as to mean some will
+require a higher standard of proof than others); and
+different understandings of intention (eg the reckless killing of another
+may be a homicide whereas the reckless killing of oneself will generally
+be considered an accident and not a suicide).
+The differences amongst pathologists and between them and the health
+statisticians about the manner of death shows how contentious assigning this
+form of cause can be.
+* Professor of Forensic Medicine at Monash University and Foundation Director of the Victorian Institute
+of Forensic Medicine. Acknowledgment: Publishers of The Lancet for permission to reproduce much
+of the author's paper "Deciding the Cause of Death after Necropsy" (1993) 341 Lancet 1458.
+1 S Cordner, "Deciding the Cause of Death after Necropsy" (1993) 341 Lancet 1458.
+2 S Cordner, B Linehan, M El Nageh, D Wells & H McKelvie, Ethical Practice in Laboratory Medicine and
+Forensic Pathology, WHO Regional Publications, Eastern Mediterranean Series, WHO Regional
+Office for the Eastern Mediterranean, Alexandria, Egypt, 1999, p38.
+3 PM Nemetz, J Ludwig & LT Kurland, "Assessing the Autopsy" (1987) 128 American Journal of
+Pathology 362; PA McKelvie & J Rode, "Autopsy Rate and a Clinicopathological Audit in an
+Australian Metropolitan Hospital – Cause for Concern?" (1992) 156 Medical Journal of Australia 456;
+GDH MacLaine, EB MacArthur & CR Heathcote, "A Comparison of Death Certificates and Autopsies
+in the Australian Capital Territory" (1992) 156 Medical Journal of Australia 462.
+4 See D Lanham, "Principles of Causation in Criminal Law", Chapter 10, above.
+5 Coroners Act (Victoria) 1985, s19(1). See I Freckelton, "Causation in Coronial Law", Chapter 16, below.
+6 RB Hill & RE Anderson, The Autopsy –Medical Practice and Public Policy, Butterworth, Boston, 1988,
+pp68-90.
+7 R Hazlick & J Goodin, "Mind Your Manners Part III Individual Scenario Results and Discussion of the
+National Association of Medical Examiners Manner of Death Questionnaire, 1995" (1997) 18(3)
+American Journal of Forensic Medicine and Pathology 228.

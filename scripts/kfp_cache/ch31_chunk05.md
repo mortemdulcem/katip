@@ -1,0 +1,37 @@
+sodyum amital (sodium amytal) ise zayıf bir organik asidin sodyum tuzu olduğundan, midede hidrolize olur. Fundus kalınlaşmış, granüler ve hemorajik olabilir. Kardiya ve alt özofagus, reflüye bağlı olarak erode olabilir ve eğer mağdur regürjite ederse, burun ve ağızdan siyah, değişmiş kan gelebilir (Şekil 31.2).
+
+Bazı barbitüratların kapsülleri de ağız, özofagus ve midede karakteristik izler bırakır. Renk, üreticiye göre değişir; ancak sodyum amital kapsüllerinin turkuaz-mavisi, mide içeriğini boyayabilir ve hatta batın açıldığında barsak duvarından dışarıdan görülebilir. Diğer pigmentli jelatin kapsüller kırmızı, sarı ya da mavi olabilir. Çok sayıda diğer ilaçta olduğu gibi, alkol ile birlikte alım ölümcül toksisite riskini büyük ölçüde artırır. Britanya, Avustralya, Norveç ve İsveç’te barbitürat reçetelendirilmesine getirilen kısıtlamalar, bu ilaçlara bağlı ölüm sayılarında azalmaya yol açmıştır.19,20
+
+> **💬 Çevirmen notu:** Jelatin kapsül kaynaklı renklenme, otopside mide içeriği ve mukozanın makroskopik incelenmesinde tanısal ipucu sağlayabilir. Türkiye’de de toksikoloji raporu gecikebileceği için, bu tür makroskopik bulguların ayrıntılı fotoğrafla belgelenmesi önemlidir.
+
+---
+
+## İnsülin zehirlenmesi
+
+Eskiden nadir görülen parenteral insülin uygulanmasına bağlı ölüm, günümüzde artık sık karşılaşılan bir durumdur. 1991’de Britanya’daki Beverley Allitt olgusu, özellikle tıbbi veya hemşirelik personelinin söz konusu olduğu ve diyabetik hastalara yakın kişilerin insüline erişimi bulunduğu durumlarda, birden çok ölümün ortaya çıkabileceğini göstermiştir.21
+
+Bir diğer değişiklik, birkaç yıl öncesine kadar önemli teknik güçlükler arz eden vücut sıvıları ve dokularının analizinin, günümüzde görece kolay hale gelmiş olmasıdır; bu sayede, güvenilir insülin ölçümlerinin yapılamaması nedeniyle gözden kaçabilecek ölüm sayısı azalmıştır.
+
+> **💬 Çevirmen notu:** Türkiye’de adli olgularda insülin ve C‑peptid düzeylerinin ölçümü, genellikle üniversite hastaneleri veya özel referans laboratuvarları aracılığıyla yürütülmektedir; numune alımı ve saklanması adli tıp uzmanının sorumluluğundadır.
+
+İnsülinin ölümcül toksisitesi kazaen, intihar amaçlı ya da homicidal (kasten öldürme amaçlı) olabilir.22–32 Kazaen ölümler genellikle tıbbi hatalara örnektir; çoğunlukla kutu ya da ampul üzerindeki etiketin yanlış okunmasından kaynaklanır. Yazarın (BK) eski bir öğrencisi, ilk intörnlüğünün dördüncü gününde, hipofiz fonksiyon testi sırasında, kutu üzerine yazılı ünite sayısının ampulün toplam içeriği olduğunu, oysa mililitre başına düşen konsantrasyonu ifade ettiğini yanlış varsayarak, hastaya insülinin 10 kat dozunu vermiştir.
+
+İnsülinle intihar nadir değildir; yazar (BK), bir hekim tarafından serum fizyolojik infüzyonuna insülin eklenerek uygulandığını ve ayrıca diyabetik komşusunun buzdolabından çaldığı insülini karın duvarına enjekte eden diyabetik olmayan bir kişi tarafından kullanıldığını görmüştür.
+
+Belirtildiği üzere, homicide ve homicide teşebbüsü hem Birleşik Krallık’ta hem de ABD’de bazı ünlü davalara konu olmuştur. Yazarlardan birinin (PS) bildiği bir olguda, daha önce sağlıklı olan 48 yaşındaki bir erkek, dekompresyon hastalığından şüphelenilmesi üzerine acil servise bilinçsiz olarak getirilmiştir. Hastanın hipoglisemik olduğu (en düşük serum glukoz 0,3 mmol/l) saptanınca, tedavi kesilmiş ve hipoglisemiye yönelik tanı ve tedaviye başlanmıştır. Başvuru sırasında alınan serum örnekleri dondurularak saklanmış ve bu sayede retrospektif olarak, serum insülin konsantrasyonunun yüksek olduğu (75 mU/l ve sonraki birkaç saat içinde 240 mU/l’nin üzerine çıktığı), buna karşılık C-peptid konsantrasyonunun hipoglisemi döneminde düşük olduğu (0,1 nmol/l’lik tespit limitinin altında) gösterilebilmiş; bu da hastaya bir şekilde ekzojen insülin verildiğini düşündürmüş ve polis bilgilendirilmiştir. Ağır hipoglisemik beyin hasarı nedeniyle hasta 2 ay boyunca vejetatif durumda kalmış, ardından multiorgan yetmezliğinden ölmüştür. Devam eden ceza soruşturmasında elde edilen dolaylı deliller, mahkeme tarafından hastanın eşi (hemşire) aleyhine cinayeti ispatlar nitelikte değerlendirilmiştir.27
+
+> **💬 Çevirmen notu:** C‑peptid düzeyi, endojen ve ekzojen insülin ayrımında kilittir. Türkiye’de adli nitelikli hipoglisemi olgularında, C‑peptid ölçümü istemek ve numuneyi uygun koşullarda saklamak, bilirkişilik açısından kritik önemdedir.
+
+İnsülin ağızdan alındığında elbette etkisizdir ve hipoglisemik etkisini gösterebilmesi için enjeksiyonla verilmesi gerekir. Otopside, gerek olayın koşulları gerek iğne izi saptanması nedeniyle insülin olasılığı gündeme geliyorsa, periferik kandan örnekler ile enjeksiyon bölgesinden deri ve alttaki doku dikkatle alınmalı, ayrıca karşılaştırma için vücudun başka bir yerinden kontrol deri örneği de alınmalıdır.
+
+Diyabetik hastaların genellikle kullandığı ince iğneler, deride neredeyse hiç iz bırakmayabilir. Yazar (BK), bu tür iğneleri kadavra derisinde denemiş ve çoğu zaman, küçük bir damar zedelenmemişse, iğne çekilir çekilmez izin hemen görülemediğini saptamıştır.
+
+İnsülin her ne kadar ölümden sonra günlerce, hatta haftalarca saptanabilmiş olsa da, örneklerin alınması bakımından ne kadar erken davranılırsa o kadar iyidir. Serum, eritrositlerden ayrılmalı ve analistlere gönderilinceye kadar dondurulmalıdır; tüm kan hemen gönderilebiliyorsa buna gerek olmayabilir. Deri ve doku örnekleri dondurulmalı ya da buzdolabında saklanmalı, **fikse edilmemelidir**. Domuz (porcine) veya sığır (bovine) kaynaklı insülin bu şekilde ayırt edilebilir; ancak terapötik insülin insan kaynaklı ise, analitik olarak hastanın kendi insülininden ayrılması mümkün değildir. İnsülinin immünoassay ile ölçülmesinin yanı sıra, pankreas tarafından bire bir oranında üretilen C-peptid’in ölçümü, endojen ve ekzojen insülinin ayırt edilmesine yardımcı olur. Bu tür tüm yorumlar, bu alandaki uzmanların işidir ve patolog, onların görüşlerine dayanmak zorundadır.
+
+> **💬 Çevirmen notu:** Doku örneklerinin formalinle fikse edilmemesi, protein yapılı hormonların (insülin gibi) ve immünoassay analizlerinin sağlıklı sonuç verebilmesi içindir. Otopside “rutin” alışkanlıkla her örneği formaline koymamak gerektiği, adli eğitimde özellikle vurgulanmalıdır.
+
+İnsülin kaynaklı hipoglisemiyi, insan ölüm sonrası sıvılarda glukoz düzeylerini ölçerek kanıtlamaya çalışmak, ölüm sonrası bu tür ölçümlerin güvenilir olmaması nedeniyle uygulanabilir değildir. Ante-mortem glukoz metabolizmasının değerlendirilmesi için tercih edilen matriks olarak vitreus humoru önerilmektedir.33,34 Vitreus humordaki glukoz konsantrasyonu ölüm sonrası erken dönemde düşme eğilimindedir, ardından stabil hale gelir.33,35 Bu nedenle, düşük vitreus glukoz düzeyi, ante-mortem hipoglisemiyi mutlaka göstermeyebilir.33 Glukoz konsantrasyonundaki bu erken düşüş, laktat konsantrasyonunda daha dik bir artışla paraleldir.35
+
+Traub, Coe ve daha yakın zamanda Hess ve ark., glukoz metabolizmasının değerlendirilmesinin, glukoz ve laktat düzeylerinin kombinasyonuna dayanması gerektiğini öne sürmüşlerdir.36–39 Ancak diğer bazı yazarlar, glukoz ve laktat toplamının kullanılmasının ilave bilgi sağlamadığını, hatta diyabetik ketoasidoz gibi ölümcül olguların olduğundan fazla değerlendirilmesine yol açabileceğini ileri sürmüşlerdir.35,40,41
+
+> **💬 Çevirmen notu:** Türkiye pratiğinde vitreus glukoz ve laktat ölçümü henüz rutin değildir; ancak özellikle şüpheli diyabet, hipoglisemi veya insülin suistimali olgularında bu ölçümleri istemek, hem klinik hem adli açıdan değerli bilgiler sağlayabilir.

@@ -1,0 +1,23 @@
+@startuml soru8_seq
+!include _seq.iuml
+title Şekil 8b · Güç eşiği: kes & aşamalı geri-yükle (Observer + State + Memento)
+participant "cihaz : Telefon" as C
+participant "uyg : KonumServisi" as U
+participant "ani : UygulamaAnisi" as A
+== Güç düşer, eşik (%20) aşılır ==
+C -> U : guncelle(seviye)  <<Observer>>
+activate U
+U -> A : <<create>> anaKaydet()  <<Memento>>
+U -> U : durum = GucTasarrufu  <<State>>
+deactivate U
+== Şarjda seviye %20 üstüne çıkar ==
+C -> U : guncelle(seviye)  <<Observer>>
+activate U
+U -> A : aniGeriYukle()  <<Memento>>
+U -> U : durum = Normal  <<State>>
+deactivate U
+note over A
+  Geri dönüş aşamalı: %10→%15→%20 üstüne
+  çıktıkça o seviyede kesilmiş uygulamalar sırayla döner.
+end note
+@enduml

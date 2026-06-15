@@ -1,0 +1,1043 @@
+19 Statistical Proof of Causation
+ERIC MAGNUSSON*
+Humans, when watched closely, display their individuality by behaving
+differently even when the circumstances are exactly the same. One of these
+behaviours is violent disagreement. The phenomenon is too common to surprise
+us. We rationalise it by supposing that the natures and nurtures through which
+the data are filtered can be responsible for contradictory perceptions from
+identical inputs.
+An even stranger behaviour is unquestioning agreement. While most of the
+world was hunting and gathering, the Greeks were expounding the 256 variations
+of this curiously powerful format: "If this, then that; But this is true, therefore
+that is also true". Humans declare the argument to be "the Proof of that" and
+subscribe the mystic letters QED. An early user, Euclid, put a set of such
+arguments into five books, never imagining that his collected theorems would
+continue as the prescribed texts in the subject for over two thousand years. The
+behaviour must run very deep.
+The strength of the formula and its attendant labels like proof and preuve (Fr)
+and demonstratio (L) rises from the simple fact that the final clause in the
+argument cannot be denied without contradicting the earlier ones. A
+contradiction is something the species strenuously avoids making. "Cognitive
+dissonance" research surprised us by showing that we protect ourselves from self-
+contradiction even to the point of disregarding things previously accepted as fact.
+A world without contradictions comes at the price of damage to its factual base,
+but it is the world we all prefer.
+The word "proof" is strongest when it describes sentences which conform to a
+logic in which every assertion is either completely true or completely false. Little
+of the real world fits this requirement, which is why the word can rarely be truly
+used. We could decide to simplify the world by arbitrarily making true and false
+the only truth-values allowed, but the world will not comply – the evidence on
+which to assign these qualities is always only partly certain. Most newspaper
+reports and almost all of what comes to court require multi-valued logic and are,
+therefore, ill suited to adjudication by formula. But they are no insuperable
+problem to courts run by people, creatures constructed to reason with assertions
+that may be partly true and partly false, or partly known and partly unknown. In
+such a world probability rules and statistics is its indispensable partner.
+That human brains can do statistics is easily demonstrated. By eye, humans
+can judge the straightness of a line drawn on paper with more precision than the
+human eye is capable of. The eye is an instrument which uses tiny cells to detect
+light and this limits the perceived straightness of a dark line on white paper to
+the straightness of the not-very-straight lines of cells on which the light and dark
+images happen to fall. But the eye scans along the line and the brain apparently
+calculates what the line of cells would be if the random displacements of cells
+from linearity were replaced by their average. This statistical approach makes the
+eye capable of detecting deviations from straightness more than ten times smaller
+than the minimum separation of cells in the retina.
+Making conscious decisions about masses of data is also natural for the brain.
+The brain is a device for making connections between neurons, while the mind
+makes meaning. Somehow the former is the mechanism for the latter. Brains
+routinely make circuits by the million to store information, preparing us for
+decisions made later by "weighing up" the effect of the currents flowing through
+circuits in many different places. In other words, we do "statistics" at this level
+too.
+Although human thinking is statistical, talking about statistical thinking is not.
+The results of the thinking are evaluated subconsciously and any attempt to
+inspect the steps taken by the brain is likely to confuse the inspector. The ease
+with which human beings become confused about statistics is not only raw
+material for humour, it is a reality to be recognised when statistical science enters
+a court of law. All the wisdom and all the effort behind statistical evidence is
+worth nothing if the tribunal cannot comprehend it or, worse still,
+miscomprehends it. Likewise, statistical analysis of jury decisions is meaningless
+unless there is independent assessment of the jurors' comprehension of the issues
+they were deciding. The question of comprehension of statistical statements is a
+serious one and it will be a thread which runs through the whole of this chapter.
+In spite of all of this, modern cognitive science is successfully uncovering at least
+some of the mechanisms that underlie the human thinking process and the results
+throw light on how people behave when making decisions based on information
+only partly true or only partly known.
+The Profession and Practice of Statistics
+Statistical methods allow scientists and engineers to apply common sense to data
+that, like data of any other kind, are inexact.1 The errors, which may be random
+or systematic, cannot be eliminated from measurements and the common sense
+consists in recognising them, estimating their magnitude, and trying to discover
+where they come from. When soft data are involved statistical methods are
+indispensable. Without some way to determine what is constant and what is
+variable, data obtained from surveys, interviews, human memory and the like
+would be worthless. This is why social scientists usually know more about
+statistics than physical scientists.
+In this world, the data that come into the adversarial court are soft, error-prone
+and almost entirely untestable. In addition, the data are introduced through a set
+of individual and unrepeatable contributions – one man prosecutes, one defends,
+one expert presents the complex evidence, and one judge presides and rules on
+issues of law. The jury, when it is present, is the single injection of error
+reduction into the whole process but, again, the outcome of jury deliberation is
+vulnerable to a single strong-minded individual. However, even in the jury room,
+improvement will probably not come until someone "does the statistics".
+Statistical reasoning, on the other hand, enters the courtroom often and its
+impact continues to grow. It is felt in two ways – by the explicit presentation of
+statistical argument and, more broadly, by taking advantage of the conceptual
+approach inherent in statistical reasoning. Sir Richard Eggleston's manual is still a
+rich source of this advantage.2 As mentioned below, in a statistical setting
+hypothesis testing is accomplished not by confirming the alternative hypothesis
+but by rejecting the null hypothesis. The alternative hypothesis can be considered
+only after it has been demonstrated that the effects of the cause are not the result
+of chance variation – the differences have to be statistically significant. When
+events outside the laboratory are viewed through that particular prism, the view
+changes and much of the easy inference of life disappears. There ought to be a
+permanent place for that prism in every court.
+One of the truisms of statistical reasoning that has been penetrating the
+community is that scientific tests sometimes fail. From experience with medical
+pathology or, maybe, by using do-it-yourself tests from pharmacists, people
+become familiar with the possibility of "false negatives" and "false positives". The
+failures need not be symmetrical, the incidence of "false positives" being
+generally different from that of "false negatives". This recognition, which can be
+very important indeed in special types of statistical reasoning, is within the grasp
+of the average juror.
+Professional statisticians, at first regarded suspiciously by courts, now occupy a
+well recognised domain of expertise and their evidence brings with it all the
+benefits and all the risks of opinion evidence in general. Their contributions as
+expert witnesses are made almost exclusively in civil cases where the statistical
+procedures themselves have become major issues in the action. The expert's
+testimony may be called "statistical methodology evidence" to distinguish it from
+the much more common "statistical evidence" in which an expert from some
+other domain provides information for the court in statistical form, usually by
+use of techniques which have become routine. Although published over ten years
+ago, The Evolving Role of Statistical Assessments as Evidence in the Courts, edited
+by Fienberg, is still an excellent introduction, combining a fairly detailed analysis
+of a small number of typical cases with authoritative comment on the whole field
+including criminal cases.3
+Statisticians also contribute to the justice system as authorities on existing
+statistical procedures as well as by developing new methods. Thus, the use of
+Bayesian statistics has been widely adopted in reporting identification evidence;
+scientists trained in molecular biology have learned to use the statistical methods
+appropriate to the forensic science they practise. Statistics is now regarded as an
+important competency for all forensic scientists but for those working with
+identification evidence it is indispensable.
+An important development in the science and technology sector is the general
+acceptance of the need for rigorous accreditation of scientists and laboratories
+that serve the community. This development came rather late to forensic sciences
+but it has been wholeheartedly adopted worldwide and courts can now find out
+about the performance of forensic science laboratories and even of individual
+experts.4 Making judgments on professional training, experience and ongoing
+competence is a skill which courts do not usually possess but it is made easier
+when laboratories and staff submit themselves to the scrutiny currently required
+for forensic science accreditation in Australia, New Zealand, the United Kingdom
+and various other countries.5
+Things Done and Not Done with Statistics
+Statistical methodology evidence is often of the kind where different experts
+favour different methods. In the special circumstances where the data are hard to
+treat or where the results are closely balanced or where unfamiliar techniques
+have been used, opinions are apt to vary from one expert to another and the
+expert evidence falls into the "subjective evaluation" category.6 The court then
+hears the contrary opinions of experts giving testimony at a level it cannot
+ordinarily reach. There is no way for it to know which of the two experts would
+represent the majority of the profession; possibly neither does. The obverse of this
+is that highly qualified statisticians in court may find themselves given no more
+respect than novices. As in other examples of subjective evaluation evidence, the
+proper solution is by independent corroboration from as many other experts as
+are necessary for the court to feel confident about the representativeness of the
+result. New procedures for obtaining opinions from a larger number of
+practitioners may be required.
+The range of problems for which statistical methods are invoked is broad. From
+the statistician's viewpoint they can be classified by the kind of parameter
+(variance, regression, etc) relied on to solve the problem and the further
+distinction made between descriptive statistics (data) and inferential statistics
+(predictions and likelihoods).7
+A legal classification is more difficult than a statistical one. Civil suit actions
+relying on statistical evidence are described in many monographs and collections
+of which the multi-author volume by DeGroot, Fienberg and Kadane is a good
+example.8 No two classify their subject in the same way.
+At the head of the list must stand actions, including class actions, charging
+race and gender discrimination the area of litigation claimed to have generated
+the greatest demand for witnesses with expertise in statistics in recent years.9 The
+first two of five case studies in the committee report edited by Fienberg are in
+this category and the analysis is of high quality.10 One feature of the influential
+Vuyanich v Republic National Bank case11 is selected for mention here. The judge
+expressed his suspicion that the statistical models presented to him by the two
+sides were too good; he was dubious about the "precision-like mesh of numbers"
+in both. That comment was matched by comment from expert statisticians to the
+effect that the statistical assessments were not really good enough to have taken
+so much of the judge's time and, particularly, that statistical quality control had
+not been applied to the evidence. This reinforces the complaint at the beginning
+of this section and underlines the need for courts to find ways to tell the
+difference between good and bad expert evidence. The court cannot presume that
+experts found by litigants will have come from the top of the profession.
+The word "Medicine" in the title of this volume requires recognition in this
+chapter even if it is brief. Probabilistic statements feature strongly in court
+proceedings involving medicine; one reason being that humans beings are
+animals with highly developed control systems fitted with "manual override"
+allowing their psychology to interfere with their physiology. Consequently, they
+are rarely used as subjects for discovering the laws of nature in the animal
+kingdom and even less for higher level theories about life; fruit flies and bacteria
+are much more attractive subjects. The laws of human injury and disease are
+discovered by epidemiologists working at the observation and generalisation
+levels of scientific enquiry. Although their discoveries gain value from their work
+with human subjects, at neither level can genuine cause and effect relationships
+be established.
+Epidemiologists may well discover relationships between variables but they
+cannot be sure which is the cause and which the effect. Ultimately the question is
+answered when other discoveries are made and an etiology is accepted.
+Meanwhile, the public health decisions and lawsuits are too impatient to wait.12
+Negative epidemiological evidence puts an even bigger burden on the fact-
+finder's shoulders because the negative evidence cannot disprove the null
+hypothesis. Fienberg believes that support for epidemiology in this particular
+negative role is, nonetheless, growing.13 Well-constructed studies with sufficient
+statistical power14 should be taken seriously if they fail to find the health
+problems posited in the alternative hypothesis. The weaknesses of
+epidemiological studies listed are those of "lurking variables or synergisms
+between variables", studies too small to find low level effects, studies too short to
+find effects with long latencies, and problems with the analysis of studies some of
+which may be retrospective and some prospective.
+Statistical errors are very likely to be made in court by intelligent and careful
+lawyers, judges, expert witnesses and jurors for the simple reason that statistics is
+hard. Even if they are not made publicly, people are still prone to make them in
+their heads. A list would have to include the following:
+Confusing different ways of expressing probabilities. "A chance of one in
+three" is different from "Odds of one to three". The latter is "a chance of
+one in four".
+Overlooking the need to quote the "variance" as well as the "central
+tendency" of a set of data.15
+Failing to appreciate the impact of sampling error. Whenever a small
+sample is used to estimate the characteristics of the whole, the probability
+of error must be stated.
+Over-interpretation of trends, a disease found commonly in futurologists.
+But errors in probabilistic or statistical reasoning are not all elementary. There
+are many ways to classify them, one of which is to distinguish between
+methodological errors and errors of interpretation or application. Here is a
+judicial error which straddles the two. Although not dealing in numerical values,
+the judge is still dealing with probabilities when summing up with the remark
+"the evidence is like a rope, unavoidably rather frayed and therefore no stronger
+than its weakest part. You must decide if it is strong enough to hold the weight of
+a conviction" or she may say "the evidence shines tiny rays of light on the crime
+scene and one by one they illuminate it better. You must decide if they make it
+bright enough for you to see the perpetrator!"16 Even though some jurors may not
+see them as anything more than encouragement to think carefully, the two
+figures of speech imply particular relationships between the items of evidence.
+The latter comment, borrowed by an Australian judge from Lord Chancellor
+Cairns in England, implies that the prosecution case becomes stronger the more
+numerous the items of evidence brought to bear; in other words, that the overall
+weight of the evidence is an additive function of the individual items. This is true
+only of items that are independent which was not so in the case in question.
+Consider a case in which successive witnesses report seeing the intruder to have
+hairy arms, hairy legs, hairy neck and hairy chest. The case that the hairy suspect
+must therefore be guilty is not strengthened by the apparent corroboration;
+characteristics found very commonly together are not independent.17
+A different kind of error is the heresy of plausible dogma. As statistical
+information enters our lives, the dogmas come with it. One such is the idea that
+data which fall outside 95 per cent confidence limits are unworthy of scientific
+notice. If the idea did no more damage than to eliminate a few bright ideas from
+publication in scientific journals, it may not matter. However, the idea has been
+imported into other realms and courts are told that data slightly more deviant
+than the 95 per cent confidence level variety are unacceptable for human
+consumption of any kind. Usually they are not told, the data being ejected before
+ever reaching court.
+The background is as follows. Data which fluctuate unaccountably, like those
+for river heights or crime, will usually contain some entries which are extreme.
+Early in the last century statistical methods were developed to calculate the
+characteristics of extreme data and determine how frequently extreme events
+could be expected. Fostered by the great statistician Fisher, the idea grew that a
+boundary on a chart could help distinguish ordinary chance variation from what
+was exceptional. The value of the idea came from being able to put the boundary
+anywhere the statistician thought was appropriate; it was not determined by the
+mathematics. The result of Fisher's choice, adopted widely because of his
+influence, is that the 95 per cent boundary has become the obligatory standard
+for "statistical significance", results falling outside it being regarded as unsuitable
+for scientific use. Thus data to test a scientific hypothesis that high vitamin intake
+raises the birth weight of rats will be rejected as "not statistically significant"
+unless the average birth weight is larger than the 95 per cent limit. Birth weights
+inside the boundary are, by this usage, within the normal range.
+Because the limits are applied so widely, statisticians are apt to use 95 per cent
+confidence limits in court proceedings as the criterion for accepting data, but this
+is unwarranted. Hall and Selinger18 and others19 have argued strongly that the
+decision about the significance criterion is a matter for the court, not for the
+statistician. Just as it is the jury's job to decide the weight of the evidence
+necessary for it to be "beyond reasonable doubt", so also is it the prerogative of
+the jury to decide the significance limits for accepting evidence.
+Confidence limits, aside from their function as discriminators between normal
+and abnormal fluctuations in something being examined, may be used directly.
+Several cases of this are mentioned in DeGroot, Fienberg and Kadane.20 One such
+use is to inform the court of the uncertainty in a statistical result that arises from
+the fact that it is an estimate based on information from a sample rather than the
+whole population.
+Statistical procedures may sometimes shrink a problem without solving it.
+Blood alcohol legislation in many jurisdictions refers to devices which measure
+the alcohol concentration in breath but deliver the result as if it were the alcohol
+concentration in blood. The conversion is made by use of a factor obtained from
+measurements of alcohol concentrations in the breath and blood of the same
+individual, repeating the process on a sample of reasonable size and determining
+the average. Because of the variance in the distribution of alcohol between a
+person's blood and the breath, some drivers are disadvantaged by the use of an
+average. In other words, it takes a higher than average blood alcohol
+concentration to put some people above the legislated limit for breath and a
+lower than average level for others. The latter are disadvantaged by the average,
+the former sometimes protected from the prosecution they would suffer if the
+blood alcohol concentration were measured directly. One way to handle this
+problem is for the police to take the enlightened approach of prosecuting only
+when the breath alcohol result exceeds the legislated limit by a small amount, say
+one or two standard deviations.
+Later in this chapter the need to protect defendants from errors in statistical
+calculations used in criminal prosecutions is emphasised. Safeguards against error
+are also necessary in civil proceedings, as some examples indicate. When the
+steps involved in a statistical procedure are planned we can install a safeguard at
+each one: (a) choosing the procedure, (b) selecting the sample, (c) calculating the
+results.
+A common procedure in medicine is the controlled clinical trial and, given the
+financial implications of treatment costs, it is not surprising that trial results
+should sometimes become evidence in courts. To avoid the placebo effect, a
+common requirement is that the trial be "blind", subjects being unaware whether
+they are members of the treatment or the control groups. For various reasons,
+participants often become aware of the group to which they were assigned and
+the trial is less blind than was planned. One possible reason is the desire of
+promoters of, say, pharmaceuticals, to see patients with poor prospects of
+recovery placed in the control group. A recent examination of the rigour of
+experimenters in allocating participants to the two groups has shown that very
+large differences in results occur between "blind" and "not so blind" trials. Odds
+ratios expressing the effectiveness of the treatment were 30 per cent to 40 per cent
+larger when subjects were able to discover their group.21
+This section closes with a reference to problems that statistical reasoning
+cannot solve. Unfortunately, public beliefs that grow from survey data (toxins in
+the environment or the effects of war service on veterans) that lead ultimately to
+class actions may bear little relation to the valid conclusions to be drawn from
+the statistics. Special problems arise when the number of people affected is very
+small (like cancer in children raised near power lines) or tests not completely
+reliable. Because many people are unwilling to tolerate risk of any kind, they
+respond to revelations about risks by demanding that the risk be removed
+completely. Changing their attitude is hard because the very small (or very large)
+numbers quoted in the epidemiological reports are so unfamiliar and so easy to
+exploit.
+What Reasoning Is
+Reasoning can be a process of moving through a chain of arguments from
+premises to a conclusion, each step concluding one argument as it provides entry
+to the next. Human beings can do this on paper or in their heads. The intuitive
+method allows great speed with little or no conscious oversight of the individual
+steps. The disadvantage of the speed is that it is accomplished by the use of hard-
+wired short-cut methods the results of which sometimes conflict with the same
+person's decision when it is made deliberately. Cognitive scientists term the short
+cut methods "heuristics" and "biases"22 and their work is having an effect on how
+people think about the rules and methods and results of legal proceedings.
+For present purposes the most important conclusion of cognitive studies is the
+finding that human beings, irrespective of training, are "probability blind".
+Although probabilistic information is being processed and acted on almost all the
+time, the intuitive responses to it are flawed. People trained in statistics and
+probability are vulnerable to the same errors as naive subjects and when trying to
+solve certain types of problems can produce answers that are right only by
+consciously avoiding the answers that seem right.
+Humans appear to cope with the complexity of probabilistic information by
+simplifying it. Experiments show that if it cannot be simplified, they will
+discriminate between risks only if the differences are very large. Also, their
+overall view of risk is biased, so that they habitually take risks to avoid loss but
+avoid risks to preserve their gains. They try to deal with problems in the way
+they are presented, avoiding the difficult but sometimes necessary task of "re-
+framing". Thus positive statements are favoured over the equivalent negatively-
+framed ones, even though only the latter provide the clue to the right response.
+They innately break the rules of probability, being quite capable of judging the
+simultaneous occurrence of two events to be more probable than the same events
+would be if they occurred separately. Such responses to information usually occur
+because of the "reasonableness" the subject feels for the linked events or to the
+plausibility of the overall narrative. This latter feature, the fitting of events into a
+not-unlikely story, is a powerful influence on the way that the events themselves
+are judged. The story may be subjective, in the mind of a single person, or it may
+be suggested to all to manipulate opinion, when it can be very powerful. This
+type of influence is important in courtroom decision-making and has attracted a
+considerable amount of recent comment.23
+In court, these patterns of reasoning can seriously disrupt the result that might
+reasonably be expected. A particular example is the inability of many people to
+deal with probabilities below (or above) a certain level. One author suggests that
+most people will be unable to distinguish between a 99 per cent chance of
+infection, wealth, injury, etc and a 99.9 per cent chance,24 a blindness that would
+seriously interfere with the intended use by jurors of the statistical information
+given with DNA profiling evidence. Of course, the difficulty is greatly reduced
+when the statements are put so that the comparison is of a 1 per cent chance and
+a 0.1 per cent chance. Even so, the same scholar suggests that any probability
+intuition made by an untrained person has a more than 50 per cent likelihood of
+being wrong.
+Eggleston some time ago commented on the earlier findings of cognitive
+science,25 linking them to the alternatives described by Cohen as "Pascalian" and
+"Baconian" probabilities. Cohen,26 working from what he thought was actually
+happening In courtrooms, argued for the intuitive handling (Baconian) of
+probabilistic material even though it was not necessarily consistent with standard
+(Pascalian) probability laws. However, the "inference on inference" problem
+which Cohen used as rationale for disregarding classical probability laws is
+readily handled by using Bayes theorem.27 Pending more information about
+human reasoning under courtroom conditions and under the challenge of
+statistical information, it would be wise to persist with the standard framework
+but to work much harder to ensure that the evidence is comprehensible.
+The Meaning of Proof
+The word "proof" in the title of this chapter was not contributed by its author.
+"Proof" is a strong word and keeps its place in the legal corner of his
+consciousness only by a force fit. It is also a seductive word to which we are all
+vulnerable when we suspect that our arguments may not prevail on their merits
+alone. Scientists reserve a strong word for strong logical deductions (things you
+cannot deny without contradicting yourself) because they have learned that most
+deductions are not strong or logical; they want to be able to flag the difference.
+If any justifications for this pedantry were needed, the two words "statistical"
+and "court" provide it. "Proofs" that are "statistical" must be of the kind where the
+proposition is believed to be true but not known to be true. The level of belief can
+be anywhere between the very high and the very low. So, a word is needed for
+the one fixed point in the scale, certainty, from which all the other points can be
+located. Secondly, in court, even though the strongest kind of association
+evidence can never incriminate a person absolutely, it can still exonerate a person
+absolutely. So, again, a word that only ever means "proved absolutely" would be
+valuable for preventing the confidence about the one kind of result from
+contaminating the caution always to be attached to the other.
+In spite of all the ink to the contrary, science and the law walk paths that run
+very close together. Both are searching for truth even though courts have to do it
+speedily and be content with a qualified result. Science has more leisure but also
+has to accept that its conclusions are true only "as far as they have been tested".
+Illusions of certainty often arise, but that happens because the qualified nature of
+the pronouncements has been swamped by the emotion of the verdict.
+In deciding how to judge a scientist's claim to have verified an hypothesis,
+other scientists put the stress on the severity of the tests that the hypothesis has
+survived. They want to know how well and how comprehensively the tests
+equipped the scientist to detect false explanations. Karl Popper championed this
+approach, enshrining the "refutability" of an hypothesis, not its "confirmability",
+as the key to scientific progress.
+The concept of "refutability" provides a good lead for courts to follow. It can be
+argued that this should be overt. A jury explicitly instructed to protect the person
+wrongly accused should be all the more ready to convict when each step of the
+trial process has seen the safeguards applied. The prosecution witnesses will be
+all the more believable when they have explained why they "were unable to find
+a test that excluded" the suspect before reporting evidence that incriminated
+them. A judge who is scrupulous in applying the presumption of innocence rule
+will satisfy jurors that the trial was fair; they are then freed to bring down a
+verdict without anxiety about the possible conviction of a person who is not
+guilty. They do not do so without risk, but they eliminate the anxiety by
+minimising the risk.
+The analogies run even further. Statistical evidence is customarily tested by
+using the rejection of the null hypothesis as the criterion for considering of the
+alternative hypothesis – a neat restatement of the presumption of innocence rule.
+Identification cannot be considered until the court is forced to reject the
+presumption that the evidence lies within the range of random occurrences.
+Jurors’ Proof
+Nobody knows what juries think proof is. The interplay between knowledge
+already possessed and knowledge received in the court and the way information
+is processed en route to a verdict are mysteries. Authorities now seem more ready
+to authorise research into jury behaviour but, in the meantime, mock jury
+research sheds some light on the subject. Although quite inadequate in
+simulating what the jury receives in particular cases, the method is most useful
+for observing subjects' comprehension levels, biases and attitudes to issues taken
+one at a time. It can also report on groups large enough to be representative of
+the community as a whole, it can relate their responses to education levels and
+demographic factors. It can also vary parameters such as the strength of the
+evidence and allow investigators to give quantitative estimates of how
+community members would respond to issues when serving in a jury.
+Although not really numerous or comprehensive, mock jury studies have
+contributed to our understanding of the way in which people deal with
+probabilities when making decisions. An important early result was the finding
+that subjects adjust the criminal court standard of proof to the severity of the
+sentence likely to be delivered. Simon and Mahan found a way of getting their
+subjects to quantitate the probability of guilt and found that jurors required 0.86
+for murder compared with only 0.74 for larceny.28 Judges, also tested, made the
+same adjustment, although the standards they required were higher (0.92 down to
+0.87). At the standard required for civil suit decisions the numbers would be
+much lower; it would be interesting to know how much difference there is
+between jurors' and judges' quantitative assessments and the 50 per cent figure
+often assumed in legal argument about causation and liability.29 There are,
+however, other standards of proof. An example from the United States follows
+but the argument is probably used very widely, even if it unlegislated. In
+enforcing the environmental regulatory standard which led to the disappearance
+of "leaded" petrol from the market, the court said:
+When a statute is precautionary in nature, the evidence difficult to come by, or uncertain, or conflicting
+because it is on the frontiers of scientific knowledge, the regulations designed to protect the public
+health, and the decision that of an expert administrator, we will not demand rigorous step-by-step proof
+of cause and effect... The Administrator may apply his expertise to draw inferences from suspected, but
+not completely substantiated, relationships between facts, from trends among facts, from theoretical
+projections from imperfect data, from probative preliminary data not yet certifiable as "fact", and the
+like.30
+With this in mind, the fascinating discussion in Fienberg31 and its set of
+relativities of proof may be extended to:
+1 > Pcrim > Pother > Pcivil > 0.5 > Pprot > 0 where pcrim and pcivil are the customary
+criminal and civil standards of proof, pother the intermediate standard used in
+deportation proceedings in the United States ("clear, unequivocal, and convincing
+evidence") and pprot the "public protection" standard referred to in the previous
+paragraph.
+Two early reviews32 of mock jury research reassure those who fear that
+statistical evidence might overwhelm jurors and tip the scale far too strongly in
+favour of the prosecution. In the writer's research,33 almost a third of the 558
+respondents thought that the risk of convicting an innocent person had to be zero
+and consequently declined to label the accused as guilty even though the
+identification evidence was quite strong.34 The proof, for them, had to be
+absolute. Among the 77 respondents who were university trained, the same
+fraction insisted on this standard. As pointed out in other reports, these views
+would be unlikely to prevail in actual jury deliberations, where a unanimous
+verdict is required and where other jurors might be persuasive. Overall, the
+willingness to convict was firmly tied to the strength of the identification
+evidence. Only 8 per cent would convict when the risk was high (20 per cent
+random match probability), a figure which rose to 69 per cent when the whole
+group was asked whether they would convict when the random match
+probability was only 0.5 per cent.
+It is evident that jurors become alarmed when the evidence is not quite strong
+enough for them to be sure beyond reasonable doubt. In the writer's research,
+respondents were, on the average, unwilling to convict when the odds associated
+with inclusion were lower than about 10:1. But jurors also become alarmed when
+the odds are "too large". Odds of the order of 25 billion:1 are beyond common
+imagination but are frequently quoted in connection with DNA profiling.35 The
+reason sometimes given for this reaction is "that such large odds must be
+impossible because the number 25 billion is larger than the population of the
+world". The answer is that odds ratios are calculated according to the potential
+number of persons which the test is capable of distinguishing. Whether or not
+that number is greater than the population of the United Kingdom, Australia or
+the world is irrelevant. In the case of the DNA profiling test, the discriminating
+power is obtained as the product of several factors (one for each "locus") and each
+of these can be calculated with suitable accuracy from as few as one hundred
+tissue samples. Increasing the size of the database increases the precision of the
+result but not its magnitude, so databases of millions of people are not required.
+The number of jurors across the world who hear statistical evidence given in
+connection with DNA profiles is now very large. It is curious how willing
+appellate courts are to comment on their comprehension of that evidence and
+their ability to assess it, when neither has ever been measured.
+Statistics and DNA Profile Evidence36
+In its commonest manifestation,37 DNA evidence is obtained by using chemical
+"probes" to recognise fragments of DNA in the chromosomes in the nuclei of
+cells. The evidence, called the profile, consists of a list of fragment sizes.38 Ten
+probes are used, one of the current commercial implementations of the
+technology,39 to produce a list of the sizes of twenty fragments. The greater the
+number of probes, the larger and more peculiar the list and the smaller the
+probability that the profile of another person, selected by chance, should be
+similar enough to produce a match. With likelihood ratios of many billions to
+one, the method now provides identification evidence as powerful as was
+produced with that first achievement of forensic science, fingerprinting.
+Nevertheless, DNA profiling has not been given the same courtroom status,
+namely, that of unquestioned individualisation; the statistical evidence is almost
+always reported in detail.
+Most DNA profilers now carry out their statistical calculations on a Bayes'
+Law framework irrespective of whether they will be allowed to use the name of
+the 18th century clergyman. The number of trials over which his spectre hovered
+during the last decade of the twentieth century is the reason he is so well known.
+However, the Bayesian "subjective" approach was introduced to forensic science
+well before the advent of DNA profiling after years of extensive discussion in
+relation to other kinds of evidence.40 One of its chief virtues is the simple appeal
+of the argument that the "prior odds" of guilt (deemed to be determined by the
+court before the DNA evidence is heard) should be increased by a factor to yield
+the "posterior odds".
+The older "frequentist" or "objective" method for presenting identification
+evidence statistics asks for DNA profiles to be compared and a declaration made
+about whether they match or not; only then can the random match probability be
+calculated. It is a "two-stage approach". In practice, declaring a "match" becomes
+a problem because the behaviour of the DNA fragments during the measurement
+process is not always uniform. Even though profiles from the same source will
+have easily recognisable patterns, the actual fragment sizes measured in the
+laboratory can vary. If too high a significance level is set for a match, then
+profiles that came from the same source may fail to meet the match criterion and
+important evidence may have to be discarded. On the other hand, if the
+significance level is low, it becomes too easy for other fragments of slightly
+different sizes to qualify so a match provides much weaker evidence.
+By contrast, the Bayesian method asks questions about the DNA profiles
+obtained from the crime scene sample and the reference sample from the suspect
+and compares them. The questions are:
+What are the odds that these evidence profiles would be found for
+samples from the same person?
+What are the odds that they would be found for samples taken from
+different persons?
+The ratio of these two odds values is called the "likelihood ratio". Bayesian
+reasoning cuts through the knot of unavoidable variation in laboratory results
+and tells us how much stronger our suspicions ought to be now that we have
+compared these two profiles and allowed for the two possible hypotheses (same
+person or different persons). Moreover, without inconsistency, it allows the court
+to deal explicitly with alibi evidence. If the suspect was in Morocco when the
+crime was committed in Melbourne, then the posterior odds are zero-to-one
+because the prior odds are zero-to-one. No matter how large the likelihood ratio,
+prior odds of zero-to-one must yield posterior odds of zero-to-one.
+Mention of an alibi immediately raises the issue of what Thompson and
+Schumann call the "prosecutor's fallacy"41 but which is less colourfully named the
+fallacy of the "transposed conditional". Consider a profile with the rather small
+random match probability of one in a million. Applying Bayes' Law in the usual
+situation allows us to conclude that after the evidence of the profile becomes
+known the odds of guilt are increased by a factor of a million. The fallacy is to
+conclude, without any knowledge of the prior odds, that the odds of guilt are a
+million to one. The "defense attorney's fallacy" is to conclude that, since the
+profile in question was very uncommon, so the odds of guilt must be very low.
+The latter error is harder to sustain than the prosecutor's fallacy which is very
+alluring.
+The sum of all this is that by about 1995 one of the most valuable applications
+of science to the investigation of crime had become established across the world
+and, in parallel, the assumptions used for calculations of match probability had
+been validated by an unprecedented amount of research 42 and, again, frequentist
+statistical presentation of the results had been clearly shown to be inferior to the
+Bayesian approach. Mysteriously, judges in trial courts and appeals courts
+continued to accept the first development but many acted as if the latter two had
+never occurred. They forget, apparently, that Bayes' Law has been used for
+decades in disputed paternity cases though, of course, those decisions are not
+usually made by a jury.
+The 1997 and 1998 judgments of the English Court of Appeal in Doheny and
+Adams43 and Adams (Denis)44 contain inconsistencies which should have been
+eliminated years earlier. The judgments have been analysed by many
+commentators.
+The discussion of Doheny and Adams by Evett et al45 is outstanding. A very
+important part of it is their rebuttal of the appellate court's view of the goal of
+DNA profiling. The judges said "... the stage may be reached where a match will
+be so comprehensive that it will be possible to construct a DNA profile that is
+unique and which proves the guilt of the defendant without any other evidence."
+Not so, say Evett et al, the advantage of smaller and yet smaller random match
+probabilities is in solving special problems; complete individualisation status is
+not a practical goal for DNA profiling and only remains for fingerprint evidence
+because its scientific basis was never sought.
+Decisions in higher courts have consequences which may persist for a long
+time. Kaye46 has given an account of the Arizona Supreme Court's decision in
+State v Bible47 in which the admissibility of the prosecution's DNA evidence was
+confirmed but the random match probability information excluded. The court
+believed, from news accounts and cases in other jurisdictions, that there was "a
+lack of general acceptance of Cellmark's statistical probability calculations in the
+relevant scientific community of population geneticists" even though it approved
+the methods employed by Cellmark48 to declare a match. In a series of decisions,
+the Supreme Court reinforced its Bible decision by repeatedly disallowing
+quantitative probability evidence while seeing no objection in evidence simply
+stating that "it is most likely that these two samples came from the same source".
+Allowing identification evidence to be heard without telling the jury about the
+risk that the match may not be perfect is hard to justify but the decision is not
+unique. The idea was dismissed by Hampel J in the Victorian case of R v Lucas49
+with the words "I think that there is in this case the danger that consistency could
+assume the colour of identity, or at least of probability".
+The 1996 trial in New South Wales of the serial "back-packer murderer"
+contained two items of statistical interest.50 Hunt CJ criticised the term "genetic
+fingerprinting" as being misleading because DNA evidence does not provide
+individualisation and the prosecution provided the court with the confidence
+limits for the random match probability, as deduced from the size of the database.
+For interest, the expert quoted "one in 188,000" as the middle of the range of
+probabilities extending from "one in 54,000" to "one in 220,000". The words
+"coincidence figure" used were unusual but they have the merit of being fairly
+transparent for jurors who are now faced not by one probability, but by three.
+However, officers of the New South Wales Forensic Science Service report that it
+is current practice in the state to meet the requirements of the ruling about
+confidence limits51 by mentioning one figure only, the most conservative one.
+An especially lengthy challenge to the admissibility of DNA profile evidence
+was launched by the defence in R v Karger in the Supreme Court of South
+Australia in 2001.52 Mullighan J conducted a voire dire lasting for 14 weeks; his
+reasons for admitting the evidence occupied 176 pages. Although most of the time
+was occupied with challenges to the proprietary "Profiler Plus" methodology the
+statistical evidence was also impugned. The defence's concern was the validity of
+the databases and the use of a "likelihood ratio" to represent the significance of
+the alleged profile match. This was an important opportunity for the Australian
+bench to rule on identification evidence in which the sophistication of the
+technology is matched by the way it is reported to the court.
+The judge's discussion of the technology dominated his report; only about 5
+per cent dealt with the statistical matters. The challenges to the validity of the
+databases charged inadequate representation of racial/ethnic population sub-
+groups, the possibility of inter-allele dependence and the inclusion of inapplicable
+values of the parameter representing the degree of relationship of persons
+represented in the database. The challenges were disallowed. The use of
+calculations widely accepted by the profession, the conservative approach of the
+population geneticist53 and the Forensic Science Service's policy of reporting a
+random match probability of one in a billion [the calculated value was one in 90.6
+billion, itself the more conservative upper confidence limit] satisfied the judge
+that the evidence should not be disallowed on grounds of supposed inadequacy of
+the databases.
+The issue of the likelihood ratio was then raised. The defence objections to the
+way the prosecution planned to report the strength of the evidence were "The use
+of Bayes' Theorem by the jury is not permitted: the jury cannot make any
+mathematical estimate of the prior odds" and, consequently, since the likelihood
+ratio "has no other relevant use" it should be inadmissible. In considering the
+likelihood ratio challenge the judge referred to the recent United Kingdom
+appellate decision in R v Adams,54 reiterated in R v Doheney and Adams55
+quoting part of the R v Adams judgment, to show how the Court of Criminal
+Appeal saw Bayes' Law. The Court viewed as "an attempt to determine guilt or
+innocence on the basis of a mathematical formula ... [which] is simply
+inappropriate to the jury's task." The unfortunate thing is that what was
+inappropriate in R v Adams was not Bayes' Law but the task it was given.56 The
+judge rejected the challenge thereby allowing likelihood ratios to be reported but,
+by default, Bayesian reasoning was excluded. It is ironic that a mathematical (ie
+correct and logical) way for probabilities to be combined is rejected because it is
+mathematical (ie inappropriate).
+With the DNA profile evidence ruled admissible the trial began and the
+likelihood ratio was reported with the laboratory's standard form of words: "The
+DNA profile obtained from the sample stains are more than one billion times
+more likely to match the DNA profile of Mr Karger if he left the stains rather
+than an unknown, unrelated male". The accused was convicted.
+As argued earlier, the very nature of Bayesian reasoning allows it to fit
+naturally into a narrative of the conceptual steps through the argument put by
+the prosecution, or an alternative narrative offered by the defence. In cases where
+scientific-cum-statistical evidence is vital to the case the idea of making the story
+explicit has two merits. It helps the court manage what would otherwise be
+confusing detail57 and it provides the basis for an examination by the court of the
+validity and reliability issues related to the evidence which need to be settled
+before the ultimate issue is decided. To do it systematically, some kind of graphic
+aid58 would be helpful when jurors are faced with complex and unfamiliar
+scientific or statistical evidence – displaying the conceptual steps helps the court
+emphasise the safeguards required at each step before it is safe to make the final
+decision. For our current purpose we should ignore earlier steps relating to
+laboratory processes59 and concentrate on the ones relating to the statistical steps.
+They are, (a) the choice of the overall statistical procedure, (b) the kinds of
+alternative hypothesis to be considered, (c) the ethnicity of the database, (d) the
+representativeness of the database, (e) the relatedness of the individuals in it, (f)
+the calculation of the statistic and (g) how it will be reported. In the great
+majority of cases the safeguards are easily put but there are times when the issues
+are more complex, say when closely related persons are among the suspects, or
+when some of the suspects are missing.60 It then becomes especially important for
+the court to be sure that each step was properly taken whether or not the
+evidence is challenged. As statisticians point out, statistical evidence is not fixed
+by the characteristics of the profile; it also depends on the kind of defence
+mounted by the defendant.
+The Limits of Comprehension
+A juror in a criminal trial is required to convert a mass of raw data into a score of
+exactly guilty or not guilty. The actual mental process is rather like someone
+finding one of two exits from a maze or, as modern studies of the brain suggest,
+like a huge crowd simultaneously rushing along myriads of separate and
+completely unplanned paths through the maze. Which exit they will ultimately
+find is impossible to know as thousands of seemingly haphazard choices are
+made at countless junctions. But the tiny benefits of previous choices gradually
+begin to tell and finally the crowd converges on just one of the two exits. The
+point is that the process is all the more unpredictable, the more disparate the
+different kinds of decision required to produce the final result. Worst of all, if the
+choices have to be made on statistical data, with probabilities rather than just
+Yes/No decisions required for computing the overall result, the computation
+might become too hard to make. In such circumstances, jurors do not make no
+decision, they make the decision on such other grounds as they think fit.
+In the author's Canberra jury project, the design of the experiment permitted a
+certain amount of exposure of the reasoning which respondents used to make
+their decisions about guilt. One set of results is recounted here. In the audio tape
+the judge's summing up of the evidence offered minimal comment, the judge
+purporting to read the scientific expert's conclusions from his report about
+finding a match and then using blood group data from a database to estimate "the
+odds that a person drawn by chance from the Australian population would
+produce the same results from the seven blood group tests as found for the crime
+scene sample". In the questionnaire, however, a Bayesian framework was used to
+lead respondents through a set of questions designed to measure comprehension.
+The results indicated that however it was that "jurors" determined the question of
+guilt, it was not supported by any high level of understanding of the concepts
+involved.
+When considering evidence indicating odds of 200-to-one against finding the
+same blood results by chance, 69 per cent of respondents gave a guilty verdict but
+little over half of these were able to demonstrate a level of understanding
+considered minimal to making a Bayesian decision.61 This "minimum level"
+indicator was a set of correct answers to five early questions in the questionnaire
+reached, overall, by 41 per cent of respondents. This figure broke down to 18 per
+cent (2 years of secondary education or less), 37 per cent (3 or more years of
+secondary education), and 57 per cent (university education) indicating a very
+strong relationship to education.
+Can jurors be brought to the necessary competence with statistical matters by
+educating them in court? Before hearing the audio tape with the information
+about the blood tests, half of the respondents in the Canberra project heard a
+brief exposition of how statistical data can assist courts to determine the weight
+of identification evidence. No significant difference was found between the
+results from those who were briefed about statistics and those who were not. If
+this is any guide, courts have to use jurors as they find them; instruction given
+during the case may not be effective.
+Statistical obfuscation
+Although statistical reasoning is unavoidably complex the issue here is the very
+avoidable complexity with which it is embroidered when it comes to court.
+Odds ratios: Because of the prevalence of betting, odds ratios are well
+understood and reasoned with by a sizeable part of the population.
+Probabilities are a different matter.
+Having it both ways: Because of the bias in the expression of probabilities
+and the risk that jurors will not realise that a high probability of exclusion
+is equivalent to a low probability of inclusion, it is important to state the
+data in both ways. Thus, a statement like "there is a 3 per cent chance that
+a person drawn at random from the population will test positive for the
+same antibody" should have the opposite statement added at the end –
+"there is a 97 per cent chance that a person drawn at random ... will not
+test positive ...".
+Do not elaborate: A frequent source of confusion is the attempt by the
+teacher (lawyer) to explain in a second sentence what was meant in the
+first. It should be avoided and the statement made so clear at the outset
+that repetition becomes unnecessary. Spontaneous presentations are
+unlikely to be safe; lawyers, judges and experts should read from carefully
+constructed notes.
+Jargon: In statistics, as in every other field of study, a specialised
+vocabulary helps the practitioner say exactly what he or she means but it
+makes the subject obscure. It takes real expertise to be accurate and
+understandable at the same time.
+Achievable Goals
+The frequently reported death of the jury system is, of course, greatly
+exaggerated but it is true that its public esteem is shrinking. Arguably, much of
+that has followed its poor performance in dealing with statistics and probabilities.
+What follows are suggestions for optimising the performance of courts
+constituted, be it emphasised, in their present form. The first is rather general.
+Comprehensibility does not matter, assessability does
+In an age of unparalleled discovery it is no surprise that science and technology
+should come to court or that the attendant complexity should, at times, threaten
+the process. Almost without exception moves to change the jury system are urged
+on the ground that cases in which complex evidence is important it is likely to be
+misunderstood by lay juries. However, the thing for counsel, judges and juries to
+do about that is not to try to mop up the water that is swamping them but to
+learn to swim in it. The challenge is not to try to understand someone else's
+specialised knowledge but to assess it.
+The complexity problem is not unique; decision-makers in government and
+commerce have also been challenged by the need to act on information they do
+not understand. They have responded by introducing a process characterised by
+the word "advice" and in no place is it more needed than when the court is asked
+to consider statistical or probabilistic evidence. With the proper advice, lay courts
+and lay juries can equip themselves to take on complex statistical evidence.
+Instead of role play, trying to comprehend and then adjudicate reasoning in
+which they are incompetent they should require the expert witnesses from the
+two sides to provide them with (a) criteria for judging their submissions and (b)
+evidence that those criteria were met. When the evidence is of a routine kind, the
+courts could obtain the criteria they want in advance, calling on sources such as
+national professional organisations or statutory bodies to provide the authority
+that they do not have of themselves. Where the evidence is especially complex or
+causes major conflict, those same sources may be required to provide
+representative professional opinion as to the criteria needed to evaluate it. In this
+kind of environment, the pressure is on the expert to ensure that their
+contribution is not so much comprehensible as assessable.
+Admissibility versus Strength
+Uncertainties about whether a tissue sample from a crime scene was
+contaminated or not, about whether chemical reagents were properly
+standardised, about whether control experiments were carried out are issues
+incommensurate with issues of the weight of the evidence obtained from it. It is
+beyond the competence of jurors to combine the two kinds of uncertainty to
+reach a single decision, especially when the evidence is probabilistic. Although
+questions about the way samples were handled are often considered appropriate
+for the jury, there are strong reasons why this may be wrong. This argument
+applies equally strongly to questions about the validity of statistical evidence.
+Judges would never hand to the jury a decision about evidence which might
+have been wrongly obtained or evidence which is hearsay. It would be
+unthinkable to ask them to combine that probability with the probability implied
+by the weight of the evidence. In such a case, entirely parallel with the present
+one, prejudice is avoided by determining issues of admissibility before the jury
+knows anything about the evidence. It would be a wise course for the courts to
+accept responsibility for ensuring that the evidence is safe for the jury to hear,
+and for judges routinely to schedule pre-trial hearings for that purpose whether
+the admissibility issues are scientific procedures or statistical ones. The jury is
+then given a clean slate for the difficult job of weighing the evidence. Recent
+cases in Australia and, indeed, around the world, have seen major challenges to
+standard DNA testing procedures which were handled by voire dire hearings of
+unprecedented length. The recommendation here is to make the pre-trial hearing
+standard practice and for judges to dispose of the issue themselves. If criteria for
+accepting scientific and statistical evidence can be created, then judges should
+decide whether the evidence is safe for the jury to hear or not. The jury then
+decides what the evidence is worth.
+The attitude of judges to the issue of what the jury should and should not hear
+is divided but in Australia, under current legislation, almost all would probably
+withhold claims of faulty laboratory procedures or incorrect statistical methods
+from the jury. In R v Humphrey62 Bleby J applied the reasoning of Mullighan J in
+R v Jarrett,63 the first major Australian challenge to the admissibility of DNA
+profile evidence by advanced DNA profile methods. He ruled that conflicting
+expert evidence about databases should go to the jury. The appellate court's
+attitude in R v Doheny and Adams64 was expressed as "Any issue of expert
+evidence should be identified and, if possible, resolved before trial."
+A further reason for not giving juries two tasks to carry out at the same time is
+because of the risk that the sheer size of the likelihood ratios obtained by modern
+DNA profile methods will overwhelm jurors and lead them to assume that
+questions of the validity of the evidence no longer matter.
+Statistical standards are issues on which standard procedures have been
+developed in connection with the accreditation of laboratories and for which
+quality assurance criteria are routinely applied. To achieve maximum assurance
+about its decisions, courts should receive independent advice from organisations
+at the level of the Australian Academy of Science or, in the United Kingdom, the
+Royal Society rather than rely on unrepresentative precedents established in
+individual cases. That consensus is possible between prosecution and defence
+counsel and scientists was demonstrated by the New York Supreme Court's
+admissibility hearing and the subsequent ruling in the Castro case.65
+Saying what will help the court
+How DNA profile evidence should be given to the jury has occupied the minds of
+many judges. DNA evidence is now usually extremely strong but the words used
+to say so can be confusing. Evett et al66 considered the recommendations of a
+number of English appellate judgments, not all consistent with one another, and
+their considered opinion is that the witness tell the jury how to combine the
+random match probability with the prior odds of guilt, using Bayes' Law, to reach
+a posterior odds of guilt. Experience in the Canberra mock jury project suggests
+that jurors need assistance at precisely that level. The example given by Evett et
+al, modified here by the use of odds ratios rather than probabilities, is:
+If the court considered, based on other evidence, that the odds of the crime stain being left by the
+defendant were a million to one against, then the effect of the DNA evidence is to change those odds to a
+thousand to one in favour.
+Balding has also argued67 that the evidence presented to the court should focus
+on the "directly relevant issue" which is "whether or not the defendant is the
+source of the crime stain". As he says, it makes more efficient use of the evidence.
+Evett et al argue that their suggestion does not infringe the jury's prerogative,
+their statement being merely an illustration of the standard logic for statistical
+results of this kind. Their basic point is that the extremely small random match
+probabilities of current DNA profile technology, while not justifying
+individualisation (statements that "the crime scene sample came from the
+suspect") should yet be recognised by courts for their strength.
+An alternative way of explaining to the court how the evidence of this strength
+might be used is for counsel to lead jurors through the kind of "minimal level"
+Bayes pathway explored in the author's Canberra project, doing this before the
+expert witness is brought on rather than later so as to distance the explanation
+from the particular evidence the jury will later have to decide about.68 The
+responses from that survey showed that the proper use of identification evidence
+by jurors cannot be taken for granted. To obviate the haphazard but binding
+judgments of courts in relation to evidence as powerful as DNA profiles have
+now become, not to mention future enhancements of the technology, it would be
+wise for the matter to be taken up by law reform commissions. As experience so
+far has shown, over-interpretation of the evidence is possible as well as under-
+interpretation. Correctives to both must be available.
+* Associate Professor in the School of Chemistry, the University College of the Australian Defence Force
+Academy of the University of New South Wales. I thank Ms Katrin Both, Professor Ian Freckelton, Dr
+Roger Magnusson, Ms Kylie Patchett and Mrs Rhonda Wheate for advice and assistance with sources.
+1 Scientists frequently subdivide accuracy into two components, precision (repeated measurements all
+very close together but not necessarily close to the correct value) and accuracy (with their average
+close to the correct value but not necessarily precise).
+2 R Eggleston, Evidence, Proof and Probability, 2nd edn, Weidenfeld and Nicholson, London, 1983.
+3 SE Fienberg (ed), The Evolving Role of Statistical Assessments as Evidence in the Courts, Springer
+Verlag, New York, 1989.
+4 In Australia the accreditation of government forensic science services has reached an advanced stage
+and is coordinated by the National Institute of Forensic Science.
+5 Not all laboratories are accredited nor all areas of expertise covered by professional codes of conduct.
+6 Irrespective of content, scientific evidence can be subdivided into the Qualitative, Quantitative,
+Comparison-based and Subjective Evaluation categories. An example of the last is psychiatric
+evidence relating to fitness to plead, depending on multiple factors and not easily reduced to cause-
+and-effect argument.
+7 See. for example, DW Barnes, Statistics as Proof, Little, Brown, Boston, 1983.
+8 MH DeGroot, SE Fienberg & JB Kadane (eds), Statistics and the Law, Wiley, New York, 1986.
+9 In the year 1978 almost 6,000 employment discrimination cases were initiated in the federal district
+courts of the United States.
+10 Fienberg, op cit, n3.
+11 Vuyanich v Republic National Bank, 24 FEP Cases 128 (ND Texas 1980), vac and rem'd, 723 F 2d 1195
+(1984).
+12 In a personal communication, a colleague of Sir Ronald Fisher while attached to the University of
+Adelaide in his retirement tells of the great statistician's reaction to the epidemiological studies which
+first established the link between smoking and lung cancer. Fisher asked whether susceptibility to
+lung cancer was inherited by certain people along with their predilections to tobacco smoking. It
+sounds ludicrous now that it is known how carcinogens damage cell growth control systems,
+allowing cells ultimately to transform and grow uncontrollably, but it was a theoretically proper
+hypothesis at the time.
+13 Fienberg, op cit, n3, at pl26 et seq.
+14 "Power" is a technical term. It means the ability of a test to reject the null hypothesis –in other words,
+to provide high levels of confidence that a result is not just due to random fluctuation of a variable.
+15 Average personal income in Ruritania may be a wonderful $50,000 pa, but the high figure may be due
+to several billionaires living in a highly deprived country, not a high and uniform standard of living.
+It is hazardous to assume that the variance is small and that individuals are all close to the average.
+16 The second quotation, here quoted loosely, was from the South Australian case of R v Splatt (see Royal
+Commission, Report Concerning the Conviction of Edward Charles Splatt, South Australian
+Government Printer, Adelaide, 1984) which made Australian legal history, inciting the government to
+establish a professional forensic science service which became a model for other Australian states and
+overseas.
+17 See B Selinger, "Scientific Evaluation", in I Freckelton & H Selby (eds), Expert Evidence, 5 volume
+looseleaf service, Law Book Co, Sydney, 1993-..., 2-523.
+18 P Hall & B Selinger, "Statistical Significance: Balancing Evidence Against Doubt" (1986) 28 Aust J Stats
+354.
+19 DW Vick, "Statistical Significance and the Significance of Statistics" (2000) 116 Law Quart Rev 575-82.
+This author notes that the term "statistical significance" is sometimes used in technical discussions in
+court without their being aware of its technical meaning.
+20 H Solomon, "Confidence Intervals in Legal Settings", in DeGroot, Fienberg & Kadane, op cit, n8.
+21 KF Schutz et al, "Empirical Evidence of Bias: Dimensions of Methodological Quality Associated With
+Estimates of Treatment Effects in Controlled Trials" (1995) 273 J Am Medical Ass 408.
+22 A Tversky & D Kahneman, "Judgment under Uncertainty: Heuristics and Biases" (1974) 185 Science
+1124; D Kahneman, P Slovic & A Tversky, Judgment under Uncertainty: Heuristics and Biases,
+Cambridge University Press, Cambridge, 1982.
+23 See, for example, JD Jackson, "Towards a Dialectic Theory of Proof for Legal Procedure" (1991) 154 J R
+Statist Soc A 107.
+24 M Piatelli-Palmarini, Inevitable Illusions, J Wiley, New York, 1994.
+25 Eggleston, op cit, n2, Chapter 3.
+26 JL Cohen, The Probable and the Provable, Oxford University Press, Oxford, 1977.
+27 CCG Aitken, Statistics and the Evaluation of Evidence for Forensic Scientists, John Wiley, New York,
+1995.
+28 RJ Simon & L Mahan, "Quantifying Burdens of Proof" (1971) 5 Law and Society Review 319.
+29 See, for example, Malec v J C Hutton Pty Ltd (1990) CLR 638.
+30 Ethyl Corporation v Environmental Protection Agency, 541 F 2d 1 (DC Cir 1976).
+31 Fienberg, op cit, n3.
+32 WC Thompson. "Are Juries Competent to Evaluate Statistical Evidence?" (1989) 52 Law Contemp
+Problems 9; DH Kaye & JJ Koehler, "Can Jurors Understand Probabilistic Evidence?" (1991) 154 J R
+Statist Soc A 75.
+33 E Magnusson, Jury Comprehension of Statistical Evidence, Australian Institute of Criminology
+Conference, 1994. Respondents in small family groups heard an audio tape simulating the judge's
+summing up of a criminal trial and then discussed the issues as small juries. Their individual
+responses were used to test (a) the comprehension of statistical information given and (b) the
+apparent mental pathway taken through evidence given in a Bayesian format.
+34 Random match probability (using a battery of blood tests) 5 per cent.
+35 The commercial profiling systems "Profiler Plus" (now adopted in Australia for evidence to be used in
+the national offender database) and "SGM Plus" (used in the United Kingdom for the National DNA
+Database) both use 10 probes and likelihood ratios in the range "10 billion to one" to "100 trillion to
+one" would be expected. However, caution is used in the calculations and the results actually reported
+are usually one or two orders of magnitude smaller. The United Kingdom Forensic Science Service
+has the policy of uniformly reporting these extremely large odds as "10 billion to one" to obviate
+difficulties due to the lack of scientific evidence to support the independence of loci to this level.
+36 This section concentrates on DNA profile evidence in criminal courts but, of course, the technology is
+widely used in other legal settings including paternity disputes, verification of family relationships in
+immigration applications (United Kingdom) and inheritance claims, disaster victim identification,
+and missing person identification.
+37 Other manifestations are the multi-locus probe, Polymerase Chain Reaction method plus promoter to
+produce protein then identified with a spot test, mitochondrial DNA analysis etc.
+38 Once separated from the rest of the DNA the sizes of the segments can be measured by electrophoresis.
+Each probe recognises fragments from one particular location (the "locus") of one particular pair of
+chromosomes, so, because of the pairing, fragments of two sizes will be found. Characterised by their
+size, they can be related to the two parents of the individual from whom the tissue originated, the
+double set of chromosomes in each cell having come originally from the single set contributed by
+each parent at conception. Numerous loci exist, on different chromosomes, each with inherited
+segments of varying length and, providing that probes can be found to recognise them, they can all
+be separated and their size measured in a single operation. The evidence is often presented by a
+barcode-like diagram of the fragment sizes.
+39 The Perkin-EImer Corporation's "Profiler Plus" system is licensed to Australian forensic science
+laboratories and used uniformly by all states for the investigation of crime and for the
+Commonwealth-wide offender database.
+40 See Aitken, op cit, n27.
+41 WC Thompson & EL Schumann, "Interpretation of Statistical Evidence in Criminal Trials: The
+Prosecutor's Fallacy and the Defense Attorney's Fallacy" (1987) 11 Law Hum Behav 167.
+42 There are numerous matters which can only be resolved by consideration of the statistics of scientific
+trials of the methodology: whether or not Hardy-Weinberg equilibrium has been reached in a
+population, band shifting relative to laboratory variation of fragment sizes, possible interdependence
+of alleles, race variations in the frequencies of alleles in populations and in their independence, the
+desirability of using the "ceiling principle" etc. They lie beyond the scope of this section. Some of
+them are becoming less important as newer technology is introduced, others as databases become
+larger.
+43 Doheny and Adams [1997] 1 Cr App R 369.
+44 Adams (Denis) (No 2) [1998] 1 Cr App R 377, CA.
+45 IW Evett, LA Foreman, G Jackson & JA Lambert, "DNA Profiling: A Discussion of Issues Relating to the
+Reporting of Very Small Match Probabilities" (2000) Crim L R 431.
+46 DH Kaye, "Bible Reading: DNA Evidence in Arizona" (1997) 28 Arizona State Law Journal 1035.
+47 State v Bible, 858 P 2d 1152 (Ariz 1993), cert denied, 114 S Ct 1578 (1994).
+48 Cellmark was the well known United States commercial laboratory carrying out the profiles.
+49 R v Lucas (1992) 55 A Crim R 361; [1992] 2 VR 109.
+50 R v Milat (1996) 87 A Crim R 446.
+51 R v Pantoja (1996) 88 A Crim R 554.
+52 R v Karger [2001] SASC 64.
+53 After analysis of the database the Fst relatedness parameter, which is the probability that alleles within
+a population have a common ancestor, was estimated to be close to 1 per cent but was arbitrarily set
+at a more conservative 3 per cent. Such a value for Fst is equivalent to all individuals in the database
+being related to the level of second cousins. The likelihood ratio was calculated by using the
+procedure described in the widely distributed second report of the United States National Research
+Council. National Research Council, "Report II, The Evaluation of Forensic DNA Evidence" (1999);
+the procedure appears as Equation 4.10.
+54 [1998] 1 Cr App R 377, CA.
+55 [1997] 1 Cr App R 369.
+56 In this case the DNA profile evidence was incriminating but other evidence supported the defendant's
+account. A defence witness explained (correctly) how Bayes' Law permitted 20 likelihood ratios for 20
+different items of non-scientific evidence to be combined mathematically and used to convert a prior
+probability of guilt into a posterior probability. It was this proposal that attracted the disapproval of
+the United Kingdom Court of Criminal Appeal.
+57 Investigators almost universally record the complaint from jurors about the difficulty of keeping track
+of the overall argument during a trial. Some commentators have argued the need to restructure the
+way in which evidence is marshalled during the adversarial court process; see, for example, Jackson,
+op cit, n23.
+58 For example, the "inference chart" concept proposed by E Magnusson & BK Selinger, "Forensic Science
+in Court" (1988) 12 Crim Law J 86.
+59 A complete inference chart includes procedural steps (chain of evidence items, sample identification),
+accreditation steps (qualifications of the scientific expert, accreditation of the laboratory), laboratory
+investigation steps (choice of procedure, standardisation of reagents, instrument accuracy checks,
+positive and negative controls), statistical analysis steps and, finally, the steps required in formulating
+the expert's conclusions for the report.
+60 UE Makov, "A Bayesian Treatment of the 'Missing Suspect' Problem in Forensic Science" (1987) 36 The
+Statistician 251.
+61 This minimum level of understanding was taken to be demonstrated by correct answers to the first five
+questions. The answers were: (1) No, a person can't be proved Guilty; (2) Yes, a person can be Proved
+Not Guilty; (3) If the odds of guilt were 1-to-1, the risk of convicting the wrong person would be 50%;
+(4) No, that's not acceptable; (5) Odds get Bigger when blood evidence is included.
+62 R v Humphrey (1999) 103 A Crim R 434.
+63 R v Jarrett (1994) 73 A Crim R 160.
+64 [1997] 1 Cr App R 369.
+65 People v Castro, 144 Misc 2d 956; 545 NYS 2d 985 (NY 1989).
+66 Evett, Foreman, Jackson & Lambert, op cit n45.
+67 DJ Balding, "When Can a DNA Profile be Regarded as Unique?" (1999) 39 Science and Justice 257. This
+important paper shows how a correction can be made to random match statistics to allow for the
+possibility that a relative of the defendant could have contributed the evidence (brothers and, to a
+lesser extent, uncles, nephews and cousins, obviously have a higher probability of producing the
+similar profiles than do other persons in the population).
+68 Using language designed to avoid jargon, while still familiarising the court with probability reasoning,
+the lawyer could say: Suppose you were watching a case on TV where the evidence linking the
+defendant to the scene of a crime was weak. All the court knew was that the defendant could have
+been around at the time. Before the jury even knew that there would be DNA evidence one juror
+muttered to another that it was about fifty-fifty that he was guilty, in other words, odds of one-to-
+one. Suppose the rest of the jury agreed that the odds were one-to-one. And suppose that, without
+knowing it, they were right and the odds really were one-to-one because there were only two people
+who could have committed the crime and the defendant was one of them! Now, if the jury thinks that
+fifty-fifty odds are good enough for a conviction, what is the chance that they would convict an
+innocent person? 50 per cent, of course. Would that be good enough for you? Of course not! But now
+they bring on the DNA evidence and show that the profile taken from the crime scene is very similar
+to the profile taken from the sample taken from the defendant when he was in custody. The
+prosecution expert is asked if the profiles come from the same person but he says he does not know.
+What he does know is that the similarity of these two profiles is estimated to be three million times
+more likely to be found if the sample at the crime scene came from the defendant than by chance
+from some other person. Does that effect the odds that the defendant is guilty? The expert says it
+does and tells the jury, "whatever the odds were originally, after measuring how similar the two
+profiles are, the odds that the crime scene sample came from the defendant are, according to my
+estimate, three million times higher".

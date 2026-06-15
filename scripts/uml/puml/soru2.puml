@@ -1,0 +1,73 @@
+@startuml soru2
+!include _style.iuml
+title Soru 2 — Ders Haftalık Planı · Factory Method + Template Method
+
+abstract class Ders {
+  - kod : String
+  - ad : String
+  - kredi : int
+  - amac : String
+  - icerikOzeti : String
+  - haftaSayisi : int
+  + planUret(hafta : int) : HaftalikPlan <<template>>
+  # araSinavSayisi() : int
+  # sinavHaftasiOlustur(no : int) : SinavHaftasi
+  # {abstract} icerikHaftasiOlustur(no : int) : HaftaOgesi <<factory>>
+}
+class TeorikDers {
+  # icerikHaftasiOlustur(no : int) : HaftaOgesi
+}
+class UygulamaliDers {
+  # icerikHaftasiOlustur(no : int) : HaftaOgesi
+}
+
+class HaftalikPlan {
+  + ekle(h : HaftaOgesi)
+  + hafta(no : int) : HaftaOgesi
+}
+abstract class HaftaOgesi {
+  - haftaNo : int
+  + ozet() : String
+}
+class TeorikHafta {
+  - konuBasligi : String
+  - degerlendirmeBicimi : int
+}
+class UygulamaHaftasi {
+  - uygulamaOzeti : String
+  - beklenenCiktilar : String
+}
+class SinavHaftasi {
+  - sinavBicimi : int
+  - sure : int
+  - maxPuan : int
+}
+
+Ders <|-- TeorikDers
+Ders <|-- UygulamaliDers
+HaftaOgesi <|-- TeorikHafta
+HaftaOgesi <|-- UygulamaHaftasi
+HaftaOgesi <|-- SinavHaftasi
+
+Ders "1" *-- "1" HaftalikPlan : üretir >
+HaftalikPlan "1" o-- "1..*" HaftaOgesi : haftalar >
+TeorikDers ..> TeorikHafta : <<creates>>
+UygulamaliDers ..> UygulamaHaftasi : <<creates>>
+Ders ..> SinavHaftasi : <<creates>>
+
+note bottom of Ders
+  <b>Template Method.</b> planUret(): araSinavSayisi =
+  yuvarla(haftaSayisi / 7); sınav haftaları EŞİT aralıkla
+  yerleştirilir; içerik haftaları factory ile türe göre üretilir.
+  <b>Factory Method.</b> icerikHaftasiOlustur() alt türde
+  TeorikHafta / UygulamaHaftasi nesnesini yaratır.
+end note
+note right of TeorikHafta
+  degerlendirmeBicimi: 1=vize sorusu,
+  2=mini sınav, 3=soru-cevap
+end note
+note right of SinavHaftasi
+  Her iki ders türünde ORTAK.
+  sinavBicimi: 1=klasik, 2=test, 3=karma
+end note
+@enduml

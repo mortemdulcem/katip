@@ -1,0 +1,612 @@
+12 Euthanasia and the Criminal Law:
+What Will Sever a Causal Link?
+DAVID MALCOLM*
+The dread of something after death -
+The undiscover'd country from whose bourn
+No traveller returns.
+Hamlet, Act III, Scene 1
+Introduction
+Advances in modern medicine have meant that that the twilight between when
+an individual enters a state of permanent unresponsiveness and death can be
+extended almost indefinitely. In circumstances where there is little likelihood of
+recovery, what is created is something that is after death, in practical terms, but
+before medical science and law agree that death has occurred. It is in this twilight
+world that medicine, law and community values have attempted to achieve some
+form of reconciliation over when it is appropriate to withdraw life-sustaining
+treatment. My analysis is directed to the question of causation in the context of
+euthanasia and the law. The moral and legal justification, or lack of justification,
+for the sanctioning of euthanasia by the State has received considerable attention
+in recent years. The debate over the passage of the Rights of the Terminally Ill Act
+1995 (NT) in the Northern Territory and the subsequent enactment by the
+Commonwealth Parliament of the Euthanasia Laws Act 1996 (Cth), which
+effectively invalidated the Northern Territory legislation, is still fresh in the
+community's memory. It has been suggested that the introduction of legislation
+similar to that in the Northern Territory is the culmination of a steady retreat
+from the sanctity of life ethic which has, until now, been paramount in precedent
+and statute.1
+Courts’ Approach
+In many cases the courts remain reluctant to hasten the death of an individual.
+The justification for such reluctance is as much based in a moral or cultural
+understanding of death as it is in the law. For example, one judge in the course of
+his summing up to jury on a charge of murder, arising out of what could be
+termed an act of euthanasia, said:
+However gravely ill a man may be ... he is entitled in our law to every hour ... that God has granted him.
+That hour or hours may be the most precious and most important hours of a man's life. There may be
+business to transact, gifts to be given, forgiveness to be made, 101 bits of unfinished business which have
+to be concluded.2
+Even in those circumstances where a court has approved the withdrawal of life
+support facilities, judges have been at pains to point out that the question is not
+one of sanctioning death. As Taylor LJ said in Re J (A Minor) (Wardship: Medical
+Treatment):
+The court never sanctions steps to terminate life. That would be unlawful. There is no question of
+approving, even in a case of the most horrendous disability, a course aimed at terminating life or
+accelerating death. The court is concerned only in which steps should not be taken to prolong life.3
+The perception of a retreat from the primacy of the sanctity of life has been
+prompted largely by significant advances in medical technology. These have
+blurred the distinction between life and death. As one New Zealand judge has
+said:
+With the use of sophisticated life-support systems, life may be perpetuated well beyond the reach of the
+natural disease. The process of living can become the process of dying so that it is unclear whether life is
+being sustained or death being deferred.4
+Definition of Death
+In settling on a definition of "death" to determine when a patient has "died", the
+law has taken its lead from the medical profession. In 1968 a body called the
+Harvard Brain Death Committee published a report in the Journal of the
+American Medical Association in which the Committee noted that "responsible
+medical opinion" was prepared to adopt new criteria for pronouncing death in
+circumstances where an individual had suffered "irreversible coma as a result of
+permanent brain damage".5 In 1977, the Australian Law Reform Commission
+recommended the introduction of a statutory definition of death that included the
+concept of "whole-brain death".6 That recommendation was subsequently
+adopted in New South Wales,7 Victoria8 and Western Australia in relation to the
+donation of human tissue for transplant.9 More recently, the courts have been
+called upon to consider the effective extension of this definition to encompass
+what could be termed "higher brain death" whereby the cortex has been
+damaged, but the brain stem continues to function.10 The patient enters what has
+been termed a "persistent vegetative state" in which, while the patient may
+continue to breathe unaided, he or she remains unconscious and unresponsive. In
+those decisions, the emphasis has been placed on the quality of life which the
+patient can expect while he or she remains in that state, as against the argument
+that he or she could be pronounced "dead". This is a significant aspect of the
+ongoing discourse and one that I will return to shortly.
+Freedom of Choice
+Changes in medical science have also been accompanied by changes in our social
+or cultural approach to death. As a community, we have seen in recent years a
+greater emphasis placed on the importance of the freedom of choice of the
+individual over the responsibilities of the State. In an article in The Age in
+Victoria, one commentator noted that the debate over the Northern Territory
+legislation:
+[I]s about the limits of individual freedoms and the political power of the Baby Boomers, now at the age
+when they are beginning to contemplate their mortality. Its about an ageing population and a limited
+health dollar. It's about an increasingly educated population losing its awe of the medical profession.11
+In the last thirty years there has been a rise in the acceptance of wide
+variations in private morality and the assertion of individual freedom of action.
+There has been a much greater emphasis on the rights of the individual, with
+correspondingly less emphasis on the obligations of the individuals to others or to
+society as a whole. Debates about moral questions in Australia are further
+complicated by a number of factors including a wide diversity of beliefs and
+values shared among members of our multicultural society. A common set of
+moral or social values has become harder to define.
+While on its face, these issues appear unconnected with euthanasia, they will
+continue to influence the course of social, political and legal debate in the coming
+years. The law cannot be divorced from the community to which it is applied. In
+my view, in the years ahead, questions about our understanding of death and of
+the "quality of life" of patients, will be raised before the courts in an ever-
+increasing number. Suggestions that euthanasia should be available in respect of
+a range of illnesses or disabilities raise the possibility that it may be considered a
+legitimate treatment option, even for those individuals who may remain
+conscious of their surroundings. The position to be adopted in relation to those
+illnesses is of particular relevance. I note, for example, that the Human Rights and
+Equal Opportunity Commission has estimated that within the next four years,
+200,000 Australians will be diagnosed with Alzheimer's Type Dementia. This
+figure will continue to increase as more and more "Baby Boomers" reach the age
+of 65. While the onset of dementia is distressing for both the sufferer and his or
+her family, the same questions in relation to consciousness or pain do not arise as
+they do in relation to "whole-brain" death, or the onset of a persistent vegetative
+state. The challenge for the law is to strike a balance between the interests of the
+individual and the interests of the community.
+Euthanasia
+In order to understand the position that confronts the courts in determining
+questions of euthanasia, it is also necessary to understand the background against
+which such disputes are determined. It is trite that the administration of any
+medical procedure or treatment without first obtaining the consent of the patient
+may make a medical practitioner liable to criminal prosecution for assault. Where
+the treatment causes the death of the patient, the practitioner may be criminally
+liable for murder or manslaughter, regardless of whether he or she had obtained
+the consent of the patient. In Western Australia, apart from assault and murder,
+assisting a suicide is also an offence punishable by life imprisonment.12
+In the context of "active euthanasia", that is, an act which is intended to bring
+about the death of a patient, the position in the United Kingdom has been put
+unequivocally by Lord Devlin: "If the acts done are intended to kill and do, in
+fact, kill, it does not matter if a life is cut short by weeks or months, it is just as
+much murder as if it were cut short by years."13
+These basic principles apply regardless of the competency, the degree of
+disability or the seriousness of the illness of the patient.14
+In addition to the risk of criminal liability of medical practitioners or others for
+actively taking steps to kill, or assist in the death of, another, in those States in
+which a Criminal Code exists, the Code imposes a duty on certain individuals to
+act to prevent harm to another.15 For example, in Western Australia, s262 of the
+Criminal Code provides that:
+It is the duty of every person having charge of another who is unable by reason of age, sickness, mental
+impairment, detention, or any other cause, to withdraw himself from such charge, and who is unable to
+provide himself with the necessaries of life, whether the charge is undertaken under a contract, or is
+imposed by law, or arises by reason of any act, whether lawful or unlawful, of the person who has such
+charge, to provide for that other person the necessaries of life; and he is held to have caused any
+consequences which result to the life or health of the other person by reason of any omission to perform
+that duty.
+In the context of what has been termed "passive euthanasia", that is, the
+omission to act to prolong a patient's life, a medical practitioner may be liable for
+prosecution for murder or manslaughter under these provisions for failure to
+provide "necessaries" such as respiratory aids.
+Against this background, courts have attempted to identify aspects of the act or
+omission leading to the death of another, which, in the case of euthanasia, would
+allow an accused to avoid criminal responsibility. One of the principal areas upon
+which the courts have focused is the causal link between the act or omission of
+the accused and the death of the patient or family member.
+Causation and Euthanasia
+Causation in criminal law is a question of fact to be determined by a jury. The
+jury is asked to consider, as a distinct element of the offence, whether the act or
+omission of the accused could be said to have caused the death of the victim.16
+The question however becomes much more difficult where, as in the case of an
+act of either active or passive euthanasia, the victim's death could be attributable
+to more than one cause. There has been a significant divergence in the test to be
+applied in those circumstances to establish a causal link between the victim's
+death and any one action or omission. In Royall v The Queen,17 McHugh J
+identified four different tests that had been applied in the United Kingdom
+without consistency, namely:
+1. Whether the offender's act or omission is an "operating and substantial
+cause" of the victim's death.18 In some texts, it has also been suggested
+that the accused's actions must be more than a "de minimis
+contribution".19
+2. Whether the victim's death is a "natural consequence" of the offender's
+act or omission.20
+3. Whether the victim's death was a reasonably foreseeable consequence of
+the offender's act or omission.21
+4. Whether an intervening act, or novus actus interveniens, could be said to
+have severed the causal link between the offender's act or omission and
+the victim's death.
+In Australia, a similar degree of inconsistency is evident in some of the more
+recent cases on causation in criminal law. In Royall v The Queen,22 for example,
+the majority of the members of the High Court adopted the first test identified by
+McHugh J but also adopted different approaches to the issue of the degree of
+responsibility which must be attributed to an accused in order to establish a
+causal link. I do not propose discussing the decision in detail as the court was not
+called upon to consider the question of causation as it applies to an act of
+euthanasia. What is of significance is the divergence of approaches to the issue of
+causation.
+Toohey and Gaudron JJ avoided the approach of placing conditions on the
+assessment of a causal link. They adopted instead the approach in Campbell v The
+Queen23 in which Burt CJ said:
+It would seem to me to be enough if juries were told that the question of cause for them to decide is not a
+philosophical or scientific question, but a question to be determined by them applying their common
+sense to the facts as they find them appreciating that the purpose of the enquiry is to attribute legal
+responsibility in a criminal matter.24
+Deane and Dawson JJ also cited the judgment of Burt CJ but added a
+condition:
+No doubt in some cases of murder it may assist the jury if the trial judge points out not only that there
+must be a causal connection between the acts (or, more rarely, omissions) of the accused and the death of
+the deceased, but that the causal connection must be sufficiently substantial to enable responsibility for
+the crime to be attributed to the accused.25 (emphasis added)
+Brennan J adopted a similar approach to Deane and Dawson JJ, without
+making reference to Campbell, holding that the accused's acts or omission must
+"contribute significantly" to the death of the victim.26 Adopting a more restrictive
+approach, Mason CJ suggested that the initial assault by the accused must be the
+"primary cause of sequential events causing death"27 (my emphasis). In an
+approach that differed significantly from the other members of the court,
+McHugh J concentrated on the state of mind of the offender, rather than the
+degree of responsibility:
+In a criminal case, a person should not be held liable for a wrongful act or omission which has caused
+harm in a "but for" sense if that harm was the product of a novus actus interveniens or was not a
+reasonably foreseeable consequence of the act or omission. It goes almost without saying, however, that a
+person should be held liable for harm which is causally linked with his or her conduct and which he or
+she intended should be brought about by that conduct.28
+The same divergent approach was again evident in the more recent High Court
+decision in Osland v The Queen,29 although only two members considered the
+question of causation on that occasion. McHugh J referred to his reasons in
+Royall as the approach to be adopted in considering issues of causation.30' Kirby J
+on the other hand found that the trial judge was correct in his direction to the
+jury that the accused's actions "should be a 'substantial cause of death"'.31
+Inconsistency or divergence on the question of causation may be a double-
+edged sword in the context of an act of euthanasia. The adoption of an approach
+that depends upon the "reasonable foreseeability" of harm may mean that, even
+though a patient is seriously ill, any act or omission that may hasten death would
+be sufficient to sustain a causal link. On the other hand, an approach that relies
+on an assessment of the "substantial", "significant" or "primary" cause of death
+may allow an offender to avoid criminal responsibility if he or she could
+demonstrate to a court that death was inevitable or imminent.
+In the United Kingdom, the administration of pain-killers or other drugs as
+part of a course of palliative care, and which have the secondary effect of
+hastening a patient's death, has been found not to constitute a criminal offence,
+even if the doctor knows that the death of the patient may be a likely outcome.
+This proposition has been attributed by some writers to the summing up by Lord
+Devlin in R v Adams (Bodkin)32 and as having been accepted by the English
+courts as the doctrine of "double effect". The legal basis of the doctrine is unclear.
+Professor Glanville Williams suggests that Lord Devlin may have had in mind the
+first test identified by McHugh J in Royall, that is, whether the accused's actions
+were a "substantial cause" of the death. Professor Williams, however, adds
+somewhat disparagingly that "[w]e may applaud his attitude without enquiring
+too closely into its legal basis".33
+The Doctrine of Double Effect
+Two principal bases have been advanced as support for the doctrine of "double
+effect". The first basis, and one that is not without precedent, is more closely
+associated with the accused's intention than a causal link. Courts in the United
+Kingdom have accepted that an accused who does not intend, but may have
+reasonably foreseen the outcome of his or her act or omission, is not necessarily
+legally responsible for them. For example, in Beatty v Gilbanks,34 the Court of
+Appeal found that members of the Salvation Army who regularly marched
+through Weston-super-Mare, were not responsible for the violent actions of
+others who gathered to watch.35 At the time that Adams was heard, this basis
+also accorded with the opinion, expressed extra-judicially, of some members of
+the House of Lords.36
+The approach focusing on intention has attracted criticism.37 At common law,
+as it applies in the United Kingdom and in some states of Australia, an intention
+to commit murder may be constituted either by proof of an intention to achieve a
+desired result, or, proof that the offender knew that the result was a probable or
+likely outcome of his or her actions and was indifferent to that probability.38 This
+second aspect has been referred to as recklessness.39 For example, the High Court
+in The Queen v Crabbe40 held that:
+The conclusion that a person is guilty of murder if he commits a fatal act knowing that it will probably
+cause death or grievous bodily harm but (absent an intention to kill or do grievous bodily harm) is not
+guilty of murder if he knew only that his act might possibly cause death or grievous bodily harm is not
+only supported by a preponderance of authority but is sound in principle.41
+Insofar as the doctrine of "double effect" would excuse a medical practitioner
+administering drugs in circumstances where he or she knew it was likely or
+probable, the approach by Lord Devlin in Adams is wholly inconsistent with that
+of the High Court in Crabbe. How this conflict in the authorities will be resolved
+remains to be seen. However, I suggest that the approach in Crabbe is the more
+persuasive decision.
+Before leaving this particular issue, I note that in those states where a Criminal
+Code applies, the position is somewhat different. The concept of recklessness
+cannot be taken into account in dealing with the provisions relating specifically
+to murder.42 Recklessness may provide the ground for a charge of criminal
+negligence.43
+The Course of Illness
+The second basis relates specifically to the question of causation. It is argued that
+the administration of drugs to a patient over and above what is required, or the
+active withdrawal of life-sustaining treatment, does not constitute an offence,
+because it is not the doctor's act which causes the death of the patient, but rather
+the patient's underlying illness which is the cause. The death of the patient, as a
+matter of law, was the natural course of the disease. This basis was discussed at
+length by High Court of New Zealand in Auckland Area Health Board v
+Attorney-General.44 In that case, Mr L suffered from an extreme case of Guillain-
+Barre syndrome. The effect of the illness is to sever brain functions from the rest
+of the body. While Mr L continued to breathe, and his circulation continued
+without assistance, he remained completely unresponsive. Mr L had existed in
+that state for 12 months and there was no likelihood of recovery. The Health
+Board made application for a declaration that by withdrawing life-sustaining
+treatment, and allowing Mr L to die, they would not be liable for prosecution for
+homicide. The question turned largely on the lawful excuse of doctors to
+withdraw life-sustaining treatment in the event that it no longer served a useful
+purpose in the patient's recovery. Justice Thomas endorsed the formulation of a
+doctor's duty in the context of palliative care by Professor Glanville Williams in
+his seminal text on criminal law:
+A doctor must never do anything to actively kill his patient, but he is not bound to fight for the patient's
+life forever. His duty in this respect is to make reasonable efforts, having regard to customary practice
+and expectations, and in particular having regard to the benefit of the patient to be expected from further
+exertions. He need not and should not crassly fix his attention upon mere heart-beats.45
+Relying upon this formulation of a doctor's ethical duties, and in particular a
+duty to act in the best interests of his or her patient, Thomas J explained his
+analysis of the question of causation in the following terms:
+Most objective observers would accept that where a life-support system which has ceased to serve any
+medical purpose or benefit to the patient is withdrawn, the certain death which it had for a time arrested
+would be the outcome of the original disease and not the withdrawal of the support. To hold, therefore,
+that where a doctor is under no legal duty to provide that support and has a lawful excuse for
+withholding it, the discontinuance of the life support is not legally the cause of death is simply to make
+the law coincide with the perception dictated by good sense.46 (emphasis added)
+Justice Thomas makes the question of causation conditional upon, and
+secondary to, an assessment of the bona fides of the doctor's conduct. The
+question is not one specifically of causation, but is more closely related to "lawful
+excuse".
+Patient’s Best Interests
+The House of Lords adopted a similar approach in Airedale National Health
+Service Trust v Bland.47 Their Lordships, however, expanded further upon the
+concept of the medical practitioner withholding treatment "in the patient's best
+interests". Young Anthony Bland suffered hypoxic brain damage as a result of
+being crushed against crowd control barriers during a riot at the Hillsborough
+football ground. As a result of his injuries, Anthony entered a persistent
+vegetative state. Although he continued to breathe, he remained unconscious and
+unresponsive. The bulk of his bodily functions were performed by machines or
+with the assistance of hospital staff. The medical authorities, with the support of
+Anthony's parents, had made application for approval to withdraw life-sustaining
+treatment, thereby hastening Anthony's death. At the time of the application,
+Anthony had remained unresponsive for a period of three and a half years. Lord
+Goff, with whom a number of the Lords agreed, made reference to the decision of
+Thomas J in Auckland Area Health Board and said:
+[I]t cannot be right that a doctor, who has under his care a patient suffering painfully from terminal
+cancer, should be under an absolute obligation to perform upon him major surgery to abate a condition
+which, if unabated, would or might shorten his life still further. The doctor who is caring for such a
+patient, in my opinion, cannot be under an absolute obligation to prolong his life by any means available
+to him, regardless of the quality of the patient's life. Common humanity requires otherwise, as do
+medical ethics and good medical practice accepted in this country and overseas.48
+In the context of considering the question of causation, His Lordship went on
+to say:
+As I see it, the doctor's decision whether or not to take any such step must (subject to his patient's ability
+to give or withhold his consent) be made in the best interests of the patient. It is this principle too which,
+in my opinion, underlies the established rule that a doctor may, when caring for a patient, who is, for
+example, dying of cancer, lawfully administer painkilling drugs despite the fact that he knows that an
+incidental effect of that application will be to abbreviate the patient's life. Such a decision may properly
+be made as part of the care of the living patient, in his best interests; and, on this basis, the treatment will
+be lawful. Moreover, where the doctor's treatment of his patient is lawful, the patient's death will be
+regarded in law as exclusively caused by the injury or disease to which the condition is attributable.49
+(emphasis added)
+As in Auckland Area Health Board, the question of causation is linked with a
+question whether a medical practitioner has acted in the patient's best interests.
+What the decisions suggest is that if the court finds that the medical practitioner
+has acted against the patient's best interests, the action of the practitioner severs
+the causal chain between the patient's illness and death, introducing an
+intervening act which may be characterised as the cause of the harm.
+Level of Patient’s Disability
+What characterises the jurisprudence to this point on euthanasia and the law is
+the significant level of disability or illness of the patient. Both Auckland Area
+Health Board and Bland highlight the futility of continuing life-sustaining care.
+For example, in Auckland Area Health Board, Thomas J noted that:
+Mr L's prognosis is now hopeless. It must be concluded that his condition is irreversible ... [A] current
+examination has confirmed that the degeneration is continuing and that there is no sign of
+improvement.50
+Hoffman LJ in Bland drew attention to the quality of life of Anthony Bland:
+There is no question of his life being worth living or not worth living because the stark reality is that
+Anthony Bland is not living a life at all. None of the things that one says about the way people live their
+lives –well or ill, with courage or fortitude, happily or sadly – have any meaning in relation to him.51
+In both cases the court was presented with a bleak prognosis of the patient's
+future. In one, the patient had been in a persistent vegetative state for more than
+twelve months. In the other, the patient had been in a similar state for more than
+three years. It is arguable that in both cases the patient was at the extreme end of
+the spectrum in terms of the seriousness of his illness. What of those situations in
+which the patient remains responsive, but his or her quality of life is slowly
+deteriorating, as is the case in the context of motor neurone disease?
+Alternatively, what if the patient has a normal life expectancy, but his or her
+quality of life is seriously affected, as is the case, for example, where the patient
+suffers from severe quadriplegia or Alzheimer's type dementia?
+In those cases where the patient lacks capacity to consent, or, as is more likely
+the case, to direct that treatment be withheld, the courts will carefully scrutinise a
+decision that is made by a person with impaired mental capacity. For example, in
+Re C (adult: refusal of medical treatment)52 a 68 year old patient suffering from
+paranoid schizophrenia developed gangrene in one of his feet, but refused to
+consent to the amputation of his leg below the knee, notwithstanding medical
+advice that his chance of survival without amputation was only 15 per cent. The
+court upheld the patient's decision to refuse the treatment, but only after being
+satisfied that he had comprehended the treatment information which his doctor
+had given him, had believed it and had weighed it in the balance in arriving at
+the decision which he had made.53
+Substitute Decision-Making
+In addition to contemporaneous decisions or directions given by a mentally
+impaired adult, consent may be withheld or given either by the patient's court-
+appointed guardian or from a written instrument executed by the patient before
+he or she became incompetent.
+In Australia, all states except Queensland have legislation allowing a guardian
+to be appointed to manage the affairs and property of an intellectually disabled
+individual. Whether the power to consent, or withhold consent, to a medical
+procedure would extend to a course of action which may lead to the death of the
+individual in whose interests they act is doubtful. The power has been limited in
+some respects by the courts. For example, in Secretary, Department of Health and
+Community Services v JWB and SMB (Marion's Case), the High Court found that
+the parents of an incompetent child could not consent to her sterilisation, that
+consent being outside the scope of the parental power. Mason CJ, Dawson,
+Toohey and Gaudron JJ adopted as their starting point the fact that sterilisation
+was "invasive, irreversible and major surgery".54 They then listed three principal
+factors which justified the court's role in sanctioning the proposed procedure,
+namely, the complexity of the question of consent, the involvement of complex
+medical procedures and the possibility of conflict between the child's interests
+and the independent interests of the parents and other family members.55 Subject
+to the overriding criterion of the welfare of the child, the interests of others,
+particularly the primary care giver, are relevant to the decision. The court's
+involvement ensures that in the case of conflict, the interests of the child will
+prevail.
+Given the High Court's reluctance to allow parental consent to be given to a
+procedure not designed to bring about death, it is unlikely that the court will
+allow simple consent to be given by a parent or guardian for an act of active or
+passive euthanasia without a court's supervision. In the absence of that consent, I
+consider that the court would apply the same or similar principles to those that I
+have discussed in relation to Marion's Case.
+The Right to Refuse Treatment
+In the case of passive euthanasia or the withdrawal of treatment from competent
+adults, the starting point is the right at common law to refuse treatment. The
+clearest statement of that right is contained in the judgment of McHugh J in
+Marion's Case who observed that:
+It is the central thesis of the common law doctrine of trespass to the person that the voluntary choices of
+an adult person of sound mind concerning what is or is not done to his or her body must be respected
+and accepted, irrespective of what others, including doctors, may think is in the best interests of that
+particular person.56
+The acceptance of this "right" at common law may also provide an excuse at
+criminal law. In Western Australia, where a competent patient has been fully
+informed of the options available in the context of their ongoing treatment, and
+refuses to give consent, a medical practitioner is relieved of his or her duty to the
+patient.57 This is particularly significant in the context of the criminal sanctions
+that apply to an omission. In the absence of a duty to the patient, a medical
+practitioner may not be held liable for his or her failure to provide "necessaries".58
+In the United Kingdom59 and Canada,60 the courts have given recognition to
+the provision of anticipatory or advance directives by individuals concerning the
+method of treatment to be adopted in the event of a terminal illness before they
+become incompetent. An assessment of the validity and weight of that direction
+is difficult. For example, in Re: T (adult: refusal of medical treatment),61 Lord
+Donaldson MR provided some guide with how best to deal with a
+contemporaneous direction by a patient:
+Doctors faced with a refusal of consent have to give very careful and detailed consideration to the
+patient's capacity to decide at the time when the decision was made. It may not be the simple case of the
+patient having no capacity because, for example, at that time he had hallucinations. It may be the more
+difficult case of a temporarily reduced capacity at the time when his decision was made. What matters is
+that the doctors should consider whether at that time he had a capacity which was commensurate with
+the gravity of the decision which he purported to make. The more serious the decision, the greater the
+capacity required. If the patient had the requisite capacity, they are bound by his decision. If not, they are
+free to treat him in what they believe to be his best interests.62
+Some states in Australia have enacted legislation to provide a mechanism for
+competent adults to ensure that their right to refuse treatment is respected, even
+after they become incompetent.63 Each model differs slightly, but what is
+common is that the statement must be in the correct, prescribed written form and
+witnessed by one or two other individuals, thereby providing some weight to the
+anticipatory direction. In Western Australia, similar legislation was introduced
+into Parliament in 1991 but not proceeded with after the Second Reading in the
+Lower House.64 It was restored to the Notice Paper in 1996 and passed through
+the Committee stage. It has not since been taken any further.
+In the United States, further developments have accompanied the recognition
+of a common law right to refuse treatment. Utilising the reference to a "right",
+recent decisions have canvassed the existence of an implied constitutional "right
+to die". The development is a significant one. It lends immeasurable weight to an
+advance directive that treatment is to be withheld in certain circumstances.
+There is no express constitutional or common law "right to die" sanctioned by
+the courts in the United States. Both state Courts of Appeal and the Supreme
+Court of the United States have held that the touching of another person without
+his or her consent constitutes the tort of trespass or the tort of battery. In essence,
+the tort has been explained as arising out of a proprietary interest of the
+individual in his or her own body. For example, the Supreme Court has said that "
+[n]o right is held more sacred, or is more carefully guarded, by the common law,
+than the right of every individual to the possession and control of his own
+person, free from all restraint or interference of others, unless by clear and
+unquestionable authority by law."65
+The "right" referred to by the Supreme Court has also been referred to as a
+"right of self-determination".66 The notion of bodily integrity has since been
+embodied in the requirement that informed consent is generally required for
+medical treatment. The Court of Appeals of New York has stated the principle as
+follows:
+Every human being of adult years and sound mind has a right to determine what shall be done with his
+own body; and a surgeon who performs an operation without his patient's consent commits an assault,
+for which he is liable in damages.67
+In the 1990 decision, Cruzan v Director, Missouri Department of Health,
+Rehnquist CJ observed that the doctrine of informed consent had become firmly
+entrenched in United States tort law.68 A right to refuse treatment, or the right to
+withhold consent, with the potential that it may cause the death of the patient,
+has been found to be the natural corollary of the doctrine of informed consent.69
+Until the late 1970s and early 1980s refusal of treatment cases were relatively
+rare. Where they did occur, they were largely based on the patient's right
+constructed at common law to withhold consent. In 1976, the direction of the
+development of this right underwent a reassessment. In In Re Quinlan,70 the
+father of a woman who had entered what is termed a "persistent vegetative state"
+following a car accident made application for judicial approval to disconnect his
+daughter's respirator. The New Jersey Supreme Court granted the application on
+the basis that Ms Quinlan's constitutional right to privacy, rather than a common
+law right to withhold consent, allowed her to refuse or terminate treatment.71
+There is no express right to privacy guaranteed by the United States Constitution.
+The Court acknowledged that:
+Although the Constitution does not explicitly mention a right of privacy, Supreme Court decisions have
+recognised that a right of personal privacy is guaranteed under the Constitution ... Presumably this right
+is broad enough to encompass a patient's decision to decline medical treatment under certain
+circumstances.72
+The Court however recognised that the right was not absolute and balanced it
+against the state's interest in the preservation of life, proposing a "sliding scale"
+whereby the state's interest "weakens and the individual's right to privacy grows
+as the degree of bodily invasion grows and the prognosis dims."73
+In Superintendent of Belchertown State School v Saikewicz,74 the Supreme
+Court of Massachusetts relied on both a right to privacy and the doctrine of
+informed consent to permit the withholding of chemotherapy from a profoundly
+retarded 67 year old man.75 It has been suggested that the decisions in relation to
+a right to privacy constitute a move away from the common law to a
+constitutional basis, thereby suggesting the creation of hybrid or "para" right to
+die.76 A careful reading of the State decisions in the United States, however,
+reveals that this observation is incorrect. The extent of the right to privacy
+remains uncertain. The development of the law relating to refusal of treatment
+has proceeded largely on the basis of the tortious principles of trespass and
+battery and the so-called right to self-determination.77
+More recently, the question of a right grounded in constitutional principles has
+been revived by reference to the Fourteenth Amendment of the United States
+Constitution, namely, the constitutional provision that no State shall deprive any
+person of his or her life, liberty or property without due process of law. In
+Cruzan, the Supreme Court was called upon to decide whether the Fourteenth
+Amendment created a constitutional right to refuse unwanted medical treatment.
+The Supreme Court reviewed a number of its own decisions in relation to the
+Fourteenth Amendment and found that: "The principle that a competent person
+has a constitutionally protected liberty interest in refusing unwanted medical
+treatment may be inferred from our prior decisions."78
+The elevation of the ability of an individual to refuse treatment to a
+constitutional right has not been accepted in any other jurisdiction, even where
+similar express constitutional rights exist. What this process does reflect,
+however, is the change in community attitudes which I discussed in my
+introduction. These influences will continue to be brought to bear, in even greater
+weight, in the coming years. How they will influence the development of the law
+in Australia is a matter of speculation. One thing is certain. This is a developing
+area of jurisprudence in which the courts, the medical profession and the
+community have a deep and continuing interest.
+* The Chief Justice of Western Australia.
+1 R Magnusson, "The Future of the Euthanasia Debate in Australia" (1996) 20 Melbourne University Law
+Review 1108 at 1109.
+2 R v Carr reported in The Sunday Times, 30 November 1986, pi cited in J Mason & RA McCall Smith,
+Law and Medical Ethics, 4th edn, Butterworths, London, 1994, p317.
+3 [1992] 3 WLR 782 at 786.
+4 Auckland Area Health Board v A-G [1993] 1 NZLR 235 at 245 per Thomas J.
+5 Ad Hoc Committee of the Harvard Medical School, "A Definition of Irreversible Coma" (1968) 205(6)
+Journal of the American Medical Association 85 at 87 cited in Magnusson, op cit, n1, at 1113.
+6 Australian Law Reform Commission, Human Tissue Transplants, Report No 7, AGPS, Canberra, 1977,
+paras 133-7.
+7 Human Tissue Act 1983 (NSW).
+8 Human Tissue Act 1982 (Vic).
+9 Human Tissue and Transplant Act 1982 (WA), s24.
+10 Airedale National Health Services Trust v Bland [1993] 1 All ER 821; see also Auckland Area Health
+Board v A-G, op cit, n4, dealing with Guillain-Barre Syndrome.
+11 G Alcorn, "Marshall Law", The Age (Melbourne), 24 May 1995, pl3 cited in Magnusson, op cit, n1,
+p1111.
+12 Criminal Code (WA), s288.
+13 H Palmer, "Dr Adams' Trial for Murder" [1957] Crim LR 365 at 375.
+14 Secretary, Department of Health & Community Services v JWB (Marion's Case) (1992) 175 CLR 218,
+15 See Criminal Code (Qld), ss285-287 at 290; Criminal Code (WA), ss262-264 and 267.
+16 Pagett (1983) 76 Cr App R 279 at 290-1: Royall v The Queen (1991) 65 ALJR 451 at 477 (per McHugh J).
+17 (1991) 65 ALJR 451 at 478.
+18 See for example Smith v R [1959] 2 QB 35 at 42-3 (per Lord Parker CJ).
+19 G Williams, Textbook of Criminal Law, 2nd edn, Stevens, London, 1983, p385.
+20 See for example Beech (1912) 7 Cr App R 197.
+21 See for example Roberts (1971) 56 Cr App R 95 at 102 (per the court); Mackie (1973)
+57 Cr App R 453 at 459 (per the court).
+22 Royall v The Queen (1991) 172 CLR 378.
+23 (1981) WAR 286, Royall, op cit, n22, at 470.
+24 Ibid, at 290.
+25 Royall, op cit, n22, at 465.
+26 Ibid, at 459 citing Pagett (1983) 76 Cr App R 279.
+27 Royall, op cit, n22, at 457.
+28 Ibid, at 481.
+29 (1998) 73 ALJR 173.
+30 Ibid, at 201.
+31 Ibid, at 214.
+32 At first instance. Reported in H Palmer, "Dr Adams' Trial for Murder" [1957] Crim LR 365; see for
+example P Skegg, Law, Ethics and Medicine, Clarendon Press, Oxford, 1984, ppl35-8; L Skene, Law
+and Medical Practice, Butterworths, Sydney, 1998, p210:1 Freckelton & K Petersen (eds), Controversies
+in Health Law, Federation Press, Sydney, 1999,
+33 Williams, op cit, n19, p385.
+34 (1882) 9 QBD 308.
+35 Ibid, at 314 (per Field J).
+36 See for example the speech by Lord Jowitt, then Lord Chancellor, (1950) 169 Parliamentary Debates,
+(HL) 593 cited in Skegg, op cit, n32, 137.
+37 A Grubb, "Commentary: Attempted Murder of Terminally Ill Patient; R v Cox" (1993) 1 Med Law Rev
+232 at 233.
+38 R v Nedrick [1986] 3 All ER 1.
+39 See for example R v Jakac [1961] VR 362.
+40 (1985) 156 CLR 464.
+41 Ibid, at 469 (per the court).
+42 See R v Wilmott (No 2) [1985] 2 Qd R 406.
+43 R v O'Halloran [1967] Qd R 1.
+44 [1993] 1 NZLR 235.
+45 Williams, op cit, n19, at p279 cited in Auckland Area Health Board, op cit, n4, p253.
+46 Auckland Area Health Board v A-G, op cit, n4, at 254.
+47 [1993] AC 789; [1993] 1 All ER 821.
+48 Ibid, at 867; 868 (per Lord Goff).
+49 Ibid.
+50 Auckland Area Health Board, op cit, n4, at 240.
+51 Airedale National Health Service Trust v Bland, op cit, n10, at 855.
+52 [1994] 1 All ER 819.
+53 Re C (adult: refusal of medical treatment) [1994] 1 All ER 819 at 824.
+54 Marion's Case, op cit, n14, at 250.
+55 Ibid, at 251-2.
+56 Ibid, at 309.
+57 Western Australian Law Reform Commission, Medical Treatment for the Dying, Project No 84, (1991),
+paras 1.11 and 1.12.
+58 See s262, Criminal Code (WA) and discussion above.
+59 Airedale National Health Service, op cit, n10; Re T (adult: refusal of medical treatment) [1991] 4 All ER
+649.
+60 Malette v Shulman (1990) 67 DLR (4th) 321.
+61 [1991] 4 All ER 649.
+62 Ibid, at 661-2.
+63 Medical Treatment Act 1994 (ACT); Natural Death Act 1988 (NT); Consent to Medical Treatment and
+Palliative Care Act 1995 (SA); Medical Treatment Act 1988 (Vic).
+64 Medical Care of the Dying Bill 1991 (WA).
+65 Union Pacific R Co v Botsford, 141 US 250 at 251 (1891).
+66 See for example In re Conroy, 486 A 2d 1209 (1985).
+67 Schloendorff v Society of New York Hospital, 211 NY 125 at 129 (1914) (per Cardozo J).
+68 Cruzan v Director, Missouri Department of Health, 497 US 261 at 269 (1990).
+69 Ibid, at 262.
+70 355 A 2d 647 (1976).
+71 Ibid, at 662-4.
+72 Ibid, at 663.
+73 Ibid, at 664.
+74370 NE 2d 417 (1977).
+75 Ibid, at 424.
+76 A Meisel, The Right to Die, Wiley, New York, 1989, p49; see also R Dworkin, Life's Dominion: an
+argument about abortion, euthanasia, and individual freedom, Knopf, New York, 1993, pp218ff.
+77 See, for example, In re Estate of Longeway, 549 NE 2d 292 (1989).
+78 Cruzan, op cit, n68, at 278.

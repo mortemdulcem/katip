@@ -1,0 +1,19 @@
+@startuml soru5_seq
+!include _seq.iuml
+title Şekil 5b · Sinema bilet satışı (Alan modeli — çokluk & kompozisyon)
+actor Musteri
+participant "seans : Seans" as SE
+participant "koltuk : Koltuk" as K
+participant "bilet : Bilet" as B
+Musteri -> SE : koltukSec(koltuk)
+activate SE
+SE -> K : musaitMi()
+K --> SE : evet
+SE -> B : <<create>> Bilet(seans, koltuk)
+SE --> Musteri : bilet
+deactivate SE
+note over B
+  Aynı seansa farklı koltuklar için çok bilet satılır;
+  kısıt: aynı (Seans, Koltuk) en çok bir bilete bağlanır.
+end note
+@enduml

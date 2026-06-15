@@ -1,0 +1,833 @@
+15 Forensic Medicine: Issues in Causation
+DAVID WELLS*
+Introduction
+While forensic pathology deals with examination of the dead, clinical forensic medicine deals with the
+living. It is principally concerned with the provision of medical advice in the investigation of crimes and
+other offences where medical knowledge and experience is essential to assist the legal process. Without
+accurate documentation and expert interpretation of injuries by forensic clinicians who can also properly
+evaluate medical history and circumstances, conclusions about how the injures occurred might be
+flawed. Such conclusions will affect investigations of both criminal and civil trials.1
+Injury interpretation is very much "bread and butter" work for the forensic
+physician. Increasingly acknowledged as one of the special skills of this field of
+medicine, it remains one of the most fascinating and yet contentious areas of
+forensic medicine. There is often an unrealistic expectation, by the lay public, of
+what the forensic practitioner can derive from observing a wound; a process
+fuelled by a number of television dramas and detective novels.
+The interpretation of injuries is a critical building block for forensic medical
+practice as it requires a unique inter-dependence of observations and
+interpretative skills. This is perhaps most clearly understood when reviewing
+cases where an incorrect observation is made. This observation is recorded and a
+false conclusion is reached by both the original observer and any subsequent
+reviewer. What then occurs is that mistaken evidence is provided and a verdict is
+reached not so much on the facts but rather on the basis of an error that occurred
+in the initial phases of the investigation.
+It is regrettable that there are often flaws in the way that medical practitioners
+observe and interpret wounds. Why does this occur? Most medical assessments of
+wounds have as their end-point the medical consequences and treatment of that
+wound. In the Emergency Department, the practitioner's management is driven
+by a need to explore the extent of the injury (with particular reference to possible
+damage to underlying structures) and then treatment of that injury. The type of
+wound and the forensic implications are secondary to the management of that
+wound:
+... clinicians do not think in terms of causation. The entire goal in the practice of medicine is treatment
+prevention of death and minimization of morbidity. To this end, a diagnosis is essential but does not
+address causation. (The clouded sensorium may be a result of a subdural haematoma. How the subdural
+haematoma occurred is of no real concern in the therapy regimen).2
+Limited knowledge of the definition of injuries creates further problems.
+Frequently terminology is inaccurately applied (for instance, a "laceration" rather
+than an "incised wound") or may be used interchangeably for similar injuries.
+Whilst not affecting the management of the wound this may result in difficulties
+in interpreting causation when there is a medico-legal consequence of the injury.
+There are other fundamental differences between forensic practice and other
+clinical practice that may further impact upon injury observation and
+documentation.
+In forensic practice the history of the incident may not be available from
+the injured party, (eg the head injured individual), may be unreliable or
+inaccessible (eg physically or sexually assaulted infants or intoxicated
+subjects). The heavy reliance on the history of symptoms or events, in
+clinical medical practice3 and its frequent absence in forensic medical
+practice creates some unique challenges in this field.
+The practitioner may be confronted with considerable limitations in the
+desire to perform a thorough examination. Clinical forensic practice
+includes a large clientele who may be abusive or threatening (eg
+intoxicated or psychotic individuals), uncooperative (eg suspects in police
+custody), agitated (eg assault victims), or confused (individuals with
+intellectual disabilities). Further, there may be constraints in the physical
+surrounds (eg poor lighting).
+In many medical conditions the luxury of review may assist the diagnostic
+process. In forensic practice, healing, surgical intervention or bandaging
+may limit the value of this review. Nonetheless a review may be
+necessary to observe the delayed appearance or evolution of injuries.
+Practitioners limited knowledge of the medico-legal implications of a case
+may also create problems. For instance, the accurate aging of injuries is
+rarely possible; yet many practitioners, armed with factually incorrect
+information from old texts and a misplaced "desire to help" will be
+prepared to give an opinion regarding (say) the age of a bruise. In reality,
+one can rarely be specific in timing these injuries.4 Practitioners often do
+not appreciate how much weight may be placed on such an opinion; for
+investigators it may influence a decision to charge, for a jury a verdict of
+guilt.
+Impartiality, a quality not tested in other clinical practice, is a critical
+component to the provision of all forensic services. Investigators,
+consciously or subconsciously, may bring considerable pressure to bear on
+practitioners to provide an interpretation that would resolve an issue. This
+is particularly so in cases where national security is threatened (eg
+terrorist activities), serious serial offences (eg multiple murders) or when
+public interest or anxiety is at a high level. These coercive forces may be
+direct and forceful, or subtle and insidious. They may be particularly
+strong where the practitioner has a formal relationship with the
+investigating authority (eg an employee of that authority), when a close
+personal relationship has developed between investigator and forensic
+practitioner or when the individual roles of the investigator and
+practitioner become blurred. Additionally, fairness may be compromised
+when the practitioner develops an unconscious or a misplaced "desire to
+help" the investigators.
+A further component to all forensic services is the need for objectivity:
+"Inappropriate expectation-laden observations can lead to observational
+errors. Observational errors can lead to interpretive errors and
+interpretive errors can lead to inferential errors".5
+Without malicious intent, false information may be provided to the
+practitioner. This information may influence the practitioner's approach to the
+case, to the point that some observations are disregarded or incorrectly
+interpreted and a false conclusion may be reached.
+In this chapter, some of the specific issues relating to injury causation as they
+apply to clinical forensic medicine will be explored, albeit briefly. By necessity,
+such a review cannot be all-inclusive. Instead, focus will be directed to some of
+the principles of injury interpretation, particularly as they apply to allegations of
+sexual assault in both adults and children. For it is these fields that are frequently
+dogged by misinformation and misinterpretation by both medical and legal
+practitioners.
+Injuries
+There is a randomness to the distribution of assaultive injuries. This may result in
+a wide range of sites and structures being damaged. Injury interpretation requires
+a broad comprehension of anatomical, physiological and pathological principles.
+These principles may be utilised to address questions of type and quantification
+of force, timing of the injurious event or simply, the how, what and when.
+Apparently minor injuries of the skin may result from the application of major
+forces (eg, blunt abdominal trauma). The maxim – no injury on the outside does
+not mean no injury on the inside – has implications for the medical assessment
+and the forensic interpretation.
+The depth of anatomical knowledge required is, therefore, directed at
+describing the findings and interpreting the consequences. In forensic medical
+practice, there are some sites that may warrant particular attention: scalp, face,
+neck, forearms, hands and genito-anal region.
+In the application of force to the body, there are a number of variables that
+may affect injury production.
+Type. Physical forces are the main factor applicable to forensic situations.
+The physical agents involved may produce disruption of tissues (eg an
+abrasion) or protein denaturation (eg thermal or electrical injuries).
+Chemical or biological agents are far less common.
+Amount, Accurate quantification of forces is not feasible in clinical
+situations. In blunt trauma there is a close relationship between force and
+resultive injury.
+Duration. The same amount of blunt force delivered over a shorter period
+will produce a greater transfer of kinetic energy and greater tissue
+damage.
+Agent. Exposure or contact with some weapons is more likely to produce
+trauma than others.
+Extent. Type of tissue involved. Issues of tissue vascularity, sensitivity to
+hypoxia, ability to regenerate may also influence outcomes of trauma.
+What are the injuries that may result from an assaultive action?
+Certain actions inevitably produce injuries. However, not all assaultive actions
+will result in injuries to the victim (Table 1). Further, there will be instances
+where the assailant may sustain an injury whilst the "victim" has no visible site
+of trauma (eg a punch or a bare-footed kick may be delivered with sufficient
+force to fracture a finger or toe without the recipient sustaining an observable
+injury).
+There are multiple explanations for the absence of injuries in individuals
+alleging physical assault. Some of these are specific to the complainant. These
+may include an inaccurate or untruthful account or individual characteristics that
+make the application of force less likely to result in an injury. For instance, a
+young healthy person may show no stigmata of injury following the application
+of relatively trivial trauma whilst an elderly person may demonstrate extensive
+bruising. This in turn is due to lesser amounts of subcutaneous tissue and poorly
+supported vasculature in the older age group. Similarly certain diseases (eg
+clotting defects and a range of connective tissue disorders) or drugs (eg aspirin,
+corticosteroids) may increase the propensity of "easy bruising."
+The type of assault is also a critical element in the injury outcome. Certain
+activities are inevitably associated with injury production (eg a stabbing) whereas
+others (eg slapping, hair-pulling) are infrequently physically injurious. The
+features of the tissue at the site of contact constitute a further factor. Hence blunt
+trauma to the optical orbit where the skin is loose, relatively poorly supported,
+highly vascular and overlying bone, is more likely to result in significant bruising
+or laceration than at sites where these conditions are absent, such as the
+abdominal wall or the palm of the hand. Clothing may also have some protective
+effects.
+Examination techniques and timing will affect the likelihood of injuries being
+recognised, Poor quality examinations (particularly where examinations are
+performed for the specific purpose of treatment rather than documentation) have
+resulted in inadequate assessments. Blunt trauma may result in bruising that does
+not become evident until after the examination. Similarly, healing, particularly of
+minor injuries, may occur in the period between the assault and the examination.
+Adult Sexual Assault
+Considerable variations exist in the legal statutes prescribing what constitute
+sexual offences. Many jurisdictions are specific as to the elements required to be
+proven in the criminal offence of rape and these include:
+Occurrence of sexual penetration; and
+Absence of free agreement or consent.
+Sexual penetration is also variously described but may include the introduction
+(to any extent) of a penis into a bodily orifice or an object into the vagina or the
+anus. Defences utilised by people accused of rape generally evolve around:
+A denial that sexual penetration occurred; and
+An acceptance that penetration occurred but with the complainant's
+consent, or a belief that it was with the complainant's consent.
+Consent or broadly "free agreement" can only be provided in the absence of
+force, fear or coercion. Additionally, the subject must have the capacity to
+consent to the act.
+From the forensic perspective, it follows that the role of the doctor is to seek,
+document and interpret information that may demonstrate whether:
+The complainant was able to provide competent consent to the act;
+Force was used during the alleged assault; and
+Sexual penetration occurred.
+The presence or absence of consent to the act are appropriately judged by the
+court. There is no role for the medical practitioner in such decisions. Nonetheless
+health practitioners may assist in the debate as to the complainant's ability to
+provide competent consent.
+Competence in this setting will revolve around issues of temporary or chronic
+conditions that impact upon cognitive function. Drugs (including alcohol) and
+head injury are the more common conditions encountered that may produce
+short-term impairment. Psychiatric illnesses and intellectual disability tend to be
+of a more chronic nature with an increased likelihood of prior recognition of
+these conditions.
+Conditions affecting cognitive function may have direct relevance to situations
+in which injuries were sustained and hence, their interpretation. Alcohol and
+other drugs affecting the central nervous system may impair balance and co-
+ordination. This will increase the likelihood of "bumps and falls" resulting in a
+range of blunt trauma particularly to bony prominences (eg shins, knees, elbows
+and face).
+Restraint or handling injuries (eg grip marks in the form of fingertip bruises)
+about the upper arms and forearms may reflect "assistance" provided by others.
+Alternatively, they may also be associated with forceful restraint for the purposes
+of assault (eg arms or inner aspects of thighs).
+Memory may be adversely affected by a range of acute and chronic conditions.
+Here complainants may not be able to recall details of an incident including the
+circumstances in which an injury was sustained. Alternatively, confabulation or a
+misplaced desire to assist investigators may produce a range of inaccurate
+responses.
+Injuries (Non-genital). Consenting intercourse in its various guises rarely
+results in bodily injuries. Notwithstanding this, anecdotal accounts abound of
+individuals or couples who sustain injuries during coitus. These are usually in the
+setting of experimentation (eg sado-masochistic activities), intoxication or
+inappropriate settings (eg heights, surfaces etc). Relatively little is known about
+injuries sustained in this fashion. There is almost certainly significant under-
+reporting and non-publication, as the current literature amounts to little more
+than single case reports.
+There now exists a significant body of literature documenting injury findings
+in adults reporting recent sexual assault. Some difficulties arise however in the
+interpretation and comparison of these various publications because of the
+considerable variations in study designs:
+Age and gender. Pre-pubertal children, adults, females and males are
+combined in some studies. The nature of the assault, the relationship to
+the offender and the injury pattern are significantly different in these
+groups.
+Examination timing. Whilst some studies include only individuals
+reporting assault within the previous twenty-four hours, others include all
+reports (days or weeks after the assault). Healing or resolution of injuries
+may have occurred in the latter group.
+Injury definition. Even within this relatively specialised field, there exists
+considerable variation in the classification and definition of wounds.
+Some studies inappropriately include tenderness (as reported by the
+complainant) or redness (a subjective assessment by the examiner) as
+definitive indications of trauma.
+Practitioner experience. Studies include examinations conducted by
+inexperienced practitioners and others with considerable expertise in
+gynaecology and forensic medicine.
+Study design. Small numbers, retrospective studies, non-blinded design
+and the absence of control groups are limiting factors in some
+publications.
+Bias. It is generally accepted that the majority of sexual assaults are not
+reported. Hence those motivated to report may not reflect the
+characteristics of the majority of victims of these offences. Motivating
+factors may include serious injury (and in particular those requiring
+treatment), ready access to quality services, and a range of secondary gain
+issues.
+Causation. The studies record injuries without attempting to relate them
+to the allegations in each case. Hence the noted injuries have not
+necessarily been sustained during the assault, but perhaps prior or
+subsequent to the assault.
+Notwithstanding these limitations it would be reasonable to conclude that
+between one half and two-thirds of adult women reporting sexual assault are
+found to have some form of non-genito-anal injury. The vast majority of these
+being classified as a minor injury (small abrasions and bruises) not requiring
+treatment. (Table 2) It follows that between one-third and half of women
+reporting sexual assault do not have any objective evidence of the use of force
+during the assault. The absence of injuries removes a very potent form of
+corroboration of a non-consenting act.
+Paucity of injuries was a major factor dictating the approach of police and the
+courts, to allegations of sexual assault.
+Allow her to make her statement to a police woman and then drive a horse and cart through it. It should
+be borne in mind that except in the case of a very young child, the offence of rape is extremely unlikely
+to have been committed against a woman who does not immediately show signs of extreme violence. If a
+woman walks into a police station and complains of rape with no such signs of violence, she must be
+closely interrogated.6
+Here there was emphasis placed on the evidence of "resistance" because of the
+requirement that the act be committed "against the will of the victim" rather than
+without the consent.
+However the extent and visual impact of the injuries incurred were probably the principal reason for a
+conviction in this case. Photographs were shown of the victim with blackened eyes, swollen face and
+nose, and missing clumps of hair.7
+In the minds of many, the absence of consent still equates to the use of force
+leading to an expectation that the complainant should have sustained assaultive
+or defensive injuries.
+Genito-anal Injuries. In sexual assaults, injuries to the anus or to the female
+genitalia are generally the result of penetration or attempted penetration by a
+blunt object. Clearly, blows or an assault with a sharp object may produce
+wounds but these are generally readily identified by the history and the injury
+pattern.
+The post-pubertal hymen is an elastic membranous structure that is quite
+capable of deforming or stretching without tearing. The anatomy of the hymen
+shows considerable variation; the hymenal orifice may be of different shapes and
+the margins may be irregular. Generally, the hymen is most prominent
+posteriorly and may be deficient anteriorly. Consequently, most injuries to the
+hymen are in the posterior segment.
+It is to this author's dismay that considerable weight continues to be placed on
+the appearance of the hymen in post pubertal girls and adult women. Statements
+of virginity (or otherwise), virgo intacta or "intact hymen" regularly appear in
+medical reports and yet the factual basis for such statements is, in nearly all
+cases, absent.
+Contrary to public belief, no definite criteria have ever been established for deciding whether a woman is
+a virgin or not.8
+Nearly a quarter of a century later there has been little advancement. What can
+be safely concluded is that:
+Acute injuries to the hymen (bruising, abrasions or lacerations) are
+indicative of recent penetrating blunt trauma;
+Acute injuries heal quickly (days or weeks) most frequently with no
+residual evidence of injury;
+Hymenal lacerations may remain as partial or complete transections.
+However, the finding of a deficiency in the hymen should not necessarily
+lead to a conclusion of past penetrating blunt trauma;
+Post-pubertal females may have penile vaginal penetration (even on
+multiple occasions) without sustaining any hymenal injuries; and
+The finding of hymenal remnants (carunculae myrtiformes) is indicative
+of repeated penetration or childbirth.
+Few other conclusions can be safely drawn from hymenal examinations in the
+post-pubertal. The act of penetration causes the soft tissues around the orifice to
+stretch. The likelihood and extent of genito-anal injuries will thus depend upon:9
+The state of the tissues – Injuries are more likely when the genital orifice
+is small (eg, prepubertal girls) or has some co-existing pathology that
+makes it more susceptible to trauma (eg, infections, inflammation,
+neoplasia). The post-menopausal woman may be at higher risk of trauma
+because of atrophic tissue changes and diminished lubrication.
+The size and type of penetrating object. Clearly, very large objects have a
+higher likelihood of producing trauma but there is the potential for
+considerable distension of both orifices. Fisting or handballing (whereby
+the hand is inserted into the vagina or anus) may or may not be
+associated with injuries. Variation in penile size, is unlikely to be a factor
+in injury production.
+The amount of force used. This is undoubtedly one of the most significant
+factors in injury production. However, the act of intercourse is generally
+one of not inconsiderable vigour.
+All of these factors need to be considered collectively in the assessment of
+genito-anal trauma. These principles have practical significance in the assessment
+of gynaecological trauma:
+Generally, it is not possible to differentiate the injurious effects of
+penetration with fingers, penis or a blunt, inanimate object. All are
+examples of blunt objects, creating similar effects upon the anus or female
+genitalia. Rarely will penetration with an inanimate object produce effects
+that will assist in identifying the object.
+Injuries to the genito-anal region may be asymptomatic. However, the
+rich vasculature and nerve supply will usually result in injuries being
+associated with symptoms of pain and bleeding. Less frequently,
+symptoms may include difficulty or pain with the passage of urine or
+faeces. The injuries producing symptoms are most commonly abrasions
+and bruising and less commonly, lacerations.
+Tenderness is a subjective phenomenon and whilst it may reflect tissue
+trauma, it is not by itself, indicative of injury. Clumsily performed
+examinations or anxiety about the examination procedure may invoke
+complaints of discomfort or pain.
+Inflammation (manifest by swelling, redness or discomfort) of either the
+genitalia or the anus may be the result of recent intercourse but the
+finding is not specific for recent penetration. Alternative causes of
+inflammation include infections or chemical or other physical irritants.
+The finding of blood in the genito-anal region requires from the examiner
+a careful inspection as to the possible source. Whilst trauma may be the
+and
+causes
+haematuria,
+include
+loss
+menstrual
+other
+source,
+haemorrhoidal bleeding.
+Scientific analysis of fluid found about or within the vagina or anus is
+required before any opinions can be provided as to its source.
+Consensual sexual activities may result in genito-anal injuries in the post-
+pubertal female. The frequency of injuries sustained in these
+circumstances is unknown but some may be severe enough to warrant
+treatment.
+Child Sexual Assault
+Background issues. There is no universal definition of child sexual assault with
+many variations incorporating social, legal, behavioural or medical models.
+Perhaps a useful starting point was that developed by the American Academy of
+Paediatrics.10
+Sexual abuse occurs when a child is engaged in sexual activities that the child cannot comprehend, for
+which the child is developmental ly unprepared and cannot give consent, and/or that violate the law or
+social taboos of society. The sexual activities may include all forms of oral-genital, genital, or anal
+contact by or to the child, or non-touching abuses such as exhibitionism, voyeurism or using the child in
+the production of pornography.
+The medical assessment of children alleging that they have been sexually
+assaulted remains one of the more problematic areas of paediatric practice. Few
+practitioners have received formal teaching in the genito-anal anatomy of pre-
+pubertal children. Even fewer have had training in the recognition of signs of
+either acute or chronic trauma to that region.
+In recent years, there have been considerable advances in the knowledge of
+what constitute normal and abnormal genito-anal anatomy. This has been
+primarily driven by some major cases (where the knowledge of the practitioners
+was clearly found to be wanting), significant increases in the reporting of alleged
+abuse, new technology and the development of medical training in this
+specialised field.
+The doctor must have an accurate knowledge of genital anatomy, experience in
+performing gynaecological examinations and be able to apply the pathological
+principles of trauma to the genital tract. It is perhaps worth reiterating the
+comments of the Cleveland Inquiry on this matter:11
+It was entirely proper for the two paediatricians to play their part in the identification of sexual abuse in
+children referred to them, They were responsible for the care of their patients. Nonetheless they had a
+responsibility to examine their own actions; to consider whether their practice was always correct and
+whether it was in the best interests of the children and their patients. They are to be criticised for not
+doing so and for the certainty and over-confidence with which they pursued the detection of sexual
+abuse in children referred to them. They were not solely nor indeed principally responsible for the
+subsequent management of the children concerned. However, the certainty of their findings in relation to
+children diagnosed by them without prior complaint, posed particular problems for the Police and Social
+Services.
+Visualisation and documentation of children's genito-anal regions has
+historically been a difficult and contentious issue. Previously naked eye, hand-
+held lenses or oto/ophthalmoscopes, Glaister's rods or catheters were utilised.
+Problems encountered with these methods include pain, limited angle of view,
+short focal length and unsatisfactory documentation. These factors, combined
+with the inappropriateness or inability to review the child, resulted in the
+development and application of newer technology.
+Colposcopy was first utilised by Hinselmann in Germany in 1924. Struck by
+the limitations of naked eye examination in the diagnosis of early cervical cancer,
+he constructed the first colposcope using Leitz lenses mounted on a pile of books
+for his first colposcopic examination.12
+In the early 1980s William Teixeira,13 a Brazilian medical examiner,
+commenced utilising the colposcope to clarify what he called dubious diagnoses
+made on gross unaided visualisation. It was not until the mid 1980s that
+Woodling and Heger14 at UCLA commenced systematic use of the colposcope in
+evaluating children who had allegedly been sexually abused.
+Colposcopic documentation is obtained through either a 35 mm camera or
+video attachment. Colposcopic examination has specific benefits in that it allows
+for magnification, illumination and photo documentation. Recorded findings in
+the form of photographs or videotapes may be used for case presentation, peer
+review, teaching and research activities.
+There is no doubt that colposcopic photo documentation has greatly
+contributed to the body of scientific knowledge of genital and anal findings in
+both abused and non-abused children.15
+Genital findings in children are difficult to interpret and is not within the
+expertise of most medical practitioners. Whilst acute trauma may be readily
+recognised, other findings remain much more problematic. What is normal?
+Could it be accidental? What is the age of injury?
+Current information allows us to reasonably conclude that:
+The position in which the child is examined is critical to the interpretation
+of observations. When hymenal abnormalities are observed in the dorsal
+position, the child should be re-examined in the knee-chest position to
+exclude gravitational effects on the tissues.
+A genital examination with normal findings does not exclude some forms
+of sexual contact. In the majority of cases, the medical examination will
+neither confirm nor refute an allegation of sexual assault.16 Certain
+actions are unlikely to produce injuries (eg oro-genital contact) whilst
+others, (eg penetration of the anus or penetration of the labia but not the
+hymen) may not necessarily produce injuries. Again, the amount of force
+will be a central issue.17 Other explanations for the absence of physical
+signs may include the absence of penetration18 and the healing of minor
+injuries19 (particularly as many disclosures are delayed for lengthy
+periods after the alleged assault).20
+Falls (eg astride an object) may produce genital injuries. Generally, these
+are confined to the labia and surrounding skin.21 It is difficult to conceive
+of a situation where either the hymen or the vagina could be injured
+without evidence of trauma to the external genitalia.
+There is no evidence that a range of sporting activities produce hymenal
+disruption but this issue has not been the subject of specific study.
+There is considerable variation in the shape of the hymen. The
+prepubertal hymen is generally thin and relatively inelastic. In this age
+group, penetration into the vagina may be associated with tearing of the
+hymenal tissue. At a later time, this tearing may be manifest by a deep
+notching of the hymenal margin or by scarring of the hymenal tissue.
+Evaluation of the post-menarchal hymen warrants some specific
+comments. Oestrogen produces dramatic changes to the hymen at the
+time of puberty causing it to become more elastic, distensible, thick and
+irregular.22 These features mean that the tissue is less likely to be damaged
+during penetration. It also means that the ability to reach a conclusion
+regarding past penetration is very limited as notching or even scarring or
+transections may become obscured in the physical changes to this
+structure.
+Relatively little is known about what constitutes normal variations of the peri-
+and post- menarchal hymen. One study23 of 300 non-abused adolescent girls with
+a mean age of 18 found:
+In the subgroup of 100 sexually active girls, 81 per cent had hymenal
+clefts compared to 11 per cent of non-sexually active tampon users and 5
+per cent of non-sexually active pad users.
+37 per cent of sexually active girls had narrowing of the hymenal rim to
+<1mm compared with 0 per cent (of 200 girls) who were not sexually
+active.
+Caution should be used in interpreting the results of this single study and, in
+particular, whether narrowing is a particularly sensitive marker in this group and
+further, the reliability of self-identification of past sexual activity.24
+In another study (204 girls with a mean age of 13 years), the authors concluded
+that:25
+Most of the subjects had a hymen of normal appearance after an episode
+of penetration of the vagina with a penis.
+Previous consensual sexual activity did not predict an abnormal finding.
+Repeated penetration over a long period of time may result in attenuation
+and loss of hymenal tissue. The findings of hymenal scarring or the
+absence of hymenal tissue posteriorly is highly suggestive of blunt,
+penetrating trauma.
+Empirical studies have not found evidence of congenital absence of the
+hymen.
+Hymenal orifice measurements are of little diagnostic value in the
+assessment of penetrating trauma. Orifice size varies with the age,
+position and relaxation of the child and there is limited consensus
+regarding measurement interpretation.
+There are a considerable number of findings that, when seen in isolation,
+may be considered as being non-specific or, at best, suggestive but not
+diagnostic of anal penetration.26 These findings include peri-anal
+inflammation, fissures, skin tags and reflex anal dilatation.27 Reflex anal
+dilatation is a highly variable finding and cannot be considered diagnostic
+of anal penetration.
+The findings of anal dilatation at postmortem is not a marker for prior
+penetration. Postmortem perianal findings should be interpreted with
+caution.28
+Lichen sclerosus may produce findings that could be misinterpreted as
+being the result of genito-anal trauma.29
+Genital trauma in young boys. Recent debate has centred around the
+interpretation of genital findings in prepubescent females and anal findings in
+both sexes. This has been appropriate given the controversy that certain cases
+have produced and the desire to develop a consensus of opinion in these fields.
+Relatively neglected in the debate has been the issue of genital trauma to male
+children.
+Despite their external position, the genitalia of the male child should be
+relatively immune from injury. Mobility of the organs, the anatomical protection
+offered by buttocks and thighs and the likelihood of covering by clothing
+(especially a nappy), shelters the organs from the majority of hazards to which
+this age group are exposed. Nonetheless, accidental trauma to the male genitalia
+is a well recognised, though infrequent, event.
+Trauma to the male genitalia may result from the number of sources. In the
+adult male, the injury pattern ranges from the predictable to the bizarre;
+seemingly, the only limiting factor being the imagination of the perpetrator.
+Injuries produced by a range of household items such as vacuum cleaners, blades,
+drills and guns have been well-documented.30 Additionally, sexual activity in its
+various guises has associated hazards with more than 70 per cent of penile
+injuries reportedly occurring during some form of sexual activity.31 Traumatic
+fractures of the penis during intercourse, bites and bizarre entrapments are
+anecdotal in most Emergency Departments.
+In young children, however, access to causative agents (either by physical
+restriction or prescribed by law) reduces the range of injurious agents. However,
+genital trauma in young children may be produced in a diversity of situations.
+Iatrogenic – Although well described, the frequency of iatrogenic genital
+injuries appears to have reduced in recent years. Arguably, this is due to a lower
+incidence of circumcisions and improved surgical techniques. However, there
+may be some communities where this problem remains current.32
+Blunt Trauma – Vehicular collisions and straddle falls may produce a range of
+blunt genital injuries. Additionally, such trauma may be associated with vascular
+and urethral damage. Other forms of blunt trauma may be the result of blows,
+pulling, pinching or crushing, producing abrasions, lacerations or bruising to the
+genitalia. A carefully obtained history from the child and eye witnesses, an
+assessment of the injury pattern, relevant medical investigations and an
+examination of the scene will usually assist in the analysis of that situation.33
+Bites – The finding of a bite injury to the genitalia should be an immediate
+prompt for a thorough investigation. Any human bite sufficient to leave objective
+signs of trauma should be a clear indication of assaultive behaviour. Animal bites
+to male genitalia are rare.
+Incarceration – As an appendage, the male genitalia has the potential to be
+entrapped between objects or be the object of a tourniquet. In children, the
+ubiquitous zipper remains a potential source of injury. The child may present
+with his genitalia entrapped in the zipper or, alternatively, injury secondary to
+the entrapment may be seen. Generally, the child provides a good history of the
+event and the injury is usually limited to mild abrasions. Cases of strangulation
+by hairs, hidden threads or even a wrench have also been documented.34
+Burns – Despite the relatively high incidence of burns in childhood, isolated
+burns of the genitalia appear to be a most unusual event. Whilst there is a
+considerable range of potential causative agents, the history and the burn pattern
+will usually assist in defining the circumstances of the injury.
+Incised wounds – Incised wounds of the genitalia appear to be most unusual.
+Self-inflicted incised wounds are usually associated with a troubled adolescent
+and any other presentation demands a thorough investigation.
+Non-accidental trauma to the male genitalia may be due to either sexual or
+physical forms of abuse. Interestingly, non-accidental trauma to the female
+genitalia is generally categorised as sexual abuse. This demarcation between
+sexually and physically assaultive behaviour raises a number of issues for
+medical practitioners and the criminal justice system.
+Unless the circumstances of the assault are unequivocal, the distinction
+between physically or sexually assaultive behaviour may be difficult. It has been
+suggested that girls are more likely to interpret assaultive acts involving their
+genitalia as being sexually motivated.35 Arguably, such an interpretation is just as
+likely to be made by the investigators and prosecutors of such offences. Sexually
+assaultive behaviour involving young boys' genitalia usually consists of an
+assailant handling, licking or sucking the genitalia; actions that are infrequently
+associated with the production of injuries.36
+From a case management perspective, the distinction between sexually or non-
+sexually motivated assault may be of significant importance.37 Medically, issues
+of disease transmission and counselling require addressing. For law enforcement
+agencies, knowledge of the causative circumstances may be critical to decisions of
+charging and penalties.
+TABLE 1:
+Assaultive Injury Patterns38
+Action
+Possible Injuries
+Site
+• Bite marks: bruising, abrasions.
+NECK
+BITE
+• Suction type petechial bruising.
+BREASTS
+• Bite marks, abrasions/lacerations to nipples.
+SCALP
+• Bruising, (including haematomas), lacerations.
+• Fractures (zygoma, jaw, nose).
+• Dental trauma.
+FACE
+• Intra-oral bruises, abrasions, frenulum
+damage.
+• Facial bruises-slap marks.
+• Periorbital haematomas.
+• Subconjunctival haemorrhage.
+EYES
+• Hyphaemas.
+• Traumatic mydriasis.
+BLOWS
+• Tympanic membrane perforation (usually
+slapping).
+EARS
+• Pinna bruises/lacerations.
+• Post auricular bruises.
+• Laryngeal skeleton trauma.
+NECK
+• Voice changes (hoarseness, dysphonia), and
+dysphagia.
+• Knuckle abrasions, (punching) bruising,
+HANDS
+lacerations or fractures.
+LIMBS
+• Bruises, abrasions, lacerations & fracture.
+TRUNK
+• Bruises, abrasions, fractures (especially ribs).
+• Circular burns between 5 mm and 15mm in
+BURNS -
+size, on any part of the body.
+CIGARETTE BURNS
+• Partial or full thickness. Flame, scald, contact.
+Action
+Possible Injuries
+Site
+• Bruising (especially on medial and lateral aspects of
+forearms, hands), "warding off" type injuries.
+LIMBS
+• Incised wounds (knife, bottle).
+• Lacerations and fractures (blunt implements).
+DEFENSIVE
+• Incised wounds to palms and web space (grasping
+RESPONSES
+sharp weapon).
+• Incised wounds and bruises to dorsum (deflecting
+HANDS
+blows).
+• Nail damage (may also occur in counter-assault, eg
+scratching).
+DRAGGING LIMBS /
+• Abrasions and bruises on exposed skin surfaces.
+Embedded foreign material.
+TRUNK
+• Abrasions and bruising especially to bony
+FALLS
+LIMBS
+prominences; elbows, knees and heel of hands,
+lacerations, fractures.
+FINGERNAIL
+• Linear scratch abrasions to any part of body.
+SCRATCHES
+• Linear scratch abrasions due to contact with
+vegetation.
+FLIGHT
+LIMBS
+• Bruises from contact with other objects, falls.
+• Abrasions and bruises on soles.
+• Bruising.
+EARS
+• Trauma secondary to earring contact/loss.
+GRASPING
+• Fingertip bruises, especially to medial aspect of upper
+LIMBS
+arms and forearms and medial thighs.
+HAIR
+• Hair follicle haematomas, bald patches, tenderness.
+PULLING
+• Puncture site over the course of a vein.
+INJECTIONS UPPER
+LIMBS
+• Bruising.
+Action
+Possible Injuries
+Site
+• Ligature marks or imprint bruising
+(necklace, clothing).
+LIGATURE / MANUAL
+• Fingertip bruises, abrasions (due to
+NECK
+COMPRESSION
+fingernails).
+• Facial petechiae, intra-oral petechiae,
+conjunctival haemorrhages.
+Occasionally,
+MOUTH
+PENETRATION
+• Pharyngeal bruising, palate bruising,
+frenulum trauma.
+• Ligature marks (wrists and ankles),
+LIMBS
+RESTRAINT
+fingertip bruising.
+SQUEEZING /
+BREASTS
+• Bruising.
+PINCHING
+• Linear, curved or looped bruising,
+TRUNK/
+WHIPPING WITH
+abrasions.
+LIMBS
+ROPE /CORD
+• Tramtrack bruises.
+TABLE 2:
+Adult Female Sexual Assault Studies
+Lenahan41 Cartwright42
+Beh39
+Bowyer40
+No
+16-48 (mean
+4-66
+>10
+>15
+Age
+25)
+Extragenital
+35%
+40%
+76%
+82%
+injuries
+6% naked eye
+Genito-anal
+-
+16%
+27%
+53%
+injuries
+colposcopy
+Rambow44
+Slaughter43
+Tintinalli5
+Wells46
+No
+11-85 (mean
+13-78
+>16
+>16
+Age
+24)
+Extragenital
+32%
+50%
+57%
+64%
+injuries
+68%
+Genito-anal
+10%
+19%
+27%
+(colposcopy)
+injuries
+* The Head of Clinical Forensic Medicine at the Victorian Institute of Forensic Medicine and Honorary
+Associate Professor of Forensic Medicine at Monash University.
+1 D Wells, M El-Nageh, B Linehan, S Cordner & H McKelvie, Ethical Practice in Laboratory & Medicine
+& Forensic Pathology, WHO Regional Publications, Eastern Mediterranean Series, Egypt, 1999, p41.
+2 I Root, "Head Injuries from Short Distance Falls" (1992) 13(1) Am J Forensic Med Pathol 85.
+3 G Sandler, "The Importance of the History in the Medical Clinic and the Costs of Unnecessary Tests"
+(1980) 100 Am Heart J 928.
+4 N Langlois & G Gresham, "The Ageing of Bruises: A Review and Study of the Colour Changes With
+Time" (1991) 50 Forensic Science International 227.
+5 J Nordby, "Can We Believe What We See, If We See What We Believe? Expert Disagreement" (1992)
+37(4) Journal of Forensic Sciences 1115.
+6 Anon, "Police Review 1975" in T Williamson, "Police Investigations – Separating the False and
+Genuine" (1996) 36(2) Med Sci Law 135.
+7 A Edwards & M Heenan, "Rape Trials in Victoria: Gender, Socio-cultural Factors and Justice" (1994) 27
+ANZ J Criminol 213.
+8 R Underhill & J Dewhurst, "The Doctor Cannot Always Tell – Medical Examination of the Intact
+Hymen" (Feb 1978) 18 Lancet 375.
+9 D Wells, E Ogden & S Young, "Child Abuse" in I Freckelton & H Selby, Expert Evidence: Law, Practice
+and Procedure, 2nd edn, Law Book Co, Sydney, 2002.
+10 American Academy of Paediatrics, "Guidelines for the Evaluation of Sexual Abuse of Children: Subject
+Review"(1999) 103(1) Paediatrics 186.
+11 Report of the Inquiry into Child Abuse in Cleveland 1987, HMSO, 1988.
+12 E Burghardt, Colposcopy Cervical Pathology, Teorg Thieme Verlag, Stuttgart, 1984.
+13 W Teixeira, "Hymenal Colposcopic Examination in Sexual Offences" (1981) 2 Am J Forensic Med
+Pathology 209.
+14 B Woodling & A Heger, "The Use of the Colposcope in the Diagnosis of Sexual Abuse in the Paediatric
+Age Group" (1986) 10 Child Abuse & Neglect 11.
+15 J McCann, "Use of the Colposcope in Childhood Sexual Abuse Examinations" (1990) 37(4) Pediatric
+Clinics of North America 863; D Muram, K Arheart & S Jennings, "Diagnostic Accuracy of
+Colposcopic Photographs in Child Sexual Abuse Evaluations" (1999) 12 J Pediatr Adolesc Gynecol 58;
+C Hobbs, J Wynne, A Thomas, "Colposcopic Genital Findings in Prepubertal Girls Assessed for
+Sexual Abuse" (1995) 76 Archives of Disease in Childhood 465; M Finkel, "Technical Conduct of the
+Child Sexual Abuse Medical Examination" (1998) 22(6) Child Abuse & Neglect 555.
+16 D Moran, "Child Sexual Abuse: Relationship between Sexual Acts and Genital Findings" (1989) 13 Child
+Abuse and Neglect 211; D Moran, "Child Sexual Abuse – Genital Findings in Prepubertal Girls" (1989)
+160 Am J Obstet Gynaecol 328.
+17 JA Adams & S Knudson, "Genital Findings in Adolescent Girls Referred for Suspected Sexual Abuse"
+(1996) 15 Arch Pediatr Adolesc Med 850.
+18 K Edgarth, G Von Krogh & K Ormistad, "Adolescent girls investigated for sexual abuse: history,
+physical findings and legal outcome" (1999) 104 Forensic Sci Int 1-15.
+19 D Moran & M Laufer, "Limitations of the Medical Evaluation for Child Sexual Abuse" (1999) 44(12) J
+Reprod Med 993.
+20 D Smith, E Letourneau, B Saunders, D Kilpatrick & H Resnick, "Delay in Disclosure of Childhood Rape:
+Results from a National Survey" (2000) 24(2) Child Abuse & Neglect 273.
+21 S Pokorny, W Pokorny & W Kramer, "Acute Genital Injury in the Prepubertal Girl" (1992) 166 Am J
+Obstet Gynecol 1461.
+22 S Pokorny, J Murphy & M Preminger, "Circumferential Hymen Elasticity: A Marker of Physiological
+Maturity" (1998) 43 J Reprod Med 943.
+23 J Emans, E Woods, E Allred & E Grace, "Hymenal Findings in Adolescent Women, Impact of Tampon
+Use and Consensual Sexual Activity" (1994) 125 J Paediatrics 153.
+24 F Goodyear-Smith & T Laidlaw, "Can Tampon Use Cause Hymen Changes in Girls Who have not had
+Sexual Intercourse? A Review of the Literature" (1998) 94 For Sci Int 147.
+25 J Adams & S Knudson, "Genital Findings in Adolescent Girls Referred for Suspected Sexual Abuse"
+(1996) 150 Arch Pediatr Adolesc Med 850.
+26 D Muram, "Anal and Perianal Abnormalities Seen in Prepubertal Victims of Abuse" (1989) 161 Am J
+Obstet Gynecol 278.
+27 J McCann, M Simon, J Voris et al, "Perianal Findings in Prepubertal Children Selected for Nonabuse: A
+Descriptive Study" (1989) 13 Child Abuse Negl 179.
+28 J McCann, D Reay, J Siebert, B Stephens & S Wirtz, "Postmortem Perianal Findings in Children" (1996)
+17(4) Am J Forensic Med Pathol 289.
+29 S Young, D Wells & E Ogden, "Lichen Sclerosis, Genital trauma and child sexual abuse" (1993) 22(5)
+Australian Family Physician 729-33; R Thomas, C Ridley, D McGibbon & M Black, "Anogenital
+Lichen Sclerosis in Women" (1996) 89 J R Soc Med 694; P Wood & T Bevan, "Child Sexual Abuse
+Enquiries and Unrecognised Vulval Licen Sclerosus et Atrophicus" (1999) 319 BMJ 899.
+30 A Cass, P Gleich & C Smith, "Male Genital Injuries from External Trauma" (1985) 57 Br J Urol 467.
+31 J Prior, J Hill & D Packham, "Penile Injuries with Particular Reference to Injury to the Erectile Tissue"
+(1981) 53 Br J Urol 42.
+32 ER Thatt, M Wagh & NI Kulkarni, "Identical Unusual Subtotal Amputation in Children: a Report of
+Four Cases" (1993) 46(6) Br J Plast Surg 535.
+33 D Wells, "Genital Trauma in Young Boys" (1996) 3 J Clin For Med 129.
+34 V Vahasarja, P Hellstrom, W Serlo & M Kontturi, "Treatment of Penile Incarceration by the String
+Method: Two Case Reports" (1993) 149 J Urol 372.
+35 D Finkelhor & J Wolak, "Non Sexual Assaults to the Genitals in the Youth Population" (1995) 274 JAMA
+1692.
+36 D Wells, "Genital Trauma in Young Boys" (1996) 3 J Clin For Med 129.
+37 W Holmes & G Slap, "Sexual Abuse of Boys: Definition, Prevalence, Correlates, Sequelae and
+Management" (1998) 280(21) JAMA 1855.
+38 (Modified from) A Welborn, Adult Sexual Assault, Monash University, Victoria, 2000.
+39 PSL Beh, "Rape in Hong Kong: an Overview of Current Knowledge" (1998) 5 J Clin For Med 124.
+40 L Bowyer & ME Dalton, "Female Victims of Rape and their Genital Injuries" (1997)
+104 Br J Obstet Gynaecol 617.
+41 L Lenahan, A Ernst & B Johnson, "Colposcopy in Evaluation of the Adult Sexual Assault Victim" (1998)
+16 Am J Emerg Med 183.
+42 PS Cartwright & the Sexual Assault Study Group, "Factors that Correlate with Injury Sustained by
+Survivors of Sexual Assault" (1987) 70 Obstet Gynecol 144.
+43 L Slaughter, CRV Brown, MN Crowley & R Peck, "Patterns of Genital Injury in Female Sexual Assault
+Victims" (1997) 176 Am J Obstet Gynecol 609.
+44 B Rambow, C Adkinson, TH Frost & GF Peterson, "Female Sexual Assault: Medical and Legal
+Implications" (1992) 21(6) Annals of Emergency Medicine 727.
+45 JE Tintinalli & M Hoelzer, "Clinical Findings and Legal Resolution in Sexual Assault" (1985) 14 Annals
+of Emergency Medicine 447.
+46 D Wells & S Young, "Circumstances and Findings in Women Alleging Rape", Proceedings, International
+Conference on Emergency Medicine, Sydney, 1996.

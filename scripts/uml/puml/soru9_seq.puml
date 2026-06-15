@@ -1,0 +1,28 @@
+@startuml soru9_seq
+!include _seq.iuml
+title Şekil 9b · Bağlantılı mod değişimi ve sensör SMS bildirimi (State + Mediator + Observer)
+actor "Ev Sahibi" as Owner
+participant "app : KullaniciUygulamasi" as APP
+participant "motor : AkilliEvMotoru" as M
+participant "ayd : Aydinlatma" as AY
+participant "isi : Isitma" as IS
+participant "kapi : KapiSensoru" as KP
+== Bağlantılı mod değişimi (State + Mediator) ==
+Owner -> APP : tasarruflu seç
+APP -> M : modDegistir(ayd, TASARRUFLU)
+activate M
+M -> AY : modAyarla(TASARRUFLU)
+AY -> AY : uygula() → asgari aydınlatma  <<State>>
+M -> IS : modAyarla(TASARRUFLU)  <<bağlantılı>>
+IS -> IS : uygula() → 18°C  <<State>>
+M -> APP : haberVer(durum)  <<Observer>>
+deactivate M
+== Sensör tetikleme & SMS (Observer) ==
+KP -> M : veriAktar()
+activate M
+M -> APP : guncelle(durum)  <<Observer>>
+alt bildirim etkinse
+  M -> APP : smsAl("Kapı sensörü tetiklendi")
+end
+deactivate M
+@enduml

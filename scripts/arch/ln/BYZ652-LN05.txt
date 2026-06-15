@@ -1,0 +1,636 @@
+Chapter 9: Performance
+
+An ounce of performance is worth
+      pounds of promises.
+          —Mae West
+
+        © Len Bass, Paul Clements, Rick Kazman,
+         distributed under Creative Commons
+                  Attribution License
+                           Chapter Outline
+
+• What is Performance?
+• Performance General Scenario
+• Tactics for Performance
+• Tactics-Based Questionnaire for Performance
+• Patterns for Performance
+• Summary
+
+
+     © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+              What is Performance? / 1
+
+• Performance is about time and the software system’s
+  ability to meet timing requirements.
+   – When events occur – interrupts, messages, requests from
+     users or other systems, or clock events marking the passage of
+     time – the system, or some element of the system, must
+     respond to them in time.
+   – Characterizing the events that can occur (and when they can
+     occur) and the system or element’s time-based response to
+     those events is the essence in discussing performance.
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               What is Performance? / 2
+
+• All systems have performance requirements, even if
+  they are not expressed.
+• Performance is often linked to scalability—that is,
+  increasing your system’s capacity for work, while still
+  performing well.
+• Often, performance improvement happens after you
+  have constructed a version of your system and found
+  its performance to be inadequate 😰
+   – You can anticipate this by architecting your system with
+     performance in mind.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Performance General Scenario / 1
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Performance General Scenario / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Sample Concrete Performance
+                Scenario / 1
+
+• 500 users initiate 2,000 requests in a 30-second
+  interval, under normal operations.
+• The system processes all of the requests with
+  an average latency of 2 seconds.
+
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+  Sample Concrete Performance
+          Scenario / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Goal of Performance Tactics
+• The goal of performance tactics is to generate a
+  response to events arriving at the system under
+  some time-based or resource-based constraint.
+  – The event can be a single event or a stream, and is the
+    trigger to perform computation.
+  – Performance tactics control the time or resources used to
+    generate a response.
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Performance Tactics
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                            Performance Tactics:
+            (1) Control Resource Demand / 1
+• Manage work requests. One way to reduce work is to reduce the number
+  of requests coming into the system to do work. Ways to do that include:
+    – Manage event arrival
+    – Manage sampling rate
+
+• Limit event response. When events arrive too rapidly to be processed,
+  they must be queued until they can be processed, or they are discarded.
+    – You may choose to process events only up to a set maximum rate, thereby ensuring
+      predictable processing for other events.
+    – This tactic could be triggered by a queue size or processor utilization exceeding a
+      warning level. Or it could be triggered by an event rate that violates an SLA.
+
+• Prioritize events. If not all events are equally important, you can impose a
+  priority scheme that ranks events according to importance to serve them.
+    – If insufficient resources are available to service them when they arise, low-priority
+      events might be ignored.
+             © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                         Performance Tactics:
+         (1) Control Resource Demand / 2
+• Reduce computational overhead. For events that do make it
+  into the system, the following approaches can be implemented
+  to reduce the amount of work involved in handling each event:
+   – Reduce indirection
+   – Co-locate communicating resources
+   – Periodic cleaning
+• Bound execution times. You can place a limit on how much
+  execution time is used to respond to an event.
+• Increase efficiency of resource usage. Improving the efficiency
+  of algorithms used in critical areas can decrease latency and
+  improve throughput and resource consumption.
+
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                         Performance Tactics:
+                    (2) Manage Resources / 1
+• Increase resources. Faster processors, additional processors,
+  additional memory, and faster networks all have the potential to
+  improve performance.
+   – Cost is usually a consideration in the choice of resources, but
+     increasing the resources is, in many cases, the cheapest way to get
+     immediate improvement.
+• Introduce concurrency. If requests can be processed in parallel,
+  blocked time can be reduced.
+   – Concurrency can be introduced by processing different streams of
+     events on different threads or by creating additional threads to
+     process different sets of activities.
+• Maintain multiple copies of computations. This tactic reduces
+  the contention that would occur if all requests for service were
+  allocated to a single instance.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Performance Tactics:
+                     (2) Manage Resources / 2
+• Maintain multiple copies of data. Two common examples of maintaining
+  multiple copies of data are data replication and caching.
+   – Data replication involves keeping separate copies of the data to reduce
+     contention.
+   – Caching also involves keeping copies of data (with one set of data possibly
+     being a subset of the other), but on storage with different access speeds.
+• Bound queue sizes. This tactic controls the maximum number of queued
+  arrivals and consequently the resources used to process the arrivals.
+   – If you adopt this tactic, you need to establish a policy for what happens when
+     the queues overflow & decide if not responding to lost events is acceptable.
+• Schedule resources. Whenever contention for a resource occurs, the
+  resource must be scheduled. Processors are scheduled, buffers are
+  scheduled, and networks are scheduled.
+   – Your concern as an architect is to understand the characteristics of each
+     resource’s use and choose the scheduling strategy that is compatible with it.
+
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+        Performance / 1
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+        Performance / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Service Mesh Pattern for
+                     Performance
+• The service mesh pattern is used in microservice
+  architectures.
+  – The main feature is a sidecar—a proxy that accompanies
+    each microservice which provides capabilities such as
+    interservice communications, monitoring, and security.
+• A sidecar executes alongside each microservice and
+  handles all interservice communication and
+  coordination.
+  – They are deployed together, which cuts down on the
+    latency due to networking, thereby boosting performance.
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Service Mesh Pattern – Benefits
+• Software to manage cross-cutting concerns can be purchased
+  off the shelf or implemented by a specialist team that does
+  nothing else, allowing developers of the business logic to
+  focus on just that.
+• A service mesh enforces the deployment of utility functions
+  onto the same processor as the services that use those
+  utility functions. This cuts down on communication.
+• The service mesh can be configured to make communication
+  dependent on context, thus simplifying functions such as the
+  canary and A/B testing described in Ch.5 (for Deployability).
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Service Mesh Pattern – Tradeoffs
+
+• The sidecars introduce more executing processes,
+  and each of these will consume some processing
+  power, adding to the system’s overhead.
+• A sidecar typically includes multiple functions, and
+  not all of these will be needed in every service or
+  every invocation of a service.
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                   Load Balancer Pattern
+                     for Performance
+• A load balancer is a kind of intermediary that
+  handles messages originating from some set of
+  clients and determines which instance of a
+  service should respond to those messages.
+  – The load balancer serves as a single point of contact
+    for incoming messages and farms out requests to a
+    pool of providers that can respond to the request.
+  – In this way, the load can be balanced across the pool
+    of providers.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      Load Balancer Pattern – Benefits
+
+• Any failure of a server is invisible to clients (assuming
+  there are still some remaining processing resources).
+• By sharing the load among several providers, latency
+  can be kept lower and more predictable for clients.
+• It is relatively simple to add more resources to the
+  pool available to the load balancer, and no client
+  needs to be aware of this.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Load Balancer Pattern – Tradeoffs
+
+• The load balancing algorithm must be very fast;
+  otherwise, it may itself contribute to
+  performance problems.
+• The load balancer is a potential bottleneck or
+  single point of failure, so it is itself often
+  replicated (and even load balanced).
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                    Throttling Pattern for
+                        Performance
+• The throttling pattern is a packaging of the
+  manage work requests tactic.
+• It is used to limit access to some important
+  resource or service.
+• In this pattern, there is typically an
+  intermediary—a throttler—that monitors
+  (requests to) the service and determines whether
+  an incoming request can be serviced.
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Throttling Pattern – Benefits
+
+• By throttling incoming requests, you can
+  gracefully handle variations in demand.
+• In doing so, services never become overloaded;
+  they can be kept in a performance “sweet spot”
+  where they handle requests efficiently.
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Throttling Pattern – Tradeoffs
+
+• The throttling logic must be very fast; otherwise, it
+  may itself contribute to performance problems.
+• If client demand regularly exceeds capacity, buffers
+  will need to be very large, or there is a risk of losing
+  requests.
+• This pattern can be difficult to add to an existing
+  system where clients and servers are tightly coupled.
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                   Map-Reduce Pattern for
+                       Performance
+• The map-reduce pattern efficiently performs a distributed
+  and parallel sort of a large data set and provides a simple
+  means for the programmer to specify the analysis to be done.
+• The map-reduce pattern has three parts:
+   – a specialized infrastructure that takes care of allocating software
+     to hardware nodes in a massively parallel computing environment
+     and handles sorting the data.
+   – a map function takes as input a key and a data set.
+      • It uses the key to hash the data into a set of buckets.
+   – a reduce function.
+      • The number of reduce instances corresponds to the number of buckets
+        output by the map function.
+      • The reduce phase does programmer-specified analysis and then emits the
+        results of that analysis.
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Map-Reduce Pattern – Benefits
+
+• Extremely large, unsorted data sets can be efficiently
+  analyzed through the exploitation of parallelism.
+• A failure of any instance has only a small impact on
+  the processing, since map-reduce typically breaks
+  large input datasets into many smaller ones for
+  processing, allocating each to its own instance.
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      Map-Reduce Pattern – Tradeoffs
+
+• If you do not have large data sets, the overhead
+  incurred by the map-reduce pattern is not justified.
+• If you cannot divide your data set into similarly sized
+  subsets, the advantages of parallelism are lost.
+• Operations that require multiple reduces are complex
+  to orchestrate.
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                         Summary
+
+• Performance is about the management of system
+  resources in the face of particular types of
+  demand to achieve acceptable timing behavior.
+• Performance can be measured in terms of
+  throughput and latency for both interactive and
+  embedded real time systems.
+• Performance can be improved by reducing
+  demand or by managing resources more
+  appropriately.
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+ Chapter 11: Security
+
+If you reveal your secrets to the wind,
+  you should not blame the wind for
+     revealing them to the trees.
+
+             —Kahlil Gibran
+
+         © Len Bass, Paul Clements, Rick Kazman,
+          distributed under Creative Commons
+                   Attribution License
+                            Chapter Outline
+
+• What is Security?
+• Security General Scenario
+• Tactics for Security
+• Tactics-Based Questionnaire for Security
+• Patterns for Security
+• Summary
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                              What is Security?
+• Security is a measure of the system’s ability to protect data
+  and information from unauthorized access while still
+  providing access to people and systems that are authorized.
+• The simplest approach to characterizing security focuses on
+  three characteristics: confidentiality, integrity, availability
+  (CIA):
+   – Confidentiality is the property that data or services are
+     protected from unauthorized access.
+   – Integrity is the property that data or services are not subject to
+     unauthorized manipulation.
+   – Availability is the property that the system will be available for
+     legitimate use.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Security General Scenario / 1
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+    Sample Concrete Security Scenario / 1
+
+• A disgruntled employee at a remote location
+  attempts to improperly modify the pay rate
+  table during normal operations.
+• The unauthorized access is detected, the system
+  maintains an audit trail, and the correct data is
+  restored within one day.
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Sample Concrete Security Scenario / 2
+
+
+
+
+  © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Goal of Security Tactics / 1
+• Secure facilities in the real world:
+   – permit only limited access to them
+       • e.g., fences and security checkpoints
+   – have means of detecting intruders
+       • e.g., requiring visitors to wear badges
+   – have deterrence mechanisms
+       • e.g., armed guards
+   – have reaction mechanisms
+       • e.g., automatic locking of doors
+   – have recovery mechanisms
+       • e.g., off-site backup
+
+• These lead to our four categories of tactics:
+   – detect, resist, react, and recover.
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Security Tactics
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Security Tactics:
+                        (1) Detect Attacks / 1
+• Detect intrusion. This tactic compares network
+  traffic or service request patterns within a
+  system to a set of signatures or known patterns
+  of malicious behavior stored in a database.
+• Detect service denial. This tactic compares the
+  pattern or signature of network traffic coming
+  into a system to historical profiles of known
+  denial-of-service (DoS) attacks.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                            Security Tactics:
+                          (1) Detect Attacks / 2
+
+• Verify message integrity. This tactic employs techniques
+  such as checksums or hash values to verify the integrity of
+  messages, resource files, deployment files, and config files.
+• Detect message delivery anomalies. This tactic seeks to
+  detect man-in-the-middle attacks.
+   – If message delivery times are normally stable, then by checking
+     the time that it takes to deliver or receive a message, it
+     becomes possible to detect suspicious timing behavior.
+   – Similarly, abnormal numbers of connections & disconnections
+     may indicate such an attack.
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                             Security Tactics:
+                            (2) Resist Attacks / 1
+• Identify actors (users or remote computers). This tactic focuses
+  on identifying the source of any external input to the system.
+   – Users are typically identified through user IDs.
+   – Other systems may be identified through access codes, IP addresses,
+     protocols, ports, or some other means.
+• Authenticate actors. Authentication means ensuring that an
+  actor is actually who or what it purports to be.
+   – Passwords, one-time passwords, digital certificates, two-factor
+     authentication, and biometric identification can be used.
+• Authorize actors. Authorization means ensuring that an
+  authenticated actor has the rights to access and modify either
+  data or services.
+   – This mechanism is usually enabled by providing some access control
+     mechanisms within a system.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                             Security Tactics:
+                            (2) Resist Attacks / 2
+• Limit access. Involves limiting access to computer resources.
+   – Limiting access might mean restricting the number of access points
+     to resources, or restricting the type of traffic that can go through the
+     access points. Both kinds of limits minimize the attack surface of a
+     system.
+• Limit exposure. This tactic focuses on minimizing the effects of
+  damage caused by a hostile action. It is a passive defense since
+  it does not proactively prevent attackers from doing harm.
+   – Limiting exposure is typically realized by reducing the amount of data
+     or services that can be accessed through a single access point, and
+     hence compromised in a single attack.
+• Encrypt data. Confidentiality is usually achieved by applying
+  some form of encryption to data and to communication.
+   – Encryption provides extra protection to persistently maintained data
+     beyond that available from authorization.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                              Security Tactics:
+                             (2) Resist Attacks / 3
+• Separate entities. Limits the scope of an attack.
+   – It can be done through physical separation on different servers attached
+     to different networks, the use of virtual machines, or an “air gap” --
+     having no electronic connection between different portions of a system.
+• Validate input. Cleaning & checking input as it is received by a
+  system, or portion of a system, is an important early line of
+  defense in resisting attacks.
+   – This is often implemented by using a security framework or validation
+     class to perform actions such as filtering, canonicalization, and
+     sanitization of input.
+• Change credential settings. Many systems have default security
+  settings assigned when the system is delivered.
+   – Forcing the user to change those settings will prevent attackers from
+     gaining access to the system through settings that may be publicly
+     available.
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                             Security Tactics:
+                        (3) React to Attacks / 1
+• Revoke access. If the system or an administrator believes that
+  an attack is under way, then access can be limited to sensitive
+  resources, even for normally legitimate users and uses.
+• Restrict login. Repeated failed login attempts may indicate a
+  potential attack.
+   – Many systems limit access from a particular computer if there are
+     repeated failed attempts to access an account from that machine.
+• Inform actors. Ongoing attacks may require action by
+  operators, other personnel, or cooperating systems.
+   – Such personnel or systems—the set of relevant actors—must be
+     notified when the system has detected an attack.
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                                 Security Tactics:
+                         (4) Recover from Attacks
+• Audit. We audit systems—that is, keep a record of
+  user and system actions and their effects—to help
+  trace the actions of, and to identify, an attacker.
+    – We may analyze audit trails to attempt to prosecute
+      attackers or to create better defenses in the future.
+• Nonrepudiation. This tactic guarantees that the
+  sender of a message cannot later deny having sent
+  the message and that the recipient cannot deny
+  having received the message.
+• In addition, all of the Availability tactics (in Ch. 4) aid in recovering from attacks.
+
+              © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+          Security / 1
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+          Security / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+          Security / 3
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Intercepting Validator Pattern
+                  for Security
+
+• This pattern inserts a software element—a wrapper—
+  between the source and the destination of messages.
+  – This approach assumes greater importance when the
+    source of the messages is outside the system.
+
+• The most common responsibility of this pattern is to
+  implement the verify message integrity tactic, but it
+  can also incorporate tactics such as detect intrusion
+  and detect service denial, or detect message delivery
+  anomalies.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Intercepting Validator Pattern –
+               Benefits & Tradeoffs
+• Benefits:
+  – Depending on the specific validator that you create and
+    deploy, this pattern can cover most of the waterfront of
+    the “detect attack” category of tactics, all in one package.
+• Tradeoffs:
+  – As always, introducing an intermediary exacts a
+    performance price.
+  – Intrusion patterns change and evolve over time, so this
+    component must be kept up-to-date so that it maintains its
+    effectiveness.
+     • This imposes a maintenance obligation on the organization
+       responsible for the system.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Intrusion Prevention System Pattern
+                  for Security
+
+• An intrusion prevention system (IPS) is a
+  standalone element whose main purpose is to
+  identify and analyze any suspicious activity.
+• If the activity is deemed acceptable, it is allowed.
+  Conversely, if it is suspicious, the activity is
+  prevented and reported.
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Intrusion Prevention System Pattern
+            – Benefits & Tradeoffs
+• Benefit:
+  – These systems often encompass most of the “detect
+    attacks” and “react to attacks” tactics.
+• Tradeoffs:
+  – The patterns of activity that an IPS looks for change and
+    evolve over time, so the patterns database must be
+    constantly updated.
+  – Systems employing an IPS incur a performance cost.
+  – IPSs are available as commercial off-the-shelf components,
+    which makes them unnecessary to develop but perhaps
+    not entirely suited to a specific application.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                           Summary
+• Attacks against a system can be characterized as attacks
+  against the confidentiality, integrity, or availability of a
+  system or its data.
+• This leads to many of the tactics used to achieve security.
+   – Identifying, authenticating, and authorizing actors are tactics
+     intended to determine which users or systems are entitled to
+     what kind of access to a system.
+• No security tactic is foolproof and systems will be
+  compromised.
+   – Hence, tactics exist to detect an attack, limit the spread of any
+     attack, and to react and recover from an attack.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+

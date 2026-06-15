@@ -1,0 +1,81 @@
+name: DMP big methylation sets
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dmp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install --quiet numpy pandas scipy
+
+      - name: Download big matrices from NCBI GEO
+        run: |
+          mkdir -p data
+          curl -L --retry 6 --retry-delay 15 --retry-all-errors \
+            -o data/GSE164822_M_final.txt.gz \
+            "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164822/suppl/GSE164822_M_final.txt.gz"
+          curl -L --retry 6 --retry-delay 15 --retry-all-errors \
+            -o data/GSE147040_intensities.txt.gz \
+            "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147040/suppl/GSE147040_matrix_intensities_for_geo.txt.gz"
+          ls -la data
+
+      - name: Opioid covariate-adjusted DMP (GSE164822, dlPFC)
+        env:
+          MATRIX_PATH: data/GSE164822_M_final.txt.gz
+          META_PATH: scripts/revize/realdata/human/opioid/GSE164822_meta.txt
+          OUT_PATH: scripts/revize/realdata/human/opioid/out/GSE164822_opioid_acute_dmp.json
+        run: python scripts/revize/realdata/human/opioid/opioid_acute_dmp.py
+
+      - name: chr3:32781045 cross-validation (GSE235818 finding in GSE164822 dlPFC)
+        env:
+          MATRIX_PATH: data/GSE164822_M_final.txt.gz
+          META_PATH: scripts/revize/realdata/human/opioid/GSE164822_meta.txt
+          OUT_PATH: scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+        run: python scripts/revize/realdata/human/opioid/opioid_chr3_crossval_gse164822.py
+
+      - name: Smoking covariate-adjusted DMP (GSE147040, NAc)
+        env:
+          MATRIX_PATH: data/GSE147040_intensities.txt.gz
+          META_PATH: scripts/revize/realdata/human/smoking_nac/GSE147040_meta.txt
+          OUT_PATH: scripts/revize/realdata/human/smoking_nac/out/GSE147040_smoking_nac_dmp.json
+        run: python scripts/revize/realdata/human/smoking_nac/smoking_nac_dmp.py
+
+      - name: Show results
+        run: |
+          echo "===== GSE164822 opioid ====="
+          cat scripts/revize/realdata/human/opioid/out/GSE164822_opioid_acute_dmp.json
+          echo "===== chr3:32781045 crossval (GSE164822) ====="
+          cat scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+          echo "===== GSE147040 smoking ====="
+          cat scripts/revize/realdata/human/smoking_nac/out/GSE147040_smoking_nac_dmp.json
+
+      - name: Commit results back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/revize/realdata/human/opioid/out/GSE164822_opioid_acute_dmp.json
+          git add scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+          git add scripts/revize/realdata/human/smoking_nac/out/GSE147040_smoking_nac_dmp.json
+          git commit -m "DMP results: GSE164822 opioid (dlPFC) + chr3 crossval + GSE147040 smoking (NAc)" || echo "no changes to commit"
+          git push || echo "push failed"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dmp-results
+          path: |
+            scripts/revize/realdata/human/opioid/out/GSE164822_opioid_acute_dmp.json
+            scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+            scripts/revize/realdata/human/smoking_nac/out/GSE147040_smoking_nac_dmp.json
+          if-no-files-found: error

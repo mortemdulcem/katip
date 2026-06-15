@@ -1,0 +1,47 @@
+Yaranın yaşının değerlendirilmesi çok güçtür ve bir kez matür (olgun) hâle geldikten sonra, kişinin yaşamı boyunca artık değişiklik göstermez. Lineer bir yara oluşturulduğunda – ister cerrahi bir operasyon kesisi, ister bıçak yarası olsun – enfeksiyon veya hematom gelişmediği varsayıldığında, kenarlar yaklaşık bir hafta içinde mekanik olarak sağlam hâle gelir. Bu evrede yara kahverengimsi kırmızıdır ve genişliğine bağlı olarak birkaç ay boyunca vasküler kalır. İçerdiği kan damarlarının pembeliği giderek solar ve dar bir cerrahi insizyon (incision/kesi) 4–6 ay içinde beyazlaşabilir. Avasküler kollajen yaklaşık bir yıl kadar büzülme eğilimindedir, ancak bir yıl sonunda beyaz–gümüş rengini alır ve süresiz olarak bu görünümünü korur. Bu süreler, derinin niteliğine, pigmentasyonuna ve vücudun hangi bölgesinde olduğuna göre değişkenlik gösterir. Sıklıkla fleksiyon veya ekstansiyon yapan bir deri kıvrımını (skin crease) çaprazlayan yaralar, açılma ve genişleme eğilimindedir ve bunu izleyen nedbe dokusu da aynı şekilde genişler.
+
+Histoloji, skarların (nedbe dokusunun) incelenmesine pek fazla katkı sağlamaz; esas katkısı, derideki bir işaretin gerçekten bir skar olup olmadığını doğrulamaktır. Kollajen ya da elastin boyaları, dermisteki devamlılık kaybını doğrulayabilir. Skarlar, kıl follikülleri, ter bezleri veya sebase bezler taşımaz; ancak düzensiz bir yaralanmada canlı orijinal deri fragmanının dahil (inklüde) edilmesi ya da cerrahi onarım sırasında kenardan bir deri parçasının yerinden ayrılması veya invajinasyonu (içe kıvrılması) sonucu, nadiren de olsa aksesuar deri yapıları bulunabilir.
+
+> **💬 Çevirmen notu:** Yara yaşının histolojik olarak tayini adli tıp uygulamasında sık talep edilir; ancak burada vurgulandığı gibi, özellikle matür skarlarda bu pratikte neredeyse imkânsızdır. Türkiye’de de Adli Tıp Kurumu raporlarında skar yaşına dair kesin süre vermekten genellikle kaçınılır, geniş zaman aralıkları kullanılır.
+
+---
+
+### Mesleki stigmata (mesleğe özgü iz ve bulgular)
+
+Eskiden çoğu ders kitabında önemli bir yer verilen mesleğe özgü belirgin fiziksel izlerin sıklığı ve önemi azalmıştır. Hâlâ bazı alanlarda işe yararlar, ancak meslekler ve sanayi kollarına dair yerel bilgi gerektirirler. Viktorya dönemindeki kâtiplerde görülen kalem kallusları ve ayakkabıcı kifozu artık yoktur; ancak birçok mesleğin hâlâ kendine özgü stigmataları vardır, fakat çoğu görece non-spesifiktir. En iyi bilinen örnek, kömür madencilerinin ‘mavi skarı’dır; bu, ellerde ve yüzdeki küçük laserasyonlara (laceration/yırtık) giren kömür tozunun neden olduğu istemsiz bir dövme (tattoo) görünümüdür (Şekil 3.6). Bazı madenciler ve taş ocağı işçilerinde, patlatma sırasında yayılan kaya parçacıklarının oluşturduğu küçük yüz skarları da bulunabilir.
+
+> **💬 Çevirmen notu:** “Mavi skar” Türkiye’deki yeraltı/yerüstü kömür madencilerinde de sık görülür ve olay yeri incelemelerinde kişinin madenci olabileceğini düşündüren pratik bir ipucudur.
+
+Çelik işçileri ve dökümhane çalışanı erkeklerde, sıçrayan sıcak metal nedeniyle açıkta kalan bölgelerde çok küçük yanık skarları bulunabilir. Daha genel olarak ellerin incelenmesi, ölünün manuel işte mi yoksa daha sedanter mesleklerde mi çalıştığını gösterebilir. Kesikler, skarlar, kallus (nasır) ve ellerdeki hiperkeratoz, kaba işlerin bariz göstergeleridir.
+
+İç organlar açısından bakıldığında, siyah, toz yüklü akciğerler – pnömokonyoz (pneumoconiosis) olsun ya da olmasın – madenciliğe işaret eder; zira kömür boşaltıcı (coal trimmer) iskele işçileri artık yoktur. Parietal plevra ve diyafram üzerindeki kalınlaşmış, sedefî plaklar asbest maruziyetine bağlıdır; ancak geçmişte çok sayıda endüstride asbestin yaygın kullanılmış olması, bu bulguyu mesleğin tanınmasında daha az yardımcı kılmaktadır.
+
+> **💬 Çevirmen notu:** Asbestoz ve plevral plaklar sadece tersane işçileri değil, inşaat ve izolasyon sektöründe çalışan pek çok kişide de görülebilir. Mesleki öykü olmadan tek başına iş kolunu belirlemek için yeterli değildir, ancak kimliklendirme dosyasında meslek olasılıklarını daraltmaya katkı sağlayabilir.
+
+---
+
+### Bütün bir cesedin boyu (stature)
+
+Bir cesedin boyu, hayattayken ölçülen boyla birebir aynı olmak zorunda değildir. Morgda, beden topuktan tepeye (heel to crown) kadar ölçülmeli; morg görevlisinin veya cenaze şirketinin “tabut ölçüsü” kabul edilmemelidir; zira tabut ölçüsü genellikle ayak parmağından tepeye (toe to crown) kadar yapılır. Ayakta plan­ter fleksiyonun (ayak tabanının aşağı bükülü durması) tipik olması nedeniyle, ikinci tip yükseklik, topuk–tepe uzunluğundan 10 cm kadar daha fazla çıkabilir.
+
+Ölü bedenin boyu, hayattaki boydan az ya da çok olabilir; biraz daha uzun veya biraz daha kısa ölçülebilir, fakat uzama çok daha sık görülür. Ayrıca, ölçülen boy, ölümden sonraki farklı dönemlerde biraz değişebilir. Flasidite (gevşeklik) döneminin ilk evresinde kas tonusunun tamamen kaybı nedeniyle, kalça ve diz gibi büyük eklemlerde gevşeme ile birlikte, paraspinal kasların intervertebral diskler üzerindeki germe etkisinin kaybolması sonucu beden 2–3 cm kadar uzayabilir. Ardından ölü katılığı (rigor mortis) kas tonusunun yerini alarak bedeni kısaltabilir ve bacakların hafif fleksiyon eğilimini artırabilir. Rigor geçtikten ve çürüme (putrefaction) başladığında eklemler gevşer. İntervertebral disklerde gerilimin kaybı, omurganın ve dolayısıyla toplam boyun yaklaşık 1 cm kadar kısalmasına neden olur. Trotter ve Gleser’e göre ortalama artış 2–5 cm kadardır.12 Gerçekten doğru bir ölüm sonrası boy uzunluğu elde etmedeki hata payları arasında, ölçüm cihazını tam olarak topuğa ve başın tepe noktasına yerleştirmedeki güçlüklerin yanı sıra, rigor halindeki bir cesedin ekstremitelerini, omurgasını ve boynunu tam olarak ekstansiyona getirme zorluğu da sayılabilir.
+
+> **💬 Çevirmen notu:** Adli raporlarda boy karşılaştırması yapılırken (örn. kayıp kişi kayıtlarıyla) bu 2–5 cm’lik fark göz önünde bulundurulmalıdır. Türkiye’de de kimliklendirme dosyalarında “postmortem boy ölçümü yaklaşık olup yaşam boyuyla küçük farklılıklar gösterebilir” şeklinde açıklama yapmak yerinde olur.
+
+---
+
+### İskeletleşmemiş (non-skeletalized) bedenlerde cinsiyet tayini
+
+Bu genellikle açıktır ve nadiren sorun oluşturur. İnterseks durumlar ve hermafroditizm (hermaphroditism) o kadar nadirdir ki, çoğu adli uygulamada pratik olarak göz ardı edilebilir; ancak Güneydoğu Asya gibi bazı bölgelerde, erkeklerde genital ve meme bölgesini feminizasyon amacıyla cerrahi müdahalelerle desteklenmiş kasıtlı transseksüalizm daha sık görülebilmektedir. Böyle bir sorun ortaya çıktığında uzman görüşü alınmalıdır.
+
+Genel olarak, dış genital organlar çürümenin geç evrelerine kadar tanınabilir durumda kalır. Buna ek olarak, meme yapısı, genel vücut şekli ve pubik kıllanma (pubic hair) paterni de cinsiyeti ortaya koyar. Kadınlarda pubik kıllar genellikle karında daha aşağıdan başlar; üst sınır, mons veneris üzerinde yatay veya yarım daire şeklinde bir kenar oluşturur. Erkek tipinde ise kıl çizgisi orta hatta daha yukarı doğru yükselir, bazen göbek düzeyine (umbilikus) kadar uzanabilir. Ancak bu genellemelerin her zaman istisnaları vardır. Sünnet (circumcision) varlığı veya yokluğu da not edilmelidir; bu bulgu, Yahudiler ve Müslümanlar gibi bazı etnik ve dini grupların tanınmasında yardımcı olabilir. Doğal olarak burada, sadece prepusyum (sünnet derisi) bulunan erkekleri elemeye yarar; zira diğer dinlere mensup pek çok erkek de sünnetlidir.
+
+> **💬 Çevirmen notu:** Türkiye’de sünnetin yaygınlığı nedeniyle, tek başına sünnetli olmayı Müslümanlıkla eşitlemek adli açıdan hatalı olur; ancak yabancı uyruklu olasılığında, tam tersi yönde çıkarımlar (örn. prepusyumun varlığı) daha anlamlı olabilir.
+
+Giyim, saç uzunluğu, saç stili, saç rengi, küpeler ve diğer takılar eskisi kadar güvenilir cinsiyet göstergeleri değildir. Bazı kültür ve dinlerde cinsiyet tayinine yardımcı olabilecek bariz ölçütler bulunsa da, genellikle daha belirgin anatomik farklar kullanılabildiği için bunlara pek ihtiyaç duyulmaz. Çürümenin ileri olduğu durumlarda bile, pelvis içi organların incelenmesi cinsiyet hakkında hâlâ kesin kanıtlar sağlayabilir. İç organlar çoğu zaman vücudun dışına göre daha iyi korunurlar. Uterus, bedende çürümeye en dirençli organ olup, prostat da oldukça dirençlidir.
+
+> **💬 Çevirmen notu:** Özellikle suda beklemiş cesetlerde dış genital yapı bozulsa bile, iç pelvik organların –özellikle uterus ve prostatın– nispeten iyi korunması, otopside cinsiyet tayininde kritik bir avantaj sağlar.
+
+Neredeyse total çözünmenin bulunduğu olgularda, pelvis radyolojisi veya iskelet değerlendirmesinde kullanılan kriterler uygulanabilir. DNA analizi artık, subanatomik fragmanlarda bile, hem cinsiyet tayini hem de insan kökeninin belirlenmesinde güçlü ek araçlar sağlamaktadır. Tür tayini (species determination) açısından, insan DNA dizisinin amplifikasyonu çoğu zaman yeterlidir; buna tür‑spesifik proteinleri saptayan immünoassay’ler de eklenebilir. Günümüzde cinsiyet genellikle yumuşak dokularda amelogenin geninin amplifikasyonu yoluyla belirlenmektedir.13,14
+
+> **💬 Çevirmen notu:** Amelogenin geni, X ve Y kromozomlarında farklı uzunlukta olduğu için, PCR ile cinsiyet ayrımı yapılmasına imkân tanır. Türkiye’de de kimliklendirme amaçlı DNA laboratuvarlarında rutin kullanılan yöntemler arasındadır; ancak nadir de olsa amelogenin delesyonları gibi istisnai durumlar raporlanmıştır, bu nedenle gerektiğinde ek Y-spesifik marker’larla desteklenmesi önerilir.

@@ -1,0 +1,21 @@
+{
+  "figures": {
+    "sekil10_multipanel.png": {
+      "sha256_prefix": "a24d4d33f463a0f3",
+      "size_kb": 207.9
+    },
+    "sekil11_heatmaps.png": {
+      "sha256_prefix": "1c57aebcc6f9c83e",
+      "size_kb": 123.2
+    },
+    "sekil12_regression.png": {
+      "sha256_prefix": "24b15df3d35b447f",
+      "size_kb": 130.1
+    }
+  },
+  "data_source": {
+    "calib": "scripts/exact_p_calibration_report.json",
+    "quality": "scripts/analysis_quality_report.json"
+  },
+  "script": "scripts/build_multipanel_figures.py"
+}

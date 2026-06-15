@@ -1,0 +1,112 @@
+@startuml soru7
+!include _style.iuml
+title Soru 7 — Savunma Sanayi Belge Yönetimi · State + Chain of Responsibility + Strategy
+
+' ================= STATE: belge yaşam döngüsü =================
+interface BelgeDurumu <<interface>> {
+  + hazirla(b : Belge)
+  + onayla(b : Belge)
+  + yayinla(b : Belge)
+}
+class HazirlikAsamasi
+class OnayAsamasi
+class YayinAsamasi
+
+' ================= Belge hiyerarşisi =================
+abstract class Belge {
+  - kod : String
+  - baslik : String
+  - durum : BelgeDurumu
+  + hazirla()
+  + onayla()
+  + yayinla()
+  + durumDegistir(d : BelgeDurumu)
+  # {abstract} yayinlamaYap()
+}
+class MilliGizliBelge {
+  - gizlilikDerecesi : Derece
+  - hazirlama : HazirlamaStratejisi
+  # yayinlamaYap()
+}
+abstract class GenelBelge {
+  # imzalayan : BirimYoneticisi
+}
+class HalkBelgesi {
+  - ilanSeriSiraNo : String
+  # yayinlamaYap()
+}
+class KamuKurumBelgesi {
+  - protokolNo : String
+  - damga : String
+  # yayinlamaYap()
+}
+enum Derece {
+  ORTA
+  YUKSEK
+}
+
+' ================= STRATEGY: dereceye göre hazırlama =================
+interface HazirlamaStratejisi <<interface>> {
+  + hazirlamaYap(b : MilliGizliBelge)
+}
+class OrtaGizliHazirlama
+class YuksekGizliHazirlama
+
+' ================= CHAIN OF RESPONSIBILITY: onay zinciri =================
+abstract class OnayMakami {
+  - sonraki : OnayMakami [0..1]
+  + onaylaIste(b : Belge)
+  # {abstract} elindeMi(b : Belge) : boolean
+  # {abstract} imzala(b : Belge)
+}
+class BirimYoneticisi {
+  + imzala(b : Belge)   ' 2 imza
+}
+class Koordinatorluk {
+  + imzala(b : Belge)   ' tüm birim yöneticileri
+}
+class Imza {
+  - imzalayan : String
+  - tarih : Date
+}
+
+BelgeDurumu <|.. HazirlikAsamasi
+BelgeDurumu <|.. OnayAsamasi
+BelgeDurumu <|.. YayinAsamasi
+Belge o-- "1" BelgeDurumu : durum >
+
+Belge <|-- MilliGizliBelge
+Belge <|-- GenelBelge
+GenelBelge <|-- HalkBelgesi
+GenelBelge <|-- KamuKurumBelgesi
+MilliGizliBelge --> "1" Derece
+
+HazirlamaStratejisi <|.. OrtaGizliHazirlama
+HazirlamaStratejisi <|.. YuksekGizliHazirlama
+MilliGizliBelge o-- "1" HazirlamaStratejisi : hazirlama >
+
+OnayMakami <|-- BirimYoneticisi
+OnayMakami <|-- Koordinatorluk
+OnayMakami o-- "0..1" OnayMakami : sonraki >
+Belge ..> OnayMakami : onaylaIste()
+OnayMakami ..> Imza : <<creates>>
+Belge "1" *-- "1..*" Imza : imzalar >
+
+note top of BelgeDurumu
+  <b>State.</b> Belge "hazırlık aşamasında →
+  onayda → yayında" akışını izler ("X işlemde").
+  Her durumda yalnız UYGUN işlem geçerlidir.
+end note
+note bottom of OnayMakami
+  <b>Chain of Responsibility.</b> Onay isteği zincirde ilerler:
+  Orta gizli → Birim Yöneticisi (2 imza); Yüksek gizli →
+  Koordinatörlük (tüm birim yöneticilerinin imzası).
+  Genel belgeleri Birim Yöneticisi imzalar.
+end note
+note right of HazirlamaStratejisi
+  <b>Strategy.</b> Milli Gizli belgenin hazırlama işlemi
+  dereceye göre FARKLI ve derece çalışma anında değişebilir.
+  Yayınlama farkı (Halk: ilan seri-sıra / Kamu: Devlet
+  Protokolü damgalama) alt tür polimorfizmiyle çözülür.
+end note
+@enduml

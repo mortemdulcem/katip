@@ -1,0 +1,5464 @@
+BYZ652 Yazılım Mimarisi
+Çoktan Seçmeli, Eşleştirmeli ve Sıralama Soruları
+Kaynaklara Uygun — Orta/Zor Seviye — Paragraf Düzeninde
+Aşağıdaki sorular yüklediğin ders notlarına göre hazırlanmıştır. Özellikle şu başlıklara
+odaklanır: software architecture tanımı, structures, views/viewpoints, availability,
+performance, interfaces, ADD, documentation, evaluation, BankStat ve FCAPS case
+study. Boşluk doldurma tarzı kullanılmadı; sorular çoktan seçmeli, eşleştirmeli ve sıralama
+formatındadır.
+
+A) Çoktan Seçmeli Sorular
+
+Soru 1
+Bir yazılım sisteminin mimarisini yalnızca “erken aşamada verilen büyük tasarım kararları”
+olarak tanımlamak neden eksiktir?
+A) Çünkü mimari sadece kodlama aşamasında ortaya çıkar.
+B) Çünkü her erken karar mimari değildir ve her mimari karar da erken verilmek zorunda
+değildir.
+C) Çünkü mimari yalnızca donanım yerleşimiyle ilgilidir.
+D) Çünkü mimari sadece UML diyagramlarından oluşur.
+E) Çünkü mimari kalite özelliklerini içermez.
+Cevap: B
+Açıklama: Ders notlarında mimarinin “erken veya büyük kararlar” olarak tanımlanmasının
+yetersiz olduğu vurgulanır. Çünkü bazı erken kararlar mimari açıdan önemsiz olabilir; bazı
+önemli mimari kararlar ise projenin ilerleyen aşamalarında verilebilir. Daha doğru tanım,
+mimariyi sistem hakkında akıl yürütmek için gereken software elements, relations ve
+properties üzerinden açıklamaktır.
+
+Soru 2
+Aşağıdakilerden hangisi software architecture tanımına en uygundur?
+A) Sistemde kullanılan programlama dilidir.
+B) Sistemin tüm sınıflarının ve metodlarının ayrıntılı kod listesidir.
+C) Sistem üzerinde akıl yürütmek için gereken yapılar, bu yapıların elemanları, ilişkileri ve
+özellikleridir.
+D) Sadece deployment ortamının teknik açıklamasıdır.
+E) Sadece kullanıcı arayüzü tasarım kararlarıdır.
+
+Cevap: C
+Açıklama: Software architecture; sistemi anlamak, analiz etmek, geliştirmek ve değiştirmek
+için gerekli olan yapıların bütünüdür. Bu yapılar yazılım elemanlarını, elemanlar arasındaki
+ilişkileri ve hem elemanların hem ilişkilerin özelliklerini içerir.
+
+Soru 3
+Bir sistemin module structure görünümü aşağıdaki sorulardan hangisine en doğrudan cevap
+verir?
+A) Sistem çalışırken hangi servis hangi mesajı gönderir?
+B) Yazılım hangi fiziksel sunucular üzerinde çalışır?
+C) Kod hangi modüllere ayrılmıştır ve geliştirme sorumlulukları nasıl bölünmüştür?
+D) Kullanıcı arayüzü hangi renkleri kullanır?
+E) Ağ gecikmesi kaç milisaniyedir?
+Cevap: C
+Açıklama: Module structure, sistemin tasarım ve geliştirme zamanındaki kod
+organizasyonunu gösterir. Paketler, modüller, katmanlar ve geliştirme ekiplerine atanacak iş
+birimleri bu yapı içinde değerlendirilir.
+
+Soru 4
+Component-and-Connector structure için en uygun açıklama hangisidir?
+A) Runtime sırasında bileşenlerin nasıl etkileştiğini gösterir.
+B) Sadece veritabanı tablolarını gösterir.
+C) Geliştirici maaşlarını ve ekip organizasyonunu gösterir.
+D) Sadece kod dosyalarının klasör yapısını gösterir.
+E) Sadece kullanıcı gereksinimlerini listeler.
+Cevap: A
+Açıklama: Component-and-Connector yapıları, sistemin çalışma anındaki bileşenlerini ve bu
+bileşenler arasındaki iletişim ilişkilerini gösterir. Servis çağrıları, mesajlaşma kanalları,
+request/response ilişkileri ve runtime componentler bu yapının kapsamına girer.
+
+Soru 5
+Allocation structure’ın temel amacı aşağıdakilerden hangisidir?
+A) Algoritmaların Big-O karmaşıklığını göstermek.
+B) Yazılım elemanlarının donanım, ekip, dosya sistemi veya deployment ortamı gibi
+çevresel yapılara nasıl eşlendiğini göstermek.
+
+C) Kullanıcı arayüzündeki butonların yerleşimini belirlemek.
+D) Sadece veritabanı normalizasyonunu açıklamak.
+E) Kod içinde hangi değişken adlarının kullanılacağını belirlemek.
+Cevap: B
+Açıklama: Allocation structure, yazılım yapılarını dış çevre ile ilişkilendirir. Örneğin bir
+servis hangi sunucuda çalışacak, hangi modül hangi ekip tarafından geliştirilecek veya hangi
+bileşen hangi deployment ortamına kurulacak gibi sorulara cevap verir.
+
+Soru 6
+Bir Airline Reservation System için tek bir büyük diyagramla tüm mimariyi anlatmaya
+çalışmak neden problemli kabul edilir?
+A) Çünkü tüm sistemler tek bir sınıftan oluşmalıdır.
+B) Çünkü tek diyagram genellikle fazla karmaşık olur, farklı paydaşların ihtiyaçlarını
+karşılamaz ve güncel tutulması zorlaşır.
+C) Çünkü mimari diyagramlarda ilişki gösterilemez.
+D) Çünkü kalite özellikleri yazılım mimarisinin konusu değildir.
+E) Çünkü deployment bilgisi hiçbir zaman belgelenmez.
+Cevap: B
+Açıklama: View ve viewpoint yaklaşımının temel gerekçesi budur. Karmaşık sistemlerde
+işlevsel yapı, veri yapısı, runtime etkileşim, deployment, operasyon ve kalite özellikleri tek
+modelde anlaşılır şekilde gösterilemez. Bu yüzden farklı paydaşlar için farklı view’lar
+hazırlanır.
+
+Soru 7
+Viewpoint ile view arasındaki ilişkiyi en doğru açıklayan seçenek hangisidir?
+A) Viewpoint somut sistem diyagramıdır, view ise soyut kuraldır.
+B) Viewpoint bir bakış açısının kurallarını ve notasyonunu tanımlar; view ise bu viewpoint
+kullanılarak belirli bir sistem için oluşturulan somut açıklamadır.
+C) View ve viewpoint aynı anlama gelir.
+D) Viewpoint sadece veritabanı için kullanılır.
+E) View sadece kod dosyalarını gösterir.
+Cevap: B
+Açıklama: Viewpoint, bir mimariyi belirli bir bakış açısından nasıl ifade edeceğimizi
+belirleyen şablon veya yöntemdir. View ise bu yöntemin gerçek sistem üzerinde uygulanmış
+halidir.
+
+Soru 8
+Aşağıdakilerden hangisi “externally visible behavior” için en uygun örnektir?
+A) Sistemin Java ile yazılmış olması.
+B) Kullanıcının uçak rezervasyonu yapabilmesi.
+C) Sunucunun 64 GB RAM’e sahip olması.
+D) Kodun üç katmanlı paket yapısına ayrılması.
+E) Veritabanında index kullanılması.
+Cevap: B
+Açıklama: Externally visible behavior, sistemin dış aktörlere sunduğu işlevsel davranıştır.
+Kullanıcının rezervasyon yapması, banka ekstresi oluşturması veya bir time server
+durumunun sorgulanması bu kapsama girer.
+
+Soru 9
+Aşağıdakilerden hangisi quality property örneğidir?
+A) Kullanıcının bilet iptal edebilmesi.
+B) Sistemin 500 kullanıcı altında ortalama 2 saniye latency ile çalışması.
+C) Banka ekstresinin PDF olarak oluşturulması.
+D) Müşterinin giriş yapabilmesi.
+E) Time server listesinin görüntülenmesi.
+Cevap: B
+Açıklama: Quality property sistemin “ne yaptığı”ndan çok “nasıl yaptığı” ile ilgilidir.
+Performans, availability, security, scalability ve modifiability gibi özellikler quality property
+kapsamındadır.
+
+Soru 10
+Availability kavramı için en doğru açıklama hangisidir?
+A) Sistemin hiçbir zaman hata üretmemesidir.
+B) Sistemin ihtiyaç duyulduğunda görevini yerine getirmeye hazır olması ve fault
+durumlarında hizmet kesintisini önleyebilmesi veya azaltabilmesidir.
+C) Sistemin sadece hızlı çalışmasıdır.
+D) Sistemin sadece güvenli olmasıdır.
+E) Sistemin sadece kullanıcı arayüzünün kolay olmasıdır.
+Cevap: B
+Açıklama: Availability, sistemin hazır ve çalışır durumda olmasını ifade eder.
+Reliability’den farklı olarak recovery boyutunu da içerir. Yani sistemde fault oluşsa bile
+
+bunun failure’a dönüşmesini engellemek veya etkisini sınırlamak availability’nin temel
+amacıdır.
+
+Soru 11
+Fault, error ve failure ilişkisi için en doğru sıralama hangisidir?
+A) Failure → Error → Fault
+B) Error → Fault → Failure
+C) Fault → Error → Failure
+D) Error → Failure → Fault
+E) Failure → Fault → Error
+Cevap: C
+Açıklama: Fault, problemin sebebidir. Bu fault sistem içinde yanlış bir duruma yani error’a
+yol açabilir. Error dışarıdan gözlemlenebilir hizmet bozulmasına dönüşürse failure ortaya
+çıkar.
+
+Soru 12
+MTTF değeri 900 saat, MTTR değeri 100 saat olan bir sistem için steady-state availability
+yaklaşık kaçtır?
+A) %50
+B) %70
+C) %80
+D) %90
+E) %99.9
+Cevap: D
+Açıklama: Önce MTBF hesaplanır:
+MTBF=MTTF+MTTR=900+100=1000MTBF=MTTF+MTTR=900+100=1000. Availability
+ise Availability=MTTFMTBF∗100Availability=MTBFMTTF ∗100 formülüyle hesaplanır.
+Sonuç 9001000∗100=901000900 ∗100=90 olduğu için yaklaşık availability %90’dır.
+
+Soru 13
+Bir server farm içinde bir sunucu çöktüğünde sistemin kullanıcıya kesinti hissettirmeden
+devam etmesi için en uygun taktik kombinasyonu hangisidir?
+A) Tek sunucu kullanmak ve logları silmek.
+B) Health check, redundancy, load balancing ve failover kullanmak.
+C) Tüm istekleri çöken sunucuya yönlendirmek.
+
+D) Kullanıcıdan manuel olarak sayfayı yenilemesini istemek.
+E) Veritabanını tamamen kaldırmak.
+Cevap: B
+Açıklama: Availability için arızanın tespit edilmesi, alternatif kaynakların hazır olması ve
+trafiğin sağlıklı bileşenlere aktarılması gerekir. Health check, redundancy, load balancing ve
+failover bu nedenle birlikte kullanılır.
+
+Soru 14
+Performance quality attribute en çok hangi konuya odaklanır?
+A) Sistemin estetik görünümüne.
+B) Sistemin zaman ve kaynak kısıtları altında olaylara yeterli sürede cevap verebilmesine.
+C) Sistemin kaç geliştirici tarafından yazıldığına.
+D) Sistemin sadece güvenlik açıklarına.
+E) Sistemin hangi ülkede deploy edildiğine.
+Cevap: B
+Açıklama: Performance; event, request veya mesaj gibi uyaranlara sistemin belirlenen süre
+ve kaynak sınırları içinde cevap verebilmesiyle ilgilidir. Latency, response time, throughput
+ve resource utilization gibi ölçütlerle değerlendirilir.
+
+Soru 15
+“500 kullanıcı 30 saniye içinde 2000 request gönderdiğinde sistem ortalama 2 saniye latency
+ile cevap vermelidir.” ifadesi hangi tür gereksinime örnektir?
+A) Functional requirement
+B) Concrete performance scenario
+C) Interface deprecation planı
+D) Module decomposition
+E) Code formatting rule
+Cevap: B
+Açıklama: Bu ifade source, stimulus, environment, artifact, response ve response measure
+içeren somut bir performans senaryosudur. Özellikle response measure kısmı “ortalama 2
+saniye latency” olarak açıkça verilmiştir.
+
+Soru 16
+Latency ve throughput arasındaki farkı en iyi açıklayan seçenek hangisidir?
+
+A) Latency toplam kullanıcı sayısıdır, throughput hata oranıdır.
+B) Latency tek bir isteğin cevaplanma süresidir, throughput ise belirli sürede işlenen toplam
+iş miktarıdır.
+C) Latency sadece donanım arızasıdır, throughput sadece yazılım hatasıdır.
+D) İkisi de tamamen aynı anlama gelir.
+E) Throughput sadece güvenlik duvarı ayarıdır.
+Cevap: B
+Açıklama: Latency, tek bir isteğin ne kadar sürede tamamlandığını gösterir. Throughput ise
+sistemin belirli bir zaman diliminde kaç işlem veya request işleyebildiğini gösterir.
+
+Soru 17
+Interface için aşağıdakilerden hangisi en doğru ifadedir?
+A) Interface sadece metod adlarından oluşur.
+B) Interface sadece UML diyagramı demektir.
+C) Interface, elemanların etkileştiği sınırdır ve syntax, semantics, event, operation, property
+ve metadata bilgilerini içerebilir.
+D) Interface yalnızca veritabanı tablosudur.
+E) Interface sadece kullanıcı ekranıdır.
+Cevap: C
+Açıklama: Software interface bir contract olarak görülmelidir. Resource signature önemli
+olsa da yeterli değildir. Davranış, hata durumları, birimler, format varsayımları ve erişim
+hakları da interface’in parçasıdır.
+
+Soru 18
+NASA Mars Climate Orbiter örneği interface tasarımı açısından hangi dersi verir?
+A) Interface dokümantasyonunda ölçü birimi ve format gibi metadata açıkça belirtilmelidir.
+B) Yazılım mimarisi hiçbir zaman fiziksel sistemleri etkilemez.
+C) Ölçü birimleri yazılımda önemsizdir.
+D) Interface sadece ekran tasarımıdır.
+E) Versioning her zaman gereksizdir.
+Cevap: A
+Açıklama: Bu örnekte farklı ekiplerin farklı ölçü birimleri kullanması büyük bir hataya yol
+açmıştır. Bu durum interface metadata’sının, özellikle ölçü birimi ve format gibi bilgilerin,
+açıkça belgelenmesi gerektiğini gösterir.
+
+Soru 19
+Interface evolution için kullanılan “versioning” tekniği aşağıdakilerden hangisini ifade eder?
+A) Eski interface’i aniden silmeyi.
+B) Eski interface’i koruyup yeni bir interface sürümü eklemeyi.
+C) Interface dokümantasyonunu tamamen kaldırmayı.
+D) Tüm clientları aynı anda kapatmayı.
+E) Interface’in hiçbir zaman değişmemesini.
+Cevap: B
+Açıklama: Versioning, interface değişiminde geriye uyumluluğu korumak için kullanılır.
+Örneğin /api/v1/statements devam ederken /api/v2/statements eklenebilir.
+
+Soru 20
+“Small interfaces principle” hangi yaklaşımı savunur?
+A) İki elemanın yalnızca ihtiyaç duyduğu minimum bilgiyle etkileşmesini.
+B) Tüm sistem verisinin her çağrıda gönderilmesini.
+C) Interface’lerin mümkün olduğunca belirsiz bırakılmasını.
+D) Her interface’in sadece tek client tarafından kullanılmasını.
+E) Interface’lerin hiç dokümante edilmemesini.
+Cevap: A
+Açıklama: Small interfaces principle, bağımlılığı azaltmak ve değişiklik etkisini sınırlamak
+için interface’lerin gereksiz bilgi taşımamasını savunur. Bu aynı zamanda güvenlik ve bakım
+kolaylığı sağlar.
+
+Soru 21
+Attribute-Driven Design yaklaşımının temel fikri aşağıdakilerden hangisidir?
+A) Önce kod yazılır, sonra mimari kendiliğinden oluşur.
+B) Architectural drivers belirlenir ve bunlar mimari yapılara dönüştürülür.
+C) Sadece kullanıcı arayüzü renkleri belirlenir.
+D) Sadece veritabanı tabloları çizilir.
+E) Mimari kararların gerekçesi yazılmaz.
+Cevap: B
+Açıklama: ADD, mimari tasarımın sistematik biçimde yapılmasını sağlar. Functionality,
+constraints, quality attributes, architectural concerns ve design purpose gibi driver’lar dikkate
+alınarak yapı ve kararlar üretilir.
+
+Soru 22
+Aşağıdakilerden hangisi architectural driver örneğidir?
+A) “Değişken isimleri camelCase olsun.”
+B) “Sistem normal operasyon altında 99.99% availability sağlamalıdır.”
+C) “Takım toplantısı saat 10’da yapılsın.”
+D) “Kod editörü koyu tema olsun.”
+E) “Dokümanda başlıklar mavi olsun.”
+Cevap: B
+Açıklama: Architectural driver, mimariyi doğrudan etkileyen gereksinim veya kısıttır.
+99.99% availability hedefi mimariyi redundancy, failover ve monitoring gibi kararlarla
+etkiler.
+
+Soru 23
+Architecture documentation neden “gelecekteki kendimize yazılmış bir mektup” olarak
+görülebilir?
+A) Çünkü sadece edebi bir metindir.
+B) Çünkü mimari kararları, yapıların nedenlerini ve sistemi gelecekte anlayacak kişiler için
+gerekli bilgileri taşır.
+C) Çünkü kod yazmayı tamamen gereksiz hale getirir.
+D) Çünkü sadece yöneticiler için hazırlanır.
+E) Çünkü hiçbir zaman güncellenmez.
+Cevap: B
+Açıklama: Mimari dokümantasyon, bugünkü mimarın gelecekteki geliştiriciye, yeni mimara
+veya bakım ekibine bıraktığı açıklamadır. Kararlar, rationale, view’lar ve interface bilgileri
+bu nedenle önemlidir.
+
+Soru 24
+Architecture documentation’ın hem prescriptive hem descriptive olması ne anlama gelir?
+A) Hem ne olması gerektiğini söyleyebilir hem de mevcut sistemde ne olduğunu
+açıklayabilir.
+B) Hem frontend hem backend kodunu otomatik üretir.
+C) Hem İngilizce hem Türkçe yazılmak zorundadır.
+D) Hem resim hem video içermek zorundadır.
+E) Hem test hem deployment işlemini otomatik yapar.
+Cevap: A
+
+Açıklama: Prescriptive dokümantasyon, gelecekte alınacak kararlar için kısıt ve yönlendirme
+sağlar. Descriptive dokümantasyon ise mevcut sistemin nasıl çalıştığını ve nasıl yapılandığını
+açıklar.
+
+Soru 25
+Architecture evaluation’ın temel amacı aşağıdakilerden hangisidir?
+A) Kodun satır sayısını artırmak.
+B) Mimari riskleri, tradeoff’ları ve potansiyel problemleri erken ortaya çıkarmak.
+C) Tüm testleri kaldırmak.
+D) Sadece kullanıcı arayüzünü renklendirmek.
+E) Veritabanını tamamen silmek.
+Cevap: B
+Açıklama: Architecture evaluation bir risk reduction activity olarak görülür. Değerlendirme,
+mimarideki riskli bölümleri ve kalite gereksinimlerinin karşılanıp karşılanmadığını ortaya
+çıkarır.
+
+Soru 26
+Aşağıdakilerden hangisi architecture evaluation sürecindeki temel adımlardan biri değildir?
+A) Reviewer’ların mevcut mimariyi anlaması.
+B) Evaluation driver’larının belirlenmesi.
+C) Senaryolar üzerinden mimarinin değerlendirilmesi.
+D) Potansiyel problemlerin kaydedilmesi.
+E) Tüm kodun rastgele yeniden yazılması.
+Cevap: E
+Açıklama: Değerlendirme süreci doğrudan kodu yeniden yazmayı amaçlamaz. Öncelikle
+mimariyi anlamak, driver’ları belirlemek, senaryoları test etmek ve riskleri kaydetmek
+hedeflenir.
+
+Soru 27
+ATAM ne için kullanılır?
+A) Mimari tradeoff’ları, riskleri ve kalite özellikleri arasındaki etkileri analiz etmek için.
+B) Sadece veritabanı yedeği almak için.
+C) Sadece ekran tasarımı yapmak için.
+D) Sadece kod satırlarını saymak için.
+E) Sadece kullanıcı şifresini değiştirmek için.
+
+Cevap: A
+Açıklama: ATAM yani Architecture Tradeoff Analysis Method, mimari kararların kalite
+özellikleri üzerindeki etkilerini, tradeoff noktalarını, riskleri ve sensitivity point’leri analiz
+etmek için kullanılır.
+
+Soru 28
+BankStat sisteminin temel iş amacı aşağıdakilerden hangisidir?
+A) Uçak rezervasyonu yapmak.
+B) Banka ekstrelerini üretmek ve dijital imza sürecine hazırlamak.
+C) VOIP server’larını zaman senkronizasyonundan kurtarmak.
+D) Online oyun sunucusu kurmak.
+E) E-posta spam filtrelemek.
+Cevap: B
+Açıklama: BankStat case study’de ACME Bank, regülasyona uyum sağlamak için banka
+ekstrelerinin dijital olarak imzalanmasını sağlayacak bir sistem geliştirmiştir. Sistem external
+database’den veri alır, validation yapar ve ekstreleri dijital imzaya hazırlar.
+
+Soru 29
+BankStat sisteminde batch processing neden mimari açıdan önemlidir?
+A) Çünkü sistemin çekirdek iş akışı toplu ekstre üretimi, validation ve dijital imza hazırlığı
+üzerine kuruludur.
+B) Çünkü batch processing kullanıcı arayüzünü renklendirir.
+C) Çünkü batch processing sadece oyun motorlarında kullanılır.
+D) Çünkü batch processing hiçbir kalite özelliğini etkilemez.
+E) Çünkü batch processing interface dokümantasyonunu gereksiz kılar.
+Cevap: A
+Açıklama: BankStat’ın temel işleyişi batch süreçtir. Bu karar performance, recoverability,
+availability ve logging gibi birçok kalite özelliğini etkiler. Batch başarısız olursa çok sayıda
+ekstre etkilenebilir.
+
+Soru 30
+FCAPS case study’de temel iş problemi aşağıdakilerden hangisidir?
+A) Banka ekstrelerinin PDF olarak renklendirilmesi.
+B) Carrier-class VOIP hizmetleri için network ekipmanlarının güvenilir zaman
+senkronizasyonunu sağlamak ve time server problemlerini yönetmek.
+
+C) Sosyal medya mesajlarını filtrelemek.
+D) Bir mobil oyun geliştirmek.
+E) Sadece müşteri adreslerini güncellemek.
+Cevap: B
+Açıklama: FCAPS case study’de telekom şirketi IP network’ünü carrier-class VOIP
+hizmetleri için genişletmek ister. Bu amaçla NTP destekleyen time server ağı kurulur ve bu
+server’ların izlenmesi, yönetilmesi, performans verilerinin toplanması ve arızalarının
+giderilmesi gerekir.
+
+B) Eşleştirmeli Sorular
+
+Soru 31
+Aşağıdaki mimari yapı türlerini en uygun açıklamalarıyla eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Module Structure
+
+2
+
+Component-and-Connector Structure
+
+3
+
+Allocation Structure
+
+Harf
+
+Açıklama
+
+A
+
+Runtime sırasında bileşenlerin nasıl
+etkileştiğini ve connector’lar üzerinden
+nasıl iletişim kurduğunu gösterir.
+
+B
+
+Yazılım elemanlarının donanım, ekip,
+dosya sistemi veya deployment ortamı
+gibi çevresel yapılara eşlenmesini gösterir.
+
+C
+
+Kodun tasarım zamanı organizasyonunu,
+modülleri, paketleri ve sorumluluk
+ayrımlarını gösterir.
+
+Cevap: 1-C, 2-A, 3-B
+Açıklama: Module structure geliştirme zamanı organizasyona, Component-and-Connector
+çalışma zamanı etkileşime, Allocation ise yazılımın çevresel yapılara eşlenmesine odaklanır.
+
+Soru 32
+Aşağıdaki kavramları doğru anlamlarıyla eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Viewpoint
+
+2
+
+View
+
+3
+
+Stakeholder
+
+4
+
+Concern
+
+Harf
+
+Açıklama
+
+A
+
+Belirli bir sistem için oluşturulmuş somut
+mimari görünüm.
+
+B
+
+Mimariyle ilgilenen, sistemi kullanan,
+geliştiren, işleten veya etkileyen kişi ya da
+grup.
+
+C
+
+Paydaşın mimariyle ilgili önemsediği
+soru, ihtiyaç veya problem.
+
+D
+
+Bir mimari görünümün nasıl
+hazırlanacağını belirleyen bakış açısı,
+notasyon ve kurallar bütünü.
+
+Cevap: 1-D, 2-A, 3-B, 4-C
+Açıklama: Viewpoint daha soyut bir şablondur; view ise bu şablonun belirli sisteme
+uygulanmış halidir. Stakeholder mimarinin muhatabıdır, concern ise bu paydaşın mimariyle
+ilgili sorusudur.
+
+Soru 33
+Aşağıdaki quality attribute kavramlarını uygun örnekleriyle eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Availability
+
+2
+
+Performance
+
+3
+
+Modifiability
+
+4
+
+Security
+
+Harf
+
+Örnek
+
+A
+
+Sistem 500 kullanıcı altında ortalama 2
+saniye latency ile cevap verir.
+
+B
+
+Bir sunucu arızalansa bile sistem başka
+sunucu üzerinden çalışmaya devam eder.
+
+C
+
+Yeni bir ödeme yöntemi sisteme minimum
+kod değişikliğiyle eklenebilir.
+
+D
+
+Sadece yetkili kullanıcılar müşteri
+ekstresine erişebilir.
+
+Cevap: 1-B, 2-A, 3-C, 4-D
+Açıklama: Availability kesintisiz hizmet ve recovery ile; performance zaman ölçütleriyle;
+modifiability değişiklik kolaylığıyla; security ise yetkisiz erişimin önlenmesiyle ilgilidir.
+
+Soru 34
+Aşağıdaki availability terimlerini doğru açıklamalarıyla eşleştiriniz.
+No
+
+Terim
+
+1
+
+Fault
+
+2
+
+Error
+
+3
+
+Failure
+
+4
+
+Recovery
+
+Harf
+
+Açıklama
+
+A
+
+Sistemin dışarıdan gözlemlenebilir
+biçimde beklenen hizmeti verememesi.
+
+B
+
+Hatanın temel sebebi veya potansiyel
+problem kaynağı.
+
+C
+
+Fault sonrası sistemin tekrar kabul
+edilebilir hizmet durumuna getirilmesi.
+
+D
+
+Sistemin iç durumunun yanlış veya
+beklenmeyen hale gelmesi.
+
+Cevap: 1-B, 2-D, 3-A, 4-C
+Açıklama: Fault sebep, error yanlış iç durum, failure dışarıdan görülen hizmet bozulmasıdır.
+Recovery ise failure etkisini azaltma veya sistemi onarma sürecidir.
+
+Soru 35
+Aşağıdaki interface kavramlarını uygun açıklamalarıyla eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Resource syntax
+
+2
+
+Resource semantics
+
+3
+
+Metadata / properties
+
+4
+
+Versioning
+
+Harf
+
+Açıklama
+
+A
+
+Kaynağın ne yaptığı, hangi sonucu ürettiği
+ve hangi hata durumlarını doğurabileceği.
+
+B
+
+Ölçü birimi, format, access right veya
+varsayım gibi ek bilgiler.
+
+C
+
+Eski interface korunurken yeni interface
+sürümünün eklenmesi.
+
+D
+
+Kaynağın adı, parametreleri, veri tipleri ve
+dönüş tipini içeren imza bilgisi.
+
+Cevap: 1-D, 2-A, 3-B, 4-C
+Açıklama: Interface sadece syntax’tan ibaret değildir. Semantics ve metadata doğru
+anlaşılmadığında, Mars Climate Orbiter örneğinde olduğu gibi ciddi sistem hataları oluşabilir.
+
+Soru 36
+Aşağıdaki evaluation türlerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Değerlendirme Türü
+
+1
+
+Architect Evaluation
+
+2
+
+Peer Review
+
+3
+
+Outsider Evaluation
+
+4
+
+Lightweight Evaluation
+
+Harf
+
+Açıklama
+
+A
+
+Proje dışından gelen kişilerin daha
+objektif bakışla mimariyi değerlendirmesi.
+
+B
+
+Mimarın kendi tasarım kararlarını ASR ve
+alternatiflere göre değerlendirmesi.
+
+C
+
+Daha kısa sürede, sınırlı kapsamda ve
+pratik risk analizi yapmak için kullanılan
+değerlendirme.
+
+D
+
+Ekip arkadaşları veya meslektaşlar
+tarafından yapılan mimari inceleme.
+
+Cevap: 1-B, 2-D, 3-A, 4-C
+
+Açıklama: Değerlendirmeyi mimar, peer’lar veya outsider’lar yapabilir. Lightweight
+evaluation ise daha az maliyetli ve daha kısa kapsamlı değerlendirme türüdür.
+
+Soru 37
+Aşağıdaki case study kavramlarını ilgili sistemle eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Dijital imzalı banka ekstresi
+
+2
+
+NTP time server
+
+3
+
+Batch validation süreci
+
+4
+
+VOIP QoS için zaman senkronizasyonu
+
+5
+
+External database’den ham ekstre verisi
+alma
+
+6
+
+Stratum 1 server
+
+Harf
+
+Sistem
+
+A
+
+BankStat
+
+B
+
+FCAPS
+
+Cevap: 1-A, 2-B, 3-A, 4-B, 5-A, 6-B
+Açıklama: BankStat dijital imzalı banka ekstresi üretimine, FCAPS ise telekom ağı içinde
+time server’ların yönetimi ve izlenmesine odaklanır.
+
+Soru 38
+Aşağıdaki performance kavramlarını uygun açıklamalarıyla eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Latency
+
+2
+
+Throughput
+
+3
+
+Response Measure
+
+4
+
+Stimulus
+
+Harf
+
+Açıklama
+
+A
+
+Sistemden beklenen cevabın ölçülebilir
+kriteri.
+
+B
+
+Belirli sürede işlenen toplam istek veya iş
+miktarı.
+
+C
+
+Sisteme gelen olay, istek veya mesaj.
+
+D
+
+Tek bir isteğin başlatılıp cevap alınmasına
+kadar geçen süre.
+
+Cevap: 1-D, 2-B, 3-A, 4-C
+Açıklama: Performance scenario oluştururken özellikle stimulus ve response measure açıkça
+tanımlanmalıdır. Böylece mimari performans açısından değerlendirilebilir hale gelir.
+
+Soru 39
+Aşağıdaki mimari dokümantasyon kullanım amaçlarını uygun örneklerle eşleştiriniz.
+No
+
+Kullanım Amacı
+
+1
+
+Education
+
+2
+
+Communication
+
+3
+
+Construction
+
+4
+
+Forensics
+
+Harf
+
+Örnek
+
+A
+
+Yeni ekip üyesinin sistemi hızlı
+öğrenmesi.
+
+B
+
+Bir incident sonrası hangi bileşenin nasıl
+etkilendiğinin incelenmesi.
+
+C
+
+Geliştiricilerin hangi modülün hangi
+interface’i sağlaması gerektiğini anlaması.
+
+D
+
+Mimar ile geliştiriciler arasında ortak
+anlayış oluşturulması.
+
+Cevap: 1-A, 2-D, 3-C, 4-B
+Açıklama: Architecture documentation sadece çizim değildir. Eğitim, iletişim, inşa ve olay
+sonrası analiz için temel kaynak olarak kullanılır.
+
+Soru 40
+Aşağıdaki ADD kavramlarını uygun açıklamalarıyla eşleştiriniz.
+No
+
+Kavram
+
+1
+
+Architectural Driver
+
+2
+
+ASR
+
+3
+
+Design Concept
+
+4
+
+Rationale
+
+Harf
+
+Açıklama
+
+A
+
+Mimari kararı etkileyen önemli
+gereksinim, kalite özelliği, kısıt veya
+tasarım amacı.
+
+B
+
+Seçilen mimari kararın neden verildiğini
+açıklayan gerekçe.
+
+C
+
+Mimari açısından önemli gereksinim.
+
+D
+
+Driver’ları karşılamak için seçilen pattern,
+tactic veya yapı fikri.
+
+Cevap: 1-A, 2-C, 3-D, 4-B
+Açıklama: ADD’de tasarım, driver’lardan başlayarak design concept ve yapılara doğru
+ilerler. Rationale ise verilen kararların nedenini geleceğe taşır.
+
+C) Sıralama Soruları
+
+Soru 41
+Aşağıdaki fault-error-failure ilişkisini doğru sıraya koyunuz.
+I. Sistemin dışarıdan gözlemlenebilir biçimde hizmet verememesi ortaya çıkar.
+II. Sistemde problemin sebebi olan fault bulunur.
+III. Fault sistemin iç durumunda yanlışlığa neden olur.
+A) I - II - III
+B) II - III - I
+C) III - II - I
+D) II - I - III
+E) III - I - II
+Cevap: B
+Açıklama: Doğru akış fault ile başlar. Fault sistem içinde error’a sebep olabilir. Error
+kullanıcı veya dış aktör tarafından görülebilir hizmet bozulmasına dönüşürse failure meydana
+gelir.
+
+Soru 42
+Bir architecture evaluation sürecindeki temel adımları doğru sıraya koyunuz.
+I. Senaryolar üzerinden mimarinin gereksinimleri karşılayıp karşılamadığını değerlendirmek.
+II. Reviewer’ların mevcut mimariyi anlaması.
+III. Potansiyel problemleri ve riskleri kaydetmek.
+IV. İncelemeyi yönlendirecek driver’ları belirlemek.
+A) II - IV - I - III
+B) IV - II - III - I
+C) I - II - IV - III
+D) III - I - IV - II
+E) II - I - III - IV
+
+Cevap: A
+Açıklama: Önce mimari anlaşılır. Sonra değerlendirmeye yön verecek driver’lar belirlenir.
+Ardından senaryolar üzerinden mimari analiz edilir. Son olarak riskler ve problemler
+kaydedilir.
+
+Soru 43
+Aşağıdaki performance scenario öğelerini mantıklı bir senaryo oluşturacak şekilde
+sıralayınız.
+I. Response measure belirlenir.
+II. Stimulus sisteme gelir.
+III. Source tanımlanır.
+IV. Artifact yani etkilenen sistem parçası belirlenir.
+V. Environment belirtilir.
+VI. Response açıklanır.
+A) III - II - IV - V - VI - I
+B) I - II - III - IV - V - VI
+C) IV - III - II - I - V - VI
+D) II - III - IV - V - I - VI
+E) III - IV - I - II - VI - V
+Cevap: A
+Açıklama: Quality attribute scenario yazarken genellikle önce source, sonra stimulus,
+artifact, environment, response ve response measure ifade edilir. Bu yapı requirement’ı
+ölçülebilir hale getirir.
+
+Soru 44
+BankStat sisteminde batch ekstre üretim akışını doğru sıraya koyunuz.
+I. Veriler üzerinde validation işlemleri yapılır.
+II. External database’den ham banka ekstre verisi alınır.
+III. Banka ekstreleri oluşturulur.
+IV. Ekstreler dijital imza sağlayıcısına hazırlanır veya gönderilir.
+V. Batch process tetiklenir.
+A) V - II - I - III - IV
+B) II - V - I - IV - III
+C) V - I - II - III - IV
+D) III - II - I - V - IV
+E) IV - III - II - I - V
+
+Cevap: A
+Açıklama: BankStat’ta süreç batch’in başlamasıyla tetiklenir. Sonra external database’den
+veri alınır, validation yapılır, ekstreler oluşturulur ve dijital imza sürecine hazırlanır.
+
+Soru 45
+FCAPS sisteminde bir Stratum 1 time server arızası için availability response akışını doğru
+sıraya koyunuz.
+I. Operatöre alarm gönderilir.
+II. Arıza monitoring mekanizması tarafından tespit edilir.
+III. Alt seviye server’lar alternatif zaman kaynağına yönlendirilir.
+IV. Bakım veya müdahale ticket’ı oluşturulur.
+V. Sistem normal operasyon sırasında time server’dan anormal durum sinyali alır.
+A) V - II - I - III - IV
+B) II - V - I - III - IV
+C) I - II - III - IV - V
+D) V - I - II - IV - III
+E) III - II - V - I - IV
+Cevap: A
+Açıklama: Önce normal operasyonda anormal durum ortaya çıkar. Monitoring bunu arıza
+olarak tespit eder. Ardından alarm üretilir, etkilenebilecek server’lar alternatif kaynağa
+yönlendirilir ve bakım ticket’ı oluşturulur.
+
+Soru 46
+Interface evolution sürecinde eski bir API’nin kontrollü şekilde değiştirilmesi için en uygun
+sıralama hangisidir?
+I. Eski interface için deprecation duyurusu yapılır.
+II. Yeni interface versiyonu kullanıma açılır.
+III. Client’lara geçiş süresi tanınır.
+IV. Eski interface kullanım oranı izlenir.
+V. Uygun zamanda eski interface kaldırılır.
+A) II - I - III - IV - V
+B) I - V - II - III - IV
+C) V - IV - III - II - I
+D) I - II - V - III - IV
+E) II - V - I - IV - III
+Cevap: A
+
+Açıklama: Pratikte önce yeni versiyon hazırlanır ve kullanıma açılır. Sonra eski interface
+için deprecation duyurusu yapılır. Client’lara geçiş süresi tanınır, kullanım oranı izlenir ve
+sonunda eski interface kaldırılır.
+
+Soru 47
+Architecture documentation hazırlanırken stakeholder odaklı doğru akış hangisidir?
+I. Hangi view’ların gerekli olduğu belirlenir.
+II. Stakeholder’lar tanımlanır.
+III. Her stakeholder’ın concern’leri belirlenir.
+IV. İlgili view’lar ve açıklamalar hazırlanır.
+V. Doküman review edilip güncel tutulur.
+A) II - III - I - IV - V
+B) I - II - III - IV - V
+C) IV - III - II - I - V
+D) V - IV - III - II - I
+E) II - I - IV - III - V
+Cevap: A
+Açıklama: Dokümantasyonun içeriğini stakeholder ihtiyaçları belirler. Bu nedenle önce
+paydaşlar, sonra concern’ler belirlenir. Ardından uygun view’lar seçilir, dokümante edilir ve
+güncel tutulur.
+
+Soru 48
+ADD yaklaşımında genel tasarım mantığını en iyi ifade eden sıralama hangisidir?
+I. Architectural drivers belirlenir.
+II. Uygun design concept, pattern veya tactic seçilir.
+III. Mimari yapılar üretilir.
+IV. Kararlar için rationale yazılır.
+V. Ön analiz yapılarak kararların driver’ları karşılayıp karşılamadığı değerlendirilir.
+A) I - II - III - IV - V
+B) III - II - I - IV - V
+C) V - IV - III - II - I
+D) II - I - III - V - IV
+E) I - V - II - III - IV
+Cevap: A
+
+Açıklama: ADD, driver’lardan başlayan sistematik bir tasarım yaklaşımıdır. Önce mimariyi
+etkileyen gereksinimler anlaşılır, sonra uygun tasarım fikirleri seçilir, yapılar oluşturulur,
+rationale yazılır ve kararlar analiz edilir.
+
+Soru 49
+Bir performance iyileştirme sürecinde pratik ve doğru yaklaşım hangisidir?
+I. Performans problemi ölçülür ve darboğaz tespit edilir.
+II. İlgili performance scenario netleştirilir.
+III. Uygun tactic seçilir.
+IV. Mimari veya tasarım değişikliği uygulanır.
+V. Sonuç tekrar ölçülür.
+A) II - I - III - IV - V
+B) III - IV - V - II - I
+C) I - V - III - II - IV
+D) IV - III - II - I - V
+E) V - IV - III - II - I
+Cevap: A
+Açıklama: Önce neyin beklendiği scenario ile netleştirilir. Sonra gerçek ölçüm yapılır ve
+darboğaz bulunur. Daha sonra uygun tactic uygulanır ve sonucun işe yarayıp yaramadığı
+tekrar ölçülür.
+
+Soru 50
+Bir availability tasarımında fault’un failure’a dönüşmesini engellemek için en mantıklı
+sıralama hangisidir?
+I. Fault tespit edilir.
+II. Sistemde fault oluşur.
+III. Fault etkisi izole edilir veya sınırlandırılır.
+IV. Recovery veya failover mekanizması çalıştırılır.
+V. Operatöre bildirim yapılır ve sistem kabul edilebilir hizmet durumunda tutulur.
+A) II - I - III - IV - V
+B) I - II - III - IV - V
+C) II - III - I - V - IV
+D) V - IV - III - II - I
+E) III - II - I - IV - V
+Cevap: A
+
+Açıklama: Önce fault oluşur. Sonra sistem bunu tespit eder. Ardından etkisi izole edilir,
+recovery veya failover çalıştırılır ve operatör bilgilendirilerek hizmetin kabul edilebilir
+seviyede devam etmesi sağlanır.
+
+Hızlı Tekrar Tablosu
+Konu
+
+Bilmen Gereken Ana Fikir
+
+Software Architecture
+
+Structures + elements + relations +
+properties
+
+Module Structure
+
+Kodun tasarım zamanı organizasyonu
+
+Component-and-Connector
+
+Runtime bileşenler ve iletişim
+
+Allocation
+
+Yazılımın çevreye, donanıma, ekibe veya
+deployment’a eşlenmesi
+
+Viewpoint
+
+View üretmek için kullanılan bakış açısı
+ve kurallar
+
+View
+
+Belirli sistem için hazırlanmış somut
+görünüm
+
+Availability
+
+Fault durumunda hizmeti sürdürebilme
+veya hızlı toparlanma
+
+Performance
+
+Zaman ve kaynak kısıtları altında cevap
+verebilme
+
+Interface
+
+Syntax + semantics + metadata + behavior
+
+ADD
+
+Driver’ları mimari yapılara dönüştürme
+
+Documentation
+
+Mimariyi paydaşlara aktarma ve geleceğe
+taşıma
+
+Evaluation
+
+Riskleri ve tradeoff’ları erken görme
+
+BankStat
+
+Dijital imzalı banka ekstresi üretimi
+
+FCAPS
+
+NTP time server monitoring ve
+management
+
+Mini Strateji
+Bu sınav formatında dikkat etmen gereken şey şu:
+•
+
+Çoktan seçmeli sorularda genelde tanımın en kapsamlı olanı doğrudur.
+
+•
+
+Eşleştirmede kavramın hangi derse ait olduğunu yakala: structure, quality attribute,
+interface, evaluation, case study.
+
+•
+
+Sıralamada mantık çoğunlukla şudur: önce problem veya driver tanımlanır, sonra
+analiz edilir, sonra karar verilir, sonra sonuç ölçülür.
+
+Özellikle şu üçlü çok sorulur:
+Kopyala
+Fault → Error → Failure
+Kopyala
+Source → Stimulus → Artifact → Environment → Response → Response Measure
+Kopyala
+Stakeholder → Concern → Viewpoint → View → Documentation
+Availability ve Reliability arasındaki en temel fark, recovery süreci açısından hangisidir?
+MonicaGPT-5.5
+1 saniye düşündü
+Cevap:
+Availability, sistemde hata/failure oluşsa bile sistemin hizmeti sürdürebilmesi veya hızlıca
+toparlanabilmesi ile ilgilidir; yani recovery sürecini içerir.
+Reliability ise sistemin belirli bir süre boyunca hata yapmadan çalışabilme yeteneğidir;
+recovery’den çok hata oluşmadan çalışma süresine odaklanır.
+Kısaca:
+Kavram
+
+Odak Noktası
+
+Reliability
+
+Hata olmadan ne kadar süre çalışır?
+
+Availability
+
+Hata olursa ne kadar hızlı toparlanır ve
+hizmete devam eder?
+
+En temel fark:
+Availability, recovery/repair sürecini kapsar; Reliability ise esas olarak failure
+oluşmadan çalışma yeteneğine odaklanır.
+B.1 Anketlerin Kullanılması Bu anketler, her bir soruyu sırasıyla mimara yönelten ve
+yanıtları kaydeden bir analist tarafından, hafif (lightweight) bir mimari gözden geçirme
+(architecture review) aracı olarak kullanılabilir. Alternatif olarak, anketler, mimarinizi kendi
+başınıza incelemek için kullanabileceğiniz yansıtıcı (reflective) sorular kümesi olarak da
+kullanılabilir. Her iki durumda da, bu anketleri kullanmak için şu dört adımı izleyin: 1.Her
+taktik sorusu için, “Supported (Destekleniyor)” sütununu, taktik mimaride destekleniyorsa Y,
+aksi takdirde N ile doldurun. “Tactics Question (Taktik Sorusu)” sütunundaki taktik adı kalın
+(bold) olarak gösterilir. 2.“Supported” sütunundaki yanıt Y ise, “Design Decisions and
+Location (Tasarım Kararları ve Konumu)” sütununda, taktiği desteklemek için alınan belirli
+tasarım kararlarını açıklayın ve bu kararların mimaride nerede (hangi yerde) ortaya çıktığını
+(konumlandığını) belirtin. Örneğin, bu taktiği hangi kod modüllerinin, framework’lerin ya da
+paketlerin gerçekleştirdiğini (implement) belirtin. 3.“Risk” sütununda, taktiğin
+uygulanmasındaki beklenen/deneyimlenen zorluk ya da riski, (H = yüksek, M = orta, L =
+düşük) ölçeğini kullanarak belirtin. Örneğin, uygulanması orta zorlukta veya riskte olan (ya
+da henüz uygulanmadıysa orta zorlukta olacağı öngörülen) bir taktik M ile etiketlenir.
+4.“Rationale (Gerekçe)” sütununda, alınan tasarım kararlarına ilişkin gerekçeyi (bu taktiği
+kullanmama kararı dahil) açıklayın. Bu kararın sonuçlarını kısaca açıklayın. Örneğin, kararın
+gerekçesini ve sonuçlarını maliyet, zaman çizelgesi (schedule), evrim (evolution) vb.
+üzerindeki etkileri açısından açıklayabilirsiniz. B.2 Uygunluk (Availability) # Taktik
+Grubu (Tactics Group)
+Taktik Sorusu (Tactics Question) 1 Hata tespiti (Detect faults)
+Sistem, bir bileşenin ya da bağlantının hatasını veya ağ tıkanıklığını (network
+congestion) tespit etmek için ping/echo kullanıyor mu? 2
+B.2 Kullanılabilirlik
+(Availability) Hataları Tespit Et (detect faults) Taktik Soru 2 Sistem, sistemin diğer
+parçalarının sağlık durumunu izlemek için bir bileşen kullanıyor mu? Bir sistem monitörü
+(system monitor), ağda veya hizmet reddi (denial-of-service) saldırısı gibi diğer paylaşılan
+kaynaklarda meydana gelen arıza veya tıkanıklığı tespit edebilir. Taktik Soru 3 Sistem, bir
+bileşenin ya da bağlantının arızasını veya ağ tıkanıklığını tespit etmek için kalp atışı
+(heartbeat) kullanıyor mu — yani bir sistem monitörü ile bir süreç arasında periyodik ileti
+alışverişi? Taktik Soru 4 Sistem, dağıtık sistemlerdeki yanlış olay sıralarını tespit etmek için
+zaman damgası (time stamp) kullanıyor mu (Bölüm A.4.1’deki gibi)? Destekleniyor mu?
+(E/H) Tasarım Kararları ve Risk Konumu Gerekçe ve Varsayımlar Taktik Soru 5 Sistem
+herhangi bir akıl sağlığı kontrolü (sanity checking) yapıyor mu: Bir bileşenin işlemlerinin
+veya çıktılarının geçerliliğini ya da makullüğünü denetlemek gibi? Taktik Soru 6 Sistem, bir
+süreçte veya aygıtta koşul izleme (condition monitoring) yapıyor mu, ya da tasarım sırasında
+
+yapılmış varsayımları doğruluyor mu? Taktik Soru 7 Sistem, çoğaltılmış bileşenlerin aynı
+sonuçları ürettiğini kontrol etmek için oylama (voting) kullanıyor mu? Çoğaltılmış bileşenler
+özdeş kopyalar, işlevsel olarak yedek (functionally redundant) veya analitik olarak yedek
+(analytically redundant) olabilir. Taktik Soru 8 Sistem, normal yürütme akışını değiştiren bir
+sistem durumunu tespit etmek için istisna tespiti (exception detection) kullanıyor mu (örneğin
+sistem istisnası, parametre sınırı, parametre tür denetimi, zaman aşımı)? Taktik Soru 9
+Sistem, kendi doğru çalışmasını test etmek için öz test (self-test) yapabiliyor mu? Hatalardan
+Kurtul (Recover from faults) (hazırlık ve onarım — preparation and repair) Kullanılabilirlik
+Destekleniyor mu? (E/H) Tasarım Kararları ve Risk Konumu Gerekçe ve Varsayımlar Taktik
+Soru 10 Sistem, etkin yedeklilik (active redundancy, hot spare) kullanıyor mu? Etkin
+yedeklilikte, koruma grubundaki (protection group — bir veya daha fazla düğümün “aktif”
+olduğu, geri kalanların yedek parça (spare) olarak hizmet verdiği düğüm grubu) tüm
+düğümler, aynı girdileri paralel olarak alır ve işler; bu da yedek parçaların aktif düğüm(ler)
+ile eşzamanlı durum (synchronous state) tutmasını sağlar. Taktik Soru 11 Sistem, pasif
+yedeklilik (passive redundancy, warm spare) kullanıyor mu? Pasif yedeklilikte, koruma
+grubunun yalnızca aktif üyeleri girdi trafiğini işler; görevlerinden biri de yedek parçalara
+periyodik durum güncellemeleri sağlamaktır. Ekler B — Taktik Temelli Anketler Taktik Soru
+12 Sistem, yedek parçalar (spares, cold spares) kullanıyor mu? Burada, bir koruma grubunun
+yedek parçaları, bir devretme (failover) gerçekleşene kadar hizmet dışı durumda kalır; bu
+noktada, yedek parçanın hizmete alınmasından önce, üzerinde bir açılış-sıfırlama (power-onreset) prosedürü başlatılır. Taktik Soru 13 Sistem, hatalarla başa çıkmak için istisna işleme
+(exception handling) kullanıyor mu? Tipik olarak, işleme ya hatanın raporlanmasını ya da ele
+alınmasını içerir; bu, istisnanın nedenini düzelterek ve yeniden deneyerek hatayı
+maskeleyebilmeyi de içerebilir. Taktik Soru 14 Sistem, bir hata durumunda daha önce
+kaydedilmiş iyi bir duruma (geri alma çizgisi — “rollback line”) dönebilmesini sağlamak için
+geri alma (rollback) kullanıyor mu? Taktik Soru 15 Sistem, yürütülebilir kod imajlarına
+hizmet kesintisine yol açmadan (non-service-affecting manner) hizmet içi yazılım
+güncellemesi (in-service software upgrade) gerçekleştirebiliyor mu? Taktik Soru 16 Sistem,
+bileşen veya bağlantı arızasının geçici olabileceği durumlarda sistematik olarak yeniden
+deneme (retry) yapıyor mu? Taktik Soru 17 Sistem, hatalı davranışı basitçe yok sayabiliyor
+mu (örneğin, bir kaynaktan gelen mesajların asılsız/sahte (spurious) olduğu belirlendiğinde
+bu mesajları yok saymak)? Taktik Soru 18 Sistem, kaynaklar tehlikeye girdiğinde bir
+bozunma (degradation) politikası uyguluyor mu; bileşen arızaları varlığında en kritik sistem
+işlevlerini sürdürüp, daha az kritik işlevleri bırakacak şekilde? Destekleniyor mu? (E/H)
+Tasarım Kararları ve Risk Konumu Gerekçe ve Varsayımlar Taktik Soru 19 Sistem, arıza
+sonrasında yeniden yapılandırma (reconfiguration) için tutarlı politika ve mekanizmalara
+sahip mi; çalışır durumda kalan kaynaklara sorumlulukları yeniden atarken olabildiğince
+fazla işlevselliği koruyacak şekilde? Taktik Grubu: Hatalardan Kurtul (faults’tan kurtulma)
+(yeniden devreye alma — reintroduction) Taktik Soru 20 Sistem, daha önce arızalanmış veya
+hizmet içi güncellenmiş bir bileşeni, bileşeni yeniden aktif rolüne döndürmeden önce tanımlı
+bir süre için “gölge kip”te (shadow mode) çalıştırabiliyor mu? Taktik Soru 21 Sistem etkin
+veya pasif yedeklilik kullanıyorsa, durum yeniden eşleme (state resynchronization) de
+kullanıyor mu; yani durum bilgisini aktif bileşenlerden yedek bileşenlere gönderiyor mu?
+
+Taktik Soru 22 Sistem, artan yeniden başlatma (escalating restart) kullanıyor mu — yani
+yeniden başlatılan bileşen(ler)in inceliğini (granularity) değiştirerek ve etkilenen hizmet
+düzeyini en aza indirerek hatalardan kurtuluyor mu? Taktik Soru 23 Sistemin mesaj işleme ve
+yönlendirme kısımları, işlevselliğin denetim (supervisory) ve veri düzlemlerine (data plane)
+bölündüğü kesintisiz iletim (nonstop forwarding, Bölüm A.4.1’deki gibi) kullanabiliyor mu?
+Bu durumda, bir denetleyici arızalanırsa, yönlendirici, protokol bilgisinin geri kazanılması ve
+doğrulanması sırasında bilinen rotalar boyunca paket iletimine devam eder. Taktik Soru 24
+Sistem, olası sistem arızalarını azaltmak amacıyla, bileşenleri hizmetten çekerek (service dışı
+duruma — out-of-service state — geçici olarak alarak) devre dışı bırakabiliyor mu?
+Destekleniyor mu? (E/H) Kullanılabilirlik Hataları Önle (Prevent faults) Tasarım Kararları ve
+Risk Konumu Gerekçe ve Varsayımlar Ekler B — Taktik Temelli Anketler (devam) Taktik
+Soru 25 Sistem, işlemler (transactions) kullanıyor mu — dağıtık bileşenler arasında değiş
+tokuş edilen eşzamansız mesajların atomik (atomic), tutarlı (consistent), yalıtılmış (isolated)
+ve kalıcı (durable) olmasını sağlayacak şekilde durum güncellemelerini paketleyerek? Taktik
+Soru 26 Sistem, bir bileşenin sağlık durumunu izlemek ve sistemin nominal parametreler
+içinde çalıştığından emin olmak için bir kestirimsel model (predictive model) kullanıyor mu?
+Olası gelecekteki hatalara işaret eden koşullar tespit edildiğinde, model düzeltici eylemi
+başlatır. Taktik Soru 27 Sistem, örneğin bir hatayı maskeleyerek, akıllı işaretçiler (smart
+pointers), soyut veri tipleri (abstract data types) veya sarmalayıcılar (wrappers) kullanarak
+istisnaların oluşmasını en baştan engelliyor mu? Taktik Soru 28 Sistem, yetkinlik kümesini
+(competence set) artıracak şekilde tasarlandı mı; örneğin, bir bileşen normal çalışmasının bir
+parçası olarak daha fazla durumu — hata durumlarını da — ele alacak biçimde tasarlanarak?
+Destekleniyor mu? (E/H) Tasarım Kararları ve Risk Konumu Gerekçe ve Varsayımlar B.3
+Birlikte Çalışabilirlik (Interoperability) Destekleniyor mu? (E/H) Tasarım Kararları ve Risk
+Konumu Gerekçe ve Varsayımlar Taktik Grubu: Konumlandır (Locate) Taktik Soru 1
+Sistemin hizmetleri keşfetmek için bir yolu var mı (tipik olarak bir dizin hizmeti — directory
+service — aracılığıyla)? Taktik Grubu: Arabirimleri Yönet (Manage interfaces) Taktik Soru 2
+Sistem, hizmetlerin etkinliklerini orkestre etmek için bir yola sahip mi? Yani, hizmet
+çağrılarını koordine eden, yöneten ve sıralayan bir denetim mekanizması var mı? Taktik Soru
+3 Sistem, arabirimleri uyarlamanın (tailor interfaces) bir yoluna sahip mi? Örneğin, bir
+arabirime çeviri, arabelleğe alma (buffering) veya veri yumuşatma (data smoothing) gibi
+kabiliyetler ekleyip çıkarabiliyor mu? B.4 Değiştirilebilirlik (Modifiability) Destekleniyor
+mu? (E/H) Risk Tasarım Kararları ve Konumu Gerekçe ve Varsayımlar Taktik Grubu: Bir
+modülün boyutunu azalt (Reduce size of a module) Taktik Soru 1 Modülleri bölerek daha
+basit hale getiriyor musunuz? Örneğin, büyük ve karmaşık bir modülünüz varsa, bunu iki
+(veya daha fazla) daha küçük ve daha basit modüle bölebiliyor musunuz? Taktik Grubu:
+Bağlılığı artır (Increase cohesion) Sistemde, anlamsal tutarlılığı (semantic coherence)
+artırmak tutarlı biçimde destekleniyor mu? Örneğin, bir modüldeki sorumluluklar aynı amaca
+hizmet etmiyorsa, bunların farklı modüllere yerleştirilmesi gerekir. Bu, yeni bir modül
+oluşturmayı veya bir sorumluluğu mevcut bir modüle taşımayı içerebilir. 3 Bağlılığı
+(coupling) azaltma Sistem, işlevselliği tutarlı bir biçimde kapsülüyor mu (encapsulate)? Bu
+tipik olarak, incelenen işlevselliği yalıtmayı ve ona açık (explicit) bir arayüz tanıtmayı içerir.
+Destekleniyor mu? (E/H) (devamı) 254 Ek B—Taktik Tabanlı Anketler Taktik Grubu
+
+Taktik Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konumu
+Gerekçe ve Varsayımlar 4 Sistem, modüllerin çok sıkı bir şekilde birbirine
+bağlanmasını engellemek için tutarlı biçimde bir aracı (intermediary) kullanıyor mu?
+Örneğin, A somut C işlevselliğini çağırıyorsa, A ile C arasında aracılık yapan soyut bir B
+tanıtabilirsiniz.
+5
+Modüller arasındaki bağımlılıkları
+sistematik bir şekilde kısıtlıyor musunuz? Yoksa herhangi bir sistem modülü, herhangi başka
+bir modülle serbestçe etkileşime girebiliyor mu?
+6
+İki veya
+daha fazla ilgisiz modül birlikte değiştiğinde—yani düzenli olarak aynı değişikliklerden
+etkilendiğinde—paylaşılan işlevselliği, ayrı bir modülde ortak kod olarak yalıtmak için
+düzenli olarak yeniden düzenleme (refactoring) yapıyor musunuz?
+7
+Birden fazla benzer hizmet sağladığınız durumlarda, sistem ortak hizmetleri
+soyutluyor mu (abstract)? Örneğin, bu teknik genellikle sisteminizi işletim sistemleri,
+donanımlar veya diğer ortam (environment) varyasyonları arasında taşınabilir kılmak
+istediğinizde kullanılır.
+8
+Bağlamayı (binding) erteleme
+Sistem, önemli işlevselliğin bağlanmasını (binding) düzenli olarak erteliyor mu;
+böylece bu işlevsellik yaşam döngüsünde daha sonra, hatta belki de son kullanıcılar
+tarafından bile değiştirilebilir oluyor mu? Örneğin, sistemin işlevselliğini genişletmek için
+eklentiler (plug-ins), eklenti modülleri (add-ons) veya kullanıcı betikleme (user scripting)
+kullanıyor musunuz?
+B.5 B.5 1 257 Performans Performans Taktik Grubu
+Taktik Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konumu
+Gerekçe ve Varsayımlar Kaynak talebini kontrol etme (control resource demand)
+Girdileriniz sürekli bir veri akışıysa, sistem örnekleme oranını (sampling rate)
+yönetiyor mu? Yani, verileri farklı oranlarda örneklemek (ve buna bağlı doğruluk/sadakat
+değişiklikleriyle birlikte) mümkün mü?
+2
+Sistem, olay
+yanıtını (event response) izliyor ve sınırlandırıyor mu? Sistem, hizmet verilen olaylar için
+öngörülebilir yanıtlar sağlamak amacıyla, belirli bir zaman aralığında yanıt verdiği olay
+sayısını sınırlandırıyor mu?
+3
+Kullanılabilir kaynaklardan daha
+fazla hizmet isteğiniz olabileceği göz önüne alındığında, sistem olaylara öncelik veriyor mu?
+4
+Sistem, örneğin aracıları kaldırarak veya kaynakları
+birlikte konumlandırarak (co-locating) hizmet isteklerine yanıt verme ek yükünü (overhead)
+azaltıyor mu?
+5
+Sistem yürütme süresini (execution time) izleyip
+sınırlandırıyor mu? Daha genel olarak, hizmet isteklerine yanıt verirken harcanan herhangi
+bir kaynağın (ör. bellek, CPU, depolama, bant genişliği, bağlantılar, kilitler) miktarını
+sınırlandırıyor musunuz?
+6
+Kaynak verimliliğini artırıyor
+musunuz? Örneğin, gecikmeyi (latency) azaltmak ve iş hacmini (throughput) iyileştirmek için
+kritik alanlardaki algoritmaların verimliliğini düzenli olarak artırıyor musunuz?
+(devamı) 256 7 Ek B—Taktik Tabanlı Anketler Taktik Grubu
+Taktik
+Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konumu
+Gerekçe ve
+Varsayımlar Kaynakları yönetme (manage resources)
+Sistem, kaynakları (ör. CPU,
+bellek, ağ bant genişliği) kesintisiz biçimde (seamlessly) artırabiliyor mu?
+8
+Sistem eşzamanlılık (concurrency) tanıtabiliyor mu? Örneğin, daha
+fazla hizmet isteğinin eşzamanlı olarak işlenebilmesi için paralel işlem akışlarının (parallel
+processing streams) kesintisiz eklenmesini destekliyor mu?
+9
+
+Sistem, sık erişilen veriler için çekişmeyi (contention) azaltmak amacıyla verilerin
+birden fazla kopyasını (ör. veritabanı çoğaltma veya önbellekler kullanarak) tutuyor mu?
+10
+Sistem, sık erişilen hesaplama kaynakları için çekişmeyi
+azaltmak amacıyla hesaplamaların birden fazla kopyasını (ör. bir sunucu çiftliğinde (server
+farm) sunucu havuzu tutarak) sürdürüyor mu?
+11
+Sistem
+kuyruk boyutlarını sınırlandırıyor mu? Yani, hizmet beklerken bir kuyruğa yerleştirilen
+olayların sayısını sınırlıyor musunuz?
+12
+Sistem kaynakları,
+özellikle de kıt (scarce) kaynakları, açık bir zamanlama (scheduling) politikasına göre tahsis
+edilebilmeleri için zamanlıyor mu (schedule)?
+B.6 B.6 1 Güvenlik
+Taktik Grubu Taktik Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve
+Konumu
+Gerekçe ve Varsayımlar Saldırıları tespit etme (detecting attacks) Sistem,
+aktörlerin (actors) tanımlanmasını destekliyor mu? Örnek: Sisteme gelen herhangi bir dış
+girdinin kaynağını tanımlamak.
+2
+Sistem, aktörlerin kimlik
+doğrulamasını (authentication) destekliyor mu? Örnek: Bir aktörün (bir kullanıcı veya uzak
+bir bilgisayar) gerçekten iddia ettiği kişi veya varlık olduğunu güvence altına almak.
+3
+Sistem, mesaj bütünlüğünün (message integrity) doğrulanmasını
+destekliyor mu? Örnek: Mesajların, kaynak dosyaların, dağıtım dosyalarının ve yapılandırma
+dosyalarının bütünlüğünü doğrulamak için sağlama toplamı (checksum) veya özet değerleri
+(hash values) gibi tekniklerin kullanılması.
+4
+Sistem, mesaj
+gecikmelerinin tespitini destekliyor mu? Örnek: Bir mesajın iletilmesinin ne kadar sürdüğünü
+kontrol etmek.
+5
+Sistem, saldırıların tespitini (intrusion detection)
+destekliyor mu? Örnek: Bir sistemdeki ağ trafiğini veya hizmet isteği kalıplarını, bir
+veritabanında saklanan imzalar ya da bilinen kötü niyetli davranış kalıplarıyla karşılaştırmak.
+6
+Sistem, hizmet reddi (denial-of-service) saldırılarının
+tespitini destekliyor mu? Örnek: Sisteme gelen ağ trafiğinin kalıbını veya imzasını, bilinen
+hizmet reddi saldırılarının tarihsel profilleriyle karşılaştırmak.
+(devamı) 258 Ek B—Taktik Tabanlı Anketler Taktik Grubu
+Taktik Sorusu
+Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konumu
+Gerekçe ve
+Varsayımlar Saldırılara direnme (resisting attacks) Sistem, aktörlerin yetkilendirilmesini
+(authorization) destekliyor mu? Örnek: Kimliği doğrulanmış bir aktörün veriye veya
+hizmetlere erişme ve bunları değiştirme hakkına sahip olduğundan emin olmak.
+8
+Sistem, erişimin sınırlandırılmasını (limiting access) destekliyor mu?
+Örnek: Bir sistemin hangi bölümlerine (işlemciler, bellek ve ağ bağlantıları gibi) kimlerin ve
+nelerin erişebileceğini kontrol etmek.
+9
+Sistem, maruziyetin
+sınırlandırılmasını (limiting exposure) destekliyor mu? Örnek: Bir sistemle ilgili gerçekleri
+gizleyerek (“security by obscurity”) veya kritik kaynakları bölüp dağıtarak (“tüm yumurtaları
+aynı sepete koyma” ilkesi) başarılı bir saldırı olasılığını azaltmak veya potansiyel zararın
+miktarını kısıtlamak.
+10
+Sistem, veri şifrelemeyi (data encryption)
+destekliyor mu? Örnek: Verilere ve iletişime bir tür şifreleme uygulamak.
+11
+Sistem girdiyi tutarlı, sistem çapında bir şekilde doğruluyor mu (input
+validation)? Örnek: Dış girdinin filtrelenmesi, kanonik hale getirilmesi (canonicalization) ve
+kaçış karakterleriyle işlenmesi (escaping) gibi işlemleri gerçekleştirmek için bir güvenlik
+çerçevesi (security framework) veya doğrulama sınıfı kullanmak.
+B.6
+
+Taktik Grubu Taktik Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve
+Konumu
+Gerekçe ve Varsayımlar 12 Sistem tasarımı, varlıkların ayrımını (separation
+of entities) dikkate alıyor mu? Örnek: Farklı ağlara bağlı farklı sunucuların fiziksel olarak
+ayrılması, sanal makinelerin kullanımı veya “air gap” (fiziksel ağ yalıtımı).
+13
+Sistem, varsayılan ayarlardaki (default settings) değişiklikleri
+destekliyor mu? Örnek: Kullanıcıyı, varsayılan olarak atanmış ayarları değiştirmeye
+zorlamak.
+14
+Saldırılara tepki verme (reacting to attacks)
+Erişimi iptal etmeyi sistem destekliyor mu? Buna bir örnek, bir
+saldırıdan şüphelenildiğinde, normalde meşru olan kullanıcılar ve kullanımlar için bile hassas
+kaynaklara erişimin sınırlandırılmasıdır. 15 Erişimi kilitlemeyi sistem destekliyor mu? Buna
+bir örnek, bir kaynağa erişmek için tekrarlanan başarısız denemeler olduğunda o kaynağa
+erişimin sınırlandırılmasıdır. 16 Aktörleri bilgilendirmeyi sistem destekliyor mu? Buna bir
+örnek, bir saldırıdan şüphelenildiğinde veya saldırı tespit edildiğinde operatörlerin, diğer
+personelin ya da iş birliği yapan sistemlerin bilgilendirilmesidir. 17 Saldırılardan kurtulma
+Sistem bir denetim izi (audit trail) tutmayı destekliyor mu? Buna bir örnek, bir saldırganın
+eylemlerini geriye dönük izleyebilmek ve kimliğini belirleyebilmek için kullanıcı ve sistem
+eylemlerinin ve bunların etkilerinin kaydının tutulmasıdır. Destekleniyor mu? (E/H) Risk
+Tasarım Kararları ve Konum Güvenlik 259 Gerekçe ve Varsayımlar 260 Ek B—Taktik
+Tabanlı Anketler B.7 Test Edilebilirlik (Testability) #
+Taktik Grubu Taktik Sorusu 1
+Sistem durumunu denetle ve gözle (control and observe system state)
+Sistem ya da
+sistem bileşenleri test etmeyi ve izlemeyi kolaylaştırmak için özelleşmiş arayüzler sağlıyor
+mu? 2 Sistem, bir arayüzü geçen bilginin daha sonra test amaçlı kullanılabilmesi için
+kaydedilmesini sağlayan mekanizmalar sunuyor mu (kayıt/oynatma – record/playback)? 3
+Sistemin, alt sistemin ya da modüllerin durumu, test etmeyi kolaylaştırmak için tek bir yerde
+saklanıyor mu (yerelleştirilmiş durum depolama – localized state storage)? 4 Veri
+kaynaklarını soyutlayabiliyor musunuz; örneğin, arayüzleri soyutlayarak? Arayüzleri
+soyutlamak, test verisini daha kolay ikame etmenize olanak tanır. 5 Sistem, deney yapmak
+veya test etmek için, deneyin sonuçlarını geri almaktan endişe etmeden, yalıtılmış (sandbox)
+biçimde çalıştırılabiliyor mu? 6 Sistemin, bir programın ne zaman ve nerede hatalı bir
+durumda olduğunu belirtmek için yürütülebilir iddialar (executable assertions) kullanan kodu
+var mı? 7 Karmaşıklığı sınırla Sistem, yapısal karmaşıklık sınırlı olacak şekilde tasarlandı
+mı? Örnekler: döngüsel bağımlılıklardan kaçınma, bağımlılıkları azaltma ve bağımlılık
+enjeksiyonu (dependency injection) gibi tekniklerin kullanılması. Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konum Gerekçe ve Varsayımlar B.8 Kullanılabilirlik (Usability) #
+Taktik Grubu Taktik Sorusu 8
+Sistem, belirlenimsizliğin
+(nondeterminism) az sayıda veya hiç kaynağını içeriyor mu? Bu, kısıtsız paralellikten
+(unconstrained parallelism) kaynaklanan davranışsal karmaşıklığı sınırlandırmaya yardımcı
+olur; bu da test etmeyi basitleştirir. B.8 Kullanılabilirlik (Usability) #
+Taktik Grubu
+Taktik Sorusu 1
+Kullanıcı inisiyatifini destekleme (supporting user initiative)
+Sistem, işlemleri iptal etmeyi destekliyor mu? 2 Sistem, işlemleri geri almayı (undo)
+destekliyor mu? 3 Sistem, işlemlerin duraklatılıp (pause) daha sonra devam ettirilmesini
+destekliyor mu? Örneğin, bir web tarayıcısında bir dosya indirmesini duraklatmak ve
+kullanıcının tamamlanmamış (ve başarısız olmuş) bir indirmeyi yeniden denemesine izin
+
+vermek. 4 Sistem, işlemlerin nesne gruplarına uygulanmasını (birleştirme – aggregation)
+destekliyor mu? Örneğin, bir dosya gezgini penceresinde seçili bir dizi dosyanın toplam
+boyutunu görmenize izin veriyor mu? Destekleniyor mu? (E/H) (Devam eder) 261 Risk
+Tasarım Kararları ve Konum Gerekçe ve Varsayımlar Risk Tasarım Kararları ve Konum
+Gerekçe ve Varsayımlar 262 Ek B—Taktik Tabanlı Anketler # Taktik Grubu Taktik
+Sorusu 5
+Sistem inisiyatifini destekleme (support system initiative) Sistem, kullanıcının
+yürüttüğü görevlere dayanarak (bir görev modeli – task model – tutarak) kullanıcıya yardım
+sağlıyor mu? Örnekler şunlardır: •Girdi verisinin doğrulanması •Kullanıcı arayüzündeki (UI)
+değişikliklere kullanıcının dikkatinin çekilmesi •UI tutarlılığının korunması •UI’nin sağladığı
+işlevleri bulmalarına yardımcı olmak için kullanıcıya araç çubukları ve menüler eklenmesi
+•Kullanıcıların temel kullanıcı senaryolarını gerçekleştirmelerinde onlara yol göstermek için
+sihirbazlar (wizards) veya diğer tekniklerin kullanılması 6 Sistem, kullanıcı sınıfına göre
+UI’de ayarlamalar yapmayı (bir kullanıcı modeli – user model – tutarak) destekliyor mu?
+Örnekler arasında UI özelleştirmesini (yerelleştirme – localization dahil) ve erişilebilirlik
+desteğini sağlamak yer alır. 7 Sistem, sistem özelliklerine dayanarak (bir sistem modeli –
+system model – tutarak) kullanıcıya uygun geri bildirim sağlıyor mu? Örnekler şunlardır:
+•Uzun süren istekler işlenirken kullanıcıyı engellemekten kaçınmak •Eylem ilerlemesine
+ilişkin geri bildirim sağlamak (örn. ilerleme çubukları – progress bars) •Hataları yöneterek,
+hassas verileri açığa çıkarmadan kullanıcı dostu hata mesajları göstermek •Ekran boyutu ve
+çözünürlüğe göre UI’yi ayarlamak Destekleniyor mu? (E/H) Risk Tasarım Kararları ve
+Konum Gerekçe ve Varsayımlar B.9 DevOps #
+Taktik Grubu Taktik Sorusu 1
+Test
+edilebilirlik: sistem durumunu denetle ve gözle (Testability: control and observe system state)
+Sistem ya da sistem bileşenleri test etmeyi ve izlemeyi kolaylaştırmak için özelleşmiş
+arayüzler sağlıyor mu? 2 Sistem, bir arayüzü geçen bilginin daha sonra test amaçlı
+kullanılabilmesi için kaydedilmesini sağlayan mekanizmalar sunuyor mu (kayıt/oynatma –
+record/playback)? 3 Sistem, deney yapmak veya test etmek için, deneyin sonuçlarını geri
+almaktan endişe etmeden, yalıtılmış (sandbox) biçimde çalıştırılabiliyor mu? 4 Performans:
+kaynakları yönet (Performance: manage resources) Sistem, kaynakları kesintisiz bir şekilde
+artırabiliyor mu (örneğin CPU, bellek, ağ bant genişliği)? 5 Sistem eşzamanlılık
+(concurrency) ekleyebiliyor mu? Örneğin, daha fazla hizmet isteğinin aynı anda işlenebilmesi
+için paralel işlem akışlarının (parallel processing streams) kesintisiz şekilde eklenmesini
+destekliyor mu? 6 Sistem, sık erişilen verilere yönelik paylaşım çatışmasını (contention)
+azaltmak için verinin birden çok kopyasını tutuyor mu (örneğin veritabanlarını çoğaltarak ya
+da önbellekler kullanarak)? (Devam eder) 264 Ek B—Taktik Tabanlı Anketler 7 Sistem, sık
+erişilen hesaplama kaynaklarına yönelik paylaşım çatışmasını azaltmak için hesaplamaların
+birden çok kopyasını tutuyor mu (örneğin bir sunucu çiftliğinde – server farm – sunucu
+havuzu – server pool – bulundurarak)? 8 Sistem, özellikle kıt kaynakları, açık bir zamanlama
+politikasına (scheduling policy) göre tahsis edilebilmeleri için zamanlıyor mu? 9 Performans:
+kaynak talebini denetle (Performance: control resource demand) Sistem, hizmet isteklerine
+yanıt verme ek yükünü azaltıyor mu; örneğin aracıları kaldırarak veya kaynakları birlikte
+konumlandırarak (co-location)? 10 Girdileriniz sürekli bir veri akışı ise, sistem örnekleme
+oranını yönetiyor mu? Yani, veri örneklemesini değişen oranlarda (ve buna eşlik eden
+doğruluk/özgünlük – accuracy/fidelity – değişimiyle) yapabilmeniz mümkün mü? 11 Sistem,
+
+olaylara verdiği yanıtı izliyor ve sınırlandırıyor mu? Yani, sistem belirli bir zaman aralığında
+yanıt verdiği olay sayısını sınırlandırarak, gerçekten servis verdiği olaylar için öngörülebilir
+yanıtlar sağlamayı garanti altına alıyor mu? 12 Sunulan hizmet için, mevcut kaynaklardan
+daha fazla istek olabileceği göz önünde bulundurulduğunda, sistem olayları önceliklendiriyor
+mu? Destekleniyor mu? (E/H) Risk Tasarım Kararları ve Konum Gerekçe ve Varsayımlar
+B.9 13 Değiştirilebilirlik: bağımlılığı azalt (Modifiability: reduce coupling) 14 Taktik Sorusu
+Destekleniyor mu? (E/H) Risk Tasarım Kararları ve Konum DevOps 265 Gerekçe ve
+Varsayımlar Modifiability: bağlamayı erteleme (defer binding) 15 Sistem işlevselliği tutarlı
+biçimde kapsülleyebiliyor mu? Bu tipik olarak, inceleme altındaki işlevselliğin yalıtılmasını
+ve buna açık (explicit) bir arayüzün tanıtılmasını içerir. Sistem, birden çok benzer hizmet
+sağladığınız durumlarda, ortak hizmetleri soyutluyor mu? Örneğin, bu teknik genellikle
+sisteminizi işletim sistemleri, donanım veya diğer çevre (environment) değişkenleri arasında
+taşınabilir (portable) yapmak istediğinizde kullanılır. Sistem, önemli işlevselliklerin
+bağlanmasını (binding) düzenli olarak yaşam döngüsünün ileriki safhalarına erteliyor mu ki
+bu işlevler daha sonra, hatta belki son kullanıcılar tarafından değiştirilebilsin? Örneğin,
+sistemin işlevselliğini genişletmek için eklentiler (plug-ins), ilave modüller (add-ons) veya
+kullanıcı betiklerini (user scripting) kullanıyor musunuz? 16 Kullanılabilirlik (availability):
+hataları tespit etmek (detect faults) Sistem, diğer sistem parçalarının sağlık durumunu
+izlemek için bir bileşen kullanıyor mu? Bir sistem izleyicisi (system monitor), ağdaki veya
+diğer paylaşılan kaynaklardaki (örneğin bir hizmet engelleme saldırısından – denial-ofservice attack – kaynaklanan) arıza veya tıkanıklığı (congestion) tespit edebilir. 17 Normal
+yürütme akışını değiştiren bir sistem durumunu tespit etmek için istisna tespitini (exception
+detection) kullanıyor musunuz? (Örneğin sistem istisnası, parametre sınırı – parameter fence,
+parametre tür denetimi – parameter typing, zaman aşımı – timeout gibi.) (Devamı) Ek B —
+Taktik Temelli Anketler Taktik Grubu
+#
+Taktik Sorusu Destekleniyor mu? (E/H)
+Risk Tasarım Kararları ve Konum Gerekçe ve Varsayımlar
+18
+Sistem,
+çoğaltılmış (replicated) bileşenlerin aynı sonuçları ürettiğini denetlemek için oylama (voting)
+kullanıyor mu? Çoğaltılmış bileşenler, özdeş kopyalar, işlevsel olarak yedek (functionally
+redundant) ya da analitik olarak yedek (analytically redundant) olabilir.
+Kullanılabilirlik (availability): hatalardan kurtulma (recover from faults) (hazırlık ve
+onarım – preparation and repair)
+19
+Sistem, bir hata durumunda önceden kaydedilmiş
+iyi bir duruma (“rollback line”) geri dönebilmek için geri alma (rollback) kullanıyor mu?
+20
+Sistem etkin yedeklilik (active redundancy, hot
+spare) kullanıyor mu? Etkin yedeklilikte, bir koruma grubundaki (protection group; bir veya
+daha fazla düğümün “aktif” olduğu ve geri kalanların yedek (spare) olarak hizmet verdiği
+düğüm grubu) tüm düğümler aynı girdileri paralel olarak alır ve işler; bu sayede yedek
+düğümler, aktif düğüm(ler) ile eşzamanlı durumu (synchronous state) koruyabilir.
+21
+Sistem, arızalardan sonraki yeniden yapılandırma
+(reconfiguration) için tutarlı politika ve mekanizmalara sahip mi; yani işlevselliğin
+olabildiğince fazlasını korurken, sorumlulukları çalışmaya devam eden kaynaklara yeniden
+atayabiliyor mu?
+22
+Sistem, hatalarla başa çıkmak için
+istisna işleme (exception handling) kullanıyor mu? Tipik olarak, işleme ya hatanın rapor
+edilmesini ya da ele alınmasını içerir; bu da potansiyel olarak istisnaya neden olan sebebin
+
+düzeltilmesi ve işlemin yeniden denenmesi yoluyla hatanın maskelemesini (masking)
+sağlayabilir.
+BUNLARI DÜZENLİ BİR ŞEKİLDE SORU CEVAP
+OLARAK HAZIRLAR MIISN
+MonicaGPT-5.5
+3 saniye düşündü
+Düşünme Süreci
+Ek B — Taktik Temelli Anketler
+Düzenli Soru–Cevap Notları
+Aşağıdaki içerik, gönderdiğin metindeki taktik temelli anketleri sınav çalışmasına uygun
+olacak şekilde soru-cevap formatında düzenlenmiştir. Boşluk doldurma gibi değil; daha çok
+kısa paragraf açıklamalı, anlaşılır ve sınav odaklı hazırlanmıştır.
+
+1. Taktik Temelli Anketler Nedir?
+
+Soru 1
+Taktik temelli anketler ne amaçla kullanılır?
+Cevap:
+Taktik temelli anketler, bir yazılım mimarisinin belirli kalite özelliklerini ne kadar
+desteklediğini değerlendirmek için kullanılır. Bu anketler özellikle hafif mimari gözden
+geçirme, yani lightweight architecture review aracı olarak işlev görür. Bir analist, soruları
+mimara sırayla yöneltir ve mimarın verdiği yanıtları kaydeder. Alternatif olarak mimar, bu
+soruları kendi mimarisini sorgulamak için yansıtıcı bir kontrol listesi olarak da kullanabilir.
+
+Soru 2
+Bu anketler hangi durumlarda kullanılabilir?
+Cevap:
+Bu anketler iki temel durumda kullanılabilir. Birincisi, bir analistin mimara sorular yönelttiği
+resmi veya yarı resmi mimari gözden geçirme toplantılarında kullanılabilir. İkincisi, mimarın
+kendi mimarisini bağımsız biçimde değerlendirmek istediği durumlarda kullanılabilir. Her iki
+durumda da amaç, mimaride hangi taktiklerin desteklendiğini, bu taktiklerin nerede
+uygulandığını, hangi riskleri taşıdığını ve neden seçildiğini ortaya koymaktır.
+
+Soru 3
+
+Taktik temelli anketlerin kullanılmasında izlenen dört temel adım nedir?
+Cevap:
+İlk adımda, her taktik sorusu için mimaride bu taktiğin desteklenip desteklenmediği
+belirlenir ve Supported sütununa Y/E veya N/H yazılır. İkinci adımda, eğer taktik
+destekleniyorsa, bu taktiği gerçekleştiren tasarım kararları ve bunların mimarideki konumu
+açıklanır. Üçüncü adımda, taktiğin uygulanmasındaki risk düzeyi H, M, L biçiminde
+belirtilir. Dördüncü adımda ise kararın gerekçesi, varsayımları ve bu kararın maliyet, zaman
+çizelgesi veya evrim gibi etkileri açıklanır.
+
+Soru 4
+“Supported” sütunu neyi ifade eder?
+Cevap:
+“Supported” sütunu, ilgili taktiğin sistem mimarisinde desteklenip desteklenmediğini
+gösterir. Eğer sistem bu taktiği kullanıyorsa bu sütuna Y veya Türkçe kullanımda E yazılır.
+Eğer sistem bu taktiği desteklemiyorsa N veya H yazılır. Bu sütun, mimarinin hangi kalite
+taktiklerini içerdiğini hızlıca görmek için kullanılır.
+
+Soru 5
+“Design Decisions and Location” sütununda ne açıklanmalıdır?
+Cevap:
+Bu sütunda, ilgili taktiği desteklemek için alınan somut tasarım kararları yazılır. Ayrıca bu
+kararların sistemin hangi bölümünde bulunduğu belirtilir. Örneğin, bir availability taktiği
+olan heartbeat kullanılıyorsa, bunun hangi servis, framework, modül veya altyapı bileşeni
+tarafından gerçekleştirildiği açıklanmalıdır. Bu alan, taktiğin yalnızca teorik olarak değil,
+mimaride gerçekten nerede uygulandığını göstermesi açısından önemlidir.
+
+Soru 6
+“Risk” sütunu nasıl doldurulur?
+Cevap:
+Risk sütununda, ilgili taktiğin uygulanmasındaki zorluk veya risk düzeyi belirtilir. Genellikle
+üçlü ölçek kullanılır: H yüksek risk, M orta risk, L düşük risk anlamına gelir. Örneğin,
+aktif yedeklilik kullanmak yüksek maliyetli ve karmaşık olabilir; bu nedenle risk düzeyi H
+olarak işaretlenebilir. Basit logging veya timeout kullanımı ise daha düşük riskli olabilir.
+
+Soru 7
+
+“Rationale” yani gerekçe sütununda ne yazılmalıdır?
+Cevap:
+Rationale sütununda, ilgili taktiğin neden seçildiği veya neden seçilmediği açıklanmalıdır.
+Bu gerekçe; maliyet, geliştirme süresi, bakım kolaylığı, sistemin evrimi, performans etkisi
+veya operasyonel gereklilikler açısından değerlendirilebilir. Örneğin, “aktif yedeklilik
+maliyetli olduğu için tercih edilmedi, bunun yerine pasif yedeklilik kullanıldı” ifadesi bir
+rationale örneğidir.
+
+2. Availability — Kullanılabilirlik Taktikleri
+
+2.1 Hataları Tespit Etme Taktikleri
+
+Soru 8
+Availability açısından “detect faults” taktik grubunun amacı nedir?
+Cevap:
+“Detect faults” taktik grubunun amacı, sistemdeki bileşen, bağlantı, ağ veya kaynak
+problemlerini erken fark etmektir. Bir fault zamanında tespit edilirse, failure’a dönüşmeden
+önce müdahale edilebilir. Bu nedenle ping/echo, heartbeat, system monitor, exception
+detection ve self-test gibi mekanizmalar availability açısından kritik kabul edilir.
+
+Soru 9
+Ping/echo taktiği availability açısından ne işe yarar?
+Cevap:
+Ping/echo, bir bileşenin veya bağlantının çalışır durumda olup olmadığını kontrol etmek için
+kullanılır. Sistem belirli aralıklarla bir bileşene ping gönderir ve cevap alıp almadığını kontrol
+eder. Eğer cevap alınamazsa, bileşenin arızalı olduğu veya bağlantıda problem bulunduğu
+düşünülebilir. Bu taktik özellikle ağ bağlantısı, servis erişilebilirliği ve temel canlılık kontrolü
+için kullanılır.
+
+Soru 10
+System monitor taktiği nedir?
+Cevap:
+System monitor, sistemin diğer parçalarının sağlık durumunu izleyen özel bir bileşendir. Bu
+bileşen, servislerin çalışıp çalışmadığını, ağda tıkanıklık olup olmadığını veya denial-of-
+
+service gibi paylaşılan kaynak problemlerini tespit edebilir. Özellikle dağıtık sistemlerde
+merkezi veya yarı merkezi izleme sağlayarak availability’nin korunmasına yardımcı olur.
+
+Soru 11
+Heartbeat taktiği ne anlama gelir?
+Cevap:
+Heartbeat, bir sistem monitörü ile bir süreç veya bileşen arasında periyodik ileti alışverişi
+yapılmasıdır. Bileşen belirli aralıklarla “ben çalışıyorum” anlamına gelen sinyaller gönderir.
+Eğer heartbeat mesajı beklenen sürede gelmezse, sistem bu bileşenin arızalanmış
+olabileceğini varsayar. Bu taktik, failover ve recovery mekanizmalarını tetiklemek için sık
+kullanılır.
+
+Soru 12
+Time stamp kullanımı availability açısından neyi sağlar?
+Cevap:
+Time stamp, özellikle dağıtık sistemlerde olayların oluş sırasını ve zamanını takip etmek için
+kullanılır. Yanlış olay sıraları, geç gelen mesajlar veya beklenmeyen zaman ilişkileri bu
+şekilde tespit edilebilir. Bu durum, özellikle mesajlaşma, transaction yönetimi ve dağıtık olay
+işleme mimarilerinde önemlidir.
+
+Soru 13
+Sanity checking nedir?
+Cevap:
+Sanity checking, bir bileşenin işlemlerinin veya çıktılarının makul, geçerli ve beklenen
+sınırlar içinde olup olmadığını denetleme işlemidir. Örneğin, sıcaklık sensöründen gelen
+değerin fiziksel olarak imkânsız bir değer olup olmadığı kontrol edilebilir. Böylece sistem,
+açıkça hatalı veya tutarsız çıktıları erkenden fark edebilir.
+
+Soru 14
+Condition monitoring ne işe yarar?
+Cevap:
+Condition monitoring, bir süreç, bileşen veya cihazın çalışma koşullarını izlemek anlamına
+gelir. Amaç, sistemin tasarım sırasında varsayılan çalışma sınırları içinde kalıp kalmadığını
+kontrol etmektir. Örneğin CPU sıcaklığı, disk doluluk oranı, bellek tüketimi veya ağ
+gecikmesi izlenebilir. Bu taktik, olası arızaları önceden görmeye yardımcı olur.
+
+Soru 15
+Voting taktiği nedir?
+Cevap:
+Voting, çoğaltılmış bileşenlerin aynı girdiler için aynı veya tutarlı sonuçlar üretip
+üretmediğini kontrol etmeye yarar. Birden fazla bileşen aynı işi yapar ve sonuçlar
+karşılaştırılır. Çoğunluğun verdiği sonuç doğru kabul edilebilir. Bu taktik, yüksek güvenilirlik
+gerektiren sistemlerde kullanılır. Yedek bileşenler özdeş, işlevsel olarak yedek veya analitik
+olarak yedek olabilir.
+
+Soru 16
+Exception detection taktiği nedir?
+Cevap:
+Exception detection, normal yürütme akışını değiştiren beklenmeyen durumların tespit
+edilmesidir. Sistem istisnaları, parametre sınır ihlalleri, parametre tür hataları veya timeout
+durumları bu kapsamda değerlendirilir. Bu taktik, hatalı durumların hızlı fark edilmesini ve
+uygun exception handling mekanizmasının devreye girmesini sağlar.
+
+Soru 17
+Self-test taktiği ne anlama gelir?
+Cevap:
+Self-test, sistemin veya bileşenin kendi doğru çalışmasını test edebilmesidir. Bir bileşen
+başlatıldığında veya belirli aralıklarla kendi fonksiyonlarını kontrol edebilir. Bu taktik,
+özellikle kritik sistemlerde hata oluşmadan önce arızalı bileşenlerin tespit edilmesi için
+kullanılır.
+
+2.2 Hatalardan Kurtulma Taktikleri
+Preparation and Repair
+
+Soru 18
+“Recover from faults” taktik grubunun amacı nedir?
+Cevap:
+“Recover from faults” taktik grubunun amacı, sistemde hata oluştuğunda hizmetin tamamen
+durmasını engellemek veya sistemi kabul edilebilir hizmet durumuna geri getirmektir. Bu
+
+grup, hazırlık ve onarım mekanizmalarını içerir. Active redundancy, passive redundancy,
+exception handling, rollback, retry, degradation ve reconfiguration bu grubun önemli
+taktiklerindendir.
+
+Soru 19
+Active redundancy yani hot spare nedir?
+Cevap:
+Active redundancy, koruma grubundaki tüm düğümlerin aynı girdileri paralel olarak alıp
+işlemesi anlamına gelir. Bu yöntemde yedek düğümler pasif beklemez; aktif düğümlerle eş
+zamanlı durumda kalır. Bu nedenle bir düğüm arızalandığında diğer düğüm hemen devreye
+girebilir. Ancak maliyeti ve kaynak kullanımı yüksektir.
+
+Soru 20
+Passive redundancy yani warm spare nedir?
+Cevap:
+Passive redundancy’de yalnızca aktif düğüm gelen trafiği işler. Yedek düğümler doğrudan
+trafiği işlemez, ancak aktif düğümden belirli aralıklarla durum güncellemesi alır. Aktif
+düğüm arızalanırsa yedek düğüm devreye girer. Active redundancy’ye göre daha az
+maliyetlidir, ancak failover süresi daha uzun olabilir.
+
+Soru 21
+Cold spare nedir?
+Cevap:
+Cold spare, yedek bileşenin normalde hizmet dışı durumda beklemesidir. Bir failover
+gerçekleşene kadar bu yedek bileşen çalışmaz. Arıza durumunda önce power-on-reset veya
+benzeri başlatma işlemleri yapılır, ardından hizmete alınır. Bu yöntem daha düşük
+maliyetlidir fakat recovery süresi active ve passive redundancy’ye göre daha uzundur.
+
+Soru 22
+Exception handling availability açısından nasıl katkı sağlar?
+Cevap:
+Exception handling, sistemde oluşan hataların raporlanmasını, ele alınmasını veya
+mümkünse düzeltilerek işlemin yeniden denenmesini sağlar. Böylece bazı hatalar kullanıcıya
+failure olarak yansımadan maskelenebilir. Örneğin geçici bir network hatasında exception
+yakalanıp retry mekanizması çalıştırılabilir.
+
+Soru 23
+Rollback taktiği nedir?
+Cevap:
+Rollback, sistemin hata oluştuğunda daha önce kaydedilmiş iyi bir duruma geri dönmesini
+sağlar. Bu iyi duruma bazen “rollback line” denir. Özellikle transaction yönetimi, veri
+güncelleme işlemleri ve batch processing sistemlerinde önemlidir. Hatalı bir işlem sonrasında
+sistemi tutarlı duruma döndürmek için kullanılır.
+
+Soru 24
+In-service software upgrade nedir?
+Cevap:
+In-service software upgrade, yürütülebilir kod imajlarının hizmet kesintisine neden olmadan
+güncellenebilmesidir. Bu taktik, özellikle sürekli çalışması gereken sistemlerde önemlidir.
+Amaç, bakım veya güncelleme sırasında kullanıcıya kesinti hissettirmemektir. Telekom,
+bankacılık ve yüksek erişilebilirlik gerektiren sistemlerde kritik bir taktiktir.
+
+Soru 25
+Retry taktiği hangi durumlarda kullanılır?
+Cevap:
+Retry, bileşen veya bağlantı arızasının geçici olabileceği durumlarda işlemi sistematik
+biçimde yeniden denemektir. Örneğin kısa süreli ağ kesintisi, geçici servis meşguliyeti veya
+timeout durumlarında retry kullanılabilir. Ancak retry sınırsız yapılmamalıdır; aksi halde
+sistemi daha fazla yüke sokabilir. Genellikle retry limitleri ve bekleme süreleri tanımlanır.
+
+Soru 26
+Ignore faulty behavior taktiği nedir?
+Cevap:
+Bu taktik, sistemin hatalı veya sahte olduğu belirlenen davranışları yok sayabilmesini ifade
+eder. Örneğin bir kaynaktan gelen mesajların spurious yani asılsız olduğu anlaşılırsa sistem
+bu mesajları işlemeyebilir. Böylece hatalı girdilerin sistemin genel işleyişini bozması
+engellenir.
+
+Soru 27
+
+Degradation politikası ne anlama gelir?
+Cevap:
+Degradation, sistem kaynakları tehlikeye girdiğinde daha az kritik işlevlerin bırakılıp en
+kritik işlevlerin sürdürülmesidir. Bu taktik, sistemin tamamen çökmesi yerine sınırlı ama
+önemli fonksiyonlarla çalışmaya devam etmesini sağlar. Örneğin yoğun trafik altında
+raporlama kapatılıp ödeme işlemleri çalıştırılmaya devam edilebilir.
+
+Soru 28
+Reconfiguration taktiği nedir?
+Cevap:
+Reconfiguration, arıza sonrasında sistemin sorumlulukları çalışır durumda kalan kaynaklara
+yeniden atamasıdır. Amaç, mümkün olduğunca fazla işlevselliği koruyarak sistemi yeni
+koşullara uyarlamaktır. Örneğin arızalanan bir node’un görevleri sağlıklı node’lara
+dağıtılabilir.
+
+2.3 Hatalardan Kurtulma
+Reintroduction Taktikleri
+
+Soru 29
+Shadow mode nedir?
+Cevap:
+Shadow mode, daha önce arızalanmış veya güncellenmiş bir bileşenin aktif role
+döndürülmeden önce belirli süre boyunca gölge kipte çalıştırılmasıdır. Bu süreçte bileşen
+gerçek trafiği etkileyen kararlar almaz, ancak davranışı gözlemlenir. Amaç, bileşenin güvenli
+şekilde tekrar sisteme alınmasını sağlamaktır.
+
+Soru 30
+State resynchronization nedir?
+Cevap:
+State resynchronization, aktif bileşenlerdeki durum bilgisinin yedek bileşenlere yeniden
+aktarılmasıdır. Özellikle active veya passive redundancy kullanılan sistemlerde önemlidir.
+Failover sonrasında yedek bileşenin doğru ve güncel durumla çalışabilmesi için state
+resynchronization gerekir.
+
+Soru 31
+Escalating restart taktiği nedir?
+Cevap:
+Escalating restart, hata durumunda önce küçük kapsamlı yeniden başlatma denenmesi, sorun
+çözülmezse daha geniş kapsamlı yeniden başlatmaya geçilmesidir. Örneğin önce thread,
+sonra process, sonra servis, en sonunda tüm node yeniden başlatılabilir. Amaç, hizmet
+etkisini mümkün olduğunca düşük tutmaktır.
+
+Soru 32
+Nonstop forwarding nedir?
+Cevap:
+Nonstop forwarding, özellikle ağ yönlendirme sistemlerinde kullanılan bir taktiktir. Sistem
+denetim düzlemi ve veri düzlemi olarak ayrılır. Denetleyici arızalansa bile veri düzlemi
+bilinen rotalar üzerinden paket iletmeye devam eder. Bu sayede kontrol bileşeni toparlanırken
+veri iletimi kesilmez.
+
+Soru 33
+Bir bileşeni hizmet dışına alma taktiği availability açısından ne sağlar?
+Cevap:
+Bir bileşeni geçici olarak out-of-service durumuna almak, olası sistem arızalarını azaltmak
+için kullanılır. Sistem, problemli veya riskli bileşeni aktif kullanımdan çıkararak genel sistem
+kararlılığını korur. Bu taktik bakım, izolasyon veya arıza önleme amacıyla uygulanabilir.
+
+2.4 Hataları Önleme Taktikleri
+
+Soru 34
+“Prevent faults” taktik grubunun amacı nedir?
+Cevap:
+“Prevent faults” taktik grubunun amacı, hatalar ortaya çıkmadan önce onları engellemektir.
+Bu grupta transaction kullanımı, predictive model, exception prevention ve competence set
+artırma gibi yaklaşımlar yer alır. Amaç, sistemin fault üretme olasılığını azaltmak ve daha
+dayanıklı hale gelmesini sağlamaktır.
+
+Soru 35
+
+Transaction kullanımı availability açısından nasıl katkı sağlar?
+Cevap:
+Transaction, durum güncellemelerinin atomik, tutarlı, yalıtılmış ve kalıcı olmasını sağlar.
+Özellikle dağıtık bileşenler arasında eşzamansız mesajlar kullanılıyorsa, transaction yönetimi
+veri tutarlılığını korur. Böylece yarım kalmış veya tutarsız işlemlerin sistem arızasına yol
+açması önlenebilir.
+
+Soru 36
+Predictive model taktiği nedir?
+Cevap:
+Predictive model, bileşenlerin sağlık durumunu izleyerek gelecekte oluşabilecek hataları
+tahmin etmeye çalışır. Sistem nominal çalışma parametrelerinin dışına çıkıldığını fark ederse
+düzeltici eylem başlatabilir. Örneğin disk doluluk oranı kritik seviyeye yaklaşınca sistem
+otomatik uyarı verebilir veya yükü başka kaynağa aktarabilir.
+
+Soru 37
+Exception prevention nedir?
+Cevap:
+Exception prevention, istisnaların oluşmasını en baştan engelleyecek tasarım tekniklerini
+ifade eder. Akıllı işaretçiler, soyut veri tipleri, wrappers veya güvenli API tasarımı bu
+kapsamda düşünülebilir. Amaç, hatayı yakalamaktan önce hatanın oluşma ihtimalini
+azaltmaktır.
+
+Soru 38
+Competence set artırma ne demektir?
+Cevap:
+Competence set artırma, bir bileşenin normal çalışmasının parçası olarak daha fazla durumu,
+özellikle de hata durumlarını ele alabilecek şekilde tasarlanmasıdır. Böylece sistem,
+beklenmeyen koşullarda daha dayanıklı davranır. Örneğin bir servis sadece ideal girdileri
+değil, eksik veya gecikmiş girdileri de yönetebilecek şekilde geliştirilebilir.
+
+3. Interoperability — Birlikte Çalışabilirlik
+
+Soru 39
+
+Interoperability nedir?
+Cevap:
+Interoperability, farklı sistemlerin, servislerin veya bileşenlerin birbiriyle uyumlu şekilde
+çalışabilme yeteneğidir. Bu kalite özelliği, özellikle dağıtık sistemlerde, servis odaklı
+mimarilerde ve farklı teknolojilerin birlikte kullanıldığı ortamlarda önemlidir.
+
+Soru 40
+Locate taktiği interoperability açısından ne sağlar?
+Cevap:
+Locate taktiği, sistemin ihtiyaç duyduğu servisleri bulabilmesini sağlar. Bu genellikle
+directory service veya service registry gibi mekanizmalarla yapılır. Örneğin bir servis, başka
+bir servisin adresini sabit olarak bilmek yerine registry üzerinden keşfedebilir.
+
+Soru 41
+Orchestration interoperability açısından ne anlama gelir?
+Cevap:
+Orchestration, hizmet çağrılarını koordine eden, yöneten ve sıraya koyan bir denetim
+mekanizmasıdır. Birden fazla servisin belirli bir iş sürecini tamamlamak için hangi sırayla
+çağrılacağını belirler. Özellikle karmaşık iş akışlarında servislerin birlikte çalışmasını
+kolaylaştırır.
+
+Soru 42
+Tailor interfaces taktiği nedir?
+Cevap:
+Tailor interfaces, sistemin arabirimleri ihtiyaçlara göre uyarlayabilmesidir. Bu uyarlama
+çeviri, buffering veya data smoothing gibi işlemleri içerebilir. Örneğin eski bir sistemden
+gelen veri yeni sistemin beklediği formata çevrilebilir. Bu yaklaşım, farklı sistemlerin uyum
+içinde çalışmasını sağlar.
+
+4. Modifiability — Değiştirilebilirlik
+
+Soru 43
+Modifiability kalite özelliği neyi ifade eder?
+
+Cevap:
+Modifiability, sistemin değişen gereksinimlere, yeni özelliklere veya çevresel koşullara ne
+kadar kolay uyum sağlayabildiğini ifade eder. İyi tasarlanmış bir mimaride değişikliklerin
+etkisi sınırlı olur ve sistemin büyük kısmı bozulmadan yeni ihtiyaçlar karşılanabilir.
+
+Soru 44
+Bir modülün boyutunu azaltma taktiği neyi amaçlar?
+Cevap:
+Bu taktik, büyük ve karmaşık modülleri daha küçük ve daha anlaşılır modüllere bölmeyi
+amaçlar. Büyük modüller genellikle bakım, test ve değişiklik açısından zordur. Modül bölme
+sayesinde sorumluluklar daha net hale gelir ve değişiklik etkisi azaltılır.
+
+Soru 45
+Cohesion artırma yani anlamsal tutarlılığı artırma nedir?
+Cevap:
+Cohesion artırma, bir modüldeki sorumlulukların aynı amaca hizmet etmesini sağlamaktır.
+Eğer bir modülde birbiriyle ilgisiz sorumluluklar varsa, bunlar farklı modüllere taşınmalıdır.
+Böylece modül daha anlaşılır, test edilebilir ve değiştirilebilir hale gelir.
+
+Soru 46
+Encapsulation modifiability açısından neden önemlidir?
+Cevap:
+Encapsulation, bir işlevselliği yalıtarak ona açık bir arayüz üzerinden erişilmesini sağlar. Bu
+sayede modülün iç yapısı değişse bile dış dünyaya sunduğu arayüz korunabilir. Böylece
+değişikliklerin sistemin diğer bölümlerine yayılması engellenir.
+
+Soru 47
+Intermediary kullanımı coupling’i nasıl azaltır?
+Cevap:
+Intermediary, iki modül arasına aracı bir soyutlama koyarak doğrudan bağımlılığı azaltır.
+Örneğin A modülü doğrudan C modülünü çağırmak yerine aradaki B soyut arayüzünü
+kullanabilir. Böylece C değiştiğinde A’nın etkilenme ihtimali azalır.
+
+Soru 48
+
+Modüller arası bağımlılıkları kısıtlamak neden önemlidir?
+Cevap:
+Eğer herhangi bir modül herhangi başka bir modülle serbestçe etkileşime girebiliyorsa sistem
+zamanla karmaşık ve kırılgan hale gelir. Bağımlılıkları sistematik biçimde kısıtlamak, mimari
+sınırların korunmasını sağlar. Bu durum bakım, test ve evrim süreçlerini kolaylaştırır.
+
+Soru 49
+Refactoring modifiability açısından nasıl kullanılır?
+Cevap:
+Refactoring, sistemin dış davranışını değiştirmeden iç yapısını iyileştirme işlemidir. Eğer iki
+veya daha fazla ilgisiz modül sürekli aynı değişikliklerden etkileniyorsa, ortak işlevsellik ayrı
+bir modüle taşınabilir. Böylece tekrar eden kod azalır ve değişikliklerin yönetimi kolaylaşır.
+
+Soru 50
+Abstract common services taktiği nedir?
+Cevap:
+Bu taktik, birden fazla benzer hizmetin ortak yönlerini soyutlamayı amaçlar. Örneğin farklı
+işletim sistemleri veya donanımlar üzerinde çalışması gereken bir sistemde platforma özgü
+detaylar soyutlanabilir. Böylece sistem daha taşınabilir ve değiştirilebilir hale gelir.
+
+Soru 51
+Defer binding taktiği ne anlama gelir?
+Cevap:
+Defer binding, önemli işlevselliklerin bağlanmasını yaşam döngüsünün daha sonraki
+aşamalarına ertelemektir. Bu sayede bazı özellikler sonradan değiştirilebilir, genişletilebilir
+veya kullanıcı tarafından özelleştirilebilir. Plug-in, add-on ve kullanıcı scripting
+mekanizmaları bu taktiğe örnektir.
+
+5. Performance — Performans
+
+Soru 52
+Performance taktiklerinin temel amacı nedir?
+Cevap:
+Performance taktiklerinin amacı, sistemin olaylara belirli zaman ve kaynak kısıtları içinde
+
+cevap verebilmesini sağlamaktır. Bu amaçla kaynak talebi kontrol edilir, kaynaklar yönetilir
+ve kıt kaynaklar uygun şekilde zamanlanır.
+
+5.1 Kaynak Talebini Kontrol Etme
+
+Soru 53
+Sampling rate yönetimi ne işe yarar?
+Cevap:
+Sampling rate yönetimi, sürekli veri akışı olan sistemlerde verinin hangi oranla
+örnekleneceğini kontrol eder. Daha düşük örnekleme oranı kaynak kullanımını azaltabilir,
+ancak doğruluk veya veri sadakati azalabilir. Bu nedenle performans ile doğruluk arasında
+tradeoff oluşur.
+
+Soru 54
+Event response sınırlandırma nedir?
+Cevap:
+Event response sınırlandırma, sistemin belirli bir zaman aralığında cevap verdiği olay
+sayısını kontrol etmesidir. Amaç, sistemin aşırı yüklenmesini önlemek ve gerçekten hizmet
+verilen olaylar için öngörülebilir cevap süresi sağlamaktır. Rate limiting bu taktiğe örnek
+verilebilir.
+
+Soru 55
+Olaylara öncelik verme performansa nasıl katkı sağlar?
+Cevap:
+Sistemde kaynaklardan daha fazla istek olduğunda, tüm olaylara eşit davranmak kritik
+işlemlerin gecikmesine yol açabilir. Önceliklendirme sayesinde kritik olaylar önce işlenir,
+daha az önemli olaylar bekletilebilir veya reddedilebilir. Bu taktik özellikle gerçek zamanlı
+ve yoğun trafikli sistemlerde önemlidir.
+
+Soru 56
+Overhead azaltma taktiği nedir?
+Cevap:
+Overhead azaltma, hizmet isteğine cevap verirken oluşan ek maliyetleri düşürmeyi amaçlar.
+Aracıların kaldırılması, bileşenlerin birlikte konumlandırılması veya gereksiz iletişim
+
+adımlarının azaltılması buna örnektir. Bu taktik latency’yi düşürebilir ancak bazen
+modifiability veya loose coupling üzerinde olumsuz etki yaratabilir.
+
+Soru 57
+Execution time sınırlandırma ne anlama gelir?
+Cevap:
+Execution time sınırlandırma, bir hizmet isteğine cevap verirken harcanan süre veya kaynak
+miktarını kontrol etmektir. CPU, bellek, bant genişliği, bağlantı ve kilit kullanımı
+sınırlandırılabilir. Böylece tek bir isteğin sistemi aşırı tüketmesi engellenir.
+
+Soru 58
+Kaynak verimliliğini artırma nasıl yapılır?
+Cevap:
+Kaynak verimliliği, kritik alanlardaki algoritmaların iyileştirilmesi veya daha verimli veri
+yapılarının kullanılmasıyla artırılabilir. Amaç latency’yi azaltmak ve throughput’u
+artırmaktır. Örneğin yavaş çalışan bir sıralama algoritması yerine daha verimli bir algoritma
+seçmek performansı iyileştirebilir.
+
+5.2 Kaynakları Yönetme
+
+Soru 59
+Kaynakları artırma taktiği nedir?
+Cevap:
+Kaynakları artırma, sistemin CPU, bellek, ağ bant genişliği veya depolama gibi kaynaklarını
+gerektiğinde kesintisiz biçimde genişletebilmesidir. Bu, yatay veya dikey ölçekleme şeklinde
+uygulanabilir. Özellikle değişken yük altında performansı korumak için önemlidir.
+
+Soru 60
+Concurrency ekleme performansı nasıl etkiler?
+Cevap:
+Concurrency, daha fazla hizmet isteğinin aynı anda işlenmesini sağlar. Paralel işlem akışları
+eklenerek throughput artırılabilir. Ancak concurrency kontrolsüz kullanılırsa race condition,
+deadlock veya nondeterminism gibi sorunlar doğurabilir. Bu nedenle dikkatli tasarlanmalıdır.
+
+Soru 61
+Verinin birden fazla kopyasını tutmak performansa nasıl katkı sağlar?
+Cevap:
+Sık erişilen verilerin birden fazla kopyasını tutmak, contention yani kaynak çekişmesini
+azaltır. Database replication veya cache kullanımı buna örnektir. Böylece çok sayıda
+kullanıcının aynı veriye erişmesi durumunda sistem daha hızlı cevap verebilir.
+
+Soru 62
+Hesaplama kaynaklarının birden fazla kopyasını tutmak ne anlama gelir?
+Cevap:
+Bu taktik, sık kullanılan hesaplama kaynaklarını çoğaltmayı ifade eder. Örneğin bir server
+farm içinde birden fazla uygulama sunucusu çalıştırılabilir. Load balancer bu sunucular
+arasında istekleri dağıtarak throughput’u artırır ve tek sunucu üzerindeki yükü azaltır.
+
+Soru 63
+Kuyruk boyutlarını sınırlandırmak neden önemlidir?
+Cevap:
+Kuyruk boyutları sınırsız bırakılırsa sistem aşırı yük altında çok fazla isteği bekletebilir ve
+bellek tüketimi artabilir. Kuyruk sınırı koymak, sistemin kontrollü davranmasını sağlar. Limit
+aşıldığında bazı istekler reddedilebilir veya farklı politika uygulanabilir.
+
+Soru 64
+Scheduling politikası nedir?
+Cevap:
+Scheduling politikası, özellikle kıt kaynakların hangi kurala göre tahsis edileceğini belirler.
+Örneğin öncelikli işler önce çalıştırılabilir, kısa işler tercih edilebilir veya adil paylaşım
+uygulanabilir. Scheduling, performans ve kaynak kullanımı üzerinde doğrudan etkilidir.
+
+6. Security — Güvenlik
+
+6.1 Saldırıları Tespit Etme
+
+Soru 65
+
+Security taktiklerinin genel amacı nedir?
+Cevap:
+Security taktiklerinin amacı, sistemi yetkisiz erişimden, veri ihlalinden, saldırılardan ve kötü
+niyetli kullanımdan korumaktır. Bu taktikler saldırıları tespit etmeyi, saldırılara direnmeyi,
+saldırılara tepki vermeyi ve saldırı sonrasında toparlanmayı kapsar.
+
+Soru 66
+Actor identification nedir?
+Cevap:
+Actor identification, sisteme gelen dış girdinin veya isteğin kaynağını tanımlamaktır. Sistem,
+kimin veya neyin istek gönderdiğini bilmelidir. Bu, güvenlik sürecinin ilk adımlarından
+biridir.
+
+Soru 67
+Authentication nedir?
+Cevap:
+Authentication, bir aktörün gerçekten iddia ettiği kişi, kullanıcı veya sistem olduğunu
+doğrulama işlemidir. Kullanıcı adı-şifre, token, sertifika veya biyometrik yöntemler
+authentication için kullanılabilir.
+
+Soru 68
+Message integrity doğrulama ne işe yarar?
+Cevap:
+Message integrity, mesajların veya dosyaların iletim sırasında değiştirilip değiştirilmediğini
+kontrol eder. Checksum, hash veya dijital imza gibi teknikler kullanılabilir. Böylece sistem,
+bozulmuş veya manipüle edilmiş verileri tespit edebilir.
+
+Soru 69
+Message delay detection nedir?
+Cevap:
+Message delay detection, bir mesajın iletilmesinin ne kadar sürdüğünü kontrol eder.
+Beklenenden fazla geciken mesajlar güvenlik veya performans açısından riskli olabilir. Bu
+taktik, replay attack veya ağ anomalilerini fark etmeye yardımcı olabilir.
+
+Soru 70
+Intrusion detection nedir?
+Cevap:
+Intrusion detection, sistemdeki ağ trafiğini veya hizmet isteği kalıplarını bilinen kötü niyetli
+davranışlarla karşılaştırarak saldırı girişimlerini tespit eder. IDS sistemleri bu taktiğe örnektir.
+
+Soru 71
+Denial-of-service saldırısı nasıl tespit edilir?
+Cevap:
+Denial-of-service saldırıları, sisteme gelen trafik kalıplarının bilinen DoS saldırı profilleriyle
+karşılaştırılmasıyla tespit edilebilir. Aşırı istek, olağan dışı trafik paterni veya belirli
+kaynaklara yoğun erişim bu tür saldırılara işaret edebilir.
+
+6.2 Saldırılara Direnme
+
+Soru 72
+Authorization nedir?
+Cevap:
+Authorization, kimliği doğrulanmış bir aktörün belirli veri veya hizmetlere erişme hakkı olup
+olmadığını kontrol eder. Authentication “kimsin?” sorusuna, authorization ise “bunu
+yapmaya yetkin var mı?” sorusuna cevap verir.
+
+Soru 73
+Limiting access nedir?
+Cevap:
+Limiting access, sistemin hangi parçalarına kimlerin veya hangi bileşenlerin erişebileceğini
+kontrol etmektir. İşlemciler, bellek, ağ bağlantıları veya uygulama kaynakları bu kapsamda
+sınırlandırılabilir.
+
+Soru 74
+Limiting exposure ne anlama gelir?
+Cevap:
+Limiting exposure, başarılı bir saldırının olasılığını veya etkisini azaltmayı amaçlar. Kritik
+
+kaynakları bölmek, dağıtmak veya sistem detaylarını gereksiz yere açığa çıkarmamak buna
+örnektir. “Tüm yumurtaları aynı sepete koymama” ilkesi bu taktiğin mantığını açıklar.
+
+Soru 75
+Data encryption güvenliğe nasıl katkı sağlar?
+Cevap:
+Data encryption, verilerin ve iletişimin şifrelenmesini sağlar. Böylece veri ele geçirilse bile
+yetkisiz kişiler tarafından okunması zorlaşır. Hem veri aktarımında hem de veri saklama
+sırasında kullanılabilir.
+
+Soru 76
+Input validation neden kritik bir güvenlik taktiğidir?
+Cevap:
+Input validation, dış girdilerin sistem çapında tutarlı biçimde doğrulanmasını sağlar.
+Filtreleme, canonicalization ve escaping gibi işlemlerle zararlı girdilerin sisteme zarar
+vermesi engellenir. SQL injection, XSS ve komut enjeksiyonu gibi saldırıları önlemek için
+kritik önemdedir.
+
+Soru 77
+Separation of entities ne anlama gelir?
+Cevap:
+Separation of entities, sistem varlıklarının birbirinden ayrılmasını ifade eder. Farklı
+sunucular, farklı ağlar, sanal makineler veya air gap gibi yöntemlerle uygulanabilir. Amaç,
+bir bileşendeki güvenlik ihlalinin tüm sistemi etkilemesini önlemektir.
+
+Soru 78
+Default settings değişikliği neden önemlidir?
+Cevap:
+Varsayılan ayarlar çoğu zaman güvenlik riski oluşturabilir. Sistem, kullanıcıyı veya
+yöneticiyi varsayılan parolaları ve ayarları değiştirmeye zorlayarak güvenliği artırabilir. Bu
+taktik, bilinen default konfigürasyonlara yönelik saldırıları azaltır.
+
+6.3 Saldırılara Tepki Verme ve Kurtulma
+
+Soru 79
+Access revocation nedir?
+Cevap:
+Access revocation, bir saldırıdan şüphelenildiğinde veya saldırı tespit edildiğinde erişim
+haklarının iptal edilmesidir. Normalde meşru olan kullanıcıların bile hassas kaynaklara
+erişimi geçici olarak sınırlandırılabilir.
+
+Soru 80
+Access lockout nedir?
+Cevap:
+Access lockout, bir kaynağa erişmek için tekrarlanan başarısız denemeler olduğunda erişimin
+kilitlenmesidir. Örneğin yanlış şifre denemeleri belirli sayıyı aşarsa kullanıcı hesabı geçici
+olarak kilitlenebilir.
+
+Soru 81
+Actor notification nedir?
+Cevap:
+Actor notification, saldırıdan şüphelenildiğinde veya saldırı tespit edildiğinde operatörlerin,
+güvenlik personelinin veya iş birliği yapan sistemlerin bilgilendirilmesidir. Bu taktik, hızlı
+müdahale ve koordinasyon sağlar.
+
+Soru 82
+Audit trail nedir?
+Cevap:
+Audit trail, kullanıcı ve sistem eylemlerinin kaydını tutan denetim izidir. Bir saldırı sonrası
+saldırganın ne yaptığını, hangi kaynaklara eriştiğini ve sistemde hangi etkileri bıraktığını
+incelemek için kullanılır. Güvenlik olaylarının geriye dönük analizinde kritik önemdedir.
+
+7. Testability — Test Edilebilirlik
+
+Soru 83
+Testability kalite özelliği neyi ifade eder?
+
+Cevap:
+Testability, bir sistemin veya bileşenin doğru çalışıp çalışmadığının kolayca test edilebilme
+derecesidir. İyi test edilebilir sistemlerde durum gözlemlenebilir, kontrol edilebilir ve test
+senaryoları kolayca uygulanabilir.
+
+Soru 84
+Özelleşmiş test arayüzleri ne işe yarar?
+Cevap:
+Sistem veya bileşenlerin test etmeyi ve izlemeyi kolaylaştırmak için özel arayüzler
+sağlamasıdır. Bu arayüzler sayesinde test sırasında sistem durumu kontrol edilebilir,
+izlenebilir veya belirli durumlara zorlanabilir.
+
+Soru 85
+Record/playback mekanizması nedir?
+Cevap:
+Record/playback, bir arayüzden geçen bilgilerin kaydedilmesi ve daha sonra test amaçlı
+yeniden oynatılmasıdır. Bu yöntem, aynı senaryonun tekrar tekrar test edilmesini sağlar ve
+hataların yeniden üretilmesini kolaylaştırır.
+
+Soru 86
+Localized state storage testability açısından ne sağlar?
+Cevap:
+Localized state storage, sistem veya modül durumunun test etmeyi kolaylaştıracak şekilde
+tek bir yerde tutulmasıdır. Durum dağınık biçimde saklanırsa testler karmaşıklaşır. Durumun
+yerelleştirilmesi gözlemlemeyi ve kontrol etmeyi kolaylaştırır.
+
+Soru 87
+Data source abstraction test etmeyi nasıl kolaylaştırır?
+Cevap:
+Veri kaynaklarını soyutlamak, gerçek veri kaynağı yerine test verisinin kolayca
+kullanılmasını sağlar. Örneğin gerçek database yerine mock repository veya test database
+kullanılabilir. Bu, bağımsız ve kontrollü test yazmayı kolaylaştırır.
+
+Soru 88
+
+Sandbox kullanımı testability açısından neden önemlidir?
+Cevap:
+Sandbox, sistemin izole bir ortamda çalıştırılmasını sağlar. Böylece deney veya test
+sonuçlarının gerçek sistemi bozmasından endişe edilmez. Özellikle riskli testlerde ve
+güvenlik testlerinde önemlidir.
+
+Soru 89
+Executable assertions nedir?
+Cevap:
+Executable assertions, programın çalışma sırasında belirli koşulların doğru olup olmadığını
+kontrol eden ifadeleridir. Eğer beklenen koşul sağlanmazsa sistem hatalı durum olduğunu
+bildirir. Bu, hataların erken fark edilmesini sağlar.
+
+Soru 90
+Testability için karmaşıklığı sınırlamak neden önemlidir?
+Cevap:
+Yapısal karmaşıklık arttıkça test etmek zorlaşır. Döngüsel bağımlılıklardan kaçınmak,
+bağımlılıkları azaltmak ve dependency injection kullanmak test edilebilirliği artırır. Daha
+sade mimari daha kolay test edilir.
+
+Soru 91
+Nondeterminism testability açısından neden sorunludur?
+Cevap:
+Nondeterminism, aynı testin her çalıştırıldığında farklı sonuçlar üretmesine neden olabilir.
+Özellikle kontrolsüz paralellik testleri zorlaştırır. Bu nedenle sistemde nondeterminism
+kaynakları azaltılmalı veya kontrol altına alınmalıdır.
+
+8. Usability — Kullanılabilirlik
+
+Soru 92
+Usability kalite özelliği neyi ifade eder?
+Cevap:
+Usability, kullanıcının sistemi kolay, etkili ve tatmin edici şekilde kullanabilmesini ifade
+
+eder. Bu kalite özelliği kullanıcı inisiyatifini destekleme ve sistemin kullanıcıya uygun
+yardım sağlaması gibi taktikleri içerir.
+
+Soru 93
+Cancel operation desteği usability açısından neden önemlidir?
+Cevap:
+Kullanıcıların başlattıkları işlemleri iptal edebilmesi, kontrol hissini artırır. Yanlışlıkla
+başlatılan veya uzun süren işlemler kullanıcı tarafından durdurulabilir. Bu, kullanıcı
+deneyimini iyileştirir.
+
+Soru 94
+Undo desteği ne sağlar?
+Cevap:
+Undo, kullanıcının yaptığı işlemi geri alabilmesini sağlar. Bu özellik, kullanıcı hatalarının
+etkisini azaltır ve sistemi daha güvenli kullanılabilir hale getirir. Metin editörleri, tasarım
+araçları ve dosya sistemleri için yaygın bir usability taktiğidir.
+
+Soru 95
+Pause/resume desteği nedir?
+Cevap:
+Pause/resume, bir işlemin duraklatılıp daha sonra devam ettirilebilmesidir. Örneğin dosya
+indirme işleminin duraklatılması ve daha sonra kaldığı yerden devam etmesi kullanıcı
+deneyimini artırır.
+
+Soru 96
+Aggregation usability açısından ne sağlar?
+Cevap:
+Aggregation, işlemlerin nesne gruplarına uygulanmasını sağlar. Örneğin bir dosya
+gezgininde seçili dosyaların toplam boyutunun gösterilmesi buna örnektir. Kullanıcı tek tek
+işlem yapmak zorunda kalmaz.
+
+Soru 97
+Task model nedir?
+
+Cevap:
+Task model, kullanıcının yürüttüğü görevlere ilişkin sistemin bilgi tutmasıdır. Sistem bu
+modele göre kullanıcıya yardım sağlayabilir. Örneğin form girişlerinde doğrulama yapmak,
+kullanıcıyı bir sihirbazla yönlendirmek veya UI değişikliklerine dikkat çekmek task model
+kullanımına örnektir.
+
+Soru 98
+User model usability açısından ne işe yarar?
+Cevap:
+User model, farklı kullanıcı sınıflarına göre arayüzün uyarlanmasını sağlar. Örneğin yeni
+başlayan kullanıcıya daha fazla açıklama gösterilebilir, uzman kullanıcıya daha kısa yollar
+sunulabilir. Lokalizasyon ve erişilebilirlik desteği de bu kapsamdadır.
+
+Soru 99
+System model kullanıcıya nasıl yardımcı olur?
+Cevap:
+System model, sistemin kendi özelliklerine ve durumuna göre kullanıcıya uygun geri
+bildirim sağlamasını ifade eder. Örneğin uzun süren işlemlerde progress bar göstermek,
+kullanıcı dostu hata mesajı vermek veya ekran boyutuna göre UI ayarlamak bu taktiğe
+örnektir.
+
+9. DevOps Taktikleri
+
+Soru 100
+DevOps taktikleri hangi kalite özelliklerinden yararlanır?
+Cevap:
+DevOps taktikleri tek bir kalite özelliğine bağlı değildir. Testability, performance,
+modifiability ve availability gibi birçok kalite özelliğinden taktikler alır. Amaç, sistemin
+geliştirme, test, deployment, izleme ve operasyon süreçlerini daha hızlı, güvenilir ve
+sürdürülebilir hale getirmektir.
+
+Soru 101
+DevOps açısından test edilebilirlik neden önemlidir?
+
+Cevap:
+DevOps süreçlerinde otomasyon, sürekli entegrasyon ve sürekli dağıtım önemlidir. Bu
+nedenle sistemin test edilebilir olması gerekir. Özelleşmiş test arayüzleri, record/playback ve
+sandbox gibi taktikler DevOps süreçlerini destekler.
+
+Soru 102
+DevOps açısından kaynakları artırabilme neden önemlidir?
+Cevap:
+DevOps ortamlarında sistem yükü değişebilir ve deployment süreçleri dinamik olabilir.
+CPU, bellek ve ağ bant genişliği gibi kaynakların kesintisiz artırılabilmesi, operasyonel
+esneklik sağlar. Bu durum ölçeklenebilirlik ve performans açısından önemlidir.
+
+Soru 103
+DevOps’ta concurrency ekleme ne sağlar?
+Cevap:
+Concurrency ekleme, daha fazla hizmet isteğinin aynı anda işlenmesini sağlar. Bu durum
+özellikle yüksek trafik altında performansı artırır. DevOps açısından sistemin yatay
+ölçeklenmesini ve otomatik kaynak yönetimini kolaylaştırır.
+
+Soru 104
+DevOps açısından cache veya veri çoğaltma neden önemlidir?
+Cevap:
+Sık erişilen verilerin birden fazla kopyasının tutulması contention’ı azaltır. Cache ve
+database replication, sistemin daha hızlı yanıt vermesine yardımcı olur. DevOps ortamında bu
+taktikler performans ve availability hedeflerini destekler.
+
+Soru 105
+DevOps açısından modifiability neden önemlidir?
+Cevap:
+DevOps kültüründe sık değişiklik, hızlı deployment ve sürekli iyileştirme vardır. Bu nedenle
+sistemin kolay değiştirilebilir olması gerekir. Encapsulation, abstraction ve defer binding gibi
+modifiability taktikleri, değişikliklerin daha az riskle yapılmasını sağlar.
+
+Soru 106
+
+DevOps açısından availability taktikleri neden önemlidir?
+Cevap:
+DevOps süreçlerinde sistemin sürekli hizmet vermesi hedeflenir. Bu nedenle fault detection,
+exception detection, voting, rollback, active redundancy ve reconfiguration gibi availability
+taktikleri önemlidir. Bu taktikler, arıza durumunda hızlı toparlanmayı ve kesintisiz hizmeti
+destekler.
+
+10. Kısa Sınav Özeti
+
+Soru 107
+Availability taktiklerinin üç temel grubu nasıl özetlenebilir?
+Cevap:
+Availability taktikleri genel olarak üç başlık altında toplanabilir. Birincisi fault detection,
+yani hataları tespit etmektir. İkincisi fault recovery, yani hata oluştuktan sonra sistemi
+toparlamaktır. Üçüncüsü ise fault prevention, yani hataların oluşmasını en baştan
+engellemektir.
+
+Soru 108
+Performance taktikleri temel olarak hangi iki alana odaklanır?
+Cevap:
+Performance taktikleri temel olarak kaynak talebini kontrol etme ve kaynakları yönetme
+alanlarına odaklanır. Kaynak talebini kontrol etme, sisteme gelen iş miktarını veya işin
+maliyetini azaltmaya çalışır. Kaynakları yönetme ise CPU, bellek, ağ ve işlem kapasitesini
+daha verimli kullanmayı hedefler.
+
+Soru 109
+Security taktikleri hangi aşamalardan oluşur?
+Cevap:
+Security taktikleri saldırıları tespit etme, saldırılara direnme, saldırılara tepki verme ve saldırı
+sonrası toparlanma aşamalarından oluşur. Authentication, authorization, encryption, input
+validation, access revocation ve audit trail bu aşamalara örnektir.
+
+Soru 110
+Modifiability için en önemli tasarım yaklaşımı nedir?
+
+Cevap:
+Modifiability için en önemli yaklaşım, değişiklik etkisini sınırlamaktır. Bunun için modüller
+küçük tutulmalı, cohesion artırılmalı, coupling azaltılmalı, ortak hizmetler soyutlanmalı ve
+bağlama mümkün olduğunca ertelenmelidir.
+
+Soru 111
+Testability için sistemde hangi özellikler bulunmalıdır?
+Cevap:
+Testability için sistemin durumu kontrol edilebilir ve gözlemlenebilir olmalıdır. Test
+arayüzleri, record/playback, localized state storage, data source abstraction, sandbox ve
+executable assertions bu amaca hizmet eder.
+
+Soru 112
+Usability için kullanıcı inisiyatifi neden önemlidir?
+Cevap:
+Kullanıcı inisiyatifi, kullanıcının sistemi kontrol edebilmesini sağlar. İşlemi iptal etme, geri
+alma, duraklatma ve devam ettirme gibi özellikler kullanıcı deneyimini iyileştirir ve hata
+yapma korkusunu azaltır.
+
+11. En Kritik Kavramlar — Tekrar Listesi
+Kalite Özelliği
+
+Temel Taktikler
+
+Availability
+
+Ping/echo, heartbeat, monitor, voting,
+exception detection, self-test, redundancy,
+rollback, retry, degradation,
+reconfiguration
+
+Interoperability
+
+Locate, orchestration, tailor interfaces
+
+Modifiability
+
+Split module, increase cohesion,
+encapsulate, intermediary, restrict
+dependencies, refactoring, abstraction,
+defer binding
+
+Performance
+
+Sampling rate, event limiting,
+prioritization, overhead reduction,
+
+concurrency, caching, replication, queue
+limit, scheduling
+
+Security
+
+Identification, authentication, integrity,
+intrusion detection, authorization,
+encryption, input validation, lockout, audit
+trail
+
+Testability
+
+Test interfaces, record/playback, localized
+state, data abstraction, sandbox,
+assertions, reduce complexity
+
+Usability
+
+Cancel, undo, pause/resume, aggregation,
+task model, user model, system model
+
+DevOps
+
+Testability + performance + modifiability
++ availability taktiklerinin operasyonel
+birleşimi
+
+12. Çok Kısa Akılda Kalıcı Özet
+Availability soruları genelde şu mantıkla çözülür:
+Önce hata tespit edilir, sonra sistem toparlanır, en son hata tekrar oluşmasın diye önlem
+alınır.
+Performance soruları genelde şu mantıkla çözülür:
+Ya gelen iş azaltılır, ya kaynaklar artırılır, ya da kaynaklar daha akıllı yönetilir.
+Security soruları genelde şu mantıkla çözülür:
+Önce kim geldiğini tanı, sonra yetkisi var mı bak, sonra veriyi koru, saldırı olursa tepki ver
+ve iz bırak.
+Modifiability soruları genelde şu mantıkla çözülür:
+Modülleri küçült, sorumlulukları ayır, bağımlılığı azalt ve değişikliği geç bağla.
+Testability soruları genelde şu mantıkla çözülür:
+Sistemi gözle, kontrol et, kaydet, tekrar oynat ve izole ortamda test et.
+Usability
+PEKİ OS ORULARI SEN TEST, EŞLEŞTİRME VE SIRALAA ŞEKLİNDE SORSAYDIN
+NASIL SORARDINPARAGRAFLAR DÜZENİNDE YAPSORU CEVAP ŞEKLİNDE
+MonicaGPT-5.5
+
+1 saniye düşündü
+Ek B Taktik Temelli Anketler
+Test, Eşleştirme ve Sıralama Soruları
+Paragraf Düzeninde Soru–Cevap
+Aşağıdaki sorular, gönderdiğin taktik temelli anketler konusunu sınav tarzına uygun şekilde
+çalışman için hazırlanmıştır. Sorular; çoktan seçmeli test, eşleştirme ve sıralama
+biçimindedir. Cevaplar her sorunun hemen altında verilmiştir.
+
+A) Çoktan Seçmeli Test Soruları
+
+Soru 1
+Bir mimari gözden geçirme sırasında analist, mimara her taktik sorusunu sırasıyla yöneltir,
+verilen yanıtları kaydeder, taktiğin mimaride desteklenip desteklenmediğini işaretler ve
+taktiğin hangi modül, framework veya bileşen tarafından gerçekleştirildiğini not eder. Bu
+kullanım biçimi aşağıdakilerden hangisine en iyi örnektir?
+A) Kod derleme süreci
+B) Hafif mimari gözden geçirme aracı olarak taktik temelli anket kullanımı
+C) Kullanıcı arayüzü prototipleme
+D) Veritabanı normalizasyonu
+E) Performans testi yerine sadece tahmin yapma
+Cevap: B
+Açıklama: Taktik temelli anketler, özellikle lightweight architecture review amacıyla
+kullanılır. Analist, soruları mimara yöneltir ve “destekleniyor mu, nerede uygulanıyor, riski
+nedir, gerekçesi nedir?” gibi bilgileri toplar. Bu yöntem mimarideki kalite taktiklerini
+sistematik şekilde görünür hale getirir.
+
+Soru 2
+Taktik temelli anketlerde “Supported” sütununun temel amacı nedir?
+A) Sistemin hangi programlama diliyle yazıldığını göstermek
+B) İlgili taktiğin mimaride desteklenip desteklenmediğini göstermek
+C) Sadece risk seviyesini belirtmek
+D) Sadece maliyet hesabı yapmak
+E) Kullanıcı rollerini listelemek
+Cevap: B
+
+Açıklama: Supported sütunu, ilgili taktiğin mimaride var olup olmadığını belirtir. Taktik
+destekleniyorsa E/Y, desteklenmiyorsa H/N olarak işaretlenir. Bu sütun mimarinin kalite
+taktikleri açısından hızlıca taranmasını sağlar.
+
+Soru 3
+Bir sistemde “heartbeat” kullanılıyorsa aşağıdaki açıklamalardan hangisi doğrudur?
+A) Sistem kullanıcı arayüzü rengini otomatik değiştirir.
+B) Sistem monitörü ile süreç arasında periyodik ileti alışverişi yapılır ve cevap gelmezse
+arıza şüphesi doğar.
+C) Sistem tüm verileri şifrelemeden saklar.
+D) Sistem sadece batch işlemleri hızlandırır.
+E) Sistem modülleri rastgele birbirine bağlar.
+Cevap: B
+Açıklama: Heartbeat, availability kapsamındaki “detect faults” taktiklerinden biridir. Bir
+bileşen belirli aralıklarla canlı olduğunu bildirir. Beklenen heartbeat mesajı gelmezse sistem
+bileşenin arızalandığını düşünebilir ve failover veya alarm mekanizmasını başlatabilir.
+
+Soru 4
+Bir sistemde aktif düğüm arızalandığında yedek düğümün hemen devreye girebilmesi için
+tüm düğümler aynı girdileri paralel olarak alıp işliyor ve eşzamanlı durumda kalıyorsa bu
+hangi availability taktiğidir?
+A) Cold spare
+B) Active redundancy / hot spare
+C) Input validation
+D) Defer binding
+E) Audit trail
+Cevap: B
+Açıklama: Active redundancy, diğer adıyla hot spare, yedeklerin pasif beklemediği; aktif
+düğümle birlikte aynı girdileri işlediği yedeklilik türüdür. Bu yöntem hızlı failover sağlar
+ancak maliyet ve kaynak kullanımı yüksektir.
+
+Soru 5
+Passive redundancy ile active redundancy arasındaki temel fark aşağıdakilerden hangisidir?
+A) Passive redundancy’de yedek düğümler hiçbir zaman kullanılmaz.
+B) Active redundancy’de tüm düğümler girdileri paralel işlerken, passive redundancy’de
+
+sadece aktif düğüm trafiği işler ve yedekler durum güncellemesi alır.
+C) Passive redundancy sadece güvenlik için kullanılır.
+D) Active redundancy sadece kullanıcı arayüzü için kullanılır.
+E) İki kavram tamamen aynıdır.
+Cevap: B
+Açıklama: Active redundancy’de yedek bileşenler aktif bileşenle eşzamanlı olarak çalışır.
+Passive redundancy’de ise yedek bileşenler aktif trafiği işlemez, ancak aktif düğümden
+düzenli state bilgisi alır. Bu nedenle active redundancy daha hızlı ama daha maliyetlidir.
+
+Soru 6
+Bir sistemde hata oluştuğunda sistemin daha önce kaydedilmiş iyi bir duruma dönmesi hangi
+taktikle açıklanır?
+A) Rollback
+B) Sampling rate
+C) Authentication
+D) Aggregation
+E) Locate
+Cevap: A
+Açıklama: Rollback, hata durumunda sistemin önceden bilinen tutarlı ve iyi bir duruma geri
+dönmesini sağlar. Özellikle transaction, batch processing ve veri güncelleme işlemlerinde
+kullanılır.
+
+Soru 7
+Sistem kaynakları zorlandığında, raporlama gibi daha az kritik işlevleri kapatıp ödeme veya
+çağrı yönlendirme gibi kritik işlevleri çalıştırmaya devam ediyorsa hangi availability taktiği
+uygulanmaktadır?
+A) Degradation
+B) Versioning
+C) Actor identification
+D) Data source abstraction
+E) Undo
+Cevap: A
+Açıklama: Degradation politikası, sistemin tamamen çökmesini önlemek için en kritik
+işlevleri sürdürüp daha az kritik olanları geçici olarak bırakmasıdır. Bu taktik availability
+açısından sistemin sınırlı kapasiteyle de olsa hizmet vermeye devam etmesini sağlar.
+
+Soru 8
+Bir dağıtık sistemde servislerin adreslerini sabit olarak bilmek yerine bir directory service
+veya service registry üzerinden bulunması hangi interoperability taktiğidir?
+A) Locate
+B) Rollback
+C) Self-test
+D) Escalating restart
+E) Encryption
+Cevap: A
+Açıklama: Locate taktiği, sistemin ihtiyaç duyduğu servisleri çalışma zamanında
+bulabilmesini sağlar. Service registry, directory service veya discovery mekanizmaları bu
+taktiğin tipik uygulamalarıdır.
+
+Soru 9
+Bir iş sürecinde birden fazla servisin hangi sırayla çağrılacağını yöneten ve servis çağrılarını
+koordine eden mekanizma aşağıdakilerden hangisidir?
+A) Orchestration
+B) Sanity checking
+C) Cold spare
+D) Audit trail
+E) Localized state storage
+Cevap: A
+Açıklama: Orchestration, birlikte çalışan servislerin çağrılarını koordine eder ve sıralar.
+Özellikle interoperability açısından farklı servislerin ortak bir iş akışını tamamlayabilmesi
+için önemlidir.
+
+Soru 10
+Modifiability açısından büyük ve karmaşık bir modülün daha küçük ve daha anlaşılır
+modüllere bölünmesi hangi taktik grubuna girer?
+A) Bir modülün boyutunu azaltma
+B) Saldırıları tespit etme
+C) Kaynakları artırma
+D) Kullanıcı inisiyatifini destekleme
+E) Hatalardan kurtulma
+Cevap: A
+
+Açıklama: Büyük modüller değiştirilmeye, test edilmeye ve anlaşılmaya daha dirençlidir. Bu
+nedenle modülleri daha küçük parçalara bölmek modifiability’yi artırır.
+
+Soru 11
+Bir modüldeki sorumlulukların aynı amaca hizmet etmesi ve ilgisiz sorumlulukların başka
+modüllere taşınması hangi modifiability taktiğidir?
+A) Increase cohesion
+B) Data encryption
+C) Ping/echo
+D) Event response limiting
+E) Access lockout
+Cevap: A
+Açıklama: Cohesion, bir modülün içindeki sorumlulukların birbiriyle ne kadar ilişkili
+olduğunu gösterir. Anlamsal tutarlılığı artırmak, modülün daha anlaşılır ve değiştirilebilir
+hale gelmesini sağlar.
+
+Soru 12
+A modülü doğrudan C modülünü çağırmak yerine araya soyut bir B arayüzü konuluyorsa
+amaç genellikle nedir?
+A) Coupling’i azaltmak
+B) Şifrelemeyi kaldırmak
+C) Tüm hataları görmezden gelmek
+D) Testleri devre dışı bırakmak
+E) Kaynak kullanımını sınırsız artırmak
+Cevap: A
+Açıklama: Intermediary kullanımı, modüller arasındaki doğrudan bağımlılığı azaltır. Böylece
+bir modüldeki değişiklik diğer modülleri daha az etkiler. Bu, modifiability açısından önemli
+bir taktiktir.
+
+Soru 13
+Plug-in, add-on veya kullanıcı betikleriyle sistem işlevselliğinin sonradan genişletilebilmesi
+hangi modifiability taktiğine örnektir?
+A) Defer binding
+B) Fault detection
+C) Voting
+
+D) Message delay detection
+E) Rollback
+Cevap: A
+Açıklama: Defer binding, bir işlevselliğin bağlanmasını yaşam döngüsünün ilerleyen
+aşamalarına bırakır. Böylece sistem sonradan genişletilebilir veya özelleştirilebilir hale gelir.
+
+Soru 14
+Sürekli veri akışı alan bir sistemde örnekleme oranını düşürerek kaynak kullanımını azaltmak
+hangi performance taktiğidir?
+A) Sampling rate yönetimi
+B) Active redundancy
+C) Authorization
+D) Undo
+E) Self-test
+Cevap: A
+Açıklama: Sampling rate yönetimi, veri akışının hangi sıklıkla örnekleneceğini belirler. Daha
+düşük örnekleme oranı kaynak tüketimini azaltabilir; ancak doğruluk veya veri sadakati
+azalabilir.
+
+Soru 15
+Sistemin belirli bir zaman aralığında cevap verdiği olay sayısını sınırlaması hangi performans
+taktiğine örnektir?
+A) Event response limiting
+B) Shadow mode
+C) Input validation
+D) Tailor interface
+E) Audit trail
+Cevap: A
+Açıklama: Event response limiting, sistemin aşırı yük altında kontrolsüz şekilde tüm olaylara
+cevap vermeye çalışmasını engeller. Rate limiting ve throttling bu taktiğe örnektir.
+
+Soru 16
+Sık erişilen verilerin cache veya database replication ile birden fazla kopyasının tutulması
+hangi performance amacına hizmet eder?
+
+A) Contention’ı azaltma
+B) Kullanıcı hatalarını geri alma
+C) Mesajları şifrelemeden gönderme
+D) Arayüzleri belirsizleştirme
+E) Modülleri büyütme
+Cevap: A
+Açıklama: Sık erişilen verilerin tek bir noktadan okunması contention oluşturabilir. Cache
+veya replication ile bu veri birden fazla yerde tutulursa erişim yükü dağılır ve performans
+artabilir.
+
+Soru 17
+Kuyruk boyutlarının sınırsız bırakılmasının temel riski nedir?
+A) Bellek tüketiminin artması ve sistemin aşırı yük altında kontrolsüz hale gelmesi
+B) Kullanıcı deneyiminin her zaman artması
+C) Güvenlik ihtiyacının tamamen ortadan kalkması
+D) Modüller arası bağımlılığın azalması
+E) Verinin otomatik şifrelenmesi
+Cevap: A
+Açıklama: Queue limit kullanılmazsa sistem çok fazla isteği kuyrukta biriktirebilir. Bu
+durum bellek tüketimini artırır, latency’yi büyütür ve sistemin çökmesine yol açabilir.
+
+Soru 18
+Authentication ile authorization arasındaki fark aşağıdakilerden hangisidir?
+A) Authentication “kimsin?”, authorization “bunu yapmaya yetkin var mı?” sorusuna cevap
+verir.
+B) Authentication sadece veri şifreler, authorization sadece cache kullanır.
+C) İkisi de tamamen aynı anlama gelir.
+D) Authorization kullanıcı kimliğini doğrular, authentication erişim hakkını iptal eder.
+E) Authentication sadece availability taktiğidir.
+Cevap: A
+Açıklama: Authentication aktörün kimliğini doğrular. Authorization ise kimliği doğrulanmış
+aktörün belirli kaynaklara erişme yetkisinin olup olmadığını kontrol eder.
+
+Soru 19
+
+Dış girdilerin filtrelenmesi, canonicalization yapılması ve escaping uygulanması hangi
+güvenlik taktiğidir?
+A) Input validation
+B) Heartbeat
+C) Rollback
+D) Pause/resume
+E) Locate
+Cevap: A
+Açıklama: Input validation, zararlı veya hatalı girdilerin sisteme zarar vermesini önlemek
+için kullanılır. SQL injection, XSS ve komut enjeksiyonu gibi saldırılara karşı kritik
+önemdedir.
+
+Soru 20
+Bir saldırı sonrası kullanıcı ve sistem eylemlerinin geriye dönük incelenebilmesi için kayıt
+tutulması hangi security taktiğidir?
+A) Audit trail
+B) Sampling rate
+C) Defer binding
+D) Self-test
+E) Aggregation
+Cevap: A
+Açıklama: Audit trail, sistemdeki eylemlerin izini tutar. Saldırı sonrası kimin ne yaptığı,
+hangi kaynağa eriştiği ve sistemde hangi değişikliklerin oluştuğu bu kayıtlarla incelenebilir.
+
+Soru 21
+Bir test sırasında gerçek veritabanı yerine mock repository veya test veri kaynağı
+kullanılabilmesi hangi testability taktiğine örnektir?
+A) Data source abstraction
+B) Active redundancy
+C) Encryption
+D) Lockout
+E) Degradation
+Cevap: A
+Açıklama: Data source abstraction, veri kaynaklarının soyutlanmasını sağlar. Böylece gerçek
+veri kaynağı yerine test verisi veya mock bileşen kullanılabilir. Bu durum test yazmayı
+kolaylaştırır.
+
+Soru 22
+Bir arayüzden geçen bilgilerin kaydedilip daha sonra test amacıyla yeniden oynatılması hangi
+testability taktiğidir?
+A) Record/playback
+B) Access revocation
+C) Voting
+D) Orchestration
+E) Co-location
+Cevap: A
+Açıklama: Record/playback, hataların yeniden üretilebilmesi ve aynı senaryonun tekrar test
+edilebilmesi için kullanılır. Özellikle entegrasyon ve regresyon testlerinde faydalıdır.
+
+Soru 23
+Kullanıcının başlattığı işlemi geri alabilmesi hangi usability taktiğidir?
+A) Undo
+B) Ping/echo
+C) Message integrity
+D) Scheduling
+E) State resynchronization
+Cevap: A
+Açıklama: Undo, kullanıcı hatalarının etkisini azaltır ve kullanıcıya kontrol hissi verir.
+Usability açısından önemli bir kullanıcı inisiyatifi desteğidir.
+
+Soru 24
+Uzun süren işlemlerde progress bar gösterilmesi, kullanıcı dostu hata mesajı verilmesi ve
+ekran boyutuna göre UI ayarlanması hangi usability modeline örnektir?
+A) System model
+B) Fault model
+C) Transaction model
+D) Attack model
+E) Deployment model
+Cevap: A
+
+Açıklama: System model, sistemin kendi durumu ve özelliklerine göre kullanıcıya geri
+bildirim sağlamasını ifade eder. Progress bar, kullanıcı dostu hata mesajları ve responsive
+arayüz bu kapsamdadır.
+
+Soru 25
+DevOps taktikleri neden tek bir kalite özelliği altında değerlendirilemez?
+A) Çünkü DevOps; testability, performance, modifiability ve availability gibi birçok kalite
+özelliğinin taktiklerini birlikte kullanır.
+B) Çünkü DevOps sadece kullanıcı arayüzü rengidir.
+C) Çünkü DevOps yalnızca güvenlik testinden ibarettir.
+D) Çünkü DevOps mimariyle ilişkili değildir.
+E) Çünkü DevOps sadece donanım satın alma sürecidir.
+Cevap: A
+Açıklama: DevOps, geliştirme ve operasyon süreçlerinin birlikte yürütülmesini hedefler. Bu
+nedenle test edilebilirlik, performans, değiştirilebilirlik ve kullanılabilirlik gibi farklı kalite
+özelliklerine ait taktikleri beraber kullanır.
+
+B) Eşleştirme Soruları
+
+Soru 26
+Aşağıdaki availability taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Heartbeat
+
+2
+
+Voting
+
+3
+
+Rollback
+
+4
+
+Degradation
+
+5
+
+Shadow mode
+
+Harf
+
+Açıklama
+
+A
+
+Hata durumunda daha önce kaydedilmiş
+iyi bir duruma dönme.
+
+B
+
+Daha önce arızalanmış veya güncellenmiş
+bileşeni aktif role almadan önce gözlem
+altında çalıştırma.
+
+C
+
+Sistem monitörü ile bileşen arasında
+periyodik canlılık mesajı alışverişi.
+
+D
+
+Çoğaltılmış bileşenlerin aynı sonucu
+üretip üretmediğini kontrol etme.
+
+E
+
+Kaynaklar zorlandığında kritik işlevleri
+sürdürüp daha az kritik işlevleri bırakma.
+
+Cevap: 1-C, 2-D, 3-A, 4-E, 5-B
+Açıklama: Heartbeat canlılık kontrolü, voting çoğaltılmış sonuçların karşılaştırılması,
+rollback iyi duruma dönüş, degradation sınırlı hizmete geçiş, shadow mode ise güvenli
+yeniden devreye alma taktiğidir.
+
+Soru 27
+Aşağıdaki redundancy türlerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Redundancy Türü
+
+1
+
+Active redundancy
+
+2
+
+Passive redundancy
+
+3
+
+Cold spare
+
+Harf
+
+Açıklama
+
+A
+
+Yedek bileşen failover gerçekleşene kadar
+hizmet dışındadır ve devreye alınmadan
+önce başlatılır.
+
+B
+
+Tüm düğümler aynı girdileri paralel işler
+ve senkron durumda kalır.
+
+C
+
+Yalnızca aktif düğüm trafiği işler, yedek
+düğüm periyodik state güncellemesi alır.
+
+Cevap: 1-B, 2-C, 3-A
+Açıklama: Active redundancy en hızlı failover sağlar ancak maliyeti yüksektir. Passive
+redundancy orta maliyet ve orta toparlanma süresi sunar. Cold spare daha ucuzdur ama
+toparlanması daha uzun sürer.
+
+Soru 28
+Aşağıdaki kalite özelliklerini uygun taktiklerle eşleştiriniz.
+No
+
+Kalite Özelliği
+
+1
+
+Availability
+
+2
+
+Interoperability
+
+3
+
+Modifiability
+
+4
+
+Performance
+
+5
+
+Security
+
+6
+
+Testability
+
+7
+
+Usability
+
+Harf
+
+Örnek Taktik
+
+A
+
+Locate / service discovery
+
+B
+
+Input validation
+
+C
+
+Record/playback
+
+D
+
+Heartbeat
+
+E
+
+Defer binding
+
+F
+
+Event response limiting
+
+G
+
+Undo
+
+Cevap: 1-D, 2-A, 3-E, 4-F, 5-B, 6-C, 7-G
+Açıklama: Her kalite özelliğinin kendine özgü taktikleri vardır. Availability için heartbeat,
+interoperability için locate, modifiability için defer binding, performance için event response
+limiting, security için input validation, testability için record/playback, usability için undo
+tipik örneklerdir.
+
+Soru 29
+Aşağıdaki performance taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Sampling rate yönetimi
+
+2
+
+Event response limiting
+
+3
+
+Concurrency ekleme
+
+4
+
+Cache / data replication
+
+5
+
+Queue size limiting
+
+Harf
+
+Açıklama
+
+A
+
+Daha fazla isteğin aynı anda işlenmesini
+sağlama.
+
+B
+
+Sık erişilen verinin birden fazla kopyasını
+tutarak çekişmeyi azaltma.
+
+C
+
+Sürekli veri akışında örnekleme oranını
+kontrol etme.
+
+D
+
+Kuyruğa alınabilecek olay sayısını
+sınırlama.
+
+E
+
+Belirli zaman aralığında cevaplanan olay
+sayısını sınırlandırma.
+
+Cevap: 1-C, 2-E, 3-A, 4-B, 5-D
+Açıklama: Performance taktikleri ya kaynak talebini azaltır ya kaynakları daha iyi yönetir.
+Sampling ve event limiting talebi kontrol ederken, concurrency ve replication kaynak
+kullanımını iyileştirir. Queue limiting ise aşırı yükü kontrol altına alır.
+
+Soru 30
+Aşağıdaki security taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Authentication
+
+2
+
+Authorization
+
+3
+
+Message integrity
+
+4
+
+Data encryption
+
+5
+
+Audit trail
+
+Harf
+
+Açıklama
+
+A
+
+Kullanıcı veya sistem eylemlerinin geriye
+dönük incelenebilmesi için kayıt
+tutulması.
+
+B
+
+Aktörün iddia ettiği kişi veya sistem olup
+olmadığını doğrulama.
+
+C
+
+Mesajın iletim sırasında değiştirilip
+değiştirilmediğini kontrol etme.
+
+D
+
+Veriyi yetkisiz kişilerin okuyamayacağı
+hale getirme.
+
+E
+
+Kimliği doğrulanmış aktörün ilgili
+kaynağa erişim hakkı olup olmadığını
+kontrol etme.
+
+Cevap: 1-B, 2-E, 3-C, 4-D, 5-A
+Açıklama: Authentication kimlik doğrular, authorization yetki kontrolü yapar. Message
+integrity mesajın bozulmadığını gösterir, encryption veriyi gizler, audit trail olay sonrası
+inceleme sağlar.
+
+Soru 31
+Aşağıdaki modifiability taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Split module
+
+2
+
+Increase cohesion
+
+3
+
+Encapsulation
+
+4
+
+Intermediary
+
+5
+
+Defer binding
+
+Harf
+
+Açıklama
+
+A
+
+İşlevselliği yalıtıp açık bir arayüz
+üzerinden erişilebilir kılma.
+
+B
+
+Büyük ve karmaşık modülü daha küçük
+modüllere ayırma.
+
+C
+
+Bağlanmayı yaşam döngüsünün ileriki
+aşamalarına erteleme.
+
+D
+
+Doğrudan bağımlılığı azaltmak için araya
+soyut bir bileşen koyma.
+
+E
+
+Modül içindeki sorumlulukların aynı
+amaca hizmet etmesini sağlama.
+
+Cevap: 1-B, 2-E, 3-A, 4-D, 5-C
+Açıklama: Modifiability’nin temel mantığı değişiklik etkisini azaltmaktır. Bu nedenle
+modüller sadeleştirilir, sorumluluklar tutarlı hale getirilir, iç detaylar kapsüllenir ve
+bağımlılıklar soyutlanır.
+
+Soru 32
+Aşağıdaki testability taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Specialized test interfaces
+
+2
+
+Record/playback
+
+3
+
+Localized state storage
+
+4
+
+Data source abstraction
+
+5
+
+Sandbox
+
+Harf
+
+Açıklama
+
+A
+
+Gerçek veri kaynağı yerine test verisi veya
+mock kullanmayı kolaylaştırma.
+
+B
+
+Sistemi izole ortamda deneyip gerçek
+sistemi etkilememek.
+
+C
+
+Sistem durumunu test etmeyi
+kolaylaştıracak özel arayüzler sağlama.
+
+D
+
+Arayüzden geçen bilgileri kaydedip daha
+sonra yeniden oynatma.
+
+E
+
+Sistem durumunu test için tek veya sınırlı
+bir yerde toplama.
+
+Cevap: 1-C, 2-D, 3-E, 4-A, 5-B
+Açıklama: Testability taktikleri sistemin kontrol edilebilir ve gözlemlenebilir olmasını
+hedefler. Test arayüzleri, kayıt/oynatma, durumun yerelleştirilmesi, veri kaynağı soyutlama
+ve sandbox bu hedefi destekler.
+
+Soru 33
+Aşağıdaki usability taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Cancel
+
+2
+
+Undo
+
+3
+
+Pause/resume
+
+4
+
+Task model
+
+5
+
+User model
+
+6
+
+System model
+
+Harf
+
+Açıklama
+
+A
+
+Kullanıcının yürüttüğü göreve göre
+yardım ve yönlendirme sağlama.
+
+B
+
+İşlemi duraklatıp daha sonra devam
+ettirme.
+
+C
+
+Kullanıcı sınıfına göre UI uyarlama.
+
+D
+
+Sistemin durumuna göre progress bar veya
+kullanıcı dostu hata mesajı sağlama.
+
+E
+
+Başlatılan işlemi iptal etme.
+
+F
+
+Yapılan işlemi geri alma.
+
+Cevap: 1-E, 2-F, 3-B, 4-A, 5-C, 6-D
+Açıklama: Usability taktikleri kullanıcıya kontrol vermeyi ve sistemin kullanıcıya uygun
+destek sağlamasını amaçlar. Cancel, undo ve pause/resume kullanıcı inisiyatifini; task, user
+ve system model ise sistem inisiyatifini destekler.
+
+C) Sıralama Soruları
+
+Soru 34
+Taktik temelli anketlerin kullanımında izlenen adımları doğru sıraya koyunuz.
+I. Risk sütununda taktiğin uygulanma zorluğu veya riski H, M, L olarak belirtilir.
+II. Supported sütununda taktiğin desteklenip desteklenmediği E/H veya Y/N ile işaretlenir.
+III. Rationale sütununda kararın gerekçesi ve sonuçları açıklanır.
+IV. Taktik destekleniyorsa tasarım kararları ve bunların mimarideki konumu yazılır.
+A) II - IV - I - III
+B) I - II - III - IV
+C) IV - II - I - III
+D) III - II - IV - I
+E) II - I - III - IV
+Cevap: A
+Açıklama: Önce taktiğin desteklenip desteklenmediği işaretlenir. Destekleniyorsa nerede ve
+nasıl uygulandığı açıklanır. Ardından risk seviyesi yazılır. Son olarak kararın gerekçesi ve
+etkileri belirtilir.
+
+Soru 35
+Availability açısından fault oluşumundan toparlanmaya kadar mantıklı akışı sıralayınız.
+I. Recovery veya failover mekanizması çalıştırılır.
+II. Fault sistemde ortaya çıkar.
+III. Fault detection mekanizması problemi tespit eder.
+IV. Sistem kabul edilebilir hizmet durumuna döndürülür.
+V. Operatör veya ilgili sistemler bilgilendirilir.
+A) II - III - I - IV - V
+B) III - II - I - V - IV
+C) I - II - III - IV - V
+
+D) V - IV - III - II - I
+E) II - I - III - V - IV
+Cevap: A
+Açıklama: Availability senaryosunda önce fault oluşur. Daha sonra heartbeat, monitor veya
+exception detection gibi mekanizmalar bunu tespit eder. Ardından failover veya recovery
+çalışır, sistem kabul edilebilir hizmet durumuna gelir ve operatör bilgilendirilir.
+
+Soru 36
+Bir bileşenin arıza sonrası güvenli şekilde yeniden sisteme alınması için uygun sıralama
+hangisidir?
+I. Bileşen shadow mode’da çalıştırılır.
+II. Bileşen arızalı veya güncellenmiş durumdan çıkarılır.
+III. Shadow mode sırasında davranışı gözlemlenir.
+IV. Gerekirse state resynchronization yapılır.
+V. Bileşen aktif role geri alınır.
+A) II - IV - I - III - V
+B) I - II - III - IV - V
+C) II - I - V - III - IV
+D) V - IV - III - II - I
+E) III - II - I - IV - V
+Cevap: A
+Açıklama: Önce bileşen arızalı veya güncellenmiş durumdan çıkarılır. Aktif role dönmeden
+önce gerekiyorsa state eşitlemesi yapılır. Sonra shadow mode’da çalıştırılır, davranışı izlenir
+ve güvenli olduğuna karar verilirse aktif role alınır.
+
+Soru 37
+Bir performance iyileştirme sürecinde en mantıklı sıralama hangisidir?
+I. Uygun performans taktiği seçilir.
+II. Beklenen performans senaryosu ve ölçütü tanımlanır.
+III. Sistem ölçülür ve darboğaz belirlenir.
+IV. Tasarım değişikliği uygulanır.
+V. Sonuç tekrar ölçülür.
+A) II - III - I - IV - V
+B) I - II - III - IV - V
+C) III - V - I - II - IV
+
+D) IV - I - II - III - V
+E) V - IV - III - II - I
+Cevap: A
+Açıklama: Önce neyin hedeflendiği netleşmelidir. Sonra sistem ölçülür ve darboğaz bulunur.
+Ardından uygun taktik seçilir, tasarım değişikliği uygulanır ve etkisi tekrar ölçülür.
+
+Soru 38
+Security açısından bir isteğin güvenli şekilde işlenmesi için en uygun sıralama hangisidir?
+I. Aktörün ilgili kaynağa erişim yetkisi kontrol edilir.
+II. Aktörün kim olduğu tanımlanır.
+III. Aktörün iddia ettiği kişi veya sistem olduğu doğrulanır.
+IV. Girdi doğrulanır ve gerekiyorsa mesaj bütünlüğü kontrol edilir.
+V. İşlem kayıt altına alınır.
+A) II - III - I - IV - V
+B) III - II - I - IV - V
+C) I - II - III - V - IV
+D) IV - II - III - I - V
+E) V - IV - III - II - I
+Cevap: A
+Açıklama: Önce aktör tanımlanır. Sonra kimliği doğrulanır. Ardından yetkisi kontrol edilir.
+Sonrasında girdi ve mesaj güvenliği kontrol edilir. İşlem sonunda audit trail için kayıt tutulur.
+
+Soru 39
+Modifiability açısından karmaşık bir modülü iyileştirme sürecinde uygun sıralama
+hangisidir?
+I. Modülün sorumlulukları analiz edilir.
+II. İlgisiz sorumluluklar ayrılır ve cohesion artırılır.
+III. Büyük modül gerekirse daha küçük modüllere bölünür.
+IV. Modüller arası bağımlılıklar kısıtlanır veya intermediary ile azaltılır.
+V. Yeni yapı açık arayüzlerle kapsüllenir.
+A) I - II - III - V - IV
+B) III - I - II - IV - V
+C) I - III - II - IV - V
+D) V - IV - III - II - I
+E) II - I - III - V - IV
+Cevap: C
+
+Açıklama: Önce modülün ne yaptığı anlaşılır. Gerekirse modül bölünür. Sonra sorumluluklar
+tutarlı hale getirilir. Ardından bağımlılıklar azaltılır ve açık arayüzlerle kapsülleme sağlanır.
+
+Soru 40
+Testability için bir entegrasyon hatasını tekrar üretme sürecinde uygun sıralama hangisidir?
+I. Arayüzden geçen veriler record mekanizması ile kaydedilir.
+II. Test ortamı veya sandbox hazırlanır.
+III. Kaydedilen veri playback ile yeniden oynatılır.
+IV. Sistem davranışı gözlemlenir.
+V. Hata tekrar üretilip analiz edilir.
+A) II - I - III - IV - V
+B) I - II - III - V - IV
+C) III - I - II - IV - V
+D) V - IV - III - II - I
+E) II - III - I - IV - V
+Cevap: A
+Açıklama: Önce gerçek sistemi etkilemeyecek test ortamı hazırlanır. Sonra arayüzden geçen
+veri kaydedilir. Bu veri tekrar oynatılır, sistem davranışı gözlemlenir ve hata analiz edilir.
+
+Soru 41
+DevOps açısından bir sistemin güvenli ve hızlı dağıtıma hazırlanması için uygun sıralama
+hangisidir?
+I. Test edilebilirlik için otomatik test ve gözlem arayüzleri sağlanır.
+II. Performans için kaynak yönetimi ve ölçekleme mekanizmaları hazırlanır.
+III. Modifiability için kapsülleme ve soyutlama kullanılır.
+IV. Availability için rollback, monitoring ve recovery mekanizmaları eklenir.
+V. Değişiklikler sürekli entegrasyon ve dağıtım hattında kontrollü şekilde çalıştırılır.
+A) III - I - II - IV - V
+B) I - II - III - IV - V
+C) V - IV - III - II - I
+D) II - I - IV - III - V
+E) IV - III - II - I - V
+Cevap: A
+Açıklama: DevOps için önce sistemin değiştirilebilir olması gerekir; bu nedenle kapsülleme
+ve soyutlama önemlidir. Ardından test edilebilirlik, performans, availability ve en sonunda
+CI/CD hattında kontrollü dağıtım gelir. Burada farklı kalite taktikleri birlikte çalışır.
+
+D) Karma Mini Deneme
+
+Soru 42
+Bir sistem yoğun trafik altında tüm istekleri kabul etmeye devam ediyor, kuyruk sınırsız
+büyüyor ve sonunda bellek yetersizliği nedeniyle sistem çöküyor. Bu durumda aşağıdaki
+taktiklerden hangisi öncelikle düşünülmelidir?
+A) Queue size limiting ve event response limiting
+B) Undo ve pause/resume
+C) Audit trail ve actor notification
+D) Shadow mode ve state resynchronization
+E) Tailor interface ve orchestration
+Cevap: A
+Açıklama: Problem performans ve kaynak kontrolü problemidir. Kuyruk sınırsız büyüdüğü
+için queue size limiting gerekir. Ayrıca sisteme gelen olaylara verilen yanıtı sınırlamak için
+event response limiting veya rate limiting uygulanmalıdır.
+
+Soru 43
+Bir sistemde eski ödeme sağlayıcısı yeni bir ödeme sağlayıcısıyla değiştirilecektir. Kodun her
+yerine yayılmış doğrudan bağımlılıklar nedeniyle değişiklik çok zor yapılmaktadır. Bu
+durumda en uygun modifiability taktikleri hangileridir?
+A) Encapsulation, intermediary ve abstract common services
+B) Heartbeat, ping/echo ve rollback
+C) Authentication, lockout ve encryption
+D) Sampling rate, queue limit ve scheduling
+E) Cancel, undo ve task model
+Cevap: A
+Açıklama: Sorun modüller arası sıkı bağlılıktır. Ödeme sağlayıcısı kapsüllenmeli, araya
+soyut bir interface veya intermediary konulmalı ve ortak ödeme hizmeti soyutlanmalıdır.
+Böylece gelecekte sağlayıcı değişimi daha kolay olur.
+
+Soru 44
+Bir servisin arızalanıp arızalanmadığı geç fark ediliyor ve kullanıcılar uzun süre hata alıyor.
+Bu sorunu azaltmak için en uygun availability taktikleri hangileridir?
+
+A) Heartbeat, system monitor ve exception detection
+B) User model, system model ve undo
+C) Defer binding, refactoring ve cohesion
+D) Encryption, audit trail ve authorization
+E) Sampling rate, cache ve scheduling
+Cevap: A
+Açıklama: Problem arızanın geç fark edilmesidir. Bu nedenle fault detection taktikleri
+gerekir. Heartbeat, system monitor ve exception detection servis arızalarını daha erken tespit
+ederek recovery mekanizmalarını tetikleyebilir.
+
+Soru 45
+Bir saldırgan defalarca yanlış parola deneyerek hesaba erişmeye çalışıyor. Sistem bu
+durumda hesabı geçici olarak kilitliyor ve güvenlik ekibine bildirim gönderiyor. Bu hangi
+security taktiklerine örnektir?
+A) Access lockout ve actor notification
+B) Sampling rate ve concurrency
+C) Rollback ve retry
+D) Locate ve orchestration
+E) Record/playback ve sandbox
+Cevap: A
+Açıklama: Tekrarlanan başarısız erişim denemeleri sonrasında hesabın kilitlenmesi access
+lockout’tur. Güvenlik ekibinin bilgilendirilmesi ise actor notification taktiğidir.
+
+E) Çok Kısa Cevap Anahtarı
+Soru
+
+Cevap
+
+1
+
+B
+
+2
+
+B
+
+3
+
+B
+
+4
+
+B
+
+5
+
+B
+
+6
+
+A
+
+7
+
+A
+
+8
+
+A
+
+9
+
+A
+
+10
+
+A
+
+11
+
+A
+
+12
+
+A
+
+13
+
+A
+
+14
+
+A
+
+15
+
+A
+
+16
+
+A
+
+17
+
+A
+
+18
+
+A
+
+19
+
+A
+
+20
+
+A
+
+21
+
+A
+
+22
+
+A
+
+23
+
+A
+
+24
+
+A
+
+25
+
+A
+
+26
+
+1-C, 2-D, 3-A, 4-E, 5-B
+
+27
+
+1-B, 2-C, 3-A
+
+28
+
+1-D, 2-A, 3-E, 4-F, 5-B, 6-C, 7-G
+
+29
+
+1-C, 2-E, 3-A, 4-B, 5-D
+
+30
+
+1-B, 2-E, 3-C, 4-D, 5-A
+
+31
+
+1-B, 2-E, 3-A, 4-D, 5-C
+
+32
+
+1-C, 2-D, 3-E, 4-A, 5-B
+
+33
+
+1-E, 2-F, 3-B, 4-A, 5-C, 6-D
+
+34
+
+A
+
+35
+
+A
+
+36
+
+A
+
+37
+
+A
+
+38
+
+A
+
+39
+
+C
+
+40
+
+A
+
+41
+
+A
+
+42
+
+A
+
+43
+
+A
+
+44
+
+A
+
+45
+
+A
+
+Son Tekrar Mantığı
+Bu konularda test sorusu çözerken şu şekilde düşün:
+Availability sorusunda genelde amaç şudur:
+Hata oluşmadan fark et, oluşursa toparlan, gerekirse yedekle devam et.
+Performance sorusunda genelde amaç şudur:
+İş yükünü azalt, kaynakları artır veya kaynakları daha akıllı yönet.
+Security sorusunda genelde amaç şudur:
+Kim geldi, gerçekten o mu, yetkisi var mı, veri bozulmuş mu, saldırı varsa ne kayıt kaldı?
+Modifiability sorusunda genelde amaç şudur:
+Modülleri küçük, tutarlı, kapsüllenmiş ve az bağımlı yap.
+Testability sorusunda genelde amaç şudur:
+Sistemi kontrol edilebilir, gözlemlenebilir ve tekrar test edilebilir hale getir.
+Usability sorusunda genelde amaç şudur:
+Kullanıcıya kontrol ver; sistem de kullanıcıya doğru zamanda doğru yardım ve geri bildirim
+sağlasın.
+EŞLEŞTİRME SORULARI VE SIRALAMA SORULARI DA HAZIRLASAN SORU
+CEVAP OLARAK
+MonicaGPT-5.5
+1 saniye düşündü
+Ek B Taktik Temelli Anketler
+Eşleştirme ve Sıralama Soruları
+Soru–Cevap Formatında
+Aşağıda sadece eşleştirme ve sıralama türünde sorular hazırladım. Sorular, gönderdiğin
+Availability, Interoperability, Modifiability, Performance, Security, Testability,
+Usability ve DevOps taktikleri üzerinden oluşturuldu. Her sorunun hemen altında cevap ve
+kısa açıklama bulunmaktadır.
+
+A) Eşleştirme Soruları
+
+Soru 1 — Availability: Fault Detection Taktikleri
+Aşağıdaki availability fault detection taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Ping / Echo
+
+2
+
+System Monitor
+
+3
+
+Heartbeat
+
+4
+
+Time Stamp
+
+5
+
+Sanity Checking
+
+Harf
+
+Açıklama
+
+A
+
+Bir sistem monitörü ile süreç arasında
+periyodik ileti alışverişi yaparak bileşenin
+canlı olup olmadığını kontrol eder.
+
+B
+
+Bir bileşenin veya bağlantının çalışır
+durumda olup olmadığını basit istek-cevap
+yöntemiyle kontrol eder.
+
+C
+
+Bir bileşenin çıktılarının veya işlemlerinin
+mantıklı, geçerli ve beklenen sınırlar
+içinde olup olmadığını denetler.
+
+D
+
+Ağ, kaynak tıkanıklığı veya bileşen sağlığı
+gibi durumları izleyen özel bir gözlem
+bileşenidir.
+
+E
+
+Dağıtık sistemlerde olayların zamanını ve
+sırasını kontrol etmeye yardım eder.
+
+Cevap:
+1-B, 2-D, 3-A, 4-E, 5-C
+Açıklama:
+Ping/echo basit canlılık kontrolüdür. System monitor sistemi izler. Heartbeat periyodik
+canlılık mesajıdır. Time stamp olay sırasını anlamaya yardım eder. Sanity checking ise
+çıktıların makul olup olmadığını denetler.
+
+Soru 2 — Availability: Detect Faults Devamı
+Aşağıdaki taktikleri doğru açıklamalarıyla eşleştiriniz.
+
+No
+
+Taktik
+
+1
+
+Condition Monitoring
+
+2
+
+Voting
+
+3
+
+Exception Detection
+
+4
+
+Self-Test
+
+Harf
+
+Açıklama
+
+A
+
+Çoğaltılmış bileşenlerin aynı sonuçları
+üretip üretmediğini kontrol eder.
+
+B
+
+Bileşenin kendi doğru çalışmasını test
+etmesini sağlar.
+
+C
+
+Sistem istisnası, parametre sınırı, tür
+hatası veya timeout gibi normal akışı
+bozan durumları tespit eder.
+
+D
+
+Bileşen veya cihazın çalışma koşullarını
+izler ve tasarım varsayımlarının hâlâ
+geçerli olup olmadığını kontrol eder.
+
+Cevap:
+1-D, 2-A, 3-C, 4-B
+Açıklama:
+Condition monitoring çalışma koşullarını izler. Voting yedek bileşenlerin sonuçlarını
+karşılaştırır. Exception detection olağan dışı akışları fark eder. Self-test ise bileşenin kendi
+kendini test etmesidir.
+
+Soru 3 — Availability: Redundancy Türleri
+Aşağıdaki redundancy türlerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Active Redundancy / Hot Spare
+
+2
+
+Passive Redundancy / Warm Spare
+
+3
+
+Cold Spare
+
+Harf
+
+Açıklama
+
+A
+
+Yedek bileşen normalde hizmet dışıdır;
+failover olunca başlatılır ve hizmete alınır.
+
+B
+
+Tüm düğümler aynı girdileri paralel işler
+ve aktif düğümle eşzamanlı durumda
+kalır.
+
+C
+
+Sadece aktif düğüm trafiği işler; yedek
+düğüm periyodik durum güncellemesi alır.
+
+Cevap:
+1-B, 2-C, 3-A
+Açıklama:
+Active redundancy en hızlı failover sağlar ama maliyetlidir. Passive redundancy daha az
+maliyetli ama biraz daha yavaştır. Cold spare en düşük maliyetli ama toparlanması en uzun
+olan yaklaşımdır.
+
+Soru 4 — Availability: Recover from Faults
+Aşağıdaki recovery taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Exception Handling
+
+2
+
+Rollback
+
+3
+
+Retry
+
+4
+
+Ignore Faulty Behavior
+
+5
+
+Degradation
+
+6
+
+Reconfiguration
+
+Harf
+
+Açıklama
+
+A
+
+Geçici hata ihtimalinde işlemi belirli
+kurallarla yeniden deneme.
+
+B
+
+Hatalı veya sahte olduğu belirlenen
+davranışı yok sayma.
+
+C
+
+Daha az kritik işlevleri bırakıp kritik
+işlevleri sürdürme.
+
+D
+
+Hata oluştuğunda daha önce kaydedilmiş
+iyi bir duruma dönme.
+
+E
+
+Hatanın raporlanması, ele alınması veya
+düzeltilip yeniden denenmesi.
+
+F
+
+Arıza sonrası görevleri çalışır durumdaki
+kaynaklara yeniden atama.
+
+Cevap:
+1-E, 2-D, 3-A, 4-B, 5-C, 6-F
+Açıklama:
+Bu taktiklerin hepsi fault oluştuktan sonra sistemin hizmet vermeye devam etmesini veya
+toparlanmasını sağlar.
+
+Soru 5 — Availability: Reintroduction Taktikleri
+Aşağıdaki reintroduction taktiklerini doğru açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Shadow Mode
+
+2
+
+State Resynchronization
+
+3
+
+Escalating Restart
+
+4
+
+Nonstop Forwarding
+
+5
+
+Out-of-Service
+
+Harf
+
+Açıklama
+
+A
+
+Önce küçük birimi, gerekirse daha büyük
+birimi yeniden başlatarak toparlanma
+sağlar.
+
+B
+
+Problemli bileşeni geçici olarak aktif
+hizmetten çıkarır.
+
+C
+
+Arızalanmış veya güncellenmiş bileşeni
+aktif role almadan önce gölge kipte
+çalıştırır.
+
+D
+
+Aktif bileşenlerdeki durum bilgisini yedek
+bileşenlere yeniden aktarır.
+
+E
+
+Denetim düzlemi arızalansa bile veri
+düzleminin bilinen rotalardan iletime
+devam etmesini sağlar.
+
+Cevap:
+1-C, 2-D, 3-A, 4-E, 5-B
+Açıklama:
+Bu taktikler daha çok arızalı veya güncellenmiş bileşenin güvenli biçimde sisteme geri
+alınması ve hizmetin devam ettirilmesiyle ilgilidir.
+
+Soru 6 — Availability: Prevent Faults
+Aşağıdaki fault prevention taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Transactions
+
+2
+
+Predictive Model
+
+3
+
+Exception Prevention
+
+4
+
+Increase Competence Set
+
+Harf
+
+Açıklama
+
+A
+
+Gelecekte oluşabilecek hataları tahmin
+edip düzeltici eylem başlatır.
+
+B
+
+Atomik, tutarlı, yalıtılmış ve kalıcı durum
+güncellemeleri sağlar.
+
+C
+
+Bileşenin daha fazla normal ve hata
+durumunu ele alabilecek şekilde
+tasarlanmasıdır.
+
+D
+
+Hatanın oluşmasını en baştan engelleyen
+güvenli veri tipleri, wrapper veya benzeri
+tasarımları kullanır.
+
+Cevap:
+1-B, 2-A, 3-D, 4-C
+Açıklama:
+Prevent faults taktikleri, fault ortaya çıkmadan önce sistemi daha dayanıklı ve güvenli hale
+getirmeyi amaçlar.
+
+Soru 7 — Interoperability Taktikleri
+Aşağıdaki interoperability taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Locate
+
+2
+
+Orchestration
+
+3
+
+Tailor Interfaces
+
+Harf
+
+Açıklama
+
+A
+
+Servis çağrılarını koordine eden, yöneten
+ve sıraya koyan mekanizmadır.
+
+B
+
+Servisleri directory service veya service
+registry aracılığıyla bulmayı sağlar.
+
+C
+
+Arabirime çeviri, buffering veya data
+smoothing gibi uyarlamalar ekleyip
+çıkarabilmeyi sağlar.
+
+Cevap:
+1-B, 2-A, 3-C
+Açıklama:
+Interoperability, farklı sistemlerin birlikte çalışabilmesiyle ilgilidir. Locate servis bulmayı,
+orchestration servislerin birlikte akmasını, tailor interfaces ise uyumsuz arayüzlerin
+uyarlanmasını sağlar.
+
+Soru 8 — Modifiability Taktikleri
+Aşağıdaki modifiability taktiklerini doğru açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Split Module
+
+2
+
+Increase Cohesion
+
+3
+
+Encapsulation
+
+4
+
+Intermediary
+
+5
+
+Restrict Dependencies
+
+6
+
+Refactoring
+
+7
+
+Abstract Common Services
+
+8
+
+Defer Binding
+
+Harf
+
+Açıklama
+
+A
+
+Modüller arasındaki bağımlılıkların
+serbestçe yayılmasını engeller.
+
+B
+
+Büyük ve karmaşık modülü daha küçük
+modüllere böler.
+
+C
+
+İşlevselliği yalıtır ve açık bir arayüz
+üzerinden erişim sağlar.
+
+D
+
+Ortak veya benzer hizmetleri soyutlayarak
+değişiklik etkisini azaltır.
+
+E
+
+Modül içindeki sorumlulukların aynı
+amaca hizmet etmesini sağlar.
+
+F
+
+Doğrudan bağımlılığı azaltmak için iki
+modül arasına aracı soyutlama koyar.
+
+G
+
+Sistemin dış davranışını değiştirmeden iç
+yapıyı iyileştirir.
+
+H
+
+İşlevselliğin bağlanmasını yaşam
+döngüsünün ilerleyen aşamasına erteler.
+
+Cevap:
+1-B, 2-E, 3-C, 4-F, 5-A, 6-G, 7-D, 8-H
+Açıklama:
+Modifiability taktikleri değişiklik etkisini sınırlamak için kullanılır. Temel mantık; modülleri
+sadeleştirmek, bağımlılığı azaltmak, ortak noktaları soyutlamak ve bazı kararları geç
+bağlamaktır.
+
+Soru 9 — Performance: Kaynak Talebini Kontrol Etme
+Aşağıdaki performance taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Manage Sampling Rate
+
+2
+
+Limit Event Response
+
+3
+
+Prioritize Events
+
+4
+
+Reduce Overhead
+
+5
+
+Bound Execution Time
+
+6
+
+Increase Resource Efficiency
+
+Harf
+
+Açıklama
+
+A
+
+Kritik olayları daha az önemli olaylardan
+önce işler.
+
+B
+
+Sürekli veri akışında örnekleme oranını
+değiştirerek kaynak talebini kontrol eder.
+
+C
+
+Algoritma veya veri yapısı
+iyileştirmeleriyle kaynakları daha verimli
+kullanır.
+
+D
+
+Belirli zaman aralığında cevaplanan olay
+sayısını sınırlandırır.
+
+E
+
+Aracıları kaldırma veya co-location ile ek
+işlem maliyetini azaltır.
+
+F
+
+Bir isteğe yanıt verirken harcanan süre
+veya kaynak miktarını sınırlar.
+
+Cevap:
+1-B, 2-D, 3-A, 4-E, 5-F, 6-C
+Açıklama:
+Bu taktikler sisteme gelen işin miktarını veya bir işin sisteme olan maliyetini azaltmaya
+odaklanır.
+
+Soru 10 — Performance: Kaynakları Yönetme
+Aşağıdaki performance kaynak yönetimi taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Increase Resources
+
+2
+
+Introduce Concurrency
+
+3
+
+Maintain Multiple Copies of Data
+
+4
+
+Maintain Multiple Copies of Computation
+
+5
+
+Bound Queue Sizes
+
+6
+
+Schedule Resources
+
+Harf
+
+Açıklama
+
+A
+
+CPU, bellek veya ağ bant genişliği gibi
+kaynakları artırmayı sağlar.
+
+B
+
+Kıt kaynakların belirli bir politikaya göre
+tahsis edilmesini sağlar.
+
+C
+
+Daha fazla isteğin aynı anda işlenmesini
+sağlar.
+
+D
+
+Kuyruğa alınabilecek olay sayısını
+sınırlar.
+
+E
+
+Server farm gibi yapılarla hesaplama
+kapasitesini çoğaltır.
+
+F
+
+Cache veya database replication ile sık
+erişilen veriyi çoğaltır.
+
+Cevap:
+1-A, 2-C, 3-F, 4-E, 5-D, 6-B
+Açıklama:
+Kaynak yönetimi taktikleri, sistemin mevcut veya artırılmış kaynaklarını daha verimli ve
+kontrollü kullanmasını sağlar.
+
+Soru 11 — Security: Detecting Attacks
+Aşağıdaki security tespit taktiklerini açıklamalarıyla eşleştiriniz.
+
+No
+
+Taktik
+
+1
+
+Actor Identification
+
+2
+
+Authentication
+
+3
+
+Message Integrity
+
+4
+
+Message Delay Detection
+
+5
+
+Intrusion Detection
+
+6
+
+DoS Detection
+
+Harf
+
+Açıklama
+
+A
+
+Aktörün iddia ettiği kişi veya sistem
+olduğunu doğrular.
+
+B
+
+Mesajın iletim sırasında değiştirilip
+değiştirilmediğini kontrol eder.
+
+C
+
+Sisteme gelen dış girdinin veya isteğin
+kaynağını tanımlar.
+
+D
+
+Trafik veya istek kalıplarını bilinen kötü
+niyetli davranışlarla karşılaştırır.
+
+E
+
+Mesajın iletim süresinin beklenen aralıkta
+olup olmadığını kontrol eder.
+
+F
+
+Trafik kalıbını bilinen hizmet reddi
+saldırısı profilleriyle karşılaştırır.
+
+Cevap:
+1-C, 2-A, 3-B, 4-E, 5-D, 6-F
+Açıklama:
+Security tespit taktikleri, sisteme kimin geldiğini, mesajın bozulup bozulmadığını ve saldırı
+kalıplarının olup olmadığını anlamaya çalışır.
+
+Soru 12 — Security: Resisting and Reacting
+Aşağıdaki güvenlik taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Authorization
+
+2
+
+Limiting Access
+
+3
+
+Limiting Exposure
+
+4
+
+Data Encryption
+
+5
+
+Input Validation
+
+6
+
+Access Revocation
+
+7
+
+Access Lockout
+
+8
+
+Actor Notification
+
+9
+
+Audit Trail
+
+Harf
+
+Açıklama
+
+A
+
+Dış girdinin filtrelenmesi,
+canonicalization ve escaping işlemleriyle
+doğrulanmasıdır.
+
+B
+
+Bir saldırıdan şüphelenildiğinde erişim
+hakkının iptal edilmesidir.
+
+C
+
+Kimliği doğrulanmış aktörün ilgili
+kaynağa erişim hakkı olup olmadığını
+kontrol eder.
+
+D
+
+Başarısız erişim denemeleri
+tekrarlandığında erişimi kilitler.
+
+E
+
+Verileri ve iletişimi şifreler.
+
+F
+
+Saldırı tespit edildiğinde operatörleri veya
+ilgili sistemleri bilgilendirir.
+
+G
+
+Sistem kaynaklarına kimlerin veya nelerin
+erişebileceğini sınırlar.
+
+H
+
+Kullanıcı ve sistem eylemlerini geriye
+dönük inceleme için kaydeder.
+
+I
+
+Kritik kaynakları bölerek veya gizleyerek
+saldırı etkisini azaltır.
+
+Cevap:
+1-C, 2-G, 3-I, 4-E, 5-A, 6-B, 7-D, 8-F, 9-H
+Açıklama:
+Security taktikleri yalnızca saldırıyı engellemekle kalmaz; saldırı olduğunda tepki vermeyi
+ve sonrasında analiz yapmayı da kapsar.
+
+Soru 13 — Testability Taktikleri
+Aşağıdaki testability taktiklerini açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Specialized Test Interfaces
+
+2
+
+Record / Playback
+
+3
+
+Localized State Storage
+
+4
+
+Data Source Abstraction
+
+5
+
+Sandbox
+
+6
+
+Executable Assertions
+
+7
+
+Limit Structural Complexity
+
+8
+
+Limit Nondeterminism
+
+Harf
+
+Açıklama
+
+A
+
+Test sonuçlarının gerçek sistemi
+etkilememesi için izole ortam sağlar.
+
+B
+
+Arayüzden geçen bilgiyi kaydedip test için
+yeniden oynatır.
+
+C
+
+Rastgelelik ve kontrolsüz paralellik gibi
+tekrar üretilemeyen davranışları azaltır.
+
+D
+
+Sistem durumunu test etmeyi
+kolaylaştırmak için özel arayüz sağlar.
+
+E
+
+Veri kaynaklarının mock veya test
+verisiyle değiştirilebilmesini sağlar.
+
+F
+
+Sistem durumunu test için tek veya sınırlı
+yerde tutar.
+
+G
+
+Çalışma anında beklenen koşulların
+sağlanıp sağlanmadığını kontrol eder.
+
+H
+
+Döngüsel bağımlılıkları azaltma ve
+dependency injection gibi yollarla test
+karmaşıklığını azaltır.
+
+Cevap:
+1-D, 2-B, 3-F, 4-E, 5-A, 6-G, 7-H, 8-C
+Açıklama:
+Testability taktikleri sistemin kontrol edilebilir, gözlemlenebilir, izole edilebilir ve tekrar test
+edilebilir hale gelmesini sağlar.
+
+Soru 14 — Usability Taktikleri
+Aşağıdaki usability taktiklerini uygun açıklamalarıyla eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Cancel
+
+2
+
+Undo
+
+3
+
+Pause / Resume
+
+4
+
+Aggregation
+
+5
+
+Task Model
+
+6
+
+User Model
+
+7
+
+System Model
+
+Harf
+
+Açıklama
+
+A
+
+Kullanıcının yaptığı işlemi geri almasını
+sağlar.
+
+B
+
+Kullanıcı sınıfına göre arayüzün
+ayarlanmasını sağlar.
+
+C
+
+Kullanıcının başlattığı işlemi iptal
+etmesini sağlar.
+
+D
+
+Sistemin durumuna göre ilerleme çubuğu,
+hata mesajı veya uygun geri bildirim
+sağlar.
+
+E
+
+İşlemlerin nesne gruplarına uygulanmasını
+sağlar.
+
+F
+
+Kullanıcının yürüttüğü göreve göre
+yardım, yönlendirme veya doğrulama
+sağlar.
+
+G
+
+İşlemin duraklatılıp daha sonra devam
+ettirilmesini sağlar.
+
+Cevap:
+1-C, 2-A, 3-G, 4-E, 5-F, 6-B, 7-D
+
+Açıklama:
+Usability taktikleri kullanıcıya kontrol verme ve sistemin kullanıcıya uygun yardım
+sağlaması etrafında şekillenir.
+
+Soru 15 — DevOps ile İlişkili Taktikler
+Aşağıdaki DevOps bağlantılı taktikleri ilgili kalite özelliğiyle eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Record / Playback
+
+2
+
+Increase Resources
+
+3
+
+Encapsulation
+
+4
+
+Rollback
+
+5
+
+System Monitor
+
+6
+
+Cache / Replication
+
+7
+
+Defer Binding
+
+Harf
+
+Kalite Özelliği
+
+A
+
+Modifiability
+
+B
+
+Availability
+
+C
+
+Performance
+
+D
+
+Testability
+
+Cevap:
+1-D, 2-C, 3-A, 4-B, 5-B, 6-C, 7-A
+Açıklama:
+DevOps tek bir kalite özelliğine bağlı değildir. Testability, performance, modifiability ve
+availability taktiklerini birlikte kullanır.
+
+B) Sıralama Soruları
+
+Soru 16 — Taktik Temelli Anket Kullanım Sırası
+Taktik temelli anket doldurulurken aşağıdaki adımları doğru sıraya koyunuz.
+I. Taktiğin mimaride desteklenip desteklenmediği E/H olarak işaretlenir.
+II. Taktiği destekleyen tasarım kararları ve mimarideki konumu açıklanır.
+III. Taktiğin uygulanma riski H/M/L olarak belirtilir.
+IV. Kararın gerekçesi, varsayımları ve sonuçları açıklanır.
+Cevap:
+I → II → III → IV
+Açıklama:
+Önce taktiğin varlığı belirlenir. Sonra nerede ve nasıl uygulandığı açıklanır. Ardından risk
+değerlendirilir ve en sonunda rationale yazılır.
+
+Soru 17 — Availability Fault Akışı
+Availability açısından fault oluşumundan toparlanmaya kadar mantıklı sıralamayı yapınız.
+I. Fault sistemde ortaya çıkar.
+II. Heartbeat, monitor veya exception detection ile fault tespit edilir.
+III. Recovery, failover veya retry mekanizması çalıştırılır.
+IV. Sistem kabul edilebilir hizmet durumuna döndürülür.
+V. Operatör veya ilgili sistem bilgilendirilir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Availability’nin temel amacı fault’un failure’a dönüşmesini engellemek veya failure süresini
+azaltmaktır. Bu nedenle önce tespit, sonra toparlanma ve bildirim gelir.
+
+Soru 18 — Redundancy Failover Süreci
+Passive redundancy kullanan bir sistemde failover sürecini doğru sıraya koyunuz.
+I. Aktif düğüm normal trafiği işler.
+II. Yedek düğüm aktif düğümden periyodik state güncellemesi alır.
+III. Aktif düğümde arıza tespit edilir.
+IV. Yedek düğüm aktif role geçirilir.
+V. Trafik yeni aktif düğüme yönlendirilir.
+
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Passive redundancy’de yedek düğüm trafiği işlemez ama state bilgisi alır. Arıza sonrası aktif
+role geçer ve trafik ona yönlendirilir.
+
+Soru 19 — Shadow Mode ile Yeniden Devreye Alma
+Arızalanmış veya güncellenmiş bir bileşenin güvenli şekilde yeniden sisteme alınması için
+doğru sıralamayı yapınız.
+I. Bileşen onarılır veya güncellenir.
+II. Gerekirse state resynchronization yapılır.
+III. Bileşen shadow mode’da çalıştırılır.
+IV. Bileşenin davranışı gözlemlenir.
+V. Güvenli görülürse bileşen aktif role alınır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Shadow mode, bileşeni doğrudan aktif role almadan önce gözlemleme fırsatı verir. Bu,
+arızalı bileşenin tekrar sisteme zarar verme riskini azaltır.
+
+Soru 20 — Escalating Restart Sıralaması
+Escalating restart taktiğinde en dar kapsamdan en geniş kapsama doğru sıralama nasıl
+olmalıdır?
+I. Thread veya küçük işlem birimi yeniden başlatılır.
+II. Process yeniden başlatılır.
+III. Servis yeniden başlatılır.
+IV. Node veya makine yeniden başlatılır.
+Cevap:
+I → II → III → IV
+Açıklama:
+Escalating restart, önce en az hizmet etkisi yaratacak müdahaleyle başlar. Sorun çözülmezse
+yeniden başlatma kapsamı büyütülür.
+
+Soru 21 — Performance İyileştirme Süreci
+Bir performans problemini çözmek için doğru sıralamayı yapınız.
+
+I. Beklenen performans senaryosu ve ölçütü tanımlanır.
+II. Sistem ölçülür ve darboğaz bulunur.
+III. Uygun performans taktiği seçilir.
+IV. Tasarım veya konfigürasyon değişikliği uygulanır.
+V. Sonuç tekrar ölçülür.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Performans iyileştirmede önce hedef bilinmelidir. Ölçmeden karar verilmez. Taktik
+uygulandıktan sonra tekrar ölçüm yapılmalıdır.
+
+Soru 22 — Overload Durumunda Performance Tepkisi
+Sistem aşırı yük altındayken uygulanabilecek mantıklı tepki sırasını belirleyiniz.
+I. Gelen istek ve olay miktarı izlenir.
+II. Event response limiting veya rate limiting uygulanır.
+III. Kuyruk boyutları sınırlandırılır.
+IV. Kritik olaylar önceliklendirilir.
+V. Gerekirse kaynaklar artırılır veya concurrency eklenir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Önce yük görünür hale getirilir. Ardından sistemin kontrolsüz büyümesi engellenir. Kritik
+işler korunur ve gerekirse kapasite artırılır.
+
+Soru 23 — Security İstek İşleme Sırası
+Bir dış isteğin güvenli şekilde işlenmesi için uygun sıralamayı yapınız.
+I. Aktörün kaynağı tanımlanır.
+II. Aktörün kimliği doğrulanır.
+III. Aktörün yetkisi kontrol edilir.
+IV. Girdi doğrulanır ve mesaj bütünlüğü kontrol edilir.
+V. İşlem audit trail için kaydedilir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Önce kimin geldiği anlaşılır, sonra gerçekten o kişi veya sistem olup olmadığı doğrulanır.
+Daha sonra yetki ve veri güvenliği kontrol edilir. Son olarak iz bırakılır.
+
+Soru 24 — Saldırıya Tepki Süreci
+Bir saldırıdan şüphelenildiğinde tepki verme sürecini doğru sıraya koyunuz.
+I. Şüpheli davranış intrusion detection veya DoS detection ile fark edilir.
+II. Hassas kaynaklara erişim sınırlandırılır veya iptal edilir.
+III. Gerekirse erişim lockout ile kilitlenir.
+IV. Operatörler veya ilgili sistemler bilgilendirilir.
+V. Audit trail üzerinden olay sonrası inceleme yapılır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Saldırıda önce tespit yapılır. Sonra zararı sınırlamak için erişim kısıtlanır. Bildirim ve audit
+trail ise müdahale ve analiz için gereklidir.
+
+Soru 25 — Modifiability Refactoring Süreci
+Karmaşık bir modülü daha değiştirilebilir hale getirmek için doğru sıralamayı yapınız.
+I. Modülün mevcut sorumlulukları analiz edilir.
+II. İlgisiz sorumluluklar ayrılır ve cohesion artırılır.
+III. Gerekirse modül daha küçük modüllere bölünür.
+IV. Açık arayüzler tanımlanarak encapsulation uygulanır.
+V. Modüller arası bağımlılıklar kısıtlanır veya intermediary kullanılır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Önce modül anlaşılmalıdır. Sonra sorumluluklar düzenlenir, modül parçalanır, arayüzler
+netleştirilir ve bağımlılıklar azaltılır.
+
+Soru 26 — Defer Binding ile Genişletilebilirlik
+Plug-in destekli bir sistem tasarlarken uygun sıralama nasıl olur?
+I. Değişmesi veya genişlemesi beklenen işlevsellik belirlenir.
+II. Bu işlevsellik için açık bir extension point veya arayüz tanımlanır.
+III. Ana sistem bu arayüze bağımlı hale getirilir, somut eklentiye bağımlı olmaz.
+IV. Plug-in veya add-on çalışma zamanında veya deployment sırasında bağlanır.
+V. Yeni eklenti ana sistemi değiştirmeden eklenebilir.
+
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Defer binding’in temel mantığı, değişmesi beklenen parçanın geç bağlanmasıdır. Böylece
+ana sistem sabit kalırken yeni işlevler eklenebilir.
+
+Soru 27 — Interoperability Süreci
+Farklı servislerin birlikte çalışması için mantıklı sıralamayı yapınız.
+I. İhtiyaç duyulan servisler locate mekanizmasıyla bulunur.
+II. Servislerin interface uyumluluğu kontrol edilir.
+III. Gerekirse tailor interface ile çeviri veya buffering yapılır.
+IV. Servis çağrıları orchestration mekanizmasıyla sıralanır.
+V. İş süreci servisler arasında koordine edilerek tamamlanır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Önce servis bulunur, sonra arayüz uyumu sağlanır. Gerekirse interface uyarlanır. Ardından
+çağrılar orkestre edilerek iş süreci tamamlanır.
+
+Soru 28 — Testability Süreci
+Bir hatayı yeniden üretmek ve test etmek için doğru sıralamayı yapınız.
+I. Test için sandbox veya izole ortam hazırlanır.
+II. Arayüzden geçen veri record mekanizmasıyla kaydedilir.
+III. Kaydedilen veri playback ile yeniden oynatılır.
+IV. Sistem davranışı test arayüzleri veya loglarla gözlemlenir.
+V. Hata doğrulanır ve analiz edilir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Testability’de amaç hatayı kontrollü ve tekrar edilebilir biçimde incelemektir. Sandbox,
+record/playback ve gözlem arayüzleri bu süreci kolaylaştırır.
+
+Soru 29 — Usability: Kullanıcı İşlemi Süreci
+Kullanıcı açısından uzun süren bir işlemin iyi tasarlanmış kullanım akışını sıralayınız.
+
+I. Kullanıcı işlemi başlatır.
+II. Sistem progress bar veya benzeri geri bildirim sağlar.
+III. Kullanıcı isterse işlemi pause edebilir.
+IV. Kullanıcı işlemi resume ederek devam ettirebilir.
+V. Kullanıcı gerekirse işlemi cancel edebilir veya tamamlanan işlemi undo yapabilir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Usability açısından kullanıcı işlem üzerinde kontrol sahibi olmalıdır. Sistem de işlem
+durumu hakkında açık geri bildirim sağlamalıdır.
+
+Soru 30 — DevOps Pipeline Mantığı
+DevOps açısından güvenli ve sürdürülebilir deployment için uygun sıralamayı yapınız.
+I. Kod değişikliği kapsüllenmiş ve düşük bağımlılıklı modüllerde yapılır.
+II. Otomatik testler çalıştırılır ve sistem durumu gözlemlenir.
+III. Deployment öncesi performans ve kaynak etkileri kontrol edilir.
+IV. Deployment yapılır ve monitoring ile sistem izlenir.
+V. Sorun çıkarsa rollback veya recovery mekanizması çalıştırılır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+DevOps, değiştirilebilirlik, test edilebilirlik, performans ve availability taktiklerini birlikte
+kullanır. Amaç sık değişiklik yaparken sistemi güvenli ve çalışır durumda tutmaktır.
+
+C) Karma Eşleştirme Soruları
+
+Soru 31 — Kalite Özelliği ile Taktik Eşleştirme
+Aşağıdaki taktikleri ait oldukları kalite özelliğiyle eşleştiriniz.
+No
+
+Taktik
+
+1
+
+Heartbeat
+
+2
+
+Locate
+
+3
+
+Encapsulation
+
+4
+
+Queue Size Limit
+
+5
+
+Authentication
+
+6
+
+Record / Playback
+
+7
+
+Undo
+
+8
+
+Rollback
+
+9
+
+Input Validation
+
+10
+
+Defer Binding
+
+Harf
+
+Kalite Özelliği
+
+A
+
+Availability
+
+B
+
+Interoperability
+
+C
+
+Modifiability
+
+D
+
+Performance
+
+E
+
+Security
+
+F
+
+Testability
+
+G
+
+Usability
+
+Cevap:
+1-A, 2-B, 3-C, 4-D, 5-E, 6-F, 7-G, 8-A, 9-E, 10-C
+Açıklama:
+Bu soru, taktikleri kalite özellikleriyle ilişkilendirme becerisini ölçer. Sınavlarda genellikle
+bu tarz karma eşleştirmeler sorulabilir.
+
+Soru 32 — Problem ile Taktik Eşleştirme
+Aşağıdaki problemleri en uygun taktiklerle eşleştiriniz.
+
+No
+
+Problem
+
+1
+
+Servis arızaları geç fark ediliyor.
+
+2
+
+Modül çok büyük ve karmaşık.
+
+3
+
+Yoğun trafikte kuyruk sınırsız büyüyor.
+
+4
+
+Kullanıcı yanlış işlemi geri alamıyor.
+
+5
+
+Eski sistemle veri formatı uyumsuzluğu
+var.
+
+6
+
+Saldırgan sürekli yanlış parola deniyor.
+
+7
+
+Hata test ortamında tekrar üretilemiyor.
+
+Harf
+
+Taktik
+
+A
+
+Record / Playback
+
+B
+
+Access Lockout
+
+C
+
+Split Module
+
+D
+
+Heartbeat / System Monitor
+
+E
+
+Tailor Interfaces
+
+F
+
+Undo
+
+G
+
+Bound Queue Sizes
+
+Cevap:
+1-D, 2-C, 3-G, 4-F, 5-E, 6-B, 7-A
+Açıklama:
+Bu soru, taktiklerin gerçek problemlere nasıl uygulanacağını ölçer. Özellikle pratik
+sınavlarda bu mantık önemlidir.
+
+D) Karma Sıralama Soruları
+
+Soru 33 — Hata Yönetimi Genel Sırası
+Bir sistemde hataya dayanıklı mimari davranışının genel sıralaması nasıl olmalıdır?
+I. Hata veya anormal durum oluşur.
+II. Hata detection mekanizması ile fark edilir.
+III. Hata izole edilir veya etkisi sınırlandırılır.
+IV. Recovery, retry, rollback veya failover uygulanır.
+V. Sistem izlenir ve gerekirse operatör bilgilendirilir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Bu genel akış availability sorularında çok önemlidir. Önce fark etme, sonra sınırlandırma ve
+toparlama gelir.
+
+Soru 34 — Güvenli Girdi İşleme Sırası
+Dışarıdan gelen bir girdinin güvenli biçimde işlenmesi için sıralama nasıl olmalıdır?
+I. Girdinin kaynağı belirlenir.
+II. Kullanıcı veya sistem kimliği doğrulanır.
+III. Yetki kontrolü yapılır.
+IV. Girdi doğrulanır, filtrelenir ve normalize edilir.
+V. İşlem güvenlik kaydına alınır.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Security’de kaynak, kimlik, yetki ve veri doğrulama sırası önemlidir. Son adımda audit trail
+tutulur.
+
+Soru 35 — Performans Aşırı Yük Yönetimi
+Yoğun yük altında sistemin kontrollü çalışması için sıralama nasıl olmalıdır?
+I. Yük ve kuyruklar izlenir.
+II. Olay yanıtı sınırlandırılır.
+III. Kuyruk boyutları sınırlandırılır.
+IV. Kritik olaylara öncelik verilir.
+V. Gerekirse kaynaklar artırılır veya işlem kopyaları çoğaltılır.
+
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Önce sistemin ne kadar yüklendiği görülür. Sonra sistemin kontrolsüz biçimde büyümesi
+engellenir. En sonunda kapasite artırımı yapılır.
+
+Soru 36 — Değiştirilebilir Mimari Tasarım Sırası
+Bir sistemin daha değiştirilebilir hale getirilmesi için doğru sıralama nasıl olmalıdır?
+I. Değişmesi muhtemel alanlar belirlenir.
+II. İlgili sorumluluklar ayrıştırılır.
+III. İşlevsellik kapsüllenerek açık arayüzler tanımlanır.
+IV. Doğrudan bağımlılıklar intermediary veya abstraction ile azaltılır.
+V. Gerekirse binding daha sonraki aşamalara ertelenir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Modifiability’de amaç değişiklik etkisini önden tahmin edip sınırlandırmaktır. Bu nedenle
+ayrıştırma, encapsulation, abstraction ve defer binding önemlidir.
+
+Soru 37 — Test Edilebilir Sistem Tasarımı Sırası
+Bir sistemi test edilebilir hale getirmek için doğru sıralama nasıl olmalıdır?
+I. Sistemin kontrol edilmesi ve gözlemlenmesi gereken durumları belirlenir.
+II. Test arayüzleri ve loglama mekanizmaları eklenir.
+III. Veri kaynakları soyutlanır.
+IV. Sandbox veya izole test ortamı hazırlanır.
+V. Record/playback ve assertions ile tekrar edilebilir testler desteklenir.
+Cevap:
+I → II → III → IV → V
+Açıklama:
+Testability için önce neyi gözlemlemek gerektiği belirlenir. Sonra test arayüzleri, veri
+soyutlama, sandbox ve tekrar edilebilir test mekanizmaları eklenir.
+
+E) Mini Cevap Anahtarı
+Soru
+
+Cevap
+
+1
+
+1-B, 2-D, 3-A, 4-E, 5-C
+
+2
+
+1-D, 2-A, 3-C, 4-B
+
+3
+
+1-B, 2-C, 3-A
+
+4
+
+1-E, 2-D, 3-A, 4-B, 5-C, 6-F
+
+5
+
+1-C, 2-D, 3-A, 4-E, 5-B
+
+6
+
+1-B, 2-A, 3-D, 4-C
+
+7
+
+1-B, 2-A, 3-C
+
+8
+
+1-B, 2-E, 3-C, 4-F, 5-A, 6-G, 7-D, 8-H
+
+9
+
+1-B, 2-D, 3-A, 4-E, 5-F, 6-C
+
+10
+
+1-A, 2-C, 3-F, 4-E, 5-D, 6-B
+
+11
+
+1-C, 2-A, 3-B, 4-E, 5-D, 6-F
+
+12
+
+1-C, 2-G, 3-I, 4-E, 5-A, 6-B, 7-D, 8-F, 9H
+
+13
+
+1-D, 2-B, 3-F, 4-E, 5-A, 6-G, 7-H, 8-C
+
+14
+
+1-C, 2-A, 3-G, 4-E, 5-F, 6-B, 7-D
+
+15
+
+1-D, 2-C, 3-A, 4-B, 5-B, 6-C, 7-A
+
+16
+
+I → II → III → IV
+
+17
+
+I → II → III → IV → V
+
+18
+
+I → II → III → IV → V
+
+19
+
+I → II → III → IV → V
+
+20
+
+I → II → III → IV
+
+21
+
+I → II → III → IV → V
+
+22
+
+I → II → III → IV → V
+
+23
+
+I → II → III → IV → V
+
+24
+
+I → II → III → IV → V
+
+25
+
+I → II → III → IV → V
+
+26
+
+I → II → III → IV → V
+
+27
+
+I → II → III → IV → V
+
+28
+
+I → II → III → IV → V
+
+29
+
+I → II → III → IV → V
+
+30
+
+I → II → III → IV → V
+
+31
+
+1-A, 2-B, 3-C, 4-D, 5-E, 6-F, 7-G, 8-A, 9E, 10-C
+
+32
+
+1-D, 2-C, 3-G, 4-F, 5-E, 6-B, 7-A
+
+33
+
+I → II → III → IV → V
+
+34
+
+I → II → III → IV → V
+
+35
+
+I → II → III → IV → V
+
+36
+
+I → II → III → IV → V
+
+37
+
+I → II → III → IV → V
+
+En Önemli Ezber Mantığı
+Availability:
+Hata oluşur → tespit edilir → izole edilir → recovery/failover yapılır → sistem izlenir.
+
+Performance:
+Yük izlenir → olaylar sınırlandırılır → kuyruklar kontrol edilir → önceliklendirme yapılır →
+kaynak artırılır.
+Security:
+Kaynak tanınır → kimlik doğrulanır → yetki kontrol edilir → girdi doğrulanır → audit kaydı
+tutulur.
+Modifiability:
+Değişecek alan belirlenir → sorumluluk ayrılır → kapsüllenır → bağımlılık azaltılır →
+binding ertelenir.
+Testability:
+Gözlenecek durum belirlenir → test arayüzü sağlanır → veri soyutlanır → sandbox
+hazırlanır → record/playback yapılır.
+
+

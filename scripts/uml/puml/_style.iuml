@@ -1,0 +1,30 @@
+' Ortak görsel stil — UML 2.x sınıf diyagramları (referans ödev estetiğine yakın)
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam linetype ortho
+skinparam dpi 150
+skinparam defaultFontName Serif
+skinparam defaultFontSize 12
+skinparam roundcorner 4
+hide circle
+skinparam classAttributeIconSize 0
+skinparam class {
+  BackgroundColor #FBFBF7
+  BorderColor #3A3A3A
+  ArrowColor #2A2A2A
+  FontName Serif
+  AttributeFontName Serif
+  AttributeFontColor #222222
+  StereotypeFontColor #6B4F1D
+}
+skinparam note {
+  BackgroundColor #FCF6E3
+  BorderColor #B9A86A
+  FontName Serif
+  FontSize 11
+}
+skinparam title {
+  FontName Serif
+  FontSize 15
+  FontColor #1F3A5F
+}

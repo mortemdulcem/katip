@@ -1,0 +1,39 @@
+name: DMP ketamine rerun (GSE287261)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ketamine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install --quiet numpy pandas scipy
+      - name: Run DMP (ketamine GSE287261)
+        run: python scripts/revize/realdata/scripts/44_dmp_ketamine_gse287261.py
+      - name: List outputs
+        run: ls -la scripts/revize/realdata/out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dmp-gse287261
+          path: |
+            scripts/revize/realdata/out/GSE287261_validation.json
+            scripts/revize/realdata/out/GSE287261_dmp.csv
+          if-no-files-found: error
+      - name: Commit result back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/revize/realdata/out/GSE287261_validation.json
+          git commit -m "DMP batch3: GSE287261 ketamine (PBMC within-subject paired) results" || echo "no changes"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && break || sleep $((RANDOM % 10 + 5))
+          done

@@ -1,0 +1,114 @@
+@startuml soru9
+!include _style.iuml
+title Soru 9 — Akıllı Ev İzleme · State (çalışma modu) + Mediator (bağlantılı mod) + Observer (izleme & SMS)
+
+enum ModTipi {
+  TASARRUFLU
+  GUVENLI
+}
+class Durum {
+  - kaynak : String
+  - aciklama : String
+}
+class Komut {
+  - icerik : String
+}
+
+' ================= STATE: çalışma modu =================
+interface CalismaModu <<interface>> {
+  + uygula()
+  + tipi() : ModTipi
+}
+class TasarrufluAydinlatma {
+  + uygula()
+}
+class GuvenliAydinlatma {
+  + uygula()
+}
+class TasarrufluIsitma {
+  + uygula()
+}
+class GuvenliIsitma {
+  + uygula()
+}
+
+' ================= Ev sistemleri =================
+abstract class EvSistemi {
+  - mod : CalismaModu
+  + modAyarla(t : ModTipi)
+  + calis()
+  + durumBildir()
+}
+class Aydinlatma {
+  - ortamIsigi : int
+}
+class Isitma {
+  - panelIsisi : int
+}
+
+' ================= Sensörler =================
+abstract class Sensor {
+  - aktif : boolean
+  - bildirimEtkin : boolean
+  + veriAktar()
+  + talimatUygula(k : Komut)
+}
+class KapiSensoru
+class HareketSensoru
+
+' ================= MEDIATOR =================
+class AkilliEvMotoru {
+  + modDegistir(s : EvSistemi, t : ModTipi)
+  + sensorVerisiGeldi(s : Sensor)
+  + talimatGonder(s : Sensor, k : Komut)
+  + abone(g : Gozlemci)
+  + cikar(g : Gozlemci)
+  + haberVer(d : Durum)
+}
+
+' ================= OBSERVER =================
+interface Gozlemci <<interface>> {
+  + guncelle(d : Durum)
+}
+class KullaniciUygulamasi {
+  + guncelle(d : Durum)
+  + smsAl(mesaj : String)
+}
+
+CalismaModu <|.. TasarrufluAydinlatma
+CalismaModu <|.. GuvenliAydinlatma
+CalismaModu <|.. TasarrufluIsitma
+CalismaModu <|.. GuvenliIsitma
+EvSistemi o-- "1" CalismaModu : mod >
+EvSistemi <|-- Aydinlatma
+EvSistemi <|-- Isitma
+Sensor <|-- KapiSensoru
+Sensor <|-- HareketSensoru
+
+AkilliEvMotoru o-- "1" Aydinlatma
+AkilliEvMotoru o-- "1" Isitma
+AkilliEvMotoru o-- "*" Sensor
+AkilliEvMotoru o-- "*" Gozlemci : aboneler >
+Gozlemci <|.. KullaniciUygulamasi
+EvSistemi ..> AkilliEvMotoru : modDegisti()
+Sensor ..> AkilliEvMotoru : veriAktar()
+KullaniciUygulamasi ..> AkilliEvMotoru : yonet / izle
+
+note top of CalismaModu
+  <b>State.</b> Güvenli ve tasarruflu iki çalışma şekli.
+  Tasarruflu aydınlatma: ortam ışığına destek, asgari aydınlatma;
+  güvenli aydınlatma: en yüksek kapasite. Tasarruflu ısıtma: 18°C
+  ortam; güvenli ısıtma: her durumda 40°C panel ısısı.
+end note
+note bottom of AkilliEvMotoru
+  <b>Mediator.</b> İki çalışma şekli birbirine bağlıdır:
+  aydınlatma tasarrufluya geçince ısıtma da tasarrufluya
+  (ya da tam tersi) tek merkezden eşitlenir. Motor ayrıca
+  sensör verisini alır ve sensöre talimat gönderir.
+end note
+note right of KullaniciUygulamasi
+  <b>Observer.</b> Ev sahibi mobil/web uygulamasından tüm
+  sistem ve sensör durumlarını izler. Kapı/hareket sensörü
+  ETKİNSE, tetiklenmede bildirim doğrudan uygulamaya SMS olur.
+end note
+@enduml

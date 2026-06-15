@@ -1,0 +1,35 @@
+...kanserin altı ay boyunca tespit edilememesi nedeniyle, davacının “olasılıkların dengesi/üstünlüğü” (balance of probabilities) standardına göre gösterebildiği ölçüde, maruz kaldığı ve kalacağı zarar, kanser önceki aşamada tedavi edilmiş olsaydı maruz kalacağından daha büyükse, bu fark için tazminat talep edilebilir. Ancak beş yıllık sağkalım şansının kaybı için tazminat (damages) verilemez; zira olasılıkların dengesi bakımından (60:40 oranı) tıbbi uygulayıcının herhangi bir ihmal/özensizliği (negligence) olmasaydı dahi hastanın beş yıl hayatta kalmış olması beklenmezdi.
+
+Bu bölümde tercih edilen analiz, hasta ile tıbbi uygulayıcı arasında bir sözleşme bulunup bulunmadığından bağımsız olarak, hastanın, kanserin tespit edilemediği altı aylık süre boyunca uğradığı acı ve ıstırap (pain and suffering), çalışma gücü kaybı (loss of earning capacity) vb. için tazmin edici (compensatory) zararlara hak kazandığı yönündedir; ancak bu, söz konusu acı ve ıstırabın ve diğer kayıpların her hâlükârda giderilememiş olma ihtimali oranında bir indirime tabi tutulur.[7] Benzer şekilde, hastanın gelecekte acı ve ıstırap, çalışma gücü kaybı ve diğer kayıplara uğrama şansı için de tazminata hükmedilebilir; fakat bu kez, söz konusu sonuçların doktorun herhangi bir ihmal/özensizliği olmasaydı da meydana gelmiş olma ihtimali oranında bir indirim yapılır.[8]
+
+Hastanın altta yatan kanserinin, şimdiye dek ortaya çıkan ve gelecekte ortaya çıkacağı öngörülen durumla benzer bir tabloya onu ne ölçüde götüreceği konusunda bir belirsizlik bulunduğu ölçüde, nedenleri birbirinden ayırma (disentangle the causes) konusunda davalı (defendant) üzerinde bir ispat külfeti (evidentiary onus) bulunur;[9] bununla birlikte nihai ispat yükü (ultimate onus), mahkemenin bir miktar tazminatın verilmesi gerektiğine ikna edilmesi bakımından, davacı (plaintiff) üzerinde kalır.[10] Başka bir deyişle, bu bölüm, JH King Jr’ın tezini benimsemektedir:
+
+> Loss of chance should be compensable even if the chance is not better than even, and it should be
+> recognized and valued as such rather than as an all-or-nothing proposition. Any other rule fails to satisfy
+> the goals of tort law.[11]
+
+> **💬 Çevirmen notu:** Alıntıdaki “better than even” ifadesi, şansın %50’den büyük olması (yani olasılıkların dengesi standardını aşması) anlamına gelir. King, %50’nin altında kalan kayıp şansların da bağımsız tazmin edilebilir zarar olarak tanınmasını savunmaktadır.
+
+> **⚖️ Türk hukuku karşılaştırması:** Burada savunulan, %50’nin altında kalan “şans kaybının” (loss of chance) başlı başına tazmin edilebilir bir zarar olarak kabulü, Anglo-Sakson haksız fiil hukukuna (tort law) özgü tartışmalı bir yaklaşımdır. Türk hukukunda TBK m.49 vd. çerçevesinde illiyet bağının ispatı için genel olarak “olasılıkların dengesi”nden ziyade uygun illiyet teorisi (uygun sebep teorisi) benimsenir ve Yargıtay uygulamasında çoğunlukla zararın meydana gelmesinde somut fiilin “baskın/üstün” neden olması aranır. Şans/fırsat kaybının bağımsız ve soyut bir zarar kalemi olarak tanındığı açık bir kanun hükmü bulunmamaktadır; bazı bireysel karar ve doktrinde kısmen kabul eğilimleri olsa da, genel ve yerleşik bir kurum hâline geldiği söylenemez (doktrin ve içtihat durumu doğrulanmalı).
+
+Şimdilik tıbbi ihmal/özensizlik (medical negligence) konusunu bir kenara bırakacak olursak, tez, İskoçya’dan *McGhee v National Coal Board*[12] davasında Lordlar Kamarası’nın (House of Lords) kararında ortaya konan durumla örneklenebilir. Bu davada, davacı (pursuer), işvereninden dermatit nedeniyle tazminat talep etmekteydi. İşverenin tuğla fırınlarında (brick kilns) sıcak ve tozlu koşullarda çalışmak zorunda bırakılmıştı. Dava Lordlar Kamarası’na geldiğinde, bu çalışma koşullarının, kendi başına, davalının (defender) ihmal/özensizliği (negligence) niteliğinde olmadığı kabul edilmişti. Ne var ki, kendisine karşı mevcut özen yükümlülüğünün (duty of care) ihlali (breach) kapsamında, davalı, vardiya bitiminde üzerinden birikmiş tozu yıkayıp atabileceği duşa erişimini sağlamamıştı. Bu nedenle, bisikletle eve giderken toz vücuduna yapışık kalmıştı. Tıbbi deliller, bu durumun, tozdan kaynaklanan dermatit geliştirme riskini artırdığını ortaya koyuyordu. Ancak bunun nasıl meydana geldiği bilinmiyordu. Duş almış olsaydı, olasılıkların dengesi bakımından “dermatit geliştirmeyeceğinin” gösterilmesi mümkün değildi.
+
+Alt dereceli mahkemeler, davacının davasının reddedilmesi gerektiği sonucuna varmışlardı. Lordlar Kamarası ise temyizini oybirliğiyle kabul etti. Dava, davacıya dermatit için tüm zararlarının ya tamamen verilmesi ya da hiçbir şey verilmemesi gerektiği şeklinde, ikili (all-or-nothing) bir yapı çerçevesinde görülmüştü. Daha sonra, Lordlar’ın ispat yükünü (onus of proof) tersine çevirip çevirmedikleri veya yalnızca güçlü bir yaklaşım benimseyerek nedensellik (causation) konusunda bir çıkarım yaptıkları hususunda ciddi tartışmalar ortaya çıkmıştır.[13] Öne sürülen görüş, davanın, bir “şans kaybı” (loss of a chance) davası olarak görülmüş olması gerektiğidir: Duş sağlanmaması, davacıyı, dermatitten kaçınma şansından yoksun bırakmıştır; oysa dermatitin tuğla tozundan ve başka hiçbir faktörden kaynaklanmadığı konusunda herhangi bir şüphe yoktur.
+
+> **⚖️ Türk hukuku karşılaştırması:** *McGhee v National Coal Board* kararı, İskoçya bağlamında, fakat İngiliz common law’ı kapsamında Lordlar Kamarası’nın, klasik “but for” testi (olmasaydı testi / conditio sine qua non) kesin olarak karşılanamadığı hâllerde, risk artışı üzerinden nedenselliği kabul etmesi açısından önemlidir. Türk hukukunda ise nedensellik değerlendirmesinde başlangıç noktası yine şart teorisi olmakla birlikte, kabul edilen ölçüt “uygun illiyet teorisi”dir; risk artışı kavramı, özellikle ceza hukuku ve tıbbi müdahaleler bağlamında objektif isnadiyet tartışmalarında yer bulsa da, *McGhee* türü bir içtihatla aynı düzeyde genelleşmiş değildir. Dermatite yol açan faktörün tuğla tozu olduğunun sabit olduğu bir vakada, Türk mahkemeleri bakımından da bu fiil ile zarar arasında uygun illiyet bağının varlığının kabulü kuvvetle muhtemeldir; ancak “şans kaybı”nın bağımsız bir zarar olarak tazmini hususu yine tartışmalı kalmaktadır (ilgili Yargıtay içtihadı; karar no doğrulanmalı).
+
+### Notlar
+
+[7] Burada kastedilen, ihmal edilen erken tedavinin dahi şikâyetlerin bir kısmını giderememiş olma ihtimali oranında tazminattan yapılacak indirimdir.
+
+[8] Geleceğe dönük zararların hesaplanmasında da, doktor ihmal etmemiş olsa bile aynı sonuçların doğmuş olma olasılığı dikkate alınarak indirim yapılır.
+
+[9] Davalı, zararın hangi kısmının altta yatan hastalıktan, hangi kısmının ihmali müdahaleden kaynaklandığını ayırt etme bakımından delil sunmakla yükümlü kabul edilmektedir.
+
+[10] Nihai anlamda “bazı zararların tazmini gerektiğini” mahkemeye ispatlama külfeti ise yine davacıya aittir.
+
+[11] JH King Jr’ın, “loss of chance”ın bağımsız tazmin edilebilir zarar olduğu yönündeki görüşü.
+
+[12] *McGhee v National Coal Board* [1973] 1 WLR 1 (HL).
+
+[13] Bu tartışma, özellikle ispat yükünün çevrilmesi ile nedensellik konusunda mahkemenin güçlü çıkarım yapması arasındaki ayrım etrafında yoğunlaşmıştır.

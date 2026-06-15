@@ -1,0 +1,52 @@
+retroauriküler bölgede. Ara sıra makroporozite (macroporosity) görülebilir, ancak bu tipik değildir. Genellikle apeks bölgesinde hafif değişiklikler mevcuttur. Yoğunlaşmanın (densification) derecesine bağlı olarak mikroporozitede (microporosity) bir miktar artış görülür. Birincil özellik, granüler yüzeyden yoğun (dense) bir yüzeye geçiştir.
+
+45–49 yaş: Çoğu örnekte granülasyonun belirgin kaybı görülür ve bunun yerini yoğun kemik alır. Billow (dalgalanma, kabarıklık) veya stria (çizgilenme) yoktur. Apeks bölgesindeki değişiklikler hafif ile orta derecede olabilir ancak hemen her zaman mevcuttur. Yüzeyin yoğunlaşmasına belirgin bir eğilim vardır. Transvers organizasyon (enine düzenlenme) saptanmaz. Mikroporozitenin çoğu veya tamamı yoğunlaşma süreciyle kaybolur. Sınırların düzensizliği artmıştır; retroauriküler aktivite (retroauricular activity) orta düzeydedir ve makroporozite az ya da hiç yoktur.
+
+50–60 yaş: Bu, önceki evrenin daha ileri bir aşamasıdır ve belirgin yüzey düzensizliği baskın özellik haline gelir. Topografide, bununla birlikte, transvers ya da başka tür bir organizasyon yoktur. Orta derecede granülasyon bazen korunabilir, ancak genellikle bir önceki fazda kaybolmuş olup genel olarak yoktur. Stria veya billow mevcut değildir. İnferior yüz genellikle inferior uçta dudaklanmış (lipped) hale gelir ve innominat kemiğin (innominate bone; os coxae) gövdesinin ötesine uzanır. Apikal değişiklikler hemen her zaman mevcuttur ve belirgin olabilir. Sınırların düzensizliği artar. Bazı olgularda makroporozite görülebilir, ancak zorunlu değildir. Çoğu olguda retroauriküler aktivite orta veya belirgin düzeydedir.
+
+60+ yaş: Baskın özellik, granüler olmayan, düzensiz yüzey ve belirgin subkondral destrüksiyon (subchondral destruction) bulgularıdır. Transvers organizasyon yoktur ve genç yaşa özgü kriterler belirgin olarak tamamen kaybolmuştur. Olguların yaklaşık üçte birinde makroporozite vardır. Apikal aktivite genellikle belirgindir, ancak bu yaş kategorisi için zorunlu değildir. Sınırlar dramatik biçimde düzensiz ve dudaklanmış (lipped) hale gelir; tipik dejeneratif eklem değişiklikleri izlenir. Retroauriküler alan iyi seçilir ve düşük-orta kabarıklıkta bol osteofitlerle (osteophytes) kaplıdır. Subkondral kemikte belirgin destrüksiyon, transvers organizasyonun yokluğu ve artmış düzensizlik mevcuttur.
+
+Makroskopik olarak sütür kapanmasının hem ektokranial hem de endokranial (ectocranial/endocranial) gözlenmesini içeren, daha az doğru yöntemler de mevcuttur. Bu yöntemler, sütür kapanma derecesinin değerlendirilmesini içerir ve buna göre bir skor verilir; bu da çok geniş hata payına sahip belirli bir yaş tahmini ile sonuçlanır.
+
+Dişlerin makroskopik değişiklikleri de önemlidir. Özellikle dentin translusensliği (dentine translucency) önem taşır; yaşla birlikte artan bir değişkendir. Dişsel yöntemler açısından, Lamendin yöntemi16 diş testleri arasında en güvenilir olanıdır: periodontal hastalık (periodontosis) ve tek köklü dişlerde (monoradicular teeth) kök translusensliğini aşağıdaki formül aracılığıyla kullanır:
+
+Yaş = (0,18P′) + (0,42T′) + 25,53
+
+burada  
+P′ = P/L×100  
+T′ = T/L×100  
+L = dişin boyu (teeth length)  
+P = periodontal hastalık yüksekliği (height of periodontosis)  
+T = kök translusensliği yüksekliği (height of root translucency)
+
+> **💬 Çevirmen notu:** Lamendin yöntemi, pratikte özellikle gömülü ya da iskeletize olgularda, çekilmiş tek köklü kesici veya kanin dişlerde uygulanır. Ölçümler genellikle stereomikroskop ve kumpas ile yapılır. Türkiye’de Adli Tıp Kurumu diş hekimliği ihtisas kurulları, 40 yaş üzeri olgularda bu yöntemden yararlanabilmektedir; ancak popülasyon farklılıkları nedeniyle formüle lokal düzeltme katsayıları eklenmesi bilimsel olarak önerilir.
+
+Lamendin testinin, özellikle 40 ile 60 yaş arasında, yaş tayininde en doğru yöntem olduğu literatürde kabul edilmektedir; ancak yakın tarihli çalışmalar, ata (ancestry) ve cinsiyete bağlı değişkenlik gösterdiğini ve spesifik düzeltme faktörleri gerektirdiğini ortaya koymuştur. Bununla birlikte, aşınma (abrasion), sekonder dentin depolanması (secondary dentin deposition), periodontozis (periodontosis), kök translusensliği, sekonder sement (secondary cementum), kök rezorbsiyonu (root resorption) gibi parametrelere dayanan ve her eleman için 0–3 arası skor verilen Gustafson–Johanson testinin yerini almıştır. Bununla birlikte, pulpa odası (pulp chamber) boyutlarını inceleyen yeni radyolojik yöntemler adli alanda kullanılmaya başlanmıştır; ancak bunların hâlâ test edilmesi gerekmektedir.
+
+> **💬 Çevirmen notu:** Pulpa odası hacmine dayalı radyolojik yöntemler (örneğin Kvaal yöntemi), konvansiyonel radyografi ya da CBCT üzerinden kök/pulpa oranlarını kullanır. Yaşla birlikte sekonder dentin birikimi pulpa hacmini azalttığından, bu oranlar istatistiksel olarak yaşla ilişkilendirilebilir.
+
+Yakın zamanda, yaşı hızla belirlemeye yönelik “iki basamaklı (two step) prosedür” geliştirilmiştir: İskelete bakıldığında bireyin yaşı hakkındaki izlenim, Suchey–Brookes pubis simfizi (pubic symphysis) yönteminin ilk üç evresi içinde ise, tercih edilecek yöntem bu olmalıdır. Eğer birey son üç fazdan birinde sınıflandırılmışsa, yaşın daha doğru değerlendirilmesi için Lamendin tekniğine geçilmelidir. Günümüzde 60 yaş üzerindeki yaş tayini hâlâ bir sorun olarak kalmaktadır.
+
+> **💬 Çevirmen notu:** Suchey–Brooks sistemi, Todd sınıflamasının güncellenmiş halidir ve pubis simfizinin morfolojisine göre fazlandırma yapar. Adli olgularda özellikle 20–50 yaş arası erişkinlerde en sık kullanılan iskeletsel yaş tayini yöntemlerinden biridir.
+
+Makroskopik yöntemler uygulanamaz ise (örneğin parçalanma, ilgili anatomik bölgelerin kaybı nedeniyle), mikroskopik yöntemlere başvurulmalıdır. Mikroskopik yöntemin temel mantığı, kemik remodelling’inin yaşam boyunca sürekli devam etmesi nedeniyle, yaşlı kemikte genç kemiğe göre daha fazla osteon ve osteon fragmanı bulunacağıdır. Uzun kemik diyafizlerinden alınan kemik kesitinin mikroskopik analizi, çeşitli yöntemler aracılığıyla yaş tahmini sağlayabilir; bunlar içinde en çok kabul gören Kerley–Ubelaker yöntemi olup, 100× büyütmeli ve 1,62 mm çaplı mikroskopik alanda sekonder osteonların, osteon fragmanlarının ve primer osteonların sayılmasına dayanır; yöntem tibia, femur ve fibula diyafizlerine uygulanabilir.113 Bu sayılar daha sonra uygun bir formüle yerleştirilir.
+
+> **💬 Çevirmen notu:** Histomorfometrik yaş tayini, özellikle yanık, travma veya çürümenin ileri olduğu ve klasik iskelet bölgelerinin kullanılamadığı durumlarda önem kazanır. Ancak kesi alma, dekalsifikasyon ve boyama gerektirdiği için zaman alıcı ve maliyetlidir; ayrıca popülasyon ve cinsiyet özgül kalibrasyon eğrileri gerektirir.
+
+Birçok başka makroskopik ve mikroskopik yöntem de mevcuttur; bunlar sırasıyla asetabulumun (acetabulum) değerlendirilmesi ve sementum annülasyonu (cementum annulation) gibi yöntemlerdir. Ancak bunlar uygulanması daha güç ve/veya daha maliyetli, kullanıcı dostu olmayan veya hâlen daha geniş popülasyonlarda test edilmeye ihtiyaç duyan tekniklerdir.
+
+Son olarak, daha dar hata payı verdiği düşünülen kimyofiziksel (chemicophysical) yöntemler de mevcuttur. Bunlar aspartik asit rasemizasyonuna (aspartic acid racemisation) dayanır; ancak pahalıdır ve sınırları henüz tam olarak tanımlanmamıştır.
+
+> **💬 Çevirmen notu:** Aspartik asit rasemizasyonu, diş dentini veya kemikte L‑formdan D‑forma dönüşüm oranını ölçerek “biyokimyasal saat” mantığıyla yaş tahmini yapar. Yüksek teknoloji ve kalibrasyon gerektirmesi nedeniyle Türkiye’de rutin adli uygulamaya girmiş değildir.
+
+## İskelet kalıntılarından ata (ancestry) tayini
+
+Bu, önceki incelemelerin herhangi birinden daha güçtür; bunun bir nedeni ırksal özelliklerin çok belirgin olmaması, diğer nedeni ise özellikle son yıllarda Avrupa ve Kuzey Amerika’ya yönelik geniş ölçekli göçler sonucunda yoğun etnik karışımın ortaya çıkmasıdır. İscan ve Steyn’e göre, adli antropologların ya da osteologların iskelet raporlarına ‘ırk’ veya ata (ancestry) değerlendirmesi ekleyip eklememeleri konusunda bir fikir birliği yoktur; bu tür değerlendirmelerin en iyi ihtimalle ihtiyatlı kabul edilmesi gerektiği belirtilmektedir.111
+
+Her zamanki gibi, osteolojik spektrumun uçlarında yer alan olgular fazla güçlük yaratmaz; Brothwell, Eskimoları Avustralya Aborjinleri ile karşılaştırırken buna değinir.114 Ne var ki, ırksal açıdan nötr sayılabilecek çok sayıda iskelet materyali bulunduğu gibi, klasik ırksal özellikler sergiliyor gibi görünüp aslında tamamen atipik olan bazı materyaller de vardır; bunlar son derece yanlış tanılara yol açabilir. Aşağıdaki kriterler sunulmaktadır, ancak bu alanda dogmatik görüşler konusunda her zamankinden daha fazla dikkatli olunması gerektiği uyarısı göz önünde bulundurulmalıdır.115,116
+
+Üç ana ırksal grup vardır: Kafkas (Caucasian), Mongoloid ve Negroid. Diğer tüm gruplar bunlardan türemiştir ve iskelet düzeyinde ayırt edilemezler; bununla birlikte, arkeologlar ve antropologlar belirli bir ana ata grubu içinde çalışırken, yerel alt grupları belli bir güven derecesiyle ayırt etmeye yarayan yerel kriterler bulunabilir. Çalışmaların çoğu Kuzey Amerika’da yapılmıştır ve bu nedenle mevcut verilerin çoğu Kafkas ve Negroid Amerikalılar ile Yerli Amerikalılardan (Native Americans) elde edilmiştir.
+
+Kafatası, ırksal kökenler açısından en iyi kanıtı sunar; Krogman ve Iscan, ırk/ata belirlemenin olguların %90–95’inde yapılabileceğini ileri sürmüştür.35 Mandibula, dişler hariç (bunlar başka bir bölümde ele alınacaktır) bu değerlendirmeye dahil edilmez. Bununla birlikte, burada Mongoloid bir kafatasına işaret eden en yararlı göstergelerden birinin, posteriora konkav, “kürek şeklinde (shovel-shaped)” üst kesici dişlerin (upper incisors) varlığı olduğu belirtilebilir; bu dişlerin arka yüzünde oluklanma (grooving) bulunabilir. Bunlar esas olarak Çin ve Japon popülasyonlarında saptanmıştır, ancak ara sıra Kafkas (Caucasoid) bireylerde de görülebilir.
+
+> **💬 Çevirmen notu:** “Irk” kavramı güncel antropolojide büyük ölçüde terk edilmiştir; bunun yerine “biyocoğrafik köken” (biogeographic ancestry) veya sadece “ancestry” terimi kullanılmaktadır. Türkiye’de adli raporlarda, TCK veya CMK açısından genellikle hukuki sonuç doğuracak bir zorunluluk olmadığından, bu tür sınıflamalar dikkatle ve çoğu zaman sadece bilimsel bağlamda yapılmalıdır. Özellikle karışık popülasyonlarda yanlış sınıflandırmanın kimliklendirme sürecini hatalı yönlendirebileceği unutulmamalıdır.

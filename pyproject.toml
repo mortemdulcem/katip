@@ -1,0 +1,40 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "biolearn>=0.9.1",
+    "combat>=0.3.3",
+    "cryptography>=49.0.0",
+    "docxcompose>=2.2.0",
+    "gdown>=6.1.0",
+    "geoparse>=2.0.4",
+    "gseapy>=1.2.1",
+    "lifelines>=0.30.0",
+    "matplotlib>=3.10.9",
+    "networkx>=3.6.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.3",
+    "pingouin>=0.6.1",
+    "plotly>=6.8.0",
+    "psycopg2-binary>=2.9.12",
+    "pubchempy>=1.0.5",
+    "pydicom>=3.0.2",
+    "pyliftover>=0.4.1",
+    "pymupdf>=1.27.2.3",
+    "python-docx>=1.2.0",
+    "pytz>=2026.2",
+    "rdkit>=2026.3.3",
+    "reportlab>=4.5.1",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "shap>=0.51.0",
+    "simpleitk>=2.5.4",
+    "sqlalchemy>=2.0.50",
+    "statsmodels>=0.14.6",
+    "streamlit>=1.58.0",
+    "xgboost>=3.2.0",
+]

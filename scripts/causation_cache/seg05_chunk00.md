@@ -1,0 +1,23 @@
+## 2 Bilimsel ve Hukuki Yaklaşımlar: Nedensellik (causation)
+
+JANE STAPLETON*
+
+### Giriş
+
+Provokatif bir iddiada bulunmak istiyorum. Nedensellik (causation) aslında hiçbir kavram değildir. Nedensellik, dünyada gerçekleşmiş bir değişim (transition) hakkında bazen bir soruya, bazen de böyle bir değişim hakkında bütünüyle farklı bir soruya verdiğimiz cevabı ifade etmek için kullandığımız bir terimden ibarettir.
+
+Dünyada gerçekleşmiş bir değişim hakkında düşündüğümüzde, sorabileceğimiz iki soru vardır.[1] Bu iki inceleme şunlardır:
+
+Birinci olarak, bu değişim nasıl ortaya çıktı ... bu, tarihe ilişkin olgusal (factual) bir sorudur; ancak birazdan açıklayacağım üzere, bu tarihsel soruyu nasıl formüle etmemiz gerektiğine dair değer yargıları da söz konusu olabilir.
+
+İkinci soru ise şudur: Bu değişimi ortaya çıkarmak üzere bir araya geldiğini bildiğimiz sayısız faktörden hangileri, her birimizin bireysel görüşüne göre, o anki somut amacımız bakımından önemli görünmektedir? Açıkça görülmektedir ki, bu ikinci soruya vereceğimiz cevap, soruyu sorarken kendi amacımızı nasıl algıladığımıza ve deneyimimiz ile sağduyumuz ışığında her birimizin bu amaca ilişkin benimsediği bakış açısından bağımsız olarak değişecektir.
+
+Bu iki soruya ilişkin cevaplarımızı ifade etmeye geldiğimizde, bunları tesadüfen nedensel (causal) bir dil kullanarak ifade edebiliriz; her iki durumda da bunun yerine nedensel olmayan bir dil kullanmayı da tercih edebiliriz.[2] Nedensellik (causation) konu olarak hukukçular ve bilim insanları arasında tartışıldığında, birbirlerini anlamakta yaşadıkları güçlüğün temel kaynaklarından biri şudur: Bilim insanları nedensel dil kullandıklarında, daima olguların peşindedirler; bu ister kapsamlı bir tarihsel inceleme, ister daha odaklanmış bir inceleme biçiminde olsun fark etmez. Bir bilim insanı, bir değişimin nasıl ortaya çıktığına ilişkin tüm olguları biliyorsa, o değişimin “nedenselliği (causation)” hakkında etiketlenen herhangi bir uyuşmazlık için bir alan bulunduğunu düşünmez. Buna karşılık hukukçular nedensel dil kullandıklarında, bazen bunu tarafların tüm olgular üzerinde mutabık oldukları, ancak buna rağmen uyuşmazlıklarını “nedensellik (causation)” hakkında bir uyuşmazlık olarak formüle ettikleri durumlara uygulamaktadırlar.
+
+> **⚖️ Türk hukuku karşılaştırması:** Burada tasvir edilen bilimsel yaklaşım ile hukuki yaklaşım ayrımı, özellikle common law haksız fiil (tort) ve ceza hukuku uygulamalarında nedenselliğin (causation) hem olgusal hem normatif boyutları olduğuna ilişkin tartışmalarla bağlantılıdır. Türk hukukunda haksız fiil sorumluluğu TBK m.49 vd. uyarınca hukuka aykırı fiil, kusur, zarar ve illiyet bağı unsurlarına dayanır. İlliyet bağı bakımından, doktrin ve Yargıtay, şart teorisini (condicio sine qua non / “olmasaydı” testi) başlangıç noktası olarak kabul etmekle birlikte, nihai değerlendirmede uygun illiyet (adequate causation) teorisini benimsemiştir. Bu ikinci soru – hangi faktörlerin “önemli” veya hukuken dikkate alınmaya değer olduğu – Türk hukukunda illiyet bağının hukuki/normatif sınırlanması ve uygun illiyet ölçütü üzerinden yapılır.
+
+### Bilim İnsanı
+
+Açıklayayım. Bir bilim insanının, buğday mahsulünün beklenmedik şekilde hasat zamanından önce yere yatmasının nedenini araştırdığını hayal edin. Değişimin nasıl ortaya çıktığına ilişkin ilk kapsamlı, tarihsel inceleme bağlamında yerçekiminin (gravity) cevaba dâhil edilmesi gerekir; bilim insanı, bunu, mahsulün yere yatmasının “nedenlerinden (causes)” biri olarak yerçekimi şeklinde ifade etmeyi tercih edebilir. Bilim insanı, bu ilk incelemeyi tatmin edecek unsurları içeren kapsamlı, hatta sonsuz uzunlukta bir faktörler listesini her zaman zihninde bulundurmakla birlikte, gerçek dünyada bilim insanları incelemelerini pratik açıdan yönetilebilir olana daraltmak zorundadır. Bunu, belirli, genellikle çok spesifik bir hipoteze odaklanarak yaparlar: Örneğin, önceki ay yağışın olmaması, mahsulün yere yatmasını açıklamada ilgili (relevant) bir faktör müydü? Bilimsel incelemenin, pratik bilgiye bir kestirme sağlamak amacıyla bu şekilde daraltılması, onun olguların keşfiyle ilgilenmediği ya da kaçınılmaz biçimde önyargı ve kanaatle malul olduğu anlamına gelmez. Böylesine daraltılmış bir çalışmanın bilimsel sonuçlarının geçerliliği, bilimsel yöntemin katı gerekleriyle korunur; bu yöntem, çalışmanın amacının ve varsayımlarının (yani dar sınırlarının) titiz ve açık bir biçimde kabulünü ve test edilmekte olan hipotezin belirlenmesini zorunlu kılar.
+
+Bir kişinin nedensel dil kullanımının ne denli oynak (labile) ve değişken (shifting) olabileceğini fark etmek önemlidir.

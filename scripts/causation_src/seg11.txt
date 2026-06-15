@@ -1,0 +1,1708 @@
+8 Loss of Chance
+HAROLD LUNTZ*
+McHUGH J: It might be that it is really a loss of chance case, is it not, rather than...
+KIRBY J: At last we might ...
+MR BRERETON: Yes, it might be, your Honour. It has never been put on that basis.
+McHUGH J: No, I know. That seems to me probably the correct basis for putting that sort of case.
+MR BRERETON: But, essentially, what we are now faced with is something completely different from
+what was at trial and what was in the Court of Appeal.
+KIRBY J: One day we will get a good loss of chance case.
+MR BRERETON: I will see if I can find one, your Honour.1
+Introduction
+So far the High Court of Australia has not been faced with a clear-cut case of loss
+of chance in a medical negligence appeal. Special leave to appeal was refused in
+the case from which the above extract is taken, mainly because the issue had not
+been litigated below and the necessary findings of fact had not been made. Cases
+will seldom be litigated on the basis of loss of a chance, because both plaintiff and
+defendant are hopeful of complete victory.4 Nevertheless, experience in other
+jurisdictions suggests that Kirby J is right in saying that one day the court will
+have an opportunity to consider the issue.
+The doctrine has been described in the Supreme Court of Canada as suggesting
+that "plaintiffs may be compensated where their only loss is the loss of a chance
+at a favourable opportunity or of a chance of avoiding a detrimental event."3 A
+possible scenario might be as follows:
+A patient presents for treatment with symptoms that should alert a medical practitioner to the possibility
+of cancer. The practitioner negligently fails to recognise the symptoms and to recommend tests that could
+confirm the presence of cancer. Six months later the patient is found to be suffering from cancer. Its state
+of growth and the earlier symptoms indicate that it was already present when the earlier examination
+was conducted. If the practitioner had then recommended the appropriate tests, the cancer would
+probably have been detected and treated. Had it then been treated, the patient would have had a 40 per
+cent chance of survival for another five years. Now that six months have elapsed without treatment, the
+chances of the patient's survival for five years are only 10 per cent.4
+In such a case, assuming that there is a contract between the medical
+practitioner and the patient, as there would ordinarily be even if no money
+passed directly from the patient to the doctor,5 the patient would be entitled to
+nominal damages at least for the breach of the implied term requiring the
+exercise of reasonable care and skill. If there is no contract, nominal damages
+cannot be awarded, since any action would be in the tort of negligence and
+damage is the gist of the action. Beyond that, disputed territory lies.6
+On one view, the patient, if able to prove on a balance of probabilities that he
+or she suffered pain during the six months when the cancer was undetected,
+which would have been alleviated by treatment if the medical practitioner had
+not been negligent, may recover damages to compensate for that pain. Similarly,
+damages may be awarded for loss of earning capacity or any of the other heads
+of damage during that period if it is proved on a balance of probabilities that the
+patient suffered them and would not have if the medical practitioner had not
+been negligent. These losses may extend beyond the six months when the cancer
+was undetected in so far as it can be shown by the patient on a balance of
+probabilities that they have been, and will be, greater than if treatment had been
+given at the earlier stage. But no damages may be awarded for the loss of the
+chance of survival for five years, since on the balance of probabilities (60:40) the
+patient would not have survived for five years even if there had been no
+negligence on the part of the medical practitioner.
+The analysis which is preferred in this chapter is that whether or not there was
+a contract between the patient and the medical practitioner, the patient would be
+entitled to compensatory damages for any pain and suffering, loss of earning
+capacity, etc during the six months when the cancer was undetected, subject to a
+discount for the chances that the pain and suffering and other losses would not in
+any event have been able to be alleviated.7 Similarly, damages may be awarded
+for the chance that the patient will in the future suffer pain, loss of earning
+capacity and other losses, subject to a reduction for the chance that this would
+have occurred even if there had been no negligence on the part of the doctor.8 In
+so far as there is uncertainty as to the extent to which the patient's underlying
+cancer would have brought the patient to a state similar to that which has thus
+far occurred and that is predicted to occur in the future, an evidentiary onus rests
+on the defendant to disentangle the causes,9 though the ultimate onus rests on the
+plaintiff to satisfy the court that some damages should be awarded.10 In other
+words, this chapter adopts the thesis of JH King Jr:
+Loss of chance should be compensable even if the chance is not better than even, and it should be
+recognized and valued as such rather than as an all-or-nothing proposition. Any other rule fails to satisfy
+the goals of tort law.11
+Leaving aside medical negligence for the moment, the thesis may be illustrated
+by the decision of the House of Lords in the Scottish case of McGhee v National
+Coal Board.12 Here the pursuer sought damages from his employer for dermatitis.
+He had been required to work in hot and dusty conditions in the defender's brick
+kilns. By the time the case reached the House of Lords it was accepted that this in
+itself was not negligent on the part of the defender. However, in breach of the
+duty of care owed to him, the defender had failed to provide showers with which
+he could wash off the accumulated dust at the end of his shifts. Accordingly, the
+dust had clung to him as he cycled home. Medical evidence was that this
+increased the risk of his developing dermatitis from the dust. But it was not
+known how this occurred. It could not be shown that more probably than not, he
+would not have developed the dermatitis if he had showered.
+The lower courts held that the pursuer's action had to fail. The House of Lords
+unanimously upheld his appeal. The case was seen as either entitling the pursuer
+to all his damages for dermatitis or to none. There has been much subsequent
+debate as to whether their Lordships reversed the onus of proof or merely took a
+robust view in order to draw an inference of causation.13 It is suggested that the
+case should have been seen as one involving loss of a chance: the failure to
+provide showers deprived the pursuer of the chance of avoiding the dermatitis,
+which was undoubtedly caused by the brick dust and not by any other factor.
+This was not a case such as where a plaintiff is negligently exposed to asbestos
+and also smokes and it is not known whether the lung cancer from which the
+plaintiff suffers was caused by the one or the other or the cumulative effect of
+both. There the plaintiff must prove on a balance of probabilities that the asbestos
+at least materially contributed to the cancer.14 The plaintiff must prove according
+to the ordinary standard of proof the fact of the loss and its source.15
+It is not because the defender's negligence in McGhee consisted of an omission
+that the issue there should have been seen as one of valuation and not causation.
+Omissions may also be causes. As Mason J pointed out, a "gardener's failure to
+water the flowers may properly be regarded as a material cause of their dying for
+want of water, when it is his duty to water them".16 The difficulty for the pursuer
+in McGhee was that the medical evidence would not sustain a conclusion that it
+was more likely than not in his case that the provision of showers would have
+prevented the dermatitis. The omission could not therefore in his case be said to
+have caused the harm itself. But if we recognise as a loss that he sustained the
+fact that he was deprived of the chance of avoiding the dermatitis, this loss was
+proved. It should then have become a matter of valuing that chance. If the chance
+was only 40 per cent, he should have received 40 per cent of the damages he
+ultimately received, since there was a 60 per cent chance that he would have
+developed dermatitis even if the employer had provided showers and so not been
+negligent. The court should not have been faced with the choice of awarding him
+100 per cent of his damages or none at all.17 Even if it was more probable than
+not that the provision of showers would have prevented the dermatitis, he should
+not have been awarded 100 per cent of his damages, because there was also a
+chance that he would still have incurred the dermatitis and such a chance should
+have been taken into account in the valuation of his loss.18
+This chapter explores the case law in order to see whether it is possible to
+arrive at this solution in a medical negligence context. In other words, where
+there is little doubt that a plaintiff's physical or mental condition was caused by
+some pre-existing condition and the present state might have been prevented or
+alleviated in the absence of negligence on the part of a medical practitioner, may
+the failure to exercise reasonable care to prevent or alleviate the condition be
+itself treated as a loss to the plaintiff, damages for which may be assessed on the
+basis of the chances of success or alleviation? It is true that in all cases where the
+defendant is under a duty of care to act positively to prevent harm from another
+source, the issue of causation can be recast as one of valuation of a chance. For
+instance, someone who slipped and fell in a shop would be able to argue that the
+failure on the part of the shop to take care to provide a system for the removal of
+such substances deprived him or her of the chance of not slipping. This is
+contrary to the present law, which requires the plaintiff to prove on a balance of
+probabilities that such a system would have prevented the slip.19 Ultimately, the
+issue is one of defining the scope of the rule that requires the defendant to act.20
+That is a question of policy.
+Where It All Began: Chaplin v Hicks
+The possibility of recovery for loss of chance may be seen as stemming from the
+decision in Chaplin v Hicks.21 This unreserved judgment of the English Court of
+Appeal, in which the respondent's counsel was not even called on to argue, has
+been enormously influential. Consequently, the facts are well known. The
+plaintiff entered a contest in which 12 women were to be offered theatrical
+engagement for a period of three years each. Her photograph was selected by
+readers of a newspaper in the region in which she lived as the most beautiful
+among the contestants from that region. This entitled her, along with 49 others, to
+be interviewed by the defendant and a committee for the purposes of final
+selection. In breach of the contract between them, the defendant failed to notify
+her in time of the interview and avoided giving her a subsequent interview. A
+jury awarded her £100 damages. The award was upheld by the Court of Appeal.
+Although her chances of being awarded one of the 12 positions may have been
+less than one in four, it was held that she had lost something of monetary value.
+Even though there was no market for the opportunity that the contract gave her
+and she could not have sold her right, damages were not unassessable. Precision
+was not necessary and the jury had to do the best it could on the evidence
+available.22 The court could not interfere with the assessment it made.
+This decision was ahead of the American practice of the time, which generally
+embodied a "rule of certainty".23 It was described approvingly by an American
+text as "leading the way to a liberal practice", though attributed to the habit of
+English judges "of concealing problems of certainty under the cloak of
+'remoteness'" and "their adherence to the tradition that questions of damages are
+for the jury's discretion".24 Be that as it may, the decision was followed in
+Australia in Howe v Teefy.25 In this case the plaintiff leased a horse from the
+defendant with the intention of training and racing him. The plaintiff claimed
+that he would have made a profit by betting on the horse himself and providing
+tips to others as to the horse and its prospects. In breach of the contract, the
+defendant withdrew the horse from the plaintiff. A jury having assessed the
+plaintiff's damages at £250, an appeal by the defendant was dismissed. The case
+for allowing the jury to evaluate the chance that the plaintiff would have made a
+profit from the use of the horse was said to be stronger than in Chaplin v Hicks,
+since the plaintiff here could probably have sold the right to lease the horse and
+had in any event paid for the right to lease it whereas the plaintiff in Chaplin v
+Hicks had paid nothing.26
+In Fink v Fink27 a wife claimed damages from her husband for breach of a
+contract which, she claimed, would have given her the chance of reconciliation
+with him. Dixon and McTiernan JJ denied her claim for damages, distinguishing
+Chaplin v Hicks on the ground that the loss here was, in the language of Vaughan
+Williams LJ in that case "so dependent on the mere unrestricted volition of
+another that it is impossible to say that there is any assessable loss resulting from
+the breach".28 Latham CJ and Williams J, in their dissent, took the view that since
+Chaplin v Hicks it could not be said that the fact that an element in the
+contingency on which a contractual benefit depends is the exercise of the will of
+a particular person makes such benefit irrecoverable.29 Deane J took a similar
+view in Commonwealth v Amann Aviation Pty Ltd,30 being of the opinion that it
+was no answer to the plaintiff's claim in Chaplin v Hicks that there was a
+possibility that the defendant might arbitrarily have denied her a prize.
+Reconciliation between husband and wife is obviously something different from a
+commercial decision to offer employment as an actress or to renew a contract to
+provide surveillance for Australia's coastline and Fink v Fink should not be seen
+as standing in the way of awarding damages for loss of a chance in the medical
+context. Whether or not it depends on the husband's unrestricted volition to
+reconcile with the wife or on the grounds that reconciliation was so speculative
+that there was no reasonable chance of benefiting the wife, as was held in Davies
+v Taylor,31 a Lord Campbell's Act action brought by a separated wife, a real
+chance of effecting a medical cure or alleviation is distinguishable. In Amann
+Brennan J, too, citing Chaplin v Hicks, recognised that in appropriate
+circumstances the loss of a chance is the proper subject of compensatory
+damages.32
+Chaplin v Hicks was distinguished also in McRae v Commonwealth Disposals
+Commission.33 The contract in Chaplin was said to be one "to give the plaintiff a
+chance", whereas in McRae the plaintiff had no real chance of discovering a
+tanker which had never existed. An issue that we shall have to consider below is
+how it may be determined in a medical negligence case that the plaintiff had no
+real chance of a cure or alleviation if proper skill is exercised.34 However, if the
+chance that still existed at the time of the treatment was a real one, Chaplin v
+Hicks and its acceptance in Australia should allow the plaintiff to recover for the
+value of the lost chance notwithstanding that the chance was less than an even
+one. We shall look later at the acceptance of the principle of Chaplin v Hicks in
+the High Court in a claim for breach of the Trade Practices Act 1974 (Cth), s52,35
+and at the dicta in the latest Australian High Court cases that consider the issue
+in the context of medical negligence,36 but before doing so we turn to another
+area of professional liability in which loss of chance has been significant.
+Solicitors
+The principle of Chaplin v Hicks was applied without reference to the case in
+Kitchen v Royal Air Forces Association.37 Like Chaplin v Hicks, this was also an
+unreserved judgment of the English Court of Appeal, but unlike the earlier case it
+was given after some 10 days of argument on a number of issues. Having upheld
+the trial judge's decision that the firm of solicitors was negligent in failing to
+issue proceedings in a Lord Campbell's Act claim, the court had to consider
+whether the trial judge's award of two-thirds of the maximum damages that
+could have been awarded in the original action should be upheld. Lord Evershed
+MR rejected the argument that if the plaintiff would on the balance of
+probabilities have succeeded in her original action, she was entitled to the
+damages that would have been awarded in that action in full; whereas if she
+would probably have failed, then she was entitled to nominal damages only. He
+took the view that she would have been entitled to the full damages if she must
+have succeeded in the original action. On the other hand, if she must have failed,
+in his view she would have been entitled to nominal damages only. He refused to
+countenance the argument that in the latter circumstances her claim would still
+have had a nuisance value and therefore she should be entitled to the value of
+that.38 The present case falling somewhere between the extremes, the court had to
+determine whether she had lost "some right of value" and to determine what that
+value was as best it could.39 Parker LJ, too. said that unless the court was satisfied
+that the plaintiff's claim was bound to fail, something more than nominal
+damages were to be awarded.40 All three members of the Court of Appeal
+regarded the trial judge's estimate of two-thirds as high, but as the particular
+percentage was not challenged they upheld the award.41 There is no suggestion
+that if the trial judge had fixed the percentage at one-third (or anything less than
+50 per cent), this would not have been upheld too. Indeed, such a suggestion
+would be contrary to the principle applied, namely that if the plaintiff had lost
+something of value the court had to do the best it could to evaluate it, just as in
+Chaplin v Hicks the plaintiff was entitled to a jury award even if her chances of
+winning a prize were less than one in four.
+Kitchen's case was followed by Bray CJ in Tutenkoff v Thiele,42 where it was
+held that in evaluating the chance of success in the original action the court could
+take account of evidence that would probably have been advanced on behalf of
+the original defendant, but which was not put forward in the action against the
+solicitor. Taking account of such evidence, which would probably have led to a
+greater reduction for contributory negligence or even possibly a finding of no
+liability, his Honour held that the damages as now assessed should be reduced by
+40 per cent.
+Kitchen's case and Tutenkoff v Thiele were cited as apparently correctly stating
+the law in Johnson v Perez.43 This was a case where it was accepted that the
+plaintiff must have succeeded in the original action which the defendant
+solicitors had neglected to bring. The issue was whether the damages had to be
+assessed as at the time when the original action should have been brought or at
+the time of the action against the solicitors. It was accepted that the answer to the
+problem did not depend on whether the action was brought in contract or tort.44
+Only Brennan J dealt with the measure of damages in a case of uncertainty. He
+was of the opinion that the "value of the lost cause of action cannot be assessed as
+though there were a market for doubtful causes of action in damages for personal
+injury".45 Thus he refused to recognise that the plaintiff would be entitled to a
+percentage of the maximum damages that could be awarded. He required the
+court to find whether the plaintiff probably would have succeeded or failed or
+compromised the action and to award damages accordingly. He cited no
+authority for this and was alone in so thinking.46
+In the companion case of Nikolaou v Papasavas Phillips & Co47 Mason CJ, with
+respect, correctly cited Kitchen as authority for the proposition that on the retrial
+of the action, the order for which the High Court upheld, the court would "need
+to determine what the appellant would have recovered but for [the solicitors']
+negligence and will need to discount that amount by the chance that he would
+not have been successful in that claim". He did not suggest that the discount
+could not be greater than 50 per cent. In the court below, from whose decision the
+appeal was dismissed, all three judges emphasised that the plaintiff's damages
+were for the loss of the chance of success in the original action.48 Murphy J
+specifically stated that the damages to be assessed for the loss of this chance "are
+quite different from the damages which ought to have been assessed in" the
+original action.49 He acknowledged that the amount of the likely award could
+provide a guide to the evaluation of the lost chance,50 but that it would require
+adjustment in the light of the strength or weakness of the plaintiff's case on
+liability and quantum.51
+This is the approach that has been taken in many such actions against
+solicitors.52 In none has it been suggested that damages may be awarded only if it
+was more probable than not that the original action, appeal or other proceeding
+that the solicitor failed to prosecute would have succeeded. Such an argument
+was advanced, but rejected, in what is now the leading English Court of Appeal
+decision on the point.53 In some of the Australian cases the actual award has
+reflected the opinion that the plaintiff's prospects of success were not better than
+even.54 There is an obiter dictum by Deane J that expressly recognises that the
+chance of success may be less than 50 per cent.55
+In some cases it has been claimed that the negligence of the solicitors deprived
+the plaintiff not of the opportunity of success in litigation, but of the chance of
+acting in a particular way. In such circumstances the courts have usually denied
+the plaintiff damages on the basis of loss of chance, requiring instead that the
+plaintiff prove on a balance of probabilities that he or she would have acted
+differently if the advice given had not been negligent. Thus the proposition has
+been stated that "if the reality of the chance depends on some action that the
+plaintiff would need to have taken, he or she must establish on the balance of
+probabilities that the action would in fact have been taken".56 We shall see below
+that the High Court has apparently accepted this distinction57 and that a similar
+distinction has been drawn in the context of medical treatment.58
+Loss of a Commercial Opportunity
+The Australian High Court has twice held that a plaintiff may recover damages
+for loss of a commercial opportunity though the chance of the loss occurring was
+assessed at less than 50 per cent. As stated in Sellars v Adelaide Petroleum NL,59
+in Commonwealth v Amann Aviation Pty Ltd60 four of the judges "concluded that
+a lost commercial advantage or opportunity was a compensable loss, even though
+there was a less than 50 per cent likelihood that the commercial advantage would
+be realized. Damages for breach of contract were assessed by reference to the
+probabilities or possibilities of what would have happened". In Sellars itself the
+trial judge had held that if not for a contravention of s52 of the Trade Practices
+Act 1974 (Cth), the plaintiff would have continued to negotiate an agreement,
+which had a 40 per cent prospect of being performed successfully. He awarded
+damages under s82(1) of the Act for loss of this opportunity. The High Court
+upheld this decision. It held that, as in tort, loss or damage is the gist of the action
+under s82(1).61 The loss of the commercial opportunity that would have arisen if
+the agreement had been entered into was itself a loss that qualified for the
+purposes of s82(1). Thereafter, it was a matter of valuation and the trial judge's
+discount of 60 per cent from the full value of successful performance because of
+the various contingencies that attended such performance was upheld.
+A similar view has been indicated in the House of Lords, in a case where the
+defendant was held liable for negligently giving the plaintiff a bad reference. In
+remitting the case for assessment of damages, Lord Lowry, citing Chaplin v Hicks,
+indicated that all the plaintiff had to prove was that he had lost a reasonable
+chance of employment.62
+In New Zealand, too, the Court of Appeal has recognised on at least two
+occasions that damages may be awarded for loss of a commercial opportunity.63
+It need not be proved on the balance of probabilities that the opportunity would
+have had a successful outcome. All that need be proved on a balance of
+probabilities is that the plaintiff had such a chance and was deprived of it.
+The Court in Sellars distinguished several cases where proof on a balance of
+probabilities had apparently been required.64 It thought that these turned
+"primarily on the issue of causation" and expressed the opinion that "[w]hen the
+issue of causation turns on what the plaintiff would have done, there is no
+particular reason for departing from proof on the balance of probabilities
+notwithstanding that the question is hypothetical".65 It reiterated that "the general
+standard of proof in civil actions will ordinarily govern the issue of causation and
+the issue whether the applicant has sustained loss or damage. Hence the applicant
+must prove on the balance of probabilities that he or she has sustained some loss
+or damage".66 For the purposes of proceedings under the Trade Practices Act the
+plaintiff had proved such loss by proof of the loss of the commercial opportunity,
+even though its valuation was less than 50 per cent of the full value of the
+agreement. There is no reason in principle why the court should not similarly
+recognise the loss of an opportunity to be cured as something that itself has
+value. All that the plaintiff need then prove on the balance of probabilities is that
+the defendant's negligence caused the plaintiff to lose a chance of cure that is not
+entirely speculative. Once that is proved, it is for the court to do the best it can to
+value the chance, even if cure is less probable than not. Whether that should be
+confined to cases where the chance does not depend on the plaintiff's own
+response to advice will be considered below.
+Before leaving Sellars two points need to be made. First, the distinction
+between causation, which must be proved on a balance of probabilities, and
+valuation, where chances may be taken into account, is not one that is always
+easy to make.67 Secondly, the court acknowledged in the first of the above
+quotations that proof of causation was required on a balance of probabilities
+"notwithstanding that the question is hypothetical". This recognises that
+hypothetical questions do not normally require proof on a balance of
+probabilities. The converse of this is that so-called questions of past (or
+"historical") fact do normally require such proof. It is to this distinction that we
+now turn.
+The Distinction between Past Facts and Future or
+Hypothetical Facts
+In a well-known passage, Lord Diplock said:
+The role of the court in making an assessment of damages which depends upon its view as to what will
+be and what would have been is to be contrasted with its ordinary function in civil actions of
+determining what was. In determining what did happen in the past a court decides on the balance of
+probabilities. Anything that is more probable than not it treats as certain. But in assessing damages
+which depend upon its view as to what will happen in the future or would have happened in the future if
+something had not happened in the past, the court must make an estimate as to what are the chances
+that a particular thing will or would have happened and reflect those chances, whether they are more or
+less than even, in the amount of damages which it awards.68
+This was approved by the High Court in Malec v J C Hutton Pty Ltd.69 In this
+case the plaintiff was suffering from a neurotic condition induced by brucellosis
+that he had contracted owing to his employer's negligence. The lower courts
+found that he was also suffering from a degenerative condition of the spine that
+was equally likely to have caused him to suffer a similar neurotic condition. The
+majority of the intermediate appellate court held that he was not entitled to
+damages for economic loss after the time when the neurotic condition would
+probably have developed anyway. The High Court reversed the decision and
+referred the case back for further assessment of the damages. It went further than
+the statement of Lord Diplock in relation to past hypothetical events, saying: "The
+approach is the same whether it is alleged that the event would have occurred
+before or might occur after the assessment of damages takes place."70
+This approach to hypothetical events that might or might not have occurred
+has since been applied almost daily where the plaintiff was suffering a condition,
+such as a natural degeneration of the spine, that might have affected him or her if
+the injury for which damages are being assessed had not been incurred. As the
+late John Fleming pointed out, however, this raises large questions in relation to
+causation, since causal inquiries inevitably involve asking the hypothetical
+question of what would have happened if the defendant had not been negligent.71
+The High Court's response, as we have seen, was to suggest that proof on the
+balance of probabilities would continue to be required in relation to causation, at
+least in those cases that depend on the plaintiff's own response to advice.72
+Strangely, two earlier High Court cases that might have been considered
+relevant to the problem it faced were not cited in Malec. These were Watts v
+Rake73 and Purkess v Crittenden.74 They were concerned with the onus of proof
+where the defendant has undoubtedly caused an injury to the plaintiff, but there
+is a dispute as to whether a natural condition or some other event would have
+resulted in the plaintiff suffering from a similar disability without the injury. The
+cases place an evidential onus on the defendant to show with some precision
+what would have been the effects if the plaintiff had not been injured by the
+defendant, but leave the ultimate onus on the plaintiff to prove that the defendant
+caused the harm for which damages are sought.75 There is no suggestion in either
+of them that the plaintiff may recover damages for the full effects of the present
+condition, discounted by the chances that some of those effects may have
+occurred in any event. To reconcile these different lines of authority,76 it is
+necessary to say that the plaintiff must prove on the balance of probabilities that
+the defendant's negligence did contribute materially to the present symptoms
+(this is the legal onus that rests on the plaintiff). Once that is satisfied, there is an
+evidential onus on the defendant of proving that the alleged pre-existing or
+subsequent natural condition did exist and that this condition in its natural
+progression would have produced similar symptoms. If the defendant is unable to
+satisfy the evidential burden, the court will reduce the plaintiff's damages for
+contingencies to no greater extent than in the ordinary case. If, however, the
+defendant shows that there was a real chance that the plaintiff would have
+developed similar symptoms from a natural condition attaching to the plaintiff,
+the court will make a greater reduction than normal to reflect this increased
+chance.77
+Malec was concerned with hypothetical facts, namely what would have
+happened in the absence of the defendant's negligence. The High Court held that
+such facts were to be evaluated according to the chances that they would have
+occurred. It also pointed out that where one contingency is dependent on another,
+the evaluation of the chance requires the multiplication of each by the other, so
+that the final chance is a reduced percentage.78 It was not necessary to consider
+events that had happened in the past, but that were also attended by uncertainty.
+There was no dispute, at least before the High Court, that the diagnosis that the
+plaintiff was suffering from brucellosis was correct or that he had contracted the
+disease as a result of his employment. Facts of this nature would, in the view both
+of Lord Diplock in Mallett v McMonagle79 and of the High Court,80 if proved on
+the balance of probabilities, be treated as certain. This view was adopted by the
+House of Lords in Hotson v East Berkshire AHA.81 Since this is the leading
+authority in English law on loss of chance in medical negligence cases, we must
+look at it closely.
+In Hotson a 13-year-old boy fell from a rope on which he had been swinging
+from a tree. He was taken to a hospital, where his knee, but not the upper part of
+his leg, was X-rayed. He was given an elastic bandage for his knee and sent
+home, with an instruction to return in 10 days. He continued to suffer
+excruciating pain. Five days later he returned to the hospital, his hip was X-rayed
+and a serious fracture discovered. The following day he underwent surgery. He
+was left with a permanent disability. The cause of the disability was avascular
+necrosis, a blockage of the blood supply to the upper femur. The hospital
+admitted negligence. The trial judge found that there was a high probability,
+which he put at 75 per cent, that the plaintiff would have suffered the same
+disability even if he had received proper treatment at the hospital. This was
+because the avascular necrosis had probably already set in. However, the
+hospital's negligence made the disability certain and deprived the plaintiff of the
+25 per cent chance that he might have had that it had not already gone that far
+and could still have been avoided with the appropriate treatment. He awarded the
+plaintiff damages for the pain and suffering the plaintiff had undergone in the
+period immediately after he had been sent home by the hospital. In addition he
+awarded one-quarter of the damages that he would have awarded if the hospital
+had been fully liable for the disability. An appeal and cross-appeal were
+dismissed by the English Court of Appeal.82 The House of Lords, however, upheld
+the defendants' appeal and set aside the damages in respect of the permanent
+disability.
+The decision of the House of Lords depended on treating the existence or
+otherwise of avascular necrosis at the time when the plaintiff presented at the
+hospital as a past fact. Since the trial judge had found that there was a 75 per cent
+probability that it had already occurred, the members of the House of Lords
+treated it as certain. On this view, there was no chance that proper treatment
+could have averted the condition. Therefore, the plaintiff had not lost the benefit
+of any chance at all.83 As they saw it, their Lordships did not have to deal with a
+pure case of a lost chance and they left the issue open, though with some
+discouraging remarks.84
+Let us change the facts of Hotson slightly.85 Assume that the plaintiff has a
+cause of action against a tortfeasor who caused him to fall from the tree. Assume
+also that because of his young age, treatment for one of the consequences of the
+fall cannot be performed until he is much older. We know that there is a 75 per
+cent chance of the treatment being successful. If the damages are assessed before
+the treatment, the plaintiff must be allowed damages for the 25 per cent chance
+that it will not be successful. Why, if he has not already recovered damages,
+should he not have a similar remedy against someone who later performs the
+treatment negligently so as to deprive the plaintiff of that 25 per cent chance? The
+distinction between past and future cannot account for a different outcome. It
+may be that the reason why only 75 per cent of the treatments are successful is
+that 25 per cent of patients are in fact untreatable due to their genetic
+constitution, but which patients are so untreatable is not presently known to
+medical science. When assessing the damages against the tortfeasor who caused
+the plaintiff to fall from the tree, the genetic make-up of the plaintiff is a past
+fact, which may really mean that it is 100 per cent certain that the treatment will
+not succeed, yet doing the best we can in the uncertain state of scientific
+knowledge all that we can say is that there is a 25 per cent chance of failure. As
+Waddams points out, much medical diagnosis and prognosis is a mixture of past
+"fact" and future predictions.86
+Another illustration might be provided by the CJD litigation.87 Assume that
+100 people were injected with Human Growth Hormone after it became negligent
+to continue to do so. Some of the hGH was infected with a prion that transmitted
+the disease. All who received the infected hGH will eventually develop CJD if
+they do not die earlier from other causes. However, no tests can tell which of the
+100 people received the infected hormone and which did not. If we were able to
+estimate from past experience that more than 50 will eventually develop the
+disease, each of the 100 people would be able to prove on the balance of
+probabilities that he or she received infected hGH. It is unlikely that any court
+would award damages on that basis alone.88 On the other hand, if the estimate is
+less than that, none could succeed in proving this past fact. If some of the 100
+developed psychiatric illnesses from fear of developing the disease and were
+awarded damages for the psychiatric illness,89 a court would probably apply
+Malec and take account of the risk of developing the disease itself even if the
+probability was less than even, despite that risk being itself dependent on the
+past, but unknowable, fact that the plaintiff did or did not receive an infected
+dose. As will be suggested below, a better solution to this particular problem
+would be to award damages for the present illness and postpone the assessment
+of damages for the disease itself until it actually occurs, if it ever does.90
+A further illustration of the futility of trying to distinguish between past and
+present facts in some circumstances has been suggested by recent events in
+Florida. Assume that someone sets fire to a polling station immediately after an
+election has been held. One of the candidates is inside the station at the time and
+is permanently disabled as a result of the fire. The ballot box is also destroyed in
+the fire. The candidate sues the person who started the fire. The candidate's
+earning capacity has been affected, but by how much? If the outcome of the
+election had been successful for the candidate, the earning capacity would have
+been assessed on one basis; if the candidate had lost, the earning capacity would
+have been assessed on a different basis. The outcome would have been dependent
+on the votes cast and that is a past fact. Yet, we can now never know how many
+votes were cast for the candidate and how many for the opponents. We would
+have to assess damages based on the chances of success, estimated as best we can.
+It should be noted that events that lie in the future at the time the cause of
+action arises are taken into account on an all-or-nothing basis when they have
+occurred by the time of the trial. If a candidate for political office were killed
+before polling day and the election were postponed, we would assess the damages
+for the dependants on the basis of the probabilities of election if the death had not
+occurred. The probabilities may be less than even, as long as they are not entirely
+speculative.91 But if the death occurs, say, just as polling closes, the court would
+probably take into account the actual votes cast, even if they are nullified by the
+death, and assess the damages on the basis that the candidate would or would not
+have been elected. Since facts are preferred to prophecies, where a surviving
+spouse has died or remarried before the trial of a Lord Campbell's Act action, the
+damages are assessed with regard to the now known fact;92 whereas, if they had
+not already happened, these matters would be assessed as contingent and the
+chances of their occurring would be estimated.93 In the earlier illustration varying
+the facts of Hotson, so that the claim was brought against someone who caused
+the boy to fall from the tree, the damages are assessed at 25 per cent of the loss if
+there is a 75 per cent chance of medical treatment avoiding particular
+consequences. However, if the medical treatment has already been given and the
+outcome is known, the damages are assessed on the basis of that outcome, which
+is all or nothing. Facts that are knowable must, of course, be proved on the
+balance of probabilities. In the case of the death or remarriage of a plaintiff in a
+Lord Campbell's Act action, the party bearing the onus of proof on the issue
+would have to establish the fact of the surviving spouse's subsequent death or
+remarriage on the balance of probabilities or it will be ignored. The court cannot
+reduce the damages on the basis of a chance that the death or remarriage has
+already occurred.
+The distinction between facts that are knowable, and that must therefore be
+proved on a balance of probabilities, and those that are not, where allowance can
+be made for chances, is not always clear cut. In the Hotson variation, the medical
+treatment might already have been given, but the outcome might still be
+precarious at the time of the trial. In such circumstances, it would be appropriate
+to assess the damages on the basis of the chance of a successful outcome, whether
+that is more or less than 50 per cent.
+Support for the view that too much should not be made of the distinction
+between future and past events may be found in some dicta of Deane J in
+Commonwealth v Amanti Aviation Pty Ltd. Under the heading "Loss of a chance",
+his Honour dealt at some length with the need, in order to do justice, to assess
+damages by reference to chances where facts related to the future or to what
+would have happened in the past.94 He concluded:
+It is true that Lord Reid's reasons for rejecting the balance of probability test in the circumstances of
+Davies v Taylor could be applied equally to some categories of case in which a court is concerned with
+the determination of past events. That does not mean, however, that the traditional approach for
+determining past facts should be applied to a case requiring the assessment of damages on the basis of
+what would have happened or will happen. To the contrary, it lends support for the view that there is a
+need for modification or reassessment in some categories of case of the conventional approach that, in
+assessing damages for what has occurred in the past, a court decides on the balance of probabilities and
+assumes certainty where none in truth exists.95
+On the facts of the case before him, he found it unnecessary to pursue this
+further. Although some of his citations indicate that he might have been prepared
+to measure even past "facts" by the chances that they might or might not have
+occurred, his first citation may indicate only a relaxation of what amounts to
+proof on a balance of probabilities, where a "robust" approach to the finding of a
+causal link enables a court to treat as certain otherwise doubtful connections.96
+But, as Waddams has pointed out, the odds on a roll of dice are the same whether
+the roll is about to take place or the dice have already been rolled and the dice are
+covered.97 Damages should be similarly assessed.
+That does not mean, of course, that every disputed fact is to be taken into
+account according to the chances that it occurred. In some of the cases dealt with
+below, disputes arose as to whether the plaintiff told the medical practitioner of
+symptoms that should have led to a particular diagnosis. If relevant, the judge has
+to resolve such disputes on the balance of probabilities. Once so resolved, the fact
+is taken as certain.98 A plaintiff cannot recover damages for the chance that he or
+she might have told the doctor, even though often the trial is many years after the
+event and no-one can know for certain whether or not the doctor was told. The
+plaintiff must prove on the balance of probabilities that he or she did lose a
+chance99 and where that turns on what the doctor was told, that must be
+established on the balance of probabilities. This is the explanation of the decision
+in Hotson: the plaintiff simply failed to prove that there was a chance of any sort
+of preventing the disability. Nevertheless, it is the sort of case where justice
+requires the relaxation of the strict rule. A rigid application of the rule in a case
+that turns on whether the plaintiff's cancer had already developed secondary
+cancers elsewhere in the body at the time when the doctor should have detected
+it, so that treatment would have been comparatively futile, would mean that the
+plaintiff would fail altogether if the proof shows that there was a 51 per cent
+probability of it having done so, but would succeed wholly if there was only a 49
+per cent probability.100 It would be better to allow the plaintiff to succeed and to
+reduce the damages by the percentage probability that it had already occurred.101
+As Professor Waddams has put it, "[w]here the primary significance of a past fact
+is what it indicates about the future it should ... be treated as a hypothetical fact,
+and uncertainty assessed according to the probabilities rather than on an all-or-
+nothing basis".102
+“Open” and “Closed” Cases
+It is suggested that in the interests of justice, courts should draw a distinction
+between what might be called "open" and "closed" chance cases, Fleming has
+correctly observed that "[l]oss of chance is the mirror image of the proposition
+that exposure to risk should be compensable. Just as chance quantifies the
+probability of a positive outcome (cure), risk describes the probability of a
+negative occurrence".103 However, mirror images are not identical. Let us deal
+first with exposure to risk. These can be said to be "open" cases.
+A plaintiff who has been exposed to a risk, which may or may not occur, is
+confronted with a dilemma resulting from the once-and-for-all rule of assessment
+of damages.104 First, if the plaintiff waits to see whether the risk will occur before
+suing and the court recognises that some damage has already been suffered, the
+plaintiff might find that the limitation period has run before the risk
+eventuates.105 Secondly, if the plaintiff sues before the risk occurs, the plaintiff
+will be awarded damages only on the basis of the chance that the risk will
+eventuate. While the plaintiff then receives a windfall if it never does, the
+plaintiff is likely to be much undercompensated if the risk does eventuate.106
+To avoid these problems, the law may simply state that the risk is not itself
+damage sufficient to satisfy the gist of an action in negligence.107 This way of
+avoiding the problem cannot be adopted where the plaintiff suffers some
+recognised damage and the uncertain future risk is a consequence. As long as the
+once-and-for-all rule remains in place, the court must assess the damages on the
+basis of its estimate of the chances of the risk eventuating. Inevitably then, the
+plaintiff is over- or undercompensated.108
+There is a solution here. That is to adopt legislation for what are known as
+provisional damages. Their introduction in England in 1985 by Rules of Court109
+made pursuant to the Supreme Court Act 1981 (Eng), s 32A, followed
+recommendations by the Law Commission.110 They are intended, according to
+the Commission, to provide for what it calls "chance" cases, as opposed to
+"forecast" cases where a deterioration in the plaintiff's condition is probable, but
+its severity is uncertain.111 The provisional damages are then assessed at the time
+of the trial without regard to the possibility of the loss occurring, but the event
+that will authorise a return to court for further assessment is specified with
+particularity. A similar provision was adopted in the Dust Diseases Tribunal Act
+1989 (NSW), sllA.112 The New South Wales Law Reform Commission has
+recommended that, with some modifications, legislation such as that under the
+Dust Diseases Tribunal Act be introduced for general application in personal
+injury actions in the State.113 It should be adopted everywhere.
+Whether or not such recommendations are adopted to deal with these "open"
+chance cases, the problems with "closed" chance cases are not the same. Although
+the issue remains whether loss of chance on its own should be regarded as
+damage for the purpose of a negligence action, the reasons for not so recognising
+it in the "open" chance cases do not apply. Where a medical practitioner has
+simply failed to diagnose a condition for which there was a chance of cure if
+treated at the time, the lack of a cure will already have eventuated at the time of
+any trial. Limitation problems are no different from any other case of professional
+negligence. They are linked to discovery of the fact of negligence, not to reasons
+for awaiting the eventuation of a risk.114 The court will be in no better position to
+assess the damages for the missed chance if the assessment is postponed. Of
+course, the uncertainty as to what would have happened if the chance had not
+been missed and what will now happen remains. That uncertainty is inevitable,
+but plagues all personal injury litigation.
+Medical Practitioners
+What the courts or legislatures do with "open" cases of exposure to risk is not
+directly relevant to the issue of whether medical practitioners should be held
+liable for the loss of a chance of preventing or alleviating a medical condition for
+which the practitioner is not responsible. Before considering the Australian
+authorities, we shall refer briefly to those in the United Kingdom, Canada and the
+United States.
+Overseas Authorities
+United Kingdom
+The issue arose comparatively early in Scotland. In Kenyon v Bell115 a child fell
+and cut her eye. She was taken to hospital, where she was treated. Some months
+later the eye had to be removed. She alleged among other things that she had
+been deprived by negligence of the chance of saving the eye. In interlocutory
+proceedings it was held that such an allegation was insufficient, the pursuer
+being required to prove on the balance of probabilities that the defender's
+negligence had caused her loss. The matter was allowed to go to trial on her other
+allegations, but she failed, since the judge held that "no treatment could have
+made any difference because the initial injury involved a perforating wound of
+the sclera with consequent haemorrhaging into the interior of the eye".116
+The finding that damage had probably already occurred and was therefore to
+be treated as certain, so that no treatment would have made any difference, lay
+also at the heart of the decision of the House of Lords in Hotson v East Berkshire
+AHA,117 which has already been discussed. There it was held that the issue of loss
+of chance did not arise. In the Court of Appeal, however, the trial judge's award
+of damages based on loss of a 25 per cent chance of being treated successfully had
+been upheld.118 Sir John Donaldson MR there said:
+As a matter of common sense, it is unjust that there should be no liability for failure to treat a patient,
+simply because the chances of a successful cure by that treatment were less than 50 per cent. Nor, by the
+same token, can it be just that if the chances of a successful cure only marginally exceed 50 per cent, the
+doctor or his employer should be liable to the same extent as if the treatment could be guaranteed to
+cure. If this is the law, it is high time that it was changed, assuming that this court has power to do so.119
+His Lordship went on to suggest that the use of the word "chance" confused the
+distinct processes of identifying the loss and valuing it.120 He preferred to say that
+the plaintiff had lost the benefit that he would have derived from the treatment
+that should have been given to him. This seems to be no more than a semantic
+distinction. Dillon LJ, too, thought it to be contrary to common sense that if a
+patient has only a chance of cure and loses that chance through a doctor's
+negligent failure to diagnose or treat, the patient can only recover damages if the
+chance were more than 50 per cent. He observed that medicine does not deal only
+in certainties.121 Croom-Johnson LJ emphasised that it is a chance personal to the
+plaintiff that must be shown to have been lost, not merely a statistical chance.122
+In the House of Lords Lord Bridge saw the analogy with Chaplin v Hicks and
+Kitchen as attractive, but superficial. Although he left the matter open, he saw
+formidable difficulties in the way of accepting the analogy.123 He did not explain
+what he perceived those difficulties to be. Similarly, Lord Mackay considered it
+unwise to lay down a rule that a plaintiff could never succeed on loss of a chance
+in a medical negligence case.124 He set out at length passages from Herskovits v
+Group Health Cooperative125In order to demonstrate that a variety of views is
+possible in "this difficult area of the law".126 Lord Ackner took the view that
+liability has to be established on a balance of probabilities and once so
+established, the loss which the plaintiff has sustained is paid in full. He
+disapproved of the decision in Bagley v North Herts HA,127 where damages
+awarded for causing a child to be stillborn were discounted by 5 per cent because
+of the chance that it would have been stillborn without negligence.128 This is
+clearly inconsistent with the decision of the High Court of Australia in Malec.129
+Despite the matter having been left open by the House of Lords, there appears
+to be only one subsequent medical negligence case in England in which the
+damages were assessed on the basis of loss of chance. This was Judge v
+Huntingdon Health Authority,130 where the failure to diagnose the plaintiff's
+breast cancer when it should have been identified was held to have deprived her
+of an 80 per cent chance of a full expectation of life and the damages were
+assessed accordingly. The judge relied on the statement of Lord Diplock in
+Mallett v McMonagle,131 quoted above, and a similar statement of Lord Reid in
+Davies v Taylor132 and found nothing in Hotson to the contrary. Since, however,
+the judgment shows confusion between the issue of whether a chance is itself
+damage and cases where there is undoubtedly damage, but the consequences are
+dependent on contingencies, it is not of much value, even though its outcome is
+in accordance with the contention put forward here.
+Canada
+The Supreme Court of Canada rejected the doctrine of loss of chance in a medical
+negligence case in Laferrière v Lawson.133 The defendant performed a biopsy of a
+lump in the plaintiff's breast, which the pathology report showed to be cancerous.
+However, he did not inform her of this finding or arrange any follow-up. She
+became aware of cancer in her system only some three and a half years later.
+Despite treatment, she died from it. The trial judge was not persuaded that
+treatment at the earlier stage would probably have prevented the spread of the
+cancer and gave judgment for the defendant. The intermediate Court of Appeal,
+however, by majority, awarded damages of $C50,000 for loss of a real and serious
+chance of benefiting from earlier treatment so that she might have survived
+longer. An appeal by the defendant to the Supreme Court was upheld and the
+damages reduced to $C17,500, being $C10,000 for the plaintiff's psychological
+suffering as a result of not being informed of the original detection of cancer and
+$C7,500 for the improvement in the quality of her life during her last months had
+the treatment been undertaken sooner. La Forest J dissented and would have
+upheld the award below for the reasons of one of the majority.
+This case came from Quebec, where a civil code is in force. The Supreme Court
+began its analysis with a lengthy consideration of the law on loss of chance in
+France and Belgium. It attributed the fact that "French and Belgian courts have
+been especially alert to the contingency of lost chances" to a different approach to
+causation from that adopted in Quebec. Holding that proof of causation must be
+established on the balance of probabilities, it rejected the application of loss of
+chance to medical negligence cases. Loss of chance should, in its opinion, be
+confined to exceptional situations, of which destruction of a lottery ticket was the
+purest example.
+The present Chief Justice of Canada was a member of the court that gave this
+decision. Clearly, she does not see it as foreclosing the issue in the common law
+jurisdictions of Canada. She has since written: "Although recovery for loss of
+chance has been considered in the context of Quebec civil law, it has not been
+evaluated under the common law."134
+United States
+We have seen that Chaplin v Hicks135 was regarded as an advance on the
+insistence by courts in the United States on certainty.136 The article by J H King
+Jr, to which frequent reference has been made above, was very influential in
+changing the attitude of many courts.137 There remains a division of opinion as to
+whether to recognise the doctrine of loss of chance. A 1992 article, itself opposed
+to the use of loss of chance, claimed that "a majority of jurisdictions have
+declined to relax the standard of causation or create a new compensable
+injury".138 Yet, in listing the jurisdictions still adhering to the "reasonable medical
+probability standard", the article shows that they are in the minority.139 By 2000,
+at least two of those jurisdictions had adopted the loss of chance doctrine.140 The
+debate appears to have moved on to the question of how the chance is to be
+valued.141 This latter debate will not be considered here. It is often tied up with
+what the jury is to be allowed to do.
+Australian Cases
+High Court dicta
+In Naxakis v Western & General Hospital142 the plaintiff schoolboy had been hit
+over the head in a minor scuffle with one of his friends. He was taken to hospital,
+where he was kept for nine days. Two days after he was discharged, he suffered a
+burst aneurism, which led to serious brain damage. In his action against the
+school principal, those who would be vicariously liable for her, the doctor who
+treated him and the hospital, the trial judge withdrew the case from the jury. His
+decision to do so was upheld by the Victorian Court of Appeal, in a judgment
+delivered by Hayne JA (as he then was).143 The High Court granted special leave
+to appeal only in respect of the action against the doctor and the hospital. It
+upheld the appeal and ordered a new trial. Its decision was based on there having
+been sufficient evidence of negligence and causation of the injury to have been
+left to the jury. The judges found it unnecessary to deal with the argument that
+had been put in the alternative that the plaintiff had been deprived of a chance of
+avoiding the burst aneurism and the jury should have been allowed to assess the
+value of the chance.144 Before the retrial the Victorian Supreme Court had to
+consider whether to allow an amendment to the pleadings so that this argument
+could be advanced. Hedigan J declined to do so, being of the opinion that a
+majority of the High Court was opposed to the doctrine of loss of chance.145 For
+this, he relied on dicta in Chappel v Hart146 and Naxakis itself, which we shall
+investigate shortly. He also relied on the article by Perrochet et al,147 which he
+said showed that a majority of jurisdictions in the United States did not apply
+loss of chance,148 which "strongly criticised" King's theory, and which
+"caution[ed] against recognition of the lost chance as a compensable injury, on
+policy grounds".149 Leave to appeal was refused by the Court of Appeal, mainly
+because of the length of time that had elapsed,150 but also because of the
+possibility of amending the pleadings at the trial if the evidence justified it. The
+case was settled after the hearing of the retrial had begun. So it provided no
+answer to whether Australian law will recognise loss of chance in medical
+negligence cases.
+The dicta in the High Court are far from conclusive in favour of rejecting loss
+of chance. Most strongly opposed to the notion have been Brennan and Gaudron
+JJ in cases not concerned with medical negligence, though the latter has reiterated
+her stance in this context. We have already seen that Brennan J took a more
+uncompromising attitude than the rest of the court in the solicitors' negligence
+cases dealt with above.151 In Sellars he quoted and expressly agreed with the
+following passage in Gaudron J's judgment in Bennett v Minister of Community
+Welfare:
+It might be said that, where questions of causation depend on hypothetical considerations, allowance
+should be made, as in the assessment of damages, for the possibility that some event would not have
+occurred. Possibilities, if they are not fanciful, must be taken into account, at least in a general way,
+whenever causation or the related issue of prevention is in issue. But questions of that kind are not
+answered "maybe" or, even, "more probably than not". They are answered "yes" or "no" depending on the
+probabilities for or against. In this respect, they are indistinguishable from the question whether an event
+happened where possibilities are taken into account but, once the question has been answered, those
+possibilities have no further bearing on the matter.152
+She was, however, a party to the joint judgment of all but Brennan J in Sellars
+and must therefore recognise that if the loss itself constitutes harm that satisfies
+the requirement of the gist of the action, then one can quite readily answer "yes"
+or "no" to the question whether the defendant has caused the plaintiff to suffer
+that harm. Possibilities must then come into the evaluation of the loss, just as in
+Sellars it was accepted that there was a 40 per cent chance of successfully
+negotiating the contract that the defendant deprived the plaintiff of the chance of
+doing.
+Say that a plaintiff has a less than 50 per cent chance of not having a leg
+amputated if a surgeon takes reasonable care in treating it. The surgeon fails to
+take care and the patient loses the leg. In Bennett Gaudron J took the view that
+one might infer causation whenever a defendant fails to take required
+precautions against a particular risk, which then eventuates, in the absence of
+evidence that the breach had no effect or the harm would have occurred
+anyway.153 On this view, one might infer that the surgeon's negligence deprived
+the patient of the chance of saving the leg, but one could not infer that it caused
+the loss of the leg, since more probably than not that would have happened even
+if the surgeon had not been negligent. The plaintiff should be entitled to damages
+for that loss. Otherwise, according to those who believe that the law of torts
+operates as a significant deterrent, medical practitioners can be as negligent as
+they like when treating seriously ill patients who have less than a 50 per cent
+chance of survival, since the doctors would never be liable if the patient did not
+survive. A similar point has been made by Professor Waddams in relation to
+Hotson: if the doctor in that case had four patients annually, only one of whom
+had a chance of not developing permanent incapacity, the doctor could treat all
+four of them negligently and would not be liable to any of them.154
+In Chappel v Hart Gaudron J categorised the plaintiff's loss as "clearly ... not
+the loss of a chance – valuable or otherwise – but the physical injury which she,
+in fact, sustained".155 This is questionable. To some extent it may depend on a
+view of the facts that was not accepted by all the judges. In this case, the plaintiff
+was not warned of a risk that her voice might be affected by an operation which
+she needed to undergo at some stage. By the time the case reached the High
+Court, it was not contested that in the circumstances of her having expressed
+concern that she should not have a "voice like Neville Wran" after the operation,
+it was negligent on the part of the defendant, who carried out the surgery with all
+due care and skill, not to warn her of this risk. The risk did eventuate. Gaudron J
+held that on the evidence it had to be accepted that the risk to which the plaintiff
+was exposed would have been less if the operation had been performed by a more
+experienced surgeon, to whom she would probably have resorted if she had been
+warned.156 Her Honour pointed out that if there had been evidence that even if
+when performed by a more experienced surgeon the risk was a "probability", it
+would have had to be taken into account.157 Since she cited part of the judgment
+in Malec,158 to which she was a party, she must have meant a possibility that was
+more than speculative. Be that as it may, since the chance of the risk occurring on
+any other occasion than the one when it did was extremely small, the damages
+would have been reduced only by a small amount under the Malec doctrine.
+As commentators have pointed out, the plaintiff did lose a chance by not being
+warned. She lost the chance of going into the operation metaphorically with her
+eyes open. For being deprived of this chance, she should have been compensated,
+at least by a conventional figure, for the intangible harm to her autonomy and
+dignity.159 But this was not an argument that was put. The chance for which she
+contended, as McHugh J saw it, was an opportunity to seek a higher standard of
+care or better treatment from another surgeon, or even in effect a guarantee of
+the absence of a perforation of the oesophagus. In his Honour's dissenting
+opinion, there was nothing in the doctor-patient relationship to require the
+defendant to provide the plaintiff with such opportunities.160
+Gummow J pointed out that the plaintiff did not put her case as one for loss of
+a chance at all; that it was the defendant who sought to reduce his liability by
+reference to the doctrine.161 His Honour made reference to the Canadian cases,
+but gave no indication of his own approach to the question. Kirby J, too, referred
+to the defendant having raised loss of chance at a late stage and the plaintiff not
+having done so at the trial. Since the evidence might have been different, he
+thought a new perspective on the case should not be adopted.162 Earlier, however,
+he referred to his own judgment in CES v Superclinics (Australia) Pty Ltd,163
+where, he now said, he had indicated his "attraction to this approach as a more
+rational and just way of calculating damages caused by established medical
+negligence".164 It is difficult to find so strong an expression in favour of the
+alternative way in which the plaintiff could have, but did not, put her case in CES
+in the report of his Honour's judgment. Whether or not what he said in Chappel
+are first or second thoughts, he cannot be regarded as opposed to the doctrine.
+Finally, Hayne J thought it neither necessary nor appropriate, for reasons he gave,
+to analyse the case as one for loss of chance.165 He did point to the difficulty of
+evaluating a lost chance when one is dealing with very small risks, such as an
+increase in risk from one in 200 to one in 100, or even more so from one in 20,000
+to one in 10,000. It is in the context of the facts of the case itself that one should
+understand his remark that "the loss of chance analysis is flawed and should not
+be adopted". Immediately after this remark, he went on to say that he need not
+and did not "express any view on the difficult questions that arise where a
+plaintiff claims damages for negligence, as opposed to contract, and contends that
+the damage suffered is the loss of a chance".166
+The dicta in Chappel, which have been analysed here, show, as to is to be
+expected, that the judges of the High Court have open minds on the question of
+loss of chance in medical negligence. If Gaudron J is unsympathetic, Kirby J is in
+the opposite camp and the other three are neutral. Naxakis adds little to the
+picture, other than introducing an odd preliminary view from Callinan J. Gleeson
+CJ expressly refrained from commenting on the alternative argument based on
+loss of chance.167 Earlier, when sitting in the New South Wales Court of Appeal,
+he had shown that he was at least open to an argument based on loss of chance,
+even though it was in the least likely context for such an argument to be
+successful, namely where the causal issue is what the plaintiff's own response
+would have been to a warning or notice.168 Gaudron J elaborated on her views for
+rejecting loss of chance.169 She correctly said that the doctrine of loss of chance
+would not necessarily benefit individual plaintiffs.
+If damages were to be awarded for the chance lost, rather than the actual injuries or disabilities suffered,
+consistency would require that damages be assessed according to the value of the chance, not the injury
+or disability. Thus, a chance which is 51% or greater but less than 100%, must result in an award of
+damages less than would be the case if damages were awarded for the injury or disability which
+eventuates.170
+But Gaudron J failed to recognise the extent to which Malec now reduces
+damages below 100 per cent on account of chances that might have occurred,
+even where the plaintiff proves on a balance of probabilities that the defendant
+did cause harm in the form of a risk that eventuated. This will be illustrated by
+some of the cases dealt with below.
+McHugh J was silent on the point. Kirby J expressly said that he did not need
+to deal with the alternative argument relating to loss of a chance and added
+nothing further.171 Callinan J did deal with the matter and expressed the view
+that there is a place for the doctrine, "particularly in cases involving the practice
+of what is even today said to be an art rather than a scientific skill".172 He
+apparently did not see the need for consistency between cases where the plaintiff
+can prove on a balance of probabilities that the harm would not have occurred
+without negligence, in which he thought that the plaintiff should recover in full,
+and cases of less than an even chance. He observed that there would be a small
+chance in nearly every case and was concerned to confine the plaintiff's right to
+recover for the loss of a chance to a substantial one. In relation to the plaintiff's
+recovering in full where the plaintiff proves on a balance of probabilities that the
+defendant's negligence did cause the harm, he cited Rogers v Whitaker,173 a case
+where the causal issue depended on what the plaintiff's own response to a
+warning would have been. This may well be a case where loss of chance is
+excluded, as we shall see below.
+From this, possibly tedious, recitation of the dicta of the present High Court
+Justices in Australia, it should be apparent that Hedigan J should not have
+concluded "that with respect to a case of alleged medical negligence in the course
+of treatment (as distinct from advice) the law would not and should not entertain
+a claim for damages for loss of a chance".174 All one can say is that Gaudron J is
+opposed and Kirby and Callinan JJ are probably sympathetic.
+Intermediate appellate court cases
+In Sullivan v Micallef175 the plaintiff was awarded substantial damages for the
+consequences of the defendants' negligent failure to diagnose her cancer when
+they should have. Those consequences led to her early death. On appeal, it was
+argued that the damages should be reduced because they should have been
+assessed on the basis that there was only a chance that her cancer, if diagnosed
+when it should have been, would have been successfully eradicated. This was so,
+it was urged, even if the chance was a high one. The court acknowledged that the
+argument raised interesting "questions which, were this the appropriate occasion,
+could be pursued at length".176 However, it held that there was evidence justifying
+the trial judge's conclusion that the cancer would have been successfully treated
+if it had been diagnosed when it should have been and there was no justification
+for interfering with this finding. Since this was a finding of a hypothetical fact –
+what would have happened if there had not been negligence – it seems that some
+allowance should have been made for the chance that the treatment would not
+have been successful.
+Some consideration was given to the issue in Board of Management of Royal
+Perth Hospital v Frost.177 There a plaintiff complaining of chest pains had been
+allowed to go home prematurely. This was held to be negligent. He had thereafter
+suffered a heart attack. The trial judge's "modest" award of damages was upheld.
+Wallwork J, with whom Malcolm CJ and Rowland J agreed on this issue, said:
+[T]he respondent had to establish on the balance of probabilities that the contravening conduct caused
+the loss of an opportunity for treatment which had some value, that value being ascertained by reference
+to the degree of probabilities or possibilities. His Honour found that the respondent lost the chance of
+having his heart muscle damage minimised or reduced by timely thrombolytic therapy. The respondent
+did not have to prove on the balance of probabilities that the treatment would have been effective,
+because in such a case as this that is too theoretical. Once it was established that the respondent should
+have been given a second ECG, which was not given to him, he had established on the balance of
+probabilities that he had lost a valuable chance of getting some treatment which may have improved his
+position. He had therefore suffered loss or damage.
+First instance decisions
+The "loss of a chance factor" was recognised by the judge in another case of
+failure to diagnose cancer, Locher v Turner.178 However, he declined to reduce the
+damages by at least 40 per cent, as counsel urged, because the damages were
+already conservative in significant areas and already made some allowance for
+loss of a chance.179 Two more similar Queensland cases did more explicitly
+reduce damages on this account. In Sturch v Willmott180 the trial judge began the
+assessment of damages with a clear recognition of the task:
+It is important to remember that the defendant did not cause the plaintiff to suffer from cancer. The
+consequences for which he is liable to pay damages are for the extent to which he deprived her of the
+chance of making a better recovery than is now the case. The evidence suggests that early diagnosis and
+treatment would have given her a good chance of a successful outcome. There are however no
+certainties, and the present case is a good example of one in which the prospect of some degree of trouble
+in any event must be brought into account.
+The judge noted that the first issue that arose was whether the first episode of
+bleeding from which the plaintiff suffered was caused by a benign polyp or a
+growth that was already cancerous. Although this was a past fact, no-one could
+answer that with certainty or even confidence.181 He questioned the applicability
+of statements that past facts are treated as certain when proved on a balance of
+probability and referred to King's "useful discussion of the relationship between
+pre-existing condition and the exercise of assessment of damage".182 Having
+referred to Sellars, his Honour concluded:
+I reject the submission of counsel for the plaintiff which would urge me to shut my eyes to the
+substantial chance, perhaps of the order of forty per-cent, that the growth may already have been
+cancerous when the plaintiff first consulted the defendant. That possibility will not enable me to make
+any specific mathematical calculation, but it is a factor that I must take into account in discounting
+damages so as to take into account the level of problems that the plaintiff may have had to face even
+without any omission on the part of the defendant.
+In Talbot v Lusby183 the judge said:
+Mrs Talbot might not have been diagnosed as having cancer until it was too late, even if she had been
+sent for an ultrasonic scan, or the aspiration needle had been sent for cytological examination, in August
+1989. There might have been a false negative result again. Moreover even if the diagnosis had been made,
+she might have turned out to be incurable, even at that early stage.
+Under the heading "Discounting for Loss of a Chance" the judge noted that it
+was common ground between the parties that these contingencies should be
+allowed for by discounting of the damages, which he proceeded to do by 15 per
+cent. The same principle was applied in Veivers v Connolly,184 a case of failure to
+diagnose rubella in a pregnant woman. Here the damages were reduced by 5 per
+cent because of the chance that, even if the condition had been diagnosed, the
+plaintiff might have been unable to obtain a termination of the pregnancy.
+In each of these Queensland cases the judge held that the chance of
+successfully avoiding the harm if the defendant had not been negligent was better
+than even. Yet in each the damages were not the full damages that would
+compensate the plaintiff for the actual loss, but such a sum discounted by the
+probability (which was less than 50 per cent) that the harm would not have been
+avoided even if the defendant had not been negligent. In some recent New South
+Wales cases, damages were awarded for loss of a chance where the probability of
+avoiding the harm was not better than even.185 Contrary to the view of Callinan J
+in Naxakis,186 it should make no difference once one accepts that damages may
+be awarded for loss of a chance in these cases whether the chance is estimated at
+more or less than 50 per cent, as long as it is not purely speculative.
+In Tram v Lam,187 Badgery-Parker acknowledged that in an earlier case188 he
+himself had set too high a standard in refusing to recognise loss of a chance. He
+now stated the law as being that:
+when the chance which the plaintiff claims to have lost was a chance that an event would have occurred,
+conferring a benefit upon the plaintiff, over the happening of which event the plaintiff had no control ...
+what the law requires the plaintiff to prove on the balance of probabilities is the existence of the chance.
+Upon proof of that, the cause of action is complete and the court may proceed to the assessment of
+damages in the manner recognised in Malec.
+His Honour distinguished a different class of case:
+Where the chance lost was a chance that the plaintiff may have acted in such a way as to receive a
+benefit or avert a detriment, the plaintiff must prove on the balance of probabilities that there was such a
+chance and that the plaintiff would have so acted.
+It is to this class of case that we now turn.
+Chances Dependent on the Plaintiff’s Response
+In the leading Australian case on loss of a chance, Sellars v Adelaide Petroleum
+NL,189 the High Court distinguished three cases in which it was argued that proof
+had been required on the balance of probabilities when what was at issue was
+really the loss of a chance.190 The joint judgment of the majority of the court
+accepted the distinction in Hotson between proof of causation and damages. It
+said that these cases may have turned on the issue of causation, "which is
+ordinarily governed by the general civil standard of proof".191 Although it noted
+the criticism by Professor Waddams of the first of these cases,192 it concluded:
+"When the issue of causation turns on what the plaintiff would have done, there
+is no particular reason for departing from proof on the balance of probabilities
+notwithstanding that the question is hypothetical."193 This also explains cases
+such as where an employer has failed to provide safety equipment and the issue
+has been raised as to whether the employee would have used the equipment if it
+had been supplied.194 In such cases Professor Atiyah long ago pointed to the
+hypothetical nature of the inquiry and its resemblance to the questions involved
+in the estimation of future probabilities.195 Unless it is proved on the balance of
+probabilities that the equipment would have been used and the injury averted,
+the plaintiff has failed to prove that the failure caused the injury. Similarly, where
+the defendant's negligence consists in failing to erect a warning sign, it is
+generally required that the plaintiff establish on the balance of probabilities that
+he or she would have responded to the warning in such a way as to avert the
+danger.196
+The issue of loss of chance was considered at some length in the English Court
+of Appeal in Allied Maples Group Ltd v Simmons & Simmons,197 a solicitor's
+negligence case. The case bore some similarity to Sellars, though no reference
+was made to it. The outcome was, however, the same. The defendant solicitors
+negligently failed to advise the plaintiffs in relation to the takeover of certain
+assets. Had the correct advice been given, the plaintiffs would probably have
+negotiated further with the vendor. The majority held that there was a realistic
+chance that the negotiations would have been successful. The solicitors were held
+liable for the loss of that chance. The leading judgment of Stuart-Smith LJ, with
+which Hobhouse and Millett LJJ (as they then were) agreed on the law, though
+the latter dissented on the facts, made a number of points:198
+There is a distinction between positive acts and omissions. In relation to
+positive acts, the question of causation is one of historical fact and must
+be proved on a balance of probabilities. If so established, the fact is taken
+as certain and "[t]here is no discount because the judge considers that the
+balance is only just tipped in favour of the plaintiff".
+Questions of quantification often depend on future uncertain events.
+These are not decided on a balance of probabilities, but on the court's
+assessment of the risk, which is often expressed in percentage terms.
+"If the defendant's negligence consists of an omission, for example to
+provide proper equipment, or to give proper instructions or advice,
+causation depends, not upon a question of historical fact, but on the
+answer to the hypothetical question, what would the plaintiff have done if
+the equipment had been provided or the instruction or advice given. This
+can only be a matter of inference to be determined from all the
+circumstances. ... Although the question is a hypothetical one, it is well
+established that the plaintiff must prove on the balance of probability that
+he would have taken action to obtain the benefit or avoid the risk. But
+again, if he does establish that, there is no discount because the balance is
+only just tipped in his favour."
+If the plaintiff's loss depends on the hypothetical action of a third party,
+the plaintiff does not have to establish on a balance of probabilities that
+the third party would have acted to confer a benefit on, or avoid a risk to,
+the plaintiff.
+There is no difference in principle between the chance of gaining a benefit
+and avoiding a liability,
+The chance of success need not be more than 50 per cent.
+The distinction made by the English Court of Appeal between positive acts and
+omissions cannot be completely supported.199 It is true that where there are
+competing possible causes the plaintiff must prove on the balance of probabilities
+that the defendant's negligence did at least contribute materially to the harm.200
+But once that is established, the possibility of other causes having a like effect in
+the absence of the defendant's negligence must also be taken into account.201 In
+the case of a surgical operation which is only sometimes successful if done with
+all due care, we cannot know, in a particular case where it is performed
+negligently, whether or not it would have been successful if done without
+negligence. The issues should be the same as in a case where the negligence
+consists in failing to diagnose the condition or to perform the operation at all.
+The other points made in the judgment in Allied Maples Group have been
+followed and endorsed in many subsequent English cases.202 They are valid and
+are consistent with Australian law. It has at least been assumed in cases such as
+Rogers v Whitaker203 and Chappel v Hart204 that where the issue is whether the
+plaintiff would have acted so as to avert the harm or detriment, this must be
+proved on a balance of probabilities. This was so held in Green v Chenoweth,205
+where the onus was held not to have been discharged. If the onus had been
+discharged, the plaintiff would have recovered the damages in full.206 Only
+Professor Waddams appears to dispute this.207 Although theoretically there is
+much to be said for his view, the authority for distinguishing cases dependent on
+the plaintiff's own response seems too firmly entrenched to be challenged now.
+On the other hand, where what would have happened in the absence of
+negligence by the defendant depends on the response of a third party that is not
+completely one of that party's volition, authority favours the view that the
+plaintiff may rely on loss of chance, so long as the chance is real and not purely
+speculative.
+Where the plaintiff's response to a failure by a medical practitioner to give
+warning is in issue, some North American cases have said that this is to be
+judged objectively.208 It is clear that in Australia it is judged subjectively, but as
+McHugh J has pointed out, this may make little difference, since the court will
+not accept the plaintiff's evidence given with hindsight unless backed up by
+objective features:
+Human nature being what it is, most plaintiffs will genuinely believe that, if he or she had been given an
+option that would or might have avoided the injury, the option would have been taken. In determining
+the reliability of the plaintiff's evidence in jurisdictions where the subjective test operates, therefore,
+demeanour can play little part in accepting the plaintiff's evidence. It may be a ground for rejecting the
+plaintiff's evidence. But given that most plaintiffs will genuinely believe that they would have taken
+another option, if presented to them, the reliability of their evidence can only be determined by reference
+to objective factors, particularly the attitude and conduct of the plaintiff at or about the time when the
+breach of duty occurred.209
+Policy
+In a more rationally organised society there would be no medical negligence
+litigation.210 People who were ill would have their needs met and be compensated
+for permanent disability from a social insurance fund.211 Medical standards
+would be maintained through education, guidelines, disciplinary proceedings
+and, as a last resort, the criminal law.212 Disputes that occurred would be resolved
+through mediation by the offices of the Health Services Commissioner or their
+equivalent in each State. It seems, however, that these rational views will not
+prevail for some time.213 Instead, the torts system must continue to serve the ends
+of compensation, deterrence, maintenance of standards and moral judgment.214
+On all these scores, there can be little doubt that the law should impose liability
+for loss of a chance brought about by medical negligence. It is a real loss,
+something that people would give money for.215 Corrective justice arguments
+seem to require that the wrongdoer compensate the person who has suffered.216
+As the House of Lords emphasised recently when abrogating the advocate's
+immunity, wrongs must be righted unless there are good reasons to the
+contrary.217 There are no strong distributive justice reasons for denying the
+remedy beyond the fact that many people who fall ill are left without any remedy
+if they cannot prove negligence.218
+The article that Hedigan J in Naxakis219 found persuasive does advance
+reasons of policy for denying the extension of liability to loss of chance.220 One is
+obviously spurious. The article refers to two commentators and two courts that
+have pointed out that loss of chance leads to statistically more wrong decisions
+than right ones. In a group of 99 cases, of which only 33 would have survived,
+allowing recovery for all 99 means that 66 are wrongly decided. This is like
+saying that a clock that has stopped is better than one that is a minute fast, since
+it is right twice a day, whereas the one that is fast is never right! Most people
+would prefer the fast watch to the stopped one as being much more useful. In this
+example, the defendant would, if loss of chance were denied, never pay any
+compensation despite repeated acts of negligence. By requiring the defendant to
+pay 33 per cent of the assessed damages to all, the defendant compensates exactly
+the total damage that has been caused by negligence.
+The other arguments against extension of liability have more validity. The
+article contends that it would have an adverse effect on health cost containment.
+This is probably true. In so far as there will be increased litigation and recovery
+of damages, the costs will in most cases be borne in the first instance by the
+hospital's or medical practitioner's insurer or medical defence organisation. In
+Australia, it will ultimately have to be passed on to the community in increased
+costs for Medicare. Nevertheless, the floodgates are unlikely to be opened. People
+who are seriously ill already have all sorts of deterrents to launching litigation.
+They are seldom keen to add to their existing worries the burdens and anxieties
+of doubtfully successful litigation. The vast majority of adverse events in
+hospitals do not give rise to any litigation at all even in the United States.221 The
+same seems to apply in Australia.222 Proof of negligence is always difficult in
+such cases and, where the rewards are likely to be comparatively small, litigation
+will not lightly be embarked on.
+It is also contended that extension of liability will increase the incidence of
+defensive medicine. Some commentators think that increased care on the part of
+practitioners, even if manifested in tests and procedures that would not otherwise
+be undertaken, would be a good thing.223 Nevertheless, one should accept that
+tests and procedures undertaken not for the benefit of the patient, but for the
+protection of the medical practitioner against litigation, are expensive and not in
+the community interest when funds for medical treatment are limited. It is
+difficult to know what is the present incidence of defensive medicine.224 There
+seems no reason why a medical practitioner should increase defensive tactics
+because of the extension of liability from cases of proof on the balance of
+probabilities of the actual harm to cases of loss of chance. The only plausible
+theoretical explanation is that some doctors do not presently conduct tests on
+patients with a less than even chance of survival, but would be induced to do so if
+there was potential liability for loss of a chance. This has little realistic credibility.
+One should also recognise that there might be some direct saving of costs. If
+courts currently award full damages whenever the plaintiff proves on the balance
+of probabilities that the harm would not have occurred and do not make any
+deduction for the chance that the harm might have occurred even in the absence
+of negligence, recognition of the fact that the claim is really for loss of chance
+may lead to a lesser award of damages.225 The apparent view of Callinan J that
+full damages will continue to be awarded in such cases is insupportable.226
+Furthermore, if the law does have any real deterrent effect, medical practitioners
+can be expected to be more careful. Although prolonging someone's life does not
+necessarily save the community money and may even increase its costs,
+preventing disability and thereby increasing productivity might actually save
+costs indirectly. Certainly, such increased care can be expected to reduce the total
+level of pain and suffering in the community.
+Conclusion
+Where a medical practitioner fails to exercise reasonable care, the aim of the law
+generally is not to reposition the plaintiff as though no treatment had been given,
+but as though proper treatment had been given.227 It does not matter whether the
+claim lies in contract or tort. In many instances proper treatment could have done
+no more than give the plaintiff a chance of cure or alleviation of a pre-existing
+condition. This is something of value, something for which many people would
+give money. The law should treat such a chance as worthy of protection. The
+scope of the medical practitioner's duty of care should be taken to extend to not
+detrimentally affecting that chance. Loss or diminution of the chance as a result
+of the practitioner's negligence should be recognised as a legal injury for which
+the patient may recover damages, whether the chance was greater or less than
+even, as long as it was more than speculative. The court should be required to do
+the best it can to assess the damages accordingly.
+* George Paton Professor of Law at the Faculty of Law, the University of Melbourne.
+1 Transcript of argument on special leave application in Prosser v Eagle [1999] 20 Leg Rep SL 2 (30
+November 1999). See also the transcript of argument in Green v Chenoweth [1998] 19 Leg Rep SL 4
+(20 November 1998).
+2 See G Masel, "Damages in Tort for Loss of Chance" (1995) 3 TLJ 43 at 52.
+3 Athey v Leonati [1996] 3 SCR 458 at 474, cited by Gummow J in Chappel v Hart (1998) 195 CLR 232 at
+260.
+4 Cf Herskovits v Group Health Cooperative, 99 Wash 2d 609, 664 P2d 474 (1983), where the claim was
+brought by the patient's dependants after his death. In some ways, a Lord Campbell's Act claim
+simplifies the assessment of damages, but complicates other issues: cf JH King Jr, "Causation,
+Valuation, and Chance in Personal Injury Torts Involving Pre-Existing Conditions and Future
+Consequences" (1981) 90 Yale LJ 1353 at 1382, n100. For the sake of similar simplicity, I shall assume
+that the patient is alive at the date of the trial and that by "survival" is meant the ability to lead a
+relatively normal life with earning capacity unimpaired.
+5 See Breen v Williams (1996) 186 CLR 71 at 78 per Brennan CJ; but cf at 123 per Gummow J; Hotson v
+East Berkshire AHA [1987] AC 750 (CA & HL) at 768 per Croom-Johnson LJ (assuming that claim
+against private doctor would be in contract and one against National Health Service one would be in
+tort).
+6 Some of the voluminous literature on the topic is T Hill, "A Lost Chance for Compensation in the Tort
+of Negligence by the House of Lords" (1991) 54 MLR 511; W Scott, "Causation in Medico-Legal
+Practice: A Doctor's Approach to the 'Lost Opportunity' Cases" (1992) 55 MLR 521; E Adeney, "The
+Challenge of Medical Uncertainty: Factual Causation in Anglo-Australian Toxic Tort Litigation"
+(1993) 19 Mon U Law Rev 23; SR Perry, "Protected Interests and Undertakings in the Law of
+Negligence" (1992) 42 Uni of Toronto LJ 247; M Lunney, "What Price a Chance?" (1995) 15 Leg Studs 1;
+Hon Sir Anthony Mason, "The Recovery and Calculation of
+Economic Loss" in NJ Mullany, Torts in the Nineties, LBC Information Services, Sydney, 1997, p1 at
+pp32-3; H Reece, "Losses of Chances in the Law" (1996) 59 MLR 188; M Stauch, "Causation, Risk, and
+Loss of Chance in Medical Negligence" (1997) 17 OJLS 205; D Hamer, "'Chance would be a Fine
+Thing': Proof of Causation and Quantum in an Unpredictable World" (1999) 23 MULR 557; N
+Moshinsky QC, "Loss of Chance of Successful Treatment: Naxakis v Western. General Hospital
+Considered" (2000) 8 JLM 216. Other articles will be referred to in the succeeding discussion.
+7 Malec v JC Hutton Pty Ltd (1990) 169 CLR 638.
+8 Ibid.
+9 Watts v Rake (1960) 108 CLR 158.
+10 Purkess v Crittenden (1965) 114 CLR 164.
+11 King, n4 above. This article was relied on extensively by Deane J in his judgment in Commonwealth v
+Amann Aviation Pty Ltd (1991) 174 CLR 64.
+12 [1973] 1 WLR 1 (HL).
+13 See Wilsher v Essex Area Health Authority [1988] AC 1974 (HL) at 1086-91; cf Bennett v Minister of
+Community Welfare (1992) 176 CLR 408 at 422-3 per Gaudron J; Chappel v Hart (1998) 195 CLR 232 at
+273 per Kirby J.
+14 Bendix Mintex Pty Ltd v Barnes (1997) 42 NSWLR 307 (CA), SLR 1 May 1998: ICI Australia Operations
+Pty Ltd v Walsh (1997) Aust Torts Reps 81-452 (NSW CA); Wallaby Grip (BAE) Pty Ltd (in liq) v
+Macleay Area Health Service (NSW CA, 18 December 1998, unreported, BC9806780), SLR [1999] 19
+Leg Rep SL 2 (19 November 1999); Seltsam Pty Ltd v McGuiness (2000) Aust Torts Reps 81-547 (NSW
+CA). See also The Creutzfeldt-Jakob Disease Litigation, Straddlers Groups A and C v Secretary of
+State for Health (1998) 54 BMLR 104; The British Coal Respiratory Disease Litigation (QBD, Turner J,
+1998,
+January
+as
+at
+summarised
+unreported);
+<http://wood.ccta.gov.uk/courtser/judgements.nsf/054a30dbaca8b75e8025683c004e82de/2884ed31852fd3
+15 King, n4 above, at 1353-4 (drawing distinction between causation, which must be proved on balance of
+probabilities, and valuation, where chances are allowed); but cf at 1394-6 (opening up question
+whether all-or-nothing approach to causation should also be abandoned).
+16 Sutherland Shire Council v Heyman (1985) 157 CLR 424 at 467, citing HLA Hart and AM Honoré,
+Causation in the Law, 1st edn, OUP, Oxford, 1959, pp35-6; see now 2nd edn, 1985, p38.
+17 The percentages cited by Lord Salmon in McGhee v National Coal Board [1973] 1 WLR 1 (HL) at 12
+should have led him to this conclusion.
+18 Malec v J C Hutton Pty Ltd (1990) 169 CLR 638: King, n4 above, at 1387. Cf Naxakis v Western General
+Hospital (1999) 197 CLR 269 at 312-13 per Callinan J (apparently favouring loss of chance where it is
+less than 51 per cent, but allowing plaintiff to succeed in full where it exceeds 50 per cent).
+19 Eg, Dulhunty v JB Young Ltd (1975) 7 ALR 409; Sleiman v Franklin Food Stores Pty Ltd (1989) Aust Torts
+Reps 80-266 (NSW CA). In Shoeys Pty Ltd v Allan (1991) Aust Torts Reps 81-104 (NSW CA) Priestley
+JA called for law reform agencies to look at reversing the onus of proof in these cases. In the absence
+of such reform, the courts themselves are ready to draw an inference of causation: Allcorp Cleaning
+Services Pty Ltd v Fairweather (NSW CA, 29 June 1998, unreported, BC9804739). Rather than having
+an all-or-nothing solution here too, allowing loss of chance may be the better solution. However, the
+present paper is confined to considering the issue in the medical negligence context.
+20 See Environment Agency (formerly National Rivers Authority) v Empress Car Co (Abertillery) Ltd
+[1999] 2 AC 22 (HL) at 31 per Lord Hoffmann, cited by Gummow J in Chappel v Hart (1998) 195 CLR
+232 at 256. Eg, Lothian v Rickards (1911) 12 CLR 165 at 194 per Isaacs J (whose dissenting judgment
+was affirmed, Rickards v Lothian [1913] AC 263 (PC)) (actual occurrence did not come within sphere
+of duty). See also The Rt Hon Lord Hoffmann, "Common Sense and Causing Loss" (1999)
+(unpublished Lecture to the Chancery Bar Association, 15 June 1999) (causation seldom at issue once
+one carefully defines scope of rule); J Stapleton, "Perspectives on Causation" in J Horder (ed), Oxford
+Essays in Jurisprudence, 4th Series, OUP, Oxford, 2000, p61.
+21 [1911] 2 KB 786 (CA).
+22 Farwell LJ said that she had sustained a loss because "damage might result not only from the loss of the
+opportunity of winning a prize but also from the slur upon the plaintiff in her professional capacity,
+which might result in a diminution of the value of her services as an actress when she applied for an
+engagement": at 797. The other members of the court did not mention this additional loss that she
+might have sustained.
+23 CT McCormick, Handbook on the Law of Damages, West, St Paul, Minn, 1935, chap 4.
+24 Ibid, p121.
+25 (1927) 27 SR (NSW) 301 (FC).
+26 This latter ground of distinction is probably a correct reading of the authorised report of the case, but
+reference to the Law Times report, as reproduced in the All ER Reprint, shows that the plaintiff in
+Chaplin v Hicks paid a one shilling entry fee: see [1911-13] All ER Rep 224 at 225.
+27 (1946) 74 CLR 127.
+28 Ibid, at 143.
+29 Ibid, at 135.
+30 (1991) 174 CLR 64 at 133.
+31 [1974] AC 207 (HL).
+32 (1991) 174 CLR 64 at 104.
+33 (1951) 84 CLR 377 at 411-12.
+34 Cf Hotson v East Berkshire AHA [1987] AC 750 (HL).
+35 Sellars v Adelaide Petroleum NL (1994) 179 CLR 332.
+36 Chappel v Hart (1998) 195 CLR 232; Naxakis v Western General Hospital (1999) 197 CLR 269.
+37 [1958] 2 All ER 241 (CA).
+38 Ibid, at 250.
+39 Ibid, at 251.
+40 Ibid, at 252.
+41 See at 251 per Evershed MR, at 252 per Parker LJ, at 254 per Sellers LJ.
+42 (1975) 11 SASR 148.
+43 (1988) 166 CLR 351.
+44 Ibid, at 363 per Wilson, Toohey and Gaudron JJ, at 389 per Dawson J.
+45 Ibid, at 372.
+46 See also his Honour's judgment in Sellars v Adelaide Petroleum NL (1994) 179 CLR 332 at 362. The
+majority in Sellars at 353-4 cited these remarks of Brennan J, but noted that they were inconsistent
+with Kitchen. Cf Norris v Blake [No 2] (1997) 41 NSWLR 49 (CA) (rejecting trial judge's assessment of
+damages for loss of earning capacity on basis of weighted average of career paths open to plaintiff
+and requiring that most probable path be chosen, but adjusted for contingencies including those
+available from other careers), legislatively affirmed in Motor Accidents Compensation Act 1999
+(NSW), s 126.
+47 (1988) 166 CLR 394.
+48 Nikolaou v Papasavas, Phillips & Co [1988] VR 682 (FC).
+49 Ibid, at 703.
+50 Ibid, at 704.
+51 Ibid, at 709, An added factor that is relevant is the chance of the defendant being able to pay the
+damages. Little deduction need be made for this where the defendant to the original action would
+have been compulsorily insured or, as in this case, was the Incorporated Nominal Defendant. Cf
+Instant Nominees Pty Ltd v Redman [1987] WAR 218 at 226-7.
+52 Recent applications of the principle include Golec v Scott (1995) 38 NSWLR 168 (CA); Williams (t/as
+Harris Wheeler) v Bodewes (1997) Aust Torts Reps 81-449 (NSW CA); Feletti v Kontoulas [2000]
+NSWCA 59 (NSW CA, 23 March 2000, unreported, BC200001286); Harwood v Gayler & Cleland (Qld
+CA, 1 November 1996, unreported, BC9605391); Little v Suncorp Insurance and Finance [No 2] [1994]
+2 Qd R 273; North Australian Aboriginal Legal Aid Service Inc v Liddle (1994) Aust Torts Reps 81-300 (NT
+CA).
+53 Allied Maples Group Ltd v Simmons & Simmons [1995] 1 WLR 1602 (CA) at 1611-12.
+54 Eg, Scott v Echegaray (1991) Aust Torts Reps 81-120 (NSW CA); Murphy v Miller (NSW CA, 16 October
+1998, unreported, BC9805397); Garden State Packers v Lancken [2000] NSWSC 139 (NSW SC,
+Windeyer J, 31 March 2000, unreported, BC200000826); Green v Berry [2000] QCA 133 (Qld CA, 5
+May 2000, unreported, BC200002130); Denkewitz v Hodgson (Qld SC, Ambrose J, 6 November 1998,
+unreported, BC9805979); Sloane v McDonald & Sutherland (WA FC, 14 November 1997, unreported,
+BC9706153). For England, see Motor Crown Petroleum Ltd v SJ Berwin & Co [2000] Lloyd's Rep PN
+438 (Eng CA) (40 per cent chance of successful planning appeal if proper advice given).
+55 Commonwealth v Amann Aviation Pty Ltd (1991) 174 CLR 64 at 119.
+56 B Coote, "Chance and the Burden of Proof in Contract and Tort" (1988) 62 ALJ 761 at 768, citing Sykes v
+Midland Bank Executor & Trustee Co Ltd [1971] 1 QB 113 (CA). See also Daniels v Anderson (1995)
+37 NSWLR 438 (CA) at 528-9; Allied Maples Group Ltd v Simmons & Simmons [1995] 1 WLR 1602
+(CA).
+57 Sellars v Adelaide Petroleum NL (1994) 179 CLR 332.
+58 Tran v Lam (NSW SC, Badgery-Parker J, 20 June 1997, unreported, BC9705945).
+59 (1994) 179 CLR 332 at 349.
+60 (1991) 174 CLR 64. This was a claim for breach of a contract that deprived the plaintiff of the chance of
+a renewal of the contract.
+61 (1994) 179 CLR 332 at 348.
+62 Spring v Guardian Assurance Plc [1995] 2 AC 296 (HL) at 327. This dictum was approved in Allied
+Maples Group Ltd v Simmons & Simmons [1995] 1 WLR 1602 (CA) at 1613. See also the discussion in
+Bank of Credit and Commerce International SA (in Liq) (BCCI) v Ali (No 2) [1999] 4 All ER 83 at 112-
+16.
+63 Takaro Properties Ltd v Rowling [1986] 1 NZLR 22 (CA) at 62-7 per Woodhouse P (Richardson
+concurring), at 68-70 per Cooke J, at 72 per McMullin J, at 74 per Somers J; Craig v East Coast Bays
+City Council [1986] 1 NZLR 99 (CA) at 108-9. See also Gregory v Rangitikei District Council [1995] 2
+NZLR 208.
+64 Gates v City Mutual Life Assurance Society Ltd (1986) 160 CLR 1; Norwest Refrigeration Services Pty Ltd
+v Bain Dawes (WA) Pty Ltd (1984) 157 CLR 149; Sykes v Midland Bank Executor & Trustee Co Ltd
+[1971] 1 QB 113 (CA).
+65 (1994) 179 CLR 332 at 353. Cf n56, above.
+66 Ibid, at 355 (emphasis in the original).
+67 Cf Waribay Pty Ltd v Minter Ellison [1991] 2 VR 391 (AD).
+68 Mallett v McMonagle [ 1970] AC 166 (HL) at 176.
+69 (1990) 169 CLR 638.
+70 Ibid, at 643. The only difference between the majority of the High Court and Brennan and Dawson JJ,
+who delivered a separate joint judgment, is that the latter thought it "undesirable for damages to be
+assessed on the footing of an evaluation expressed as a percentage" because "[d]amages founded on
+hypothetical evaluations defy precise calculation": at 639.
+71 JG Fleming, "Probabilistic Causation in Tort Law: A Postscript" (1991) 70 Can Bar Rev 136 at 140-1
+("Postscript"). See also JG Fleming, The Law of Torts, 9th edn, LBC Information Services, Sydney,
+1998, p228.
+72 Sellars v Adelaide Petroleum NL (1994) 179 CLR 332 at 355. See also n56, above.
+73 (1960) 108 CLR 158.
+74 (1965) 114 CLR 164.
+75 Cf Franklins Self Serve Pty Ltd v Wyber (1999) 48 NSWLR 249 (CA) at [24]; Kessey v Golledge (1999) 30
+MVR 95 (NSW CA) at 106 (both referring to "persuasive burden" on defendant to disentangle
+consequences). This appears to be a misreading of Purkess v Crittenden at 171, which is cited in
+support. The term "persuasive burden", though itself open to criticism (see JD Heydon & DR Byrne,
+Cross on Evidence, Australian looseleaf edition, Butterworths, Sydney, [7010]), usually refers to the
+legal burden, not the burden of adducing evidence. Windeyer J in Purkess v Crittenden, who had
+concurred in Watts v Rake, on the previous page accepted the view of the majority that it is only the
+latter burden that rests on the defendant. The position is correctly stated in Johnston v Cowra Shire
+Council [2000] NSWCA 117 (NSW CA, 5 May 2000, unreported, BC200002214); see also Expokin Pty
+Ltd v Graham [2000] NSWCA 267 (NSW CA, 29 September 2000, unreported, BC200005756). Cf
+Bridge Printery Pty Ltd v Mestre [1999] NSWCA 342 (NSW CA, 5 October 1999, unreported,
+BC9906401) (unspecified onus on defendant to show when plaintiff's heart attack ceased to
+incapacitate him). Nevertheless, it may be desirable to place a legal onus on the defendant: King, n4
+above, at 1390-4.
+76 Cf Commonwealth v McLean (1996) 41 NSWLR 389 (CA) at 410-11. The distinction there made between
+the occurrence of "an actual event", which is "an all or nothing issue", and a hypothetical event, does
+not seem a valid one on the facts.
+77 See Wilson v Peisley (1975) 7 ALR 571 at 574 per Barwick CJ (Watts v Rake and Purkess v Crittenden
+irrelevant because existence of pre-existing condition fully made out), Cf King, n4 above, at 1390-4.
+78 "If, for example, and only by way of illustration, there was a 75 per cent probability of his becoming
+unemployable by reason of his back condition even if he had not contracted brucellosis and a 75 per
+cent chance that that unemployability would have caused a similar neurotic condition, there was
+only a 56.25 per cent chance (75 per cent x 75 per cent) that, if he had not contracted brucellosis, he
+would have developed a similar neurotic condition": at 645 per Deane, Gaudron and McHugh JJ. See
+also King, n4 above, at 1387-90; Hon DH Hodgson, "The Scales of Justice: Probability and Proof in
+Legal Fact-finding" (1995) 69 ALJ 731 at 746-50.
+79 [1970] AC 166 (HL) at 176.
+80 Make v J C Hutton Pty Ltd (1990) 169 CLR 638 at 642-3 per Deane, Gaudron and McHugh JJ.
+81 [1987] AC 750 (HL).
+82 Reported with the decision of the House of Lords, ibid.
+83 Cf King. n4 above, at 1395-6 (questioning whether accident victim probably dead on arrival at
+emergency room should not still recover damages for loss of chance of being treated without
+negligence).
+84 See ibid, at 782 per Lord Bridge, at 785-9 per Lord Mackay, at 793 per Lord Ackner. Lords Brandon and
+Goff agreed with all three. The dicta are considered below: see text at nn116-128.
+85 Cf SM Waddams, "Damages: Assessment of Uncertainties" (1998) 13 JCL 55.
+86 Ibid.
+87 See, eg, APQ v Commonwealth Serum Laboratories [1999] 3 VR 633; AW Hurley, "Prospects of Recovery
+in Negligence and under Statute for Creutzfeld[t]-Jakob Disease resulting from Human Pituitary
+Gland Derived Hormone" (1996) 4 TLJ 60.
+88 Cf the hypothetical blue and yellow cab (or blue and red bus) cases much discussed in the theoretical
+literature on probability: eg, Justice D Hodgson, "Probability: The Logic of the Law – A Response"
+(1995) 15 OJLS 51 at 59-60. The views expressed by Murphy J in TNT Management Pty Ltd v Brooks
+(1979) 23 ALR 345 at 351-2 and West v GIO of NSW (1981) 35 ALR 437 at 443 are unlikely to be
+followed: see the criticism in Justice DH Hodgson, "The Scales of Justice: Probability and Proof in
+Legal Fact-Finding" (1995) 69 ALJ 731 at 734-5; but see Sinka v Mayne Nickless Ltd [1964] VR 524
+(jury required to be satisfied as to whose vehicle caused injury, but need not identify particular
+vehicle). The debate here is said to be as to the use of statistics to
+prove liability, not causation: Stauch, n6 above, at 220-1 (pointing to confusion by American judge quoted
+by Lord Mackay in Hotson [1987] AC 750 (HL) at 789).
+89 Cf NJ Mullany, "Fear for the Future: Liability for Infliction of Psychiatric Disorder" in NJ Mullany (ed),
+Torts in the Nineties, Law Book Co, Sydney, 1997, p101.
+90 See text at nn109-113 below.
+91 Da vies v Taylor [1974] AC 207 (HL).
+92 Willis v The Commonwealth (1946) 73 CLR 105 (remarriage of widow); Williamson v John I Thornycroft
+& Co Ltd [1940] 2 KB 658 (CA) (death of widow).
+93 Eg, Jones v Schiffmann (1971) 124 CLR 303.
+94 (1991) 174 CLR 64 at 118 ff.
+95 Ibid, at 123-4. He cited in support Snell v Farrell [1990] 2 SCR 311 and Herskovits v Group Health
+Cooperative 99 Wash 2d 609, 664 P2d 474 (1983), as well as Fleming, Postscript, n71 above, and JH
+King Jr, n4 above, though he noted dicta in Hotson as being to the contrary.
+96 Snell v Farrell [1990] 2 SCR 311. See also McGhee v National Coal Board [1973] 1 WLR 1 (HL), as
+"explained" in Wilsher v Essex Area Health Authority [1988] AC 1974 (HL).
+97 Above n85. See also Reece, n6 above (distinguishing between "deterministic" and "indeterministic"
+cases, loss of chance being allowable in the latter); Stauch, n6 above (criticising Reece for applying
+loss of chance to human volition, but also rejecting distinction between past facts and hypothetical
+ones); C Miller, "Coal Dust, Causation and Common Sense" (2000) 63 MLR 763 (criticising Reece's test
+of indeterministic).
+98 Eg, Tran v Lam (NSW SC, Badgery-Parker J, 20 June 1997, unreported, BC9705945).
+99 Sellars v Adelaide Petroleum NL (1994) 179 CLR 332. See also T Honoré, "Medical Non-Disclosure,
+Causation and Risk: Chappel v Hart" (1999) 7 TLJ 1 at 6-7.
+100 These percentages are indicative only: cf Davies v Taylor [1974] AC 207 (HL) at 213. Mathematical
+precision is almost always spurious in such cases: see, eg, Tran v Lam (NSW SC, Badgery-Parker J, 20
+June 1997, unreported, BC9705945).
+101 See the quotation from Sturch v Willmott (Qld SC, Thomas J, 13 April 1995, unreported, BC9505737)
+after n182 below; and Talbot v Lusby (Qld SC, Fryberg J, 14 July 1995, unreported, BC9506006), citing
+the last sentence of Deane J's statement quoted in the text at n95 above.
+102 Waddams, n85 above.
+103 JG Fleming, "Preventive Damages" in NJ Mullany, Torts in the Nineties, LBC Information Services,
+Sydney, 1997, p56 at p69. See also Torts, n71 above, p229.
+104 See Todorovic v Waller (1981) 150 CLR 402 at 412.
+105 Cf Cartledge v E Jopling & Sons Ltd [1963] AC 758 (HL). There has been some questioning of this
+authority recently: see Nixon v Philip Morris (Australia) Ltd (1999) 165 ALR 515 at 535-6; Wilson v
+Home (1999) 8 Tas R 363 (FC) at 385-6 per Evans J. Legislation in most jurisdictions also overcomes
+the problem to some extent, but that legislation will not always protect plaintiffs: see Brisbane South
+Regional Health Authority v Taylor (1996) 186 CLR 541.
+105 Jones v Griffith [1969] 2 All ER 1015 (CA) at 1020 per Harman LJ (risk of epilepsy); G Glasgow & ME
+Casey, "The Problem of Monetary Compensation for Post-traumatic Epilepsy" [1968] NZLJ 9 and 56;
+Cowan v Kitson Insulations Ltd [1992] PIQR Q19 (mesothelioma).
+107 J Stapleton, "The Gist of Negligence: Part II" (1988) 104 LQR 389 at 392 ff. See also Stauch, n6 above
+(advocating damages for loss of chance, but not for exposure to risk).
+108 Lim v Camden & Islington Area Health Authority [1980] AC 174 (HL) at 183. See also Todorovic v
+Waller (1981) 150 CLR 402 at 457-8 per Aickin J.
+109 RSC Ord 37, rr 7-10. See also Practice Direction (Provisional Damages: Procedure) [1985] 2 All ER 895.
+There are similar rules in the County Court. For interpretation of the rules, see Hurditch v Sheffield
+Health Authority [1989] QB 562 (CA); Willson v Minister of Defence [1991] 1 All ER 638; Molinari v
+Ministry of Defence [1994] PIQR Q3.
+110 Report on Personal Injury Litigation – Assessment of Damages (Law Com No 56, 1973), paras 239-44.
+111 In its latest review the Law Commission has recommended against extending the provisions to cases of
+gradual deterioration: Law Commission, Structured Settlements and Interim and Provisional
+Damages (Law Com No 224, 1994), paras 5.6-5.8.
+112 As of September 1996, the provision had not been used: NSWLRC, Provisional Damages (Report 78,
+1996), para 3.20.
+113 Ibid, paras 5.6-5.17. The Commission endorsed most of the modifications proposed by the Law
+Commission in its report, op cit, n111, Pt V, but was opposed to the listing in the legislation of
+matters to which the court should have regard in making its order. One such recommendation of the
+Law Commission, relating to provisional damages and fatal accident claims, is already in force in
+England: Damages Act 1996 (UK), s 3.
+114 Cf Wardley Australia Ltd v Western Australia (1992) 175 CLR 514; Scarcella v Lettice [2000] NSWCA
+289 (NSW CA, 1 November 2000, unreported, BC200006725).
+115 1953 SC 125.
+116 Hotson v East Berkshire AHA [1987] AC 750 (HL) at 784 per Lord Mackay, who wrongly refers to the
+child as a boy.
+117 [1987] AC 750 (HL).
+118 The judgments of the Court of Appeal are reported along with those of the House of Lords at [1987] AC
+750.
+119 Ibid, at 759-60.
+120 Ibid, at 760-1.
+121 Ibid, at 764.
+122 Ibid, at 769-70.
+123 Ibid, at 782.
+124 Ibid, at 786.
+125 99 Wash 2d 609, 664 P2d 474 (1983).
+126 [1987] AC 750 (HL) at 790.
+127 (1986) 136 NLJR 1014.
+128 [1987] AC 750 (HL) at 793.
+129 See Fleming, Postscript, above n71, at 141. See also Veivers v Connolly [1995] 2 Qd R
+326 (damages for failure to diagnose rubella discounted by 5 per cent for chance that plaintiff would have
+been unable to obtain abortion).
+130 (1994) 27 BMLR 107.
+131 [1970] AC 166 (HL) at 176.
+132 [1974] AC 207 (HL) at 212-13.
+133 [1991] 1 SCR 541.
+134 Hon Justice Beverley M McLachlin, "Negligence Law – Proving the Connection" in NJ Mullany & AM
+Linden (eds), Torts Tomorrow: A Tribute to John Fleming, LBC Information Services, Sydney, 1998,
+pl6 at pp25-6. See also K Cooper-Stephenson, Personal Injury Damages in Canada, 2nd edn, Carswell,
+Scarborough, Ont, 1996, pp764-76 (Laferrière and Hotson would be persuasive, but not conclusive, in
+common law Canada); Athey v Leonati [1996] 3 SCR 458 at 474 (unnecessary to consider loss of
+chance doctrine and these reasons neither approve nor disapprove it).
+135 [1911] 2 KB 786 (CA).
+136 Above n23.
+137 King is said to have drawn his ideas from LL Wolfstone & TJ Wolfstone, "Recovery of Damages for Loss
+of a Chance", Personal Injury Annual 1978, p744: see TS Aagard, "Identifying and Valuing the Injury
+in Lost Chance Cases" (1998) 96 Michigan L Rev 1335, n10.
+138 L Perrochet, SL Smith & U Collelo, "Lost Chance Recovery and the Folly of Expanding Medical
+Malpractice Liability" (1992) 27 Tort & Ins LJ 615.
+139 Ibid, Appendix A. See also JD Hodson, "Annotation, Medical Malpractice: 'Loss Of Chance' Causality"
+54 ALR 4th 10 (1987, as supplemented to September 2000).
+140 See Roberts v Ohio Permanente Med Group, Inc, 668 NE 2d 480 (Ohio SC, 1996); Jorgenson v Vener, 616
+NW2d 366 (SD SC, 2000). On the other hand, at least one legislature has overturned its courts'
+decision to adopt loss of chance and has laid down a requirement of 50 per cent probability: Michigan
+Compiled Laws Annotated, Chapter 600, Revised Judicature Act of 1961, s 2912a(2) ("In an action
+alleging medical malpractice ... the plaintiff cannot recover for loss of an opportunity to survive or an
+opportunity to achieve a better result unless the opportunity was greater than 50%.")
+141 Eg, Smith v State of Louisiana, Dept of Health and Hospitals, 676 So 2d 543 at 549 (1996); Aagard, n137
+above. Cf King, n4 above, at 1381-7. See MJ McMahon, "Annotation, Medical Malpractice: Measure
+and Elements of Damages in Actions Based on Loss of Chance" 81 ALR 4th 485 (1990) (as
+supplemented to September 2000). The weighted average method advocated by King has been
+rejected in NSW in the context of damages for loss of earning capacity resulting from motor
+accidents: see n46 above.
+142 (1999) 197 CLR 269.
+143 Naxakis v State of Victoria (Vic CA, 5 September 1997, unreported, BC9704282).
+144 See counsel's argument briefly reported at (1999) 197 CLR 269 at 271. A transcript of the argument
+November
+at
+be
+found
+may
+on
+presented
+http://www.austlii.edu.au/au/other/hca/transcripts/1998/M43/l.html. See also Moshinsky, above n7, at
+218.
+145 [1999] VSC 389 (Vic SC, Hedigan J, 15 October 1999, unreported, BC9906720).
+146 (1998) 195 CLR 232.
+147 See n138 above.
+148 This is doubtful: see n139.
+149 These will be considered below: see text at nn220-224.
+150 The injury was sustained in 1980.
+151 See text at nn43-51.
+152 (1992) 176 CLR 408 at 422-3 (omitted footnotes refer to Malec).
+153 (1992) 176 CLR 408 at 420, citing, among others, Betts v Whittingslowe (1945) 71 CLR 637 at 649 per
+Dixon J. See also her judgment in Chappel v Hart (1998) 195 CLR 232 at 238-9.
+154 Above n85.
+155 (1998) 195 CLR 232 at 238.
+156 Ibid, at 241.
+157 Ibid, at 241-2.
+158 (1990) 169 CLR 638 at 642-3.
+159 SM Waddams, "Causation, Physicians and Disclosure of Risks" (1999) 7 Tort L Rev 5; Hoffmann, n20
+above. See also Hon Justice I Englard, "Informed Consent – The Double-faced Doctrine" in NJ
+Mullany & AM Linden (eds), Torts Tomorrow: A Tribute to John Fleming, LBC Information Services,
+Sydney, 1998, pl52. Cf Honoré, n99 above (court justified in overriding causal principles to vindicate
+plaintiff's rights).
+160 (1998) 195 CLR 232 at 252.
+161 Ibid, at 258-60.
+162 Ibid, at 278-9.
+163 (1995) 38 NSWLR 47 (CA) at 56-7.
+164 (1998) 195 CLR 232 at 274.
+165 Ibid, at 288.
+166 Ibid, at 289.
+167 (1999) 197 CLR 269 at 272.
+168 Public Trustee v Sutherland SC (1992) Aust Torts Reps 81-149 (NSW CA) at 61,141.
+169 (1999) 197 CLR 269 at 277-81.
+170 Ibid, at 279.
+171 Ibid, at 296.
+172 Ibid, at 312-13 (citation to Hippocrates omitted).
+173 (1992) 175 CLR 479.
+174 [1999] VSC 389 (Vic SC, Hedigan J, 15 October 1999, unreported, BC9906720).
+175 (1994) Aust Torts Reps 81 -308 (NSW CA).
+176 Ibid, at 61,791 per Mahoney AP,
+177 WA FC, Malcolm CJ, Rowland & Wall work J J, 26 February 1997, unreported, BC9700642. See now also
+Gavalas v Singh [2001] VSCA 23 (22 March 2001, unreported, BC200101238) (law will allow claim for
+damages for lost chance of a more favourable outcome from treatment resulting from doctor's
+negligent failure to diagnose, though precise boundaries of such claims await future determination).
+178 (1994) [1995] Aust Torts Reps 81-336 (Qld SC), appeal dismissed Turner v Locher (Qld CA, 21 April 1995,
+unreported, BC9505744).
+179 [1995] Aust Torts Reps 81-336 (Qld SC) at 62,350.
+180 Qld SC, Thomas J, 13 April 1995, unreported, BC9505737. An appeal by the plaintiff was successful in
+having one head of damages increased: Sturch v Willmott [1997] 2 Qd R 310 (Qld CA). The question
+ofloss of chance was not dealt with on the appeal.
+181 Cf text at nn83-97 above.
+182 Citing King, above n4, at 1354, 1356, 1363-4, 1368-9, 1373, 1381 et seq, and 1397.
+183 Qld SC, Fryberg J, 14 July 1995. unreported, BC9506006.
+184 [1995] 2 Qd R 326.
+185 Tran v Lam (NSW SC. Badgery-Parker J, 20 June 1997, unreported, BC9705945) (judge declined to put
+precise mathematical figure on it, but seems to have regarded the chance as small); Mclnnes v
+Ahluwalia [1999] NSWSC 818 (NSW SC, Davies AJ, 11 August 1999, unreported, BC9904583)
+(damages reduced by 50 per cent because chance of recovery if defendant had advised plaintiff's
+mother to see specialist only 50 per cent); Bourke v MacNeil [2000] NSWCA 144 (NSW CA, 14 June
+2000, unreported, BC200003177) (chance that plaintiff would have had substantial recovery if not
+operated on 40 per cent and damages assessed on this basis, but judgment overturned because CA
+found that on evidence plaintiff had failed to prove that he was suffering from particular condition).
+186 See text after n172 above.
+187 NSW SC, Badgery-Parker J, 20 June 1997, unreported, BC9705945.
+188 Woods v Lowns (NSW SC, Badgery-Parker J, 9 February 1995, unreported on this point, BC9504451)
+(finding that brain damage would probably not have occurred but for negligence excluded any
+allowance for chance that it would have occurred anyway).
+189 (1994) 179 CLR 332 at 351-3.
+190 Sykes v Midland Bank Executor & Trustee Co Ltd [1971] 1 QB 113 (CA); Gates v City Mutual Life
+Assurance Society Ltd (1986) 160 CLR 1; and Norwest Refrigeration Services Pty Ltd v Bain Dawes
+(WA) Pty Ltd (1984) 157 CLR 149.
+191 (1994) 179 CLR 332 at 353.
+192 Citing Law of Damages, 2nd edn, Canada Law Book, Toronto, 1991, §13.360; and "The Principles of
+Compensation" in P Finn (ed), Essays on Damages, Law Book Co, Sydney, 1992, pplO-12. See also
+Waddams, n85 above.
+193 (1994) 179 CLR 332 at 353.
+194 Eg, Duyvelshaff v Cathcart & Ritchie Ltd (1973) 1 ALR 125.
+195 PS Atiyah, Accidents, Compensation and the Law, 1st edn, Weidenfeld & Nicolson, London, 1970, ppl24-
+6, referring to McWilliams v Sir William Arrol & Co [1962] 1 All ER 623 (HL). The discussion is
+omitted in P Cane, Atiyah's Accidents, Compensation and the Law, 6th edn, Butterworths, London,
+1999, p95, where the law is regarded as settled, unsatisfactorily, by placing the burden of proof on the
+plaintiff.
+196 Eg, Nagle v Rottnest Island Authority (1993) 177 CLR 423; Council of the Municipality of Waverley v
+Bloom (1999) Aust Torts Reps 81-517 (NSW CA); Secretary to the Department of Natural Resources
+and Energy v Harper (2000) 1 VR 133 (Vic CA) at 152-3, citing Romeo v Conservation Commission of
+the Northern Territory (1998) 192 CLR 431 at [134] per Kirby J and Qantas Airways Ltd v Cameron
+(1996) 66 FCR 246 (FC) at 293-4 per Lindgren J. Cf Public Trustee v Sutherland SC (1992) Aust Torts
+Reps 81-149 (NSW CA) at 61,141 (contemplating possibility of treating such cases as for loss of
+chance); Lilley v Alpine Resorts Commission (1998) Aust Torts Reps 81-475 (Vic CA) (where it was
+held that plaintiff failed to prove what response of third party to notice would have been).
+197 [1995] 1 WLR 1602 (CA).
+198 Ibid, at 1609-14.
+199 See Stauch, n6 above, at 219, n48.
+200 See n14 above.
+201 Cf Malec v J C Hutton PtyLtd (1990) 169 CLR 638.
+202 Some of them are discussed in Bank of Credit and Commerce International SA (in Liq) (BCCI) v Ali (No
+2) [1999] 4 All ER 83 at 110-12. See also Motor Crown Petroleum Ltd v SJ Berwin & Co [2000] Lloyd's
+Rep PN 438 (Eng CA).
+203 (1992) 175 CLR 479. This was noted by Callinan J in Naxakis v Western General Hospital (1999) 197 CLR
+269 at 313.
+204 (1998) 195 CLR 232. See now also Rosenberg v Percival (2001) 178 ALR 577.
+205 [1998] 2 Qd R 572 (CA); SLR [1998] 19 Leg Rep SL 4 (20 November 1998). Cf Keeys v State of
+Queensland [1998] 2 Qd R 36 (CA) at 39-40 per McPherson JA, at 41 per Davies JA, at 44 per
+Moynihan J.
+206 Cf Kite v Malycha (1998) 71 SASR 321 (having no doubt that plaintiff would have sought and obtained
+treatment, judge refused to treat case as one for loss of chance; however, allowance should have been
+made for chance that treatment would have been unsuccessful).
+207 See nn192 and 85 above.
+208 See Chappel v Hart (1998) 195 CLR 232 at 246 n64 per McHugh J, citing Canterbury v Spence (1972) 464
+F 2d 772 at 791 and Reibl v Hughes (1981) 114 DLR 3d 1 at 16. See also the so-called "modified
+objective approach" adopted in Arndt v Smith [1997] 2 SCR 539, criticised by M Mclnnes, "Failure to
+Warn in Medical Negligence – A Cautionary Note from Canada" (1998) 6 TLJ 135 and by T Honoré,
+"Causation and Disclosure of Medical Risks" (1998) 114 LQR 52. Cf Hollis v Dow Corning Corp [1995]
+4 SCR 634.
+209 Chappel v Hart (1998) 195 CLR 232 at 246. Cf Allied Maples Group Ltd v Simmons & Simmons [1995] 1
+WLR 1602 (CA) at 1623-4 (considering how a third party would have acted).
+210 See H Luntz, "Mrs Whitaker's Gothic Cathedral" (1996) 4 TLJ 195.
+211 Cf the proposals of the National Committee of Inquiry into Compensation and Rehabilitation in
+Australia (Chair: Sir Owen Woodhouse), Report (1974).
+212 Cf Final Report of the Review of Professional Indemnity Arrangements for Health Care Professionals
+(Chair: Fiona Tito), Compensation and Professional Indemnity in Health Care (1995). For a summary
+of this report see GJ Reinhardt (1996) 4 TLJ 173.
+213 Cf Law Reform Committee of Victoria, Legal Liability of Health Service Providers (1997).
+214 Cf RL Abel, "A Critique of Torts" (1990) 37 UCLA L Rev 785 (summarised in (1994) 2 Tort L Rev 99).
+215 Waddams, n85 above.
+216 See, eg, RW Wright, "Right, Justice and Tort Law" in DG Owen (ed), Philosophical Foundations of Tort
+Law, Clarendon Press, Oxford, 1995, pl59.
+217 Arthur JS Hall & Co (a Firm) v Simons [2000] 3 WLR 543 (HL). See also Giannarelli v Wraith (1988) 165
+CLR 543 at 588 per Deane J (dissenting).
+218 Cf Frost v Chief Constable of South Yorkshire [1999] 2 AC 455 (HL) at 504 per Lord Hoffmann;
+McFarlane v Tayside Health Board [2000] 2 AC 59 (HL) at 83 per Lord Steyn; T Honoré, "The
+Morality of Tort Law – Questions and Answers" in DG Owen (ed), Philosophical Foundations of Tort
+Law, Clarendon Press, Oxford, 1995, p73.
+219 See text at n149 above.
+220 See Perrochet et al, n138 above.
+221 PC Weiler et al, A Measure of Malpractice, Harvard Univ Press, Cambridge, Mass, 1993, p70, Table 4.1
+(ratio of negligent injuries to number of claims in NY State, 1984, more than seven to one).
+222 See Tito Report, n212 above, para 2.55 ("clear that few people suffering even a highly preventable
+adverse event with significant resultant disability ever sue their health professional").
+223 See D Hoffman, "Doctoring the Evidence" (1990) 15 Leg Serv Bull 76.
+224 See L Hancock, Defensive Medicine and Informed Consent (1993) (commissioned by the Tito
+committee), who concluded that "whether or not defensive practices are beneficial or detrimental to
+patient care and to the health system generally" is an "unanswered question": para 8.46. Cf MJ
+Trebilcock, DN Dewees & DG Duff, "The Medical Malpractice Explosion: An Empirical Assessment
+of Trends, Determinants and Impacts" (1990) 17 MULR 539 at 550-61; D Dewees & M Trebilcock, "The
+Efficacy of the Tort System and its Alternatives: A Review of Empirical Evidence" (1992) 30 Osg Hall
+LJ 57 at 80-1; PC Weiler, Medical Malpractice on Trial, Harvard Univ Press, Cambridge, Mass, 1991,
+pp85-8, 104.
+225 Cf Sullivan v Micallef (1994) Aust Torts Reps 81-308 (NSW CA), text at n175 above.
+226 See text at nn172-173 above.
+227 J Stapleton, "The Normal Expectancies Measure in Tort Damages" (1997) 113 LQR 257.

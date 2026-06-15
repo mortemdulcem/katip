@@ -1,0 +1,847 @@
+       Chapter 4: Availability
+
+   Technology does not always rhyme with
+perfection and reliability. Far from it in reality!
+             —Jean-Michel Jarre
+
+
+                © Len Bass, Paul Clements, Rick Kazman,
+                 distributed under Creative Commons
+                          Attribution License
+                            Chapter Outline
+
+• What is Availability?
+• Availability General Scenario
+• Tactics for Availability
+• Tactics-Based Questionnaire for Availability
+• Patterns for Availability
+• Summary
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                  What is Availability? / 1
+• Availability refers to a property of software that it is there
+  and ready to carry out its task when you need it to be.
+• Availability encompasses the ability of a system to mask or
+  repair faults such that they do not become failures.
+• Availability builds on reliability by adding the notion of
+  recovery (repair).
+   – The goal is to minimize service outage time by mitigating faults.
+   – The time to repair is the time until the failure is no longer
+     observable.
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 What is Availability? / 2
+
+• A failure’s cause is a fault.
+• A fault can be internal or external to the system.
+• Faults can be:
+   – prevented,
+   – tolerated,
+   – removed,
+   – forecast.
+• Through these actions, a system becomes “resilient”
+  to faults.
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                What is Availability? / 3
+
+• We are concerned with:
+  – how faults are detected,
+  – how frequently they occur,
+  – what happens when they occur,
+  – how long a system may be out of operation,
+  – how faults or failures can be prevented, and
+  – what notifications are required when a failure occurs.
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 What is Availability? / 4
+
+• We often measure availability properties such as:
+  – MTTF: the mean time to failure
+  – MTTR: the mean time to repair
+  – MTBF: the mean time between failures (MTBF = MTTF + MTTR)
+
+• Steady-state availability is calculated as:
+           ( MTTF / MTBF ) * 100
+• This is how we calculate measures such as
+  "99.99% availability" (often seen in SLAs).
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Example Availability Measures
+
+
+
+
+What happens if we accept that 99% correct is sufficient? :)
+   - Nine words are incorrectly spelled at each side in your newspaper
+   - About 23700 transfers each day are made to wrong account
+   - You are without electricity , water or heating 15 minutes each day
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Availability General Scenario / 1
+
+
+
+
+ © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Availability General Scenario / 2
+
+
+
+
+ © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 Sample
+     Concrete Availability Scenario / 1
+
+• A server in a server farm fails during normal
+  operation, and the system informs the operator
+  and continues to operate with no downtime.
+
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+            Sample
+Concrete Availability Scenario / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Goal of Availability Tactics / 1
+
+• A failure occurs when the system no longer delivers a
+  service consistent with its specification
+   – this failure is observable by the system’s actors.
+
+• A fault (or combination of faults) has the potential to
+  cause a failure.
+
+• Availability tactics enable a system to endure faults so
+  that services remain compliant with their specifications.
+   – The tactics keep faults from becoming failures or at least
+     bound the effects of the fault and make repair possible.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Goal of Availability Tactics / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                   Availability Tactics
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Availability Tactics-1:
+                               Detect Faults / 1
+• Ping/echo
+  – asynchronous request/response message pair exchanged
+    between nodes, used to determine reachability and the
+    round-trip delay through the associated network path.
+• Monitor
+  – a component used to monitor the state of health of other
+    parts of the system. A system monitor can detect failure or
+    congestion in the network or other shared resources, such as
+    from a denial-of-service attack.
+• Heartbeat
+  – a periodic message exchange between a system monitor and a
+    process being monitored.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                        Availability Tactics-1:
+                                 Detect Faults / 2
+• Timestamp
+   – used to detect incorrect sequences of events, primarily in
+     distributed message-passing systems.
+• Sanity Checking
+   – checks the validity or reasonableness of a component’s
+     operations or outputs; typically based on a knowledge of the
+     internal design, the state of the system, or the nature of the
+     information under scrutiny.
+• Condition Monitoring
+   – checking conditions in a process or device, or validating
+     assumptions made during the design.
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                        Availability Tactics-1:
+                                 Detect Faults / 3
+• Voting
+   – check that replicated components are producing the same
+     results.
+   – comes in various flavors:
+      • replication, functional redundancy, analytic redundancy.
+
+• Exception Detection
+   – detection of a system condition that alters the normal flow of
+     execution, e.g. system exception, parameter fence, parameter
+     typing, timeout.
+• Self-test
+   – procedure for a component to test itself for correct operation.
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Availability Tactics-2:
+                          Recover from Faults
+                        (Preparation & Repair / 1)
+
+• Redundant spare
+  – This tactic refers to a configuration in which one or
+    more duplicate components can step in and take
+    over the work if the primary component fails.
+  – This tactic is at the heart of the hot spare, warm
+    spare, and cold spare patterns, which differ primarily
+    in how up-to-date the backup component is at the
+    time of its takeover.
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Availability Tactics-2:
+                          Recover from Faults
+                        (Preparation & Repair / 2)
+
+• Exception Handling
+  – dealing with the exception by reporting it or handling it,
+    potentially masking the fault by correcting the cause of
+    the exception and retrying.
+• Rollback
+  – revert to a previous known good state, referred to as
+    the “rollback line”.
+• Software Upgrade
+  – in-service upgrades to executable code images in a non-
+    service-affecting manner.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                      Availability Tactics-2:
+                          Recover from Faults
+                        (Preparation & Repair / 3)
+• Retry
+   – where a failure is transient retrying the operation may lead to
+     success.
+• Ignore Faulty Behavior
+   – ignoring messages sent from a source when it is determined that
+     those messages are spurious.
+• Graceful Degradation
+   – maintains the most critical system functions in the presence of
+     component failures, dropping less critical functions.
+• Reconfiguration
+   – reassigning responsibilities to the resources left functioning,
+     while maintaining as much functionality as possible.
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                         Availability Tactics-3:
+                             Recover from Faults
+                                       (Reintroduction)
+• Shadow
+   – operating a previously failed or in-service upgraded component in a
+     “shadow mode” for a predefined time prior to reverting the component
+     back to an active role.
+• State Resynchronization
+   – partner to active redundancy and passive redundancy where state
+     information is sent from active to standby components.
+• Escalating Restart
+   – recover from faults by varying the granularity of the component(s)
+     restarted and minimizing the level of service affected.
+• Non-stop Forwarding
+   – functionality is split into supervisory and data.
+       • If a supervisor fails, a router continues forwarding packets along known routes while
+         protocol information is recovered and validated.
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                        Availability Tactics-4:
+                                Prevent Faults / 1
+
+• Removal From Service
+   – temporarily placing a system component in an out-of-service state
+     for the purpose of mitigating potential system failures
+• Transactions
+   – bundling state updates so that asynchronous messages exchanged
+     between distributed components are atomic, consistent, isolated,
+     and durable.
+• Predictive Model
+   – monitor the state of health of a process to ensure that the system is
+     operating within nominal parameters; take corrective action when
+     conditions are detected that are predictive of likely future faults.
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                     Availability Tactics-4:
+                             Prevent Faults / 2
+
+• Exception Prevention
+  – preventing system exceptions from occurring by
+    masking a fault, or preventing it via smart pointers,
+    abstract data types, wrappers.
+
+• Increase Competence Set
+  – designing a component to handle more cases—
+    faults—as part of its normal operation.
+
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for Availability / 1
+
+
+
+
+  © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for Availability / 2
+
+
+
+
+  © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for Availability / 3
+
+
+
+
+  © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+        Redundant Spare Patterns for
+              Availability / 1
+• Active redundancy (hot spare)
+  – This refers to a configuration in which all of the nodes
+    in a protection group receive and process identical
+    inputs in parallel, allowing the redundant spare(s) to
+    maintain a synchronous state with the active node(s).
+  – Because the redundant spare possesses an identical
+    state to the active processor, it can take over from a
+    failed component in a matter of milliseconds.
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+           Redundant Spare Patterns for
+                 Availability / 2
+
+• Passive redundancy (warm spare)
+  – Here only the active members of the protection group process
+    input traffic. One of their duties is to provide the redundant
+    spare(s) with periodic state updates.
+  – Because this state is loosely coupled with the active node(s),
+    the redundant nodes are referred to as warm spares.
+  – Passive redundancy achieves a balance between the more
+    highly available but more compute-intensive (and expensive)
+    active redundancy pattern and the less available but
+    significantly less complex (and cheaper) cold spare pattern.
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Redundant Spare Patterns for
+               Availability / 3
+• Spare (cold spare)
+  – Cold sparing refers to a configuration in which
+    redundant spares remain out of service until a failover
+    occurs, at which point a power-on-reset procedure is
+    initiated on the redundant spare prior to its being
+    placed in service.
+  – Due to its poor recovery performance, and hence its
+    high mean time to repair, this pattern is poorly suited
+    to systems having high-availability requirements
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                        Benefits of
+                  Redundant Spare Patterns
+• The benefit of a redundant spare is a system that continues
+  to function correctly after only a brief delay in the presence
+  of a failure.
+
+• The alternative is a system that stops functioning correctly
+  (or altogether) until the failed component is repaired.
+   – This could take hours or days.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                       Tradeoffs in
+                 Redundant Spare Patterns
+
+• The tradeoff with any of these patterns is the additional
+  cost and complexity incurred in providing a spare.
+• The tradeoff among the three alternatives is the time to
+  recover from a failure versus the runtime cost incurred to
+  keep a spare up-to-date.
+• A hot spare carries the highest cost but leads to the
+  fastest recovery time, for example.
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      TMR (Triple Modular Redundancy) Pattern
+                 for Availability
+• This widely used implementation of the voting tactic
+  employs three components that do the same thing.
+   – Each component receives identical inputs and forwards its
+     output to the voting logic, which detects any inconsistency
+     among the three output states.
+   – Faced with an inconsistency, the voter reports a fault.
+• It must also decide which output to use, and different
+  instantiations of this pattern use different decision rules.
+   – Typical choices are letting the majority rule or choosing some
+     computed average of the disparate outputs.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                               TMR Pattern
+                            Benefits / Tradeoffs
+• Benefits:
+   – TMR is simple to understand and to implement.
+   – It is blissfully independent of what might be causing disparate
+     results, and is only concerned about making a reasonable
+     choice so that the system can continue to function.
+• Tradeoffs:
+   – There is a tradeoff between increasing the level of replication,
+     which raises the cost, and the resulting availability.
+   – In systems employing TMR, the statistical likelihood of two or
+     more components failing is vanishingly small, and three
+     components represents a sweet spot between availability and
+     cost.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                  Circuit Breaker Pattern
+                      for Availability
+• A commonly used availability tactic is retry.
+   – In the event of a timeout or fault when invoking a service, the
+     invoker simply tries again—and again, and again.
+   – A circuit breaker keeps the invoker from trying countless times,
+     waiting for a response that never comes.
+• In this way, it breaks the endless retry cycle when it deems
+  that the system is dealing with a fault. That’s the signal for
+  the system to begin handling the fault.
+• Until the circuit break is “reset,” subsequent invocations
+  will return immediately without passing along the service
+  request.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                       Circuit Breaker Pattern
+                        Benefits / Tradeoffs
+• Benefits:
+   – This pattern can remove from individual components the policy about
+     how many retries to allow before declaring a failure.
+   – At worst, endless fruitless retries would make the invoking component
+     as useless as the invoked component that has failed.
+       • This problem is especially acute in distributed systems, where you could have
+         many callers calling an unresponsive component and effectively going out of
+         service themselves, causing the failure to cascade across the whole system.
+       • The circuit breaker, in conjunction with software that listens to it and begins
+         recovery procedures, prevents that problem.
+
+• Tradeoffs:
+   – Care must be taken in choosing timeout (or retry) values.
+       • If the timeout is too long, then unnecessary latency is added.
+       • But if the timeout is too short, then the circuit breaker will be tripping when
+         it does not need to—a kind of “false positive”—which can lower the
+         availability and performance of these services.
+
+           © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+            Other Common Patterns for
+                    Availability
+• Process pairs
+  – This pattern employs checkpointing and rollback.
+     • In case of failure, the backup has been checkpointing and (if
+       necessary) rolling back to a safe state, so is ready to take over
+       when a failure occurs.
+• Forward error recovery
+  – This pattern provides a way to get out of an undesirable
+    state by moving forward to a desirable state.
+     • This often relies upon built-in error-correction capabilities,
+       such as data redundancy, so that errors may be corrected
+       without the need to fall back to a previous state or to retry.
+     • Forward error recovery finds a safe, possibly degraded, state
+       from which the operation can move forward.
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Summary for Availability / 1
+
+• Availability refers to the ability of the system to
+  be available for use when a fault occurs.
+• The fault must be recognized (or prevented) and
+  then the system must respond.
+• The response will depend on the criticality of
+  the application and the type of fault
+  – can range from “ignore it” to “keep on going as if it
+    didn’t occur.”
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Summary for Availability / 2
+
+• Tactics for availability are categorized into detect
+  faults, recover from faults and prevent faults.
+• Detection tactics depend on detecting signs of life
+  from various components.
+• Recovery tactics are retrying an operation or
+  maintaining redundant data or computations.
+• Prevention tactics depend on removing elements
+  from service or limiting the scope of faults.
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+       Chapter 8: Modifiability
+
+It is not the strongest of the species that survive,
+     nor the most intelligent, but the one most
+                responsive to change.
+                  —Charles Darwin
+
+                 © Len Bass, Paul Clements, Rick Kazman,
+                  distributed under Creative Commons
+                           Attribution License
+                            Chapter Outline
+
+• What is Modifiability?
+• Modifiability General Scenario
+• Tactics for Modifiability
+• Tactics-Based Questionnaire for Modifiability
+• Patterns for Modifiability
+• Summary
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+             What is Modifiability? / 1
+
+• Modifiability is about change and our interest in
+  it is in the cost and risk of making changes.
+• To plan for modifiability, an architect has to
+  consider three questions:
+  – What can change?
+  – What is the likelihood of the change?
+  – When is the change made and who makes it?
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+             What is Modifiability? / 2
+
+• For N similar modifications, a simplified
+  justification for a change mechanism is that
+
+     N * Cost of making change without the mechanism ≤
+            Cost of creating the mechanism +
+            (N * cost of making the change using the mechanism)
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+            What is Modifiability? / 3
+
+• Change is so prevalent in the life of software
+  systems that special names have been given to
+  specific flavors of modifiability.
+• Some of the common ones are:
+  – Scalability
+  – Variability
+  – Portability
+  – Location independence
+
+
+      © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Modifiability General Scenario / 1
+
+
+
+
+ © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Modifiability General Scenario / 2
+
+
+
+
+ © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                  Sample Concrete
+               Modifiability Scenario / 1
+• A developer wishes to change the user interface.
+• This change will be made to the code at design
+  time, it will take less than three hours to make and
+  test the change, and no side effects will occur.
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+           Sample Concrete
+        Modifiability Scenario / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+         Goal of Modifiability Tactics
+
+• Tactics to control modifiability have as their goal
+  controlling the complexity of making changes,
+  as well as the time and cost to make changes.
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Modifiability Tactics
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                       Modifiability Tactics:
+                        (1) Increase Cohesion
+
+• Split Module. If the module being modified includes
+  responsibilities that are not cohesive, the modification
+  costs will likely be high.
+   – Refactoring the module into several more cohesive modules
+     should reduce the average cost of future changes.
+• Redistribute responsibilities. If responsibilities A, A', A''
+  are sprinkled across several distinct modules, they should
+  be placed together.
+   – This refactoring may involve creating a new module, or it
+     may involve moving responsibilities to existing modules.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                       Modifiability Tactics:
+                          (2) Reduce Coupling
+
+• Encapsulate. See Ch.7 (Integrability).
+• Use an intermediary. See Ch.7 (Integrability).
+• Abstract common services. See Ch.7 (Integrability).
+• Restrict dependencies. This tactic restricts which modules
+  a given module interacts with or depends on.
+   – In practice, this tactic is implemented by restricting a
+     module’s visibility (when developers cannot see an interface,
+     they cannot employ it) and by authorization (restricting
+     access to only authorized modules).
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                         Modifiability Tactics:
+                                 (3) Defer Binding
+• The following tactics can be used to bind values at compile time
+  or build time:
+   – Component replacement
+   – Compile-time parameterization
+   – Aspects
+• The following tactics bind values at deployment, startup time, or
+  initialization time:
+   – Configuration-time binding
+   – Resource files
+• Tactics to bind values at runtime include the following:
+   – Discovery (see Ch.7-Integrability)
+   – Interpret parameters
+   – Shared repositories
+   – Polymorphism
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+        Modifiability / 1
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+Tactics-Based Questionnaire for
+        Modifiability / 2
+
+
+
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                Client-Server Pattern for
+                    Modifiability / 1
+
+• The client-server pattern consists of a server
+  providing services simultaneously to multiple
+  distributed clients.
+   – The most common example is a web server providing
+     information to multiple simultaneous users of a website.
+
+
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+     Client-Server Pattern – Benefits
+• The connection between a server and its clients is
+  established dynamically.
+   – The server has no a priori knowledge of its clients—that is, there
+     is low coupling between the server and its clients.
+• There is no coupling among the clients.
+• The number of clients can easily scale and is constrained
+  only by the capacity of the server.
+   – The server functionality can also scale if its capacity is exceeded.
+• Clients and servers can evolve independently.
+• Common services can be shared among multiple clients.
+• The interaction with a user is isolated to the client.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      Client-Server Pattern – Tradeoffs
+• This pattern is implemented such that communication
+  occurs over a network, perhaps even the Internet.
+   – Thus messages may be delayed by network congestion,
+     leading to degradation (or at least unpredictability) of
+     performance.
+
+• For clients that communicate with servers over a
+  network shared by other applications, special
+  provisions must be made for achieving security
+  (especially confidentiality) and maintaining integrity.
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+              Plug-in (Microkernel) Pattern
+                     for Modifiability
+
+• The plug-in pattern has two types of elements:
+  – core elements, that provide a core set of functionality
+  – plug-ins, that add functionality to the core via a fixed set
+    of interfaces.
+• The two types are typically bound together at build
+  time or later.
+
+
+
+
+       © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+           Plug-in (Microkernel) Pattern –
+                 Benefits & Tradeoff
+• Benefits:
+   – Plug-ins provide a controlled mechanism to extend a core
+     product and make it useful in a variety of contexts.
+   – The plug-ins can be developed by different teams or
+     organizations than the developers of the micro-kernel.
+      • This allows for the development of two different markets: for the core
+        product and for the plug-ins.
+   – The plug-ins can evolve independently from the microkernel as
+     long as the interfaces do not change.
+
+• Tradeoff:
+   – Because plug-ins can be developed by different organizations, it
+     is easier to introduce security vulnerabilities and privacy threats.
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      Layers Pattern for Modifiability
+• The layers pattern divides the system in such a way that the
+  modules can be developed and evolved separately with little
+  interaction among the parts;
+   – which supports portability, modifiability, and reuse.
+• To achieve this separation of concerns, the layers pattern
+  divides the software into units called layers.
+   – Each layer is a grouping of modules that offers a cohesive set of
+     services.
+• The allowed-to-use relationship among the layers is subject
+  to a key constraint:
+   – The relations must be unidirectional.
+• Layers completely partition a set of software, and each
+  partition is exposed through a public interface.
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 Layers Pattern – Benefits
+
+• Because a layer is constrained to use only lower layers,
+  software in lower layers can be changed (as long as the
+  interface does not change) without affecting the upper layers.
+• Lower-level layers may be reused across different
+  applications.
+• Because the allowed-to-use relations are constrained, the
+  number of interfaces that any team must understand is
+  reduced.
+
+
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+              Layers Pattern – Tradeoffs
+
+• If the layering is not designed correctly, it may actually get
+  in the way, by not providing the lower-level abstractions
+  that programmers at the higher levels need.
+• Layering often adds a performance penalty to a system.
+   – If a call is made from a function in the top-most layer, it may
+     have to traverse many lower layers before being executed by
+     the hardware.
+• If many instances of layer bridging occur, the system may
+  not meet its portability and modifiability goals, which
+  strict layering helps to achieve.
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+               Publish-Subscribe Pattern for
+                       Modifiability
+• Publish-subscribe is an architectural pattern in which
+  components communicate primarily through asynchronous
+  messages, sometimes referred to as “events” or “topics.”
+   – The publishers have no knowledge of the subscribers, and
+     subscribers are only aware of message types.
+• At runtime, when a message is published, the publish–
+  subscribe (or event) bus notifies all of the elements that
+  registered an interest in the event or topic.
+   – The result is loose coupling between the publishers and the
+     subscribers.
+• The publish-subscribe pattern has three types of elements:
+   – Publishers
+   – Subscribers
+   – Event bus
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+      Publish-Subscribe Pattern – Benefits
+
+• Publishers and subscribers are independent and hence
+  loosely coupled.
+   – Adding or changing subscribers requires only registering for an
+     event and causes no changes to the publisher.
+• System behavior can be easily changed by changing the event
+  or topic of a message being published, and consequently
+  which subscribers might receive and act on this message.
+• Events can be logged easily to allow for record and playback.
+
+
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                 Publish-Subscribe Pattern –
+                        Tradeoffs / 1
+• Some implementations of the publish-subscribe pattern can
+  negatively impact performance (latency).
+   – Use of a distributed coordination mechanism will ameliorate the
+     performance degradation.
+
+• A component may not be sure how long it will take to receive a
+  published message.
+   – In general, system performance and resource management are more
+     difficult to reason about in publish-subscribe systems.
+
+• Use of this pattern can negatively impact determinism.
+   – The order of method invocation, as a result of an event, may vary.
+
+
+
+          © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                Publish-Subscribe Pattern –
+                       Tradeoffs / 2
+
+• Use of the publish-subscribe pattern can negatively impact
+  testability.
+   – Small changes in the event bus can have a wide impact on
+     system behavior and quality of service.
+• Some publish-subscribe implementations limit the
+  mechanisms available to implement security (integrity).
+   – Since publishers do not know the identity of subscribers & vice
+     versa, end-to-end encryption is limited.
+      • Messages from a publisher to the event bus can be encrypted, and
+        messages from the event bus to a subscriber can be encrypted;
+      • but end-to-end encrypted communication requires all publishers and
+        subscribers to share the same key.
+
+
+         © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+                                          Summary
+
+• Modifiability deals with change and the cost in time
+  or money of making a change, including the extent
+  to which this modification affects other functions or
+  quality attributes.
+• Tactics to reduce the cost of making a change
+  include making modules smaller, increasing
+  cohesion, and reducing coupling.
+   – Deferring binding will also reduce the cost of making a
+     change.
+
+
+        © Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+

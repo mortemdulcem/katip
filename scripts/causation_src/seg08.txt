@@ -1,0 +1,1358 @@
+5 Rebels Without a Cause?: Judges,
+Medical and Scientific Evidence and the
+Uses of Causation
+GARY EDMOND AND DAVID MERCER*
+Introduction
+If we aim to improve our understanding of the relationship between legal
+causation and scientific or medical causation, then attempts designed to identify
+epistemological essences or focus on the putatively discrete categories of law,
+science and medicine are likely to provide only limited assistance. From
+observations of law and science in practice, images of causation would seem to be
+epistemologically confusing and inconsistent. The following discussion is
+intended as an exploratory examination of how judges in a variety of legal
+settings (primarily personal injury cases) construct accounts of legal and
+scientific causation against a background of rhetorical resources and practical
+constraints. As an empirical generalisation, determining matters of causation in
+legal settings involves the management of a more heterogeneous assortment of
+concerns, constraints and resources, than is usually the case with the treatment of
+causation in scientific and medical contexts — perhaps with the exception of
+scientific controversies. In particular, those in the legal system tend to place
+greater emphasis on the apportionment of responsibility and explaining specific
+instances — the case at hand — rather than, as is often the case in scientific
+settings, making generalisations about classes of relationships.1 However, as we
+shall see, on occasion even the causal pronouncements in specific legal settings
+and judgments appear designed to have more general social implications.
+Images of causation are not homogeneous among the sciences. Scientific and
+legal textbooks propose, often in ideal philosophical terms, standards by which an
+explanation may be classified as causal. Notwithstanding these idealised
+descriptions, in practical contexts different scientific sub-disciplines may hold
+different visions of the types of explanations that can be classed as causal. In
+these diverse scientific settings essential methodological and philosophical
+categories may be of little relevance or utility. Among the sciences as well within
+scientific subdisciplines there may be differing perceptions about what constitutes
+an adequate causal explanation and even a relevant area of inquiry.
+Historian of science Robert Proctor identifies differences among medical and
+scientific explanations for the cause of cancer (an area of legal and scientific
+causation we will explore more fully below). For example, in epidemiology causes
+for cancer may be sought by looking at the "variations in the practices of specific
+populations to identify agents or circumstances that might cause cancer".2
+Debates over the adequacy of the identification of a cause often involve
+considerations of the statistical strength of association between the suspected
+agent and the cancer, latency periods, consistency between studies, dose-response
+correlations and general assessments of biological plausibility. If the statistical
+associations are considered sufficiently compelling, then detailed explanation and
+the identification of specific biological processes may not need to be understood
+in depth before a causal relationship will be confidently attributed. For molecular
+biologists, however, the question of the causes of cancer may by focused quite
+differently:
+The questions of interest in molecular biology are often questions that abstract from particular causal
+agents. The questions are typically: What makes a cancer cell begin to grow? What genetic loci are
+altered in the process, and what does this do to cellular function? Why does the body's immune system
+not reject a tumor as foreign, and how might immunity be reversed? The molecular approach generally
+looks to processes underlying a broad spectrum of cancers — and not just to causes of specific tumors
+{asbestos induced mesothelioma for instance). Molecular biologists may question the entire notion of
+cause, as when Harold Varmus of the National Institutes of Health cautioned that "You can't do
+experiments to see what causes cancer. It's not an accessible problem, and its not the sort of thing
+scientists can afford to do."3
+Even within similar areas of scientific practice, some scientists may accept a
+particular form of explanation as causal whilst others may only adopt it
+conditionally and display a degree of agnosticism as to whether or not such an
+explanation is epistemologically warranted. Drawing upon an historical example,
+Newton's theory of universal gravitation provided a causal explanation which
+quickly dominated natural philosophical thought with respect to explanations of
+celestial and terrestrial motion. It was elegant and efficacious. Nevertheless, the
+idea of gravitation working by "action at a distance" without a clear mechanical
+entity to explain its operation contravened a range of contemporary
+commitments and troubled many of the proponents of the mechanical natural
+philosophy, who were trying to expunge — from natural philosophical
+endeavours — forms of causal explanation which did not rely on the more
+mechanically plausible direct physical interaction of atoms and corpuscles.4
+Eventually gravitation came to be understood as a satisfactory causal
+explanation, and influenced the sorts of explanation that were conceived as
+theoretically acceptable.
+Writers such as Thomas Kuhn and Barry Barnes have argued that what is
+classed as a causal explanation in the sciences is invariably linked to how it
+conforms to existing theoretical frameworks and commitments as well as its
+perceived practical and theoretical utility. Abstract philosophical and scientific
+formulations (or canons) about what can be considered as a cause are of limited
+guidance. As Kuhn explained:
+To describe the cause or causes of an event is to explain why it occurred. Causes figure in physical
+explanations, and physical explanations are generally causal. Recognizing that much, however is to
+confront again the intrinsic subjectivity of some of the criteria governing the notion of cause ... [and] ...
+new canons of explanation are born with new theories on which they are to a considerable extent,
+parasitic.5
+Like notions of scientific causation, legal causation has a body of literature and
+some overlapping abstract philosophical canons but, as in the sciences, these
+idealised and frequently abstract categories provide resources and malleable
+constraints — not binding guides to practice.
+Rather than try to extract the essences or classify the similarities and
+differences between causation in science and medicine and causation in law, we
+intend to illustrate some of the rhetorical processes, dilemmas and challenges,
+confronting judicial attempts to establish satisfactory causal explanations
+utilising scientific and medical evidence. In examining the assessment of expert
+evidence in legal settings it is useful to avoid the a priori demarcation of the legal
+elements of a causal explanation from the scientific elements. These types of
+demarcation are usually among the areas of active contestation, definition and
+"boundary working" undertaken by the protagonists in any particular litigation.6
+Instead, it is more useful to conceptualise images of scientific causation and legal
+causation as resources and constraints that the participants (judges in the
+following analysis) strategically deploy and resist.
+Images of legal causation provide a more formal and less flexible set of
+resources than images of scientific causation because it is ultimately in the legal
+domain that legitimacy is most important. This is not to suggest that images of
+scientific and medical causation are completely malleable in legal settings.
+Because both judicial and scientific authority are premised upon images of
+rationality, where legal decisions involve the use of scientific or medical evidence
+there are invariably pressures for the decision to appear consistent with what is
+usually characterised as reliable scientific knowledge.7 Any deviations, apparent
+or otherwise, require careful explanation, disclaimers, or skilful deflection. A
+decision which appears to arbitrarily dismiss scientific authority or blatantly
+assert the primacy of legal authority may have difficulty in maintaining its
+legitimacy.8 This seems particularly applicable to mass torts, high profile
+litigation and cases involving well resourced parties. Social and institutional
+concerns, questions of policy and responsibility as well as the outcome of the
+specific case continuously inform the construction of legally acceptable causal
+explanations.
+Law, Science, Judges, Society and Causation: Some
+Themes
+Judges endeavouring to determine the adequacy of causal evidence in particular
+legal settings are engaged in acts of creative reconstitution and synthesis,
+requiring the alignment and management of various narrative themes and
+practical concerns. Some of these narratives and practical concerns are captured
+beneath the following rubrics:
+Alignment with the law;
+Evaluating scientific and medical knowledge;
+The specific contingencies of the case; and
+Responsibility and social policy.
+These overlapping categories, intentionally more indicative than exhaustive,
+will be developed in more detail below.
+Alignment with the law: precedent and the anticipated legal
+reception
+Legal images of causation involve assessments and representations of similarities
+and differences between the present case and previous cases, consideration of the
+implications of particular representations of causation, and the relationship
+between scientific or medical evidence and the specific legal issue. In order to
+satisfy these requirement for the purposes of establishing legal causation, judges
+have at their disposal an extensive range of legal and other resources. Celebrated
+legal texts such as Hart and Honoré's Causation in the Law,9 legal and folk
+philosophies of science, earlier judgments and common sense can all be invoked
+to strengthen the authority of legal decisions. Ideally, the construction of images
+of causation in legal settings should be "superficially transparent" and "reflective".
+However, because legal constructions of causation are infused with policy
+considerations and more general conceptualisations of responsibility at law,
+transparency and reflection sometimes appear qualified or absent. Aligning
+questions of legal causation to medical and scientific causation and the specific
+evidence at band is also rendered complex, both rhetorically and practically,
+because in many, perhaps most, contexts scientific and medical evidence
+presented to the court is packaged in anticipation of legal and judicial (sometimes
+appellate) expectations.10 In mass toxic torts, such as the United States Bendectin
+litigation considered below, the process of integrating scientific, policy and legal
+considerations, may become highly refined. Some commentators have suggested
+that the integration of legal concerns with scientific and/or medical orientations
+is a major problem confronting contemporary legal systems and that the two
+domains should remain discrete.11 Other commentators, most notably Roger
+Smith and Brian Wynne, have suggested that in it is quite unrealistic to expect
+such strict demarcations.12 In fields like epidemiology, forensic pathology,
+forensic psychiatry, intellectual property and patent law, the growth and
+epistemological texture of scientific and medical knowledge, including practical
+concerns about what is eligible to be considered as a satisfactory causal
+explanation, have evolved concurrently with legal rules, processes and values.
+This tendency toward what might be described as forms of hybridised Saw-
+science knowledge, with legal concerns entering into the practice and
+representations of science and medicine, provide interesting challenges for judges
+and commentators endeavouring to explain legal causation in relation to specific
+circumstances where there are competing expert opinions. To some extent it
+provides judges with a range of pre-assembled resources enabling them to more
+easily link legal and scientific concerns. However, it may also put pressure on
+judges to appear to address more general issues of scientific causation or appeal
+to common sense models of causation in order to differentiate their views from
+those of the experts. These two themes are addressed below, and in the case study
+which forms the second half of this chapter.
+Evaluating scientific and medical knowledge: comprehension,
+interpretation and reconstitution
+Judges frequently endeavour to align the rhetorical domains of science and law
+with policy sensitivities. Consequently, the practice of constructing reliable
+scientific evidence in such settings can assume a variety of forms. At one level
+the perceived need for alignment encourages judges to show that they
+comprehend the general parameters of the scientific and/or medical evidence of
+causation presented by expert witnesses. This involves assessing not only general
+models of scientific and medical causation but also the scientific and medical
+knowledge relevant to ascriptions of specific causation. For example, has the
+specific plaintiff established causation between their condition and the harm
+allegedly flowing from the defendant's act or omission? Judges then, regularly
+need to provide tractable simplifications of scientific arguments presented before
+them. The existence of such simplified reconstructions of scientific and medical
+knowledge provides a ready source for recriminations, from experts outside the
+legal setting, who can claim that the simplification is a debased legal distortion,
+and for dissenting judges to criticise the understanding of scientific medical
+evidence by their peers.13 (In the case study below, the trial judge was criticised
+by some of the appellate judges for his assessment of the scientific and medical
+evidence.)
+It is presumably easier for judges, determining matters of scientific and/or
+medical causation, to produce and legitimate closure when expert disagreement is
+"shallow" and there are few conspicuous policy or social implications associated
+with the instant case. In contrast, in case congregations, class actions and where
+policy matters are sensitive, and scientific disagreement more intense, judges may
+find themselves being called upon to make difficult, de facto scientific, judgments
+about causation. This may provide some insight into judicial requests for
+alternative, usually more technocratic, fact-finding mechanisms including the use
+of expert panels in mass torts in the United States and court-appointed experts in
+civil litigation in the United Kingdom.14 In areas of long-standing scientific
+controversy, the legal system may become one of the primary locations for the
+resolution of debates about scientific and medical causation. In this context, the
+example of the litigation surrounding Bendectin is instructive.
+Over the decade or so of Bendectin litigation in the United States, there was
+considerable debate around the types of scientific evidence best suited to
+determining questions of medical and scientific (and legal) causation in relation
+to the plaintiffs' injuries. The plaintiffs alleged that their birth defects were
+caused by the maternal ingestion of the anti-nausea (morning sickness) drug
+Bendectin (Debendox in Australia) during the first trimester of pregnancy.
+Assessments of the plaintiffs' claims involved not only assessments of the
+credibility of various experts but extended to include the credibility and
+comparative value of different types of scientific knowledge and their causal
+relevance.
+The ability to shift the appropriate locus of relevant causation provided the
+parties and the judges with multiple sites to contest causation and explain its
+legal significance. Epidemiological debates were not restricted to general
+causation but included assessments of the appropriateness of extrapolations to the
+circumstances of specific individuals. The number of studies undertaken, their
+type, the degree of consistency between them and the status of meta-analyses
+were also subjected to debate and enrolment as resources informing and
+explaining legal representations of causation. Further, the role and significance of
+non-epidemiological evidence was also contested and frequently weighed against
+the epidemiological record.15 The judicial balancing of different types of scientific
+evidence is captured in the following extract from an appeal in the case of
+Richardson by Richardson v Richardson-Merrell, Inc:
+These three types of studies then — chemical, in vitro, and in vivo — cannot furnish a sufficient
+foundation for a conclusion that Bendectin caused the birth defects at issue in this case. Studies of this
+kind, singly or in combination, are not capable of proving causation in human beings in the face of the
+overwhelming body of contradictory epidemiological evidence.16
+The degree of (scientific) pro-activity displayed by courts in the Bendectin
+litigation continued beyond merely prioritising the significance of epidemiology
+in settling questions of scientific and medical causation.17 It extended to the
+influential Daubert v Merrell Dow Pharmaceuticals, Inc judgment where United
+States Supreme Court judges actually stipulated the types of methodological
+strictures scientists should adopt in producing their knowledge for it to be classed
+as scientific and sufficiently reliable for admissibility in legal proceedings.18 In
+this context it was not only judges seeking alignment with a set of scientific
+experts — witnesses who may have provided evidence and opinions — but rather
+an instance of judges seeking rhetorical alignment with meta-scientific experts
+such as sociologists, philosophers and historians of science.19
+In summary, when constructing legal versions of scientific causation, judges
+need to engage in processes of simplification and synthesis to show they
+comprehend the scientific and medical controversy but also to provide an
+intelligible and tractable model of the evidence that can be applied to the
+construction and justification of their decisions. The role of courts in mass
+litigation has shown judges going further and in a sense actually constructing
+more overt models of legal-scientific knowledge about causation, relying on a
+diverse assortment of meta-scientific resources.20
+The specific contingencies of the case: “reflexive realism” and
+“judicial scepticism”
+As well as responding to images of law, the evidence and what might be
+conceived as social and policy concerns, judges also shape their assessments of
+legal, medical and scientific causation in ways that correspond with the
+contingencies of the specific case. In such instances, overt reference to policy
+considerations, or making scientific judgments, or pronouncing on causation as a
+matter of law may in themselves fail to provide adequate legitimacy for the
+judgment. In particular, the peculiarities of the individual case — including
+evidence pertaining to the case — can be employed by judges to explain apparent
+inconsistencies among decisions or to allow recovery where the general evidence
+might prevent other plaintiffs from achieving similar level of success.21
+Tony Ward argues that in some instances judges may revert to impressionistic
+assessments of the credibility of the witnesses and the coherence and plausibility
+of narratives. According to Ward, the appeal to contingency may reflect evidence
+of judges developing, to use the terminology of Ulrich Beck,22 a degree of
+reflexive postmodernity — that is, a degree of ambivalence toward scientific
+explanations and some awareness of their limitations. Regardless of whether we
+fully accept Ward's thesis,23 there would appear to be instances where, if nothing
+more, in response to the complexity and intransigent difficulties involved in
+establishing other rationales for causation, sceptical realism would seem to
+become a viable judicial option. The difficulties encountered in attempts to
+articulate causal evidence, capturing some of the nuances and tensions involved,
+can be formidable. Ward quotes Lord Hoffman, from a case involving a disputed
+genetic engineering patent, to capture some of these themes:
+[Specific] findings of fact, even by the most meticulous of judges, are an inherently incomplete statement
+of the impression that was made upon him by the evidence. His expressed findings are always
+surrounded by a penumbra of imprecision as to emphasis, relative weight, minor qualification and
+nuance ... which time and language do not permit exact expression, but which may play an important
+part in the judge's overall evaluation.24
+It may well be that judicial fatigue, a lack of resources, pressures of expedition,
+consistency and reflexivity all influence the construction of legal categories and
+decision-making in relation to questions of medical and scientific causation.
+Responsibility and social policy: differentiation, deflection and
+incorporation
+Regardless of whether they are articulated, judgments in cases involving
+scientific and medical evidence of causation inescapably involve a range of
+institutional, social and policy considerations. Invariably, questions of causation
+become linked to images of duty of care, foreseeability, the costs of compensation,
+public policy concerns, the worthiness of plaintiffs, the reprehensibility of the
+defendant's conduct and the social implications of the particular outcome and its
+explanation. In some contexts this may lead judges to differentiate explicitly
+between the nature of legal, as opposed to the nature of scientific and medical
+causation.25 On other occasions, apparent differences or gaps between legal and
+scientific approaches will be downplayed or ignored.
+In an analysis of judicial endeavours at establishing medical and legal
+causation, where there may have been multiple agents linked to the injury, Helen
+Reece examined the South Australian case of Birkholz.26 In that case the plaintiff
+claimed that he had contracted Brucellosis (an infectious disease) through work
+in the defendant's abattoirs. In the Supreme Court his claim had been rejected on
+the basis that although he may have been infected through his employment, there
+was no way to determine by which, of a number of possible paths, he had been
+infected, or by what method the employer could have removed the risk. On
+appeal, the Supreme Court (in banco) found in favour of the appellant. It was
+held, not only that it was more probable than not that he had contracted the
+disease through handling infected animals, but if the plaintiff had been provided
+with better information and protective clothing he could have avoided infection.
+King CJ suggested that even if the precise method of infection had not been
+ascertained, the court could have found in favour of the appellant. King CJ's
+reasoning provides an example of the rhetorical differentiation between legal and
+medical causation in the light of notions of responsibility and justice:
+Has the failure to take those precautions been shown to have caused or materially contributed to the
+contracting of the disease by the appellant? It might be argued as a matter of strict logic, that the fact
+that the given precautions would substantially diminish the risk, does not prove that failure to take those
+precautions materially contributed to the appellant's infection unless it can be established how that
+infection occurred. But the law's view of causation is less concerned with logical and philosophical
+considerations than with the need to produce a just result to the parties involved.27
+The differentiation of medical and legal causation may also follow from
+burdens of proof entailed by explicit policy frameworks such as strict liability, the
+balance of probabilities (civil), beyond reasonable doubt (criminal) and in the case
+of emerging precautionary principles entailed by environmental risk
+management, where the possible harm may be seen as sufficient to warrant the
+development of a low threshold (but not one which eliminates the need for
+scientific evidence) for establishing causation.
+Jane Holder and Sue Elworthy, provide an example of this type of
+precautionary rationale in their discussion of a decision by the European Court of
+Justice in relation to the proof of causation required to justify a ban on beef
+exports from the United Kingdom in 1996 at the time of the BSE crisis:
+Scientist have as yet only an imperfect knowledge of Creutzfeldt-Jakob disease and more particularly, its
+recently discovered variant. Its fatal consequences were reiterated several times at the hearing. There is
+at present no cure for it. Death ensues several months after diagnosis. Since the most likely explanation
+for this fatal disease is exposure to BSE, there can be no hesitation. Whilst acknowledging the economic
+and social difficulties caused by the Commission's decision in the United Kingdom, the court cannot but
+recognize the paramount importance to be accorded to the protection of health.28
+There are also circumstances where social and policy considerations
+circumvent the effects of scientific and medical evidence of causation. Sometimes
+its relevance is deflected rather than confronted or differentiated by judges. A
+fairly extreme, but nonetheless instructive example can be drawn from the
+reluctance displayed by some courts in the United States to use blood testing to
+determine paternity disputes in divorce cases. Shari Rudavsky traces numerous
+cases from the 1930s to the 1990s where several courts evinced a strong reluctance
+to "bastardise" children.29 Once a child was born within marriage, courts were
+often unwilling to allow the child to be submitted, during subsequent divorce
+proceedings, to blood tests which might reveal that their legal father was not in
+fact their biological father. Rather than challenge the scientific accuracy or
+veracity of blood testing per se there was a tendency to deflect its ultimate
+relevance to the causal issues that courts were adjudicating. Rudavsky quotes the
+judgment of a 1963 appeal in Pennsylvania, to illustrate her point. Judge
+Woodside explained:
+it is cruel for the law to inject such doubts [of paternity] into a child's mind when there are no
+circumstances to support the doubts except an allegation by an irate man who previously had been
+known to the child and the world as its father. It is the taking of the blood and not the result of it, which
+does the harm. ... Pricking the skin to get the blood is an act which plants indelibly upon the mind of a
+child the doubt as to its paternity which it will carry thereafter forever.30
+Rudavsky traces the origins of this presumption to social policies underpinning
+United States divorce law designed to protect children from the social stigma of
+illegitimacy and potential financial hardship flowing from the withdrawal of
+"paternal" child support.
+The impact of social factors in shaping standards of proof for medical
+causation may also be less overt. On some occasions there may be a tendency for
+legal, scientific and medical concerns to be incorporated or fused together. In
+some contexts such as, to use Joseph Sanders' terminology, case congregations,
+where the determinations by courts take on a cumulative character, establishing
+not only legal but scientific precedent, courts may be far more circumspect in
+acknowledging a gap between legal and scientific assessments of causation.31
+This is regular feature of high profile mass tort litigation where tremendous
+human and economic stakes and public interest place considerable pressure on
+judges to make sure "they get it right". The usual judicial resources of insulation
+and deflection tend to be less effective when placed within the scrutiny of
+numerous well resourced and interested constituencies. For instance, while judges
+in the United States Bendectin litigation commented on the policy significance of
+the litigation — including the need for judicial rationing and accepting the
+authority of earlier decisions — there was also a strong impulse to establish an
+authoritative declaration about the state of "Bendectin science". The production of
+an authoritative statement involved procedural innovations such as bifurcating
+proceedings to separate causation from other issues such as liability and damages
+(in the Multi-District Litigation), epistemological "innovations" establishing the
+primacy of epidemiological studies over other types of evidence and the adoption
+of restrictive models of statistical significance and relative risk as criteria for
+determining the admissibility of epidemiological evidence and establishing
+medical causation in legal settings.32
+Returning to the example of the Richardson appeal. Drawing authority from
+earlier decisions in other circuits, the DC Circuit Court of Appeal combined legal
+precedent with an implicit scientific assessment of their preference for causal
+explanations to be consistent with epidemiological evidence:
+The court (Lynch: an earlier appeal) noted the growing body of law recognizing the importance of
+epidemiological evidence in establishing causation in cases in which no direct evidence is available.33
+As a resource to close the Bendectin litigation, these innovations seem to have
+been influenced by policy concerns, but their authority was simultaneously
+dependent upon emphasising and defending a close alignment with a particular
+version of the scientific record.34 The pro-active role of judges in constructing,
+reconstructing and deconstructing scientific and medical approaches to causation
+in specific institutional settings overlaps with our previous discussion.
+The foregoing discussion has developed a variety of heuristic categories
+outlining some of the major epistemological resources and concerns negotiated
+by judges confronted with contests over medical and scientific evidence
+influencing the development of legal causation. Depending on the circumstances
+of the case, the history of similar types of litigation and a range of other
+contingencies, it is possible to imagine greater priority or emphasis being ascribed
+to some of these considerations rather than others. So far we have attempted to
+provide some sense of these resources and constraints in a somewhat
+impressionistic manner, drawing upon examples from a range of legal encounters.
+In the remainder of this chapter we intend to elaborate upon these observations
+in the context of a more detailed case study of one asbestos related appeal.
+Case Study: Seltsam Pty Ltd v McGuiness; James Hardie & Co Pty
+Ltd v McGuiness35
+This case study focuses upon a recent application to the Court of Appeal from the
+Dust Diseases Tribunal (NSW). The (largely) uncontested facts presented at the
+trial and appeal are roughly as follows. The plaintiff, McGuiness, was 62 years of
+age at the time of the trial. Between 1950 and 1991 he had worked in factories
+owned by the defendants (Seltsam and James Hardie) and been exposed to
+asbestos through the manufacture and delivery of fibro-cement sheeting. In the
+early years McGuiness may have been exposed to both crocidolite (blue asbestos)
+and chrysotile (white asbestos), though predominantly chrysotile.36 In 1997
+McGuiness was diagnosed with renal cell carcinoma (RCC) of the left kidney.
+This malignancy was fast growing and at the time of an expedited trial
+McGuiness had only a short time to live.37
+At the trial, the issues of duty, foreseeability as well as the extent of exposure
+were all resolved in favour of the plaintiff.38 The defendants owed a duty of care
+to their former employee and foreseeability was resolved on the basis that risks
+associated with asbestos exposure had been known for decades.39 Judge McGuire,
+the trial judge in the Dust Diseases Tribunal, found that McGuiness' exposure to
+asbestos had been "heavy".40 Because of these determinations, in combination
+with disagreements around the scientific record, argument was focused on the
+issue of causation.41 The legal question to be answered, or proved, was: On the
+balance of probabilities, did exposure to asbestos cause or materially contribute to
+McGuiness' kidney cancer? One factor confounding this assessment was a known
+association between RCC, obesity and smoking among men of the plaintiff's age.
+The plaintiff, McGuiness, had been overweight and a moderate smoker.
+Below, it is our intention to provide several examples from what we contend
+are the interrelated domains of law, science and society to illustrate how they
+were strategically composed to not only rhetorically distance or align legal
+discursive formations from other professional discourses but also enable judges
+confronted ostensibly with the same law and evidence to produce decisions with
+quite distinct legal implications. By focusing on the leading judgment of
+Spigelman CJ and the dissent of Stein JA we hope to provide a tentative
+phenomenology of the judicial production and recognition of causal
+knowledge(s). We accept certain, perhaps intractable, difficulties in proving some
+of our contentions, but think our overall approach offers a plausible and
+contextually sensitive means — consistent with some contemporary theorising
+about the sciences and legal practice42 — of conceptualising judicial approaches to
+the complex and refractory issues raised through the use of scientific and medical
+evidence of causation in civil litigation and judicial decision making.
+Seltsam: Alignment with the law
+Abstract legal formulations of causation tend to allow considerable flexibility in
+application. Recognising that the appellate judges in the Seltsam appeal all agreed
+on the precise, admittedly abstract, legal formulation (developed below) confers
+limited expository benefit because it is through their application, that is their
+interaction with the evidence and a range of social, policy and institutional
+assumptions that the consensual legal standard(s) actually achieves its various
+meanings and their social implications in this particular setting. In this way
+judicial consensus around the relevant legal principle hardly constitutes a defence
+of (legal) positivism or the repudiation of a range of more critical hermeneutic
+approaches to legal practice.43 All of the judges agreed that the appropriate
+formulation was that the plaintiff, McGuiness, was required to prove that on the
+balance of probabilities his exposure to asbestos caused or materially contributed
+to his renal cell carcinoma. The phrase "caused or materially contributed to"
+already possessed a considerable lineage in Anglo-Australian common law.44 In
+addition, the question of whether something had caused or materially contributed
+to an injury was to be decided using "common sense". Again, all of the judges
+agreed on this approach, citing the Australian High Court authority of March v
+Stramare.45 Determinations of causation, even those involving complex scientific
+and medical evidence were to be undertaken with the aid of common sense.
+Recourse to "common sense" affords a degree of insulation to judges: they do not
+have to become amateur scientists.46 Despite agreement on the relevant law at a
+level of generality, in the judgments of Spigelman CJ and Stein JA the application
+of the phrase "caused or materially contributed to" to the evidentiary array would
+prove more heterogeneous.
+In his judgment Spigelman CJ devoted considerable attention to a review of the
+evidentiary requirements for an action in tort. Citing a number of earlier cases,
+and pre-figuring his own decision, he explained that evidence of a mere
+possibility had never been sufficient to sustain the causal component of a tort
+claim.47 Notwithstanding this commitment, both Spigelman CJ and Stein JA
+accepted that judges were empowered to translate a scientific (or evidentiary)
+possibility into a legal probability. It was within the discretion of the judge to
+conclude that "the possible was the actual cause".48
+But if medical science is prepared to say that it is a possible view, then, in my opinion, the judge after
+examining the lay evidence may decide that it is probable. It is only when medical science denies that
+there is any such connection that the judge is not entitled in such a case to act on his own intuitive
+reasoning.49
+And,
+There are cases in which medical science cannot identify the biological or pathological mechanisms by
+which disease develops. In some cases medical science cannot determine the existence of a causal
+relationship. Such a state of affairs is not necessarily determinative of the existence or non-existence of a
+causal relationship for purposes of attributing legal responsibility.50
+The concept of a legal probability would not be automatically equated with a
+scientific or philosophical probability. Both Spigelman CJ and Stein JA endorsed
+the position outlined in the previous extracts, accepting that judges were not
+generally constrained by the opinions of medical science.
+For Spigelman CJ, epidemiological studies, in conjunction with other evidence
+of causation were to be treated as circumstantial evidence that could
+cumulatively, if not individually, meet the necessary legal burden of proof even if
+they were understood only to suggest the possibility of an association among
+medical or scientific experts. Implicitly, judges were competent to translate
+evidence of individual or combined possibilities into legal probabilities. Finding
+that the expert evidence did not disprove the plaintiff's contention, Spigelman CJ
+was nonetheless unwilling to translate what he described as a medical possibility
+into a legal probability and thereby apportion liability and damages.
+Basically, Stein JA adopted the same legal approach as Spigelman CJ, but
+concluded that the evidence before the Dust Diseases Tribunal and the Court of
+Appeal was sufficient to warrant a finding that "on the balance of probabilities,
+exposure to asbestos can cause or materially contribute to the contraction of
+RCC".51
+Additionally, both Stein JA and Spigelman CJ referred to a principle espoused
+in the earlier High Court appeal of Chappel v Hart52 where McHugh J had
+explained that "If a wrongful act or omission results in an increased risk of injury
+to the plaintiff and that risk eventuates, the defendant's conduct has materially
+contributed to that injury occurring."53 For Stein JA, the plaintiff's evidence was
+sufficient to warrant finding that an increased risk of injury — that injury (RCC)
+having materialised — had, for legal purposes, caused the plaintiff's injury.
+In responding to the respondent's (plaintiff) assertion that some evidence of a
+relationship between a cause and a realised risk was enough to base a legal
+finding of causation, Spigelman CJ explained that the likelihood of the increased
+risk had to be proved to the level of on the balance of probabilities or higher:
+The starting point of McHugh J's analysis was that it had been established on the balance of probabilities
+that the conduct did create or increase the risk of injury, "and that risk had eventuated".
+This starting point is the very matter in issue in the present case. Was there evidence on the basis of
+which the trial judge could conclude, on the balance of probabilities, that there was an increased risk of
+injury and that that risk had "eventuated" in the specific disease of the Respondent?
+If there was such evidence then ... the tribunal of fact was "entitled" to find that the conduct which
+increased risk, materially contributed to the injury — entitled, but not, of course, required to so find.54
+That position was explicitly endorsed in the judgment of Stein JA.55
+The mere possibility of an increased risk was insufficient to support an action
+in tort unless judicially transformed to the status of a legal probability. According
+to Spigelman CJ, finding the relationship between asbestos exposure and RCC to
+constitute only a legal possibility functioned to distinguish the case of Seltsam
+from the circumstances of the earlier cases of Chappel v Hart, Naxakis v Western
+General Hospital56 and McGhee v National Coal Board.57 In those cases there had
+not been expert disagreement about whether the increased risk actually caused or
+materially contributed to the injury on the balance of probabilities.58 Similar
+issues had also been addressed in considerable detail in the jurisdiction through
+the earlier appeal from the mesothelioma (another asbestos related illness) case of
+Bendix.59
+In finally disposing of the matter Spigelman CJ drew upon extrinsic legal
+commitments to resolve what he acknowledged was a difficulty:
+There is a tension between the suggestion that any increased risk is sufficient to constitute a "material
+contribution", and the clear line of authority that a mere possibility is not sufficient to establish causation
+for legal purposes. The latter is too well established to be qualified by the former.60
+Another way in which the articulation of legal standards influenced the
+reception, expression and interpretation of the evidence was through the strategic
+framing of expert testimony. Once again "gaps" between scientific and legal
+images of causation are purposively managed. Some conspicuous examples of
+evidence shaped for use in a legal setting sensitive to articulated legal standards
+and burdens of proof are recorded among the Seltsam judgments. The hybridised
+nature of law-science knowledges — involving processes of extraction,
+simplification, emphasis, modification and translation — seems to be exemplified
+in the following ostensibly scientific opinions. Although polemical ascriptions are
+always available, there seem to be few reasons to characterise the strategic
+framing as evidence of "junk science", charlatanism or some debased or unreliable
+form of scientific evidence designed exclusively for the exigencies of litigation.61
+First, experts appearing for the plaintiff testified in the following terms:
+McCredie: "On the balance of probabilities, obesity and exposure to
+asbestos materially contributed to the causation of renal cell carcinoma in
+this case."62 (emphasis added)
+Burns: "In my opinion on the balance of probabilities, his asbestos
+exposure while working with Wunderlich & Hardies in the period 1950 to
+1984 contributed to the development of his renal carcinoma."63 (emphasis
+added)
+Nankivell: "On the balance of probabilities this past exposure to asbestos
+could have made a material contribution to the development of his renal
+cell carcinoma."64 (emphasis added)
+Without exception, all of these examples present evidence in the contextually
+sensitive terms of legal causation and the burden of proof. Only Nankivell's
+qualified "could" is independently incapable of fulfilling the required legal
+standard, although it was susceptible to redemption through judicial conversion
+— particularly if combined with other evidence.
+Expert witnesses
+For the defendants
+For the plaintiff
+Dr Burns – thoracic surgeon
+Professor Berry – epidemiologist
+Dr McCredie – epidemiologist
+Professor Henderson – pathologist
+Dr Lee – thoracic surgeon
+Dr Nankivell – nephrologist
+Professor McLaughlin – epidemiologist
+Dr Katelaris – urologist
+Whereas the plaintiff's experts framed their opinions in legally sensitive
+terminology, the defence experts called to challenge the association between
+asbestos exposure and RCC tended to utilise an ostensibly non-legal register, or at
+least this was how their testimony is selected and represented in Spigelman CJ's
+judgment. These expert opinions pertaining to causation provide few indications
+of translation into legally relevant terminology. The defence held an interest in
+encouraging the trial and appellate judges to align legal causation with their
+version of scientific causation, that is, to make legal and scientific images of
+causation isomorphic thereby naturalising the defendant's position. (This is not
+intended to substitute the defence representation for a putatively proper approach
+to the evidence.) In this way, the following scientific opinions provide support for
+the defendant's case without requiring the judge to explain and legitimate any
+apparent differences between the legal decision and scientific authority:
+McLaughlin: "The epidemiological evidence for an association between
+asbestos and an increased risk of renal cell cancer is scanty and
+problematic."65 (emphasis added)
+Lee: "... concluded that the epidemiological evidence was limited and of
+insufficient strength to permit a conclusion that a causal relationship
+existed."66 (emphasis added)
+Katelaris: "... asserted that the link between asbestos exposure and renal
+cell carcinoma had not been proved."67 (emphasis added)
+We should not forget that Spigelman CJ had endorsed earlier decisions
+empowering judges to locate legal, causation on the basis of a limited record,
+with scant and problematic evidence and even in the absence of scientific proof.
+Notwithstanding the strategic benefit of ostensibly scientific — that is, non-legal
+— posturing, the defence experts were also capable of translating their evidence
+into highly contingent, legally inspired terminology:
+Henderson: "It is certainly my view that this does not equate to a
+probability of causation or material contribution by asbestos at the level
+of 50% or greater (in other words the relationship at this time is no more
+than speculative or possible and it does not achieve probability status)."68
+(emphasis added)
+Having accepted, like Spigelman CI, that judges could epistemoiogically
+transform scientific and medical possibilities to render them capable of satisfying
+the legal burden of causation, Stein JA sought to distinguish and contain some of
+the scientific statements in order to control their legal implications. This was the
+converse to Spigelman CJ's presentation of a range of scientific opinions as if they
+were self-evidently appropriate, without any modifications, to resolve the legal
+determination. Assessing whether the term "confidently concluded" appended to
+the end of an epidemiological study had direct legal bearing, Stein JA indicated
+that: "Professor Berry also said that when the Mandel authors mentioned
+'confidently concluded', they would not have had the balance of probabilities in
+mind."69 (emphasis added).
+Confident conclusions are the language of science. Professors McLaughlin and Berry agreed, the former
+assuming that the words connoted a higher standard than the balance of probabilities.70
+In the legal forum, Stein JA was not bound to accept the scientific language
+and apparent implications of a scientific study. Significantly though, he felt
+compelled to explain modifications and qualifications.
+Seltsam: Evaluating scientific and medical knowledge
+Before proceeding to consider the treatment of the evidence, just one caveat. We
+do not intend to suggest that the approaches adopted by either Spigelman CJ or
+Stein JA were (im)plausible, (un)persuasive, right or wrong. Indeed, without
+dismissing one approach as simply mistaken, the concurrent plausibility of two
+quite different judgments may be their most interesting and analytically
+demanding feature.71
+The party-oriented presentation of evidence in adversary legal systems exposes
+trial and appellate judges to two (or more) purposive evidentiary arrangements
+organised according to perceptions of legal standards, tacit and experiential skills
+and to some extent the anticipation of rulings and areas of perceived strength,
+weakness and conflict.72 Interestingly, it seems that the contest surrounding the
+issue of causation in relation to the epidemiological record was perceived as an
+area of strength by both defendants and plaintiffs.
+Testimony from the trial and the appellate judgments in Seltsam suggests
+continuous struggles and negotiations around the level of scientific support for a
+causal association between asbestos exposure and RCC and its assessment in
+terms of legal causation. But the contest over the sufficiency of the scientific
+evidence was not restricted, as in the discussion in previous section, to the legally
+sensitive conclusions of scientists and their representation in judgments. All of
+the appellate judges provided a review of the expert evidence against
+formulations of the legal backdrop. Having examined the basic agreement
+between Spigelman CJ and Stein JA over the appropriate law, it is also of interest
+to examine their assessments of the evidence, its relative strengths and
+weaknesses and its legal significance. It is not our intention to suggest that the
+legal standards, imprecise or flexible as they may have been, necessarily pre-exist
+and determine the judicial interpretation of the evidence. Rather, it is our
+contention that the interpretation of the evidence, like the identification and
+interpretation of the relevant legal principles, allows (or introduces) degrees of
+indeterminacy and interpretative flexibility. Without contending that the legal
+standards are meaningless, the following account might be used to support our
+contention that what counts as "the law" and "the evidence" are to varying
+degrees mutually constituting in legal settings. Their representation affords
+freedom and constraints.73 The framing and description of what might be
+represented as "the law" and "the evidence" are closely related and purposively
+combined to support particular outcomes. In contrast to the judicial implication,
+we would contend that the outcome of the Seltsam litigation can be interpreted to
+suggest that the law and the evidence are rarely as constraining as the judges
+would seem to indicate. Differences in the assessments provided by Stein JA and
+Spigelman CJ would seem to suggest that the actual verdict was not the only
+plausible outcome.
+Finding in favour of the defendants on the basis that the plaintiff's evidence of
+a cause or material contribution did not rise above a possibility — scientifically or
+legally — Spigelman CJ explained the decisions on the basis of what was
+described as a comprehensive examination of the scientific evidence. Like Davies
+AJA, the other judge forming the majority, Spigelman CJ obliquely criticised the
+trial judge for failing to undertake a more detailed examination of the evidence,
+especially the defendants' criticism of the plaintiff's epidemiological evidence.
+Spigelman CJ's discussion of the evidence is structured around and supplemented
+— but not determined — by the legal standards articulated in his judgment.
+Despite a number of references to a range of non-scientific, social and policy
+considerations influencing legal approaches to causation, Spigelman CJ's analysis
+of "the evidence" and its application to "the law" appear as if they actually
+determine his decision-making. If there were policy reasons shaping his view of
+causation they were not made explicit, other than an obscure reference to the
+trial being conceived as some kind of test case.
+Very briefly, Spigelman CJ found (or represented) the defendants' evidence (as)
+convincing and the plaintiff's evidence only capable of supporting the possibility
+of an association between asbestos exposure and RCC. Despite emphasising the
+need to examine the evidence in its entirety, most of Spigelman CJ's analysis was
+directed toward the epidemiological evidence. Even though he placed stress on
+the need to assess the "strength and quality" of the epidemiological studies,
+Spigelman CJ nevertheless emphasised the number of studies reporting no
+significant association between asbestos exposure and RCC.74 Spigelman CJ
+privileged the cohort studies and dismissed much of the plaintiff's evidence for an
+association by drawing upon the Bradford-Hill postulates to suggest that
+McGuiness' epidemiological evidence lacked consistency with other studies and
+did not demonstrate a dose-response relationship.75 While Spigelman CJ did not,
+as some United States courts had, require studies demonstrating a relative risk
+(RR) of 2.0 or higher, he expressed a preference for studies approximating that
+standard.76 That preference offered the judiciary the following advantages. It
+could simplify legal determinations — to some extent judges could defer to the
+epidemiological record — and might encourage out-of-court settlements.
+According to Spigelman CJ, the plaintiff could offer few studies suggesting
+more than a moderate association between RCC and asbestos exposure. In
+addition, the claim was compromised by a range of confounding factors such as
+the plaintiff's obesity and history of smoking. Evidence of a biopsy of the
+plaintiff's kidney had revealed no asbestos fibres even though a biological
+mechanism — accepted as plausible by most of the experts — had been proffered.
+Animal studies were accorded little weight and two epidemiological studies
+indicating strong associations between asbestos exposure and RCC were
+inoculated through reference to those results as merely curious. Ultimately,
+Spigelman CJ relied upon what he characterised as the great majority of
+epidemiological studies demonstrating no convincing association — that is
+beyond the level of a legal or scientific possibility.
+In contrast, Stein JA found that the same evidence was capable of supporting
+the legal requirement that on the balance of probabilities the plaintiff's exposure
+to asbestos had caused or materially contributed to his illness. Even though
+Spigelman CJ had acknowledged the need to assess the strength and quality of
+the epidemiological record,77 in actuality he made few endeavours to do so,
+preferring a weight of numbers approach. That assessment, however, is a feature
+of Stein JA's judgment.78 Stein JA did not simply divide the epidemiological
+evidence between cohort and case control studies and then apportion weight on
+the basis of the larger number of cohort studies demonstrating no association.79
+Instead, he distinguished between the studies and, like McGuire below,80
+accorded considerable weight to one particular epidemiological study, the Mandel
+Study, undertaken by two of the experts (McLaughlin and McCredie) retained by
+the parties and engaged in the proceedings.
+The Mandel study was a large international case-control study. It was the most
+recent epidemiological attempt to assess the relationship between asbestos and
+RCC. The Mandel Report concluded:
+Several investigators have found increased risks of kidney cancer associated with exposure to asbestos. ...
+Case-control studies not showing an association with asbestos exposure had small numbers of exposed
+workers. ... Our study, with 200 exposed cases provides additional evidence that asbestos increases the
+risk of kidney cancer. Nevertheless, further research of asbestos-exposed workers is needed to
+demonstrate a relationship with either duration of employment or amount of exposure before a causal
+association can be confidently concluded.81 (emphasis added)
+Like Stein JA's judgment, the Mandel Report distinguished among
+epidemiological studies and different types of evidence, drawing attention to the
+small size and limited participant exposure of some epidemiological studies
+(including some of those performed by McLaughlin) that had reported no
+association between asbestos exposure and RCC. Stein JA stressed that the
+Mandel Report concluded that "an association with asbestos was confirmed." The
+Mandel Report found a RR of 1.4 over six population groups in 5 countries.
+Moderate associations, those involving RR in the order of 1.4-1.7 were, in
+conjunction with the other evidence, for Stein JA, adequate to fulfil the "material
+contribution" component of legal causation.
+For Stein JA, the importance of the Mandel study was closely associated with
+the participation of the epidemiologists McLaughlin and McCredie.82 Indeed,
+their involvement led Stein JA to produce a number of strategic contrasts.
+Recalling that McLaughlin had been critical of case-control studies, Stein JA
+found it curious that he had been involved in the Mandel study, acting as one of
+its principals.
+The Professor was highly critical of case-control studies. Given this position, one might ask why he
+associated himself, as one of the authors, with a multi-national case-control study in six centres spread
+among five countries. Indeed, as I have mentioned, he agreed that he was the coordinator of the Mandel
+study and set the parameters and methodology for it. It is apparent that he was among the principal
+authors, if not the principal author.83
+In the judgment of Stein JA, McLaughlin's in-court testimony is characterised
+as strangely inconsistent with his published scientific opinions: "as different as
+chalk and cheese".84 Elsewhere, Stein JA, criticised McLaughlin for improprieties
+in his approach to peer review in medical publications.85 Throughout the trial, the
+dominant expert contest had been fought around the meaning of the
+epidemiological record. The judgment of Stein J A provides some sense of the
+importance of, and relationship between, the representation of scientists, judicial
+images of scientific propriety and the status accorded to particular testimony.
+McLaughlin's evidence, unlike the testimony of McCredie, was apparently shaped
+for the exigencies of litigation. This stigmatised and purportedly inferior
+knowledge is sometimes referred to by the more pejorative label "science for
+litigation".86 Having identified these "aberrations", the evidence of McLaughlin
+was rendered highly questionable or unreliable, indeed sufficiently questionable
+for Stein JA to dismiss it as unconvincing.
+Like Spigelman CJ, Stein JA also drew upon the Bradford Hill postulates to
+explain his decision. Unlike Spigelman CJ, however, Stein JA thought there was
+sufficient consistency among the plaintiff's epidemiological evidence and
+particularly across the population centres covered in the Mandel study.87 Stein JA
+accepted McCredie's opinion that a dose-response relationship was a desirable
+but non-essential feature of epidemiological analysis.88 In addition, Stein JA
+suggested that the non-epidemiologieal evidence assisted the plaintiff's claim.
+The availability of a plausible biological mechanism supported by animal studies
+and tests on the urine of workers, cancer produced through injecting asbestos
+into the kidneys of rats, and an appropriate latency period all provided what
+Stein JA characterised as common sense support for the attribution of a causal
+relationship between asbestos exposure and RCC.89 He also referred to judicial
+authority, the decision in Baldwin, to account for complications in
+epidemiological evidence when associated with multiple causal factors, such as
+smoking and obesity.90 But Stein JA went even further, questioning the reliance
+placed, particularly by the defendants, on epidemiological evidence.91 Overall,
+Stein JA agreed with the position adopted by the trial judge, namely that the
+evidence supported the contention that asbestos had caused or materially
+contributed to the plaintiff's illness.
+Significantly, none of these previous representations determines the
+appropriate manner in which to interpret the scientific evidence, or how to apply
+it to the relevant law, even if we were able to agree that either category was
+stable or could constrain its application or use. Instead, they provide some
+indication of the epistemic indeterminacy associated with the evidence and the
+law and their putatively principled interaction in the realm of legal causation.
+Two further evidential matters also provide some additional insight into the
+special epistemic circumstances attending the use of expert opinion evidence in
+litigation. First, among their grounds of appeal, Seltsam argued that some of the
+evidence provided by McCredie and Burns was inadmissible because they had
+each strayed into domains where they were ineligible to testify because they
+possessed no "specialised knowledge" under s79 of the Evidence Act 1995
+(NSW).92 McCredie had apparently testified, without medical training, about the
+plaintiff's specific injuries and Bums, a medical practitioner, had expressed
+opinions about epidemiological studies. The Court of Appeal rejected this attempt
+at interscientific boundary working on the grounds that no objection had been
+taken at trial, the breaches were not serious and the defence epidemiologists had
+made similar incursions.93 Boundaries developed because of the particular shape
+of litigation, the available evidence, tactical decisions made during the trial and
+the interpretation and application of rules can substantially influence the shape
+and availability of what constitutes evidence in legal settings.94
+The second issue also concerns approaches to litigation which again illustrate
+some of the inter-relatedness of a number of domains. The other grounds of
+appeal provide some additional indication of the extent to which evidence, law
+and procedure are inter-related and actively contested and how well resourced
+defendants and plaintiffs are relatively free to contest their dispute across all sorts
+of legal-(and)-epistemic domains. On appeal, counsel for James Hardie made a
+brief submission against the trial judge's initial finding of foreseeability.95 More
+fundamentally, other grounds of appeal included questions about the jurisdiction
+of the Dust Diseases Tribunal. Seltsam had also referred to the award of damages
+and procedural fairness as grounds of appeal. Even the diagnosis of the plaintiff's
+illness was contested.96 These ongoing areas of contestation, not all of which
+were pursued, were capable of influencing not just the admissible evidence, and
+how it might be understood as relevant during the trial as well as its judicial
+assessment and the viability of the case but even the appropriate forum for their
+consideration.97
+Seltsam: The specific contingencies of the case
+So far most of the discussion of the evidence and the law — hopefully the
+categories will by now appear closely interdependent if not to some extent
+mutually constituting — has concentrated on fairly abstract or general legal and
+evidentiary issues. Despite the judicial framing, this overview of the law and the
+evidence does not appear to be undertaken independently from process(es) of
+decision-making and rationalisation. That which is characterised as evidence of
+the specific, and the application of the law, appear consistent with the articulated
+categories and standards purportedly used to decide the case. However, as we
+have argued, these very categories are to varying degrees shaped by both the
+development of the law and the specific evidential topographies presented during
+the trial and appeal. The ultimate decisions at the trial and appeal depend on the
+selective framing of the meaning of the evidence and its application to
+strategically articulated legal standards. Now we turn to consider some of the
+more case-specific factors — those relating specifically to the plaintiff —
+underlying the judicial rationalisations.
+In the Seltsam appeal most of the discussion of the scientific and medical
+evidence and the application of the law focused on the general causal issues. To
+some extent that was a result of the emphasis placed on the epidemiological
+record by plaintiffs, defendants and judges. Distinguishing between specific and
+general causation, Spigelman CJ referred to McCredie's testimony in support for
+the proposition that epidemiologists were ineligible to testify about particular
+cases:
+Q I think you said earlier, doctor, that your speciality in epidemiology is one looking at statistics and
+populations and diseases and that your discipline does not permit you to make a particular diagnosis
+for a particular patient.
+A That's exactly right.98
+Reliance on epidemiological evidence had the potential to cause difficulties
+when attention focused on the specific circumstances of the plaintiff's case.
+Significantly, both Spigelman CJ and Stein JA acknowledged these potential
+limitations although each represented their implications quite differently.
+Although Spigelman CJ made no allowance for extrapolations from general
+causation to the particulars of the plaintiff's circumstances, preferring to rely on
+the strength of the general epidemiological record to determine the case, he did
+cite an extract from the United States Federal Judicial Centre's Reference Manual
+outlining potential limitations to the application of epidemiological evidence to
+individuals:
+The discussion above assumes that the only evidence bearing on cause in fact is epidemiological. Such an
+assumption is unlikely, and a variety of additional pieces of evidence, although less quantifiable, affect a
+fact finder's assessment. Biases in the epidemiological studies might justify a conclusion that the real
+magnitude of increase risk is greater or lower than that revealed in the study. The dose to which the
+plaintiff was exposed might be greater or lesser than those in the epidemiological study, thereby
+requiring some extrapolation. In addition, there might be factors peculiar to the plaintiff — excess
+exposure to another known cause, pathological mechanism, family history of disease, or conflict in
+diagnoses — that modify any probability based solely on the available epidemiological evidence.99
+These were some of the very factors introduced by Stein J A to distinguish
+among the epidemiological studies and infuse some with greater evidential and
+legal significance. In addition, Stein JA cited the case of Baldwin for authority
+(judicial bootstrapping) about the relevance of epidemiological studies to
+individual cases and the confounding effects of multiple causes on the value of
+epidemiological evidence.
+Spigelman CJ made little effort to apply what he portrayed as a convincing
+epidemiological record to the plaintiff's circumstances. In the absence of general
+causal evidence, the plaintiff's cause was doomed. Accepting the defendants'
+representation of the epidemiological evidence as convincing, Spigelman CJ
+merely supplemented his assessment with a few case-specific non-
+epidemiological factors, operationalised to reinforce the thrust of his
+interpretation of the epidemiological evidence and mediate his conversion of
+general causation into a finding specific and definitive in relation to the plaintiff's
+action. The failure to find asbestos fibres during a fine needle biopsy of the
+plaintiff's kidney and the possibility that RCC was caused by obesity, smoking or
+some unknown aetiology all weakened the plaintiff's case.
+In contrast, Stein JA suggested that the epidemiological evidence was open to
+alternative readings strengthened by the plaintiff's lengthy and heavy exposure
+to white, but also some blue, asbestos.100 Heavy exposure, an appropriate latency
+period, the apparent biological plausibility and animal studies were all combined
+to strengthen the epidemiological evidence supporting an association between
+asbestos exposure and the plaintiff's RCC.101 Further, Stein JA differentiated
+among some of the epidemiological studies, discounting those suggesting no
+association where the participants had not, like the plaintiff, experienced
+extensive or heavy exposure to asbestos.102 For Stein JA the negative result of the
+fine needle biopsy, like the lack of a dose-response relationship, was not
+interpreted as determinative.
+Seltsam: Responsibility and social policy
+Over the last few decades, judicial expressions of legal causation have regularly
+included debates around the extent to which judges should make social, moral
+and policy assumptions explicit. This was one of the features of the judgments in
+the leading Australian case of March v Stramare where a common sense approach
+to legal causation and putative commitment to judicial transparency were
+endorsed by a majority of the High Court. Acknowledging their sensitivity to a
+range of social and policy expedients, judges have repeatedly explained that their
+causal deliberations are not directly comparable with those undertaken in the
+supposedly epistemologically more pristine realms of science and philosophy.
+Such pronouncements tend to achieve a degree of judicial consensus and the
+tendency is exemplified in the Seltsam judgments. There, commenting on legal
+images of causation, Spigelman CJ explained:
+When assessing expert evidence on causation, the legal concept of causation requires the court to
+approach the matter in a distinctively different manner from that which may be appropriate in either
+philosophy or science, including the science of epidemiology.103
+Judges frequently explain differences between law and purportedly more pure
+epistemic domains (such as philosophy and the sciences) in terms of the legal
+system having a range of constituencies beyond "truth". The legal system is not
+concerned exclusively with, nor is it possessed with the opportunity or resources
+to reflect upon, refractory epistemological matters. In addition to "truth", the legal
+system is sensitive to a range of other, often conflicting, considerations such as
+the pragmatic and expeditious resolution of disputes, policy implications, effects
+of liability, fairness, public acceptance of verdicts and limited resources. These
+types of sentiments were expressed where Spigelman CJ explained that unlike
+philosophy or science: "In law, on the other hand, problems of causation arise in
+the context of ascertaining or apportioning legal responsibility for a given
+occurrence."104
+So, the legal assessment and attribution of causation should not be understood
+as identical with conclusions derived for or within other contexts. This point has
+been developed in our discussion of the Seltsam appeal, where appellate judges
+explained that they were not constrained by medical opinions — even consensual
+medical opinions.105 Judges are empowered, if such a decision is considered
+legally appropriate, to apportion (legal) causation where a physician or scientists
+might be tentative or reluctant.106 Significantly, however, all of the judges in the
+Seltsam appeal explained their decisions on the basis of particular readings of the
+scientific evidence and the application of legal standards. In making and
+explaining such attributions, judges are not entirely insulated or sheltered from
+exogenous criticism from scientific fields and beyond.
+Accepting that judicial representations of causation are not always consistent
+with scientific and medical approaches introduces a degree of vulnerability into
+legal decision making and rationalisations. This can require the judiciary to
+balance and defend a number of disparate legitimatory resources, such as the
+ability to recover damages, the valuing of scientific evidence, discouraging some
+types of social practices and determining the meaning of legal standards such as
+the burden of proof in relation to "uncertainty". Where judges appear to disagree
+with consensual scientific opinion, they are exposed to risk of criticism not only
+from scientists but also those concerned with specific outcomes and their
+implications.107 Of course, accepting that judges are not entirely constrained by
+scientific and medical consensus or even expert majorities does not mean that
+they will or could readily reject such expert knowledges. Judges must skilfully
+manage the appropriation and/or rejection of expert knowledges pertaining to
+causation in ways which maintain institutional integrity and legitimacy.108 Even
+though Spigelman CJ and Stein JA disagreed about the strength of the expert
+evidence and its legal significance they both endeavoured to produce a
+comprehensive assessment of that evidence to explain their respective positions.
+These judicial perspectives offer some indication of the status of scientific
+knowledge and its value as a legitimatory resource. Further, each produced a
+discursive formulation where the legal standards and the evidence are
+purposefully dove-tailed to support their preferred outcome. The legal standards
+were sufficiently flexible to support both readings as well as the decision of
+Davies AJA. Even though the decisions of Spigelman CJ and Stein JA are
+fundamentally incompatible, both are represented as the necessary combination
+of the law and the evidence rather than the rationalised preferences of judges
+confronted with degrees of legal and evidentiary indeterminacy or policy
+expedients.
+Only rarely do judges reject the expert evidence in its entirety. More
+commonly, in adversarial settings, the evidence of one side is preferred.
+Sometimes that preference is signified by the application of an evidentiary
+threshold such as sufficiency or a burden of proof. Alternatively, the preferred
+expert evidence — the evidence purportedly underpinning the decision — is
+presented using different rhetorical tropes (usually empiricist framing) to the
+presentation of the evidence associated with the dispreferred side (usually
+contingent framing or a genre of uncertainty).109 Invariably, such decisions
+require the strategic (re-)configuration of complex social, procedural and
+epistemic considerations.
+In concluding the case study, it may be significant that Spigelman CJ indicated
+that the Seltsam appeal should be regarded as some kind of test case.110 The
+Seltsam case may also be understood as legal authority for the recognition and
+use of epidemiological evidence in negligence cases in NSW (and beyond).
+Importantly, Spigelman CJ distinguished and rejected some of the more
+restrictive United States approaches to the admission and use of epidemiological
+evidence. In practice the differences between the United States and New South
+Wales approaches might be more illusory than real. Notwithstanding that judges
+in Seltsam (Spigelman CJ and Stein JA) and earlier cases had recognised
+difficulties associated with the use of epidemiological evidence — particularly in
+relation to specific causation and adjusting the evidence to the circumstances of
+particular plaintiffs, the role of multiple causes, inconclusive records, the
+combination of epidemiological evidence with non-epidemiological evidence and
+hierarchising epidemiological postulates — epidemiology was conceived by the
+defendants, plaintiffs and judges to be the primary site of the evidential
+contest.111 In that way legal expectations pertaining to proof, here in relation to
+causation, might be understood to have exerted a fundamentally epistemological
+influence. Reliance upon, or more accurately the privileging of, epidemiological
+evidence has been a conspicuous feature of toxic tort litigation in Australia but
+has been even more prominent in the United States.112
+The Seltsam trial and appellate judgments might be conceived as a special case
+addressing difficulties associated with evaluating causation evidence in so-called
+toxic tort litigation. Earlier, in the same jurisdiction, in another case concerned
+with asbestos related illness (mesothelioma) and a range of epidemiological and
+non-epidemiological evidence, two appellate judges encouraged parliament to
+intervene in the resolution of cases involving extensive submissions of complex
+scientific and medical evidence.
+This case presents what appears to be the next evolutionary stage in a legal battle between employees
+and employers in mesothelioma cases. The Tribunal and this Court were confronted, not so much
+between experts of like disciplines but with experts in different disciplines ... There must also be
+considerable doubt as to whether the Tribunal should be the arbiter of the medical and scientific
+controversies which are fought out in these cases. However, as long as such cases must be brought within
+the normative rules of negligence, the Court is required to make findings as to causation on the uncertain
+and conflicting medical and scientific evidence which is presented. It is a matter for the Legislature as to
+whether this should remain the case.113
+These comments provide some sense of a range of extra-legal considerations
+where cases are strategically fought and defended over time responding to earlier
+victories and defeats.114 Beazley JA's request may signify both the difficulties
+involved in deciding and rationalising (closing) such disputes as well as judicial
+concern at the institutional vulnerability associated with such decision making,
+notwithstanding degrees of legal and evidential indeterminacy and the existence
+of a range of devices designed to insulate judicial fact-finding and deflect
+external criticism.
+Seltsam: Overview
+Notwithstanding the respondent's argument about the realised increased risk
+from Chappel v Hart or the trial judge's findings in the court below, Spigelman CJ
+and Stein JA basically agreed on the legal formulation appropriate to deciding the
+case. Both accepted that the possibility of a causal relationship was insufficient,
+by itself, to found an action in negligence. They also agreed that, in the absence
+of scientific evidence, or, where scientific and medical evidence only suggested
+the possibility of a causal relationship, the evidence might still support a finding
+of legal causation. They also accepted that the only circumstance preventing
+judges from transforming a scientific possibility into a legal probability was when
+the relationship had been effectively dismissed by (all) credible scientists or
+physicians. Spigelman CJ and Stein JA also agreed, in principle, that all of these
+assessments should be made according to common sense. However, as we have
+seen, Spigelman CJ and Stein JA did not agree about whether the scientific and
+medical evidence constituted a legal probability that asbestos exposure caused or
+materially contributed to the plaintiff's cancer. Spigelman CJ effectively decided
+the issue on the basis of general causation. In contrast, Stein JA indicated that the
+evidence was sufficient to support a finding of legal causation. We are not told,
+however, whether that threshold was achieved on the basis of the strength of the
+scientific and medical evidence or whether Stein JA elevated a scientific
+possibility and made it the basis for a finding of a legally significant causal
+relationship. Drawing attention to the process of judicial elevation — interpreting
+the scientific record to demonstrate a probable relationship between asbestos
+exposure and RCC — might have weakened the persuasiveness of Stein JA's
+judgment notwithstanding the legal commitment to a common sense approach.
+In contrast, Spigelman CJ explicitly aligned his judgment with what was
+characterised as the current scientific orthodoxy. Any association between
+asbestos exposure and RCC never rose above a scientific or legal possibility.
+A supplementary issue relates to the use of uncertainty and the burden of
+proof. We can imagine commentators criticising the foregoing discussion on the
+basis that knowledge about the cause of RCC, both specific and general, is limited
+and so the legal system is beset or constrained by scientific and medical
+uncertainties. Our response would be that the use of uncertainty, like the more
+fashionable concept transscience,115 does little to assist our understanding of the
+judicial uses of scientific evidence or to assist judges confronted with complex
+causal questions.116 Judges, legal traditions, procedures and rules, case
+preparation and strategic configurations of evidence interact to influence what
+can be represented as (un)certain. In the absence of a range of possible
+legaltechnical impediments — such as statutes of limitation or admissibility
+standards — that may determine the outcome of a case, judges ultimately have to
+decide whether an evidential record is sufficiently certain or uncertain (or trans-
+scientific) to meet a legal threshold of proof, however indeterminate. Recognising
+disagreement, questions of judgment, experience and interpretation in an area of
+uncertainty did not prevent Stein JA finding a causal relationship between
+asbestos exposure and the plaintiff's cancer on the balance of probability.117 The
+use of certainty, like appeals to the weight (or consistency) of the scientific
+evidence and the possibility of judicial translation of scientific possibilities into
+legal probabilities, reveals little about how law, evidence and a range of social
+and policy concerns are combined to produce specific outcomes, or how these
+outcomes are connected to broader social concerns and legal developments.
+Conclusion: Minding the Gap(s)
+Most directly, our assessment of the relationship between causation among the
+sciences and causation in legal settings would seem to caution against simplistic
+or textbook-style definitions, comparisons and recriminations. In the foregoing
+discussion we have emphasised an alternative approach, where judges, in a sense,
+strategically construct images of scientific and legal causation drawing from a
+variety of epistemic domains, policy considerations and practical contingencies.
+We also identified how the apportioning of responsibility, social and policy
+implications, and the specific details of the case were important to understanding
+the legal constructions produced in legal settings and judgments. These
+perspectives, and the call for a less philosophically orientated approach to
+exploring the complex and variable relations between scientific, medical and legal
+causation, were illustrated through the provision of a tentative framework and a
+case study.
+Acknowledging that policy has not been the main focus of this chapter, our
+analysis does suggest some abstract yet rather interesting possibilities. First,
+following our outline of the multi-dimensional and epistemologically
+promiscuous nature of causal determinations, it could be suggested that attempts
+at regulation or reform of the ways in which issues of scientific and medical
+causation are addressed in courts would be advised to avoid reductionist or uni-
+dimensional approaches. Attempting to highlight or isolate any one hypothesised
+variable — such as expert witnesses, the scientific illiteracy of the judiciary and
+jury or limitations inherent to the adversarial system — as a recalcitrant source of
+law-science (here causal) difficulties, concedes too much ground to the ideal
+categories used to frame judicial decisions and their rationalisations without
+actually explaining how such decisions may have been produced.
+Efforts at initiating change should probably be more systemic, working beyond
+the representations made by judges and expert witnesses, and actually influence
+their ability to manipulate the legal and scientific resources available, as well as
+influencing the relationship between expert witnesses and the court, and public
+expectations of the legal system. The multi-dimensional and epistemologically
+impure nature of legal determinations and representations of causation seem to
+have some tacit, or what might be better described as subliminal, acceptance in
+the evolution of various legislative initiatives such as the development of strict
+liability and compulsory insurance schemes. To varying degrees, these schemes
+internalise or displace some of the processes involved in aligning the rhetorics of
+law, medicine and science through the institutional provision of processes and
+interpretations which operate in a manner consistent with epistemic putty, able to
+be disguised with the paint of public policy. Even though such mechanisms may
+offer procedural advantages and appear tidy in operation, it is worth considering
+that contradictory epistemic glosses, judicial disagreement, the multifaceted
+nature and policy challenges associated with more traditional approaches to
+determining legal causation, continue to offer social value through their potential
+to allow some of the social processes and contingent judgments involved in the
+creation and dissemination of scientific/medical and legal images of causation to
+achieve, admittedly quite limited, visibility and public accountability.
+* Gary Edmond, School of Law, Adelaide University. David Mercer, Senior Lecturer in the Science and
+Technology Studies Program at the University of Wollongong. The authors thank John Keeler for his
+comments on a draft of this chapter.
+1 HT Engelhardt, "Relevant Causes: Their Designation in Medicine and Law" in S Spicker, J Healey & H
+Engelhardt (eds), The Law Medicine Relation: A Philosophical Exploration, D Reidel Publishing
+Company, Dordrecht, 1981, at pl23; T Halper, "Time, Law and Responsibility: Additional Thoughts on
+Causality" in S Spicker, J Healey & H Engelhardt (eds), The Law Medicine Relation: A Philosophical
+Exploration, D Reidel Publishing Company, Dordrecht, 1981, at p129.
+2 R Proctor, Cancer Wars: How Politics Shapes What We Know and Don't Know About Cancer, Basic
+Books, New York, 1995, at p257.
+3 Ibid.
+4 For an overview and introduction to some of the literature consider B Easlea, Witchhunting, Magic and
+the New Philosophy: An Introduction to the Debates of the Scientific Revolution 1450-1750, Harvester
+Press, Brighton, 1980.
+5 T Kuhn, "Concepts of Cause in the Development of Physics" in T Kuhn, The Essential Tension, Chicago
+University Press, Chicago, 1977, pp21, 29-30. See also B Barnes, "Belief Action and Determinism: the
+Causal Explanation of Scientific Change" in
+B Barnes, Scientific Knowledge and Sociological Theory, Routledge and Kegan Paul, London, 1974, pp71-
+4: "The background of normality forms the set of unchanged necessary conditions against which the
+causal story stands out and operates as an intelligible communication the cause is a necessary
+condition in which we are interested; in labelling it, we define a taken for granted background of
+normality in terms of which our utterance makes sense ... in science it is a crucial function of
+theoretical entities that they are invoked as causes, to explain events or phenomena."
+6 T Geiryn, Cultural Boundaries of Science: Credibility on the Line, Chicago University Press, Chicago,
+1998; G Edmond, "Science in Court; Negotiating the Meaning of a 'Scientific' Experiment during a
+Murder Trial and Some Limits to Legal Deconstruction for the Public Understanding of Law and
+Science" (1998) 20 Sydney Law Review 361.
+7 G Edmond, "Deflating Daubert: Kumho Tire Co v Carmichael and the inevitability of general
+acceptance (Frye)" (2000) 23 University of New South Wales Law Journal 31.
+8 R Smith & B Wynne (eds), Expert Evidence: Interpreting Science in the Law, Routledge, London, 1989; S
+Jasanoff, Science at the Bar: Law, Science and Technology in America, Harvard University Press,
+Cambridge, 1995.
+9 H Hart & T Honoré, Causation in the Law, 2nd edn, Clarendon Press, Oxford, 1985.
+10 See below.
+11 See beiow. P Huber, Galileo's Revenge: Keeping Junk Science out of the Courtroom, Basic Books, New
+York, 1991,
+12 Smith & Wynne, op cit, n8; G Edmond & D Mercer, "Trashing 'Junk' Science" {1998) Stanford
+Technology Law Review <http://stanford.edu/STLR/Articles/Index.htm>.
+13 S Hilgartner, "The Dominant View of Popularisation: Conceptual Problems, Political Uses" (1990) 20
+Social Studies of Science 519; G Edmond & D Mercer, "Scientific Literacy and the Jury: Reconsidering
+Jury Competence" (1997) 6 Public Understanding of Science 329.
+14 See below. With respect to expert panels, compare S Jasanoff, "Expert Games in Silicon Gel Breast
+Implant Litigation" in M Freeman & H Reece (eds), Science in Court, Dartmouth, Aldershot, 1998, at
+p83 and L Walker & J Monahan, "Scientific Authority: The Breast Implant Litigation and Beyond"
+(2000) 86 Virginia Law Review 801. In relation to court-appointed experts see G Edmond, "Judicial
+Representations of
+Scientific Evidence" (2000) 63 Modern Law Review 216 at 241-50: I Freckelton & H Selby, Expert Evidence,
+Law Book Co, Sydney, 1993-...; I Freckelton, The Trial of the Expert, Oxford University Press,
+Melbourne, 2002 (forthcoming).
+15 M Green, Bendectin and Birth Defects, University of Pennsylvania Press, Philadelphia, 1996; J Sanders.
+Bendectin on Trial: A Study of Mass Tort Litigation, University of Michigan Press, 1998. An example
+of an appellate court, early in the Bendectin litigation cycle, recognising and attributing weight to the
+non-epidemiological evidence is provided by DC Court of Appeal in Oxendine v Merrell Dow
+Pharmaceuticals, Inc, 506 A 2d 1100 at 1104 (1986). This case was reversed in the mid 1990s according
+to what was then described as the weight of the evidence supporting the safety of Bendectin
+rendering the plaintiff's evidence inadmissible, in Oxendine v Merrell Dow Pharmaceuticals, Inc, No
+82-1245, 1996 WL 680992 (DC Super 1996). That determination was inseparable from the emergent
+judicial consensus about the legal implications of Bendectin consumption.
+16 857 F 2d 823 at 830. Here epidemiological evidence is used as if it precluded the insights produced in or
+among other scientific domains, compare the approach discussed in note 54, below.
+17 G Edmond & D Mercer, "Litigation Life: Law-science Knowledge Construction in (Bendectin) Mass
+Toxic Tort Litigation" (2000) 30 Social Studies of Science 265.
+18 113 S Ct 2786 (1993).
+19 The US Supreme Court referred to the work of philosophers Popper and Hempel and the sociologist
+Jasanoff in their discussion of the nature of science in the Daubert decision.
+20 K Foster & P Huber, Judging Science: Scientific Knowledge and the Federal Courts, MIT Press,
+Cambridge, 1998, but compare G Edmond & D Mercer, "Juggling Science: From Polemic to Pastiche"
+(1999) 13 Social Epistemology 215; M Berger, "Eliminating General Causation: Notes Toward a New
+Theory of Justice and Toxic Torts" (1997) 97 Columbia Law Review 2117.
+21 An example is provided by Beazley JA's brief comments in the mesothelioma case of EM Baldwin & Son
+Pty Ltd v Plane; Jsekarb Pty Ltd v Plane (1999) Aust Tort Reports 81-499 at 65,622. Endeavouring to
+distinguish her earlier decision in Bendix Mintex Pty Ltd v Barnes (1997) 42 NSWLR 307, Beazley JA
+agreed with Fitzgerald AJA's proposition that: "differences of opinion which emerge in those cases:
+are, for the most part, less related to questions of principle and more attributable to conflicting views
+of the primary facts, and in some instances at least, the conclusions to be drawn from expert
+evidence.' This case is different from Bendix and Walsh because in this case there was medical
+evidence which supported the respondent's case. Thus my agreement with Fitzgerald AJA."
+22 U Beck. Reflexive Modernization: Politics, Tradition and Aesthetics in the Modern Social Order, Polity,
+Cambridge, 1994.
+23 For a discussion of some of the limitations of Beck's thesis see, B Barnes, The Elements of Social Theory,
+UCL Press, London, 1995, at ppl09-ll.
+24 T Ward, "Law's Truth, Lay Truth and Medical Science: Three Case Studies" in H Reece (ed), Law and
+Science: Current Legal Issues, vol 1, Oxford University Press, Oxford, 1998, at p263; Biogen Inc v
+Medeva plc [1997] RPC 1 at 45.
+25 See below.
+26 H Reece, "Pedro Juan Cubillo v Commonwealth of Australia: Right Result, Wrong Method" in H Reece
+(ed), Law and Science: Current Legal Issues, vol 1, Oxford University Press, Oxford, 1998, at pp 81, 95.
+27 Birkholz v Gilbertson Pty Ltd [1985] 38 SASR 121 at 130 per King CJ.
+28 J Holder & S Elworthy, "The BSE Crisis" in H Reece (ed), Law and Science: Current Legal Issues, vol 1,
+Oxford University Press, Oxford, 1998, p145.
+29 S Rudavsky, "Separating Spheres: Legal Ideology v Paternity Testing in Divorce Cases" (1999) 12 Science
+in Context 123 at 131.
+30 Commonwealth ex rel Ivory Weston v John Weston, 193 A 2d 782 at 783 (1963).
+31 J Sanders, "The Bendectin Litigation: A Case Study in Life Cycles of Mass Torts" (1992) 43 Hastings Law
+Journal 301.
+32 Edmond & Mercer, 2000, op cit, nl7.
+33 Richardson by Richardson v Richardson-Merrell, Inc, 857 F 2d 823 at 831 (DC Cir 1988).
+34 Further examples are considered below.
+35 [2000] NSWCA 29; see I Freckelton, "Epidemiology Evidence" (2000) 8 Journal of Law and Medicine 133;
+C Miller, "Coal Dust, Causation and Common Sense" (2000) 63 Modern Law Review 763.
+36 Seltsam, at [270],
+37 At [191].
+38 At [192], [259].
+39 At [259]-[263],
+40 At [24], [26], [161], [162], [254],
+41 At [19], [189], [265].
+42 Consider M Lynch & S Jasanoff (eds), "Contested Identities: Science, Law and Forensic Practice" (1998)
+28 Social Studies of Science 675; S Fuchs & S Ward, "What is Deconstruction, and Where and When
+Does it Take Place? Making Facts in Science, Building Cases in Law" (1994) 59 American Sociological
+Review 481; Smith & Wynne, op cit, n8; Jasanoff, 1995, op cit, n8.
+43 Consider S Fish, Doing What Comes Naturally: Change, Rhetoric and the Practice of Theory in Literary
+and Legal Studies, Duke University Press, Durham, 1989.
+44 Seltsam, at [81], [201], [269].
+45 March v E & M H Stramare Pty Ltd (1991) 171 CLR 506. Appeals to common sense, even in the
+evaluation of scientific evidence, resonates with Rehnquist CJ's dissent in the Daubert v Merrell Dow
+Pharmaceuticals, Inc, 509 US 579 at 600-1 (1993), where he dismisses the suggestion that judges
+should be called upon to become amateur scientists.
+46 A Irwin & B Wynne (eds), Misunderstanding Science: the Public Reconstruction of Science and
+Technology, Cambridge University Press, Cambridge, 1995; G Edmond & D Mercer, "What Judges
+Should Know about Falsification" (1997) 5 Expert Evidence 29.
+47 Seltsam, at [78]-[120]; see also Stein J at [201] agreeing with Spigelman CJ.
+48 At [96].
+49 At [94].
+50 At [93]. Both statements, approved by Spigelman CJ, are drawn from the case of EMI (Australia) Ltd v
+Bes [1970] 2 NSWR 238 at 242.
+51 Seltsam, at [250].
+52 Chappel v Hart (1998) 195 CLR 232.
+53 Seltsam, at [203].
+54 At [107]-[109],
+55 At [201],
+56 (1999) 73 ALJR 782.
+57 [1973] 1 WLR 1.
+58 Seltsam, at [105]-[120],
+59 Bendix Mintex Pty Ltd v Barnes (1997) 42 NSWLR 307. Spigelman CJ acknowledged that in Bendix there
+had been some division over whether an increased risk was capable of causing or materially
+contributing to an injury on the balance of probabilities. He contrasted the positions of Mason P and
+Beazley J A.
+60 Seltsam, at [119].
+61 Edmond & Mercer, "Trashing 'Junk' Science", 1998, op cit, n12.
+62 Seltsam, at [35].
+63 At [39].
+64 At [48].
+65 At [50].
+66 At [54].
+67 At [53].
+68 At [58].
+69 At [236], [249]. D Rier, "The Versatile Caveat Section of an Epidemiological Paper: Managing Public
+and Private Risk" (1999) 21 Science Communication 3.
+70 Seltsam, at [248].
+71 The foundational argument, in the sociology of scientific knowledge, for the value of avoiding
+sociologies of error — that is, seeking more general sociological explanations for the generation of all
+beliefs whether characterised as "right" or "wrong" rather than focusing disproportionate sociological
+attention on sources of deviance in the production of error or pathological knowledge — see D Bloor,
+Knowledge and Social Imagery, 2nd edn, University of Chicago Press, Chicago, 1991.
+72 This is not to suggest that processes of selection, application and interpretation could be avoided by
+other institutional or procedural arrangements, although it may displace some of them into a less
+visible "background".
+73 D Kennedy, "Freedom and Constraint in Adjudication: a Critical Phenomenology" (1986) 36 Journal of
+Legal Education 518.
+74 Seltsam, at [29], [31].
+75 "Dose Response Effect. If the risk of the disease rises with increasing exposure, a causal interpretation of
+the association is more plausible ..." (at [139]).
+76 Seltsam, at [137], [175]. "Most epidemiological studies identify the strength of an association by a
+measure called relative risk (RR). RR is defined as the ratio of the incidence of disease in exposed
+individuals compared to the incidence in unexposed individuals. If the relative risk equals 1.0, the risk
+in exposed individuals is the same as the risk in unexposed individuals. If the relative risk is greater
+than 1.0 the risk in exposed individuals is greater than the risk in unexposed individuals." (at [67]).
+77 At [29],[31],[32],[178].
+78 At [250].
+79 All of the experts accepted that cohort studies were the most reliable (#51, 221, 240).
+80 Seltsam, at [199].
+81 At [215], [285] and [71].
+82 At [240].
+83 At [229],
+84 At [243]-[247],
+85 At [228], [242],
+86 The issue of "science for litigation" was discussed in one of the US judgments referred to (though
+incorrectly cited) by Spigelman CJ, the case of Daubert on remand: Daubert v Merrell Dow
+Pharmaceuticals, Inc, 43 F3d 1311 (9th Cir 1995). For a critical appraisal consider Edmond, 2000, op
+cit, n7.
+87 Seltsam, at [221], [227], [246].
+88 At [221].
+89 At [254].
+90 At [209].
+91 At [251].
+92 Evidence Act 1995 (NSW) s79: "If a person has specialised knowledge based on the person's training,
+study or experience, the opinion rule does not apply to evidence of an opinion of that person that is
+wholly or substantially based on that knowledge."
+93 Seltsam, at [148]-[150], [255]-[258]. McLaughlin testified unequivocally that asbestos exposure "did not
+contribute to Mr McGuiness' renal cell cancer" (at [225]). Notably this representation appears in the
+judgment of Stein JA and not the judgment of Spigelman CJ. How it should be reconciled with
+Spigelman CJ's reference to McCredie's admission that epidemiologists were not competent to testify
+about individual cases and why he chose to cite the statement of McCredie (see text accompanying
+note 53) rather than McLaughlin seems consistent with the representations of the evidence and the
+standing of the scientists the judges were each endeavouring to establish.
+94 Geiryn, op cit, n6; Edmond, 1998, op cit, n6.
+95 Foreseeability was more actively contested in some of the earlier asbestos litigation such as the appeal
+in Bendix. Once judges had decided the issue of foreseeable in favour of plaintiff's some of the
+contestation became more sharply focused around causation.
+96 Seltsam, at [193].
+97 Some of the contests could be won procedurally. For a discussion of techniques employed in some of
+the earlier tobacco litigation, see R Rabin, "A Sociolegal History of the Tobacco Tort Litigation" (1992)
+44 Stanford Law Review 853.
+98 Seltsam, at [37], Having decided that this type of incursion, an epidemiologist testifying about an
+individual case, did not render the testimony inadmissible under s79 of the Evidence Act 1995 (NSW),
+Spigelman CJ nevertheless uses the very breach to support his position, particularly the purported
+strength of the epidemiological record in relation to general causation.
+99 Seltsam, at [122].
+100 At [254].
+101 At [206], [254].
+102 At [239], compare Spigelman CJ at [179], [180].
+103 At [142], see also [202], [208].
+104 At [202], citing March v Stramare and Chappel v Hart.
+105 Despite the suggestion that judges were not empowered to accept expert evidence of a causal
+association that was explicitly excluded as a possibility by a field or fields, in practice this standard is
+always susceptible to manipulation. In the much earlier traumatic cancer case of Commissioner for
+Transport v Adamcik (1961) 106 CLR 292, a majority of the High Court recognised, as legally
+sufficient, the opinion of a single expert, even though he (and others) accepted that it was
+inconsistent with virtually all contemporary medical knowledge. The expert even described himself
+as somewhat of a visionary. For a critical response consider the dissent of Windeyer J.
+106 Seltsam, at [144].
+107 Such as insurance companies, manufacturers, pharmaceutical companies, certain professions as well as
+plaintiff and defence lawyers. Judicial differences over the value of scientific evidence have been a
+conspicuous feature of some high profile miscarriage of justice cases.
+108 B Wynne. Rationality and Ritual: The Windscale Inquiry and Nuclear Decisions in Britain, British
+Society of the History of Science, Chalfont St Giles, 1982.
+109 N Gilbert & M Mulkay, Opening Pandora's Box: A Sociological Analysis of Scientist's Discourse,
+Cambridge University Press, Cambridge, 1984, at pp56-7.
+110 Seltsam, at [185].
+111 At [232], The privileging of epidemiological studies dates has been a feature of a number of mass torts,
+including the prominent Agent Orange litigation: In re Agent Orange Product Liability Litigation, 597
+F Supp 740 (DC NY 1984); In re Agent Orange Product Liability Litigation, 611 F Supp 1221 (DC NY
+1985); In re Agent Orange Product Liability Litigation, 818 F 2d 145 (2nd Cir 1987). For some
+discussion of that litigation see P Schuck, Agent Orange on Trial: Mass Toxic Disasters in the Courts,
+Harvard University Press, Cambridge, 1986.
+112 Edmond & Mercer, 2000, op cit, nl7.
+113 EM Baldwin & Son Pty Ltd v Plane; Jsekarb Pty Ltd v Plane (1999) Aust Tort Reports 81-499 at 65,623 per
+Beazley JA and 65,650 per Fitzgerald AJA. Judicial "unease" with cases such as Baldwin and Seltsam
+has received media coverage. A series of articles about the Seltsam case were featured in The Sydney
+Morning Herald, see W Bacon, "Experts on Trial" (5 July 2000) 1 and (6 July 2000) 11.
+114 Sanders, 1992, op cit, n31.
+115 A Weinberg, "Science and Trans-science" (1972) 10 Minerva 209; W Wagner, "Transscience in Toxic
+Torts" (1986) 96 Yale Law Journal 428; W Wagner, "The Science Charade in Toxic Risk Regulation"
+(1995) 95 Columbia Law Review 1613; S Jasanoff, "Contested Boundaries in Policy-Relevant Science"
+(1987) 17 Social Studies of Science 195.
+116 B Campbell, "Uncertainty as Symbolic Action in Disputes among Experts" (1985) 15 Social Studies of
+Science 429; S Shackley & B Wynne, "Representing Uncertainty in Global Climate Change Science
+and Policy: Boundary-ordering Devices and Authority" (1996) 21 Science, Technology and Human
+Values 275.
+117 Seltsam, at [253].

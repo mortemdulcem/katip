@@ -1,0 +1,29 @@
+@startuml soru7_seq
+!include _seq.iuml
+title Şekil 7b · Belge hazırla→onayla→yayınla (State + CoR + Strategy)
+actor Kullanici
+participant "b : MilliGizliBelge" as B
+participant "strat : YuksekGizliHazirlama" as ST
+participant "by : BirimYoneticisi" as BY
+participant "koor : Koordinatorluk" as KO
+Kullanici -> B : hazirla()
+activate B
+B -> ST : hazirlamaYap(b)  <<Strategy>>
+B -> B : durumDegistir(OnayAsamasi)  <<State>>
+deactivate B
+Kullanici -> B : onayla()
+activate B
+B -> BY : onaylaIste(b)  <<CoR>>
+activate BY
+BY -> KO : ilet (elinde değil: yüksek gizli)
+activate KO
+KO -> KO : imzala() (tüm birim yön.)
+deactivate KO
+deactivate BY
+B -> B : durumDegistir(YayinAsamasi)
+deactivate B
+Kullanici -> B : yayinla()
+activate B
+B -> B : yayinlamaYap()  <<alt tür polimorfizmi>>
+deactivate B
+@enduml

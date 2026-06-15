@@ -1,0 +1,372 @@
+9 Causality and Spinal Pain: The Problem
+of Back Pain
+DENNIS SMITH*
+Introduction
+Recently, there has been a plain word approach in medicine to public and clinical
+debate on common medical problems. Stroke, and low back pain are two
+examples in these areas of concern. The term, "low back pain" is now used to
+characterise lower spinal pain, and its variety of syndromes.
+This chapter will limit itself to those features of low back pain related to
+morphological changes in the joints and discs of the lumbar spine. It will not
+consider those serious causes of back pain which are inflammatory or malignant
+in nature. Nor will it discuss back pain referred from other organs. All of these
+serious causes of back pain are relatively easy to distinguish from the commonest
+types of low back pain, which, it is assumed, arise from the ligaments, joints and
+discogenic structures making up the lumbar spine.
+Clinical Epidemiology
+The clinical epidemiological approach to medical management pioneered by
+Sackville, Haynes and Tuckwell1 at McMaster University, Hamilton, Canada, is
+largely responsible for many recent conceptual changes in the evolution of back
+pain diagnosis and management during the two last decades. Their approach to
+clinical diagnosis is worth highlighting. They recognise that sickness has three
+elements:
+1. The disease, or target disorder, the objective of the diagnostic process;
+2. The illness, or cluster of symptoms and signs exhibited by the patient
+and elucidated by the doctor;
+3. The predicament, or the social, psychologic, and economic context in
+which the patient is situated.
+In most patients with acute back pain, the target disorder is difficult, if not
+impossible, to define with clarity in exact pathological terms. The illness is also
+vague and often extremely non-specific.
+The predicament is that the patient is in pain, and often finds it difficult to
+work. This predicament is added to by the wide variety of often conflicting
+advice to which the patient may have been subjected.
+Morphology
+There are few conditions so common and poorly understood as persistent or
+repetitive low back pain. This type of back pain is ubiquitous. The reason for it
+may well be related to human evolution.
+In anthropological terms man is a large ape. However, we differ from our
+closest cousins, the Orang-Utan, the Gorilla, and the Chimpanzee, in that we
+have, in recent developmental terms, adopted an upright posture, which has freed
+our upper limbs for skilled manipulation, throwing, and uniquely human
+activities, such as art and craft. We also utilise our extremely well developed
+binocular vision as a result of our stable neck and head posture, particularly
+when running. All of this comes at a cost.
+The vertebrate spine is not, in evolutionary terms, a weight-bearing organ. It
+originated in reptiles and fish. Most other mammals are like cats and dogs, in that
+they have a horizontal back which is flexible, strong in construction in order to
+contain the essentially delicate spinal cord, and equipped with muscles and
+spinous processes which are both protective and mechanically designed to
+facilitate energy transfer between the fore and hind limbs when walking or
+running. The vertebrate spine also enables safe and efficient rapid changes of
+direction and movement when running or hunting.
+The upright human posture is probably developmentally less than a million
+years old. Cro-Magnon man, our immediate ancestor, may be less than 40,000
+years old, and is indistinguishable from Homo Sapiens.
+A direct result of this recent evolutionary adaptation is that the vertebral discs
+of the spine, particularly the lower (lumbar) spine, degenerate in early adult life.
+This is almost certainly directly related to the severe transmitted vertical weight-
+bearing pressures to which these structures are inevitably exposed. Lifting,
+carrying, jumping and running, all subject these structures to compression and
+shearing forces of up to 500 kilograms. This results in mechanical damage to the
+external part of the disc, and subsequently to partial extrusion of the nucleus
+pulposus of the disc through tears in the annulus fibrosus. These changes have
+been known for at least 80 years.
+Schmorl in Germany first described them, in the 1920s.2 He had access to
+spines removed at post mortem following fatal accidents, and was able to
+accumulate data on many hundreds of spines across a wide range of ages and
+conditions. Biddle,3 an anatomist from England, was given access to this material
+in 1930 and, in an elegant and careful series of histological microscopic and
+macroscopic studies, was able to demonstrate the degenerative process in
+considerable detail.
+These were published in the first report of the newly created Medical Research
+Council of England, demonstrating that this process of disc degeneration was
+eventually almost universal and was related to the age of the individual, coming
+to a maximum prevalence of some 80 per cent, in those specimens studied,
+between the ages of 30 and 40.
+The changes consist of extrusions of the central nucleus pulposus of the lumbar
+disc through the annulus fibrosus, which itself shows tearing and rupture of its
+intertwined collagenous fibres. This process is accompanied by considerable local
+infiltration of cells such as lymphocytes and macrophages. This is part of the
+healing or repair process, but does not lead to a restoration of the premorbid
+situation. Hence the term "degeneration". This implies healing with scar tissue
+and loss of function, and can be looked upon as a specific part of the ageing
+process.
+This imperfect repair process leads to a resolution of these changes such that
+the degenerative process is complete by the 6th and 7th decade By this stage, the
+liquid centre ("nucleus pulposus") in most of the specimens of this age, has broken
+down and migrated through the degenerative fibres of the annulus fibrosus of the
+disc, the result being that the functionally well designed lumbar disc becomes a
+flattened fibrous remnant, with loss of movement and elasticity. A consequence is
+secondary osteoarthritic changes in the facet joints of the spine. These are often,
+but by no means always, the cause of symptoms such as stiffness, local pain, and
+associated muscle spasm.
+An equally important, but much later study by Hult4 in Sweden in the 1950s,
+was a retrospective incidence analysis of a large population. This important study
+related the first severe attack of back pain to the age of the patient. His findings
+included data showing that the initial symptoms of acute back pain had an age
+distribution essentially the same as in Biddle's study carried out some 25 years
+earlier.
+From these two well-designed studies, it would be reasonable to hypothesise
+that acute incidents of back pain are therefore probably closely related to the
+degenerative changes now known to occur in the spine in adult human life. This
+conclusion is now generally accepted. What is still not clear is the exact
+immediate cause of the acute symptoms in the individual patient.
+Hadler, in his monograph, Medical Management of the Regional
+Musculoskeletal Diseases,5 elaborates on the ubiquity of low back pain as a
+problem. He does this in an important section entitled: "The Interface between
+the Clinical Concept of Low Back Pain, and the Workers Compensation and
+Social Security Disability Insurance Programs." He points out that it is
+"unparalleled in its morbidity". We know that in the western world, for which
+good data are available, 70 per cent of the population suffer from acute disabling
+back pain at some time in their lives, and 10 per cent in the previous two years.
+Clearly, according to Hadler, the problem of the relationship of pain to injury is
+complex. The public perception of acute back pain is in general that it is caused
+by injury. This simplistic view is defendable up to a point, in that an incident of
+bending, or picking up, or lifting, often has a strong temporal relationship to the
+acute episode. The reality is that the well-known proverb, "It's the last straw that
+breaks the camel's back", is somewhat closer to the truth: This is, that the lower
+back is prone to acute episodes of pain and disability, often triggered by minor
+incidents, such as bending down to pick up an envelope. It is also prone to acute
+episodes related to lifting heavy objects, or repetitive lifting, or unexpected
+additional mechanical stress during a lift. This spectrum of "causes" is of
+considerable importance in the work environment because of the fact that most
+acute back pain incidents occur at work, and many of them are disabling, and
+some of them are prolonged. It is also important to be aware that the precise
+clinical and pathological nature, in structural anatomical terms, of these acute
+attacks is still uncertain.
+Taken together, these observations and the lack of precision in the diagnosis,
+mean that back pain in the work environment is a major social, economic and
+productivity concern. It is also a growing concern, or was up until the last year or
+so in most industrial countries or environments.
+The epidemiology of back pain in industry has been well recorded in Australia,
+the United States and in Western Europe. Since the end of the 1950s, the point
+prevalence (numbers at any one time) of back pain resulting in more than a
+week's time off work has increased from 3 per cent of the work force to 20 per
+cent of the work force. This is in spite of the recorded incidence of acute back
+pain being fairly stable. It is also certainly true that the nature of much industrial
+work has also changed, and may now be less arduous and better structured in
+ergonomic terms. Despite this, time off work with back pain disability has
+become more common.
+The explanation for these alarming statistics is complex. It is almost certainly
+related to changes in the management of back pain, including its perception as a
+disability with particular consequences.
+Disability and Back Pain
+Disability is an essential concept in this area of concern, and has been well
+defined in the WHO publication, The International Classification of Impairments
+Disabilities and Handicaps,6 as in the context of health experience, any restriction
+or lack (resulting from an impairment) of ability to perform an activity in the
+manner or within the range considered normal for a human being. Disability is
+characterised by excesses, or deficiencies of customarily expected activity,
+performance and behaviour. It may be temporary or permanent, reversible or
+irreversible, and progressive or regressive.
+Disabilities may arise as a direct consequence of impairment, or may be a
+psychological or learnt response to a physical sensory or other impairment.
+Disability is the objective behaviour at the level of the person in response to
+impairment, and is concerned with abilities in the form of composite activities
+and behaviours, generally accepted as being essential components of everyday
+life. This includes work disabilities.
+It is also important to consider the relationship of disability to the interface
+between disease and illness. A common variety of illness behaviour is related to
+the "sick role". This is an adaptive, or learnt response to being acutely ill, well
+described and defined by Parsons.7 Essentially, it is an abrogation of
+responsibility in return for being looked after when ill. The implied contract
+means that the ill patient is compliant and passive, doing as he or she is told. This
+is a reasonable form of behaviour when acutely ill, as with, for example,
+influenza or acute appendicitis. It is short term and socially sophisticated.
+Acute back pain is rarely accompanied by a feeling of illness. The pain may be
+severe, but is more in the nature of a mechanical problem than an acute
+debilitating illness. If it is managed by the forced or voluntary adoption of the
+sick role, then it leads to disability, in association with deconditioning. It is only
+20 years ago that acute back pain was regularly managed by confinement to bed
+for between a week and 10 days initially, and by the accompanying use of
+tranquillisers such as diazepam in doses of up to 20 or 30 mgms a day. It is now
+clear that this form of management leads to significant disability.
+This is not to say that it is never appropriate. It may be of value in gross
+degrees of disc prolapse in which the contents of the spinal canal are
+compromised, but this is rare in the extreme – perhaps one in a thousand cases of
+back pain, perhaps less. Unfortunately, variants on this form of management are
+still common, and the lay view is also still somewhat in favour of rest as the
+primary approach to acute back pain.
+Management
+Inappropriate management itself may well cause and certainly can prolong
+disability in association with the majority of patients with persistent back pain.
+There is, as yet, little uniformity in the management of patients with acute back
+pain, but there is now consensus in the medical profession. An excellent review
+article: "Low Back Pain" by Andrew Frank8 was published in the 1993 British
+Medical Journal, and is still difficult to improve on. His description of differing
+types of management concludes that active mobility exercises and fitness training
+are associated with better recovery. Hadler's9 approach is essentially the same,
+and Waddell's10 recent approach to management also emphasises the value of
+simple exercises such as walking regularly and swimming in a warm pool. To this
+I have recently advised that a snorkel and mask are useful when swimming,
+because their use helps the patient to avoid twisting, or hyper-extending the back,
+both often painful activities during acute episodes. The logic of this active
+management approach is related to the limited blood supply to the lumbar disc. It
+may well be that its normal nutrition is more related to the alternate compression
+and relaxation, with dynamic fluid interchange, which occurs during walking,
+sitting and standing, rather than to its haemodynamics.11
+Historically, the management of back pain has always been a matter of
+energetic debate. Mixter and Barr's 1934 paper12 describing the prolapsed
+intervertebral disc was sufficiently convincing at the time to result in a preferred
+surgical approach to be fashionable for decades. Not until Barr's excellent
+retrospective studies in the 1960s13 did it become clear that surgery is only
+strongly indicated in those patients with major neurological problems – less than
+5 per cent of patients. There is, even now, no convincing evidence that spinal
+fusion is effective in relieving symptoms and disability in more than a very small
+minority of patients.
+The preferred management, based upon the studies by Waddell, Frank, and
+Hadler is that a conservative, informed and optimistic approach is appropriate.
+Bed rest for more than a day is of no value. In practice, prolonged bed rest causes
+physical deconditioning and increases disability.
+The Problem of Pain
+The most difficult to manage problems in this field of practice are without doubt
+the group of chronic back pain sufferers whose symptoms have been present for
+more than a year. There are a number of characteristics, which define the group.
+In my experience, these are the patients who are referred to multidisciplinary
+pain clinics with non-cancer pain. They are usually unable to work. Most
+previous modes of management have either made them worse or were of no help.
+Analgesics, including opiates are generally of little help. They are usually able to
+carry out activities of daily living (dressing, feeding, toilet care) without any
+major problems, but work is not possible, or travelling to work is disabling. Their
+lives are totally dominated by the recalcitrant pain. They talk and think of little
+else. They often have a history of multiple surgical interventions, none of which
+have helped. They often have an unsettled compensation problem. They are
+frequently clinically depressed. A full psychological assessment defines certain
+persistent behavioural traits.14
+Physical examination is uncomfortable, and may demonstrate inconsistencies,
+related to position. The process of undressing, and then getting onto the
+examination couch, may be slow and distressing. It usually is not painful, but
+may appear to be grossly abnormal, and sometimes bizarre, if the patient is
+carefully instructed not to move beyond the point of discomfort. Palpation of the
+region in which the pain is found is often described as burning or knife like. A
+few of these patients are exaggerating their symptoms consciously, but an equal
+or greater number are not. They are often depressed; some of them have post
+traumatic stress disorder ("PTSD"). Many may have been inappropriately
+managed at an earlier stage. This is at times related to their own insistence on
+continuing with therapies of little value or benefit. Many of them have what
+Pilowsky15 has defined as "abnormal illness behaviour". This is a learnt
+phenomenon, and can be characterised as acquired disability, usually and
+specifically including an inability to carry out work-related activities.16
+Effective management depends upon a sympathetic approach by a
+multidisciplinary team, which needs to include a psychiatrist, a psychologist, a
+physiotherapist, a social worker, a pain consultant, and a specialist in vocational
+rehabilitation. The assessment may take a number of days. All members of the
+team are specifically and professionally trained in the management and
+assessment of chronic pain.
+The model I have described is based upon the University of Washington
+Multidisciplinary Pain Centre, which was set up by John Bonica and Wilbert
+Fordyce in 1960. Similar centres are now functioning in the United Kingdom,
+Canada and Australia, using the same essentially pluralistic model, and a
+cognitive behavioural approach to management, based upon an informed
+contract between the centre and the client. Even so, of those patients referred to
+clinics of this nature, only about 15 per cent are assessed as being likely to
+improve with the program, which is both behavioural, that is to say, designed to
+alter illness behaviour and physical, that is to say designed to produce realisable
+improvements in both perceived strength and fitness.16 The pain clinic needs
+effective linkage with competent vocational selection and rehabilitation services.
+It also often needs to be in enlightened and informed touch with the clients
+employer, if this is agreed by the client, and if they still have one. It is necessarily
+an expensive process, but for this extremely difficult group, is the only form of
+management demonstrated to be effective in both the short and long term, but
+only for the small percentage of those referred and accepted as suitable for the
+programs.
+A New Zealand study by Feyer and her co-workers in Dunedin and Sydney
+Australia has recently looked at risk factors related to the development of low
+back pain in health care workers. They found that a previous history of back pain
+predicted further attacks, but pre-existing psychological distress, as measured by
+the General Health Questionnaire,17 was the only other factor which preceded
+new attacks of lower back pain. This finding suggests that the management of the
+onset of occupational low back pain might be improved by the management of
+psychological stress in those with a previous history of low back pain.
+Osteoarthritis of the Facet Joints, Goniometry and
+Impairments
+Compared to the previous problem of so-called discogenic back pain,
+osteoarthritis of the facet joints is conceptually a relatively simple condition. It is
+both straightforward to diagnose, and clear in its symptomatology. It is usually
+related to, and a consequence of prolonged hard physical work. There are, as
+always in medicine, exceptions to this statement. Infrequently, it can be related to
+specific inflammatory diseases such as variants of rheumatoid arthritis, or it may
+eventually develop following childhood or adolescent trauma or illness.
+Miners, professional athletes, labourers and farmers are characteristically
+subject to the condition which is usually of gradual onset, associated with pain
+and stiffness, and localised to the affected segment of the spine. The physical and
+radiological signs are eventually "hard". This means objective and persistent. It is
+usually possible to quantify the level of impairment in terms of loss of movement
+and increased pain and weakness, and for this the American Guides are a useful
+tool.
+It is useful to have regard to the fourth edition of the American Medical
+Association Guides to the Evaluation of Permanent Impairment.18 The purpose of
+these Guides is to render objective the assessment of permanent impairment.
+They use an odd definition of impairment, which, while exclusively related to
+loss at the level of the organ, as in the ICIDH I19 is defined in terms of how they
+affect the patient's daily activities, including work, that is to say, implied
+disability. Not everyone's daily activities and work are the same, so there is a
+conceptual problem with the scoring, which would disadvantage the concert
+pianist as compared to the professional footballer in the case of loss of finger
+movements in the dominant hand. This example is only one, and exposes a
+fundamental weakness of the Guides.
+However, if the scores are looked upon as impairment scores only, then they
+are both useful, generally repeatable and thus reliable. They are an expanded and
+comprehensive system of quantifying what used to be called "maims". According
+to the Oxford English Dictionary this archaic word meant the loss of a limb or its
+use. The term "maims" has been used in law to indicate a specific loss of function.
+In low back pain they have value in the quantification of the loss associated with
+loss of spinal joint range, in those with facet joint and discogenic osteoarthritis.
+They can be taken in conjunction with the 1937 Schöber test,20 which is reliable
+and often used as a single measure. Schöber found that a simple measurement,
+using a ribbon tape measure, of forward flexion from a fixed skin mark at the
+level of the sacrum, defined osteoarthritic stiffness in the back with excellent
+reliability and simplicity. The normal range is from 10-15 cms. Anything less than
+12 cm is deemed to be pathological.
+Even so, it is important to be aware that findings of restricted movements in
+the lumbar spine relate very little to a history of low back pain. Goniometry, or
+measurement of restriction of movement, as mandated under the second edition
+of the American Medical Association Guides to Permanent Impairment, is
+appealing, because of its objectivity in terms of mensuration, but its relationship
+to impairment is arguable, and it certainly has little to do with disability. There
+have been many critiques of this aspect of medical measurement.21 For instance,
+in spite of the seductiveness of accurate measurement of movement, mobility
+variations occur significantly from day to day and year to year, without having
+any value other than to quantify normal variations, rather than function. They
+are useful in watching progress in individual patients, and may be of value in
+monitoring fitness and mobility training.
+Summary
+The cause of low back pain is multifactorial, and relates to morphology,
+psychology, behaviour and culture. The relationship to trauma is often temporally
+convincing as a cause of the subsequent pain and disability. In the individual
+case, without a history of previous back pain, and in which the strain on the back
+is clearly extreme, then cause is likely to be perceived as being consequential to
+the incident. The minor incident, followed by a prolonged period of disabling
+pain and limited function is a different matter, and cause might be attributed to
+fortuitous chance. If the subsequent pain is aggravated by work, then the
+pendulum swings back towards compensability. Modern management would
+encourage return to slightly modified work as being the best form of therapy. It
+may well be that with the increased interest in maintenance of fitness, as a way
+of life, that we will now begin to see a different attitude to back pain in both the
+public and occupational domains. It will always be a common problem, but it is
+now clearly less threatening to health and fitness with the right approach to
+diagnosis and care. The concept of use it or lose it contains more than a grain of
+truth.
+* Former Foundation Professor of Rehabilitation Medicine at Flinders University, South Australia, and a
+consultant at the Griffith Rehabilitation Hospital in South Australia.
+1 J Biddle, Lumbar Disc Pathology, Medical Report Council Special Report No 1, HMSO, London, 1930.
+2 G Schmorl & H Junghanns, The Human Spine In Health And Disease, Grune & Stratton, New York,
+1971.
+3 See Biddle, 1930, op cit, n1.
+4 L Hult, "The Munkfors Investigation" (1954) Acta Orthop Scand (Supp 16) 1.
+5 NM Hadler, Medical Management of the Regional Musculoskeletal Disorders, Grune & Stratton,
+Orlando, Florida, 1984.
+6 International Classification of Impairments, Disabilities and Handicaps, World Health Organisation,
+Geneva, 1980.
+7 T Parsons, The Sick Role: The Social System, The Free Press, Glencoe, Illinois, 1951.
+8 A Frank, "Low Back Pain: Regular Review" (1993) 306 British Medical Journal 901.
+9 Hadler, op cit, n5, pp30-1.
+10 G Waddell, G Feder, A McIntosh, L Lewis & A Hutchinson, Low Back Pain Evidence Review, London
+Royal College of General Practitioners, 1996.
+11 Ibid.
+12 WJ Mixter & JS Barr, "Rupture of the Intervertebral Disc with Involvement of the Spinal Canal" (1934)
+211 New England Journal of Medicine 210.
+13 JS Barr et al, "Evaluation of End Results in Treatment of Ruptured Lumbar Disc" (1967) 125 Surgery,
+Gynaecology and Obstetrics 250.
+14 GA Waddell, "A New Clinical Model for the Treatment of Low Back Pain" (1987) 12 Spine 632.
+15 I Pilowsky & N Spence, Manual for the Illness Behaviour Questionnaire, University of Adelaide, 1981.
+16 JD Loeser & J Egan Kelly, Managing the Chronic Pain Patient, Raven Press, New York, 1989.
+17 DP Goldberg, The Detection of Psychiatric Illness, by Questionnaire, Oxford University Press, London,
+1972.
+18 American Medical Association, Guides to Permanent Impairment, 4th edn, AMA, Chicago, 1993.
+19 International Classification of Impairments, Disabilities and Handicaps, WHO, Geneva, 1980.
+20 P Schöber, "The Lumbar Vertebral Column and Backache" (1937) 84 Munchener Medizinische
+Wochenschrift, Munich 336.
+21 For instance, see D Smith, "Measurement of Joint Movement: An Overview" (1982) 8(3) Clinics in
+Rheumatic Diseases 523.

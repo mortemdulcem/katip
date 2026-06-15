@@ -1,0 +1,47 @@
+### Oluşum görünümü ve mekanizması
+
+Travmaya bağlı subaraknoid kanamanın (SAK; subarachnoid haemorrhage) makroskopik görünümü, yaralanmanın niteliği ve kapsamına göre büyük değişkenlik gösterir. Beyinde laserasyon/yırtık (laceration) veya yaygın kortikal kontüzyon/ezik (cortical contusion) sonucu geliştiği durumlarda, kanamanın yeri ve şiddeti primer yaralanmanın özelliklerine bağlıdır. Künt travmaya bağlı olarak, diğer meninks kanamaları veya kortikal kontüzyon olsun ya da olmasın, yalnızca darbenin etkisiyle ortaya çıktığında ise, kanamanın lokalizasyonu iyi bir lokalize edici belirti **değildir**.
+
+Bu nedenle, subaraknoid kanamanın yerleşimi, korteksteki kontrekup (contrecoup) kontüzyon gibi yorumlanamaz. Buna rağmen bazı patolojistler, SAK’ın yerleşimini kullanarak kafa yaralanmasının bir düşme sonucu mu yoksa hareketli bir kafaya alınan bir darbe sonucu mu oluştuğunu iddia etmeye çalışmaktadır; bu yaklaşım haklı değildir. Olayın koşullarının bilindiği bazı olgularda meningeal kanama, teorik olarak beklenen doğru bölgede görülebilirse de, bu durum tesadüfîdir ve kanama en az aynı sıklıkta başka yerlerde yerleşmiş olabilir.
+
+Subaraknoid aralıktaki kan, beyin omurilik sıvısı (BOS; cerebrospinal fluid, CSF) ile karışır; BOS, kanı seyreltir, pıhtılaşma eğilimini azaltır ve kanın daha serbestçe yer değiştirmesine olanak tanır. Bu nedenle, serebral hemisferlerin konveksitesinde (yüksek) oluşan bir kanama, kolaylıkla aşağıya doğru kayarak beyni örter ve kafa tabanı çukurlarına (bazal kafa fossaları) ulaşır; ancak genellikle yoğunluğu kalın bir pıhtı oluşturacak düzeyde değildir. Sulkuslar daha fazla kan toplama eğilimindedir; bu, özellikle insulada belirgindir.
+
+Subdural kanaması (subdural haemorrhage) olanlardan farklı olarak, SAK’tan sağ kurtulan kişiler subaraknoid boşluktaki kanı hızlı biçimde temizler. Hemoliz, BOS’a ksantokromik sarı bir renk verir ve birkaç hafta içerisinde kan ortadan kalkar. Pia mater veya araknoid üzerinde, hafif bir subdural kanamanın duranın iç yüzeyinde bıraktığı “iz” benzeri, kahverengi veya sarı renkte kalıcı boyanma alanları kalabilir. Hemosiderin için Perls reaksiyonu 36 saat içinde pozitif hale gelebilir ve bu reaksiyon, zarların makroskopik renk değişiklikleri kaybolduktan sonra bile, aylar hatta yıllar boyunca devam edebilir.
+
+Bu durum, bebeklerde hem subdural hem subaraknoid kanamayı tarihlendirmeye çalışanlar için önemli bir tuzak oluşturur; çünkü doğum sırasındaki baş kalıplanmasına (head-moulding) bağlı gelişen yaygın kanama, en az 1 yıl süreyle pozitif hemosiderin reaksiyonu bırakabilir. Dolayısıyla, şüpheli çocuk istismarı olgularında, yaşamın ilk aylarında ortaya çıkan kafa travması sonucu oluştuğu düşünülen kanamanın histolojik olarak Perls reaksiyonuna göre tarihlendirilmesi, doğuma bağlı kalıntı hemosiderin birikimi tarafından yanıltılabilir.
+
+> **💬 Çevirmen notu:** Özellikle “sarsılmış bebek sendromu (shaken baby syndrome)” veya genel olarak çocuk istismarı iddialarında, SAK veya subdural hematomun (subdural haematoma) yaşını tayin etme çabası Türkiye’de de sık görülür. Buradaki uyarı, tek başına hemosiderin varlığına dayanarak “eski travma” demenin ciddi adli hatalara neden olabileceğini vurgular. ATK uygulamalarında da travma zamanlaması için klinik, radyolojik ve diğer histopatolojik bulgularla birlikte, çok ihtiyatlı yorum yapılması önemlidir.
+
+Travmatik subaraknoid boşluk kanaması, subdural boşluktakiyle aynı mekanizma ile oluşur: Beynin kayma (shear) gerilmeleri ve rotasyonel hareketleri (ileride ayrıntılı anlatılacaktır), korteksten çıkarak araknoidi penetre eden ve dura içindeki büyük drene edici venler ile sinüslere ulaşmak üzere seyrederken uzanan köprü venleri (bridging veins) keser veya yırtar; bu venler subaraknoid boşluğa kanar. Buna ek olarak, küçük kortikal arterler de kan sızmasına önemli katkıda bulunabilir.
+
+Kortekste laserasyon, kontüzyon veya enfarkt (infarction) bulunduğu durumlarda kanama, kortikal venlerden ve küçük arterlerden doğrudan subaraknoid boşluğa olur. Kanama ayrıca korteksi yararak dışarı açılan intrakerebral kanamadan da kaynaklanabilir. Foramen magnum çevresinde vertebral arterlerin hasarına bağlı geliştiği iddia edilen SAK, omurga yaralanmaları bölümünde ele alınacaktır.
+
+Subaraknoid kanamanın ölümdeki rolünü değerlendirmek güç olabilir; ancak bu daha çok, rüptüre anevrizmadan kaynaklanan doğal SAK’lar için önem taşır (Şekil 5.38, 5.39).
+
+Kafa travmalarında, ölümün nedeni, subaraknoid boşluktaki orta miktardaki kandan ziyade, beyin parankimine eşlik eden diğer hasarlardır.
+
+Ölümcül kafa travmasının tek sonucu olarak yalnızca geniş bir SAK’ın bulunduğu ender olgularda, SAK ölüm nedeni olarak kabul edilmelidir; ancak ölümde rekabet eden faktörler olarak serebral ödem ve mikroskopik diffüz aksonal yaralanma (diffuse axonal injury, DAI) ihtimali dışlanmalıdır. Ne var ki, travmadan sonra ölüm hızla gerçekleştiğinde bu dışlama çoğu kez güç, hatta imkânsız olabilir. Bununla birlikte, herhangi bir travmatik lezyon olmaksızın gelişen masif doğal SAK’ın ani ölüme yol açabildiği tartışmasız olduğundan, benzetme yoluyla, yeterince şiddetli olduğu takdirde saf (pure) travmatik SAK’ın da tek başına ölüm nedeni olamayacağı ileri sürülemez.
+
+Subaraknoid boşluğa olan yoğun kanamalarda ölüm olağanüstü derecede hızlı olabilir. Bu mekanizma tam olarak anlaşılmış değildir; ancak görünüşe göre, özellikle arka çukurdaki (posterior fossa) beyin sapının bir anda çok büyük miktarda kanla yıkanmasına maruz kaldığı olgularla sınırlıdır. Bu durum, genellikle rüptüre bir anevrizmaya veya yırtılmış baziler (basilar) ya da vertebral artere bağlıdır (Şekil 5.40).
+
+> **💬 Çevirmen notu:** Ani ölümle seyreden doğal SAK’larda, otopside başka travmatik bulgu olmayabilir. Bu, örneğin tartışma veya kolluk müdahalesi sırasında kollaps geçiren kişilerde, “darbeden öldü” iddialarında önemlidir. Beyin sapını hızla basan masif bazal SAK, özellikle adli otopsilerde mutlaka akla getirilmelidir.
+
+---
+
+### Beyin zarları kanamalarının adli tıp açısından sonuçları
+
+Beyin zarlarındaki kanamanın sık görülmesi nedeniyle, bu kanamalara bağlı bazı mediko-legal sorunların ele alınması gerekir.
+
+İlk olarak, hem ekstradural hem subdural kanamalarda görülen latent veya “lucid interval” (aralıklı aydınlık dönem), genellikle acil serviste görev yapan bir hekimin, görünürde iyi durumda olan bir hastayı taburcu ettiği, fakat hastanın daha sonra evde öldüğü veya çok ağır durumda yeniden hastaneye getirildiği olgularda, ihmal iddiasıyla açılan hukuk davalarına neden olabilir. Klinik yönler burada ayrıntılandırılamaz; ancak bu tür hastalarda, çok kısa süreli bile olsa, sarsıntı (konsüzyon; concussion) geçirmemiş olmalarının pek olası olmadığı belirtilmelidir. Klinik endikasyonlar yoksa, kafa grafisi (skull X-ray) çekilmesi zorunlu değildir; ancak grafi çekilmemiş olması, savunma açısından hukuki bir güçlük oluşturabilir. Subdural kanama çoğu kez sağlam bir kafatasında görülürken, ekstradural kanamada bu durum enderdir.
+
+Bilgisayarlı tomografi (BT; CT) ve manyetik rezonans (MR; MRI), intrakranyal travmatik yaralanma, kanama ve kitle etkisinin değerlendirilmesinde önemlidir. Tüm hafif kafa travmalı hastalara rutin BT çekilmesi, çok sayıda normal BT sonucu, gereksiz radyasyon maruziyeti ve sağlık kaynaklarının ekonomik olmayan kullanımına yol açacağından, intrakranyal yaralanma riski taşıyanları belirlemek için klinik karar kuralları geliştirilmektedir.50
+
+Daha önce belirtildiği gibi, hem ceza hem hukuk davalarında subdural hematomların tarihlendirilmesi kritik olabilir; zira belirli bir kafa travması epizodunun hematoma neden olup olmadığı iddia edilmekte veya reddedilmektedir. Herhangi bir “kesin” histolojik tarihleme şemasına dogmatik biçimde bağlı kalmak haklı değildir; ancak günler, haftalar ve aylar düzeyinde kaba ayrımlar yapılması makul olabilir.
+
+Eski bir kanamanın, sonradan gelişen kaza türü bir travmaya zemin hazırlayan tetikleyici faktör olabileceği, bu travmanın da yeni kanamaya yol açtığı olasılığı akılda tutulmalıdır.
+
+Zar kanamasının darbe yerini lokalize etmek için kullanılması, aşırı yorumlama riski taşır. Ekstradural hematom neredeyse her zaman darbeyle aynı taraftadır; ancak daha önce anlatıldığı gibi, kafatasında oluşan deformasyon nedeniyle, meningeal arteri kesen kırık hattı, darbe noktasından bir miktar uzakta bulunabilir. Ancak Gurdjian’ın çalışmalarına dayanarak, darbenin etki alanı (zone) için makul bir tahminde bulunulabilir.
+
+Subdural veya subaraknoid kanama söz konusu olduğunda, saçlı deri veya kafatasında hasar olmadıkça, darbenin niteliği ve lokalizasyonu hakkında dogmatik görüşler bildirmek yanıltıcı olabilir. Bazı olgularda saçlı deri lezyonunun varlığı, kanamanın “koup” (koup; coup) ya da “kontrekoup” (contrecoup) karakterde olduğunun net biçimde anlaşılmasını sağlasa da, kanamanın darbe yeriyle ilişkili olmadığı çok sayıda istisna bulunduğundan, kesin bir kanaat bildirmek haklı değildir.
+
+> **💬 Çevirmen notu:** Türkiye’de de hem ceza (TCK m. 85, 86, 87 vb.) hem tazminat davalarında, “doktor taburcu etti, sonra hasta evde öldü” veya “darbe neredendi?” sorusu sık gündeme gelir. Metin, radyolojik tetkiklerin karar algoritmalarına göre planlanması gerektiğini, buna karşın adli süreçte “BT çekilmedi” iddiasının savunmayı zorlayabileceğini vurguluyor. Ayrıca, yalnızca SAK’ın yerleşimine bakarak “düşme mi, yumruk mu” gibi kesin yorumlara varmanın bilimsel temeli zayıftır; rapor yazarken bu konuda temkinli dil kullanılması adli yönden önem taşır.

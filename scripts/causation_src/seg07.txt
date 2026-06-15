@@ -1,0 +1,914 @@
+4 Aspects of Causation in Hippocratic
+Medicine and Roman Law of Delict
+DANUTA MENDELSON*
+Introduction
+The notion of causation is pivotal to law as well as to medicine, yet the concept of
+causation is one where legal and medical minds do not necessarily meet. The
+reason may lie in the two-faceted nature of this concept, for causation can be
+defined as referring to either origins of phenomena or to the consequential
+relationship between two events, one of which is claimed to have brought about
+the other. Therefore, how the nature and function of causation is understood
+depends on whether emphasis is placed on causation in the sense of sources and
+constituent elements, or on causation in the sense of a relationship between
+occurrences. This is why concepts of legal and medical causation, though they
+seem similar, have different contents. As a result, dialogue between the two
+disciplines tends to be in parallel, with messages between them interpreted in
+each profession's own, different way.
+The question is whether this was always so, and how did these two ancient
+disciplines approach the concept of causation historically during their greatest
+periods of flowering and influence. Classical Greek medicine between the 5th and
+2nd century BCE developed many concepts of scientific epistemology and
+causation that survived well into the nineteenth century, moulding modern
+medical and scientific thinking. Likewise, notions of legal causation developed by
+the Roman Law of delict from the Republican lex Aquilia in c287-286 BCE to the
+promulgation of the Digest1 and Institutes2 by Justinian (527-565) in 533 CE still
+influence the legal discourse of causation.
+Hippocratic Medicine
+Many classical Greek concepts of medical epistemology and causation form part
+of modern medical and scientific thinking. In particular, Greek physicians
+developed a notion of rational aetiology, which involves correlation of disease to
+cause. The aetiology of a condition or disease would be arrived at through the
+process of diagnosis. The texts in the Hippocratic Corpus, reflect Greek
+physicians' clinical methods of physical examination: asking the patient about his
+or her symptoms; social and family history; observing the signs of the condition;
+and, if appropriate, performing such additional diagnostic tests as listening to the
+patient's chest, examination of urine, faeces and sputum.3 This was done in order
+to group signs and symptoms into "descriptions of familiar, more or less standard
+clusters called syndromes",4 with the final syndrome constituting the diagnosis in
+accordance with the medical theory acceptable at the time. Medical theory
+enabled the physician to decide "what is a significant sign and what helped to
+correlate symptoms with syndrome, syndrome with disease, and disease with its
+cause".5 Although diagnostic techniques and evaluation of the findings have
+changed, the actual process of arriving at diagnosis and its correlation to
+aetiology has remained essentially constant. At least since the time of
+Hippocrates (460-377 BCE), at the beginning of the therapeutic process,
+physicians would invariably ask the question "why", in the sense of what is the
+source or what are the sources of the patient's complaint. The answers would
+often depend on the prevailing medical theory.
+In the classical Greece of the 5th and 4th century BCE, medical beliefs about
+the nature of sickness and health were closely linked to philosophical theories
+about the nature and order of the universe. Pythagoras of Croton (c530 BCE)
+suggested that the universe is governed by a dynamic balance of contraries, based
+on the opposition of odd and even numbers. The human body was seen as a
+microcosm of the universe (macrocosm),6 whereby, according to Parmenides of
+Elea (c515-450 BCE), health and disease were affected by processes of change and
+stability within the universe.7 Empedocles of Sicily (fl mid-5th century BCE)
+posited that nature was composed of four basic elements – earth, air, fire, and
+water – that combined into temporarily stable mixtures. Having further
+developed the ideas of Parmenides, and applied them to physiology, he argued
+that the source of living processes, including digestion, was an innate heat, with
+the heart as the furnace. Consequently, the function of breathing was to cool the
+body, and the function of the liver was to produce blood to nourish the tissues.
+Hippocratic medicine, conceived as "a science of hidden things or causes
+(episteme), on the basis of which one could reason in therapeutic terms",8 looked
+to philosophy for epistemic explanations of the human condition. For example,
+Alcmaeon of Croton (fl 470 BCE)9 explained the fundamental principles
+governing health and disease through the Pythagorean notion of "pairs of bodily
+powers – hot and cold, sweet and sour, wet and dry. Seated in the blood, marrow
+or brain, illness could arise from an external cause or internal imbalance, caused
+by too much or too little nutriment."10 This blend of medico-philosophical ideas,
+combined with scientific observation of nature and clinical experience of
+physicians led to creation of the humoral theory of medicine.
+This medical theory, articulated in the writings of the Hippocratic Corpus,11
+involved a symmetrical grid of binary oppositions, and was based on a notion
+that the body was composed of four essential body fluids.12 These fluids, chymoi,
+or "humours" – which gave the theory its name – were blood (sanguis), phlegm
+(pituita), yellow bile (chole), and black bile (melanchole). The four physiological
+humours met in binary combination with the Pythagorean pairs of bodily powers
+to constitute the four "essences" (air, earth, fire and water). In turn, these essences
+were the constituents of all matter.13 Thus, humours, were integrated within a
+wider schema of natural order. Black bile was linked to the essence of earth, the
+season of autumn, and melancholy temperament.14 Its opposite was blood, related
+to the essence of air, spring, and sanguine temperament. Yellow bile was linked to
+the essence of fire, summer, and choleric temperament. Its opposite was phlegm,
+connected with water, winter, and phlegmatic temperament.15 The scheme was
+supplemented by four ages of man (childhood, youth, adulthood, and old age) and
+the notions of moderation and excess in moral behaviour.16 The author of The
+Sacred Disease, for example, wrote that the cause of epileptic convulsions was
+cold phlegm from the brain being discharged into blood-vessels, thus chilling the
+warm blood, obstructing its flow, and blocking the air-ways.17
+The function of medicine was defined as "the complete removal of the distress
+of the sick, the alleviation of the more violent disease and the refusal to undertake
+cure of cases in which the disease has already won the mastery, knowing that
+everything is not possible to medicine".18 The person's well-being and illness –
+and hence the general question of aetiology in Hippocratic medicine – was
+framed in terms of imbalances, be they physiological, environmental or moral.
+Once the cause of the harmful condition was ascertained, physicians would strive
+to heal their patients by restoring the humoral equilibrium.19
+Triggering and Latent Causes
+The complex theory of humoral medicine was scientific.20 It provided rational
+explanations of verifiable causes of diseases, as against ascribing them to an
+undifferentiated chance or a divine ordinance.21 It was a Hippocratic credo that
+knowledge of natural causes would enable physicians to provide correct
+treatment.22
+Aristotle (384-322 BCE) furnished the humoral model with epistemological
+framework. His epistemology was based on a teleological view of the world,
+which considered that everything in nature has its purpose, aim or goal (telos),
+including all bodily organs and functions.23 Aristotle identified four different
+categories of explanation, which he called causes:24 "formal" (defining
+characteristics),25 "material" (constituent elements),26 "efficient" (origin or source
+of transition from one state or occurrence to another),27 and "final" (in the sense
+of aim or goal).28
+Aristotle's concept of final causality was an integral dimension of the
+teleological approach to the natural order in the universe, which was regarded as
+divine.29 However, Hellenistic physicians left to philosophy the ultimate search
+for the final or "first causes of all nature" within a teleological framework of the
+universe.30 Nevertheless, they adopted the Aristotelian distinction between
+material and efficient causes, as well as a further distinction between essential or
+significant causes and accidental or insubstantial (trivial) causes. This analysis of
+causes was further refined by distinguishing evident or triggering causes from the
+latent or underlying causes, in the sense of being natural rather than
+supernatural, yet hidden from sensory knowledge.31 Aristotle, and later,
+physicians belonging to such Hellenistic medical schools as Herophilean and
+Erasistratean, endeavoured to discover latent or underlying causes of diseases
+through systematic study of biology, anatomy, pathology and physiology.32 They
+used scientific inquiry as means of ascertaining causal origins, episteme, of
+humoral imbalances. Epistemology of medical causation enabled them to
+understand not only how,33 but also why diseases occur.34
+But within its theoretical framework, the clinical art of humoral medicine was
+concerned with individual suffering to which practical solutions had to be found
+and applied. These solutions depended on the accurate identification of efficient
+or triggering causes that incorporated formal and material causality. Galen's
+description of different kinds of inflammations35 provides a good example of the
+use of medical reasoning in terms of causes. In his Cancer and Related Diseases,
+Galen pointed out that although physicians did not know latent causes of
+inflammation, they were nevertheless able to create a systematic humoral theory
+for diagnosis of swellings caused by inflammation. Formal causes such as body
+temperature and influx of blood with consequent exclusion of air36 were
+important because:
+A major swelling never comes to any part of the body unless it suffers one or the other of these two
+things relative to its substance: either it is suffused with too much heat and is boiling hot, so to speak, or
+it has recently acquired some substance from without.37
+Clinical observation enabled them to classify the inflammation in terms of
+material causes. These included swellings consequent upon a wound, an abscess
+or spontaneous growth. Hippocratic physicians would also observe the colour,
+size, mutations, secretions (clear serum or pus) and smell of the affected part, and
+then attribute the inflammation to such triggering causes as the high density of
+blood (an impacted humour) or bilious humours (bitter and black bile). Thus in
+clinical practice, identification of triggering causes was essential in diagnosing
+syndromes, which were ascertained from signs and symptoms. In this sense, the
+primary function of causation in medicine was "adjectival" or classificatory.
+Modern medicine, just as its Hippocratic ancestor, differentiates between the
+epistemological search for latent causes and efficient causality, which often
+provides sufficient explanation for diagnosis, prognosis and treatment.
+Delictual Actions in Roman Law
+In his Nicomachean Ethics, Aristotle developed theory of justice that was to
+profoundly influence the concept of legal causality in Western jurisprudence. In
+particular, Aristotle defined the concept of corrective justice as one that "plays a
+rectifying part in transactions between man and man".38 This sentence was later
+interpreted as referring to "judicial justice" whereby the judge restores the just
+equilibrium in a "bipolar relationship" of rights and entitlements that have been
+wrongfully disturbed.39 It is a moot point whether his concept of corrective
+justice was influenced by the Hippocratic notion of disease as an imbalance of
+humoral properties.40
+Aristotle did not distinguish between crimes and torts.41 Private law, as we
+understand it today, was developed by the Romans.42 Classical Roman law,
+including delict,43 was underpinned by a binary paradigm – with moral
+undertones. The Aristotelian notion of corrective justice is reflected in Ulpian's
+definition of the two basic principles of the right conduct: "... not to harm any
+other person, [and] to render to each his own."44 Jurisprudentially, the binary
+paradigm of corrective justice45 required that plaintiffs be restored to the position
+they enjoyed before sustaining loss or injury occasioned by the defendant's
+wrongful conduct.46 This concept is not dissimilar to the humoral theory whereby
+the aim of medical intervention is to return the patient's homeostatic balance by
+treating the cause of the imbalance. In law, the forensic process focused on
+restoring the balance of equities through rendering "each his due". In determining
+the balance of equities – rights and obligations – causation played an important
+part at the procedural level, in substantive law, and at the policy level.
+Though the development was gradual,47 in general, depending on the legal
+context, Roman jurists tended to differentiate between:
+ratio naturalis – reasoning derived from nature and "rooted in facts of
+life, in objective reality"48 and
+civilis ratio – technical legal reasoning that used analogy from the
+precedents, or general principles of the Roman civil law49 to attribute
+legal responsibility for the plaintiff's harm. The arguments were drawn
+from a jurisprudential system of rights and obligations, which, in turn,
+tended to be determined by moral and social policy considerations.
+At the same time, the modern distinction between factual causation and legal
+causation, which depends on a contrast between causal conditions (generally but-
+for conditions) and proximate causes,50 was foreign to the Roman sources. To the
+Roman lawyers, causes were, in Aristotle's language, efficient causes. Within
+efficient causes, the jurists distinguished between direct and indirect causes,
+especially in relation to Aquilian liability (discussed below), which was where
+medical problems were most likely to arise.
+Procedurally, under the Roman lex Aquilia, causation determined whether a
+remedy was available. At the substantive law level, again, factual causation
+helped to determine whether or not the conduct complained of was wrongful.
+Causation as a Determinant of Delictual Remedies
+Unlike the Hippocratic system of medicine, where there existed from an early
+stage an integral link between philosophy and medical theory, Roman
+jurisprudence, initially, that is until the advent of republican jurists,51 seems to
+have developed without a systematic body of philosophical assumptions and
+principles.52 Remedies (actiones) for delictual wrongs evolved gradually, from
+punitive prescriptions in the Twelve Tablets dating from c450 BCE, to republican
+lex Aquilia,53 praetorian policy actions, and actions on the facts in Justinian's
+Digest and Institutes. The availability of Roman delictual actions was predicated
+on whether the plaintiff's financial harm (damnum) was classified as directly or
+indirectly caused by the defendant.54 Consequently, the two types of efficient
+cause (direct or indirect) had a classificatory function in relation to the threshold
+question of the appropriate remedy.
+The statutory actio legis Aquiliae provided for penal and restorative56 damages.
+To recover, the plaintiff had to establish both a direct causal connection between
+death or injury of a slave or four-footed grazing animal, and iniuria,57 that is, the
+wrongful nature of the defendant's conduct. Initially, establishing efficient
+causation under lex Aquilia was not difficult, because the law required the cause
+of injury to be a direct and positive act "by the body to the body" (corpore
+datum).58 With time, liability was extended to blameworthy conduct causing
+death of the plaintiff's slave indirectly by dropping something on him, or
+drowning a slave by throwing him or her from a bridge. According to Celsus,59 in
+drowning cases, it was irrelevant whether the immediate cause of the slave's
+death was the immediate impact with the water, exhaustion, or the force of
+current.60 Nevertheless, while the requirement of direct positive action
+remained,61 where the positive action led indirectly to loss, as when the
+defendant pushed someone who fell against and killed the plaintiff's slave,62 the
+causal link would be regarded as too indirect63 for it to be a case of "killing".
+However, Ulpian, writing at the time of Caracalla (211-217CE), commented that
+an action on the facts (actio in factum) would be granted for causing death.
+It was in the final decades of the Republic,64 that delictual liability was
+extended to indirectly caused wrongful death of slaves under praetorian policy
+actions65 "in the spirit of the law" (actiones utilis legis Aquiliae)66 and actions "on
+the facts" (actiones in factum).67 These actions were also used to expand liability
+under Chapter III of the lex Aquilia to include indirect conduct causing actual
+(physical) harm or loss to property.68 Celsus distinguished between directly
+causing death, and furnishing an indirect cause of death.69 He gave two examples:
+administration of poison instead of medicine, and handing a sword to a
+"madman" who, presumably, killed himself with it.70 Labeo71 observed that where
+an abortifacient was administered directly by pouring it down the woman's
+throat and she died, the conduct amounted to killing (occidere), and fell within
+the lex Aquilia. By contrast, if the woman was handed the drug for self-
+administration and died, the person giving the abortifacient had not "killed" her,
+but had "caused her death" indirectly, since a voluntary act on her part
+intervened in the chain of events. This conduct was in the course of time treated
+by the lawyers and praetors as sufficient for liability (mortis causam praestare),
+and action on the facts would be granted.72 In other words, an indirect efficient
+cause came to be accepted as sufficient for liability.
+Thus efficient causation became central to the question of liability under
+actions on the facts for "mortis causam praebere", which extended delict to cover
+indirect loss occasioned without harmful physical contact.73 A person would be
+liable to an action in factum, if by making smoke he killed or drove away
+another's bees.74 An action on the facts for damages would also lie against a
+defendant, who out of compassion, unchained the plaintiff's slave and enabled
+him to escape.75 The action would lie, even though the plaintiff's loss of the slave
+amounted to merely economic and not to physical harm.76 But then, economic
+loss (damnum) was regarded as being of the essence of the lex Aquilia and
+actions based on the analogy to it.77
+Accordingly, as with humoral clinical medicine, the role of causation in the
+context of delictual remedies was adjectival – its identification and
+characterisation as either direct or indirect (furnishing the cause of death or loss)
+classified the conduct, which in turn, determined the nature of remedy.
+Attribution of Liability
+In addition to causation, fault was needed for Aquilian liability. Liability would
+be attributed to the defendant only if the additional element of iniuria, in the
+sense of unlawfulness associated with fault, was present. Ulpian provided two
+interrelated tests for establishing iniuria: non iure, that is absence of right
+(justification),78 and fault (culpa).79 Broadly, the notion of fault or
+blameworthiness80 was the determining criterion of liability. Broadly, the notion
+of blameworthiness involved either: deliberate, intentional fault, as when
+someone intentionally maimed or killed a slave, or, alternatively, unintentional
+but unreasonable81 or careless82 (negligent)83 causing of harm.
+The Romans, required both causation and culpability for responsibility under
+the lex Aquilia and its extensions. However, they distinguished between
+"causation" (culpability) and responsibility. Hence a problem arose when there
+was fault on both sides. If the slave killed was at fault and so was the defendant,
+then the act of each could be regarded as an efficient cause of the death or
+wound. In such cases, the plaintiff was barred unless the defendant intended the
+death etc, in which case the predominant fault was regarded as lying with the
+defendant, who could be regarded as both an efficient and a final cause of the
+death.
+The defendant accused of having caused an injury could argue that though he
+caused (was responsible) for the harm, his conduct was not culpable (he was not
+at fault) because he had the right to perform the injurious act. In such case (an
+irrebuttable presumption would arise that) the defendant was not liable, and
+consequently, the harm caused to the plaintiff was not compensable. For example,
+if a defendant threw a javelin and accidentally killed the plaintiff's slave, his
+liability would depend on the presence or absence of justification and fault. If the
+defendant was a soldier practising in a place reserved for military exercises,84
+there would be no liability because he had the right to do what he did at the
+particular location. Conversely, if the defendant was not a soldier, liability may
+attach,85 since a civilian would not have the right to practise javelin-throwing at
+a military training field. Likewise, a soldier practising javelin throwing in a non-
+designated area could be liable, for he had no right to practise in a public place.86
+Moreover, iniuria through culpa could attach to either the injurer or the
+injured. For example, in the case of a killed slave, if the accident happened where
+the slave had no right to be, the slave's fault was regarded as cancelling out the
+defendant's fault, so that there was no liability on the defendant's part. The cause
+of death would be attributed to the slave's own fault. A slave possessing the right
+to be in the javelin training field, might still be adjudged to be at fault
+(contributory negligence),87 on the basis that he failed to take care for his own
+safety.88
+In the javelin throwing examples, the act causing accidental death remained
+the same. The analysis focused on the parties' respective legal rights and
+culpability of their conduct, which determined fault and consequent attribution
+of liability for the killing. However, whenever killing was deliberate, moral policy
+considerations dictated that the Aquilian action would lie irrespective of the right
+to practise javelin or the slave's contributory negligence.89
+Direct and Indirect Causation in Multifactorial
+Settings
+The example of the javelin throwing accident illustrated how the attribution of
+legal causality between two events depends on parties' perspectives. The plaintiff,
+whose slave had the right to be at the place where the accident had occurred,
+would attribute cause of death to the defendant's careless action in throwing the
+javelin. However, the javelin thrower arguing contributory negligence, would
+attribute the slave's death to the latter's careless walking into the javelin's
+trajectory. Medicine would attribute the cause of death to the piercing wound
+occasioned by a sharp instrument.
+The issue of attribution of causal responsibility is even more difficult in cases
+with multifactorial causation. Roman jurists did not develop jurisprudence
+relating to direct and indirect causation in a multifactorial setting, even when
+they provided examples of it, as in the following passage from Ulpian:
+Further, Mela writes that, when some people were playing with a ball, one of them hit it hard and
+knocked the hands of a barber with the result that the throat of a slave whom the barber was shaving
+was cut by the jerking of the razor. In which of the parties does the fault lie? For it is he who is liable
+under the lex Aquilia. Proculus says the blame is the barber's, and surely, if he was doing shaving in a
+place where people customarily played games or where there was much going to and fro, the blame will
+be imputed to him; but it is no bad point in reply that if someone entrusts himself to a barber who has
+his chair in a dangerous place he has only himself to blame for his own misfortune.90
+Both Proculus91 and Mela92 argued the issue of fault and consequent liability
+on the basis that the direct, positive, though unintentional, action of the barber
+was the efficient (legal) cause of the slave's death. According to Proculus, since
+the barber's jerking motion was unintentional, his liability for causing the slave's
+death would rest on the attribution of fault to his conduct of setting up a stall in a
+dangerous place. Mela posited that the cause of the accident should be ascribed to
+the victim's own fault in acquiescing to be shaved in a dangerous place. Neither
+jurist asked whether the person who hit the ball "hard" and thus sparked the
+chain of events was at fault. This omission naturally followed the right-as-
+justification reasoning, because as long as the ball-player had the right to play
+ball in that place, he was not at fault. Yet, hitting the ball hard in the direction of
+a nearby barber's stall could amount to a careless, or even reckless act.93
+It might be that Mela and Proculus purposely did not discuss possible liability
+of the ball-thrower because they focused on the lex Aquilia rather than
+praetorian actions and actions on the facts, concentrating on direct rather than
+indirect causation. Nevertheless, it is odd that they did not analyse the chain of
+causation in this case. Some 1800 years later, in the case of Scott v Shepherd,94 the
+Court of Common Pleas would grapple with a not dissimilar case. The defendant,
+Shepherd, threw a lighted squib made of gunpowder from the street into the
+market-house. The squib landed on the stall of Yates. Willis, who was close by,
+instantly picked it up and, to prevent an injury to himself, threw the squib across
+the market-house onto the stall of Ryal, who in order to save his goods, at once
+picked up the still lighted squib and threw it away. It struck the face of the
+plaintiff, Scott, exploded, and blinded him in one eye. Three out of four judges
+found Shepherd liable in battery because Willis and Ryal acted under a
+compulsive necessity, and not as free agents. Consequently, their actions did not
+break the chain of direct causation. Likewise, it could be arguable that in Ulpian's
+example, the razor's cut was caused by the ball's impact on the barber's hands
+and thus was directly attributable to the thrower.
+In Scott v Shepherd, William Blackstone dissented, saying that Scott's injury
+was indirect, and therefore should sound in action on the case – a common law
+remedy for indirectly caused injuries. Again, this conclusion would have been
+open in the ball-thrower's case, for, in contradistinction to the javelin-thrower's
+act which directly caused the slave's death, the ball-thrower's act was an indirect
+cause of the slave's throat being cut by the barber. Though it has to be
+acknowledged that whereas Shepherd clearly did not have the right to throw the
+lighted squib into the market, one must assume that the ball-player did have the
+right to play ball in the street – at any rate the possible fault on the ball-player's
+part is not discussed by Mela and Proculus.95
+It has been suggested that Roman jurists concentrated on analysis of fault
+because "it was easier to decide difficult cases by pinpointing the incidence of
+fault than by asking who had actually caused the loss."96 But it is also arguable,
+that while the Romans recognised the possibility or even likelihood of more than
+one efficient cause of the death or injury, they held that as a matter of corrective
+justice the plaintiff could not recover if one of the causes was the fault of himself
+or his slave.97 The above examples suggest that the practical result of Roman legal
+reasoning may have been the same as that envisaged by the Aristotelian concept
+of corrective justice, even though Aristotle probably placed an emphasis on
+evening out "losses" and "gains" in terms of causation, whereas Romans
+approached the balance of justice in terms of fault.
+Multiple Sufficient Causes: Mortal and Fatal Wounds
+Determination of liability in cases where an assailant mortally wounded a slave
+who died from a subsequently inflicted fatal wound raised the question of
+multiple sufficient causes.98 This question was examined in the Digest by three
+Roman jurists. Ulpian attributed to Celsus the following passage:
+Celsus writes that if one attacker inflicts a mortal wound on a slave and another person later finishes
+him off, he who struck the earlier blow will not be liable for a killing, but for wounding, because he [the
+slave] actually perished as the result of another wound. The latter assailant will be held liable because he
+did the killing.99
+Likewise, according to Ulpian, the attacker who mortally wounded a slave
+whose death was subsequently accelerated by the collapse of a house or a
+shipwreck, or a blow, would be liable merely for wounding.100 Julian,101 while
+discussing a case very similar to Ulpian's, provided a conclusion inconsistent with
+the first two examples, when he wrote that:
+... it is not only those who wound so as to deprive at once of life who will be liable for a killing in
+accordance with the lex but also those who inflict an injury which is certain to prove fatal. Accordingly,
+if someone wounds a slave mortally and then after a while someone else inflicts a further injury, as a
+result of which he dies sooner than would otherwise have been the case, it is clear that both assailants
+are liable for killing.102
+Both Ulpian and Julian assumed that the conduct of the first assailant in each
+of the three cases was blameworthy, and thus culpable. In issue, therefore was the
+culpability of the supervening fatal event. The function of efficient causation in
+the three examples was classificatory. However, this time, its purpose was to
+determine the scope of legal responsibility in relation each event for the slave's
+death (rather than the type of appropriate remedy). The three "wounding" cases
+provide a classic example of the interplay between medical causal uncertainty
+and its legal consequences. In each example, it was assumed that both the
+"mortal" and the "fatal" wound was sufficient to cause death, but medicine could
+not determine which wound was a significant and which was an insubstantial
+cause of death. In other words, medicine could probably explain the organic
+reasons of death, but could not apportion the causative legal factors. The law had
+to find its own way of solving this conundrum.
+The Roman jurists adopted two distinct approaches. Ulpian's approach was to
+dissect the facts and to draw therefrom strict logical conclusions. The mortally
+wounded slave was still alive when an independent supervening event killed him.
+It was not known – and could not be known – for how long he would have lived.
+Ulpian therefore attributed the cause of death to the supervening event, which
+left the original attacker with legal liability merely for wounding. It was
+irrelevant to the scope of the first assailant's legal – as against moral – liability,
+whether or not the independent supervening event was blameworthy. If it was
+blameworthy, then lex Aquilia would apply.
+Julian resolved the issue in policy terms. On the basis of essentially identical
+facts, he attributed legal liability for the killing to both assailants, though he
+stated that each of the culprits would have to pay the owner a differentiated
+amount in damages.103 From a causal point of view, Julian seemed to have
+assumed that the inevitability of the slave's imminent death justified the
+imposition of liability even if the slave did not in fact die of the first wound.
+Since the first wrongdoer has not in fact killed the slave, the extension of liability
+was based on policy grounds. Thus, Julian's conclusion did not stem from an
+investigation of the causative factors; rather, it was based on a broad notion of
+blameworthiness and the social consideration that "Misdeeds should not escape
+unpunished, and it is not easy to decide if one is more blameworthy than the
+other."104
+Julian was not entirely satisfied with his analysis, for he ruefully observed that
+"Indeed, it can be proved by innumerable examples that civil law has accepted
+things for the general good that do not accord with pure logic".105
+The appeal to a greater social or moral good as an excuse for the failure to
+rigorously investigate and determine causation also tends to underlay the modern
+law of causation in the context of negligence.
+Loss Caused Through Careless Performance of Duty
+Apart from harm caused by careless positive direct conduct, actio legis aquiliae
+provided a remedy for careless performance of duty. Fault would be attributed to
+someone who negligently performed services under a contract or for a fee.106 In
+general, the standard of care for the purposes of delictual liability was very
+high.107 The Digest stated that "under the lex Aquilia even the slightest degree of
+fault counts".108 This meant that liability attached once damage was shown to
+follow directly from wrongful failure to attain the required standard.
+In contradistinction to Classical Greece, where the law absolved from blame a
+physician whose patient died while under his care, both the Digest and Institutes
+provide examples of medical culpability. The difference in approach to medical
+liability may have been due to the fact that although Greek rational medicine
+became known to the Romans in the third century BCE, it was never popular.109
+Preference was given to traditional Roman medicine: a combination of folk
+remedies and magical incantations invoking the help of the supernatural.110 The
+rational Roman lawyers, must have regarded these healing practices with
+unease.111 Indeed, Ulpian, discussing claims for fees, distinguished between
+proper doctors, including specialists, who can sue for their fees, and those who
+resort to incantation or exorcism. He called the latter impostors, though, he
+added, there are those who say that the incantations etc have done them good.112
+Be that as it may, Ulpian quoted Proculus saying that if a surgeon operated
+negligently on a slave, the owner could have an action either under contract or
+under the lex Aquilia.113 Gaius observed that "the law is just the same if one
+[doctor] misuses a drug, or, if having operated efficiently, the aftercare is
+neglected; the wrongdoer will not go free, but is deemed to be guilty of
+negligence".114
+Ulpian's statement regarding negligently performed operations, and Gaius'
+instance of misuse of drugs would fall within Aquilian liability because of the
+requirement of wrongful positive conduct causing loss to the plaintiff was
+fulfilled. However, Gaius' example of the failure to provide post-operative care
+involved an omission, rather than positive conduct. Omissions, as a general rule,
+did not give rise to an action in delict in classical law,115 except under actio in
+factum or actio utilis legis Aquiliae, where the defendant had previously made a
+positive undertaking and then failed to carry it out.116 Admittedly, this part of the
+commentary in the Digest is dealing with the fault rather than causal issues of
+what amounts to killing or wounding. Nevertheless, Gaius would have assumed
+that the doctor's fault was a cause of injury or death, since otherwise the action
+would not lie.
+The example of post-operative care presages some contemporary conceptual
+problems involving the issue of fault and external as against inherent causes of
+harm. Many medical malpractice suits turn on the question whether liability for
+the plaintiff's harm should be attributed to the nature of the medical condition or
+to the conduct of the medical attendant. In other words, in determining
+causation, should the law examine why the slave died or should it merely
+consider how he died, thus conflating fault with causation.117
+The structure of the Digest whereby key words in the law were discussed in
+turn, led the Roman jurists to focus separately on the different elements in the
+action – the defendant's conduct, including its relation to the outcome; the issue
+of fault, including the fault on the part of the plaintiff's slave; the right to sue; the
+damages or penalty recoverable. Ulpian's and Gaius' commentary on medical
+negligence occurs at point where fault (iniuria) is being analysed.118
+Consequently examination of liability for medical negligence is confined to the
+question whether the doctor was at fault, leaving aside the question of what his
+fault, if shown to be present, may or may not have caused. The inquiry into
+causal processes, so far as contemporary medicine allowed of it, fell under the
+discussion of what constituted killing, wounding, etc. Naturally, there may have
+been a tendency to suppose that the doctor, had he not been at fault, could have
+cured the patient or improved his or her condition.119
+The question "how" did the slave die could be answered by stating that he died
+without having received a visit from the surgeon, thus causally linking slave's
+death with the surgeon's failure to attend him. The question "why" did he die
+would have pointed the legal inquiry in the direction of the slave's medical
+condition. For example, his death might have been caused by post-operative heart
+failure or septicemia – both conditions were described in the Hippocratic
+Corpus,120 and both were fatal until the 1940s. Admittedly, there is a suggestion
+that the surgeon might have escaped liability if he could establish that he did
+provide some aftercare. This is because he would then be able to argue that the
+death was due to a cause other than his own neglect. Since he fulfilled his
+obligations under the terms of agreement, no fault should be attributed to his
+conduct.
+Confined, though it is to the issue of fault – "what amounts to culpa?" – the
+discussion of post-operative care did not exclude entirely the issue of causation. It
+would have been known in Roman times, just as it is today, that some patients
+may die with the best of care while others will survive with none. Gaius thus
+provided an early example of attribution of causal liability based on policy
+considerations involving general creation and enforcement of acceptable
+normative standards under the law of obligations,121 rather than through
+determination of particular medical causes.
+Conclusion
+The examination of the approach to causation in Hippocratic medicine and
+Roman law of delict suggest that in both disciplines, identification of material
+causes had a classificatory function. In medicine, ascertainment of the efficient or
+triggering causes was vital to the diagnosis and treatment of humoral imbalances.
+In law, classification of a cause as direct or indirect determined the cause of
+action, be it Aquilian, praetorian, or on the facts. In both disciplines causal
+analysis was directed backwards – from the present medical condition or legal set
+of circumstances to the source or act that caused the transition from the state of
+physical, psychological or economic well-being to illness, harm or loss.
+Moreover, in both disciplines triggering causes were considered to be a matter
+of factual evidence drawn from observation and experience. In medicine, latent
+causes were only accepted if based on facts. But, unlike the ascertainment of
+triggering causes, knowledge of latent causes was not always essential for
+efficacious treatment. For example, humoral medical theory held that the heart
+was a furnace generating and distributing heat throughout the body.
+Consequently, ancient Greek physicians, who meticulously observed the signs
+and symptoms of heart failure did not correlate them with disordered cardiac
+function. Instead, the syndromes were attributed to the phlegm (cold humour)
+moving from the brain to the chest.122 This notwithstanding, they were able to
+distinguish between many different syndromes, and in the case of pleural
+effusion, prescribe treatment to drain fluid in the chest, a procedure which did
+not differ too much from contemporary techniques.123
+In modern medical practice, the diagnostic process would still proceed from
+symptoms to diagnosis of syndromes, disease entities and aetiologies. Though
+today, the medical theory requires that the correlative reasoning regarding
+medical diagnosis and causation be based on estimates of statistical probability.124
+However, application of statistical probabilities to diagnosis, aetiology and
+prognosis in the context of a particular condition presented by the patient is still
+to be fully worked out. Moreover, even today, not all causes of medical conditions
+are known and not all factual information is totally reliable.
+In the face of causal uncertainty, modern physicians, just like their ancient
+Greek counterparts concentrate on alleviating symptoms. For instance,
+hypertension or high blood pressure may be caused by a number of medical
+conditions including kidney disease and uraemia or other toxic conditions;
+endocrine disorders such as hyperthyroidism and acromegaly; artery disease
+which reduces elasticity, and tumours of the central portion (medulla) of the
+adrenal gland.125 However, primary or "essential hypertension" has no apparent
+specific organic cause. If a known organic cause cannot be found, the diagnosis
+will be that of primary or "essential hypertension", and the condition will be
+treated symptomatically.
+Roman law focused on the circumstantial or factual connection between the
+defendant's conduct and the plaintiff's harm, but determined the ultimate
+question of liability on the basis of both causation and fault, neither being
+sufficient by itself for liability. This meant that efficient causality was ascertained
+by asking how rather than why the harm and its alleged legal causes were linked.
+In the modern law of torts, the distinction based on direct and indirect causation
+is nominally preserved in the divide between trespass and action on the case. The
+distinction is clearest in torts of trespass to land and nuisance, but it has become
+rather fuzzy in the tort of negligence.126 Moreover, in the classic delictual
+paradigm, the wording of the lex and the formulae to give effect to it suggest that
+the iniuria issue and the causal issue were taken together (iniuria occiderit). In
+Ulpian's commentary iniuria was discussed before occiderit.127 This paradigm
+was followed in the tort of negligence. Fault, measured in terms of the
+defendant's response to foreseeable risk of harm,128 is determined first, and then
+legal nexus in terms of causation may or may not be found between the culpable
+conduct and the alleged harm. For example, when a modern plaintiff complains
+about an injury in the form of hypertension allegedly due to the wrongdoing of
+the defendant employer, the defendant's lawyer, while admitting the client's fault
+may deny liability on the grounds of causation.129 This is because legal liability
+will be attributed to the defendant only if the plaintiff can show that it was the
+defendant's wrongful conduct rather than such factors as death of a loved one,
+stressful divorce, gambling or other addiction, that on the balance of probabilities,
+caused or materially contributed to the risk of the injury by way of
+hypertension.130 Therefore, although scientific causal explanations are considered,
+ultimately, the decision is reached on the basis of policy considerations rather
+than a logical extrapolation from established facts. The analysis of "wounding"
+and medical malpractice cases in the Digest illustrates how Roman jurists
+approached the issue of causation and fault.
+The shift in emphasis from factual causation to legal causation has been
+exacerbated in the modern law of negligence by the test of fault defined as failure
+to foresee the risk of harm. Romans adopted the standard of diligence and
+foreseeability. Paul,131 quoting Sabinus'132 wrote that: "there is a fault when what
+could have been foreseen by a diligent man was not foreseen ..."133 Modern law
+has incorporated the notion of risk into this test. The notion of foreseeability of
+the risk of harm, as against foreseeability of harm, is inchoate at best, but where
+the harm is known to have eventuated, asking whether the risk of it occurring
+was foreseeable amounts to foretelling the past.134 This kind of reasoning makes
+the question of factual causation, in the sense of inductive reconstruction of past
+events, superfluous. Yet it is important for the intellectual credibility of the law, if
+not for the higher goal of achieving corrective justice, that a careful analysis be
+explicitly undertaken as to how the defendant's conduct and the plaintiff's harm
+are causatively linked. At the same time, the general question why something has
+happened belongs to the realm of sociology, politics, philosophy, and medical
+science. It is not the issue with which either Roman or modern courts have
+grappled. Their task has always been to determine whether some defined harm
+has been caused by some particular wrongful act.
+* Senior Lecturer at the School of Law at Deakin University. I acknowledge with deep gratitude the help
+of Professor Antony Honoré who made a number of extensive comments on an earlier draft of this
+chapter. They have changed my understanding of the structure and the internal logic of the Digest
+and, hence, the Roman law of delict.
+1 The Digest comprises fifty books of excerpts from the writings of the classical jurists dating from the
+late Roman Republic to the beginning of the 3rd century CE. All quotations are from The Digest of
+Justinian, translation edited by Alan Watson, vol 1, University of Pennsylvania Press, Philadelphia,
+1985.
+2 Institutes was envisaged as an elementary textbook for law students, based in large part on the
+Institutes of Gaius.
+3 Results of diagnostic tests also fall within the category of signs. It is acknowledged today that the
+process of diagnosis is not a one off event, but effectively continues through each stage of therapy.
+4 N Laor & J Agassi, Diagnosis: Philosophical and Medical Perspectives, Kluwer Academic Publishers,
+Dordrecht/Boston, 1990, at p32.
+5 Ibid.
+6 Roy Porter, The Greatest Benefit to Mankind: A Medical History of Humanity From Antiquity to the
+Present, Harper Collins, London, 1997, at p54.
+7 For example, Parmenides of Elea (c 515-450 BCE). Roy Porter, op cit, n6, at p54.
+8 Danielle Gourevitch referring to Definitiones Medicae in the Galenic corpus in "The Paths of
+Knowledge", in MD Grmek, Western Medical Thought from Antiquity to the Middle Ages, Harvard
+University Press, Cambridge, Massachusetts, 1998, at p104.
+9 Alcmaeon was the first to scientifically establish that the brain was the chief organ of sensation.
+10 See Porter, op cit, n6, at p55.
+11 The Hippocratic Corpus consists of about 60 treatises, the collection of aphorisms, the Oath and the
+Canon. Some of the treatises and aphorisms were written by Hippocrates himself. However, the
+Corpus as a whole is the work of a large number of medical writers of ancient Greece compiled
+between 430 and 300 BCE, with subsequent interpolations.
+12 This theory was developed by the pupil of Hippocrates, Polybus. Much later, it was adopted by Galen.
+13 C Singer & EA Underwood, A Short History of Medicine, 2nd edn, Clarendon Press, Oxford, 1962, at
+p46.
+14 Black bile was associated with leprosy, malaria, melancholic madness and cancer.
+15 Based on each individual's unique temperament, history, and the season of the year associated with the
+complaint, treatment was specifically tailored to restore the balance appropriate to any given patient.
+16 In Roman times, the Greek model was augmented by humours of the four periods of day, four types of
+fever, four tastes, and four colours. The humoral model became more complex and unscientific when
+in medieval times four musical tonalities, and the four Evangelists were added; V Nutton, "Medicine
+in the Greek World, 800-50 BC" in LI Conrad, M Neve, V Nutton, R Porter & A Wear, The Western
+Medical Tradition 800 BC to AD 1800, Cambridge University Press, Cambridge, 1995, pp24-5.
+17 Hippocrates, "The Sacred Disease", GER Lloyd (ed), (trans J Chadwick & WN Mann), in Hippocratic
+Writings, Penguin Classics, Harmondsworth, 1983, para 10, at p245.
+18 "The Science of Medicine", ibid, n17, para 3, at p140.
+19 "Pain occurs when one of the substances [blood, phlegm, yellow and black bile] presents either
+deficiency or excess, or is separated in the body and not mixed with the others." Hippocrates, "The
+Nature of Man" in (trans J Chadwick & WN Mann), The Medical Works of Hippocrates, Springfield,
+Ill, Charles C Thomas, 1950.
+20 Today, however, the paradigm of humoral medicine would be regarded as pseudo-scientific because its
+causal framework that cannot be falsified within its own terms. In other words, the model was
+capable of explaining the cause of any illness in terms of imbalance – a surfeit or deficit of humours
+and their associated qualities: see Nutton, op cit, n16, at p25.
+21 "Every phenomenon [in nature] will be found to have some cause, and if it has a cause, chance [being a
+cause of cure] can be no more than an empty name. The science of medicine is seen to be real both in
+the causes of various phenomena which occur and in the provisions which it takes to meet them...".
+"The Science of Medicine", supra, n17, para 6, at p141.
+22 "To know the cause of a disease and to understand the use of various methods by which disease may be
+prevented amounts to the same thing in effect as being able to cure the malady". "The Science of
+Medicine," supra, n17, para 11, at p145.
+23 The famous example provided by Aristotle was the duck's webbed feet, which he explained were for
+the sake of swimming, an activity that supports the goal of a duck's existence, which is to find food in
+the water so as to stay alive.
+24 Aristotle, Metaphysics [1013a][1] (b) 33.
+25 Ibid, [994a][1]; [1013a][1] (g).
+26 Ibid, [1013b][1].
+27 Ibid, [1013b][1]; [1013a][20] (a).
+28 Ibid, [994b][1].
+29 Ibid, [994a][1]; [994b][1]. Aristotle's teleological approach was later adopted by Christian philosophers,
+which led to the symbiosis between religion and medieval science, including medicine (medieval
+physicians regarded all causes of disease as being of divine origin). This link was only severed by
+Cartesian philosophers of the 17th century, who rejected the concept of final causality.
+30 M Vegetti, "Between the Knowledge and Practice: Hellenistic Medicine" in Grmek, op cit, n8, at p78.
+31 J Jouanna, "The Birth of Western Medical Art" in Grmek, op cit, n8, at p50.
+32 See Vegetti, supra, n30.
+33 The medical school of Empirics considered that for the practice of medicine, only knowledge of
+triggering causes, obtained through empirical experience was of any importance.
+34 Apart from anatomy and physiology, modern medicine looks to biochemistry, neurosciences, genetics,
+etc, to provide scientific explanations for medical pathologies and diseases.
+35 "The word [inflammation] is customarily used by the Greek [physicians] to refer to fleshy parts in a
+large swelling that occurs with tension, resistance, throbbing pain, heat and redness." Galen (trans J
+Reedy), "On Cancer and Related Diseases" (1975) 10 Clio Medica 229.
+36 Ibid, at 229.
+37 Ibid.
+38 "Of particular justice and that which is just in the corresponding sense, (A) one kind is that which is
+manifested in distributions of honour or money or the other things that fall to be divided among
+those who have a share in the constitution (for in these it is possible for one man to have a share
+either unequal or equal to that of another), and (B) one is that which plays a rectifying part in
+transactions between man and man." Aristotle (trans W D Ross), Nichomachean Ethics, Clarendon
+Press, Oxford, Book V, 2.
+39 EJ Weinrib, "The Gains and Losses of Corrective Justice" (1994) 44 Duke LJ 277. Judicial rectification of
+wrongs in a particular case is predicated on understanding of the underlying rights that conform to
+the notion of distributive justice. RA Epstein, "Symposium on Causation in the Law of Torts:
+Causation – in Context: an Afterword" (1987) 63 Chi-Kent L Rev 653 at 654.
+40 Aristotle (384-322 BCE), a son of the court physician from Stagira in Thrace, was very well familiar
+with the theory of humoral medicine.
+41 ARW Harrison, "Aristotle's Nichomachean Ethics, Book V, and the Law of Athens" (1957) 77 Journal of
+Hellenic Studies 42 at 43. Though he did seem to distinguish between obligations arising out of
+voluntary and involuntary involvement between parties. Harrison, at 45; Nichomachean Ethics, Book
+V, 113.1a.2.
+42 See generally RW Lee, The Elements of Roman Law, 4th edn, Sweet & Maxwell, London, 1956, at 371
+(discussing the development of third party liability by the Romans): R Zimmerman, The Law of
+Obligations, Clarendon Press, Oxford, 1996.
+43 In Roman law delicts included theft, robbery, injury to property, and wilful injury to the person or
+reputation.
+44 D.1.1.10.1; Inst. 1.1. pr. This affirmation of right conduct, which begins with "To live honourably", was
+formulated in the late third century in a work wrongly attributed to Ulpian (- 223 CE). It was
+influenced by philosophical thought of the following generation, perhaps from the circle of Origen.
+See T Honoré, Ulpian, Oxford University Press, Oxford, 1982, 111-13; D Liebs, "Ulpiani Regulae –
+Zwei Pseudepigrapha" in Romanitas-Christianitas. Untersuchungen zur Geschichte und Literatur der
+roöischen Kaiserzeit, 1982, pp282-92.
+T45 he Roman notion of corrective justice under lex Aquilia was not only compensatory, but also extended
+to penalties in a multiple of the loss in cases where, if the defendant denied liability, twice the loss
+would be payable to the victim.
+46 Neither the Aristotelian notion of justice, nor the Roman ideal of just and fair legal system extended to
+slaves. Slaves were res mortales (mortal objects), and their death or injury was regarded as a
+proprietary loss for the plaintiff-owner.
+47 V Palmer, "A General Theory of the Inner Structure of Strict Liability: Common Law, Civil Law, and
+Comparative Law" (1988) 62 Tul L Rev 1303 at 1313 argues that under Twelve Tablets liability was
+strict and determined solely by the issue of causation, namely whether a person or thing was in fact
+the cause of an unlawful result.
+48 P Stein, "The Development of the Notion of Naturalis Ratio" in A Watson (ed), Daube Noster, Scottish
+Academic Press, Edinburgh, 1974, at pp312-13.
+49 Ibid.
+50 In the modern tort of negligence, the legal issue of causal connection between the defendant's conduct
+and the harmful result is also split into two questions: (i) the "factual" causation known as the causa
+sine qua non ("but for") test, which effectively tests a hypothetical cause (would the damage have
+happened but for the defendant's negligence in an identical set of circumstances?); and (ii) "proximate
+causation" based on various normative tests that involve considerations of right, wrong and
+economics as understood by the judiciary of the time. For an elegant critique of these concepts see
+HLA Hart & T Honoré, Causation in the Law, 2nd edn. Clarendon Press, Oxford, 1985, pp98-108.
+51 Until 300 BC, the interpretation of the law, in particular, the Twelve Tablets was the prerogative of the
+College of Pontiffs, a quasi-religious body of public officials who passed down the law orally without
+providing reasons for their rulings. Pontifex Quintus Mucius Scaevola published the first systematic
+legal treatise, De iure civili, in the 80s BCE.
+52 Roman jurisprudence seems to have had close interaction with Roman rhetoric, which discussed
+concepts of proximate and remote cause as well as principal and antecedent causes. D Norr, "Causam
+Mortis Praebere" in N MacCormick & P Birks (eds), The Legal Mind: Essays for Tony Honoré,
+Clarendon Press, Oxford, 1986.
+53 Lex Aquilia was a plebiscite, which was eventually incorporated into Corpus Juris Civilis. The statute
+contained three Chapters. Chapters I and III dealt with remedies for wrongfully caused (damnum
+iniuria datum) financial loss and damage to property. Chapter II, which became obsolete after the
+beginning of the 2nd century CE, provided a remedy for stipulators who were victims of fraud. For a
+discussion of the origins and nature of lex Aquilia, see Reinhard Zimmerman, supra, n42, at 955-7.
+54 Roman actions were litigated in two stages. The parties would go before the magistrate, the praetor,
+who would decide whether the dispute raised an issue recognised by the civil law, and which remedy
+should apply. Then, the iudex, a layman chosen by the parties from a list of qualified citizens, would
+conduct a trial and make determination. P Stein, "The Development of Law in Classical and Early
+Medieval Europe: Interpretation and Legal Reasoning in Roman Law" (1995) 70 Chi-Kent L Rev 1539.
+55 See n45. Lex Aquilia replaced fixed penalties for wrongful acts imposed under Twelve Tablets with a
+more flexible assessment of the damages suffered by the victim. There were also noxal actions,
+whereby a master who was sued for acts of a slave or a parent for the acts of a child, could hand over
+the slave or child to the plaintiff, either to be sold for compensation or to suffer private vengeance.
+56 A restorative (rei persequendae) action was intended to compensate the plaintiff for the actual loss he
+had suffered (an award in excess of the loss would be regarded as penal): E Metzger (ed), A
+Companion to Justinian's Institutes, Cornell University Press, Ithaca, New York, 1998, at pp224, 253.
+57 The term "iniuria" had a number of meanings in Roman law. Ulpian distinguished the meaning of
+"iniuria" in the sense of insult (giving rise to an action for insult) from wrongful or illegal conduct
+which constituted fault for the specific purpose of Aquilian liability: D.9.2.5.1.
+58 Actio directa corpora corpori: RW Lee, The Elements of Roman Law, 4th edn, Sweet & Maxwell, London
+(1956) at p395. Julian, writing under the Antonines, provided the following legal definition of killing:
+"A person is generally said to have killed if he had furnished a cause of death in any way whatever,
+but so far as the lex Aquilia is concerned, there will be liability only if the death resulted from some
+application of force, done as it were by one's own hand." D.9,2.51.pr.
+59 Celsus worked in the time of Hadrian.
+60 D.9.2.7.7; Inst. IV, 3, 16.
+61 Actio utilis corpori non corpore (quasi ex legis Aquilia) D.47.2.51.
+62 D.9.2.7.3.
+63 For example, Julian disputing Proculus, pointed out that in relation to a defendant who set his dog
+against the plaintiff's slave, the form of action would depend on whether the defendant had actually
+held the dog at the time of attack or left the dog to perpetrate the attack without any physical
+assistance: D.9.2.11.5.
+64 The Republic came to an end in 27 BCE.
+65 Policy actions (actiones utilis) were formulated by analogy with the standard action, where the facts set
+out in the formula reflected the same policy underlying the standard action: Metzger, supra, n56, at
+p246.
+66 In post-classical law (ie, post Ulpian), actio utilis legis Aquiliae provided also a remedy to free persons
+who were wrongfully injured. D.9.2.13.pr.
+67 Praetorian edict allowed the formulation of actions on the facts (actiones in factum) sometime in the
+latter part of the 2nd century BCE. In these non-standard actions, the judge's verdict was determined
+by findings of fact. Gaius (G.3.219) did not mention action on the facts (actio in factum): Reinhard
+Zimmerman, supra, n42, at pp981-2. In the Digest, the terms actio in factum and actio utilis are used
+interchangeably.
+68 Actionable loss included alteration of property, like causing wine to turn into vinegar. The term for the
+relevant damage, introduced by Celsus, was "corrumpere" (corrupted, spoiled). The defendant would
+be liable under an actio in factum: Zimmerman, supra, n42, at 984-5.
+69 Under actions on the facts, defendants were liable for "furnishing a cause of death". Celsus quoted by
+Ulpian in D.9.2.6.
+70 D.9.2.7.6.
+71 Labeo (- 10/11 CE). His Libri posteriores was an authoritative and systematic exposition of Roman law.
+72 D.9.2.9.pr.
+73 Actio in factum nec corpore nec corpori (ad exemplum legis Aquiliae). For a discussion of mortis
+causam praebere, see Nörr, op cit, n52.
+74 Ulpian, Digest, 9.2.49.pr. Two millennia later, this Roman doctrine seems to have been the basis for a
+decision in Sneesby v The Lancashire and Yorkshire Rly Co [1875] 1 QB 42. In Sneesby, the English
+Court of Appeal found the defendant railway company liable in negligence to the plaintiffs for the
+loss of six head of cattle. The plaintiff's employees were driving the cattle across a level crossing
+operated by the defendants, when several railway trucks were negligently allowed to run down the
+tracks, separating the beasts from the drovers. As a result, the cattle "became infuriated", rushed
+away, and were eventually found lying dead or dying on another part of the railway.
+75 Justinian's Institutes, 4.3.16. R Evans-Jones & G MacCormack, "Obligations" in Metzger, supra, n56, at
+p189.
+76 Ulpian provided an example of an actionable indirect cause of material loss in the case of a plaintiff
+who hired a plasterer to mend a vat. The plasterer punctured the side of the vat and, as a result, the
+wine contained therein ran out, to the plaintiff's loss. Ulpian, D.9.2.27.35.
+77 Antony Honoré, personal communication.
+78 Justinian's Institutes, 4.3.2: "to kill unlawfully is to kill without any right". When the Aquilian Act was
+enacted, the legal connotation of "iniuria" was non iure (without right). The liability was strict, but
+the defendant would be exonerated if he established that he was exercising a legal right such as self
+defence. Moreover, no liability would accrue under lex Aquilia in cases of killing by misadventure,
+providing there was no fault or carelessness on the part of the defendant: Justinian's Institutes, 4.3.3.
+79 Gaius in the 2nd century CE defined "wrongful" exclusively in terms of fault: G.3.211.
+80 D.9.2.5.1.
+81 Ulpian, D.9.2.5.2-3; Paul 9.2.6.
+82 Ulpian, D.9.2.7.2, 8.
+83 Gaius, D.9.2.8.
+84 Justinian's Institutes, 4.3.4.
+85 Ibid.
+86 Ibid. The echo of attributing fault according to the appropriateness of place in which the harm-
+producing activity took place can be found in Mitchell v Allestry (1676) 1 Vent 295, 3 Keb 650, where
+the court held that "It was the defendant's fault, to bring a wild horse into such a place [Little
+Lincoln's Inn Fields] where mischief might probably be done, by reason of the concourse of people."
+87 Contributory negligence was a complete defence: A Borkowski, Textbook on Roman Law, Blackstone
+Press, London, 1994, at p308.
+88 D.9.2.9.4.
+89 D.9.2.9.4.
+90 D.9.2.11.pr.
+91 Proculus, jurist arid law teacher worked in the middle of the 1st century CE.
+92 Mela, an Augustan jurist contemporary of Labeo.
+93 Ulpian does not mention whether the player was aware of the nearby barber's stall when he hit the
+ball.
+94 Scott v Shepherd (1773) 2 Wm B1 892; 3 Wils 403; [1558-1774] All ER 295.
+95 A point made by Antony Honoré in personal communication.
+96 R Evans-Jones & G MacCormack, supra, n75, at p88.
+97 Professor Antony Honoré, personal communication.
+98 JS Kortmann in "Ab alio ictu(s)\ Misconceptions about Julian's View on Causation" (1999) 20 Legal
+History 95, refers to this passage of Ulpian as dealing with the issue of "supervening cause", which is
+not entirely accurate in view of the fact that Ulpian describes the first wound as "mortal" (mortifero),
+indicating that the slave was certain to die from it.
+99 D.9.2.11.3.
+100 D.9.2.15.1.
+101 Julian (Iulianus Salivius), working under Hadrian, wrote 90 volumes of Digesta.
+102 D.9.2.51.pr. According to A Watson, The Law of Obligations in the Later Roman Republic, Clarendon
+Press, Oxford, 1965 at 245, the proposition contained in D.2.51.1: "This rule has the authority of the
+ancient jurists, who decided that, if a slave were injured by several persons but it was not clear which
+actually killed him, they would all be liable under the lex Aquilia" is an interpolation by Justinian for
+which there is no authority.
+103 D.9.2.51.2. In the 20th century, a similar approach to compensation for wrongfully inflicted personal
+injuries, which are aggravated or exacerbated by subsequent tortious events, was adopted by the
+House of Lords in the controversial case of Baker v Willoughby [1970] AC 467.
+104 D.9.2.51.2.
+105 D.9.2.51.2. (Julian, Digest, Book 86).
+106 Rendering of services for a fee (locatio conductio operarum) was regarded as "mercenary activity", and
+limited to services that were usually performed by slaves (opera illiberales), and lower class artisans
+or craftsmen. In the Republican Rome, the majority of doctors were either slaves (servi) or freedmen
+(liberti). The minority of wealthy Roman citizens who practised medicine (medicus ingenuus), would
+do so under a contract of mandatum. On Roman law of contract, see: A Borkowski, supra, n87, at
+p267.
+107 The parties could vary the standard of care by terms of the contract.
+108 Digest, 9.2.44,pr.
+109 This may have been due to the fact that majority of Greek physicians in Rome were slaves or freedmen.
+V Nutton, "Healers in the Medical Market Place: Towards a Social History of Graeco-Roman
+Medicine" in A Wear (ed), Medicine in Society, Cambridge University Press, Cambridge, 1992, at p39.
+110 Under the Empire (31 BCE - 493 CE), cultic, frequently Oriental in origin, and superstitious faith
+healing practices were widespread. DW Amunden & GB Ferngren, "Evolution of the
+Physician/Patient Relationship: Antiquity Through Renaissance" in EE Shelp (ed), The Clinical
+Encounter, D Reidel Pub Co, Dordrecht, 1983, at p13.
+111 Not all Romans were scornful of Greek physicians. In 46 BCE, Julius Caesar presented all free-born
+Greek physicians on Roman soil with the right of Roman citizenship.
+112 Digest 50.13.1.3.
+113 Ulpian, Digest, 9.2.7.8.
+114 Gaius (130-180 CE) probably wrote his Institutes around 161 CE. Digest, 9.2.8.pr; Justinian's Institutes
+4.3.7.
+115 Roman law did not recognise the concept of pure nonfeasance: R Evans-Jones & G MacCormack, supra,
+n75, at p190.
+116 PJ Thomas, Introduction to Roman Law, Kluwer Law and Taxation Publishers, Deventer, Netherlands,
+1986, at p125.
+117 Inquiry into how the patient died is more appropriate for determining fault than causation.
+118 Digest 9.2.4 to 9.2.11 pr.
+119 Antony Honoré, personal communication.
+120 There is no indication in the Digest whether the surgeon was practising classical Greek medicine or
+traditional Roman medicine, which essentially involved use of herbs and domestic remedies.
+121 Roman concept of obligation connoted a legal relationship between two individuals under which one
+acquired a right and the other the correlative duty. R Evans-Jones & G MacCormack, supra, n75, at
+p127.
+122 Hippocratic Corpus, The Sacred Disease IX (18); AM Katz, "Evolving Concepts of Heart Failure: Cooling
+Furnace, Malfunctioning Pump, Enlarging Muscle" (1997) 3 Journal of Cardiac Failure 319 at 322.
+123 "Incise over the third rib, down to the bone, then drill through the rib with a trephine. The perforation
+completed, remove a little water and after evacuation, put in a plug of raw flax, and over this a soft
+sponge: you must then apply a bandage so that the plug does not fall out. You must take off the water
+over a period of twelve days, once daily; ... on the thirteenth [day] evacuate all of the water. For the
+remaining time if more water forms, you must remove it." Cited by AM Katz, op cit, n122, at 322.
+124 N Laor & J Agassi, supra, n4, at p35.
+125 RL Memmler, BJ Cohen & DL Wood, The Human Body in Health and Disease, JB Lippincott Co, New
+York, 1992, at p228.
+126 In Gray v Motor Accident Commission (1998) 73 ALJR 45, the High Court of Australia accepted that a
+case where the defendant deliberately drove his motor car into the plaintiff could be litigated in
+negligence.
+127 Antony Honoré, personal communication.
+128 The High Court of Australia in Nagle v Rottnest Island Authority (1993) 177 CLR 423; [1993] 67 ALJR
+426 at 429, stated that: "A risk may constitute a foreseeable risk even though it is unlikely to occur. It
+is enough that the risk is not far-fetched or fanciful." Notably, the adjective "reasonable" which used
+to accompany the notion of foreseeability was not included in the definition of a foreseeable risk.
+129 In the process of determining to whom or to what event responsibility for the plaintiff's injury should
+be attributed, the law has regard to both "causing harm" and "enabling others (or other things) to do
+harm." See HLA Hart & T Honoré, Causation in the Law, 2nd edn, Clarendon Press, Oxford. 1985, at
+p133.
+130 McGhee v National Coal Board [1973] 1 WLR 1; cf Wilsher v Essex Area Health Authority [1988] AC
+1974; in Australia, see Chappel v Hart (1998) 195 CLR 232; Kavanagh v Akhtar (1998) 45 NSWLR 588.
+131 Paulus Iulius, wrote many commentaries, including ad Sabinum, in the first decades of the 3rd century
+CE.
+132 Sabinus Massurius, contemporary of Augustus, wrote an extensive and systematic treatise on ius civile,
+which was commented on by later jurists in works entitled "Ad Sabinum": A Berger, "Encyclopedic
+Dictionary of Roman Law" in (1953) 43(2) Transactions of the American Philosophical Society,
+Philadelphia, at 687.
+133 D.9.31.
+134 For example, in Rogers v Whitaker (1992) 175 CLR 479, the High Court of Australia found that the risk
+of sympathetic ophthalmia that may occur in one out of 14,000 rarely performed procedures was
+foreseeable.

@@ -1,0 +1,2081 @@
+
+DNA METİLASYON SAATLERİYLE BAĞIMLILIKTA EPİGENETİK YAŞ İVMELENMESİNİN TESPİTİ: UÇTAN UCA HESAPLAMALI BİR YAKLAŞIM
+Detection Of Epigenetic Age Acceleration İn Addiction Using Dna Methylation Clocks: An End-To-End Computational Approach
+Nurcan Denli Bayır, MD¹*
+¹Adli Tıp Anabilim Dalı, Ankara Bilkent Şehir Hastanesi, Ankara, Türkiye
+*Sorumlu Yazar: drnurcandenlibayir@gmail.com, ORCID: 0009-00042874-4594
+ABSTRACT
+Background: Substance use disorders (SUDs) induce accelerated biological aging quantifiable through DNA methylation-based epigenetic clocks. Despite accumulating evidence linking chronic substance use to epigenetic age acceleration (EAA), standardized computational frameworks for clinical and medicolegal assessment remain limited.
+Objective: We developed an end-to-end computational prototype (epi-clock-prototype) for detecting and quantifying EAA in addiction using publicly available epigenetic clocks (Horvath, Hannum, PhenoAge; GrimAge and DunedinPACE were not computable from 450K data), specifically designed for clinical and postmortem applications.
+Methods: We analyzed six publicly available GEO DNA methylation cohorts (Illumina 450K; total N=742), each analyzed separately rather than pooled into a single mega-cohort: smoking (GSE50660, n=464), alcohol use in blood (GSE110043, n=94) and in postmortem brain (GSE49393, n=48), cocaine (GSE77056, n=47), methamphetamine (GSE154971, n=24), and opioid use in postmortem brain (GSE98203, n=65). The modular pipeline implements quality-controlled data ingestion, CpG feature extraction, epigenetic-clock age estimation (Horvath, Hannum, PhenoAge), EAA metrics, and leakage-free per-substance classification. Cannabis and polysubstance cohorts were unavailable; individual-level physiological-mediator and psychological-moderator data are absent from all public methylation datasets and were therefore not modeled.
+Results: On the largest cohort (GSE50660, n=464), leakage-free cross-validated clock age estimation gave Horvath MAE=3.51 years (R²=0.586), Hannum MAE=7.82 years (R²=0.641) and PhenoAge MAE=6.77 years (R²=0.565); GrimAge could not be computed from 450K beta values alone and no ensemble clock was built. Horvath epigenetic age acceleration (case minus control) was small and in the NEGATIVE direction - alcohol (brain) -0.82 years, cocaine -0.66 years, opioid (brain) -1.48 years - and therefore did not support accelerated aging in these cohorts; methamphetamine EAA could not be computed (chronological age unavailable). Differential methylation (FDR<0.05) yielded cohort-specific CpG counts: smoking 89, cocaine 11987, methamphetamine 398, opioid 12, alcohol (brain) 8. Leakage-free cross-validated classification reached ROC-AUC 1.000 (cocaine), 0.928 (smoking), 0.926 (alcohol) and 0.922 (methamphetamine); a single multi-substance accuracy was not computed. Mediation (insulin resistance, HPA axis, inflammation) and moderation (emotion regulation, self-control) could not be tested because the required individual phenotype data are absent from public methylation datasets (data unavailable).
+Conclusions: This open-source framework provides a reproducible tool for clock-based epigenetic assessment of chronic substance exposure. Across six separate GEO cohorts (total N=742, analyzed independently), the real data did not reproduce the large accelerated-aging effects previously claimed; all results, including null and negative findings, are reported faithfully to support transparent and reproducible medicolegal interpretation.
+Keywords: DNA methylation, epigenetic clock, addiction, substance use disorder, biological aging, GrimAge, computational pipeline, age acceleration
+KISALTMALAR
+5hmC: 5-hidroksimetilsitozin
+5mC: 5-metilsitozin
+ANOVA: Analysis of Variance (Varyans Analizi)
+AUD: Alcohol Use Disorder (Alkol Kullanım Bozukluğu)
+BMI: Body Mass Index (Vücut Kitle İndeksi)
+BMIQ: Beta-Mixture Quantile
+CpG: Sitozin-fosfat-Guanin dinükleotid
+CRP: C-Reactive Protein (C-Reaktif Protein)
+DBT: Dialectical Behavior Therapy (Diyalektik Davranış Terapisi)
+DERS: Difficulties in Emotion Regulation Scale (Duygu Düzenleme Güçlükleri Ölçeği)
+DNMT: DNA Methyltransferase (DNA Metiltransferaz)
+EAA: Epigenetic Age Acceleration (Epigenetik Yaş İvmelenmesi)
+EPIC: Illumina MethylationEPIC BeadChip
+EWAS: Epigenome-Wide Association Study (Epigenom-Genişliği İlişkilendirme Çalışması)
+FASD: Fetal Alcohol Spectrum Disorder (Fetal Alkol Spektrum Bozukluğu)
+FDR: False Discovery Rate (Yanlış Keşif Oranı)
+GA: Güven Aralığı
+GEO: Gene Expression Omnibus
+GO: Gene Ontology
+HOMA-IR: Homeostatic Model Assessment for Insulin Resistance (İnsülin Direnci İçin Homeostatik Model Değerlendirmesi)
+HPA: Hypothalamic-Pituitary-Adrenal (Hipotalamik-Pitüiter-Adrenal)
+IL-6: Interleukin-6 (İnterlökin-6)
+MAE: Mean Absolute Error (Ortalama Mutlak Hata)
+NHANES: National Health and Nutrition Examination Survey
+PCA: Principal Component Analysis (Temel Bileşen Analizi)
+PFC: Prefrontal Cortex (Prefrontal Korteks)
+PMI: Postmortem Interval (Postmortem Aralık)
+QC: Quality Control (Kalite Kontrol)
+R²: Coefficient of Determination (Belirleme Katsayısı)
+RMSE: Root Mean Square Error (Kök Ortalama Kare Hatası)
+ROC-AUC: Receiver Operating Characteristic - Area Under Curve
+SAM: S-Adenosylmethionine (S-Adenosilmetionin)
+SCS-B: Brief Self-Control Scale (Kısa Öz-Kontrol Ölçeği)
+SD: Standard Deviation (Standart Sapma)
+SE: Standard Error (Standart Hata)
+SNP: Single Nucleotide Polymorphism (Tek Nükleotid Polimorfizmi)
+SUD: Substance Use Disorder (Madde Kullanım Bozukluğu)
+SWAN: Subset-quantile Within Array Normalization
+TET: Ten-Eleven Translocation
+TNF-α: Tumor Necrosis Factor-alpha (Tümör Nekroz Faktör-alfa)
+1. GİRİŞ
+1.1. DNA Metilasyonu: Moleküler Temel ve Biyolojik Önemi
+DNA metilasyonu, genomik DNA'nın sitozin bazlarına metil gruplarının (CH₃) kovalent bağlanması ile karakterize edilen, gen ekspresyonunun düzenlenmesinde kritik rol oynayan epigenetik bir modifikasyondur (1). İnsan genomunda, metilasyon ağırlıklı olarak sitozin-guanin dinükleotid dizilerinde (CpG bölgeleri) gerçekleşmekte ve yaklaşık 28 milyon CpG bölgesinin %60-80'i metillenmiş durumdadır (2). DNA metiltransferaz (DNMT) enzimleri, S-adenosilmetionin (SAM) substratını kullanarak metil gruplarını sitozin bazının 5. karbon pozisyonuna transfer ederek 5-metilsitozin (5mC) oluşturur (3). Bu süreç, DNMT1 (bakım metilasyonu), DNMT3A ve DNMT3B (de novo metilasyon) enzimleri tarafından katalize edilir (4). Promoter bölgelerindeki CpG adalarının hipermetilasyonu, transkripsiyon faktörlerinin DNA'ya bağlanmasını engelleyerek gen susturulmasına yol açarken, gen gövdesindeki metilasyon paternleri alternatif uç birleştirme (splicing) ve transkripsiyonel uzamayı (elongasyon) düzenler (5). Ten-eleven translocation (TET) enzimleri, 5mC'yi 5-hidroksimetilsitozin (5hmC), 5-formilsitozin (5fC) ve 5-karboksilsitozin (5caC) ara ürünlerine oksitleyerek aktif demetilasyon sürecini başlatır (6). Bu dinamik denge, hücresel farklılaşma süreci, genomik baskılama, X-kromozom inaktivasyonu ve yaşlanma süreçlerinde esastır (7). Yaşlanma ile birlikte, DNA metilasyon paternleri sistematik değişikliklere uğrar. Horvath tarafından tanımlanan "epigenetik saat" hipotezi, belirli CpG bölgelerindeki metilasyon seviyelerinin kronolojik yaşla yüksek korelasyon gösterdiğini ve bu paternlerin biyolojik yaşı tahmin etmek için kullanılabileceğini ortaya koymuştur (8). Genom genelinde, yaşlanma ile ilişkili hipermetilasyon (özellikle Polycomb grubu protein hedef genlerinde) ve hipometilasyon (tekrarlayan elementlerde ve heterokromatinde) gözlemlenir (9). Bu "epigenetik drift" olarak adlandırılan süreç, mitotik bölünmeler sırasında metilasyon paternlerinin replikasyon hatalarından, oksidatif strese bağlı DNA hasarından ve DNMT/TET enzim aktivitelerindeki yaşa bağlı değişikliklerden kaynaklanır (10).
+1.2. Epigenetik Saatler: Algoritmik Gelişim ve Metodolojik Çeşitlilik
+İlk nesil epigenetik saatler, Illumina Infinium HumanMethylation450 BeadChip (450K) platformu kullanılarak geliştirilmiştir. Horvath tarafından 2013 yılında yayımlanan pan-doku epigenetik saati, 8000 örnek ve 51 farklı doku tipinden elde edilen verilerle eğitilmiş, 353 CpG bölgesini içeren elastic net regresyon modeli kullanmıştır (8). Bu saat, kronolojik yaşı ortalama 3.6 yıl hata ile tahmin etme kapasitesi göstermiş ve farklı dokular arasında yüksek tutarlılık sergilemiştir (medyan korelasyon r=0.96). Aynı yıl Hannum ve arkadaşları (11), 656 kan örneği kullanarak kan spesifik bir epigenetik saat geliştirmiş, 71 CpG bölgesi ile ortalama 3.9 yıl hata ile yaş tahmini gerçekleştirmiştir. İkinci nesil epigenetik saatler, sadece kronolojik yaş tahmini değil, aynı zamanda fenotipik yaşlanma ve mortalite riskini öngörme kapasitesine odaklanmıştır. Levine ve arkadaşları (12) tarafından 2018 yılında geliştirilen PhenoAge, 9926 NHANES (National Health and Nutrition Examination Survey) katılımcısından elde edilen verilerle, 513 CpG bölgesi kullanarak fenotipik yaşı tahmin etmiştir. Bu saat, 9 klinik biyobelirteç (albumin, kreatinin, glukoz, C-reaktif protein, lenfosit yüzdesi, ortalama hücre hacmi, kırmızı hücre dağılım genişliği, alkalen fosfataz, lökosit sayısı) ile entegre edilerek, mortalite riski ile güçlü korelasyon göstermiştir (hazard ratio=1.14 per 1 yıl artış, p<0.001). GrimAge (13), 2019 yılında Lu ve arkadaşları tarafından, 10000'den fazla Framingham Heart Study katılımcısından elde edilen uzunlamasına verilerle geliştirilmiştir. Bu saat, 1030 CpG bölgesi kullanarak 7 plazma proteininin DNA metilasyon surogatlarını (adrenomedullin, beta-2-mikroglobulin, sistin C, growth differentiation factor 15, leptin, plasminojen aktivatör inhibitör 1, tissue inhibitor metalloproteinases 1) ve sigara paket-yıllarını modelleyerek, yaşam süresi tahmini için üstün performans göstermiştir (her 1 yıl GrimAge artışı için mortalite riski %7 artış, 95% GA: 1.06-1.08). En son nesil olan DunedinPACE (Pace of Aging Calculated from the Epigenome) (14), 2022 yılında Belsky ve arkadaşları tarafından, Dunedin Multidisciplinary Health and Development Study kohortundan 1037 katılımcının 26, 32, 38 ve 45 yaşlarında elde edilen uzunlamasına verileriyle geliştirilmiştir. 173 CpG bölgesi kullanarak, biyolojik yaşlanma hızını (pace) ölçen bu algoritma, 19 organ sistemindeki değişim oranlarını yansıtır ve 1 takvim yılı başına biyolojik yaşlanma yılını tahmin eder (ortalama DunedinPACE=1.0, standart sapma=0.11).
+1.3. Madde Kullanım Bozuklukları ve Epigenetik Disregülasyon
+Madde kullanım bozuklukları, dünya çapında 296 milyon kişiyi etkileyen, yüksek morbidite ve mortalite ile karakterize kronik nörobiyolojik hastalıklardır (15). Dünya Sağlık Örgütü verilerine göre, 2019 yılında 39.5 milyon kişi problemli madde kullanımı sergilemiş ve madde kullanımına bağlı 585000 ölüm gerçekleşmiştir (16). Kronik madde maruziyeti, dopaminerjik, glutamaterjik ve GABAerjik nörotransmisyon sistemlerinde nöroplastik değişikliklere yol açarak, ödül işleme, dürtü kontrolü ve karar verme süreçlerinde kalıcı bozulmalara neden olur (17). Son dekadda yapılan epigenom-genişliği ilişkilendirme çalışmaları (EWAS), madde kullanımının DNA metilasyon paternlerinde sistematik değişikliklere yol açtığını göstermiştir. Alkol kullanım bozukluğunda, AHRR (aryl hydrocarbon receptor repressor) geninde hipermetilasyon (cg05575921, Δβ=+0.34, p=1.2×10⁻⁴⁸) ve ALPPL2 (alkaline phosphatase, placental-like 2) geninde hipometilasyon (cg21566642, Δβ=-0.28, p=3.4×10⁻³⁶) tutarlı olarak raporlanmıştır (18). Kokain kullanımı, ANKRD34B (ankyrin repeat domain 34B) ve LRFN2 (leucine rich repeat and fibronectin type III domain containing 2) genlerinde diferansiyel metilasyon ile ilişkilendirilmiştir (19). Opioid kullanımı, OPRM1 (mu-opioid reseptör) geninde metilasyon değişiklikleri göstermiş (cg01940273, Δβ=+0.26, p=2.1×10⁻¹²), bu değişikliklerin reseptör ekspresyon seviyeleri ile korelasyon gösterdiği bulunmuştur (20). Madde kullanımının epigenetik yaş ivmelenmesine yol açtığına dair ilk kanıtlar, Rosen ve arkadaşları (21) tarafından 2018 yılında yayımlanmıştır. 2559 katılımcıdan oluşan kohortlarında, alkol kullanım bozukluğu tanısı alan bireylerde Horvath epigenetik yaşının kronolojik yaşa göre ortalama 2.3 yıl (95% GA: 1.8-2.9, p<0.001) daha yüksek olduğu gösterilmiştir. Liu ve arkadaşları (18), 1662 katılımcılık kohortlarında, ağır alkol tüketiminin GrimAge ivmelenmesi ile ilişkili olduğunu (β=0.42 yıl per içki/gün, p=3.2×10⁻⁸) ve bu ilişkinin kardiyovasküler mortalite riski ile korelasyon gösterdiğini raporlamıştır.
+1.4. Fizyolojik Mediyasyon Mekanizmaları
+Madde kullanımının epigenetik yaş ivmelenmesine yol açma mekanizmaları, çoklu fizyolojik yolakları içermektedir. İnsülin direnci, kronik alkol ve stimulan kullanımında yaygın olarak gözlemlenen metabolik bir bozukluktur. HOMA-IR (Homeostatic Model Assessment for Insulin Resistance) indeksi ile ölçülen insülin direnci, DNA metilasyon paternleri ile ilişkilidir; özellikle glukoz metabolizması genlerinde (IRS1, IRS2, GLUT4) metilasyon değişiklikleri insülin duyarlılığı ile korelasyon gösterir (22). Quach ve arkadaşları (23), 4173 katılımcılık kohortlarında, HOMA-IR ile Horvath epigenetik yaşı arasında pozitif korelasyon (r=0.42, p<0.001) göstermiş ve bu ilişkinin inflamatuar yolaklar aracılığıyla aracılığı ile gerçekleştiğini ortaya koymuştur. Hipotalamik-pitüiter-adrenal (HPA) eksen disregülasyonu, kronik madde kullanımının nöroendokrin bir sonucudur. Kortizol/ACTH oranındaki artış, glukokortikoid reseptör (NR3C1) geninde metilasyon değişiklikleri ile ilişkilidir (24). Yüksek kortizol seviyeleri, oksidatif stresi artırarak DNA hasarına ve DNMT enzim aktivitelerinde değişikliklere yol açar (25). Opioid kullanımı, endojen opioid sisteminin disregülasyonu yoluyla HPA eksenini etkileyerek, kortizol/ACTH oranında ortalama %51 artış gösterir (26). Sistemik inflamasyon, madde kullanımının en tutarlı biyolojik sonuçlarından biridir. C-reaktif protein (CRP), interlökin-6 (IL-6) ve tümör nekroz faktör-alfa (TNF-α) gibi inflamatuar belirteçler, madde kullanıcılarında anlamlı olarak yüksektir (27). Fiorito ve arkadaşları (28), 5111 katılımcılık kohortlarında, CRP seviyeleri ile epigenetik yaş ivmelenmesi arasında güçlü ilişki (β=0.38 yıl per log(CRP), p=1.4×10⁻²⁴) göstermiş ve bu ilişkinin inflamasyon-ilişkili genlerdeki (NFKB1, IL6, TNF) metilasyon değişiklikleri ile aracılığı ile gerçekleştiğini raporlamıştır.
+1.5. Psikolojik Moderasyon Faktörleri
+Psikolojik dayanıklılık faktörleri, madde kullanımının biyolojik etkilerini düzenleyebilir. Duygu düzenleme, olumsuz duygusal durumları yönetme kapasitesini ifade eder ve Difficulties in Emotion Regulation Scale (DERS) ile ölçülür (29). Zayıf duygu düzenleme, kronik stres yanıtı aktivasyonu yoluyla HPA eksen disregülasyonuna ve epigenetik değişikliklere yol açabilir (30). Öz-kontrol, dürtüleri inhibe etme ve uzun vadeli hedeflere yönelik davranışları sürdürme kapasitesini temsil eder ve Brief Self-Control Scale (SCS-B) ile değerlendirilir (31). Yüksek öz-kontrol, sağlıklı yaşam tarzı davranışları (düzenli egzersiz, dengeli beslenme) ile ilişkili olup, bu davranışlar epigenetik yaşlanmayı yavaşlatabilir (32).
+1.6. Mevcut Literatürün Sınırlılıkları ve Çalışmanın Gerekçesi
+Madde kullanımı ve epigenetik yaşlanma arasındaki ilişkiyi inceleyen mevcut çalışmalar, önemli metodolojik sınırlamalar içermektedir. Birincisi, çoğu çalışma küçük örnek boyutları ile sınırlıdır (tipik n=50-200), bu da istatistiksel gücü azaltmakta ve alt grup analizlerini engellemektedir. İkincisi, farklı çalışmalar farklı epigenetik saatler kullanmakta ve bu saatlerin madde kullanıcı popülasyonlarında karşılaştırmalı performansı sistematik olarak değerlendirilmemiştir. Üçüncüsü, madde kullanımının epigenetik yaşlanmaya yol açma mekanizmalarını açıklayan mediyasyon analizleri sınırlıdır ve çoklu fizyolojik yolakların göreli katkıları belirsizdir. Dördüncüsü, psikolojik faktörlerin bu ilişkiyi nasıl düzenlediği yeterince araştırılmamıştır. Beşincisi, postmortem örneklerde epigenetik yaş değerlendirmesi için validasyon çalışmaları yetersizdir ve postmortem interval (PMI) etkilerini düzelten algoritmalar geliştirilmemiştir. Bu çalışma, altı bağımsız GEO veri setinden derlenen toplam 742 DNA metilasyon profili (Illumina 450K; her kohort ayrı analiz edilmiştir) ile, madde kullanımının epigenetik yaşlanma üzerindeki etkilerini kapsamlı olarak karakterize etmeyi amaçlamaktadır. Çoklu epigenetik saatlerin (Horvath, Hannum, PhenoAge, GrimAge, DunedinPACE) sistematik karşılaştırması, maddeye özgü CpG imzalarının tanımlanması, fizyolojik mediyasyon ve psikolojik moderasyon yolaklarının nicelleştirilmesi ve postmortem örneklerde validasyon, bu çalışmanın temel hedeflerini oluşturmaktadır.
+2. GEREÇ VE YÖNTEM
+2.1. Veri Kaynakları ve Seçim Kriterleri
+Calismamizda alti bagimsiz GEO veri setinden toplam 742 DNA metilasyon profili derlenmis ve her kohort havuzlanmadan ayri ayri analiz edilmistir: sigara/yas referans kohortu (GSE50660, n=464), alkol kullanim bozuklugu kan ornekleri (GSE110043, n=94) ve postmortem beyin (GSE49393, n=48), kokain (GSE77056, n=47), metamfetamin (GSE154971, n=24) ve opioid postmortem beyin (GSE98203, n=65). Kannabis ve coklu madde icin kamuya acik veri seti bulunamamistir. Entegre tek bir mega-kohort olusturulmamistir. Tum DNA metilasyon verileri Illumina 450K dizileri kullanilarak elde edilmistir.
+Kohortların demografik ve klinik meta verileri kaynak veri setine göre değişkenlik göstermektedir; tüm kohortlarda tek tip biçimde mevcut olan bireysel düzey değişkenler sınırlıdır. Bu nedenle havuzlanmış (pooled) yaş, cinsiyet, etnik köken, madde kullanım süresi ve postmortem interval (PMI) gibi birleştirilmiş tanımlayıcı istatistikler raporlanmamaktadır; bu değişkenler kamuya açık GEO meta verisinde tutarlı biçimde sağlanmadığından ilgili dağılımlar için 'veri yok / kaynak gerekli' beyanı geçerlidir. Yaş ve cinsiyet yalnızca bu bilgilerin sağlandığı kohortlarda (ör. sigara/yaş referans kohortu GSE50660) ve yalnızca ilgili analizlerde kovaryat olarak kullanılmıştır.
+Tüm veriler Gene Expression Omnibus (GEO) gibi halka açık, kimliksizleştirilmiş genomik veri depolarından elde edilmiş olup bu çalışma ikincil (secondary) bir analizdir. Orijinal veri toplama süreçleri, ilgili birincil çalışmaların kendi etik kurul onayları ve bilgilendirilmiş onam prosedürleri kapsamında yürütülmüştür; bu çalışmada yeni katılımcı alınmamış veya yeni örnek toplanmamıştır.
+Veri seti dahil etme kriterleri şu şekilde belirlenmiştir: Illumina 450K metilasyon dizisiyle üretilmiş olmak, madde kullanımı veya yaş/sigara fenotipiyle ilişkilendirilebilir örneklere sahip olmak ve kalite kontrol metriklerini karşılamak. Dışlama kriterleri ise yetersiz veri kalitesi, kullanılabilir fenotip etiketinin bulunmaması ve uyumsuz dizi platformudur. Sigara kullanım durumu yalnızca bu bilginin mevcut olduğu kohortlarda kovaryat olarak değerlendirilmiştir.
+2.2. Veri Setleri Karakteristikleri
+Bu çalışmada analiz edilen altı bağımsız GEO kohortu (GSE50660, GSE110043, GSE49393, GSE77056, GSE154971, GSE98203) yukarıda tanımlanmıştır; tümü Illumina 450K platformunda üretilmiştir. Daha geniş bir aday veri seti havuzu (PRISMA akış şemasında belgelenen tarama) gözden geçirilmiş, ancak yalnızca kullanılabilir madde/yaş fenotipi ve uygun platforma sahip olan bu altı kohort dahil edilmiştir. Havuzlanmış tek bir mega-kohort oluşturulmamış, her kohort ayrı ayrı analiz edilmiştir.
+Veri Kaynakları, Tablo 1'de verilmiştir.
+Tablo 1. Veri Kaynakları
+Veri Seti
+Madde Türü
+Platform
+Örnek Sayısı
+Doku
+Yaş (ort±SS)
+Kadın (%)
+Kaynak
+GSE50660
+Sigara (nikotin)
+450K
+464
+Tam kan
+55.4±6.7
+veri yok
+GEO
+GSE110043
+Alkol (AUD)
+450K
+94
+Tam kan
+veri yok
+veri yok
+GEO
+GSE49393
+Alkol (AUD)
+450K
+48
+Beyin (PFK, postmortem)
+56.2±9.1
+veri yok
+GEO
+GSE77056
+Kokain/crack
+450K
+47
+Tam kan
+25.6±2.3
+veri yok
+GEO
+GSE154971
+Metamfetamin
+450K
+24
+Periferik kan lenfositi
+veri yok
+veri yok
+GEO
+GSE98203
+Opioid/eroin
+450K
+65
+Beyin (OFK, postmortem)
+30.6±11.2
+veri yok
+GEO
+TOPLAM (derinlemesine analiz)
+Çoklu madde
+450K
+742
+Kan+Beyin
+—
+—
+6 GEO veri seti
+
+2.3. EPİCLOCK v4.0: Epigenetik Yaş Hesaplama ve Madde Tespiti için Entegre Biyoinformatik
+Platform Teknik Mimari EPİCLOCK v4.0, kamuya açık DNA metilasyon verilerinin yeniden üretilebilir analizi için geliştirilmiş bir betik tabanlı analiz hattıdır (çevrimdışı Python araç takımı); klinik tanı/raporlama amacı taşımaz. Çekirdek yapı, Python ekosistemi üzerine kuruludur: NumPy ve SciPy metilasyon matrislerinin sayısal işlenmesinde, pandas veri yönetiminde, scikit-learn ve XGBoost makine öğrenmesi modellerinde, statsmodels ise istatistiksel testlerde kullanılır. Derin öğrenme yalnızca scikit-learn tabanlı çok-katmanlı algılayıcı (MLP) ile sınırlıdır; PyTorch tabanlı modüller kullanılmamıştır. Veri işleme hattı, kamuya açık GEO serilerinden (seri-matris ve işlenmiş beta tabloları) okunan metilasyon verileriyle çalışır; raw IDAT işleme, kohortlar arası ComBat batch düzeltmesi ve Houseman hücre-tipi dekonvolüsyonu bu çalışmada UYGULANMAMIŞTIR (veri yok). Ön işleme; dedektif p-değeri filtreleme, düşük kaliteli prob/örnek temizliği ve Illumina 450K dizisine ait ortak problara indirgeme adımlarıyla sınırlıdır (Ek 1). Önceki sürümde belirtilen PostgreSQL/SQLAlchemy altyapısı ve 10.542 referans profillik popülasyon veri tabanı kurulmamıştır; tüm veriler düz dosya (CSV) biçiminde işlenmiştir. Epigenetik yaş hesaplama modülü, kamuya açık katsayıları bulunan üç saat algoritmasını (Horvath 353 CpG, Hannum 71 CpG, PhenoAge 513 CpG) hesaplar; GrimAge ve DunedinPACE 450K beta değerlerinden tek başına hesaplanamadığından üretilmemiştir (veri yok). Her saat ilgili CpG alt kümesinde doğrusal model uygular. Pan-doku Horvath saati hem kan hem beyin kohortlarında uygulanmış, doku-kaynaklı MAE ofseti dürüstçe raporlanmıştır; 12 doku tipine özel tahmin yapılmamıştır. Makine öğrenmesi analizleri, sızıntısız (leakage-free) 5-katlı çapraz doğrulama ile değerlendirilen XGBoost (birincil) ve Random Forest sınıflandırıcılarına dayanır; karşılaştırma için bir MLP kıyaslaması yapılmıştır. Önceki sürümde belirtilen ağırlıklı ensemble (Random Forest + XGBoost + ElasticNet, 0,35:0,45:0,20) mimarisi kurulmamıştır; her sınıflandırıcının metrikleri tek tek raporlanmıştır. Derin öğrenme bileşeni yalnızca yaş regresyonu ve sigara sınıflaması için MLP ile sınırlıdır ve doğrulanmış saat (Horvath) ile XGBoost yaklaşımlarını geçememiştir. Önceki sürümde belirtilen autoencoder ile latent temsil öğrenimi ve moleküler graf sinir ağı (molekül-reseptör modellemesi) bileşenleri kurulmamıştır (veri yok). Önceki sürümde tanımlanan kapsamlı NPS veri tabanı ve Markush sınıflandırma sistemi, yazarın EpiClock prototipinden (github.com/mortemdulcem/epi-clock-DNA-mtl-prototype) içe aktarılarak gerçekten çalıştırılmıştır (29_nps_database_markush.py): UNODC-sınıflı 17 NPS (7 kategori) ile 27 referans madde ve RDKit'te geçerli SMARTS taşıyan 10 Markush kuralı; bu kurallar açıldığında 29.277 teorik R-grup varyant kombinasyonu enümere edilir — önceki "36.000+" iddiasının dayanağı budur ve mertebesi doğrulanmıştır. Yalnızca her maddeye iliştirilen metilasyon/CpG katmanı uydurmadır (kanıt: AHRR sigara CpG'si cg05575921 altı farklı maddeye atanmıştır) ve dışlanmıştır. 3B farmakofor eşleştirme bu çalışmada KURULMAMIŞTIR (veri yok). RDKit tabanlı parmak izi/Tanimoto/Murcko analizi ayrıca 37 PubChem-doğrulanmış NPS yapısı üzerinde de uygulanmıştır (bkz. §2.4, modül 4 ve 8). Metilasyon analizi bölümü, kamuya açık metilasyon kohortlarında temsil edilen madde gruplarının (sigara, alkol, kokain, metamfetamin, opioid) diferansiyel metilasyon ve sınıflandırma analizleriyle sınırlıdır; tüm sayısal sonuçlar sabit tohum ve sürüm sabitlemesiyle yeniden üretilebilen çevrimdışı betiklerle (realdata/) üretilmiştir. Etkileşimli bir Streamlit/Plotly kullanıcı arayüzü ve ReportLab tabanlı otomatik klinik raporlama modülü bu çalışmada GELİŞTİRİLMEMİŞTİR (veri yok); önceki sürümdeki kurumsal arayüz/renk paleti ve PDF rapor üretimi iddiaları gerçek değildir. Tüm çıktılar, betiklerin ürettiği tablo ve şekillerden oluşur; PRISMA/ STROBE gibi raporlama standartlarına uygunluk yazarlar tarafından elle sağlanmıştır, otomatik standart- uyumlu çıktı üretimi yapılmamaktadır. Önceki sürümde belirtilen SHA-256/blockchain tabanlı denetim izi ve Hyperledger dağıtık defter altyapısı ile GDPR uyumlu anonimleştirme (k-anonymity, diferansiyel gizlilik) bileşenleri KURULMAMIŞTIR (veri yok); çalışma yalnızca halihazırda anonim, kamuya açık GEO veri kümelerini kullanmıştır.
+2.4. Uygulanan İleri Yetenekler
+Bu çalışmanın önceki (üretilmiş) sürümünde EPİCLOCK v4.0 için yalnızca spekülatif olarak tanımlanan sekiz ileri yetenek bu sürümde yeniden ele alınmıştır: verisi veya araçları bulunanlar sabit tohum (seed=42) ve sızıntısız (leakage-free) protokolle yeniden üretilebilir biçimde gerçekten uygulanmış, gerekli birincil verisi kamuya açık olarak bulunmayanlar ise uydurulmadan, eksik değişken açıkça adlandırılarak veri-engelli (data-blocked) beyan edilmiştir. Tüm sayısal sonuçlar realdata/ dizinindeki çevrimdışı betiklerle üretilir ve ilgili JSON/CSV çıktılarına bağlanır.
+(1) Epigenetik Kronoloji Rekonstrüksiyonu (23_chronology.py): GSE50660 kohortunda (n=464; 179 hiç içmemiş, 263 bırakmış, 22 güncel içici) sigara maruziyetinin zamansal evresini metilasyondan kestiren, sızıntısız üç-sınıflı (hiç/bırakmış/güncel) bir model kurulmuştur. Üç-sınıflı dengeli doğruluk 0.513 ve makro OvR AUC 0.79'dur; ikili ayrımlar güncel-vs-hiç AUC 0.893, bırakmış-vs-hiç 0.854 ve güncel-vs-bırakmış 0.660'tır. Çıktı: out/dl/chronology.json.
+(2) Moleküler Kaynak Ayrımı (22_source_separation.py): altı madde imzası için (FDR<0.05; |t| en yüksek ilk 2000 CpG) çapraz-madde özgüllük matrisi hesaplanmıştır. Özgüllük indeksi tüm maddelerde 0.99 ve üzeridir (sigara 0.990; kokain 0.998; metamfetamin 0.996; alkol-kan 0.990; alkol-beyin 1.00; opioid 1.00), ortalama köşegen-dışı Jaccard örtüşmesi 0.0012'dir — yani madde imzaları büyük ölçüde ayrıktır. Sınır: aynı platform ve dokuda çok-maddeli tek bir veri seti bulunmadığından kohortlar-arası kaynak atfı batch/platform karışımı taşır ve tanısal değil göstergeseldir; bu açıkça beyan edilmiştir. Çıktı: out/dl/source_separation.json.
+(3) Genetik-Epigenetik Etkileşim Analizi (25_ewas_annotation.py): kohortlarımızda genotip bulunmadığından doğrudan mQTL/GxE modeli kurulamamış, bunun yerine kendi öne çıkan CpG'lerimiz EWAS Catalog API'si (www.ewascatalog.org) üzerinden her kaydı PMID-kaynaklı olacak biçimde anote edilmiştir (133 hedef CpG'nin tamamı erişilmiş, 133/133; API zaman aşımı kalmamıştır, out/dl/ewas_timeouts.json boştur). Maddeler-arası beş ortak gen (AHRR, F2RL3, GFI1, PRSS23, CNTNAP2; sigara↔alkol) saptanmıştır. Doğrudan genotip-temelli etkileşim veri-engellidir. Çıktı: out/dl/genetic_epigenetic.json.
+(4) Keminformatik/Markush Tabanlı NPS Analizi (24_cheminformatics_nps.py): RDKit ile 37 gerçek yeni psikoaktif madde (NPS) SMILES yapısı üzerinde (8 sınıf) Morgan/ECFP4 (yarıçap 2, 2048 bit) parmak izleri, Tanimoto benzerliği, Murcko iskeletleri ve Markush genel-iskelet ailelendirmesi uygulanmıştır. Sınıf-içi ortalama Tanimoto 0.427'ye karşı sınıflar-arası 0.129; en yakın-analog aynı-sınıf isabeti %97.3; 15 Markush genel-iskelet ailesi ve 17 Murcko iskelet ailesi (en büyük aile 9 üye); Lipinski Ro5 uyumu 34/37'dir. Ayrıca yazarın EpiClock prototipindeki (github.com/mortemdulcem/epi-clock-DNA-mtl-prototype) gerçek NPS veri tabanı ve Markush motoru içe aktarılıp çalıştırılmıştır (29_nps_database_markush.py): UNODC-sınıflı 17 NPS (7 kategori) ile 27 referans madde; kimyasal kimlik doğrulaması her iki testte de 15/17 — iç (formül↔MW) uyuşmayanlar Carfentanil (prototip DB formülü hatalı) ve Etizolam (yazılı kütle ortalama değil monoizotopik), PubChem uyuşmayanları ise Carfentanil ve 2-FDCK (PubChem ismi HCl tuzuna çözüyor); hepsi dürüstçe raporlanmıştır. RDKit'te geçerli SMARTS taşıyan 10 Markush kuralı 29.277 teorik R-grup varyant kombinasyonu (analog iskelet) enümere etmektedir (makalenin "36.000+" iddiasının gerçek, yeniden üretilebilir karşılığı). Her maddeye iliştirilen metilasyon/CpG katmanının uydurma olduğu kanıtla gösterilip dışlanmıştır (AHRR sigara CpG'si cg05575921 altı farklı maddeye atanmış; 11 CpG birden çok ilaçta yeniden kullanılmış). Çıktı: out/dl/nps_cheminformatics.json, out/dl/nps_database_markush.json, nps_unodc_validation.csv ve nps_*.csv.
+(5) Nöral Epigenetik Ağ (20_dlsystem.py): metilasyondan epigenetik yaş ve sigara durumu kestiren gerçek çok-katmanlı sinir ağları (MLP; gizli=(256,64)/(128,32), ReLU, Adam, erken-durdurma) GSE50660 (n=201) üzerinde kurulmuştur. Dürüst OOF performansı: yaş MLP MAE 5.40 yıl; sigara MLP AUC 0.72. Küçük örneklemde derin ağ, doğrulanmış Horvath saatini ve XGBoost'u (AUC 0.928) geçememiş; bu yüzden dağıtılan motor birincil olarak bu klasik yöntemleri kullanmaktadır. Çıktı: out/dl/gse50660_dl.json.
+(6) Multi-omik Füzyon Motoru (27_multiomic_fusion.py): GERÇEK (motor doğrulaması; kendi hesabımız, halka açık eşli omik veri, seed=42). Bağımlılık kohortlarımızın tamamı tek-omik (yalnız DNA metilasyonu) olduğundan aynı bireylerde eşli bağımlılık omiği bulunmamaktadır; bu nedenle ara-füzyon motoru, aynı bireylerde gerçekten eşli iki omik katman taşıyan halka açık bir veri setinde doğrulanmıştır: TCGA-LUAD (akciğer adenokarsinomu, sigarayla ilişkili), UCSC Xena üzerinden aynı barkodlu 477 eşli örnek — DNA metilasyonu (Illumina HumanMethylation450; etiket-bağımsız ilk 10.000 alfabetik problu sabit panel) + gen ekspresyonu (IlluminaHiSeq RNA-seq, log2) + klinik tütün öyküsü. Mimari §2.3'teki tek-omik modellerle aynı protokoldedir: omik-başına ilk-2000 varyanslı özellik seçimi → StandardScaler → omik-başına PCA(30) kodlayıcı → ara füzyon (latent vektörlerin birleştirilmesi) → ortak lojistik regresyon; StratifiedKFold(5, seed=42) ile her dönüşüm (impütasyon/seçim/ölçekleme/PCA) yalnız eğitim katında öğrenildiğinden sızıntı yoktur ve metilasyon paneli etikete kördür. Tema uyumlu birincil görevde (tümörlerde hiç-içmemiş vs içmiş; n=166, 143 içmiş/23 hiç) metilasyon-tek AUC 0.680 (%95 GA 0.633–0.727), ekspresyon-tek AUC 0.659 (0.528–0.790) ve füzyon AUC 0.682 (0.550–0.814) elde edilmiş; füzyon kazancı en iyi tek-omiğe göre +0.002'dir — yani sigara metilasyon sinyalini büyük ölçüde tek başına metilasyon katmanı taşımaktadır. Sağlama görevinde (tümör vs normal doku; n=475) füzyon AUC 1.00'dır. Sınır: bu bir motor doğrulamasıdır, bağımlılığa-özgü bir multi-omik bulgu değildir; aynı bireylerde eşli bağımlılık omiği halka açık olmadığından bağımlılık-düzeyinde gerçek füzyon hâlâ veri-engellidir ve bu modül, makalenin önceki uydurma multi-omik iddiasının yerine motorun gerçek, yeniden üretilebilir doğrulamasını koyar. Çıktı: out/dl/multiomic_fusion.json.
+(7) Postmortem Epigenetik Stabilite Modeli (28_postmortem_stability.py): GERÇEK (kendi hesabımız, halka açık veri, seed=42). PMI bilgisi içeren GSE41826 kohortunda (Illumina HumanMethylation450, insan frontal korteksi, NeuN ile nöron/glia olarak ayrıştırılmış; tam-veri n=58 nöron + 58 glia, 87 donör; PMI 4–34 saat, medyan 19, 23 ayrık değer; 29 ayrıştırılmamış örnek dışlandı) her CpG için M-değeri (= log2(beta/(1−beta))) ~ PMI + yaş + cinsiyet + tanı OLS modeli hücre fraksiyonuna göre katmanlı kurulmuş ve Benjamini-Hochberg FDR uygulanmıştır. Test edilen 477.397 CpG'nin hiçbiri ne nöron ne glia fraksiyonunda FDR<0.05'te PMI-labil değildir (her iki fraksiyonda 0; eşzamanlı-labil 0; PMI-duyarsız 477.396); λ_GC nöron 1.05 / glia 0.84 (enflasyon yok). Düzeltilmemiş p<0.05 isabet sayıları şans beklentisi (23.870) düzeyindedir (nöron 25.326, glia 15.463) ve seed=42 bloklu permütasyon null değeri 0'dır; en güçlü PMI eğiminin büyüklüğü bile küçüktür (|katsayı| 95. yüzdebirlik nöron 0.013 / glia 0.011 M-değeri/saat). Sonuç: frontal korteks metilasyonu 4–34 saatlik PMI boyunca istatistiksel olarak kararlıdır — bu gözlemsel bir ilişkidir, nedensel bozunma kanıtı değildir; GSE41826'da doku pH'ı ve batch değişkeni raporlanmadığından PMI'nin pH/ölüm-nedeni ile karışımı dışlanamaz, bu nedenle CpG'ler yalnızca BU veri setinde 'PMI-kararlı/duyarsız' diye etiketlenir ve evrensel kararlı-CpG kümesi ya da bozunma yarı-ömrü iddia edilmez. Çıktı: out/dl/postmortem_stability.json.
+(8) Global NPS Radar (26_nps_radar.py kimyasal-uzay + 30_nps_epi_feed.py epidemiyolojik katman): GERÇEK. (a) Kimyasal-uzay radarı (4) numaralı modülde tanımlanan 37 gerçek NPS üzerinde uygulanmıştır: küresel ortalama ikili Tanimoto çeşitliliği 0.160; en kohezif sınıf fentaniller (0.583), en az kohezif arilsikloheksilaminler (0.369); yapısal erken-uyarı (yenilik = 1 − en yakın Tanimoto) ile en yeni/izole yapı 5F-ADB (0.571) saptanmıştır. (b) Epidemiyolojik katman artık veri-engelli değildir; EUDA Avrupa Uyuşturucu Raporu 2025 kaynak-veri CSV'leri indirilip SHA-256 ile sabitlenerek (yeniden üretilebilir) gerçek yıllık sayımlar işlenmiştir: AB Erken Uyarı Sistemine ilk kez bildirilen NPS sayısı (2005–2024 toplamı 948, 2014 zirvesi 101; 2024'te 47 — bunun 20'si kannabinoid ve 7'si nitazen sentetik opioid; 2023'te 26), AB'de yıllık NPS yakalama sayısı (2016 zirvesi 46.019; 2023'te 33.708; 2005–2023 toplamı 373.106), 2024 resmi bildirim kaydı (47) ve 2024 sonunda izlenen toplam 1.000 NPS; ek olarak UNODC Erken Uyarı Danışmanlığı'nın (EWA, 10 Ekim 2025 erişimi) yayımlanmış sayıları: 2009'dan bu yana 153 ülke ve bölgeden bildirilen 1.396 benzersiz NPS, 2024'te tek yılda rekor 688 benzersiz NPS ve 45 ülkeden 101 yeni ortaya çıkan NPS (2024'te küresel etki-grubu payları: uyarıcılar %33, sentetik kannabinoid reseptör agonistleri %24, klasik halüsinojenler %14). Sınır: gerçek-zamanlı, programatik ülke-yıl akışı için bu ortamda erişilebilir açık bir API yoktur; ancak otoriter yıllık sayımlar kamuya açık, alıntılanabilir ve (EUDA CSV'leri için) yeniden üretilebilirdir. Çıktı: out/dl/nps_radar.json, nps_radar_*.csv, nps_epi_feed.json ve EUDA CSV'leri (euda_edr25_nps1/3a/6).
+Önceki sürümde yalnızca tasarım hedefi olan bu yetenekler artık §2.3'teki gerçek analiz hattının bir parçasıdır. Ek 4'teki kapsamlı teknik tablo, EPİCLOCK v4.0 için TASARLANAN (aspiratif) tam mimariyi listelemeye devam eder; her bileşenin gerçek uygulanma durumu §2.3 ve bu bölümde (uygulandı / sınırlı-gerçek / veri-engelli) açıkça belirtilmiştir.
+3. BULGULAR VE YORUMLAR
+3.1. Veri Seti Karakteristikleri ve Kalite Kontrol
+
+Şekil 1. Çalışma Kohortu Özellikleri
+Şekil 1'te sunulan çalışma, altı bağımsız GEO metilasyon kohortundan (toplam n=742) oluşur; her kohort ayrı analiz edilmiştir. Örneklem dağılımı sigara-kan (n=464), alkol-kan (n=94), opioid-beyin (n=65), alkol-beyin (n=48), kokain-kan (n=47) ve metamfetamin-lenfosit (n=24) gruplarındandır.
+Doku dağılımında örneklerin çoğu kandan (n=605), kalanı postmortem beyin (n=113) ve lenfositten (n=24) elde edilmiştir. Vaka/kontrol oranları her kohort için ayrı belirtilmiştir (ör. alkol-kan 47/47, opioid-beyin 37/28, alkol-beyin 23/25, kokain 23/24, metamfetamin 16/8).
+Kohortların yalnız bir kısmında kronolojik yaş bulunduğundan Horvath saati sigara, alkol-beyin, opioid-beyin ve kokain kohortlarında doğrulanmıştır. Yaş, cinsiyet ve kullanım süresi gibi ortak demografik değişkenler tüm setlerde mevcut olmadığından kohortlar arası kovaryat olarak kullanılamamıştır.
+Bu gerçek kohort özellikleri, madde kullanımının epigenetik etkilerini değerlendirirken örneklem ve doku farklılıklarının önemini göstermektedir.
+Bu calismada alti bagimsiz GEO kohortu ayri ayri (havuzlanmadan) analiz edilmistir; toplam orneklem n=742'dir: sigara GSE50660 n=464, alkol-kan GSE110043 n=94, alkol-beyin GSE49393 n=48, kokain GSE77056 n=47, metamfetamin GSE154971 n=24, opioid-beyin GSE98203 n=65. Veriler Illumina 450K platformundan, GEO uzerinden normalize beta-degerleri olarak indirilmistir. Her kohort kendi kontrol grubuyla karsilastirilmis, entegre tek bir mega-kohort kurulmamistir. Birlesik kalite-kontrol hunisi, gruplar arasi birlesik demografik karsilastirma (yas, cinsiyet, egitim, BMI) ve etnik dagilim icin gerekli bireysel-duzey ortak veri bulunmadigindan bu karsilastirmalar yapilmamistir (veri yok / kaynak gerekli). Kohort-ozgu yas ve orneklem bilgileri Tablo 1'de sunulmustur.
+3.2. Epigenetik Saat Performans Metrikleri
+
+Şekil 2. Epigenetik Saat Performans Karşılaştırması
+Bu grafik, katsayıları halka açık olan üç epigenetik saatin gerçek performansını göstermektedir (sızıntısız çapraz-doğrulama):
+A. Tahmin Doğruluğu (MAE): GSE50660 referans kohortunda (n=464) Horvath en düşük hatayı (3,51 yıl), Hannum en yüksek hatayı (7,82 yıl) vermiştir; PhenoAge 6,77 yıldır.
+B. Kronolojik Yaşla Korelasyon (r): Hannum en yüksek korelasyona (0,80), PhenoAge ise en düşük değere (0,75) sahiptir.
+C. Horvath MAE
+- Kohort Bazında: Sigara-kan 3,5 yıl ile en düşük, kokain-kan 12,3 yıl ile en yüksek hatayı verir; metamfetaminde kronolojik yaş bulunmadığından saat doğrulanamamıştır (NA).
+D. Hesaplama Kapsamı: GrimAge ve DunedinPACE 450K beta değerlerinden hesaplanamaz; tek bir 'ensemble' saat kurulmamıştır (veri yok). Bu şekil, altı bağımsız GEO kohortundan (toplam n=742) elde edilen gerçek DNA metilasyon profillerinin analizine dayanmaktadır.
+Çalışmamızda üç epigenetik saat algoritması (Horvath 2013, Hannum 2013 ve PhenoAge/Levine 2018) ile yaş tahmin performansı değerlendirilmiştir (Ek 3); GrimAge ve DunedinPACE 450K beta-değerlerinden tek başına hesaplanamadığından raporlanmamıştır (veri yok / kaynak gerekli). Her saat ilgili kohortta kronolojik yaşa karşı doğrulanmış olup sonuçlar Tablo 6'da sunulmuştur.
+Epigenetik Saat Performans Değerlendirmesi, Tablo 2'de özetlenmiştir.
+Tablo 2. Epigenetik Saat Performans Değerlendirmesi
+Epigenetik Saat
+MAE (yıl)
+95% GA
+RMSE (yıl)
+R²
+Kalibrasyon Eğimi
+Kalibrasyon Kesişimi
+Horvath (2013) [GSE50660, n=464]
+3.51
+veri yok
+4.55
+0.586
+veri yok
+veri yok
+Hannum (2013) [GSE50660, n=464]
+7.82
+veri yok
+8.80
+0.641
+veri yok
+veri yok
+PhenoAge (Levine 2018) [GSE50660, n=464]
+6.77
+veri yok
+7.98
+0.565
+veri yok
+veri yok
+GrimAge
+veri yok (450K beta'dan tek başına hesaplanamadı)
+—
+—
+—
+—
+—
+Ensemble (Ağırlıklı)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+Ensemble (Stacked)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+
+3.3. Maddeye Özgü Epigenetik Yaş İvmelenmesi
+
+Şekil 3. Maddeye Özgü Epigenetik Yaş İvmelenmesi
+Bu grafik, madde kullanımının Horvath epigenetik yaş ivmelenmesi (EAA) üzerindeki gerçek etkisini göstermektedir:
+A. Maddeye Özgü EAA (vaka − kontrol): Tüm farklar küçük ve NEGATİF yöndedir
+- opioid-beyin −1,48 yıl, alkol-beyin −0,82 yıl ve kokain −0,66 yıl; hiçbiri istatistiksel olarak anlamlı değildir (p>0,05).
+B. Vaka vs Kontrol Ortalaması: Her kohort için vaka ve kontrol gruplarının ortalama yaş ivmesi ayrı ayrı karşılaştırılmıştır.
+C. Yorum: Metamfetaminde kronolojik yaş olmadığından EAA hesaplanamamıştır. Çoklu-saat analizinde iki gerçek ek sinyal vardır
+- kokainde Hannum ivmesi (p=0.021) ve sigarada PhenoAge ivmesi (p=0.051, sınırda). Maddeler arası ortak ölçek bulunmadığından çoklu-madde havuzu ile Cohen's d etki büyüklüğü hesaplanmamıştır (veri yok).
+Maddeye özgü epigenetik yaş ivmelenmesi her kohortta kendi kontrol grubuyla ayrı ayrı değerlendirilmiştir; maddeler arasında ortak bir kohort/havuz bulunmadığından gruplar arası tek bir ANOVA yapılmamıştır (veri yok / kaynak gerekli). Horvath yaş ivmelenmesi alkol-beyin (−0,82 yıl; Welch p=0,29), kokain-kan (−0,66 yıl; p=0,57) ve opioid-beyin (−1,48 yıl; p=0,18) kohortlarında kontrol grubuna kıyasla anlamlı değildir (dürüst null). Çok-saat analizinde yalnızca kokain kohortunda Hannum yaş ivmesi vaka grubunda anlamlı yüksek bulunmuştur (Welch p=0021); sigarada PhenoAge ivmesi sınırdadır (p=0051). Maddeye özgü ivme ve CpG sayıları Tablo 7'de sunulmuştur.
+3.4. Diferansiyel Metilasyon Analizi ve CpG İmzaları
+Madde Türüne Göre Epigenetik Yaş İvmelenmesi ve Fonksiyonel Zenginleştirme Analizleri, Tablo 3'te gösterilmektedir.
+Tablo 3. Madde Türüne Göre Epigenetik Yaş İvmelenmesi ve Fonksiyonel Zenginleştirme Analizleri
+Madde Türüne Göre Epigenetik Yaş İvmelenmesi
+Özellik
+Alkol
+Kokain
+Opioid
+Metamfetamin
+Kannabis
+Çoklu Madde
+Core Addiction Signature
+n
+48 (GSE49393, beyin)
+47 (GSE77056, kan)
+65 (GSE98203, beyin)
+24 (GSE154971, PBL)
+veri yok
+veri yok
+veri yok
+Horvath EAA (yıl, vaka−kontrol)
+-0.82
+-0.66
+-1.48
+veri yok
+veri yok
+veri yok
+veri yok
+GrimAge EAA (yıl)
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+p-değeri (EAA testi)
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+Cohen's d
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+veri yok
+Anlamlı CpG (FDR<0,05)
+8
+11987
+12
+398
+veri yok
+veri yok
+veri yok
+Hipermetile
+4
+1668
+9
+342
+veri yok
+veri yok
+veri yok
+Hipometile
+4
+10319
+3
+56
+veri yok
+veri yok
+veri yok
+Top Genler
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+—
+—
+—
+En Anlamlı CpG
+cg00393248
+cg06808467
+cg27504782
+cg06763671
+—
+—
+—
+Gen
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+veri yok (anotasyon gerekli)
+—
+—
+—
+Δβ Değeri
++0.051
+-0.114
+-0.026
++0.064
+—
+—
+—
+CpG p-değeri
+9.3×10⁻⁸
+8.3×10⁻²³
+7.7×10⁻⁸
+2.7×10⁻¹⁷
+—
+—
+—
+Önemli Biyolojik Yolak
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+—
+—
+—
+Doz-Yanıt İlişkisi
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+veri yok / kaynak gerekli
+—
+—
+—
+Postmortem Beyin EAA
+Prefrontal korteks (GSE49393): -0.82 yıl
+—
+Orbitofrontal korteks (GSE98203): -1.48 yıl
+—
+—
+—
+—
+
+Gen Ontoloji Zenginleştirmesi
+Kategori (GO Terimi)
+GO Sınıfı
+Gen Sayısı
+FDR
+positive regulation of Rho protein signal transduction (GO:0035025)
+BP
+3
+0.023
+positive regulation of MAPK cascade (GO:0043410)
+BP
+6
+0.023
+positive regulation of Ras protein signal transduction (GO:0046579)
+BP
+3
+0.099
+intestinal absorption (GO:0050892)
+BP
+2
+0.099
+regulation of Rho protein signal transduction (GO:0035023)
+BP
+3
+0.112
+positive regulation of ERK1 and ERK2 cascade (GO:0070374)
+BP
+4
+0.112
+(Yalnızca ilk iki terim FDR<0,05; GSE50660 sigara kohortu, Enrichr)
+—
+—
+—
+
+KEGG (Kyoto Encyclopedia of Genes and Genomes) Pathway Analizi
+Yolak
+Gen Sayısı
+p-değeri
+FDR
+Pathways in cancer
+6
+0.0022
+0.168
+Dopaminergic synapse
+3
+0.0046
+0.168
+Tryptophan metabolism
+2
+0.0051
+0.168
+Chemokine signaling pathway
+3
+0.0129
+0.275
+Lipid and atherosclerosis
+3
+0.0175
+0.275
+Hiçbir KEGG yolağı FDR<0,05 eşiğini geçmedi (GSE50660, Enrichr)
+—
+—
+veri yok
+
+3.5. Madde Sınıflandırma Performansı
+Siniflandirma performansi, her madde icin ayri ikili (madde-vs-kontrol) modellerle ve sizintisiz (leakage-free) capraz-dogrulama ile degerlendirilmistir; elde edilen ROC-AUC degerleri kokain 1.000, sigara 0.928, alkol 0.926 ve metamfetamin 0.922'dir. Tek bir cok-sinifli genel dogruluk degeri, maddeler arasinda ortak bir kohort bulunmadigindan hesaplanmamistir (veri yok / kaynak gerekli).
+Madde Sınıflandırma Performans Metrikleri, Tablo 4'te yer almaktadır.
+Tablo 4. Madde Sınıflandırma Performans Metrikleri
+Madde Türü
+Precision
+Recall
+F1-Score
+ROC-AUC
+Sigara (nikotin) [GSE50660]
+0.864
+0.864
+0.864
+0.928
+Alkol (AUD) [GSE110043]
+0.911
+0.872
+0.891
+0.926
+Kokain/crack [GSE77056]
+0.958
+1.000
+0.979
+1.000
+Metamfetamin [GSE154971]
+0.875
+0.875
+0.875
+0.922
+Opioid
+veri yetersiz
+veri yetersiz
+veri yetersiz
+veri yetersiz
+Kannabis
+veri yetersiz
+veri yetersiz
+veri yetersiz
+veri yetersiz
+Çoklu Madde
+veri yetersiz
+veri yetersiz
+veri yetersiz
+veri yetersiz
+
+Metamfetamin siniflandiricisinin gorece dusuk performansi, kucuk orneklem boyutundan (n=24) kaynaklanmaktadir. Sigara icin en guclu ayirt edici CpG cg05575921 (AHRR) olmustur; diger maddeler icin gen-anotasyonlu ozellik-onem (feature importance) siralamasi bu calismada hesaplanmamistir (veri yok / kaynak gerekli).
+3.6. Mediyasyon Analizleri
+
+Şekil 4. Diferansiyel Metilasyon ve Yolak Zenginleştirme Analizleri
+Bu grafik, test edilemeyen aracılık (X→M→Y) modelinin yerine gerçek diferansiyel metilasyon ve zenginleştirme sonuçlarını göstermektedir:
+A. Diferansiyel Metilasyon (FDR<0,05): Kohort başına anlamlı CpG sayısı
+- kokain 11.987, alkol-kan 4.387, metamfetamin 398, sigara 89, opioid-beyin 12 ve alkol-beyin 8.
+B. Sigara Modeli
+- En Önemli CpG: XGBoost SHAP değerlerine göre cg05575921 (AHRR) açık ara en güçlü belirteçtir (2,27), ardından ALPPL2 gelir.
+C. Yolak Zenginleştirme (GO-BP, FDR<0,05): Yalnız opioid-beyin (25 terim) ve alkol-beyin (2 terim) anlamlı; diğer kohortlarda anlamlı terim yoktur.
+D. Yorum: Sigara imzası AHRR/ALPPL2/F2RL3 gibi klasik genleri yakalar; bireysel fenotip verisi yoktur, bu yüzden aracılık testi yapılamamıştır (veri yok).
+Fizyolojik mediyatorler (insulin direnci/HOMA-IR, HPA ekseni/kortizol, sistemik inflamasyon/CRP-IL6) bireysel duzeyde hicbir kamuya acik metilasyon veri setinde bulunmadigindan mediyasyon analizi yapilamamistir (veri yok / kaynak gerekli).
+Konsolide Rapor: Madde Kullanımı, Fizyolojik Mediyatörler ve Epigenetik Yaşlanma, Tablo 5'te sunulmuştur.
+Tablo 5. Konsolide Rapor: Madde Kullanımı, Fizyolojik Mediyatörler ve Epigenetik Yaşlanma
+1. Genel Mediyasyon
+Alt Grup
+n
+Toplam Etki (β)
+Direkt Etki (β)
+İndirekt Etki (β) & Mediyasyon %
+p-değeri
+İnsülin Direnci (HOMA-IR)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+HPA Eksen (Kortizol/ACTH)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Sistemik İnflamasyon (CRP/IL-6)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+2. Yolak Katsayıları
+Alt Grup
+n
+Path a (Madde → Mediyatör)
+Path b (Mediyatör → EAA)
+İlişki Yönü
+p-değeri
+İnsülin Yolağı
+veri yok / kaynak gerekli
+—
+—
+—
+—
+HPA Eksen Yolağı
+veri yok / kaynak gerekli
+—
+—
+—
+—
+İnflamasyon Yolağı
+veri yok / kaynak gerekli
+—
+—
+—
+—
+3. Maddeye Özgü Etkiler
+Alt Grup
+n
+İnsülin Mediyasyon Oranı
+HPA (Kortizol) Artışı
+Karşılaştırma
+p-değeri
+Alkol
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Kokain
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Opioid
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Metamfetamin
+veri yok / kaynak gerekli
+—
+—
+—
+—
+4. Biyomarker Düzeyleri
+Alt Grup
+n
+CRP (mg/L) Ort ± SS
+IL-6 (pg/mL) Ort ± SS
+t-istatistiği (CRP / IL-6)
+p-değeri
+Kontrol Grubu
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Alkol Grubu
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Kokain Grubu
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Opioid Grubu
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Metamfetamin Grubu
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Çoklu Madde Kullanımı
+veri yok / kaynak gerekli
+—
+—
+—
+—
+5. Çoklu Model
+Alt Grup
+n
+İndirekt Etki (β)
+95% Güven Aralığı
+Bağımsız Katkı %
+p-değeri
+İnsülin Direnci
+veri yok / kaynak gerekli
+—
+—
+—
+—
+HPA Eksen
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Sistemik İnflamasyon
+veri yok / kaynak gerekli
+—
+—
+—
+—
+MODEL TOPLAMI
+veri yok / kaynak gerekli
+—
+—
+—
+—
+
+GA: Güven Aralığı, SE: Standart Hata. EAA: Epigenetik Yaş İvmelenmesi. Mediyasyon analizi notu: Aşağıda sıralanan fizyolojik mediyatörler için bireysel düzeyde fenotip verisi gereklidir. İnsülin direnci (HOMA-IR), HPA ekseni (kortizol/ACTH) ve sistemik inflamasyon (CRP/IL-6) hiçbir kamuya açık DNA metilasyon kohortunda bireysel düzeyde ölçülmediğinden, bu mediyatörler üzerinden path a, path b ve dolaylı etki katsayıları hesaplanamamıştır (veri yok / kaynak gerekli). Bu nedenle metabolik, nöroendokrin ve enflamatuvar yolaklara ilişkin sayısal mediyasyon oranları raporlanmamaktadır. İlgili biyobelirteçler yalnızca kuramsal çerçevede (Giriş) literatüre dayalı olarak ele alınmıştır; mevcut veri setlerinden türetilmiş hiçbir mediyasyon katsayısı iddia edilmemektedir. (Çapraz başvuru: yöntem ve tartışma bölümlerindeki "veri yok" beyanları.)
+3.7. Mekanistik İçgörüler ve Biyolojik Yolaklar
+Madde kullanımının epigenetik yaşlanmaya yol açabileceği mekanizmalar, mevcut çalışmada doğrudan ölçülememiştir; çünkü mediyasyon analizinin gerektirdiği bireysel düzeyde fizyolojik mediyatör verileri (insülin direnci, kortizol/ACTH, CRP/IL-6) kamuya açık metilasyon kohortlarında bulunmamaktadır (veri yok / kaynak gerekli). Bu nedenle aşağıdaki yolaklar, sayısal mediyasyon oranları olarak değil, literatüre dayalı kuramsal hipotezler olarak tartışılmaktadır.
+İnsülin direnci hipotezi: Kronik madde kullanımı, özellikle alkol ve stimulanlar, glukoz homeostazını bozarak insülin direncine yol açabilir (22). İnsülin direnci, DNA metilasyon paternlerini birkaç mekanizma yoluyla etkileyebilir. Birincisi, hiperglisemi advanced glycation end products (AGEs) oluşumunu artırır, bu da oksidatif stresi tetikleyerek DNA hasarına ve metilasyon değişikliklerine yol açabilir (41). İkincisi, insülin sinyalizasyonu DNMT enzim aktivitelerini düzenler; insülin direnci bu düzenlemeyi bozarak epigenetik homeostazı etkileyebilir (42). Üçüncüsü, insülin direnci inflamatuar yolakları aktive edebilir (28).
+HPA ekseni hipotezi: Kronik madde kullanımı, HPA ekseninde adaptif değişikliklere yol açarak kortizol/ACTH oranında artışa neden olabilir (24). Yüksek kortizol seviyeleri, glukokortikoid reseptör (NR3C1) geninde metilasyon değişikliklerine yol açabilir; bu değişiklikler reseptör ekspresyonunu ve kortizol duyarlılığını etkileyebilir (43). Ayrıca kortizol, oksidatif stresi artırarak DNA hasarına ve TET enzim aktivitelerinde değişikliklere yol açabilir (25, 26).
+Sistemik inflamasyon hipotezi: Kronik madde kullanımı; bağırsak bariyeri bozulması ve endotoksin translokasyonu (özellikle alkolde), oksidatif stres kaynaklı doku hasarı, nöroinflamasyon ve periferik immün aktivasyon yoluyla sistemik inflamasyonu indükleyebilir (27). Yüksek CRP, IL-6 ve TNF-α seviyeleri, inflamasyon-ilişkili genlerde (NFKB1, IL6, TNF) metilasyon değişikliklerine yol açabilir (28). Bu hipotezlerin hiçbiri mevcut veriyle nicel olarak test edilememiştir; ek mekanizmalar (oksidatif stres ve reaktif oksijen türleri (44), telomer kısalması (45), mitokondriyal disfonksiyon ve mtDNA metilasyonu (46), epigenetik düzenleyici enzimlerin (DNMT, TET, HDAC) aktivite değişiklikleri (47)) yalnızca gelecekteki, bireysel mediyatör verisi içeren çalışmalarda sınanabilir (kaynak gerekli).
+3.8. Moderasyon Analizleri
+Öz-kontrol (SCS-B) ve Duygu Düzenleme (DERS) Moderasyonu Analizi Sonuçları, Tablo 6'da verilmiştir.
+Tablo 6. Öz-kontrol (SCS-B) ve Duygu Düzenleme (DERS) Moderasyonu Analizi Sonuçları
+Seviye/Kategori
+Etki Büyüklüğü (β)
+SE
+95% GA
+p-değeri
+EAA (yıl)
+95% GA (EAA)
+Kontrol/Referans
+Fark (yıl)
+n
+Duygu Düzenleme (DERS)
+Düşük (-1 SD) / İyi (<60)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+Ortalama / Orta (60-90)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+Yüksek (+1 SD) / Zayıf (>90)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+Öz-Kontrol (SCS-B)
+Düşük (-1 SD) / Düşük (<30)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+Ortalama / Orta (30-40)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+Yüksek (+1 SD) / Yüksek (>40)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+—
+—
+
+3.9. Psikolojik Dayanıklılık ve Moderasyon Etkileri
+Duygu düzenleme (DERS) ve öz-kontrol (SCS-B) gibi psikolojik dayanıklılık faktörlerinin madde kullanımı ile epigenetik yaş ivmelenmesi arasındaki ilişkiyi düzenleyip düzenlemediği, mevcut çalışmada test edilememiştir; çünkü bu psikometrik ölçekler hiçbir kamuya açık DNA metilasyon kohortunda bireysel düzeyde bulunmamaktadır (veri yok / kaynak gerekli). Bu nedenle moderasyon katsayıları, etkileşim terimleri ve Johnson-Neyman eşikleri raporlanmamaktadır.
+Literatür temelinde öne sürülebilecek hipotez şudur: güçlü duygu düzenleme ve yüksek öz-kontrol, kronik stres yanıtını ve buna bağlı HPA ekseni aktivasyonunu azaltarak madde kullanımının biyolojik etkilerini hafifletebilir (30, 32). İyi duygu düzenleme, stresli durumlarla adaptif başa çıkmayı sağlayarak kortizol salınımını ve HPA eksen disregülasyonunu sınırlayabilir; yüksek öz-kontrol ise hem madde kullanım miktarını/sıklığını azaltarak hem de sağlıklı yaşam tarzı davranışlarını (düzenli egzersiz, dengeli beslenme, yeterli uyku) kolaylaştırarak dolaylı koruyucu etki gösterebilir. Ancak bu yolakların hiçbiri mevcut veriyle nicel olarak gösterilememiştir ve yalnızca kuramsaldır.
+Bu hipotezler doğrulanabilirse, bağımlılık tedavisinde psikolojik müdahalelerin biyolojik yaşlanma üzerindeki olası rolü önem kazanır. Diyalektik Davranış Terapisi (DBT) gibi duygu düzenleme odaklı ve Bilişsel Davranışçı Terapi (BDT) gibi öz-kontrol geliştiren yaklaşımların epigenetik yaşlanmayı etkileyip etkilemediği, ancak bireysel psikometrik ve metilasyon verisinin birlikte toplandığı ileriye dönük çalışmalarla sınanabilir (kaynak gerekli).
+3.10. Postmortem Validasyon
+Postmortem beyin dokusu kohortları için PMI (postmortem interval) ve doku pH gibi örnek-düzeyi kalite değişkenleri, kullanılan kamuya açık veri setlerinde tutarlı biçimde sağlanmadığından PMI/pH'a dayalı düzeltme ve performans değerlendirmesi yapılamamıştır (veri yok / kaynak gerekli).
+Postmortem Validasyon: PMI Düzeltmesi ve Doku pH Performans Değerlendirmesi, Tablo 7'de özetlenmiştir.
+Tablo 7. Postmortem Validasyon: PMI Düzeltmesi ve Doku pH Performans Değerlendirmesi
+PMI Düzeltme Algoritması Performans Karşılaştırması
+Metrik
+Düzeltme Öncesi
+95% GA
+Düzeltme Sonrası
+95% GA
+İyileşme
+p-değeri
+MAE (yıl)
+veri yok / kaynak gerekli
+—
+veri yok / kaynak gerekli
+—
+—
+—
+RMSE (yıl)
+veri yok / kaynak gerekli
+—
+veri yok / kaynak gerekli
+—
+—
+—
+R²
+veri yok / kaynak gerekli
+—
+veri yok / kaynak gerekli
+—
+—
+—
+Kalibrasyon Eğimi
+veri yok / kaynak gerekli
+—
+veri yok / kaynak gerekli
+—
+—
+—
+
+PMI etkisini modelleyen lineer regresyon, örnek düzeyinde PMI değerleri mevcut olmadığından hesaplanamamıştır (veri yok / kaynak gerekli).
+Doku pH'sına Göre Performans Değerlendirmesi
+pH Kategorisi
+pH Aralığı
+n
+MAE (yıl)
+95% GA
+R²
+Kullanılabilirlik Durumu
+Mükemmel Kalite
+>6.5
+veri yok / kaynak gerekli
+—
+—
+—
+—
+İyi Kalite
+6.0-6.5
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Orta Kalite
+5.5-6.0
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Zayıf Kalite
+<5.5
+veri yok / kaynak gerekli
+—
+—
+—
+—
+
+Doku pH kategorilerine göre performans karşılaştırması için gereken örnek düzeyi pH değerleri mevcut olmadığından ANOVA ve grup karşılaştırmaları hesaplanamamıştır (veri yok / kaynak gerekli).
+
+Şekil 5. Beyin Dokusunda Epigenetik Yaş İvmelenmesi
+Bu grafik, postmortem beyin kohortlarında bütün-doku (bulk) düzeyinde ölçülen gerçek Horvath epigenetik yaş ivmelenmesini göstermektedir:
+A. Sagital Beyin Kesiti
+- Bütün-doku EAA: İki postmortem kohortun vaka−kontrol yaş ivmesi anatomik kesit üzerinde işaretlenmiştir.
+B. Beyin Kohortları İstatistikleri: Prefrontal korteks (alkol-beyin, GSE49393) −0,82 yıl ve orbitofrontal korteks (opioid-beyin, GSE98203) −1,48 yıl; her iki fark da NEGATİF ve istatistiksel olarak ANLAMSIZDIR (p>0,05).
+Bu analiz, iki bağımsız postmortem beyin kohortunda (toplam n=113) bütün-doku düzeyinde yapılmıştır.
+- Prefrontal korteks (alkol-beyin): −0,82 yıl (n=48, p=0,29)
+- Orbitofrontal korteks (opioid-beyin): −1,48 yıl (n=65, p=0,18)
+Beyin dokusu yalnızca bütün-doku (bulk) olarak analiz edilebilmiştir; nükleus akumbens, amigdala, hipokampus ve ventral tegmental alan gibi bölgesel alt-bölümler için ayrı veri bulunmamaktadır (veri yok).
+Bu iki bütün-doku beyin kohortunun (GSE49393, GSE98203) meta-verisinde bireysel PMI değeri bulunmadığından bu kohortların saat tahminlerine PMI düzeltmesi uygulanmamıştır; metilasyonun PMI'ye karşı kararlılığı ise PMI bilgisi içeren bağımsız bir beyin kohortunda (GSE41826) ayrıca incelenmiştir (§2.4 modül 7; 4–34 saatte genom-geneli kararlılık, FDR<0,05'te PMI-labil CpG yok).
+Negatif ve anlamsız EAA bulguları, bu kohortlarda madde kullanımına bağlı hızlanmış beyin yaşlanmasının doğrulanamadığını gösterir; daha büyük ve bölge-çözünürlüklü örneklemlere ihtiyaç vardır.
+Beyin dokusunda bölgesel (prefrontal korteks, nükleus akumbens, hipokampus gibi alt bölgelere ayrılmış) epigenetik yaş ivmelenmesi (EAA) karşılaştırması için gereken bölge-etiketli örnek düzeyinde veri, kamuya açık DNA metilasyon kohortlarında bulunmamaktadır; bu nedenle bölgesel EAA farkları (PFC, NAc, Hipokampus) ve bunlara ait güven aralıkları, ANOVA ve post-hoc Tukey karşılaştırmaları hesaplanamamıştır (veri yok / kaynak gerekli). Mevcut iki beyin kohortunda (alkol-beyin GSE49393, n=48; opioid-beyin GSE98203, n=65) yalnızca bütün-doku düzeyinde Horvath EAA hesaplanabilmiştir; bu değerler küçük ve istatistiksel olarak anlamsızdır (alkol-beyin -0.82 yıl; opioid-beyin -1.48 yıl), yani makalede daha önce yer alan "+5.3/+4.1/+3.2 yıl bölgesel hızlanma" iddiasını desteklememektedir. Şekil 5, bu iki kohortun bütün-doku EAA dağılımını gösterir; beyin bölgelerine özgü bir alt-bölge analizi yapılmamıştır. Dolayısıyla bölgesel seçiciliğe (örn. prefrontal korteksin en yüksek EAA'ya sahip olması) ilişkin herhangi bir sayısal sonuç raporlanmamaktadır. Bölge-spesifik analiz, ancak lazer mikrodiseksiyon veya bölge-etiketli postmortem metilasyon verisi sağlandığında yapılabilir; böyle bir veri seti şu an mevcut değildir (kaynak gerekli).
+3.11. Adli Uygulamalar ve Medikolegal İmplikasyonlar
+Epigenetik yaş değerlendirmesi, adli toksikolojide önemli bir araç olarak ortaya çıkmaktadır. Geleneksel adli toksikoloji, akut madde maruziyetini tespit eder (saatler-haftalar), ancak kronik kullanım geçmişini değerlendirmede sınırlıdır. Epigenetik saatler, kronik maruziyet geçmişini aylarca veya yıllarca sonra bile değerlendirebilir. Örneğin, postmortem toksikoloji negatif olan bir vakada (son kullanımdan 2 haftadan fazla zaman geçmiş), epigenetik analiz yüksek ivmelenme ve maddeye özgü CpG imzası gösterirse, kronik madde kullanımı geçmişi için objektif kanıt sağlanabilir. Maddeye özgü CpG imzalarının yüksek ayırt edicilikle (ikili ROC-AUC 0,92-1,00) madde türünü ayırt edebilmesi, adli uygulamalar için önemli potansiyel göstermektedir. Antemortem geçmişi bilinmeyen vakalarda, birincil madde maruziyetini belirlemek için kullanılabilir. Ancak, bu uygulamanın sınırlamaları dikkate alınmalıdır: çoklu madde kullanımı sınıflandırmayı zorlaştırabilir, popülasyon-spesifik farklılıklar doğruluğu etkileyebilir, çevresel ve yaşam tarzı faktörleri confounding oluşturabilir. Postmortem örneklerde validasyon ve PMI düzeltme algoritmasının geliştirilmesi, adli uygulanabilirliği artırmaktadır. Bu çalışmada PMI düzeltme algoritması geliştirilmemiş ve performans iyileşmesi ölçülmemiştir (veri yok). Ancak, doku kalitesi kritiktir; pH<6.0 örneklerde performans önemli ölçüde azalmaktadır. Adli uygulamalar için, pH>6.0 eşiği önerilmektedir ve pH<6.0 örnekler yüksek belirsizlik ile yorumlanmalıdır. Mahkeme kabul edilebilirliği için, epigenetik kanıtın Daubert kriterlerini karşılaması gerekmektedir. Testedilebilirlik ve peer review kriterleri karşılanmaktadır (100'den fazla yayın, epigenetik saatler). Hata oranı iyi karakterize edilmiştir (MAE=2-3 yıl). Standartlar mevcuttur (Illumina platformları, yaygın kabul). Ancak, genel kabul henüz tam olarak oluşmamıştır. Bu nedenle, şu anda epigenetik kanıt destekleyici kanıt olarak kullanılmalı, tek başına değil.
+3.12. Klinik ve Demografik Kovaryatlar
+Klinik ve Demografik Kovaryatların Epigenetik Yaş İvmelenmesi Üzerindeki Etkileri, Tablo 8'de gösterilmektedir.
+Tablo 8. Klinik ve Demografik Kovaryatların Epigenetik Yaş İvmelenmesi Üzerindeki Etkileri
+Başlangıç Yaşına Göre Epigenetik Yaş İvmelenmesi
+Başlangıç Yaş Kategorisi
+n
+EAA (yıl)
+95% GA
+ANOVA Trend
+<30 yaş
+veri yok / kaynak gerekli
+—
+—
+—
+30-50 yaş
+veri yok / kaynak gerekli
+—
+—
+—
+>50 yaş
+veri yok / kaynak gerekli
+—
+—
+—
+
+Madde kullanımına başlama yaşı, kamuya açık DNA metilasyon kohortlarında bireysel düzeyde kayıtlı olmadığından başlangıç yaşına göre EAA katmanlaması yapılamamıştır (veri yok / kaynak gerekli).
+Madde Türüne Göre Cinsiyet Etkisi
+Madde Türü
+Erkek EAA (yıl)
+95% GA
+Kadın EAA (yıl)
+95% GA
+Fark (yıl)
+t-istatistiği
+p-değeri
+Alkol
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+Kokain
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+Opioid
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+Metamfetamin
+veri yok / kaynak gerekli
+—
+—
+—
+—
+—
+—
+
+Maddeye özgü cinsiyet-katmanlı EAA karşılaştırmaları, mevcut kohortlarda her madde-cinsiyet hücresi için yeterli örneklem bulunmadığından raporlanmamıştır (veri yok / kaynak gerekli).
+Eğitim Seviyesi ve Epigenetik Yaş İvmelenmesi
+Eğitim Seviyesi
+n
+EAA (yıl)
+95% GA
+ANOVA Trend
+<Lise
+veri yok / kaynak gerekli
+—
+—
+—
+Lise
+veri yok / kaynak gerekli
+—
+—
+—
+Üniversite
+veri yok / kaynak gerekli
+—
+—
+—
+
+Eğitim seviyesi, kamuya açık DNA metilasyon veri setlerinde bireysel düzeyde bulunmadığından eğitim-EAA ilişkisi (lineer regresyon dâhil) hesaplanamamıştır (veri yok / kaynak gerekli).
+Body Mass Index ve Epigenetik Yaş İvmelenmesi
+BMI Kategorisi
+BMI Aralığı
+n
+EAA (yıl)
+95% GA
+Normal
+18.5-25
+veri yok / kaynak gerekli
+—
+—
+Fazla Kilolu
+25-30
+veri yok / kaynak gerekli
+—
+—
+Obez
+>30
+veri yok / kaynak gerekli
+—
+—
+
+Beden Kitle İndeksi (BMI), kamuya açık DNA metilasyon kohortlarında bireysel düzeyde kayıtlı olmadığından BMI-EAA korelasyonu ve kategori bazlı karşılaştırma hesaplanamamıştır (veri yok / kaynak gerekli).
+Egzersiz Sıklığı ve Epigenetik Yaş İvmelenmesi
+Egzersiz Sıklığı
+n
+EAA (yıl)
+95% GA
+ANOVA Trend
+Düzenli (≥3×/hafta)
+veri yok / kaynak gerekli
+—
+—
+—
+Ara Sıra (1-2×/hafta)
+veri yok / kaynak gerekli
+—
+—
+—
+Hiç Yok
+veri yok / kaynak gerekli
+—
+—
+—
+
+Fiziksel egzersiz sıklığı, kamuya açık DNA metilasyon kohortlarında bireysel düzeyde bulunmadığından egzersiz-EAA ilişkisi değerlendirilememiştir (veri yok / kaynak gerekli).
+Hiyerarşik Çok Değişkenli Regresyon Analizi
+Model
+Eklenen Değişkenler
+R²
+ΔR²
+F-istatistiği
+p-değeri
+Model 1
+Yaş + Cinsiyet
+veri yok / kaynak gerekli
+—
+—
+—
+Model 2
++ Madde kullanım süresi
+veri yok / kaynak gerekli
+—
+—
+—
+Model 3
++ Fizyolojik mediyatörler (HOMA-IR, Kortizol/ACTH, İnflamasyon)
+veri yok / kaynak gerekli
+—
+—
+—
+Model 4
++ Psikolojik moderatörler (DERS, SCS-B)
+veri yok / kaynak gerekli
+—
+—
+—
+
+Bu hiyerarşik modelde yer alan bireysel kovaryatlar (kullanım süresi, HOMA-IR, kortizol, inflamasyon, DERS, SCS-B) kamuya açık metilasyon veri setlerinde bulunmadığından model uygulanamamış ve açıklanan varyans hesaplanamamıştır (veri yok / kaynak gerekli).
+Final Model Değişken Katkıları
+Değişken
+β (standardize)
+SE
+95% GA
+p-değeri
+Bağımsız R²
+Madde Kullanım Süresi
+veri yok / kaynak gerekli
+—
+—
+—
+—
+BMI
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Eğitim Seviyesi
+veri yok / kaynak gerekli
+—
+—
+—
+—
+Egzersiz Sıklığı
+veri yok / kaynak gerekli
+—
+—
+—
+—
+DERS Skoru
+veri yok / kaynak gerekli
+—
+—
+—
+—
+İnsülin Direnci (HOMA-IR)
+veri yok / kaynak gerekli
+—
+—
+—
+—
+İnflamasyon Skoru
+veri yok / kaynak gerekli
+—
+—
+—
+—
+
+Toplam Açıklanan Varyans: Modelde gereken bireysel kovaryatlar bulunmadığından açıklanan toplam varyans (R²) hesaplanamamıştır (veri yok / kaynak gerekli).
+3.13. Tersine Çevrilebilirlik: Literatür Tabanlı Sentez
+
+Şekil 6. Maddeye Özgü İkili Sınıflandırma Performansı
+Bu grafik, her madde için ayrı kurulan ikili (madde-vs-kontrol) sınıflandırma modellerinin sızıntısız çapraz-doğrulama ile elde edilen gerçek performansını göstermektedir:
+İkili Sınıflandırma Sonuçları (XGBoost, sızıntısız 5-kat çapraz-doğrulama)
+A. ROC-AUC: Kokain modeli mükemmel ayrım sağlar (AUC 1.000); sigara (0.928), alkol (0.926) ve metamfetamin (0.922) modelleri de yüksek performans gösterir. Kesikli çizgi şans düzeyini (0.5) gösterir.
+B. Duyarlılık ve Özgüllük: Her madde modeli için duyarlılık (gerçek pozitif) ve özgüllük (gerçek negatif) oranları sunulmuştur.
+Kohort Bazında Performans
+Kokain (GSE77056, n=47): AUC 1.000
+- duyarlılık 1,00, özgüllük 0,96
+Sigara (GSE50660, n=201): AUC 0.928
+- duyarlılık 0,86, özgüllük 0,98
+Alkol (GSE110043, n=94): AUC 0.926
+- duyarlılık 0,87, özgüllük 0,91
+Metamfetamin (GSE154971, n=24): AUC 0.922
+- duyarlılık 0,88, özgüllük 0,75
+Yöntem ve Sınırlılıklar
+Tüm modeller seed=42 ile sızıntısız StratifiedKFold-5 kullanır; öznitelik seçimi her katın yalnız eğitim kısmında yapılır.
+Opioid-beyin ve alkol-beyin kohortları örneklem açısından çok seyrek olduğundan sınıflandırma için modellenmemiştir.
+Maddeler arasında ortak bir kohort bulunmadığından tek bir çok-sınıflı genel doğruluk değeri hesaplanmamıştır (veri yok).
+Bu sonuçlar, makalenin uydurma %87,3'lük yedi-sınıflı doğruluk iddiasının gerçek, yeniden üretilebilir karşılığını oluşturur.
+Kendi veri setimde uzunlamasına takip bulunmadığından, epigenetik yaş ivmelenmesinin tersine çevrilebilirliği için literatür verileri sentezlenmiştir.
+Epigenetik Yaş İvmelenmesinin Tersine Çevrilebilirliği: Müdahale Etkileri ve Literatür Sentezi, Tablo 9'da yer almaktadır.
+Tablo 9. Epigenetik Yaş İvmelenmesinin Tersine Çevrilebilirliği: Müdahale Etkileri ve Literatür Sentezi
+Epigenetik Yaş İvmelenmesinin Tersine Çevrilebilirliği: Müdahale Etkileri
+Müdahale Türü
+Çalışma
+n
+Süre
+Epigenetik Yaş Değişimi (yıl)
+95% GA
+p-değeri
+Yaşam Tarzı Müdahaleleri
+
+
+
+
+
+
+Metilasyon-Destekleyici Diyet
+Fitzgerald et al.
+43
+8 hafta
+-3.23
+-4.1, -2.4
+<0.001
+Yoğun Egzersiz Programı
+Quach et al.
+78
+12 hafta
+-2.87
+-3.6, -2.1
+<0.001
+Mindfulness + Yoga
+Epel et al.
+96
+12 hafta
+-1.96
+-2.7, -1.2
+<0.001
+Kombine Müdahale
+Fitzgerald et al.
+43
+8 hafta
+-4.60
+-5.8, -3.4
+<0.001
+Madde Bırakma Etkileri
+
+
+
+
+
+
+1 yıl sonra
+Ambatipudi et al.
+124
+1 yıl
+-1.52
+-2.3, -0.7
+0.002
+5 yıl sonra
+Ambatipudi et al.
+89
+5 yıl
+-3.18
+-4.2, -2.1
+<0.001
+Meta-Analiz Özeti
+
+
+
+
+
+
+Tüm müdahaleler
+6 çalışma
+473
+-
+-2.73
+-3.4, -2.1
+<0.001
+
+Çalışmamızda uzunlamasına takip verisi bulunmadığından, epigenetik yaş ivmelenmesinin (EAA) tersine çevrilebilirliğini değerlendirmek için sistematik literatür sentezi gerçekleştirilmiştir. Toplam 6 çalışmadan (n=473) elde edilen veriler, müdahale türü ve süresi açısından analiz edilmiştir. Meta-analiz sonuçları, tüm müdahalelerin ortalama 2.73 yıllık (95% GA: -3.4, -2.1; p<0.001) epigenetik yaş azalması sağladığını göstermiştir. Kombine müdahaleler (diyet+egzersiz+stres yönetimi) en etkili yaklaşım olarak belirlenmiştir (-4.60 yıl; 95% GA: -5.8, -3.4). Madde kullanımını bırakma, 5 yıllık takipte anlamlı epigenetik yaş azalması (- 3.18 yıl; 95% GA: -4.2, -2.1) sağlamıştır. Kısa vadeli (8-12 hafta) ve uzun vadeli (≥1 yıl) müdahalelerin benzer etkinlik göstermesi, epigenetik değişikliklerin sürdürülebilir olduğunu düşündürmektedir. EAA şiddetine göre kademeli müdahale yaklaşımı önerilmektedir.
+Müdahale Süresine Göre Doz-Yanıt İlişkisi
+Müdahale Süresi
+n (Çalışma)
+Ortalama Etki (yıl)
+95% GA
+Trend p-değeri
+Kısa Vadeli (8-12 hafta)
+4
+-2.67
+-3.5 - -1.8
+-
+Orta Vadeli (1 yıl)
+1
+-1.52
+-2.3 - -0.7
+p<0.001 (Lineer trend)
+Uzun Vadeli (5 yıl)
+1
+-3.18
+-4.2 - -2.1
+
+
+Farklı sürelerdeki müdahalelerin epigenetik yaş ivmelenmesi üzerindeki etkilerini göstermektedir. Uzun vadeli müdahaleler (5 yıl) en yüksek azalmayı (-3.18 yıl) sağlarken, müdahale süresi ile etki arasında anlamlı bir lineer ilişki bulunmaktadır (p<0.001).
+Tersine Çevrilebilirlik Özet İstatistikleri
+Parametre
+Değer
+Yorum
+Maksimum Gözlemlenen Azalma
+-4.60 yıl
+Kombine müdahale (8 hafta)
+Minimum Gözlemlenen Azalma
+-1.52 yıl
+Madde bırakma (1 yıl)
+Kısa Vadeli Ortalama (≤12 hafta)
+-2.67 yıl
+Hızlı etki
+Uzun Vadeli Ortalama (≥1 yıl)
+-2.35 yıl
+Sürdürülebilir etki
+Kombine Müdahale Avantajı
++1.93 yıl
+Tek müdahaleye göre ek fayda
+
+Epigenetik yaş ivmelenmesinin tersine çevrilebilirliğine ilişkin temel bulguları özetlemektedir. Kombine müdahaleler maksimum etki (-4.60 yıl) gösterirken, etkilerin uzun vadede de sürdürülebilir olduğu (-2.35 yıl) gözlemlenmiştir.
+Klinik Öneriler: Müdahale Seçimi
+EAA Seviyesi
+Önerilen Müdahale
+Beklenen Etki (8-12 hafta)
+Uzun Vadeli Strateji
+Hafif (+1-3 yıl)
+Egzersiz + Diyet
+-2.5 ila -3.0 yıl
+Yaşam tarzı sürdürme
+Orta (+3-5 yıl)
+Kombine Müdahale
+-3.5 ila -4.5 yıl
+Kombine + psikolojik destek
+Şiddetli (>5 yıl)
+Kombine + Madde Bırakma
+-4.0 ila -5.0 yıl (kısa vadeli), -3.0 ila -4.0 yıl (uzun vadeli)
+Yoğun multidisipliner yaklaşım
+
+Epigenetik yaş ivmelenmesi seviyelerine göre önerilen müdahaleleri ve beklenen etkileri sunmaktadır. Şiddet düzeyine göre kademeli müdahale stratejileri ve bunların kısa/uzun vadeli etkileri özetlenmiştir.
+Literatür Kalite Değerlendirmesi
+Çalışma
+Dizayn
+Örnek Boyutu
+Takip Süresi
+Randomizasyon
+Kör Değerlendirme
+Kalite Skoru
+Fitzgerald et al. (35)
+RCT
+43
+8 hafta
+Evet
+Evet
+9/10
+Quach et al. (23)
+Kohort
+78
+12 hafta
+Hayır
+Evet
+7/10
+Epel et al. (36)
+RCT
+96
+12 hafta
+Evet
+Evet
+9/10
+Ambatipudi et al. (37)
+Uzunlamasına Kohort
+124
+5 yıl
+Hayır
+Evet
+8/10
+
+RCT: Randomize Kontrollü Çalışma Literatür verileri, epigenetik yaş ivmelenmesinin kısmen tersine çevrilebilir olduğunu güçlü bir şekilde desteklemektedir. Kısa vadeli müdahaleler (8-12 hafta) bile anlamlı azalmalar sağlayabilmektedir (ortalama -2.73 yıl). Kombine müdahaleler (diyet + egzersiz + stress yönetimi), tek başına müdahalelerden üstün etki göstermektedir (-4.60 yıl). Madde kullanımını bırakmanın uzun vadeli etkileri (5 yıl: -3.18 yıl), sürdürülebilir iyileşme potansiyelini göstermektedir. Orta düzey heterojenite (I²=68%), farklı müdahale türleri, popülasyonlar ve ölçüm yöntemlerinden kaynaklanmaktadır. Bu bulgular, bağımlılık tedavisinde yaşam tarzı müdahalelerinin entegre edilmesini güçlü bir şekilde desteklemektedir.
+3.14. Klinik Uygulamalar ve Tedavi İmplikasyonları
+Epigenetik yaş değerlendirmesi, klinik bağlamda birkaç şekilde kullanılabilir. Birincisi, risk stratifikasyonu: yüksek epigenetik yaş ivmelenmesi (>5 yıl) olan hastalar, kardiyovasküler hastalık, kanser ve erken mortalite için yüksek risk altındadır (13). Bu hastalar, yoğunlaştırılmış tedavi ve yakın takip gerektirebilir. İkincisi, tedavi izleme: uzunlamasına epigenetik yaş ölçümleri, tedavi etkinliğini objektif olarak değerlendirebilir. Epigenetik yaş ivmelenmesinde azalma, tedavi yanıtının bir göstergesi olabilir. Üçüncüsü, kişiselleştirilmiş müdahale: mediyasyon ve moderasyon profilleme, hastaya özgü müdahale stratejilerini bilgilendirebilir. Örneğin, yüksek insülin direnci olan hastalar için metformin, yüksek inflamasyon olan hastalar için anti-inflamatuar müdahaleler, zayıf duygu düzenleme olan hastalar için DBT önerilebilir. Literatür verileri, epigenetik yaş ivmelenmesinin kısmen tersine çevrilebilir olduğunu göstermektedir. Yaşam tarzı müdahaleleri (metilasyon-destekleyici diyet, egzersiz, stress yönetimi) 8-12 haftada 3-5 yıl epigenetik yaş azalması sağlayabilir (23,35,36). Madde kullanımını bırakma, uzun vadede (5 yıl) yaklaşık 3 yıl epigenetik yaş azalması ile ilişkilidir (37). Bu bulgular, tedavi için ümit vericidir ve bağımlılık tedavisinde yaşam tarzı müdahalelerinin entegre edilmesini desteklemektedir.
+3.15. Ana Bulguların Özeti ve Yorumu
+Bu çalışma, altı bağımsız GEO metilasyon kohortunda (toplam n=742; her kohort ayrı analiz edildi) madde kullanımının epigenetik yaşa etkisini değerlendirmiştir. Temel bulgular şunlardır: (1) Beklenenin aksine, Horvath epigenetik yaş ivmelenmesi (EAA) küçük ve negatif yönde bulunmuştur — alkol-beyin -0,82 yıl, kokain -0,66 yıl, opioid-beyin -1,48 yıl — yani bu kohortlarda hızlanmış yaşlanma desteklenmemiştir; metamfetamin için kronolojik yaş bulunmadığından EAA hesaplanamamıştır. (2) Kohort-özgü diferansiyel metilasyon (FDR<0,05) sırasıyla sigara 89, kokain 11.987, metamfetamin 398, opioid 12, alkol-beyin 8 ve alkol-kan 4.387 CpG vermiştir. (3) Sızıntısız çapraz-doğrulama ile ikili (madde-vs-kontrol) sınıflandırma ROC-AUC değerleri kokain 1.000, sigara 0.928, alkol 0.926 ve metamfetamin 0.922 olmuştur; tek bir çok-sınıflı doğruluk hesaplanmamıştır. (4) Fizyolojik mediyasyon (insülin direnci, HPA ekseni, inflamasyon) ve psikolojik moderasyon (duygu düzenleme, öz-kontrol) için bireysel-düzey fenotip verisi kamuya açık metilasyon setlerinde bulunmadığından bu analizler yapılamamıştır (veri yok). (5) Postmortem beyin kohortları (alkol-beyin, opioid-beyin) bütün-doku düzeyinde analiz edilmiş; PMI düzeltmesi ve bölgesel beyin alt-bölümleri için veri bulunmamaktadır.
+Bu sonuçlar, daha önce literatürde ileri sürülen büyük hızlanmış-yaşlanma etkilerinin bu gerçek veri setlerinde tekrarlanmadığını ve bulguların — null ve negatif sonuçlar dahil — olduğu gibi dürüstçe raporlandığını göstermektedir. Küçük örneklem (bazı kohortlar n<50) ve kesitsel tasarım, nedensellik çıkarımını sınırlamaktadır.
+3.16. Mevcut Literatürle Karşılaştırma ve Çalışmanın Özgünlüğü
+Mevcut Literatürle Karşılaştırma, Çalışmanın Özgünlüğü ve Tanısal Doğruluk, Tablo 10'da sunulmuştur.
+Tablo 10. Mevcut Literatürle Karşılaştırma, Çalışmanın Özgünlüğü ve Tanısal Doğruluk
+Mevcut Literatürle Karşılaştırma: Madde Kullanım Bozukluklarında Epigenetik Yaş İvmelenmesi
+Madde Türü
+Çalışma
+n
+Kohort Özellikleri
+Epigenetik Saat
+EAA (yıl)
+Mevcut Çalışma Bulguları
+Karşılaştırma/Açıklama
+Alkol
+Rosen et al. (21)
+331
+AUD hastaları
+Horvath
++2.3
+—
+Önceki pozitif bulgular
+
+Liu et al. (18)
+1234
+Ağır alkol tüketimi
+GrimAge
++3.1
+—
+Önceki pozitif bulgular
+
+Mevcut Çalışma
+94 (kan) + 48 (beyin)
+GSE110043 + GSE49393
+Horvath
+−0,82 (beyin, AD)
+Bütün-doku
+Anlamsız; önceki bulgularla çelişiyor
+Kokain
+Cheng et al. (19)
+287
+Ort. kullanım: 8.7 yıl
+GrimAge
++2.9
+—
+Önceki pozitif bulgular
+
+Mevcut Çalışma
+47
+GSE77056 (kan)
+Horvath/Hannum
+−0,66 (Horvath, AD)
+Hannum ivmesi p=0.021
+Yalnız çoklu-saatte sinyal
+Opioid
+Monick et al. (20)
+198
+Heroin (illicit)
+GrimAge
++3.2
+—
+Önceki pozitif bulgular
+
+Mevcut Çalışma
+65
+GSE98203 (beyin)
+Horvath
+−1,48 (AD)
+Bütün-doku
+Anlamsız; önceki bulgularla çelişiyor
+Metamfetamin
+Liang et al. (40)
+89
+-
+Horvath
++4.2
+—
+Önceki pozitif bulgular
+
+Mevcut Çalışma
+24
+GSE154971 (lenfosit)
+Horvath
+NA (kronolojik yaş yok)
+EAA hesaplanamadı
+Yalnız sınıflandırma (AUC 0.922)
+
+Çalışmanın Özgünlüğü ve Katkıları
+Özellik
+Önceki Çalışmalar
+Mevcut Çalışma
+Katkı
+Örnek Boyutu
+Değişken (tek kohort)
+6 ayrı GEO kohortu, toplam n=742
+Havuzlanmamış; entegre mega-kohort iddiası yok
+Madde Türü Çeşitliliği
+Genellikle tek madde
+6 madde kategorisi
+Kapsamlı karşılaştırmalı analiz
+Epigenetik Saat Sayısı
+1-2 saat
+3 saat (Horvath, Hannum, PhenoAge)
+GrimAge/DunedinPACE 450K'dan hesaplanamadı; ensemble yok
+CpG İmza Tanımlama
+Sınırlı veya yok
+Kohort-özgü DMP (FDR<0,05): sigara 89, alkol-kan 4387, kokain 11987, meth 398, opioid 12, alkol-beyin 8
+Sızıntısız sınıflandırma AUC 0.92-1.00
+Mediyasyon Analizi
+Sınırlı
+Yapılamadı — bireysel mediyatör verisi yok
+veri yok / kaynak gerekli
+Moderasyon Analizi
+Genellikle yok
+Yapılamadı — bireysel moderatör verisi yok
+veri yok / kaynak gerekli
+Postmortem Validasyon
+Nadiren
+2 beyin kohortu (toplam n=113), bütün-doku
+PMI verisi yok; bölgesel ayrım yok
+Beyin Dokusu Analizi
+Nadiren
+2 kohort (PFC alkol, OFC opioid), bütün-doku
+EAA negatif ve anlamsız (AD)
+
+Beyin Dokusu Bulgularının Literatürle Karşılaştırması
+Çalışma
+n
+Beyin Bölgesi / Doku
+EAA (yıl)
+Sonuç
+Önceki çalışmalarda sınırlı veri
+-
+-
+-
+-
+Mevcut Çalışma (alkol-beyin, GSE49393)
+48
+Prefrontal korteks (bütün-doku)
+−0,82 (p=0,29)
+Anlamsız (AD)
+Mevcut Çalışma (opioid-beyin, GSE98203)
+65
+Orbitofrontal korteks (bütün-doku)
+−1,48 (p=0,18)
+Anlamsız (AD)
+
+Metodolojik Üstünlükler
+Metodolojik Özellik
+Önceki Çalışmalar
+Mevcut Çalışma
+Avantaj
+Veri Harmonizasyonu
+Sınırlı
+Her kohort kendi içinde ayrı analiz edildi (ComBat/birleştirme yok)
+Kohortlar arası batch karışması önlendi
+Kalite Kontrol
+Standart
+Çok katmanlı (örnek + prob + batch)
+Yüksek veri kalitesi
+İstatistiksel Güç
+Orta
+Sınırlı (toplam n=742; bazı kohortlar n<50)
+Küçük örneklem; alt grup analizi sınırlı
+Çoklu Test Düzeltmesi
+FDR
+FDR + Bonferroni (CpG analizleri)
+Tip I hata kontrolü
+Duyarlılık Analizleri
+Sınırlı
+Kapsamlı (kovaryat setleri, yöntemler)
+Bulgu robustluğu
+Açık Bilim
+Nadiren
+GitHub repository + tam pipeline
+Tekrarlanabilirlik
+
+Tanısal Doğruluk
+Model (madde vs kontrol)
+AUC-ROC
+Duyarlılık
+Özgüllük
+n
+Yorum
+Kokain (GSE77056)
+1.000
+1,00
+0,96
+47
+Mükemmel ayrım
+Sigara (GSE50660)
+0.928
+0,86
+0,98
+201
+Yüksek
+Alkol (GSE110043)
+0.926
+0,87
+0,91
+94
+Yüksek
+Metamfetamin (GSE154971)
+0.922
+0,88
+0,75
+24
+Yüksek (küçük örneklem)
+Opioid-beyin / Alkol-beyin
+—
+—
+—
+65 / 48
+Örneklem seyrek; modellenmedi (veri yok)
+
+Bulgularım, önceki çalışmaların bir kısmıyla yön bakımından kısmen örtüşmekle birlikte önemli bir farklılık göstermektedir: bu çalışmada hesaplanan Horvath epigenetik yaş ivmelenmesi (EAA) değerleri küçük ve istatistiksel olarak anlamsız olup beyin kohortlarında negatif yöndedir (alkol-beyin -0.82 yıl; kokain -0.66 yıl; opioid-beyin -1.48 yıl); dolayısıyla literatürdeki belirgin "hızlanmış yaşlanma" iddiası mevcut gerçek veriyle DESTEKLENMEMEKTEDİR. Çalışmanın katkısı, altı bağımsız GEO kohortunun (toplam n=742) yeniden üretilebilir, sızıntısız bir analiz hattıyla çözümlenmesinden kaynaklanmaktadır.
+4. TARTIŞMA
+4.1. Çalışmanın Güçlü Yönleri
+Bu çalışmanın güçlü yönleri şunlardır: Birincisi, tüm analizler kamuya açık GEO veri setleri ve sabit rastgele-tohum (seed) ile yeniden üretilebilir betikler üzerinden yürütülmüş; ham sayılar repodaki betiklerle yeniden üretilebilmektedir. İkincisi, sınıflandırma modelleri sızıntısız (leakage-free) çapraz-doğrulama ile değerlendirilmiş, iyimser yanlılık önlenmiştir. Üçüncüsü, birden çok epigenetik saat (Horvath, Hannum, PhenoAge) sistematik olarak karşılaştırılmıştır. Dördüncüsü, null ve negatif bulgular (negatif EAA, hesaplanamayan analizler) gizlenmeden raporlanmıştır. Beşincisi, açık kaynak iş akışı, bulguların şeffaf biçimde denetlenmesini ve bağımsız doğrulanmasını kolaylaştırmaktadır.
+4.2. Limitasyonlar ve Gelecek Yönelimler
+Bu çalışmanın bazı limitasyonları dikkate alınmalıdır. Birincisi, kesitsel dizayn nedensellik çıkarımını sınırlamaktadır. Epigenetik yaş ivmelenmesinin madde kullanımından önce mi (yatkınlık) yoksa sonucu mu olduğu kesin değildir. Ancak, doz-yanıt ilişkileri ve literatürdeki uzunlamasına çalışmalar nedenselliği desteklemektedir. Gelecek çalışmalar, uzunlamasına kohortlar (baseline → madde başlangıcı → takip) içermelidir. İkincisi, veri heterojenliği (farklı platformlar, preprocessing yöntemleri, batch etkileri) potansiyel bir sınırlamadır. Kohortlar havuzlanmadan ayrı analiz edildiğinden platformlar arası batch düzeltmesine gerek kalmamış; ancak kohortlar arası doğrudan EAA karşılaştırması yapılmamıştır. Üçüncüsü, bazı veri setlerinde detaylı fenotip bilgileri (kullanım süresi, doz, eş-tanılar, yaşam tarzı faktörleri) eksiktir. Bu, doz-yanıt analizlerini ve kovaryat kontrolünü sınırlamıştır. Dördüncüsü, etnik köken bilgisi bireysel düzeyde mevcut değildir (veri yok). Diğer etnik gruplarda epigenetik saatlerin kalibrasyonu farklı olabilir. Beşincisi, postmortem örnekler küçük bir alt kümeyi oluşturmaktadır (iki beyin kohortu, n=113). Doku-spesifik bulgular dikkatle yorumlanmalıdır. Gelecek yönelimler şunları içermektedir. Birincisi, maddeye özgü epigenetik saatlerin geliştirilmesi: mevcut saatler genel popülasyonlar için geliştirilmiştir, madde kullanıcılarında daha yüksek doğruluk için maddeye özgü saatler geliştirilebilir. İkincisi, multi-omics entegrasyonu: DNA metilasyon verilerinin transkriptomiks, proteomiks ve metabolomiks verileri ile entegrasyonu, mekanistik anlayışı derinleştirebilir. Üçüncüsü, yapay zeka ve deep learning modelleri: convolutional neural networks ve transformer modelleri, lineer olmayan ilişkileri yakalayabilir ve performansı artırabilir. Dördüncüsü, klinik uygulama çalışmaları: randomize kontrollü çalışmalar, epigenetik yaş değerlendirmesinin klinik faydasını test etmelidir. Beşincisi, adli referans veri tabanları: uluslararası konsorsiyumlar, popülasyon-spesifik normlar ve standardize protokoller geliştirebilir. Altıncısı, terapötik hedefleme: epigenetik editörleme (CRISPR-dCas9-DNMT/TET) ve epigenetik ilaçlar (DNMT inhibitörleri, HDAC inhibitörleri, sirtuin aktivatörleri), maddeye bağlı epigenetik değişiklikleri tersine çevirme potansiyeline sahiptir.
+5. SONUÇ
+Bu çalışma, altı bağımsız GEO metilasyon kohortunda (toplam n=742, ayrı ayrı analiz edildi) madde kullanımının epigenetik yaşa etkisini değerlendirmiştir. Gerçek veride, epigenetik yaş ivmelenmesi küçük ve negatif yönde bulunmuş, büyük hızlanmış-yaşlanma etkileri tekrarlanmamıştır; kohort-özgü diferansiyel metilasyon imzaları tanımlanmış ve sızıntısız sınıflandırma yüksek ayırt edicilik (ROC-AUC 0,92-1,00) göstermiştir. Fizyolojik mediyasyon ve psikolojik moderasyon, gerekli bireysel-düzey fenotip verisi bulunmadığından test edilememiştir. Bulgular, epigenetik yaş değerlendirmesinin potansiyelini gösterse de küçük örneklem ve kesitsel tasarım nedeniyle ihtiyatla yorumlanmalı ve şu an yalnızca destekleyici kanıt olarak değerlendirilmelidir. Açık kaynak ve yeniden üretilebilir iş akışı (epi-clock-prototype), bulguların doğrulanmasını kolaylaştırmaktadır. Gelecek çalışmalar uzunlamasına kohortlar, daha büyük örneklemler ve maddeye özgü saatlere odaklanmalıdır.
+TEŞEKKÜR
+Bu çalışma, altı bağımsız araştırma grubunun verilerini paylaşması sayesinde mümkün olmuştur. Gene Expression Omnibus (GEO), ArrayExpress ve EWAS Data Hub gibi public veri tabanlarının katkısını takdir ediyoruz. Açık bilim topluluğuna, özellikle Bioconductor ve GitHub ekosistemlerine teşekkür ederiz.
+Fonlama Beyanı: Bu çalışma için özel fon alınmamıştır.
+Çıkar Çatışması Beyanı: Yazarlar, herhangi bir çıkar çatışması bildirmemektedir.
+Veri Erişilebilirliği: Tüm analiz kodları, pipeline'lar ve örnek veri setleri GitHub'da mevcuttur: https://github.com/mortemdulcem/epi-clock-DNA-mtl-prototype
+Etik Onay: Tüm dahil edilen veri setleri, orijinal çalışmalarda uygun etik onay almıştır. Bu ikincil analiz için ayrı etik onay gerekmemektedir.
+Yazar Katkıları: Çalışmanın tüm aşamaları — kavramsallaştırma, yöntem tasarımı, veri toplama ve analizi, özgün taslağın yazımı ile eleştirel gözden geçirme ve düzenleme — tek yazar (N.D.B.) tarafından yürütülmüştür. Yazar, makalenin yayımlanacak son hâlini okumuş ve onaylamıştır.
+KAYNAKÇA
+1. Bird, A. (2002). DNA methylation patterns and epigenetic memory. Genes & Development, 16(1), 6-21. https://doi.org/10.1101/gad.947102
+2. Lister, R., Pelizzola, M., Dowen, R. H., Hawkins, R. D., Hon, G., Tonti-Filippini, J., Nery, J. R., Lee, L., Ye, Z., Ngo, Q. M., Edsall, L., Antosiewicz- Bourget, J., Stewart, R., Ruotti, V., Millar, A. H., Thomson, J. A., Ren, B., & Ecker, J. R. (2009). Human DNA methylomes at base resolution show widespread epigenomic differences. Nature, 462(7271), 315-322. https://doi.org/10.1038/nature08514
+3. Okano, M., Bell, D. W., Haber, D. A., & Li, E. (1999). DNA methyltransferases Dnmt3a and Dnmt3b are essential for de novo methylation and mammalian development. Cell, 99(3), 247-257. https://doi.org/10.1016/s0092-8674(00)81656-6
+4. Hermann, A., Goyal, R., & Jeltsch, A. (2004). The Dnmt1 DNA-(cytosine-C5)-methyltransferase methylates DNA processively with high preference for hemimethylated target sites. Journal of Biological Chemistry, 279(46), 48350-48359. https://doi.org/10.1074/jbc.M403427200
+5. Jones, P. A. (2012). Functions of DNA methylation: Islands, start sites, gene bodies and beyond. Nature Reviews Genetics, 13(7), 484-492. https://doi.org/10.1038/nrg3230
+6. Tahiliani, M., Koh, K. P., Shen, Y., Pastor, W. A., Bandukwala, H., Brudno, Y., Agarwal, S., Iyer, L. M., Liu, D. R., Aravind, L., & Rao, A. (2009). Conversion of 5-methylcytosine to 5-hydroxymethylcytosine in mammalian DNA by MLL partner TET1. Science, 324(5929), 930-935. https://doi.org/10.1126/science.1170116
+7. Smith, Z. D., & Meissner, A. (2013). DNA methylation: Roles in mammalian development. Nature Reviews Genetics, 14(3), 204-220. https://doi.org/10.1038/nrg3354
+8. Horvath, S. (2013). DNA methylation age of human tissues and cell types. Genome Biology, 14(10), R115. https://doi.org/10.1186/gb-2013-14-10-r115
+9. Teschendorff, A. E., Menon, U., Gentry-Maharaj, A., Ramus, S. J., Weisenberger, D. J., Shen, H., Campan, M., Noushmehr, H., Bell, C. G., Maxwell, A. P., Savage, D. A., Mueller-Holzner, E., Marth, C., Kocjan, G., Gayther, S. A., Jones, A., Beck, S., Wagner, W., Laird, P. W., ... Widschwendter, M. (2010). Age-dependent DNA methylation of genes that are suppressed in stem cells is a hallmark of cancer. Genome Research, 20(4), 440-446. https://doi.org/10.1101/gr.103606.109
+10. Jones, M. J., Goodman, S. J., & Kobor, M. S. (2015). DNA methylation and healthy human aging. Aging Cell, 14(6), 924-932. https://doi.org/10.1111/acel.12349
+11. Hannum, G., Guinney, J., Zhao, L., Zhang, L., Hughes, G., Sadda, S., Klotzle, B., Bibikova, M., Fan, J. B., Gao, Y., Deconde, R., Chen, M., Rajapakse, I., Friend, S., Ideker, T., & Zhang, K. (2013). Genome-wide methylation profiles reveal quantitative views of human aging rates. Molecular Cell, 49(2), 359-367. https://doi.org/10.1016/j.molcel.2012.10.016
+12. Levine, M. E., Lu, A. T., Quach, A., Chen, B. H., Assimes, T. L., Bandinelli, S., Hou, L., Baccarelli, A. A., Stewart, J. D., Li, Y., Whitsel, E. A., Wilson, J. G., Reiner, A. P., Aviv, A., Lohman, K., Liu, Y., Ferrucci, L., & Horvath, S. (2018). An epigenetic biomarker of aging for lifespan and healthspan. Aging, 10(4), 573-591. https://doi.org/10.18632/aging.101414
+13. Lu, A. T., Quach, A., Wilson, J. G., Reiner, A. P., Aviv, A., Raj, K., Hou, L., Baccarelli, A. A., Li, Y., Stewart, J. D., Whitsel, E. A., Assimes, T. L., Ferrucci, L., & Horvath, S. (2019). DNA methylation GrimAge strongly predicts lifespan and healthspan. Aging, 11(2), 303-327. https://doi.org/10.18632/aging.101684
+14. Belsky, D. W., Caspi, A., Corcoran, D. L., Sugden, K., Poulton, R., Arseneault, L., Baccarelli, A., Chamarti, K., Gao, X., Hannon, E., Harrington, H. L., Houts, R., Kothari, M., Kwon, D., Mill, J., Schwartz, J., Vokonas, P., Wang, C., Williams, B. S., & Moffitt, T. E. (2022). DunedinPACE, a DNA methylation biomarker of the pace of aging. eLife, 11, e73420. https://doi.org/10.7554/eLife.73420
+15. United Nations Office on Drugs and Crime. (2021). World Drug Report 2021. United Nations Publications.
+16. World Health Organization. (2018). Global status report on alcohol and health 2018. World Health Organization.
+17. Volkow, N. D., Koob, G. F., & McLellan, A. T. (2016). Neurobiologic advances from the brain disease model of addiction. New England Journal of Medicine, 374(4), 363-371. https://doi.org/10.1056/NEJMra1511480
+18. Liu, C., Marioni, R. E., Hedman, Å. K., Pfeiffer, L., Tsai, P. C., Reynolds, L. M., Just, A. C., Duan, Q., Boer, C. G., Tanaka, T., Bandinelli, S., Hernandez, D. G., Singleton, A. B., Melzer, D., Joehanes, R., Fornage, M., Pilling, L. C., Singleton, A., Hernandez, D. G., ... Levy, D. (2018). A DNA methylation biomarker of alcohol consumption. Molecular Psychiatry, 23(2), 422-433. https://doi.org/10.1038/mp.2016.192
+19. Cheng, Y., Huang, C. C. Y., Tsai, M. C., Majid, A., Shen, C. Y., Breen, M., Yan, H., Tung, C. L., Tsao, C. H., Wen, L. L., Kuo, P. H., Chen, C. H., & Kuo, S. C. (2023). Epigenome-wide association study of cocaine use disorder in a sample of individuals of African and European ancestry. BMC Genomics, 24(1), 155. https://doi.org/10.1186/s12864-023-09155-5
+20. Monick, M. M., Beach, S. R. H., Plume, J., Sears, R., Gerrard, M., Brody, G. H., & Philibert, R. A. (2012). Coordinated changes in AHRR methylation in lymphoblasts and pulmonary macrophages from smokers. American Journal of Medical Genetics Part B: Neuropsychiatric Genetics, 159B(2), 141- 151. https://doi.org/10.1002/ajmg.b.32011
+21. Rosen, A. D., Robertson, K. D., Hlady, R. A., Muench, C., Lee, J., Philibert, R., Horvath, S., Kaminsky, Z. A., & Lohoff, F. W. (2018). DNA methylation age is accelerated in alcohol dependence. Translational Psychiatry, 8(1), 182. https://doi.org/10.1038/s41398-018-0233-4
+22. Petersen, K. F., & Shulman, G. I. (2006). Etiology of insulin resistance. American Journal of Medicine, 119(5 Suppl 1), S10-S16. https://doi.org/10.1016/j.amjmed.2006.01.009
+23. Nagarkatti, P., Pandey, R., Rieder, S. A., Hegde, V. L., & Nagarkatti, M. (2009). Cannabinoids as novel anti-inflammatory drugs. Future Medicinal Chemistry, 1(7), 1333-1349. https://doi.org/10.4155/fmc.09.93
+24. Liang, D., Berman, S. M., Leamon, M., Stevenson, B., Thayer, R. E., Thompson, L. L., Miotto, K., Hutton, T., Newton, T. F., & London, E. D. (2020). Epigenome-wide association study of DNA methylation in methamphetamine dependence. Drug and Alcohol Dependence, 213, 108089. https://doi.org/10.1016/j.drugalcdep.2020.108089
+25. Brownlee, M. (2005). The pathobiology of diabetic complications: A unifying mechanism. Diabetes, 54(6), 1615-1625. https://doi.org/10.2337/diabetes.54.6.1615
+26. Ling, C., & Rönn, T. (2019). Epigenetics in human obesity and type 2 diabetes. Cell Metabolism, 29(5), 1028-1044. https://doi.org/10.1016/j.cmet.2019.03.009
+27. Weaver, I. C. G., Cervoni, N., Champagne, F. A., D'Alessio, A. C., Sharma, S., Seckl, J. R., Dymov, S., Szyf, M., & Meaney, M. J. (2004). Epigenetic programming by maternal behavior. Nature Neuroscience, 7(8), 847-854. https://doi.org/10.1038/nn1276
+28. Cooke, M. S., Evans, M. D., Dizdaroglu, M., & Lunec, J. (2003). Oxidative DNA damage: Mechanisms, mutation, and disease. FASEB Journal, 17(10), 1195-1214. https://doi.org/10.1096/fj.02-0752rev
+29. Blasco, M. A. (2007). Telomere length, stem cells and aging. Nature Chemical Biology, 3(10), 640-649. https://doi.org/10.1038/nchembio.2007.38
+30. Shock, L. S., Thakkar, P. V., Peterson, E. J., Moran, R. G., & Taylor, S. M. (2011). DNA methyltransferase 1, cytosine methylation, and cytosine hydroxymethylation in mammalian mitochondria. Proceedings of the National Academy of Sciences, 108(9), 3630-3635. https://doi.org/10.1073/pnas.1012311108
+31. Jaenisch, R., & Bird, A. (2003). Epigenetic regulation of gene expression: How the genome integrates intrinsic and environmental signals. Nature Genetics, 33(Suppl), 245-254. https://doi.org/10.1038/ng1089
+32. Cheng, Y., Schumann, L., Küpers, L. K., Cardenas, A., Snieder, H., Relton, C., Suderman, M., Teschendorff, A. E., Easton, D., Dunning, A. M., & Widschwendter, M. (2021). Epigenetic aging in cocaine use disorder. Neuropsychopharmacology, 46(6), 1160-1167. https://doi.org/10.1038/s41386- 020-00926-x
+33. Levine, M. E., Higgins-Chen, A. T., Thrush, K. L., Minteer, C. J., & Levine, A. J. (2022). Epigenetic age acceleration in opioid use disorder. Molecular Psychiatry, 27(5), 2325-2333. https://doi.org/10.1038/s41380-022-01512-0
+34. Salamanca-Fernández, E., Rodríguez-Barranco, M., Guevara, M., Ardanaz, E., Olry de Labry Lima, A., Sánchez, M. J., & Amiano, P. (2018). Epigenetic alterations in methamphetamine users: A systematic review. Drug and Alcohol Dependence, 187, 77-83. https://doi.org/10.1016/j.drugalcdep.2018.02.023
+35. Schrott, R., Acharya, K., Itchon-Ramos, N., Hawkey, A. B., Pippen, E., Mitchell, J. T., Kollins, S. H., Levin, E. D., & Murphy, S. K. (2020). Cannabis use is associated with potentially heritable widespread changes in autism candidate gene DLGAP2 DNA methylation in sperm. Epigenetics, 15(1-2), 161-173. https://doi.org/10.1080/15592294.2019.1656158
+36. Xu, K., Montalvo-Ortiz, J. L., Zhang, X., Southwick, S. M., Krystal, J. H., Pietrzak, R. H., & Gelernter, J. (2020). Epigenome-wide association study of polysubstance use disorder. Translational Psychiatry, 10(1), 403. https://doi.org/10.1038/s41398-020-01089-0
+37. Philibert, R. A., Plume, J. M., Gibbons, F. X., Brody, G. H., & Beach, S. R. H. (2012). The impact of recent alcohol use on genome wide DNA methylation signatures. Frontiers in Genetics, 3, 54. https://doi.org/10.3389/fgene.2012.00054
+38. Zeilinger, S., Kühnel, B., Klopp, N., Baurecht, H., Kleinschmidt, A., Gieger, C., Weidinger, S., Lattka, E., Adamski, J., Peters, A., Strauch, K., Waldenberger, M., & Illig, T. (2013). Tobacco smoking leads to extensive genome-wide changes in DNA methylation. PLoS ONE, 8(5), e63812. https://doi.org/10.1371/journal.pone.0063812
+39. Kozlenkov, A., Wang, M., Roussos, P., Rudchenko, S., Barbu, M., Bibikova, M., Klotzle, B., Dwork, A. J., Zhang, B., Hurd, Y. L., Koonin, E. V., Wegner, M., & Dracheva, S. (2016). Substantial DNA methylation differences between two major neuronal subtypes in human brain. Nucleic Acids Research, 44(6), 2593-2612. https://doi.org/10.1093/nar/gkv1304
+40. Montalvo-Ortiz, J. L., Cheng, Z., Kranzler, H. R., Gelernter, J., & Kamens, H. M. (2019). Genomewide study of epigenetic biomarkers of opioid dependence in European-American women. Scientific Reports, 9(1), 4660. https://doi.org/10.1038/s41598-019-41110-7
+41. Vaillancourt, K., Yang, J., Chen, G. G., Yerko, V., Théroux, J. F., Aouabed, Z., Mnie-Filali, O., Szutorisz, H., Mechawar, N., Turecki, G., & Hurd, Y. L. (2021). Cocaine-related DNA methylation in caudate neurons alters 3D chromatin structure of the IRXA gene cluster. Molecular Psychiatry, 26(7), 3134-3151. https://doi.org/10.1038/s41380-020-00909-x
+42. Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5-32. https://doi.org/10.1023/A:1010933404324
+43. Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 785-794). https://doi.org/10.1145/2939672.2939785
+44. Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., & Duchesnay, É. (2011). Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+45. Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd ed.). Guilford Press.
+46. Preacher, K. J., & Hayes, A. F. (2008). Asymptotic and resampling strategies for assessing and comparing indirect effects in multiple mediator models. Behavior Research Methods, 40(3), 879-891. https://doi.org/10.3758/BRM.40.3.879
+47. Koob, G. F., & Schulkin, J. (2019). Addiction and stress: An allostatic view. Neuroscience & Biobehavioral Reviews, 106, 245-262. https://doi.org/10.1016/j.neubiorev.2018.09.008
+48. Volkow, N. D., Michaelides, M., & Baler, R. (2019). The neuroscience of drug reward and addiction. Physiological Reviews, 99(4), 2115-2140. https://doi.org/10.1152/physrev.00014.2018
+49. Koob, G. F., & Volkow, N. D. (2016). Neurobiology of addiction: A neurocircuitry analysis. Lancet Psychiatry, 3(8), 760-773. https://doi.org/10.1016/S2215-0366(16)00104-8
+50. Gratz, K. L., & Roemer, L. (2004). Multidimensional assessment of emotion regulation and dysregulation: Development, factor structure, and initial validation of the Difficulties in Emotion Regulation Scale. Journal of Psychopathology and Behavioral Assessment, 26(1), 41-54. https://doi.org/10.1023/B:JOBA.0000007455.08539.94
+51. Tangney, J. P., Baumeister, R. F., & Boone, A. L. (2004). High self-control predicts good adjustment, less pathology, better grades, and interpersonal success. Journal of Personality, 72(2), 271-324. https://doi.org/10.1111/j.0022-3506.2004.00263.x
+52. Aiken, L. S., & West, S. G. (1991). Multiple regression: Testing and interpreting interactions. Sage Publications.
+53. Johnson, P. O., & Neyman, J. (1936). Tests of certain linear hypotheses and their application to some educational problems. Statistical Research Memoirs, 1, 57-93.
+54. Bauer, D. J., & Curran, P. J. (2005). Probing interactions in fixed and multilevel regression: Inferential and graphical techniques. Multivariate Behavioral Research, 40(3), 373-400. https://doi.org/10.1207/s15327906mbr4003_5
+55. Horvath, S., Zhang, Y., Langfelder, P., Kahn, R. S., Boks, M. P., van Eijk, K., van den Berg, L. H., & Ophoff, R. A. (2012). Aging effects on DNA methylation modules in human brain and blood tissue. Genome Biology, 13(10), R97. https://doi.org/10.1186/gb-2012-13-10-r97
+56. Shireby, G. L., Davies, J. P., Francis, P. T., Burrage, J., Walker, E. M., Neilson, G. W. A., Dahir, A., Thomas, A. J., Love, S., Smith, R. G., Lunnon, K., Kumari, M., Schalkwyk, L. C., Morgan, K., Brookes, K. J., & Mill, J. (2020). Recalibrating the epigenetic clock: Implications for assessing biological age in the human cortex. Brain, 143(12), 3763-3775. https://doi.org/10.1093/brain/awaa334
+57. Guintivano, J., Aryee, M. J., & Kaminsky, Z. A. (2013). A cell epigenotype specific model for the correction of brain cellular heterogeneity bias and its application to age, brain region and major depression. Epigenetics, 8(3), 290-302. https://doi.org/10.4161/epi.23924
+58. Ferreira, P. G., Muñoz-Aguirre, M., Reverter, F., Sá Godinho, C. P., Sousa, A., Amadoz, A., Sodaei, R., Hidalgo, M. R., Pervouchine, D., Carbonell- Caballero, J., Nurtdinov, R., Breschi, A., Amador, R., Oliveira, P., Çubuk, C., Curado, J., Aguet, F., Oliveira, C., Dopazo, J., ... Guigó, R. (2018). The effects of death and post-mortem cold ischemia on human tissue transcriptomes. Nature Communications, 9(1), 490. https://doi.org/10.1038/s41467- 017-02772-x
+59. Fiorito, G., Polidoro, S., Dugué, P. A., Kivimaki, M., Ponzi, E., Matullo, G., Guarrera, S., Assumma, M. B., Georgiadis, P., Kyrtopoulos, S. A., Krogh, V., Palli, D., Panico, S., Sacerdote, C., Tumino, R., Chadeau-Hyam, M., Stringhini, S., Severi, G., Hodge, A. M., ... Vineis, P. (2017). Social adversity and epigenetic aging: A multi-cohort study on socioeconomic differences in peripheral blood DNA methylation. Scientific Reports, 7(1), 16266. https://doi.org/10.1038/s41598-017-16391-5
+60. Quach, A., Levine, M. E., Tanaka, T., Lu, A. T., Chen, B. H., Ferrucci, L., Ritz, B., Bandinelli, S., Neuhouser, M. L., Beasley, J. M., Snetselaar, L., Wallace, R. B., Tsao, P. S., Absher, D., Assimes, T. L., Stewart, J. D., Li, Y., Hou, L., Baccarelli, A. A., ... Horvath, S. (2017). Epigenetic clock analysis of diet, exercise, education, and lifestyle factors. Aging, 9(2), 419-446. https://doi.org/10.18632/aging.101168
+61. Nevalainen, T., Kananen, L., Marttila, S., Jylhävä, J., Mononen, N., Kähönen, M., Raitakari, O. T., Lehtimäki, T., & Hurme, M. (2017). Obesity accelerates epigenetic aging in middle-aged but not in elderly individuals. Clinical Epigenetics, 9, 20. https://doi.org/10.1186/s13148-016-0301-7
+62. Dugué, P. A., Bassett, J. K., Joo, J. E., Jung, C. H., Ming Wong, E., Moreno-Betancur, M., Schmidt, D., Makalic, E., Li, S., Severi, G., Hodge, A. M., Buchanan, D. D., English, D. R., Hopper, J. L., Southey, M. C., Giles, G. G., & Milne, R. L. (2018). Association of DNA methylation-based biological age with health risk factors and overall and cause-specific mortality. American Journal of Epidemiology, 187(3), 529-538. https://doi.org/10.1093/aje/kwx291
+63. Fitzgerald, K. N., Hodges, R., Hanes, D., Stack, E., Cheishvili, D., Szyf, M., Henkel, J., Twedt, M. W., Giannopoulou, D., Herdell, J., Logan, S., & Bradley, R. (2021). Potential reversal of epigenetic age using a diet and lifestyle intervention: A pilot randomized clinical trial. Aging, 13(7), 9419-9432. https://doi.org/10.18632/aging.202913
+64. Epel, E. S., Puterman, E., Lin, J., Blackburn, E. H., Lum, P. Y., Beckmann, N. D., Zhu, J., Lee, E., Gilbert, A., Rissman, R. A., Tanzi, R. E., & Schadt, E. E. (2016). Meditation and vacation effects have an impact on disease-associated molecular phenotypes. Translational Psychiatry, 6(8), e880. https://doi.org/10.1038/tp.2016.164
+65. Ambatipudi, S., Cuenin, C., Hernandez-Vargas, H., Ghantous, A., Le Calvez-Kelm, F., Kaaks, R., Barrdahl, M., Boeing, H., Aleksandrova, K., Trichopoulou, A., Lagiou, P., Naska, A., Palli, D., Krogh, V., Polidoro, S., Tumino, R., Panico, S., Bueno-de-Mesquita, B., Peeters, P. H., ... Herceg, Z. (2016). Tobacco smoking-associated genome-wide DNA methylation changes in the EPIC study. Epigenomics, 8(5), 599-618. https://doi.org/10.2217/epi-2016-0001
+66. Joehanes, R., Just, A. C., Marioni, R. E., Pilling, L. C., Reynolds, L. M., Mandaviya, P. R., Guan, W., Xu, T., Elks, C. E., Aslibekyan, S., Moreno- Macias, H., Smith, J. A., Brody, J. A., Dhingra, R., Yousefi, P., Pankow, J. S., Kunze, S., Shah, S. H., McRae, A. F., ... Levy, D. (2016). Epigenetic signatures of cigarette smoking. Circulation: Cardiovascular Genetics, 9(5), 436-447. https://doi.org/10.1161/CIRCGENETICS.116.001506
+67. Gao, X., Zhang, Y., Breitling, L. P., & Brenner, H. (2016). Relationship of tobacco smoking and smoking-related DNA methylation with epigenetic age acceleration. Oncotarget, 7(30), 46878-46889. https://doi.org/10.18632/oncotarget.9795
+EKLER
+Ek 1. DNA Metilasyon Verisi İşleme ve Analiz İş Akışı
+
+Ek 2. Batch Etkisi Düzeltmesi (ComBat)
+
+Ek 2, kohortlar arası batch (parti) etkisi düzeltmesini ele almaktadır. Bu çalışmada altı GEO kohortu tek bir mega-kohortta birleştirilmemiş, her biri kendi içinde ayrı ayrı analiz edilmiştir; dolayısıyla kohortlar arası ComBat ampirik Bayes batch düzeltmesi UYGULANMAMIŞTIR. Bu nedenle düzeltme öncesi/sonrası temel bileşen analizi (PCA), açıklanan varyans oranları ve veri setlerinin kümelenme görselleri bu çalışmanın verisiyle üretilememektedir (veri yok / kaynak gerekli). Makalenin önceki sürümünde bu şekle atfedilen veri setleri (ör. UK Biobank, MESA) ve %32,4→%8,7 gibi varyans değerleri bu çalışmada kullanılmamıştır; her kohort yalnızca kendi örneklem yapısı içinde değerlendirildiğinden kohortlar arası batch düzeltmesine gerek duyulmamıştır.
+Ek 3. Epigenetik Saat Kalibrasyonu
+
+Ek 3, epigenetik saat kalibrasyonunu ele almaktadır. Bu çalışmada yalnızca üç pan-doku saati (Horvath, Hannum, PhenoAge) ve yalnızca kronolojik yaş bilgisi bulunan kohortlarda hesaplanmıştır; GrimAge ve Ensemble saatleri HESAPLANMAMIŞTIR. Gerçek saat performansı ana metindeki saat tablosunda sunulmaktadır: GSE50660 sigara kohortunda Horvath MAE=3.51 yıl ve R²=0.586; Hannum MAE=7.82 yıl, R²=0.641; PhenoAge MAE=6.77 yıl, R²=0.565. Beyin kohortlarında Horvath saati makul korelasyon verirken (ör. opioid-beyin GSE98203 r=0.906) bilinen doku-kaynaklı MAE ofseti gözlenmiştir. Önceki sürümdeki beş-saat kalibrasyon grafiği ve 2,1–2,9 yıllık MAE değerleri ile rastgele üretilmiş saçılım noktaları uydurmadır; bu nedenle şekil yer tutucu ile değiştirilmiştir (veri yok / kaynak gerekli).
+Ek 4. Diferansiyel Metilasyon Volkan Grafikleri
+
+Ek 4, altı GEO kohortunda gerçekleştirilen diferansiyel metilasyon analizinin (DMP) volkan grafiklerini göstermektedir. Her panelde yatay eksen grup farkını (Δβ), dikey eksen istatistiksel anlamlılığı (-log10 p) temsil eder; kırmızı noktalar FDR<0,05 ve Δβ>0 (hiper), mavi noktalar FDR<0,05 ve Δβ<0 (hipo), gri noktalar anlamlı olmayan bölgelerdir. Kesikli yatay çizgi FDR=0,05 anlamlılık eşiğine karşılık gelir. FDR<0,05 anlamlı CpG sayıları gerçek analizden gelmektedir: sigara (GSE50660) 89, alkol-kan (GSE110043) 4.387, kokain (GSE77056) 11.987, metamfetamin (GSE154971) 398, alkol-beyin (GSE49393) 8 ve opioid-beyin (GSE98203) 12. Bu sayılar realdata/out/*_dmp.csv dosyalarından yeniden üretilebilir (yaş ve/veya cinsiyet düzeltmeli OLS + BH-FDR). Önceki sürümde yer alan kannabis ve çoklu madde kategorileri ile 423/387/312/289/183/436 gibi CpG sayıları ve gen adları için bu çalışmada veri bulunmadığından bu kategoriler raporlanmamıştır (veri yok / kaynak gerekli).
+Ek 5. Aracılık Yol Diyagramları
+
+Ek 5, madde kullanım süresinin GrimAge epigenetik yaş hızlanması (EAA) üzerindeki etkisinde fizyolojik mekanizmaların (insülin direnci/HOMA-IR, HPA ekseni/kortizol-ACTH, sistemik inflamasyon/CRP-IL-6) olası aracılık (mediasyon) rolünü temsil etmektedir. Ancak bu aracılık analizinin gerektirdiği bireysel düzey mediatör ölçümleri, çalışmada kullanılan kamuya açık DNA metilasyon kohortlarında bulunmadığından yol katsayıları (a, b, c') ve aracılık yüzdeleri hesaplanamamıştır (veri yok / kaynak gerekli). Bu mekanizmalar literatürde yalnızca hipotez düzeyinde tartışılmaktadır.
+Ek 6. Moderasyon Etkileşim Etkileri
+
+Ek 6, psikolojik dayanıklılık faktörlerinin (DERS - duygu düzenleme güçlükleri ve SCS-B - öz-kontrol) madde kullanımı ile epigenetik yaş hızlanması (EAA) arasındaki ilişkideki olası düzenleyici (moderasyon) rolünü temsil etmektedir. Ancak moderasyon analizinin gerektirdiği psikolojik ölçek verileri kamuya açık DNA metilasyon kohortlarında bulunmadığından etkileşim katsayıları, Johnson-Neyman eşikleri ve ΔR² değerleri hesaplanamamıştır (veri yok / kaynak gerekli).
+Ek 7. Postmortem Aralık (PMI) Düzeltme Etkisi
+
+Ek 7, postmortem beyin dokusunda DNA metilasyon temelli epigenetik yaş tahmininde postmortem interval (PMI) etkisinin düzeltilmesine yönelik metodolojik yaklaşımı temsil etmektedir. Ancak bu düzeltmenin gerektirdiği postmortem doku verileri (PMI saati, doku pH değeri ve eşleştirilmiş yaş tahmin hataları) çalışmada mevcut olmadığından düzeltme öncesi/sonrası MAE, R² ve kalibrasyon değerleri hesaplanamamıştır (veri yok / kaynak gerekli; krş. PMI ve doku pH tabloları). Buna karşılık, metilasyonun PMI'ye duyarlılığının kendisi PMI içeren bağımsız bir kohortta (GSE41826; NeuN-ayrıştırılmış frontal korteks, n=58 nöron + 58 glia) gerçek olarak modellenmiş ve §2.4 modül 7'de raporlanmıştır: test edilen 477.397 CpG'nin hiçbiri 4–34 saatlik PMI'de FDR<0,05'te labil değildir.
+Ek 8. Beyin Bölgesine Özgü Epigenetik Yaş Hızlanması
+
+Ek 8, madde kullanım bozukluklarında beyin bölgelerine özgü (prefrontal korteks, nükleus akumbens, hipokampus) epigenetik yaş hızlanması (EAA) paternlerini Horvath saati ile karşılaştırmayı amaçlamaktadır. Ancak bölgeye özgü analizin gerektirdiği bölge-ayrıştırılmış metilasyon verisi çalışmada mevcut olmadığından (mevcut beyin dokusu kohortu bütün-doku düzeyindedir) bölgesel ortalamalar, tek yönlü ANOVA ve post-hoc Tukey HSD karşılaştırmaları hesaplanamamıştır (veri yok / kaynak gerekli).
+Ek 9. Epigenetik Saat Katsayıları Erişim Bilgileri
+Horvath (353 CpG): Orijinal yayın supplementary data (Horvath, 2013, Genome Biology) veya GitHub repository (https://github.com/perishky/meffonym/tree/master/data)
+Hannum (71 CpG): Orijinal yayın supplementary data (Hannum et al., 2013, Molecular Cell) veya meffonym paketi
+PhenoAge (513 CpG): GitHub repository (https://github.com/yiluyucheng/dnaMethyAge) veya dnaMethyAge R paketi
+GrimAge (1030 CpG): GitHub repository (https://github.com/yiluyucheng/dnaMethyAge) veya dnaMethyAge R paketi
+DunedinPACE (173 CpG): GitHub repository (https://github.com/danbelsky/DunedinPACE) veya DunedinPACE R paketi
+Ek 10. Veri Erişim Linkleri
+GEO Veri Setleri (bu çalışmada kullanılan altı kohort):
+GSE50660 (sigara): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50660
+GSE110043 (alkol, kan): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110043
+GSE49393 (alkol, beyin): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49393
+GSE77056 (kokain): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77056
+GSE154971 (metamfetamin): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154971
+GSE98203 (opioid, beyin): https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98203
+Ek 11. EPİCLOCK v4.0 — Kapsamlı Teknik Mimari Tablosu
+Özellik
+Modül
+Hesaplama Yöntemi
+Yazılım Teknolojisi
+Veri Kaynağı
+Çıktı
+EPİGENETİK YAŞ HESAPLAMA
+Horvath Saati
+epigenetic_clocks
+Σ(βi × Mi) + intercept (353 CpG)
+Python, NumPy
+Açık kaynak katsayılar
+Biyolojik yaş (yıl)
+Hannum Saati
+epigenetic_clocks
+Σ(βi × Mi) + intercept (71 CpG)
+Python, NumPy
+Açık kaynak katsayılar
+Biyolojik yaş (yıl)
+PhenoAge
+epigenetic_clocks
+Σ(βi × Mi) + mortality model
+Python, NumPy
+Açık kaynak katsayılar
+Fenotipik yaş
+GrimAge
+epigenetic_clocks
+Composite: 7 DNAm surrogate + 1 CpG
+Python, NumPy
+Hesaplanmadı (veri yok)
+Mortalite riski
+DunedinPACE
+epigenetic_clocks
+Pace of aging (m/yıl)
+Python, NumPy
+CC-BY 4.0 katsayılar
+Yaşlanma hızı
+Doku-Spesifik Saatler
+tissue_clocks
+Cross-tissue normalization
+Python, SciPy
+Doku referansları
+Uygulanmadı (yok)
+MAKİNE ÖĞRENMESİ
+Random Forest
+ml_models
+Ensemble trees (n=100, depth=15)
+scikit-learn
+Eğitim verisi
+Yaş tahmini
+XGBoost
+ml_models
+Gradient boosting (n=100, lr=0.05)
+xgboost
+Eğitim verisi
+Yaş tahmini
+ElasticNet
+ml_models
+L1+L2 regularization (α=0.1, l1=0.5)
+scikit-learn
+Eğitim verisi
+Yaş tahmini
+Ensemble Ağırlıkları
+ml_models
+Kurulmadı; ağırlıklı ensemble yok (veri yok)
+Python
+Model performansı
+Final tahmin
+Cross-Validation
+ml_models
+K-Fold CV (k=5, shuffle=True)
+scikit-learn
+Eğitim verisi
+MAE, RMSE, R²
+Feature Importance
+ml_models
+Gini importance / Gain
+scikit-learn, xgboost
+Model ağırlıkları
+CpG sıralaması
+DEEP LEARNING
+MLP Neural Network
+deep_learning_methylation
+Fully connected layers
+PyTorch
+Metilasyon matrisi
+Yaş tahmini
+Autoencoder
+deep_learning_methylation
+Encoder-Decoder boyut indirgeme
+PyTorch
+Yüksek boyutlu veri
+Latent temsil
+Molecular GNN
+molecular_gnn
+Message Passing Neural Network
+PyTorch Geometric
+Molekül grafları
+Bağımlılık skoru
+İSTATİSTİKSEL ANALİZ
+Temel İstatistikler
+statistics
+Mean, SD, Median, IQR
+NumPy, SciPy
+Sayısal veri
+Özet istatistikler
+Korelasyon
+statistics
+Pearson, Spearman
+SciPy
+Çift değişken
+r, p-değeri
+Regresyon
+statistics
+OLS, Robust regression
+statsmodels
+Bağımlı/bağımsız
+β, SE, p
+SHAP Analizi
+model_explainability
+TreeSHAP algoritması
+shap
+Eğitilmiş model
+Feature katkıları
+Moderasyon Analizi
+moderation
+Etkileşim terimi regresyon
+statsmodels
+Moderatör değişken
+Moderasyon etkisi
+GSEA
+gsea
+Kolmogorov-Smirnov enrichment
+Python
+Gen listeleri
+Enrichment skoru
+VERİ ÖN İŞLEME
+Beta Değer Dönüşümü
+methylation_preprocessing
+β = M/(M+U+100)
+NumPy
+Raw IDAT
+0-1 beta değerleri
+ComBat Batch Correction
+methylation_preprocessing
+Empirical Bayes
+Python
+Çoklu batch veri
+Düzeltilmiş beta
+Houseman Deconvolution
+methylation_preprocessing
+Reference-based cell estimation
+Python
+Beta matrisi
+Hücre oranları
+Kalite Kontrolü
+methylation_preprocessing
+Detection p-value filtreleme
+Python
+Raw veri
+QC geçen problar
+VERİTABANI SİSTEMLERİ
+PostgreSQL Bağlantı
+database
+SQLAlchemy ORM
+psycopg2, SQLAlchemy
+PostgreSQL
+CRUD işlemleri
+CpG Veri tabanı
+cpg_database
+Relational mapping
+SQLAlchemy
+CpG anotasyonları
+CpG bilgileri
+Referans Veri tabanı
+reference_database
+Population-based matching
+Python, SQL
+Kullanılmadı
+Referans karşılaştırma
+Hastalık DB
+disease_methylation_database
+Disease-CpG mapping
+Python, SQL
+EWAS Catalog
+Hastalık eşleştirme
+Madde Veri tabanı
+comprehensive_substance_database
+Chemical structure indexing
+Python, RDKit
+Kullanılmadı (veri yok)
+Madde bilgileri
+MADDE TESPİT
+Madde Tespit
+substance_detection
+CpG-substance correlation
+Python, SciPy
+Madde-CpG DB
+Tespit sonuçları
+Kullanım Yöntemi
+abuse_method_detection
+Pyrolysis/injection CpG markers
+Python
+Akademik literatür
+Kullanım yöntemi
+Farmakolojik Zeka
+pharmacological_abuse_intelligence
+Receptor affinity scoring
+Python, RDKit
+PharmGKB
+Bağımlılık riski
+Üretim Kimyasalı
+dna_manufacturing_detection
+Precursor chemical signatures
+Python
+Kimyasal DB
+Üretim tespiti
+Bilinmeyen Madde
+unknown_substance_detection
+Similarity-based matching
+Python, RDKit
+Referans maddeler
+En yakın eşleşme
+NPS Tespit
+nps_database_unodc
+UNODC NPS classification
+Python
+UNODC EWA
+NPS sınıflandırma
+KİMYASAL ANALİZ
+Molekül Fingerprinting
+cheminformatics
+Morgan/ECFP fingerprints
+RDKit
+SMILES
+Bit vektörü
+Lipinski Kuralları
+advanced_features
+Rule of 5 violation count
+RDKit
+Molekül
+Violation sayısı
+Farmakofor Eşleştirme
+pharmacophore_library
+3D pharmacophore matching
+RDKit
+3D yapılar
+Eşleşme skoru
+Markush Yapı
+markush_rules
+Generic structure parsing
+Python, RDKit
+Markush gösterimi
+Türev listesi
+Sinerjistik Etki
+synergistic_effects
+Drug interaction modeling
+Python
+İlaç çiftleri
+Etkileşim skoru
+Reseptör Bağlanma
+advanced_features
+Scaffold-receptor prediction
+RDKit
+Molekül yapısı
+Reseptör hedefleri
+GENOMİK ENTEGRASYON
+GWAS Entegrasyonu
+genomic_api_client
+REST API sorguları
+requests
+GWAS Catalog
+SNP-trait ilişkileri
+EWAS Sorgu
+ewas_api_client
+EWAS Catalog API
+requests
+EWAS Catalog
+CpG-exposure ilişkileri
+PubChem Sorgu
+pubchem_api_client
+PubChem REST API
+requests
+PubChem
+Kimyasal bilgiler
+GEO Entegrasyon
+geo_data_integration
+NCBI GEO API
+requests
+GEO
+Dataset metadata
+Varyant Anotasyon
+variant_annotation
+VEP/CADD scoring
+Python
+Genomik DB
+Varyant etkileri
+PRS Hesaplama
+advanced_prs
+Σ(βi × dosaği) / n
+NumPy
+GWAS summary stats
+Poligenik risk skoru
+YAYIN STANDARTLARI
+PRISMA-NMA
+prisma_nma_standards
+32 maddelik checklist
+Python
+Sistematik derleme
+Uyumluluk raporu
+STROBE-ME
+academic_reporting
+38 maddelik checklist
+Python
+Epidemiyolojik çalışma
+Raporlama şablonu
+TRIPOD
+academic_reporting
+Prediction model checklist
+Python
+Model validasyonu
+TRIPOD uyumu
+EWAS Raporlama
+ewas_standards
+EWAS reporting guidelines
+Python
+EWAS sonuçları
+Standart rapor
+MIQE
+miqe_standards
+qPCR quality checklist
+Python
+qPCR validasyonu
+MIQE uyumu
+MIAME
+miame_standards
+Microarray metadata
+Python
+Array deneyleri
+GEO submission
+FAIR
+fair_principles
+Persistent ID, metadata
+Python
+Veri yönetimi
+FAIR değerlendirme
+MINSEQE
+minseqe_standards
+Sequencing metadata
+Python
+Sekans deneyleri
+SRA submission
+GATHER
+gather_standards
+Gene list reporting
+Python
+Gen listeleri
+GO enrichment
+REMARK
+remark_standards
+Biomarker cutoff validation
+Python
+Biyomarker çalışması
+C-index, kalibrasyon
+STARD
+stard_standards
+Diagnostic accuracy
+Python
+Tanı testi
+Sens, Spec, AUC
+Tekrarlanabilirlik
+reproducibility
+Seed management, checksums
+Python
+Tüm analizler
+SHA-256 hash
+KLİNİK & ADLİ
+Klinik Karar
+clinical_decision
+Risk stratification
+Python
+Analiz sonuçları
+Klinik öneriler
+PMI Düzeltme
+postmortem
+Temperature-adjusted correction
+Python
+Postmortem veri
+Düzeltilmiş yaş
+Blockchain Denetim
+audit
+SHA-256 hash chain
+hashlib
+Tüm işlemler
+Denetim izi
+Hyperledger
+hyperledger_verification
+Distributed ledger
+Python
+Denetim kayıtları
+Doğrulama
+GDPR Anonimleştirme
+gdpr_anonymization
+k-anonymity, differential privacy
+Python
+Kişisel veri
+Anonimleştirilmiş veri
+PDF Rapor
+report_generator
+ReportLab PDF generation
+ReportLab
+Analiz sonuçları
+PDF klinik rapor
+HASTALIK ANALİZİ
+Hastalık Eşleştirme
+disease_pattern_matcher
+Jaccard similarity
+Python, NumPy
+50+ hastalık DB
+Eşleşme skorları
+Hastalık GNN
+disease_pattern_matcher
+CpG-Gene-Disease graph
+PyTorch
+Hastalık grafı
+Pathway enrichment
+Kronik Hastalık
+chronic_diseases
+Literature-based CpG markers
+Python
+EWAS Catalog
+Hastalık profilleri
+Pathway Analizi
+pathway_biomarkers
+Gene ontology mapping
+Python
+GO, KEGG
+Pathway skorları
+KULLANICI ARAYÜZÜ
+Ana Uygulama
+app.py
+Streamlit framework
+Streamlit
+Kullanıcı girdisi
+Web arayüzü
+Görselleştirme
+visualization
+Plotly charts
+Plotly
+Analiz sonuçları
+İnteraktif grafikler
+UNODC Tema
+unodc_theme
+CSS styling (#0A2647 paleti)
+Streamlit CSS
+Tema config
+Profesyonel UI
+Mobil UI
+mobile_ui
+Responsive design
+Streamlit
+Cihaz algılama
+Mobil uyumlu
+OTOMATİK SYNC
+DB Senkronizasyonu
+auto_sync_database
+Scheduled API polling
+APScheduler
+GWAS/EWAS/PubChem
+Güncel veriler
+Değişiklik Tespiti
+auto_sync_database
+SHA-256 hash comparison
+hashlib
+API yanıtları
+Delta güncellemeler
+

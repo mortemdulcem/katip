@@ -1,0 +1,685 @@
+18 Causation in the Context of Medical
+Practitioners’ Liability for Negligent
+Advice
+JOHN DOYLE*
+Introduction
+The law to be applied in Australia in deciding issues of causation in the law of
+tort is settled by March v Stramare.1 In most situations, a sufficient causal
+connection between an act of negligence and an injury is established by showing
+that the plaintiff would not have sustained the injury complained of but for the
+negligence of the defendant, or had the defendant not been negligent. That test,
+however, is neither a comprehensive nor an exclusive criterion for liability. There
+are situations in which a closer analysis of the question of causation must be
+made.
+The judgments in March v Stramare indicate that the "but for" test can be
+applied as a negative or exclusionary test of causation in almost all cases. If the
+plaintiff cannot satisfy the "but for" test, then in most cases the plaintiff's claim
+will fail. The fact that the plaintiff can satisfy the "but for" test does not mean
+that the plaintiff's claim will necessarily succeed. The "but for" test cannot be
+applied as a negative criterion of causation in cases where there are two or more
+acts or events which would each be sufficient to bring about the plaintiff's
+injury.2 Later decisions of the High Court, for example Bennett v Minister of
+Community Welfare3 and Chappel v Hart4 demonstrate that difficult issues in the
+area of causation will continue to arise.
+Particular problems can arise in the area of negligent advice by medical
+practitioners. The extent of the duty to advise has been settled by the High Court
+in Rogers v Whitaker,5 but the application of this duty gives rise to practical
+problems. Issues of causation are complicated by the fact that there are risks
+inherent in most procedures.
+In Chappel v Hart, in relation to establishing causation in connection with
+medical negligence, Kirby J observed that the state of the law:
+causes dissatisfaction to litigants, anguish for their advisers, uncertainty for Judges, agitation among
+commentators and friction between health care professionals and their legal counterparts.6
+Whether that rather gloomy diagnosis is correct I do not know, but there can
+be no doubting the difficulty of the legal and medical issues that can arise. In this
+commentary I do not intend to analyse the case law in detail. My aim is to raise
+for consideration some issues in relation to the workings of the principles of
+causation in the context of liability for negligent medical advice.
+I propose to comment on two aspects of the relevant principles: first, the duty
+to advise about the risks involved in undergoing surgery and secondly, the
+circumstances in which liability is imposed for risks inherent in surgery, after a
+failure to provide advice when it should have been provided.
+Causation in Context
+The importance of the concept of causation in the law of tort, and in the law of
+negligence in particular, is obvious. A function, or perhaps the function of the
+concept of causation in negligence, is to define the outer limits of harm or loss
+suffered by other persons for which the defendant may be held liable, if found to
+have been negligent.
+Causation is concerned with allocating legal responsibility for harm or damage
+suffered by a plaintiff. That process of allocating legal responsibility has various
+aspects. A claim for damages is a claim to attribute legal responsibility, on the
+basis of fault, to another person for harm suffered by the plaintiff and, by an
+award of damages, a claim to shift the loss from the plaintiff to the defendant.
+Such a claim does not raise only technical legal considerations. It also raises
+fundamental issues of justice. Such a claim should be disposed of by applying
+clearly articulated legal principles, principles that reflect coherent policy
+considerations, and principles that accord with community conceptions of justice.
+As well, we need to recall that the concept of cause and effect is applied in
+everyday life. There is an everyday notion of cause, and of limits to the result of
+what we do. The law needs to keep an eye on the everyday notion.
+A claim against a medical practitioner for negligent advice requires the court
+to make an assessment of the competence of the practitioner. A finding of
+negligence will be significant for the medical practitioner, quite apart from its
+financial implications, and even if the defendant is fully insured, A finding of
+negligence will usually involve a significant reflection on the medical practitioner
+concerned.
+No doubt many plaintiffs regard a favourable verdict as some kind of
+vindication of the plaintiff's complaints, and an unfavourable verdict as an
+adverse reflection on the plaintiff. A decision on such a claim may well affect the
+mariner in which a particular aspect of medical practice is conducted. Various
+judgments refer to the capacity of the law in this area to deter or discourage bad
+practice, and proceed on the assumption that a function of the law is to promote
+good practice.
+The other side of the coin is that the prospect of liability may encourage an
+approach to treatment which is excessively cautious, or which results in
+unnecessary costs being incurred by patients and by public funds.
+There are also claims that the risk or fear of liability, as a result of decisions in
+widely publicised cases, leads to medical practitioners withdrawing their services
+from high risk areas of practice, to the general detriment of the public. The
+literature suggests that well publicised findings of liability in particular cases,
+based on evidence given in a particular case, can cause the public to believe that
+particular medical procedures or approaches are unsafe, when that is not so. The
+result can be a loss of faith in procedures that offer real benefits to the public.
+Finally, most would agree that as far as possible the law should be reasonably
+comprehensible by lawyers and by those to whom it is applied.
+These observations are intended to make the point that the concept of
+causation, when applied to the liability of a medical practitioner for negligent
+advice, plays an important part in a process that is directed to the allocation of
+legal responsibility for identified harm or loss, but the process gives rise to a
+number of other considerations and can have significant consequences beyond
+the decision between the immediate parties. It is legitimate to raise these other
+considerations when considering the soundness of the concept.
+In this commentary, it is not possible to canvass all these issues. But they
+cannot be ignored. At the end of the day, the state of the law in this area must be
+assessed by taking account of considerations of this sort.
+A Diversion
+A claim for medical negligence necessarily involves a very close examination of
+the facts of a particular case. It is only that case that the judge is called to decide.
+But in deciding the case, the judge must apply the standard of a reasonably
+competent practitioner, and so must apply a standard which is capable of general
+application. However, in deciding the particular case, it is very difficult, perhaps
+impossible, for the judge to assess adequately the impact of the particular
+decision if applied to medical practice generally.
+There is no obvious solution to this problem. The duty of the judge is to decide
+the particular case. Inevitably, others will generalise from the decision of the
+court. There is an obvious risk of a judge imposing a particular standard of
+practice, in the context of a particular case, which will have untoward
+consequences when applied to medical practice generally.
+Another difficulty in litigation over medical negligence is the dependence of
+the court upon the expert evidence presented by the parties. The court is in the
+hands of the parties. It is quite possible that, in the context of a particular case, a
+judge will be persuaded to accept the views of a medical expert even though,
+unknown to the judge, those views are in conflict with views generally held
+within the profession, or are even wrong. Much can depend upon the skill with
+which the respective cases are presented, and the apparent quality of the expert
+medical evidence presented to the judge. Once again, there is no escape from this.
+Our system relies upon the parties to present the best evidence.
+Finally, the judge must decide the particular case presented to the judge for or
+against the plaintiff, on the evidence presented and on the balance of
+probabilities. The judge cannot defer a decision, awaiting scientific developments.
+The judge cannot decline to make a decision, or record a draw.
+Neither of these points has anything in particular to do with the principles of
+causation. I mention them merely to highlight some sensitive aspects of litigation
+over medical negligence, and to emphasise that it is not surprising that medical
+practitioners should, at times, be critical of the processes of the courts and of the
+results of particular cases. These criticisms are likely to surface in the
+consideration of causation cases.
+I mention them also as an introduction to a related point made by Professor
+Fiona Stanley in the second Eleanor Shaw lecture7 when she said:
+Litigation, by use of selective or misleading evidence and fanned by a media whose aim is to sell rather
+than to inform, can drive us away from making the best decisions in medicine – those which have the
+potential to help the majority that rarely may harm or not benefit the individual.
+The modern sciences of public health ie epidemiology and statistics are now of enormous importance,
+they have a population focus. They determine, as rigorously as possible, whether associations are real
+and whether they are likely to be causal. Courtroom trials are quintessentially singular, framing facts in
+isolation and demand that scientific truths be rediscovered anew every time. They often are influenced
+by biased expert witnesses, who present an extreme and outrageous view which is not the general
+consensus of knowledge.
+Professor Stanley went on to illustrate her point by reference to four areas in
+which she asserted that litigation has had a negative effect on the practice of
+medicine or public health. I will mention one only, to illustrate her point.
+Cervical cancer is the seventh commonest cancer in Australian women, with
+1,700 new cases per year. Screening healthy women is an attempt to identify
+abnormalities in women who have no symptoms, and thus give them and their
+doctors an idea of their risk status. Such tests are not diagnostic of cancer. The
+tests can give false positives and false negatives. According to Professor Stanley,
+publicity has been given to recent litigation involving women who have claimed
+that their cancers were not picked up by the screening process. She maintained
+that this is not a failure of the screening program, nor a result of negligence on
+the part of the laboratory. It is to be expected that in rare cases a false negative
+will occur. Professor Stanley said that this litigation, and the publicity given to it,
+have had negative effects on public health. There has been a marked increase in
+referrals for slightly abnormal smears, with increased cost and anxiety to women.
+The cost of the program has increased, because of more repeat tests, more
+examinations and so on. Fewer women are attending for screening, having been
+put off the screening program by adverse publicity. Trained people have left the
+relevant areas of medical practice, because they do not like being sued, There is
+an encouragement to search for new technologies or tests which may bring very
+small gains of increased accuracy, but carry with them considerable increases in
+cost.
+I am unable to comment on Professor Stanley's observations, I refer to them in
+this context to make the point that it is important that, putting it colloquially, the
+courts get it right. Although a judge sits to decide a case between particular
+parties, the principles that the judge applies, and the outcome of the case, can
+have far-reaching effects.
+Perhaps in the development and application of the relevant legal principles, we
+need to be better informed about issues like this. But there is a problem. The
+principles of causation are applied in all areas of negligence, and more generally
+in the law of tort. We cannot fashion the relevant principles by reference to their
+impact in the area of medical negligence. And, as will he evident, some of
+Professor Stanley's concerns relate to the adversarial process, although her
+concern about attributing responsibility for false negatives might involve issues
+of causation.
+At the end of the day, it may be that we can do no more than acknowledge
+that the principles that we apply and the decisions that the courts make have
+important ramifications for those who must and do adjust their conduct by
+reference to the decisions of the courts.
+How Does One Assess the Legal Concept of
+Causation?
+Once one moves beyond a critical consideration of the approach to causation, it is
+not easy to say how best to assess the adequacy of the existing concepts. I suspect
+that in the ordinary case the approach of the courts to causation has been quite
+satisfactory, by and large. In the ordinary case, the issue of causation is
+straightforward. If this is so, one could say that the fact that there are hard cases,
+causing the sort of dismay to which Justice Kirby alluded, is of no great
+significance. The other approach is to say that the measure of an approach to
+causation is how well it grapples with the hard case. In the straightforward cases
+one can get to the right answer almost intuitively, and what we need is a sound
+test for the hard cases. That is how I am proposing to approach the matter in this
+commentary.
+The “But For” Test
+What follows is just a brief description of the approach affirmed in March v
+Stramare. It is drawn mainly from the judgment of Chief Justice Mason. The
+High Court has emphasised that the legal concept of causation differs from
+philosophical and scientific notions of causation. Those concepts were developed
+in the context of explaining phenomena by reference to the relationship between
+conditions and occurrences. In a court, on the other hand, problems of causation
+arise in the context of determining legal responsibility for a given occurrence.
+What this seems to mean is that the law determines causation for a particular
+purpose, namely the attribution of legal responsibility. The reason or purpose for
+attributing responsibility should therefore shape the approach to the concept of
+causation.
+The legal approach to causation is likely to differ from the medical approach. A
+doctor looks for causes in the interests of prevention and cure. The law looks for
+a cause, or the cause of an event, with a view to attributing liability for the event.
+We should be able to say that the legal concept of causation is one which
+attributes responsibility when it is appropriate to do so, and does not attribute
+responsibility when it is not appropriate to do so. But appropriate to do so or not
+appropriate to do so by what measure or standard? An obvious, if circular one, is
+by the standard of doing justice as between the parties. More debatable is the
+question of whether and to what extent, some of the wider considerations
+identified by me are relevant here. It may be that Sir Anthony Mason's statement
+about the context in which causation arises is really a truism. Perhaps it means
+nothing more than that the law must set some limits to the concept of causation,
+when attributing legal responsibility. That is not contestable. How it sets the
+limits is critical.
+The legal concept of causation is a question of fact, to be determined by
+applying common sense lo the facts of each case. This statement may also be
+something of a truism. In jurisdictions in which civil juries are used, the question
+of causation is one for the jury. But much of the reasoning in the High Court
+cases looks like reasoning in terms of rules of law to me. The emphasis in the
+judgments here seems to be that the application of the but for test must be
+tempered by common sense considerations, and also by the making of value
+judgments and infusion of policy considerations.
+In March v Stramare Mason CJ referred with approval to remarks of Dixon CJ,
+Fullagar and Kitto JJ in Fitzgerald v Penn8 to the effect that "it is all ultimately a
+matter of common sense", and "In truth the conception in question [ie, causation]
+is not susceptible of reduction to a satisfactory formula".9 When one sees the
+emphasis put upon the role of common sense in determining issues of causation,
+and the emphasis upon value judgments and the infusion of policy
+considerations, one is forewarned that in the difficult and unusual cases things
+are going to get difficult.
+Things are going to get difficult because, in the end, the judge will have to
+attribute legal responsibility for a putative consequence, or refuse to attribute
+legal responsibility. And in making that choice the judge will have to decide that
+particular facts or aspects of the case are a reason to make that decision, It is
+making that choice, and explaining it, and justifying it by policy considerations,
+that is difficult in the hard cases. It is important that talk about causation should
+not mask the selection of reasons for attributing liability.
+It is no criticism of judges to say that in the hard cases they will sometimes
+differ about what is a common sense result and what is a sound policy outcome.
+The decision in Chappel v Hart is a sufficient illustration of this. There, in what is
+undeniably a difficult and unusual case, a decision finding that the defendant had
+caused the relevant loss was upheld by a three-two majority, Each group invoked
+arguments based on policy and common sense. One of the things that I find
+interesting about the more difficult cases is that, despite what Sir Anthony Mason
+said, one does not find much overt reference to value judgments and policy
+considerations. My impression is that, by and large, the judges are endeavouring
+to apply a "but for" approach, but to do so in a common sense and practical
+fashion. In Chappel v Hart Kirby J observed that in deciding the question of
+causation "there is usually a large element of intuition in deciding such questions
+which may be insusceptible to detailed and analytical justification".10 But he went
+on to say that the losing party has a right to know why it has lost, and that this
+imposes an obligation upon the courts to elaborate their reasons for reaching a
+conclusion. I suspect, with respect, that there is a good deal of truth in what
+Kirby J says, and that many judges are trying to articulate reasons for a result
+which intuitively they think is right and just.
+In March v Stramare Deane J said that: "The question whether conduct is a
+'cause' of injury, remains to be determined by a value judgment involving
+ordinary notions of language and common sense."11 We also know that the "but
+for" test will generally not provide a satisfactory answer in cases in which a
+supervening event, deliberate or negligent, is said to break the chain of causation
+or to terminate the liability of the defendant for a consequence.
+In this area there are some propositions that seem reasonably well established,
+If the defendant's negligence merely secures the presence of the plaintiff at the
+time when, and the place where, he or she is injured, it will not be causally
+connected with that injury, unless the risk of the accident occurring at that time
+was greater. Unless the risk was greater, the supervening injury will usually
+terminate the chain of causation. The causal connection between a defendant's
+negligence and injury to a plaintiff may also be negatived by deliberate conduct
+of another person, or a deliberate omission, which is intended to exploit the
+situation created by the defendant. Negligent or unreasonable conduct by another
+person, causing injury to the plaintiff, may also terminate the chain of causation,
+but will not do so if the possibility of such an event was the sort of thing against
+which is it was the duty of the defendant to safeguard the plaintiff.
+A later act of negligence causing injury will also not terminate the chain of
+causation if it was in the ordinary course of things the kind of thing that was
+likely to happen, For that reason, if a plaintiff is negligently treated and seeks
+further treatment from another doctor, and that doctor treats the plaintiff
+negligently, usually the original doctor will remain liable for all of the foreseeable
+consequences. However, the cases suggest that if the negligence of the second
+doctor is extreme or is quite out of the ordinary, then the chain of causation may
+be terminated.
+What we see here is a number of signposts or guides to decision-making. But
+the manner in which the particular rules are expressed, indicates that there is
+plenty of leeway for differences of opinion when applying the rules.
+The Duty to Advise
+In Rogers v Whitaker the surgeon in question was found to have conducted an
+operation on the plaintiff's eye with the required level of skill and care.
+Nevertheless, a condition ensued which, on the evidence, occurred once in
+approximately 14,000 such procedures. The plaintiff was an anxious patient, and
+addressed many questions to the surgeon about possible complications. She was
+not warned about the particular complication which occurred. This was
+devastating for the plaintiff. She had virtually no sight in one eye. The operation
+was being performed on her good eye. The end result was that she was virtually
+blind.
+In the area of advice, the decision makes two important points. The first is that it
+is for the courts to decide what is the required standard of care, and not for
+medical practice or opinion to do that. Evidence of acceptable medical
+practice is a useful guide, but no more than that. Accordingly, the question of
+the advice that should be given to a patient was not to be determined solely
+by reference to medical opinion.
+The High Court held that:
+The law should recognise that a doctor has a duty to warn a patient of a material risk inherent in the
+proposed treatment; a risk is material if, in the circumstances of the particular case, a reasonable person
+in the patient's position, if warned of the risk, would be likely to attach significance to it or if the medical
+practitioner is or should reasonably be aware that the particular patient, if warned of the risk, would be
+likely to attach significance to it. This duty is subject to the therapeutic privilege.12
+This requirement is an onerous one, emphasised by the fact that the risk of
+which the plaintiff was not informed was one of an adverse outcome in one in
+14,000 such procedures.
+Advice about Risks
+All surgery involves risks. Without any lack of care, something can go wrong. We
+read that merely being admitted to a hospital carries with it a not insignificant
+risk of infection. It appears that a material risk of which a doctor must warn a
+patient may be a risk that is quite remote. The doctor must consider what a
+reasonable person would think, but also has to consider the anxieties and
+concerns of the particular patient. It is no criticism of the approach taken by the
+High Court to say that it is likely to give rise to some difficult questions.
+Presumably all inherent risks of a procedure should be canvassed, except those
+that are so remote that no reasonable person would take account of them, and as
+to which there is no reason to think that the particular patient would have a
+concern. How does a doctor decide the point at which a risk becomes so remote
+that it can be disregarded? Presumably, in deciding that, the doctor has to weigh
+up the incidence of the risk and the nature of the outcome should it eventuate. A
+difficult judgment is involved here. The answer might depend upon refined
+statistical analysis. It will be tempting for doctors to play safe and to advise of
+almost all conceivable risks. Ironically, this could either deaden the impact of
+advice about significant risks, or alternatively paralyse the patient with fear. And
+is a doctor bound to deal with what might be called associated risks? What about
+the risk of the anaesthetist making a mistake? What about the risk of infection in
+the hospital? There are also difficulties with the question of how the advice is to
+be given. How much time is the doctor required to spend explaining what might
+be quite difficult issues to the patient? How do doctor and patient cope with the
+statistics, or can the doctor use every day expressions such as "highly unlikely" or
+"a remote possibility"?
+Does the doctor have to go to the extent of canvassing with the patient
+alternative methods of conducting the relevant procedure? Must the doctor
+canvass his or her own level of skill, and the existence, if it is the case, of
+practitioners who have a higher level of skill or experience in relation to the
+particular procedure?
+There is plenty of scope for debate about the scope of the duty to advise of
+risks. But advice on risks is only one matter for the medical practitioner to
+address. In giving the advice, the doctor should consider and canvass medical
+factors, the impact of different courses of action on the patient's quality of life,
+the patient's own wishes, and the cost, certainly to the individual and probably as
+well to the State. Presumably the prudent practitioner, in particular a specialist,
+must keep abreast of the literature that deals with these matters.
+It seems to me that there are some unresolved issues about the scope of the
+duty to advise. As I have already said, they are not to be resolved by medical
+practice, although evidence about the nature and extent of the risks, the
+feasibility of explaining them to patients, and actual medical practice in this
+respect will be relevant. Focusing on the duty to warn about risks tends to
+obscure the fact that many other matters must be considered.
+A Hard Case
+Chappel v Hart13 was undoubtedly a hard case. The plaintiff underwent surgery
+for removal of a pharyngeal pouch in her oesophagus. She was not warned of the
+risk of injury to her pharyngeal nerve and the consequent risk of partial or total
+loss of her voice. The court found that the operation was carried out with an
+appropriate level of care and skill. During the operation the oesophagus was
+perforated. This was one of the inherent risks of the procedure. It could happen
+without any lack of care and skill. In the event of perforation, there was a chance
+that if bacteria were present in the oesophagus, those bacteria could, as a result of
+the perforation, cause infection. It was a matter of random chance whether
+bacteria were or were not present at the crucial time. Infection from the escape of
+bacteria, and consequent injury, was a very rare complication, but it ensued. This
+resulted in some loss of voice for the plaintiff. The plaintiff claimed that the
+surgeon had been negligent in failing to warn her of the risks of the operation.
+She said that if she had received such a warning she would have explored the
+possibility of having the most experienced surgeon available conduct the
+operation. She would have deferred the operation. She asked specific questions
+about the possibility of damage to her vocal chords. On the other hand, on the
+evidence, the plaintiff had to have the operation sooner or later. The condition
+from which she suffered was progressive.
+The application of the principles enunciated in March v Stramare led the
+majority and the minority in different directions. The majority approach was, in
+substance, that there was a duty to inform the patient of the possible
+consequences in the event of the perforation of her oesophagus and subsequent
+infection, notwithstanding the relatively remote nature of that risk, and its
+random nature. That duty was not performed, and the relevant risk eventuated.
+The plaintiff had given evidence that if warned of the risk, she would have acted
+to avoid or minimise the risk of injury, by seeking a more experienced surgeon.
+The majority judgments seem to accept that the risk of injury would have been
+reduced had the patient consulted a more experienced surgeon. To what extent it
+would have been reduced, is not made clear. The majority also seem to proceed
+on the basis that, the risk being remote and random, and having eventuated in
+the case in question, had the patient had the operation at a later time, the risk of
+injury then would have been minimal.
+In other words, the majority proceeded on the basis that the damage that the
+plaintiff suffered was reasonably foreseeable. There should have been a warning
+about it. The very risk of which the patient should have been warned
+materialised. If the surgery had been performed at a different time, or by a more
+experienced surgeon, in all likelihood the patient would not have suffered the
+random chance of injury. That summation is drawn from the reasons of
+Gummow J14 who went on to consider whether (here was any good reason to
+deny the plaintiff recovery upon the basis that injuries of the nature sustained by
+the plaintiff might be caused without negligent performance of the procedure. He
+found that there was no such reason. His conclusion was that it would be unjust
+to absolve the doctor from legal responsibility "by allowing decisive weight to
+hypothetical and problematic considerations of what could have happened to Mrs
+Hart at the hands of some other practitioner at some unspecified later date and in
+conditions of great variability".15
+The dissenting view was, in essence, that the failure by the doctor to warn the
+patient of the risk did not materially increase the risk of the plaintiff suffering the
+injury. The negligent failure to warn had done no more than expose the patient to
+a class of risk to which she would have been exposed in any event. In the opinion
+of the minority, the plaintiff's claim should fail because she had not established
+that there was any surgeon available of such skill that he or she would never
+perforate the oesophagus. Nor did the evidence establish that there was any other
+surgeon whose skills were so superior that an operation by that surgeon carried
+with it a statistically significantly lesser risk of perforation than an operation by
+the defendant. In the opinion of the dissentients the case was a "time and place"
+case. That is, the negligence of the defendant had brought the plaintiff to the time
+and place where the injury had occurred, but had not caused it.
+My impression is that a point of distinction between the majority and the
+minority is the firm view of the minority that nothing that the plaintiff would or
+might have done if warned would have reduced the likelihood of the
+complication occurring. My impression is that the majority were of the view that
+the plaintiff might have reduced the risk, although they did not state the extent to
+which she might have done so. It may be that that difference is the whole basis of
+the departure in the reasoning.
+The other strand in the majority reasoning is that it was the risk of which the
+patient was not warned which eventuated and which caused injury, and that that
+being so an evidentiary onus lay upon the doctor to displace the inference of
+causation which thereupon arose, and that inference had not been displaced. In
+the reasoning of Gummow J there is also a reference to the injustice of absolving
+the medical practitioner from legal responsibility by reference to hypothetical and
+problematic considerations. This shifting of the evidentiary onus is likely to
+influence the outcome in borderline cases, and so has some practical significance,
+The justification for this rule seems to be policy considerations.16 Whether this
+rule is really fair, or does reflect sound policy, is open to argument.
+We have to accept that there will be hard cases, but where does this one leave
+us? The decision emphasises the onerous nature of the duty imposed on a doctor
+to warn or advise a patient about the risks of surgery. The risk which eventuated
+was remote, and pretty well unknown. The other point which emerges from the
+case is that if the warning is not given, and the very risk not the subject of
+warning eventuates, a court is likely on grounds of common sense or justice or
+policy to find that the resulting injury is caused by the failure to give the
+warning, even if the plaintiff finds it difficult to prove that he or she could have
+done anything to reduce the risk of the relevant injury. My impression is that the
+evidence for the plaintiff in Chappel v Hart that was said to show that, if warned,
+she might have followed a course that would have reduced the risk of injury, was
+slender indeed.
+So what this seems to tell us is that considerations of policy or justice may
+indeed play a significant part in ascribing responsibility.
+A Hypothetical Case
+In order to focus on the two matters to which this commentary is directed, I will
+now postulate a hypothetical case, based on Chappel v Hart.
+Assume that patient A consults doctor B with a view to undergoing a surgical
+procedure. First of all, B must advise A about the procedure. As I have pointed
+out, there are many factors to be considered when giving that advice. A
+particular matter which must be covered is the risk associated with the
+procedure. Certainly, the doctor must deal with the risk associated with the
+doctor's own work. It is unclear whether and to what extent the doctor must deal
+with risks involved in aspects of the procedure that are not under his or her
+control. In advising about the risks, the doctor may have to explain some difficult
+statistics, in a manner that is meaningful to the patient. It seems that the doctor
+may need to advise the patient, if it is the case, that there are other practitioners
+more skilled in performing the procedure if those greater skills might reduce the
+incidence of a relevant risk.
+The point I emphasise is that, important as the risks of surgery are, they are
+only one matter for the patient's consideration. Prospects of success, and likely
+outcomes, are also very important to the patient. There are other matters that the
+doctor must consider.
+I can well understand that from the practitioner's point of view the courts may
+seem to be elevating advice about risks to an unreasonable level of significance.
+But, probably betraying my own professional background, I find it difficult to
+escape from the logic that insists upon the plaintiff being advised of adverse
+outcomes before undergoing the procedure. The patient has a right to proper
+advice before submitting to surgery. On the other hand, a point must be reached
+at which the doctor has done what is reasonable. Identifying that point is not
+easy in practice.
+Let us now assume that the development of condition X, a harmful condition,
+is a known but remote risk of the procedure. Let us assume that it is an inherent
+risk. By this I mean it is one that can occur even though the procedure is carried
+out properly. Assume that condition X is not so remote that the doctor is entitled
+to disregard it. Assume that B does not give advice about condition X.
+Let us assume that the procedure is carried out competently, but condition X
+materialises. Has B's failure to advise caused the patient to suffer condition X?
+Often those bare facts would suffice to establish legal liability for condition X.
+There was a duty to warn about the risk, the warning was not given, the risk
+ensued. But when the duty is a duty to inform so that a decision can be made, the
+patient must prove what the patient would have done if warned.17
+The court will conclude that the failure to warn caused A to suffer from
+condition X only if A would, on receipt of the information and warning, have
+acted to avoid or to minimise the risk of injury from condition X.18
+Let us assume that the court concludes that if B had warned A, A would
+nevertheless have undergone the procedure when she did undergo it. In that
+situation the failure to warn has not caused A to suffer from condition X. The
+lack of a warning is not the cause of the injury, because it was irrelevant to the
+patient's decision to undergo the procedure that led to her suffering the injury.
+Let us assume that the court concludes that having received the warning, the
+patient would not have undergone the procedure at all. In that situation the
+failure to warn is the cause of A suffering condition X. But for the failure, A
+would not have undergone the procedure and would not have suffered condition
+X.
+What if, having received the warning, A would have deferred the procedure
+while she considered the matter, and while she sought a second opinion. What if
+A would then have submitted to the procedure, two weeks later? I assume for
+present purposes that the risk of condition X occurring was exactly the same two
+weeks later as it was when B carried out the procedure.
+In this situation in my view the answer should be that the failure to warn has
+not caused A to suffer from condition X. A's position is no different from the
+position of the patient who would have proceeded to submit to the surgery
+regardless of the warning if given. It can be said that A would not have suffered
+condition X when she did, had the warning been given. We will never know
+what would have happened had A had the operation two weeks later. But we do
+know that if she had done that, she could not have suffered from condition X, if
+at all, until two weeks later. Is that a basis to conclude that the failure to warn is
+the cause of condition X?
+In Chappel v Hart, some of the reasoning of Gaudron J suggests that in this
+situation B will be held to have caused A to suffer from condition X. Gaudron J
+said, referring to what would have happened if Dr Chappel had given Mrs Hart
+adequate information:
+If he had, Mrs Hart would not then have undergone surgery and would not then have suffered the
+injuries which she did or the consequences. Thus, Dr Chappel's "breach" was "still operating", or,
+"continued to be causally significant when [those injuries were sustained]". (Emphasis added).
+That looks very much like the conclusion that if the failure to warn caused the
+patient to suffer condition X when she suffered it, that suffices to establish
+liability.
+But can that conclusion be justified, other than on the further basis that the
+risk of factor X occurring if the procedure was done two weeks later was less
+than when it was actually done by B? I would have thought that it is only on this
+basis that causation can be made out.
+Pursuing that thought, can it be said that because the risk was remote and
+random, and did ensue when B operated on A, that statistically it would not have
+ensued two weeks later? That is, that the two week deferral means, as a matter of
+statistics, that condition X would not have ensued if the procedure were deferred
+for two weeks, or is extremely unlikely to have ensued? I do not know the correct
+answer, as a matter of statistics. However, viewed prospectively, the chance of X
+occurring is identical, whether the operation is today or two weeks later. In
+retrospect, if X did occur when the operation was performed, it can be said that it
+is unlikely that it would have occurred two weeks later. But I suggest that
+considerations of policy and justice indicate that in this situation the conclusion
+should be that B did not cause A to suffer from condition X. As McHugh J
+argued,19 a defendant will be held liable for the plaintiff's injury only if the
+defendant's wrongful act or omission results in an increased risk of injury to the
+plaintiff and that risk eventuates. If the defendant's conduct does not increase the
+risk of injury to the plaintiff, the defendant cannot be said to have materially
+contributed to the injury suffered by the plaintiff. In this situation surely the
+doctor has not increased the risk of injury. This is what I earlier referred to as a
+"time and place situation". As McHugh J later pointed out, to hold the defendant
+liable on this basis is simply to apply the "but for" test.20 On this point, Hayne J
+agreed with McHugh J. As he pointed out, the evidence was that the risk of Mrs
+Hart suffering the condition that she did suffer was such a remote risk that it is
+very unlikely that it would have happened if the operation had been performed
+on another day. But that is not enough to establish causation.21
+However, the majority made statements that suggest that in this situation they
+would have found that the failure to advise A about factor X was the cause of A
+sustaining the injury. I am not completely confident of this, because the picture is
+clouded by the fact that the majority accepted that the evidence supported a
+finding that if Mrs Hart had been warned, she would have undergone the
+operation later but at the hands of a more skilled surgeon, carrying with it a
+reduced risk of injury occurring.22 But there are other observations that suggest
+that even if the risk was the same at the later date, causation would still be made
+out, because the risk of the injury materialising was so remote that one could say
+fairly confidently that if the operation had been done on another day, Mrs Han
+would not have suffered the same injury.23 It is not completely clear to me that
+this is an independent basis for her decision, but it appears to be. Justice
+Gummow reasoned that a risk of which there should have been a warning
+materialised, and that if the surgery had been performed at a different time in all
+likelihood Mrs Hart would not have suffered the random chance of injury.24 On
+that basis, it was the task of Dr Chappel to demonstrate some "quite good reason"
+for denying recovery. As to the risk of Mrs Hart sustaining an injury at the later
+date, he again seems to have regarded the risk as one that would have been less,
+because another and more skilled surgeon would have been retained.25 But he
+also said:
+It would, in the circumstances of the case, be unjust to absolve the medical practitioner from, legal
+responsibility for her injuries by allowing decisive weight to hypothetical and problematic considerations
+of what could have happened to Mrs Hart at the hands of some other practitioner at some unspecified
+later date and in conditions of great variability.26
+Justice Kirby also said that as causation was established by showing the breach
+of duty, and as the risk against which there should have been a warning
+eventuated, there was an onus upon Dr Chappel to displace the inference of
+causation. He did not do so by proving that she would have been exposed to the
+same or substantially the same possibility of like injury on another occasion. He
+said: "On the contrary, the evidence demonstrated that the chances of her
+receiving such injury in any other operation were minuscule."27
+It is on the basis of those remarks that I conclude that the majority were
+prepared to hold that in the situation presently under consideration, B is to be
+found liable for having caused condition X. On that point, I respectfully disagree.
+The majority approach leads to the conclusion that the more remote the risk of
+condition X developing, the less likely it is to have occurred if the procedure were
+deferred, and the easier it becomes to establish causation in a deferral situation.
+What if, on the evidence, A would have deferred the operation, retained a
+more expert surgeon, and had the procedure done with a significantly lesser
+degree of risk? In that situation, which was also alluded to by the majority, there
+is good reason to find that the failure to give the warning caused injury when
+condition X materialised. The failure has increased the risk.
+But a point not addressed in Chappel v Hart is the question of the extent to
+which it is necessary to show that the risk of the condition being suffered would
+have been less had the procedure been carried out on another occasion or by
+another doctor. Is it sufficient to say that the risk wouid be less, without
+quantifying the diminution in the risk? I suggest that the quantification needs to
+be done, otherwise how can we say that the diminution in the risk is of any
+practical significance? The majority in Chappel v Hart appear to disagree.
+This is a difficult question to resolve. Common sense would tell us that a line
+must be drawn somewhere. It cannot be that any reduction in risk no matter how
+minimal will be sufficient to ground a finding of causation. But at what point do
+we say that a reduction in risk is significant. Is a reduction in risk from 1 in 500 to
+1 in 1000 significant? What about a reduction from 1 in 15,000 to 1 in 20,000?
+In Chappel v Hart only McHugh J alluded to the possibility that not just any
+reduction in risk would suffice, saying that it must be a "statistically significant
+lesser risk".28 The remaining members of the High Court were content that the
+risk be merely "less", "diminished" or "reduced". While it is clear that the court did
+not consider such evidence in Chappel v Hart, the test suggested by McHugh J
+raises the issue of whether it is possible, or appropriate, to resolve this problem by
+reference to statistical tests designed to evaluate significance on a more or less
+"objective" basis.
+At first sight, the idea of using statistical analysis to give us an objective
+answer to our question of significance is an attractive one. If such analysis were
+possible it would solve the difficulty of where the line is to be drawn.
+While I do not pretend to be a statistician, my understanding is that in some
+circumstances there is very little statistical analysis which can be meaningfully
+carried out in respect of only two pieces of data. Thus, if all we know is that the
+risk of injury if Doctor A performs the procedure is X and the risk of injury if
+Doctor B performs the procedure is Y, statistical analysis cannot assist in deciding
+whether that reduction in risk (from X to Y) is significant let alone important -
+that is, important relative to what? This means that we must rely upon a
+subjective analysis by the courts of the relative risks involved. Perhaps this is not
+such a bad thing. Certainly it avoids submitting the law to what Kirby J described
+as "the paralysis of statistical abstractions".29 But that does not mean that we
+should be content with the approach adopted by the remaining members of the
+court which did not involve any explicit analysis of the reduction in risk at all. In
+my opinion there must be a real inquiry into whether, in all the circumstances of
+the case, the reduction in risk is important.
+Determining the significance of a reduction in risk of injury is a critical issue
+and one which may ultimately be determinative in cases like Chappel v Hart. As
+such it is an issue which should in future cases be explicitly addressed. While it
+would not appear to be possible for courts to engage in any sense in a truly
+statistical analysis of risk, the level of analysis must surely go beyond a mere
+finding that there was some reduction.
+An analysis of the importance of a reduction in risk will in many, if not most,
+cases be a difficult one and one in which many considerations will need be taken
+into account. I do not attempt in this paper to canvass all of those considerations.
+I do, however, mention three in order to demonstrate that such an analysis will
+not necessarily be a straightforward one.
+First, it is necessary to consider absolute as well as relative changes in
+outcomes. A 50 per cent decrease in the incidence of injury will be far more
+important if that represents a change from one in 50 cases to one in 100 cases
+than if it represents a change from one in 500 cases to one in 1000 cases. Secondly,
+the severity and permanence of injury must be taken into account. The more
+serious and debilitating the injury the more important will be a small reduction
+in the probability that the injury will occur. Finally, when assessing the
+importance of a reduction in risk it is necessary, as indeed the courts have
+emphasised in the past, to consider the particular concerns and circumstances of
+the patient involved. Where the risk is loss of eyesight, and the patient is
+particularly concerned about that or is already blind in one eye, the weight
+attached to any reduction in risk is likely to be higher.
+Conclusion
+Chappel v Hart was certainly a difficult test. A close reading of the reasons
+suggests that it exposes a number of difficult issues in the area of advice about
+risks. And, I suggest, there are plenty of difficulties lurking in the issue of the
+duty to advise. As so often happens in the law, March v Stramare has bedded
+down one set of principles, but its application has immediately exposed new
+issues that will test the courts.
+* The Chief Justice of South Australia.
+1 (1991) 171 CLR 507.
+2 Mason CJ at 516.
+3 (1992) 176 CLR 408.
+4 (1998) 195 CLR 232.
+5 (1992) 175 CLR 479.
+6 (1998) 195 CLR 232 at 264.
+7 29 August 1995, Melbourne, "Litigation versus Science: What's Driving Decision Making in Medicine?"
+8 Fitzgerald v Penn (1954) 91 CLR 268 at 277.
+9 At 278.
+10 (1998) 195 CLR 232 at 269.
+11 (1991) 171 CLR 507 at 524.
+12 (1992) 175 CLR 479 at 490.
+13 (1998) 195 CLR 232.
+14 At 257.
+15 At 262.
+16 See the discussion by Kirby J at 273.
+17 Gaudron J at 268; Kirby J at 239.
+18 Gaudron J at 262.
+19 At 244.
+20 At 251.
+21 At 283-4.
+22 Gaudron J at 241; Kirby J at 271.
+23 See, for example, Gaudron J at 241-2.
+24 At 257.
+25 See at 260.
+26 At 262.
+27 At 278.
+28 At 249.
+29 At 275.

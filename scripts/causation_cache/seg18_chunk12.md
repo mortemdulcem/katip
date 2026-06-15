@@ -1,0 +1,27 @@
+## Kaynakça
+
+1. & Forensic Pathology, WHO Regional Publications, Eastern Mediterranean Series, Egypt, 1999, s. 41.  
+2. I Root, "Head Injuries from Short Distance Falls" (Kısa Mesafeli Düşmelerde Kafa Yaralanmaları) (1992) 13(1) Am J Forensic Med Pathol 85.  
+3. G Sandler, "The Importance of the History in the Medical Clinic and the Costs of Unnecessary Tests" (Tıbbi Kliniklerde Öykünün Önemi ve Gereksiz Testlerin Maliyeti) (1980) 100 Am Heart J 928.  
+4. N Langlois & G Gresham, "The Ageing of Bruises: A Review and Study of the Colour Changes With Time" (Ekimozların Yaşlandırılması: Zaman İçinde Renk Değişikliklerine İlişkin Bir Derleme ve Çalışma) (1991) 50 Forensic Science International 227.  
+5. J Nordby, "Can We Believe What We See, If We See What We Believe? Expert Disagreement" (Gördüğümüze İnanabilir miyiz, İnandığımızı Görüyorsak? Bilirkişiler Arasında Görüş Ayrılıkları) (1992) 37(4) Journal of Forensic Sciences 1115.  
+6. Anon, "Police Review 1975" (1975 Polis Değerlendirmesi) içinde T Williamson, "Police Investigations – Separating the False and Genuine" (Polis Soruşturmaları – Gerçeği Sahte Olandan Ayırmak) (1996) 36(2) Med Sci Law 135.  
+7. A Edwards & M Heenan, "Rape Trials in Victoria: Gender, Socio-cultural Factors and Justice" (Victoria’daki Tecavüz Yargılamaları: Cinsiyet, Sosyo-kültürel Faktörler ve Adalet) (1994) 27 ANZ J Criminol 213.  
+8. R Underhill & J Dewhurst, "The Doctor Cannot Always Tell – Medical Examination of the Intact Hymen" (Hekim Her Zaman Anlayamaz – Bütünlük Gösteren Hymenin Tıbbi Muayenesi) (Şubat 1978) 18 Lancet 375.  
+9. D Wells, E Ogden & S Young, "Child Abuse" (Çocuk İstismarı) içinde I Freckelton & H Selby, *Expert Evidence: Law, Practice and Procedure*, 2. bs, Law Book Co, Sydney, 2002.  
+10. American Academy of Paediatrics, "Guidelines for the Evaluation of Sexual Abuse of Children: Subject Review" (Çocukların Cinsel İstismarının Değerlendirilmesine İlişkin Kılavuzlar: Konu İncelemesi) (1999) 103(1) Paediatrics 186.  
+11. *Report of the Inquiry into Child Abuse in Cleveland 1987*, HMSO, 1988.  
+12. E Burghardt, *Colposcopy Cervical Pathology*, Teorg Thieme Verlag, Stuttgart, 1984.  
+13. W Teixeira, "Hymenal Colposcopic Examination in Sexual Offences" (Cinsel Suçlarda Hymenin Kolposkopik Muayenesi) (1981) 2 Am J Forensic Med Pathology 209.  
+14. B Woodling & A Heger, "The Use of the Colposcope in the Diagnosis of Sexual Abuse in the Paediatric Age Group" (Pediatrik Yaş Grubunda Cinsel İstismar Tanısında Kolposkop Kullanımı) (1986) 10 Child Abuse & Neglect 11.  
+15. J McCann, "Use of the Colposcope in Childhood Sexual Abuse Examinations" (Çocukluk Çağı Cinsel İstismar Muayenelerinde Kolposkop Kullanımı) (1990) 37(4) Pediatric Clinics of North America 863; D Muram, K Arheart & S Jennings, "Diagnostic Accuracy of Colposcopic Photographs in Child Sexual Abuse Evaluations" (Çocuk Cinsel İstismarı Değerlendirmelerinde Kolposkopik Fotoğrafların Tanısal Doğruluğu) (1999) 12 J Pediatr Adolesc Gynecol 58; C Hobbs, J Wynne, A Thomas, "Colposcopic Genital Findings in Prepubertal Girls Assessed for Sexual Abuse" (Cinsel İstismar Açısından Değerlendirilen Prepubertal Kız Çocuklarında Kolposkopik Genital Bulgular) (1995) 76 Archives of Disease in Childhood 465; M Finkel, "Technical Conduct of the Child Sexual Abuse Medical Examination" (Çocuk Cinsel İstismarı Tıbbi Muayenesinin Teknik Yürütülmesi) (1998) 22(6) Child Abuse & Neglect 555.  
+16. D Moran, "Child Sexual Abuse: Relationship between Sexual Acts and Genital Findings" (Çocuk Cinsel İstismarı: Cinsel Eylemler ile Genital Bulgular Arasındaki İlişki) (1989) 13 Child Abuse and Neglect 211; D Moran, "Child Sexual Abuse – Genital Findings in Prepubertal Girls" (Çocuk Cinsel İstismarı – Prepubertal Kız Çocuklarında Genital Bulgular) (1989) 160 Am J Obstet Gynaecol 328.  
+17. JA Adams & S Knudson, "Genital Findings in Adolescent Girls Referred for Suspected Sexual Abuse" (Cinsel İstismar Şüphesi Nedeniyle Sevk Edilen Adölesan Kızlarda Genital Bulgular) (1996) 15 Arch Pediatr Adolesc Med 850.  
+18. K Edgarth, G Von Krogh & K Ormistad, "Adolescent girls investigated for sexual abuse: history, physical findings and legal outcome" (Cinsel İstismar Açısından Soruşturulan Adölesan Kızlar: Öykü, Fizik Muayene Bulguları ve Hukuki Sonuç) (1999) 104 Forensic Sci Int 1-15.  
+19. D Moran & M Laufer, "Limitations of the Medical Evaluation for Child Sexual Abuse" (Çocuk Cinsel İstismarında Tıbbi Değerlendirmenin Sınırları) (1999) 44(12) J Reprod Med 993.  
+20. D Smith, E Letourneau, B Saunders, D Kilpatrick & H Resnick, "Delay in Disclosure of Childhood Rape: Results from a National Survey" (Çocukluk Çağı Tecavüzünün Açıklanmasındaki Gecikme: Ulusal Bir Araştırmanın Sonuçları) (2000) 24(2) Child Abuse & Neglect 273.  
+21. S Pokorny, W Pokorny & W Kramer, "Acute Genital Injury in the Prepubertal Girl" (Prepubertal Kız Çocuklarında Akut Genital Yaralanma) (1992) 166 Am J Obstet Gynecol 1461.  
+22. S Pokorny, J Murphy & M Preminger, "Circumferential Hymen Elasticity: A Marker of Physiological Maturity" (Çevresel Hymen Elastisitesi: Fizyolojik Olgunluğun Bir Göstergesi) (1998) 43 J Reprod Med 943.  
+23. J Emans, E Woods, E Allred & E Grace, "Hymenal Findings in Adolescent Women, Impact of Tampon…  
+
+> **💬 Çevirmen notu:** 23 numaralı kaynak metin parçası burada kesildiği için başlık sonuna “…” konulmuştur; bir sonraki parçayla bütünleştiğinde tam başlık çevrilecektir.

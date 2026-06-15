@@ -1,0 +1,934 @@
+[
+  {
+    "n": 1,
+    "type": "guideline",
+    "text": "Queensland Trauma in pregnancy MN19.31",
+    "verify": "manual",
+    "status": "KNOWN_REAL",
+    "note": "Queensland Health public guideline",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 2,
+    "type": "law",
+    "text": "TCK 5237",
+    "status": "KNOWN_REAL",
+    "note": "Resmî Gazete",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 3,
+    "type": "law",
+    "text": "6284 sayılı Kanun",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 4,
+    "type": "law",
+    "text": "Anayasa m.17",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 5,
+    "type": "treaty",
+    "text": "AİHS m.2/3/8",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 6,
+    "type": "court",
+    "text": "Y3CD E.2020/1499",
+    "status": "NEEDS_LEGAL_DB",
+    "note": "Sinerji-only verifiable",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 7,
+    "type": "court",
+    "text": "Y3CD E.2024/1103",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 8,
+    "type": "court",
+    "text": "Y3CD E.2024/2955",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 9,
+    "type": "court",
+    "text": "Y12CD E.2025/886",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 10,
+    "type": "court",
+    "text": "AYM 2017/35569",
+    "status": "PUBLIC_DB",
+    "status_final": "PUBLIC_DB"
+  },
+  {
+    "n": 11,
+    "type": "court",
+    "text": "AYM 2015/12753",
+    "status": "PUBLIC_DB",
+    "status_final": "PUBLIC_DB"
+  },
+  {
+    "n": 12,
+    "type": "court",
+    "text": "AYM 2013/2803",
+    "status": "PUBLIC_DB",
+    "status_final": "PUBLIC_DB"
+  },
+  {
+    "n": 13,
+    "type": "court",
+    "text": "AYM 2019/11174",
+    "status": "PUBLIC_DB",
+    "status_final": "PUBLIC_DB"
+  },
+  {
+    "n": 14,
+    "type": "court",
+    "text": "AİHM Aydoğdu/Türkiye 40448/06",
+    "status": "PUBLIC_DB",
+    "note": "HUDOC",
+    "status_final": "PUBLIC_DB"
+  },
+  {
+    "n": 15,
+    "type": "court",
+    "text": "AİHM 13423/09",
+    "status": "NEEDS_HUDOC_VERIFY",
+    "status_final": "NEEDS_HUDOC_VERIFY"
+  },
+  {
+    "n": 16,
+    "type": "court",
+    "text": "AİHM 38477/10 Niğde",
+    "status": "NEEDS_HUDOC_VERIFY",
+    "status_final": "NEEDS_HUDOC_VERIFY"
+  },
+  {
+    "n": 17,
+    "type": "court",
+    "text": "AİHM 46854/99 Gebze",
+    "status": "NEEDS_HUDOC_VERIFY",
+    "status_final": "NEEDS_HUDOC_VERIFY"
+  },
+  {
+    "n": 18,
+    "type": "court",
+    "text": "Danıştay 10. D E.2019/6306",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 19,
+    "type": "court",
+    "text": "Danıştay 10. D E.2019/6918",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 20,
+    "type": "court",
+    "text": "Danıştay 15. D E.2016/4602",
+    "status": "NEEDS_LEGAL_DB",
+    "status_final": "NEEDS_LEGAL_DB"
+  },
+  {
+    "n": 21,
+    "type": "turkish_journal",
+    "q": "Cenger travma erken gebelik kaybı SDU",
+    "doi": "10.17343/sdutfd.374193",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "Travma sonrası erken gebelik kaybı: olgu sunumu",
+        "doi": "10.17343/sdutfd.374193",
+        "year": 2018,
+        "journal": "SDÜ Tıp Fakültesi Dergisi"
+      },
+      {
+        "title": "Anembriyonik Gebelik ve Minor/Major Travma Sonrası Gebelik Kesesinin Kaybı ve Ad",
+        "doi": "10.37609/akya.2.c3610",
+        "year": 2021,
+        "journal": "Olgularla Adli Tıp ve Adli Bilimler"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 22,
+    "type": "book",
+    "text": "Soysal Çakalır Adli Tıp 1999",
+    "status": "KNOWN_REAL",
+    "note": "Cerrahpaşa physical book",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 23,
+    "type": "book",
+    "text": "Soysal Eke Çağdır Adli Otopsi 1999",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 24,
+    "type": "database",
+    "text": "Sinerji Mevzuat",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 25,
+    "type": "pubmed",
+    "q": "Petrone Asensio trauma pregnancy Scand J Surg 2006",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "16579248"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 26,
+    "type": "pubmed",
+    "q": "Mattox Goetzl trauma pregnancy Crit Care Med 2005",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "16215362"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 27,
+    "type": "pubmed",
+    "q": "Oxford Ludmir trauma pregnancy Clin Obstet Gynecol 2009",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "20393413"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 28,
+    "type": "turkish_journal",
+    "q": "Kırdak Yılmazlar travma gebelik Ulus Travma 1995",
+    "risk": "HIGH",
+    "note": "1995 Turkish journal — needs DergiPark verify",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "Kayıp ve Yas Danışmanlığı Yaklaşımları",
+        "doi": "10.14527/9786052418055.06",
+        "year": 2019,
+        "journal": "Travma Psikolojik Danışmanlığı"
+      },
+      {
+        "title": "Turkish Journal of Trauma and Emergency Surgery",
+        "doi": "10.5505/tjtes.2014.49033",
+        "year": null,
+        "journal": ""
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 29,
+    "type": "pubmed",
+    "q": "Rogers Rozycki Osler fetal death injured pregnant Arch Surg 1999",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "10555646"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 30,
+    "type": "pubmed",
+    "q": "Weiss Songer Fabio fetal deaths maternal injury JAMA 2001",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "11597288"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 31,
+    "type": "pubmed",
+    "q": "Ikossi Lazar Knudson injury pregnancy 1195 J Am Coll Surg 2005",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 32,
+    "type": "turkish_journal",
+    "q": "Giray Keskinoğlu gebelikte aile içi şiddet STED 2005",
+    "risk": "MEDIUM",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "Hemşirelik Öğrencilerinin Aile İçi Şiddet Farkındalıklarının Flört Şiddetine Etk",
+        "doi": "10.17942/sted.1181179",
+        "year": 2023,
+        "journal": "STED / Sürekli Tıp Eğitimi Dergisi"
+      },
+      {
+        "title": "Aile içi şiddet",
+        "doi": "10.14527/9786052410127.04",
+        "year": 2017,
+        "journal": "Kadın ve aile hayatı"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 33,
+    "type": "pubmed",
+    "q": "Hedin Janson domestic violence pregnancy Acta Obstet Gynecol Scand 2000",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "10949224"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 34,
+    "type": "turkish_journal",
+    "q": "Mihmanlı Karahisar gebelikte travma Şişli Etfal 2012",
+    "risk": "MEDIUM",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "Low-Dose Rituximab and Calcineurin Inhibitor Combination as an Effective Treatme",
+        "doi": "10.5152/turkjnephrol.2025.251006",
+        "year": 2025,
+        "journal": "Turkish Journal of Nephrology"
+      },
+      {
+        "title": "Nosocomial Infection Agents of Şişli Hamidiye Etfal Training and Research Hospit",
+        "doi": "10.14744/semb.2021.40121",
+        "year": 2021,
+        "journal": "SiSli Etfal Hastanesi Tip Bulteni / The Medical Bulletin of Sisli Hospital"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 35,
+    "type": "pubmed",
+    "q": "Pearlman motor vehicle crashes pregnancy Int J Gynaecol Obstet 1997",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "9184948"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 36,
+    "type": "pubmed",
+    "q": "Pearlman Tintinalli Lorenz prospective trauma pregnancy 1990",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 37,
+    "type": "pubmed",
+    "q": "El Kady perinatal traumatic injuries pregnancy Clin Obstet Gynecol 2007",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "17762411"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 38,
+    "type": "pubmed",
+    "q": "Mendez-Figueroa Dahlke Vrees Rouse trauma pregnancy systematic 2013",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "23333541"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 39,
+    "type": "pubmed",
+    "q": "Brown HL trauma pregnancy Obstet Gynecol 2009",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "19546773"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 40,
+    "type": "guideline",
+    "text": "MBRRACE-UK 2018-20",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 41,
+    "type": "pubmed",
+    "q": "ACOG Practice Bulletin 211 critical care pregnancy 2019",
+    "risk": "CHECK_NUMBER",
+    "note": "PB211 vs PB234 - check year alignment",
+    "pubmed": {
+      "count": 3,
+      "ids": [
+        "33560778",
+        "31022122",
+        "31022118"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 42,
+    "type": "guideline",
+    "text": "RCOG Green-top 56 Maternal Collapse 2021",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 43,
+    "type": "standard",
+    "text": "AAAM AIS 2015",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 44,
+    "type": "pubmed",
+    "q": "Katz Dotters Droegemueller perimortem cesarean Obstet Gynecol 1986",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "3528956"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 45,
+    "type": "pubmed",
+    "q": "Goodwin Breen pregnancy outcome fetomaternal noncatastrophic Am J Obstet 1990",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 46,
+    "type": "pubmed",
+    "q": "Sokol Hutchison Krouskop high-risk scoring obstetric Am J Obstet 1977",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 47,
+    "type": "book",
+    "text": "Benirschke Burton Baergen Pathology Human Placenta 6th 2012",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 48,
+    "type": "pubmed",
+    "q": "Jauniaux Burton placenta accreta spectrum Clin Obstet Gynecol 2018",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "30299280"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 49,
+    "type": "pubmed",
+    "q": "Linden Grimmnitz pregnancy test screening J Emerg Med 2015",
+    "risk": "CHECK",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 50,
+    "type": "pubmed",
+    "q": "Ghi Pilu sonographic placental abruption Eur J Obstet Gynecol 2015",
+    "risk": "CHECK",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 51,
+    "type": "pubmed",
+    "q": "Mancuso temporal proximity legal causation Forensic Sci Int 2017",
+    "risk": "HIGH",
+    "note": "Single-author Mancuso — check existence",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 52,
+    "type": "pubmed",
+    "q": "Pearl Bareinboim transportability populations Stat Sci 2014",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 53,
+    "type": "book",
+    "text": "Rothman Greenland Modern Epidemiology 3rd",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 54,
+    "type": "standard",
+    "text": "ICMJE recommendations 2025",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 55,
+    "type": "pubmed",
+    "q": "Bailar Mosteller statistical reporting medical journals Ann Intern Med 1988",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "3341656"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 56,
+    "type": "book",
+    "text": "TİHV İşkence Atlası 2007",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 57,
+    "type": "pubmed",
+    "q": "Özkalıpçı Unuvar bone scintigraphy torture Forensic Sci Int 2013",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "23332810"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 58,
+    "type": "standard",
+    "text": "Istanbul Protocol UN 2001 rev 2022",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 59,
+    "type": "turkish_journal",
+    "q": "Can Demiroğlu Uyanıker travma ruhsal Nöropsikiyatri 2013",
+    "risk": "MEDIUM",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "TRAVMA MAĞDURLARINDA RUHSAL TRAVMA BULGULARI",
+        "doi": "10.4274/npa.y6242",
+        "year": 2012,
+        "journal": "Nöro Psikiyatri Arşivi"
+      },
+      {
+        "title": "Termal Yanıklı Hastaların Medikolegal Değerlendirmesi",
+        "doi": "10.17986/blm.1507",
+        "year": 2021,
+        "journal": "The Bulletin of Legal Medicine"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 60,
+    "type": "pubmed",
+    "q": "Cohen coefficient agreement nominal scales Educ Psychol Meas 1960",
+    "risk": "NON_PUBMED",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 61,
+    "type": "book",
+    "text": "Krippendorff Content Analysis 4th 2018",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 62,
+    "type": "pubmed",
+    "q": "Bland Altman statistical methods agreement Lancet 1986",
+    "pubmed": {
+      "count": 8,
+      "ids": [
+        "37635723",
+        "22129533",
+        "20887018",
+        "20306289",
+        "19036292",
+        "18037441",
+        "9886969",
+        "2868172"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 63,
+    "type": "pubmed",
+    "q": "Lundberg Lee unified approach interpreting model SHAP 2017",
+    "risk": "NON_PUBMED",
+    "note": "NeurIPS conference",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "41544026"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 64,
+    "type": "law",
+    "text": "Kişisel Sağlık Verileri Yönetmeliği 30808",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 65,
+    "type": "pubmed",
+    "q": "Declaration Helsinki ethical medical research JAMA 2013",
+    "pubmed": {
+      "count": 5,
+      "ids": [
+        "39812863",
+        "38326734",
+        "24141885",
+        "24141794",
+        "24141714"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 66,
+    "type": "law",
+    "text": "TBK 6098",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 67,
+    "type": "book",
+    "text": "Centel Zafer Çakmut Ceza Hukukuna Giriş 13th",
+    "status": "NEEDS_VERIFY",
+    "risk": "CHECK_EDITION",
+    "status_final": "NEEDS_VERIFY"
+  },
+  {
+    "n": 68,
+    "type": "turkish_journal",
+    "q": "Kuşkonmaz causation Turkish penal jurisprudence 2021",
+    "risk": "HIGH_HALLUCINATION_SUSPECT",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "SPECIAL ISSUES OF CAUSATION: CRIMINAL LAW ASPECT",
+        "doi": "10.32841/2307-1745.2021.51.24",
+        "year": 2021,
+        "journal": "“International Humanitarian University Herald. Jurisprudence”"
+      },
+      {
+        "title": "More legal causation: accessories",
+        "doi": "10.1080/20403313.2025.2586481",
+        "year": 2026,
+        "journal": "Jurisprudence"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 69,
+    "type": "standard",
+    "text": "ATK İhtisas Kurulları Yönergesi 2023",
+    "status": "INTERNAL_DOCUMENT",
+    "status_final": "INTERNAL_DOCUMENT"
+  },
+  {
+    "n": 70,
+    "type": "turkish_journal",
+    "q": "Hekimoğlu Demircan Gümüş adli obstetri kalite 2022",
+    "risk": "CONFIRMED_HALLUCINATION",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "crossref_top": [
+      {
+        "title": "Permanent disfigurement of face in an occupational accident case",
+        "doi": "10.5505/adlitip.2015.67609",
+        "year": 2015,
+        "journal": "Turkish Journal of Forensic Medicine"
+      },
+      {
+        "title": "Adli Bilimlerde Kalite ve Akreditasyon",
+        "doi": "10.5152/0628",
+        "year": 2024,
+        "journal": "Adli Bilimler"
+      }
+    ],
+    "status_final": "POSSIBLY_FOUND"
+  },
+  {
+    "n": 71,
+    "type": "standard",
+    "text": "IAFS Working Group obstetric forensic 2024",
+    "status": "CONFIRMED_HALLUCINATION",
+    "note": "No such IAFS document exists",
+    "status_final": "CONFIRMED_HALLUCINATION"
+  },
+  {
+    "n": 72,
+    "type": "pubmed",
+    "q": "El Kady Gilbert Anderson trauma pregnancy maternal fetal Am J Obstet Gynecol 2004",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 73,
+    "type": "pubmed",
+    "q": "Aboutanos Aboutanos Dompkowski fetal outcome trauma J Trauma 2007",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 74,
+    "type": "pubmed",
+    "q": "Schiff Holt injury severity score pregnant trauma J Trauma 2002",
+    "pubmed": {
+      "count": 2,
+      "ids": [
+        "12435948",
+        "12435947"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": "74a",
+    "type": "pubmed",
+    "q": "Schiff Holt pregnancy outcomes motor vehicle Washington Am J Epidemiol 2002",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 76,
+    "type": "pubmed",
+    "q": "Hill environment disease association causation Proc R Soc Med 1965",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "14283879"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 77,
+    "type": "court",
+    "text": "Daubert v Merrell Dow 509 US 579 1993",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 78,
+    "type": "court",
+    "text": "BGH Anscheinsbeweis NJW 1991 1948",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 79,
+    "type": "book",
+    "text": "Özgenç Ceza Hukuku Genel Hükümler 17th 2021",
+    "status": "KNOWN_REAL",
+    "risk": "CHECK_EDITION_NUMBER",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 80,
+    "type": "pubmed",
+    "q": "ACOG Practice Bulletin 234 critical care pregnancy 2021",
+    "risk": "CHECK_NUMBER",
+    "pubmed": {
+      "count": 0,
+      "ids": []
+    },
+    "status_final": "PUBMED_NOT_FOUND"
+  },
+  {
+    "n": 81,
+    "type": "guideline",
+    "text": "RCOG Green-top 56 Maternal Collapse 2019",
+    "status": "CONFLICT_WITH_42",
+    "note": "Ref 42 says 2021 — duplicate/version conflict",
+    "status_final": "CONFLICT_WITH_42"
+  },
+  {
+    "n": 82,
+    "type": "book",
+    "text": "Knudson Reproductive trauma in Mattox Trauma 8th 2017",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 84,
+    "type": "database",
+    "text": "HCUP NIS",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 85,
+    "type": "guideline",
+    "text": "MBRRACE-UK Saving Lives 2023",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  },
+  {
+    "n": 86,
+    "type": "pubmed",
+    "q": "Landis Koch observer agreement categorical Biometrics 1977",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "843571"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 87,
+    "type": "pubmed",
+    "q": "Korngiebel Mooney generative pre-trained transformer GPT-3 healthcare NPJ Digit Med 2021",
+    "pubmed": {
+      "count": 1,
+      "ids": [
+        "34083689"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 88,
+    "type": "pubmed",
+    "q": "Singhal Azizi Tu large language models clinical knowledge Nature 2023",
+    "pubmed": {
+      "count": 2,
+      "ids": [
+        "37500979",
+        "37438534"
+      ]
+    },
+    "status_final": "PUBMED_FOUND"
+  },
+  {
+    "n": 89,
+    "type": "web",
+    "text": "OpenAI GPT-4o System Card 2024",
+    "status": "KNOWN_REAL",
+    "status_final": "KNOWN_REAL"
+  }
+]

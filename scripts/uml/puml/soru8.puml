@@ -1,0 +1,86 @@
+@startuml soru8
+!include _style.iuml
+title Soru 8 — Akıllı Cihaz Güç Yönetimi · Observer + State + Memento
+
+' ================= OBSERVER: cihaz güç yayını =================
+interface GucGozlemcisi <<interface>> {
+  + gucGuncellendi(seviye : int, sarjda : boolean)
+}
+abstract class Cihaz {
+  - gucSeviyesi : int
+  - sarjda : boolean
+  + aboneEkle(u : Uygulama)
+  + aboneCikar(u : Uygulama)
+  + gucDegisti(yeni : int, sarjda : boolean)
+  + haberVer()
+}
+class AkilliSaat
+class AkilliTelefon
+class Tablet
+
+' ================= STATE: uygulama davranış durumu =================
+interface UygulamaDurumu <<interface>> {
+  + cihazlaEtkilesim()
+  + guceUyum(u : Uygulama, seviye : int, sarjda : boolean)
+}
+class NormalDurum
+class GucTasarrufuDurumu
+
+' ================= Uygulama hiyerarşisi =================
+abstract class Uygulama {
+  - durum : UygulamaDurumu
+  - esik : int
+  + gucGuncellendi(seviye : int, sarjda : boolean)
+  + durumDegistir(d : UygulamaDurumu)
+  + anaKaydet() : UygulamaAnisi
+  + aniGeriYukle(a : UygulamaAnisi)
+}
+class KonumUygulamasi {
+  ' esik = %20
+}
+class BluetoothUygulamasi {
+  ' esik = %15
+}
+class HareketUygulamasi {
+  ' esik = %10
+}
+
+' ================= MEMENTO: kesilmeden önceki durum =================
+class UygulamaAnisi <<memento>> {
+  - kayitliDurum : UygulamaDurumu
+  - kayitliVeri : Object
+}
+
+GucGozlemcisi <|.. Uygulama
+Cihaz <|-- AkilliSaat
+Cihaz <|-- AkilliTelefon
+Cihaz <|-- Tablet
+Cihaz "1" o-- "0..*" GucGozlemcisi : aboneler >
+Cihaz "1" *-- "0..*" Uygulama : yüklü uygulamalar >
+
+Uygulama <|-- KonumUygulamasi
+Uygulama <|-- BluetoothUygulamasi
+Uygulama <|-- HareketUygulamasi
+
+UygulamaDurumu <|.. NormalDurum
+UygulamaDurumu <|.. GucTasarrufuDurumu
+Uygulama o-- "1" UygulamaDurumu : durum >
+Uygulama ..> UygulamaAnisi : <<creates>>
+
+note top of Cihaz
+  <b>Observer.</b> Cihaz = Subject. gucDegisti() →
+  haberVer(); güç seviyesi değişince eşiği aşan
+  uygulamalara bildirim düşer.
+end note
+note bottom of UygulamaDurumu
+  <b>State.</b> %20 altı konum, %15 altı bluetooth,
+  %10 altı hareket → GucTasarrufuDurumu. Şarjda iken
+  seviye %10→%15→%20 üstüne çıkınca AŞAMALI olarak
+  ilgili uygulamalar NormalDurum'a döner.
+end note
+note right of UygulamaAnisi
+  <b>Memento.</b> Kesilmeden önce anaKaydet() ile
+  son durum saklanır; seviye geri gelince aniGeriYukle()
+  ile uygulama "normal-beklenen" haline geri yüklenir.
+end note
+@enduml

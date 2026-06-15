@@ -1,0 +1,23 @@
+@startuml soru2_seq
+!include _seq.iuml
+title Şekil 2b · Ders Haftalık Planı üretimi (Template Method + Factory Method)
+actor Kullanici
+participant "ders : TeorikDers" as D
+participant "plan : HaftalikPlan" as P
+Kullanici -> D : planUret(haftaSayisi)
+activate D
+D -> D : araSinavSayisi = yuvarla(hafta/7)
+loop her sınav haftası
+  D -> P : ekle(SinavHaftasi)
+end
+loop kalan haftalar
+  D -> D : icerikHaftasiOlustur()  <<Factory Method>>
+  D -> P : ekle(TeorikHafta)
+end
+D --> Kullanici : HaftalikPlan
+deactivate D
+note over D
+  İskelet (sınav sayısı + eşit aralık + doldurma) sabit;
+  yalnız hafta nesnesinin tipi alt sınıfta değişir.
+end note
+@enduml

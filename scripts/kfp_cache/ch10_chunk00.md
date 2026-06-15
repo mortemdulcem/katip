@@ -1,0 +1,49 @@
+## İnsan Hakları İhlali: Gözaltında Ölümler
+
+### Giriş
+
+Ne yazık ki, insan hakları ihlalleri küresel ölçekte o kadar yaygındır ki, artık adli patoloji kitaplarında da işkencenin fiziksel bulgularına değinmek zorunlu hale gelmiştir. Amnesty International’ın (Uluslararası Af Örgütü) verilerine göre, Birleşmiş Milletler üyesi devletlerin üçte birinde, bu vahşetleri yasaklayan Birleşmiş Milletler kararlarını imzalamış olmalarına rağmen, şu veya bu tür işkenceler uygulanmaktadır.¹ Örgütün 2012 tarihli Dünya Raporu’nda en az 91 ülkede ifade özgürlüğüne getirilen özel kısıtlamalar ile en az 101 ülkede işkenceye veya diğer kötü muamele biçimlerine maruz kalmış kişilerden söz edilmektedir.²  
+
+Her ne kadar işkence çoğu kez ölümle sonuçlanmasa da, insan haklarına yönelik fiziksel saldırıların ölümle neticelendiği yeterince fazla sayıda olgu vardır. Bu nedenle, iddia edilen her vaka soruşturulmak istendiğinde uzmanlık sunan çeşitli kuruluşlar ortaya çıkmıştır; bu kuruluşlar genellikle bu gibi durumlarda adli patologların yardımına başvururlar. Bunlar arasında Londra merkezli Amnesty International (Uluslararası Af Örgütü), Physicians for Human Rights (PHR – İnsan Hakları İçin Hekimler), Medical Foundation for the Treatment of Victims of Torture (İşkence Mağdurlarının Tedavisi için Tıbbi Vakıf, Londra) ve daha birçok kuruluş sayılabilir (bu kuruluşların bir bölümünün iletişim bilgilerinin yer aldığı liste, bu bölümün sonunda verilmiştir).
+
+> **💬 Çevirmen notu:** Türkiye’de işkence ve kötü muamele yasağı Anayasa (m.17/3) ve TCK m.94–96’da düzenlenmiştir. Uygulamada işkence iddialı olgular Adli Tıp Kurumu (ATK) ve üniversitelerin adli tıp birimlerince değerlendirilir; bu bölümde anlatılan yaklaşım, BM “İstanbul Protokolü” ile de uyumludur.
+
+---
+
+### Ölümcül fiziksel kötü muamele kanıtları
+
+Birçok olguda ölümcül kötü muamelenin otopsi bulguları, diğer herhangi bir cinayet olgusundan farklı değildir; ölümcül işkencenin doğrulanması, bu kitabın kapsamı dışında kalan, olayın koşullarıyla ilgili deliller ve diğer destekleyici kanıtlar üzerine dayanmak zorundadır. Örneğin, bir siyasi tutuklu tekmelenerek öldürülmüşse, fiziksel bulgular, bir sokak suçunda tekmeyle öldürülen bir kişininkilerle tamamen aynı olabilir. Benzer şekilde, kafa travmaları, ateşli silah yaralanmaları ve boğulma (asfiksi; asphyxia) olgularının da, politik bağlam dışında gerçekleşen aynı ölüm nedenlerinden farkı olmayabilir.
+
+Bununla birlikte, bazı özellikler ölümün politik yönleri olduğuna dair kuşku uyandırabilir veya belirgin kanıt sağlayabilir. “Siyasi” sözcüğü burada geniş bir anlamda kullanılmaktadır; çünkü birçok insan hakları ihlali, üst düzey devlet yetkililerince yönlendirilmese veya açıkça onaylanmasa bile, çoğu zaman bu tür faaliyetlerden haberdar olmaya yönelik bir ilgisizlik söz konusudur. Yasadışı ölüm ve yaralanma vakalarının önemli bir bölümü, ordu veya güvenlik güçleri tarafından gerçekleştirilir; üstelik burada dahi, kötü muameleyi yönlendiren veya tolere eden komuta düzeyi büyük çeşitlilik gösterir. Genel olarak sivil polis ve normal cezaevleri ağır ihlallerin faili olmayabilir; ancak bunun çok sayıda istisnası bulunduğu da açıktır. İşkence ve yasa dışı infazlarda çoğu kez en çok sorumlu olanlar, silahlı kuvvetler, gizli güvenlik birimleri ve özel gözaltı/çeşitli “kamp” türü tesislerdir.
+
+İşkence ve kötü muameleyi karakterize eden önemli özelliklerden biri, mağdurun genellikle ya resmî bir gözaltında ya da bir tür nezaret altında bulunması veya geçici olarak yetkili güçlerin kontrolü altında olmasıdır; buna, örneğin askerlerin bir özel konuta zorla girdiği durumlar da dâhildir. Bu bölümde daha sonra ayrıntılı olarak ele alınacak olan tüm “gözaltında ölüm (death in custody)” olguları titizlikle incelenmelidir; bu titizlik, hem koruyucu pozisyonda olan görevlilerin haksız kötü muamele şüphesinden arındırılması hem de gerçekten kötü muamele varsa bunun ortaya çıkarılması açısından gereklidir. Ölümcül olay, ölümcül olmayan saldırıdan tamamen farklı bir mekanizma ile gerçekleşmiş olabilir; örneğin dövülen bir mağdur, sonra ateşli silah kullanılarak ortadan kaldırılabilir. Bütün adli çalışmalar gibi, patolojik incelemeler de genel soruşturmanın sadece bir bölümünü oluşturur; bu da disiplinler arası işbirliği ve ekip çalışmasının bir başka örneğidir.
+
+İşkence ve sivil hakların ihlali vakalarının soruşturulmasındaki en büyük farklardan ve sorunlardan biri, olayın meydana geldiği devletin yetkililerinin bütünüyle işbirliğinden kaçınması ve hatta tarafsız bir soruşturmaya açıkça düşmanca yaklaşabilmesidir. Adli patologların ilgili materyale ulaşabilmesi için en elverişli koşulları sağlayanlar, genellikle Kızılhaç’ın uluslararası kolu olan International Committee of the Red Cross (ICRC – Uluslararası Kızılhaç Komitesi), Amnesty International, Physicians for Human Rights (PHR) ve Birleşmiş Milletler İnsan Hakları Yüksek Komiserliği Ofisi (Office of the High Commissioner for Human Rights, OHCHR) gibi saygın uluslararası kuruluşlardır; bunlar çoğu kez Ulusal İnsan Hakları Kurumları ile işbirliği içinde çalışır. Bu örgütler, dünyanın herhangi bir yerinde yürütülen meşru soruşturmalara bizzat katılmaya veya bu soruşturmalara destek vermeye isteklidir.
+
+> **💬 Çevirmen notu:** BM OHCHR ve ICRC’nin hazırladığı kılavuzlar, Türkiye’de de işkence iddialı dosyalarda sık atıf yapılan uluslararası standartlar arasındadır. Patoloğun bağımsızlığı ve soruşturma makamlarıyla mesafeli, tarafsız duruşu hem etik hem hukukî açıdan kritik kabul edilir.
+
+---
+
+İnsan hakları ihlalleriyle ilişkili özgün sorunlardan biri, mağduru muayene edebilmek için çoğu kez çok uzun süre beklenmek zorunda kalınmasıdır. Hayatta olan mağdurlar söz konusu olduğunda, kötü muamele gördükten sonra aylarca veya yıllarca gözaltında tutulmuş, sürgüne gönderilmiş veya saklanmak zorunda kalmış olabilirler; tarafsız bir hekim tarafından muayene edilebildiklerinde, akut yaralanmalar iyileşmiş, morluklar (ekimoz ve peteşi; petechiae) rezorbe olmuş, yara ve yanıklar ise skarla (nedbe) sonuçlanmış olur (Şekil 10.1). Ölülerde ise uzun süreli ölüm sonrası (post-mortem) değişiklikler sıktır; ceset, otopsi yapılmadan önce gömülmüş ve daha sonra exhumasyon (mezardan çıkarma) işlemiyle çıkarılmış olabilir.
+
+Kimi zaman elde sadece iskelet kalıntıları bulunur; Arjantin’deki “kayıp çocuklar”da veya Uganda’daki “öldürme tarlaları (killing fields)” örneklerinde olduğu gibi. Kimliklendirme (identifikasyon) bu tür olgularda çoğu zaman güçtür. Yaralanmalara ait dönemsel fotoğraflar genellikle düşük kalitededir ve bazı daha az gelişmiş ülkelerde otopsi olanakları son derece ilkel düzeydedir. Bunlara yerel yetkililerin kuşku dolu, işbirliğinden uzak ve çoğu zaman açıkça düşmanca tavrı da eklendiğinde, ziyaretçi patolog için görev gerçekten son derece zorlayıcı hale gelir.
+
+![Şekil 10.1](figure_10_1_placeholder)
+
+**Şekil 10.1** İlk yaralanmadan yaklaşık 1 yıl sonra görülen bir nedbe (skar). Kadın mağdur, bir Doğu Afrika toplama kampından kaçarken vurulmuştur. Yara cerrahi olarak açılmış ve keloid oluşumuyla kusurlu biçimde iyileşmiştir. Diğer cerrahi insizyon (insizyon/kesi; incision) daha yeni kökenlidir. Bu tür skarlar, keloid oluşumunda olası artış dışında, yaşam boyu değişmeden kalır.
+
+> **💬 Çevirmen notu:** Kronik skar ve keloidlerin varlığı, işkence iddialarının retrospektif değerlendirilmesinde önemli delil olabilir. Türkiye’de ceza soruşturmalarında, eski yaraların niteliği, zamansal uyumu ve olası travma mekanizması hakkında ayrıntılı rapor istenmesi yaygındır.
+
+---
+
+Aşağıda belirtilen yaralanma türleri işkenceyi doğrulayabilir veya işkence şüphesini güçlendirebilir; ancak daha önce de belirtildiği gibi, hemen her tür yaralanma, bilgi elde etmek, cezalandırmak, mağduru aşağılamak veya onu ortadan kaldırmak amacıyla kasten uygulanabilir. Özellikle “tramline” morluk (paralel çift çizgi şeklinde, ray izi görünümünde ekimoz) gibi özgün bir yaralanma şeklinin tekrarlayıcı biçimde görülmesi kuşku uyandırıcıdır; zira olağan saldırı ve cinayet olgularında bu derece yoğun, belki düzenli aralıklarla yerleşmiş, tekrarlayıcı lezyonlar beklenmez.
+
+Dövmek (beating), işkencenin en yaygın biçimlerinden biridir ve kullanılan alete ve hedef alınan vücut bölgesine göre çok farklı şekiller alabilir.³–⁵ Hougen’in bildirdiği tüm olgularda, hem başa hem de vücudun diğer kısımlarına alınmış darbeler mevcuttu.³ Şiddetli ve yinelenen nitelikte değilse, dövme çoğunlukla tek başına ölüm nedeni olmaz; ancak kanama (hemoraji), sepsis, iç organ yaralanmaları veya zaten zayıf düşmüş bir mağdurda salt bitkinlik ve dayanılmaz ağrı nedeniyle ölüm gelişebilir. Darbeler yumruk veya tekmeyle verilebilir, fakat çoğunlukla bir alet kullanılır. Kamçı veya çıta benzeri sert cisimler yaygındır; metal veya ahşap çubuklar, coplar, joplar, tüfek dipçikleri ya da kemerler kullanılabilir. Son yıllarda, dünyanın bazı bölgelerinde plastik hortum veya tüp parçalarının kullanımı gözlenmektedir.
+
+Bu aletlerin çoğu, karakteristik bir deri lezyonu oluşturur: tek veya çift kenarlı lineer morluk (Şekil 10.2). Morluk, bitişik peteşiyal kanamalardan oluşan bir çizgi veya baştan sona sürekli, kızarık bir iz görünümünde olabilir.
+
+![Şekil 10.2](figure_10_2_placeholder)
+
+**Şekil 10.2** Yaklaşık son 2 gün içinde plastik tüp parçaları (genişlik yaklaşık 15 mm) ile vurulma sonucu oluşan taze morluklar. Lezyonlar, silindirik bir cisimle darbenin tipik göstergesi olan paralel “tramline” (ray izi) görünümü göstermektedir. Saldırganlar, bir Orta Doğu ülkesinde, iddia edilen bir işbirlikçiye “cezalandırıcı dayak” uygulayan milis/vigilante gruptur.
+
+> **💬 Çevirmen notu:** Plastik hortum veya benzeri cisimlerle dövülmeye bağlı “tramline” ekimozlar, Türkiye’de de işkence iddiası içeren olgularda sık rapor edilir. Bu tipik çizgisel, paralel morlukların ayrıntılı fotoğraf ve şematik çizimlerle belgelenmesi, hem ceza soruşturması hem de AİHM başvuruları açısından kritik önemdedir.

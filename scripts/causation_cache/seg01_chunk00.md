@@ -1,0 +1,19 @@
+## Katkıda Bulunanlar Hakkında Notlar
+
+### Profesör Michael Ashby
+
+Michael Ashby, Monash Üniversitesi Tıp Fakültesi’nde, Tıp Bölümü’nde Palyatif Bakım Profesörüdür; Monash Tıp Merkezi’ndeki McCulloch House’ta Palyatif Bakım Direktörü ve Avustralya, Melbourne’deki Southern Health Care sağlık ağı bünyesindeki Kanser ve Palyatif Bakım Programı’nın Tıbbi Direktörüdür. Birleşik Krallık’ta iç hastalıkları ve radyasyon onkolojisi alanlarında eğitim almış; Curie Enstitüsü ve Peter McCallum Cancer Institute’teki (Peter McCallum Kanser Enstitüsü) burslarının ardından, Royal Adelaide Hospital ve Calvary Hospital bünyesindeki Mary Potter Hospice’te Palyatif Bakımın ilk Direktörü olarak atanmıştır; bu görevleri 1995 yılına kadar sürdürmüştür. Yaşamın son dönemine ilişkin bakım etiği ve karar alma süreçleri konularında, ayrıca palyatif tıp alanına uygulanan klinik farmakoloji alanında yayınlar yapmıştır.
+
+### Sayın Yargıç Ian Callinan
+
+Ian Callinan, Şubat 1998’de Avustralya Yüksek Mahkemesi (High Court of Australia) yargıçlığına atanmıştır. Atandığı tarihte fiilen Avukat (Barrister) olarak meslek icra etmekteydi. Yargıç Callinan, Brisbane Grammar School ve Queensland Üniversitesi’nde eğitim görmüştür. 1965 yılında Bar’a kabul edilmiş ve 1978’de Queen’s Counsel (Kraliçe Avukatı, üst düzey kıdemli avukat) unvanına atanmıştır. 1984–1987 yılları arasında Queensland Bar Association Başkanı, 1984 ve 1985 yıllarında ise Australian Bar Association Başkanı olarak görev yapmıştır.
+
+Yargıç Callinan aynı zamanda oyun yazarı ve iki romanın yazarıdır; Queensland Art Gallery mütevelli heyetinin eski Başkanı ve Brisbane Community Arts Centre’ın eski Fahri Başkanıdır. Ayrıca geçmişte önde gelen bazı halka açık şirketlerin yönetim kurulu üyeliğini yapmış; Australian Broadcasting Corporation yönetim kurulu üyeliğinde bulunmuş ve halen Australian Defence Force Academy’nin (Avustralya Savunma Kuvvetleri Akademisi) Başkanı olarak görev yapmaktadır.
+
+### Profesör Stephen Cordner
+
+Stephen Cordner, 1977 yılında Melbourne Üniversitesi’nden tıp diplomasıyla mezun olmuştur. Royal Melbourne Hospital’daki stajının ardından, o tarihte Avustralya’nın önde gelen adli patologlarından biri olan Vernon Plueckhahn’ın yönettiği Geelong Hospital Patoloji Bölümü’nde iki yıl çalışmıştır. 1981 yılında, Londra’daki Guy’s Hospital’de Adli Tıp (Forensic Medicine) alanında önce Öğretim Görevlisi (Lecturer), daha sonra Kıdemli Öğretim Görevlisi (Senior Lecturer) olarak bir göreve başlamış ve 1987’ye kadar burada kalmıştır. Burada, bölüm başkanı Keith Mant ve emekli olmasına rağmen alanda aktif kalmayı sürdüren Keith Simpson ile birlikte çalışmıştır. Bu süre zarfında Royal College of Pathologists of Australasia üyeliğini (Fellow) kazanmış ve Royal College of Pathologists of Great Britain üyeliğini elde etmiştir. 1987 yılında Monash Üniversitesi’nde Kurucu Adli Tıp Profesörü (Foundation Professor of Forensic Medicine) ve Victorian Institute of Forensic Medicine’in Kurucu Direktörü olarak atanmıştır. Monash’ta görev yaptığı süre boyunca, Tıp ve Hukuk Fakülteleri arasında, bu iki disiplinin genel olarak etkileşimine duyduğu ilgiyi yansıtan yakın ilişkiler geliştirilmiştir.
+
+### Sayın Yargıtay Başkanı (Chief Justice) John Doyle
+
+John Doyle, 1966 yılında Adelaide Üniversitesi’nden Hukuk Lisans (Bachelor of Laws) derecesi ve 1969 yılında Oxford Üniversitesi’nden Medeni Hukuk Lisans (Bachelor of Civil Law) derecesi almıştır. 1967 yılında Güney Avustralya için Rhodes Scholar unvanına layık görülmüştür. 1970 yılında Güney Avustralya Yüksek Mahkemesi’ne (South Australian Supreme Court) Avukat ve Hukuk Müşaviri (Barrister and Solicitor) olarak kabul edilmiştir. 1970’ten 1977’ye kadar Adelaide’deki bir avukatlık firmasının ortağı olarak çalışmıştır. 1977’den 1986’ya kadar Adelaide Barosu’nda (at the Bar) serbest avukatlık yapmıştır. Bar’daki çalışmaları hukukun çoğu dalını kapsamış, temyiz (istinaf/temyiz) işlerine kayda değer ölçüde yoğunlaşmıştır.

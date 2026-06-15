@@ -1,0 +1,808 @@
+16 Causation in Coronial Law
+IAN FRECKELTON*
+Introduction
+The concept of causation is fundamental to the coronial function. In fact, society's
+need to determine the reasons lying behind unexpected, suspicious and violent
+deaths continues to this day as a principal reason for coroners having the role of
+conducting formal inquests. Coroners in England, Canada, Australia and New
+Zealand have as key parts of their role to determine the identity of persons who
+have died in prescribed circumstances, to make findings about how deaths have
+occurred and to rule upon what constituted the cause or causes of deaths. In some
+jurisdictions, the obligation to decide formally whether a person contributed to
+the cause of death is stipulated; in others it is regarded as subsidiary to other
+findings. In some jurisdictions, the coroner has additional but cognate
+responsibilities – to determine the origin and cause of fires, whether or not
+causing death; to ascertain the origin and cause of explosions; and to find out
+what caused certain kinds of accidents and other dangerous phenomena.
+The obligation to determine causation, especially in relation to deaths, has
+proved, as a matter of law and fact, an extremely problematic exercise going to
+the very heart of the coronial function. Justice Nathan summed up the problem in
+Harmsworth v The State Coroner.1 "the issue of causation ... has vexed
+philosophers and judges since Socrates was obliged to drink the hemlock." As
+McClemens I noted in Ex parte Minister of Justice; Re Malcolm,2 too, the forensic
+difficulties posed by the need to make findings about causation, in particular in
+the coronial context, will persist into the future.
+In the latter quarter of the twentieth century the emergence of coronial law as
+an area of intense media and popular interest,3 the glamorisation of the role of
+the forensic pathologist and of the coroner, together with the increased incidence
+of appellate litigation arising out of coroners' decisions, have shone a complex
+spotlight upon decision-making in relation to causation by coroners. While
+coronial law is part of the general law which deals with causes and results, it is a
+distinctive characteristic which has generated its evolution. Historically, coroners
+and coronial juries have been empowered to add "riders" to the formal records of
+their decisions. These "riders" or recommendations have generally been directed
+toward matters of health and safety or to the administration of justice. They
+evolved because of the potential to reduce the incidence of avoidable deaths and
+injuries.4 As a formal part of the decision-making process, they are a unique
+component of this aspect of the law. The potential for riders, and, indeed, their
+growing importance as a factor influencing the scope and content of coronial
+inquests in some countries, in particular Australia, in turn has had a significant
+impact upon the construction of causation as a concept under coronial law.
+Particularly problematic aspects of the coronial function occur in the fact-
+finding context of multi-factorial causes of death and fires, and also where it is
+contended that a death has been caused, at least in part, by a failure on the part
+of an institution to exercise proper care and supervision over a resident, such as a
+person who is intellectually disabled, mentally ill or confined within a penal
+institution. This kind of scenario has generated considerable jurisprudence in
+recent times, but the law in relation to causation in such contexts remains
+unresolved to a significant degree.
+Concentrating on these difficult contexts in which causation has challenged
+both coroners and appellate courts, this chapter explores the notion of causation
+as it has evolved in the context of modern coronial law. It does so with reference
+to the function of coroners' courts as inquisitorial modes of investigation into
+death and associated phenomena.5
+Coroners as Fact-Finders: An Historical Perspective
+The early role of the coroner
+The history of coroners dates back at least to the Council of Eyre in 1194. The
+early duties of the coroner were essentially those of a tax gatherer, protecting the
+pecuniary interests of the Crown, in particular those arising from the
+administration of the criminal law,6 by ensuring the safekeeping of fines,
+recognisances and treasure trove. Another important function in the early phase
+of the coroner was the taking for the Crown of deodands. which were the
+instruments that the coroner found to have been responsible for deaths. They
+could be ships, carts, oxen or axes, but they had one thing in common – all of
+such chattels had a value to the Crown. To the considerable financial advantage
+of the monarch of the day, the coroner was responsible for the confiscation of
+such goods from malefactors once he was satisfied that they had caused the death
+of a deceased person.
+In due course, the administrative role of the coroner7 developed so that when a
+person was found dead, the coroner was notified and a jury assembled from the
+local hundred super visum corporis8 with the body being laid on a table and
+examined by the jury under the direction of the coroner. Evidence was taken and
+a verdict arrived at by the jury. An important element of the verdict was the
+determination of the cause of death.
+Before the rise of area magistrates and local police forces, the coroner could
+properly be described as the principal agent for investigation of crime, especially
+homicide, and before the comparatively late introduction of medical evidence9
+about the aetiology of death and the subsequent development of forensic
+pathology, the coroner was the official whose duty it was to examine the body of
+the deceased and determine the cause of the person's death. If there was evidence
+to accuse someone of a homicide offence, the inquisition of the coroner's jury,
+naming the suspect, operated as a bill of indictment and committed the suspect to
+trial, in exactly the same way as the grand jury did in England until its abolition
+in 1933.10
+In the United States a variety of factors led to the abolition of the coronial role
+and the institution of a system of medical examiners. Going with this
+phenomenon was a concentration upon ascertaining from a medical, as well as a
+legal perspective, the causes of death. Prominent amongst the factors was the fact
+that early American coroners tended to be unqualified occupants of a minor
+political office, typically farmers, carters or undertakers. As Johnson has pointed
+out, "Political, not professional skills, were what was demanded of potential
+coroners".11 While in the mid-nineteenth century, the role of the coroner was not
+dissimilar to that in England, urban coroners in the United States began to
+assemble significant political power and to command substantial police forces –
+some had prosecutorial powers rivalling those of the district attorney. Corruption
+became endemic and attempts at reform focused upon the need to change the
+nature of the coroner's office, to depoliticise it and thereby to remove the
+temptation for venery. Reformers
+saw coroners as furthering the breakdown of law and order by allowing crime to go unpunished,
+whether because of the inexperience of the coroner's physicians or simple cupidity. Physicians in
+particular vilified coroners for their errors in post-mortem diagnosis and regularly lambasted them in the
+medical press ... Socially and professionally elite urban physicians often led attempts to reform the
+coroner's office, which took two forms. The simpler expedient was to demand the election of a physician
+to the office, in the belief that medical science would be better served – or at least acknowledged – by a
+medical practitioner. The more thoroughgoing approach was to seek abolition of the coroner's office and
+its replacement by a medical examiner system.12
+In due course, the medical lobby and the anti-corruption movement were
+successful and a system of medical examiners was instituted throughout most
+United States jurisdictions in place of the office of coroner.
+The modern role of the coroner
+In recent times, the coronial function has evolved considerably in Australia, New
+Zealand and Canada, and to a lesser degree in England. This is so in many
+regards. A major development in Australia is that in most States and Territories13
+coroners sit without juries. This is a significant change in terms of the role that
+coroners now play not only in relation to conducting investigations and ensuring
+that inquest hearings run fairly and efficiently, but in terms of the complexity of
+evidence that can be dealt with by coroners possessed of an expertise in grappling
+with technical issues that is not shared by lay jurors.
+Another important shift may be identified in the move toward the conduct of
+quasi-judicial inquiries into the circumstances of deaths and certain other
+phenomena with an increasing emphasis on making recommendations to prevent
+repetition of life-endangering conduct. This has led the inquest away from being
+a straightforward exercise directed toward determining identity of the deceased,
+medical cause of death, proximate circumstances giving rise to death and
+particulars necessary for registration of death. It has seen the inquest process
+change so that it explores and makes findings about a complex array of factors
+that have led to death, both indirectly and directly. Along with this
+transformation has come an increasing preparedness by coroners to investigate
+and make findings about a range of multifaceted factors leading to avoidable
+deaths. In New Zealand, this even constitutes a specific reason for the holding of
+an inquest. Section 15(1)(b) of the Coroners Act 1988 (NZ) provides that an
+inquest can be held for the purpose of:
+Making any recommendations or comments on the avoidance of circumstances similar to those in which
+the death occurred, or on the manner in which any persons should act in such circumstances, that, in the
+opinion of the coroner, may if drawn to public attention reduce the chances of the occurrence of other
+deaths in such circumstances.14
+Controversies about the modern role of the coroner
+The changes, though, and the challenges facing the modern coroner have not
+been without their critics. They have proved controversial. A Canadian decision,
+for instance, has pointed out that "an inquest is not a trial; an inquest is not a
+Royal Commission; an inquest is not a public platform; an inquest is not a
+crusade".15 This said, the role of the coroner in functioning as a means of public
+inquiry into how avoidable deaths can be avoided in the future is increasingly
+entrenched as a feature of the modem inquest. Such a shift is not so much the
+adoption by coroners of a significantly new function; it is a consolidation of a
+longstanding feature of coronial inquisitions and inquests, dating back to the
+earliest period of coronial decision-making.
+Contextualising the modern role
+For instance, coroners in fourteenth century England ordered that wells be filled
+to prevent further drownings.16 A practical way to prevent further injury was
+also identified in a 1487 inquest:
+About 8pm on 6 Nov, when going home, John Aleyn of Rye, "hokemaker", by misadventure feil over "le
+clyff" near the east side of the Austin Friars in a great wind. Because "le clyff" was crumbling and the
+cause of his death, the land near it has been marked off 3 feet towards the king's highway there.17
+Coroners' recommendations, reflecting a broad perspective and a pragmatic
+bent toward reducing the incidence and causes of injury and death, may be seen,
+too, in the investigation into the death of Thomas Drake in 1793 at Squirrel Farm,
+Ewan Field in Kemble. The coroner's roll records that:
+Drake – with another man standing on a stone at the top of a high precipice and quarry and moving and
+drawing a large stone at the bottom by means of a large wheel and cord, slipped and fell and was killed.
+Because the master of the works and the proprietor of the land were both at a distance and the
+employment appeared very dangerous in future without better contrivance and the addition of a stage,
+etc, it was adjudged highly requisite to adjourn and summon those with other evidence on 30 Aug., when
+the said alterations and additions were agreed on and promised to be effected.18
+Similarly, in 1788 at Chippenham a William Deverill was lost on a river
+"supposed to have fallen in passing over a very narrow foot-bridge called Black-
+Avon Bridge". The Coroner found that the deceased:
+drowned by falling from a very dangerous and presentable foot-bridge over the Avon at the back of the
+town. As well by reason of many past accidents as the present and to prevent future ones, it was judged
+highly necessary to adjourn until after a convention by vestry of the chief inhabitants of Chippenham,
+the result whereof is to widen and strengthen the bridge and render it safer in time of floods.19
+Coroners' inquests in England were investigated by a Parliamentary Select
+Committee in 1860, This occurred in the context of increasing hostility to the
+institution of coroners in the United States and tensions between coroners and
+magistrates on the one hand in England and between coroners and police forces
+on the other hand.20 The scope of inquests was extended in an effort to address
+social problems evident in an aspect of urban deaths. The Committee accepted
+the view of the coroners and sanitarians that inquests should be held in all cases
+of sudden or accidental death "for denunciation of the guilty, for the comfort of
+the innocent, and for the information of the public, who should be taught the
+nature and extent of the dangers that surround them."21
+Appellate perspectives on the modern role
+A number of modern descriptions of the coroner's function have explicitly
+recognised this ancient function of the coroner to go beyond the circumstances of
+the individual death and to initiate and facilitate measures to reduce the
+likelihood of similar tragedies. Lord Lane CJ in R v South London Coroner; Ex
+parte Thompson,22 for instance, stressed the need for the inquest process to
+uncover the facts sufficiently to enable the adoption of counter-measures,
+characterising the role of the inquest as being "to seek out and record as many of
+the facts surrounding the death as public interest requires".23 Similarly, in People
+First of Ontario v Niagara (Regional Coroner)24 it was held that, "The social and
+preventative function of the inquest which focuses on the public interest has
+become, in some cases, just as important as the distinctly separate function of
+investigating the individual facts of individual deaths and the personal roles of
+individuals involved in the death". However, it was acknowledged that "the
+narrow investigative function" of the coroner to lay out the essential facts
+surrounding a death "is still vital to the families of the deceased and to those who
+are directly involved in the death".25
+Advantages to the modern role
+The benefits of the broader form of the coronial inquest process can be
+summarised as follows:
+determining the medical cause of death, thus providing accurate statistical
+information on causes of death;
+advancing medical knowledge;
+investigating deaths to allay rumours or suspicion, and thereby to ensure
+no foul play or wrongdoing slips through the net;
+making recommendations to avoid future fatalities;
+checking on the death registration system; and
+enabling relatives to find out how the deceased died, which can assist in
+the grieving process.26
+The increasing focus upon the role of the coroner as a vehicle for preventing
+causes of injury and death has become a characteristic of the evolution of
+coronial law in Australia and Canada, particularly, since the mid-1980s.27
+The Scope of Coronial Inquiries
+Direct and indirect findings as to causation
+A tension can be discerned between the vision harboured by many coroners as to
+what should constitute the scope of the inquest process and the perception
+articulated by both superior court reviews of coronial hearings and a series of
+government-sponsored reviews of the modern inquest. The issue goes beyond a
+hegemonic assertion of authority by contemporary coroners. It revolves around
+an attempt by one component of the legal/bureaucratic process to fill a void left
+by deficits in both the civil and criminal law – to address constructively scenarios
+in which members of the community meet their deaths unnecessarily and
+prematurely. In good part it is a public health issue.
+In spite of the evolution of inquests, which have resulted in Australia, in
+particular, in an avalanche of inquests taking in excess of 100 court days each,
+appellate cases which have had reason to determine the breadth and extent of the
+coroner's jurisdiction, and therefore, by inference the circumstances in which
+findings of causation should be made, have tended to do so relatively narrowly. A
+number of inquiries into the coronial jurisdiction have supported this approach
+and indeed given an historical justification for it. For instance, the 1936 English
+departmental committee on coroners under the chairmanship of Lord Wright28
+urged that, save in cases of murder and manslaughter, inquests should be limited
+in their scope to ascertainment of a finite number of statutorily mandated facts. It
+expressed concern that inquests were too readily being used as a vehicle to elicit
+facts and obtain riders for the purposes of imputing or escaping civil liability for
+acts or omissions causing death.
+Similarly, the 1971 report of the committee reviewing the law and practice
+relating to death certification, under the chairmanship of Mr Brodrick QC29
+argued that coronial findings ought in no sense to function as surrogates for
+criminal or civil determinations. It argued that "In future the function of an
+inquest should be simply to seek out and record as many of the facts concerning
+the death as the public interest requires, without deducing from these facts any
+determination of blame." A result of the report was the removal from English
+coroners and their juries of the right to prefer homicide charges.30 Three years
+later, coronial juries were precluded from adding a rider to their findings by an
+amendment to the coronial rules.31
+In Victoria, Australia, a similar inquiry took place under JG Norris in 1981,32
+this giving rise shortly afterwards to new legislation in that jurisdiction
+governing coroners.33 Again a key recommendation of the inquiry was that
+coroners' determinations not trespass on either the civil or the criminal processes,
+rather confining themselves to making findings arising out of the statutorily
+mandated coronial obligations.
+Appellate perspectives on the scope of inquests
+However, this is not to suggest that coronial inquests are or should be of narrow
+compass. As the Ontario Supreme Court held in People First of Ontario v Niagara
+(Regional Coroner):34 "the social and preventative function of the inquest which
+focuses on the public interest has become, in some cases, just as important as the
+distinctly separate function of investigating the individual facts of individual
+deaths and the personal roles of individuals involved in the death."
+Uncertainty as to findings about causation in all jurisdictions is fuelled by the
+fact that coronial law, while having its own identity and its own objectives,35
+exists in a nether world between criminal law and civil law. A key issue in this
+regard is the contemporary view of the purpose and legitimate scope of coronial
+inquests. These have been addressed both by governmental reports and by
+superior court decisions.
+Appellate constructions of the coroner’s obligation to find “how”
+the deceased died
+A crucial constraint of the scope of coronial inquests and findings exists in the
+meaning to be given to the coroner's task to ascertain, if possible, how a deceased
+died. The leading appellate decision on the subject is that of the English Court of
+Appeal in R v HM Coroner for North Humberside and Scunthorpe; ex parte
+Jamieson,36 where the court read down in important ways the scope of inquests,
+affirming an earlier decision on a similar subject37 in which Hutchison LJ had
+found that the obligation of a coroner to find "how" a deceased died38 meant "by
+what means" not "in what broad circumstances" and holding that "lack of care"
+aggravated the cause of death only when there was a close connection between
+the lack of care and the death.
+Sir Thomas Bingham MR held that the task of the coroner is not to ascertain
+"how the deceased died", which "might reach general and far-reaching issues but
+'how ... the deceased came by his death', a more limited question directed to the
+means by which the deceased came by his death."39
+The nub of the decision from a point of view of its impact upon the scope of
+future inquests lies in its narrow construction of the obligation of the coroner to
+determine "how" any given deceased passed away, this being the umbrella under
+which an inquest has the potential to analyse indirect factors suspected of
+contributing to the causal chain resulting in a death.
+A similar approach to that of the Court of Appeal in Ex parte Jamieson was
+taken by Warren J of the Victorian Supreme Court in Kahn v West and Keown40
+in relation to the proper ambit of findings about "how" the deceased came by her
+death. The case was an appeal from a coroner's decision that police had not
+contributed to the cause of death of an intoxicated, tomahawk-wielding
+Aboriginal woman when they fatally shot her. Justice Warren held that the scope
+of the coroner's duty to find "how" the deceased died is narrow: in the case before
+her, it consisted in no more than the pulling of the trigger on the pistol held by a
+police constable. It did not encompass the surrounding issues which might or
+might not have affected whether the shooting was legitimate, namely in the
+exercise of lawful self-defence. Such matters could include, for instance, indirect
+issues such as police training and a range of reasonably direct causal factors
+particular to the circumstances in which the particular constable fired his
+weapon.41
+Deaths in institutions: the closeness of required nexus and the
+role of the coroner
+One of the contexts in which causation in coronial law has been vigorously
+contested and has fallen to be construed in terms of the sufficiency of nexus
+between act or omission and consequence has been in relation to deaths
+occurring in institutions such as prisons, psychiatric hospitals and residences for
+those with intellectual disabilities. Frequently such deaths are a result of the
+detainee's own actions, by reason of less than ideal care by the institution or in
+the context of an insurrection within the facility.
+A typical and tragic example was canvassed before the Coroner's Court in
+Victoria in April 2001. An elderly resident of a supported rehabilitation facility
+was known to be psychiatrically ill, with a range of positive and negative
+symptoms of schizophrenia, as well as depressive symptomatology, for which he
+was receiving anti-psychotic and anti-anxiolytic medication. In certain
+circumstances, he would wander away from the facility, only later to be found
+confused and sometimes at considerable risk. Community visitors, who have a
+statutory mandate in Victoria to inspect such facilities, had commented of the
+facility where he resided that little attention was given to the construction of
+proper "service plans". Such plans, by force of statutory regulations,42 are
+supposed to set out and plan the services given to vulnerable residents to assist in
+meeting their individual needs. One day the resident again left the facility for no
+known reason. The next day his body was found floating in a nearby river. The
+task for the Coroner was to determine not so much whether the deceased died as
+a result of foul play, for which there was no indication, but whether his death
+was caused by inadequate planning and care being devoted to catering to
+vulnerabilities that placed him at risk of avoidable death.43
+One of the most significant judicial analyses of the issue has been that of the
+English Court of Appeal in R v HM Coroner for North Humberside and
+Scunthorpe; ex parte Jamieson44 The decision came in the wake of a series of
+decisions in "lack of care" inquests where people had passed away arguably
+because sufficient care had not been taken of them and they had died either
+directly by their own act or by reason of neglect by a facility.45 The deceased,
+who was serving a lengthy custodial sentence, hanged himself in a single cell in
+the prison hospital after he had previously tried to commit suicide within the
+prison. The key issue in the inquest related to the care extended to the deceased
+by the prison authorities in the light of their knowledge of his mental state at the
+relevant time. The coronial jury was not invited by the coroner to consider
+whether the death of the deceased was caused or contributed to by lack of care.
+Consistent with the Court of Appeal's decision as to when a coroner should
+make findings on "how" a person died is its determination that a verdict of "lack
+of care" is only legitimate when a failure on the part of authorities, such as those
+running prisons, is causally connected with a death, that is to say when evidence
+establishes a "close connection", rather than, for example, that the failure created
+the general environment within which a desperate act such as a suicide, occurred.
+What is necessary is a "clear and direct causal connection" between neglect or
+self-neglect and death.46
+However, the difficulties of application of this requirement have persisted in
+the aftermath of She Court of Appeal decision in Ex parte Jamieson. In 2000, for
+instance, Tomlinson J47 held that the requirement for a "clear and distinct causal
+connection" does not carry the sense that such words convey when a court
+considers a contract, a tort or an insurance policy. He held that the touchstone is
+the opportunity to render care, in the narrow sense of the word, and thereby to
+have prevented death. He found that the test of the Court of Appeal does not
+mean that a conscientious person would necessarily have provided the care but
+that the person had an opportunity to do something effective.
+In the case before Tomlinson J, the deceased was an alcoholic who had been
+arrested and detained at the Tamworth Police Station, later suffering a series of
+fits that led to his death. Justice Tomlinson held that there was sufficient evidence
+to conclude that, in light of information already in the possession of the police,
+and in light of the deceased man's spilling of his tea on two separate occasions in
+the context of severely shaking hands, there existed circumstances in which, had
+the police promptly summoned medical aid, it was at least possible that the
+deceased would not have died. Thus, he found it legitimate for the coroner to
+have summed up to his jury in terms of there being a clear and direct causal
+connection between the deficits in care on the part of the police and the death of
+the deceased.48
+Appellate rulings on the extent of the coroner’s investigative
+responsibilities
+By the time of the 1995 decision of the Court of Appeal in Ex Parte Jamieson and
+the 2000 decision of Warren J, the controversies about the depth of inquiry that
+the coroner should pursue were not new in Australia. An important analysis had
+been undertaken in the first of the major modern Australian decisions on coronial
+law, Harmsworth v State Coroner,49 an appeal to the Victorian Supreme Court
+dealing with a coroner's inquest into the deaths of several men in a fire after the
+construction by prisoners of a barricade inside a high security section of a jail.
+Justice Nathan had been called upon to deal specifically with the propriety of a
+coroner inquiring into a number of matters which had the potential to shed light
+into how it was that prisoners in an electronically controlled, high security part
+of Melbourne's main prison had engaged in what was clearly risky and ill-
+considered behaviour, blocking up entrances and setting fire to bedding and other
+combustibles. Objection had been taken to the liberal response of the coroner to
+the attempt by relatives of the deceased to explore the background to the conduct
+of the prisoners. The dispute therefore was in substance as to the remoteness of
+the causal factors into which the coroner should inquire and as to which he
+should be entitled to make findings.
+Justice Nathan conceded that the prisoners would not have died, had they not
+been in prison but found that a line had to be drawn in terms of the parameters
+of the coroner's inquiry. He held that the sociological factors which related to the
+causes of the men's imprisonment "could not be remotely relevant".50 Justice
+Nathan had regard to how wide, prolix and indeterminate the inquest might be if
+each of the many facets of the individual personalities of all those involved were
+to be considered:
+A coroner would be confronted with a need to enquire into the personal peculiarities of all of the
+prisoners who barricaded themselves in. Both those who relented and those who did not. Whether, for
+example, one group or person suborned others, and if so why and how. The personalities of all of the
+prison officers who interacted with all of the prisoners could also be investigated. Even the interaction of
+all of the other prisoners at any time in Jika with the deceased.51
+The irony was that these aspects of the decision of Nathan J carried an element
+of "tilting at windmills". What had been attempted in the inquest was an
+exploration of why it was that the prisoners had responded to grievances with
+those running the jail in the desperate and manifestly dangerous way that they
+had. While there had been some suggestions, for political reasons, no doubt, that
+the coroner should inquire generally into the deficits in the prison system, that
+had never been a serious option, so far as the coroner had been concerned. What
+had been taking place, though, from the perspective of the prison authorities was
+a broader-based analysis of the factors precipitating the conduct of the prisoners,
+which in turn resulted in their death, than they were comfortable with. Hence the
+attempt by the prison authorities to curtail this aspect of the inquest. Clearly
+enough the view of Nathan J was that the inquest had exceeded its proper
+parameters. Unfortunately, he did not enunciate clear criteria for delimiting the
+extent to which matters other than those absolutely proximate to the
+circumstances of death should be the subject of inquiry at inquest.
+The key aspect of the decision of Nathan J lies within its rationale for the
+coroner's inquiry not being able to extend in the way that the presiding coroner
+contemplated: "Such an inquest would never end, but worse it could never arrive
+at the coherent, let alone concise, findings required" under the legislation. He
+conceded that such an inquest could certainly provide material for riders and
+comments, but he held that "[s]uch discursive investigations are not envisaged
+nor empowered. ... They are not within jurisdictional power."52 He noted the
+existence of a legislative entitlement on the part of the coroner to make
+comments and recommendations, but held unequivocally that the "power to
+comment is incidental and subordinate to the mandatory power to make findings
+relating to how the deaths occurred, their causes and the identity of any
+contributory persons".53 In this he was consistent with the approach taken in Re
+Kelly, dec'd,54 an English inquest dealing with the death of an army captain in
+Kenya from injuries he sustained in the course of a live firing exercise. Lord
+Justice Pill and Newman J had emphasised that the power to make
+recommendations so as to endeavour to avoid repetition of an avoidable death is
+ancillary to inquest procedure, not its mainspring. Justice Nathan's decision
+narrowed the extent in Australia to which an inquest can be directed toward
+facilitating a coroner's preparedness to delve into the indirect circumstances
+contributing to the cause of death and to make recommendations or comments,
+the question being one of remoteness and not readily susceptible to definition.
+What Nathan J's decision means in practice has not been clearly explicated. It
+has become clear that relatively little heed has been taken of the decision by
+coroners desirous of inquiring into matters some distance removed from why
+fires engulfed vulnerable people, how it was that police shot unarmed civilians,
+how persons in hospitals were treated in ways which resulted in deaths which
+should not have happened, and why objectively dangerous incidents, such as
+building implosions, took place, although contra-indicated by safety
+considerations. Justice Nathan's desire that coroners should not inquire far along
+the chain of causation beyond the immediate circumstances of death has not
+resulted in Australian inquests becoming either of confined dimensions or of
+short duration.
+The Required Nexus Between Causative Factor and
+Death
+Magnitude of nexus
+A number of difficult decisions have grappled specifically with the proper scope
+of coronial findings on the issue of causation. As already indicated in the context
+of neglect and self-neglect cases, in England the need for a "clear and causal
+connection" between a causative factor and a death has often been emphasised by
+the Court of Appeal but never further defined." In R v Cato,56 it was confirmed in
+the criminal law context in England that if an act contributed significantly to the
+cause of death, that is sufficient – it need not be the sole or even the principal
+cause of death. Subsequently, in England, Lord Woolf MR in the Court of Appeal
+applied criminal jurisprudence on the issue and held that what is necessary under
+coronial law is that the act "more than minimally, negligibly or trivially
+contributed to the death".57
+In Australian law, there is no clear authority on the issue, although it has been
+held that a coroner is obliged to endeavour to ascertain the "real cause" of death58
+It seems under the criminal law that for a cause to be sufficient for criminal
+liability, it must be a substantial and operating cause.59 As Lanham in this
+collection points out, the position taken by the High Court of Australia is not
+entirely clear, though different formulations being adopted in the leading
+decision of Royall v R,60 where the question traversed was whether a person who
+frightens another into killing herself accidentally, could be held to have caused
+the death. Three judges referred to a significant contribution satisfying the test
+for causation,61 and three (two of them the same) appear to have regarded
+"significant" as meaning the same as "substantial".62
+The common sense test
+In Commissioner of Police v Hallenstein,63 Hedigan J examined the concept of
+causation in negligence and then sought to apply it to the coronial context. He
+expressly adopted the "common sense" test articulated by the High Court in E &
+MH Stramare Pty Ltd,64 in particular the formulation of Deane J, the judgments
+of the court arising in the context of the law of torts. Justice Deane posed as the
+test whether "the question of causation arises in relation to attribution of fault or
+responsibility whether an identified negligent act or omission of the defendant
+was so connected with the plaintiff's loss or injury that, as a matter of ordinary
+common sense and experience, it should be regarded as a cause of it".65
+Causes and non-causes
+In Keown v Khan66 the Victorian Court of Appeal had reason to pursue the notion
+further. In the leading judgment of the court, Callaway JA distinguished between
+causes and what he classified as "background circumstances", which he defined as
+a "non-causal condition". His Honour held that in determining whether an act or
+omission is a cause or merely a background circumstance "it will sometimes be
+necessary to consider whether the act departed from a norm or standard or the
+omission was in breach of a recognised duty".67
+This meant that it is appropriate for the coroner to find that a person who kills
+contributes to the cause of death, whether the person did so wrongfully or in
+lawful self-defence. He held that a finding in relation to the identity of a person
+contributing to a cause of death could then be made under the provision
+mandating such a finding, which in Victoria and the Australian Capital Territory,
+but not Tasmania, has now been repealed, or, as in England, under the umbrella
+of the obligation to find how a deceased came by his or her death.
+Multiple causes
+The question, therefore, will often be one of degree in determining the extent of
+the causal link. This is most problematic in the common situation where there are
+multiple causative factors. An example is to be seen in recent British Columbia
+coronial findings on causation:
+The debris flow occurred progressively, commencing on a steep section of a naturally unstable slope. ...
+An investigation team was organized by the Ministry of Forests to determine the causative factors.
+Members of the team were specialists in slope stability, forest hydrology, soil science, forest engineering
+and watershed management. The investigation reveals that the 42 days preceding 12 June 1990 were the
+wettest on record. This situation created wet soil moisture conditions that set the stage for a precipitation
+event. Along with this, the terrain in the vicinity of the initial debris flow is inherently unstable. This is
+evident by the presence of pistol butt trees and old stump scarps on a hillslope of 34 degrees. There is a
+clearcut area above the debris flow. This absence of trees changed the timing and the amount of water
+delivered to the soil. The network of roads and ditches here increased the drainage source areas above
+the debris flow. All of these factors although not singly causative, when combined the effect was
+potentiated.68
+A leading decision on the subject is that of McClemens J of the New South
+Wales Supreme Court who was called upon in 1965 to grapple with the issue in
+the context of a worker who had been admitted to hospital after taking ill at work
+in suspicious circumstances suggestive of his having been the victim of chemical
+poisoning in the workplace. He died after a lengthy period in hospital, the
+terminal cause of death being pneumonia that he contracted shortly before
+passing away.69 Justice McClemens expressly adopted the following passage in
+the then current edition of Jervis on the Office and Duties of Coroners:
+[O]steomyelitis, which is a septic disease of bone, may occur naturally or may, for instance, be caused by
+an injury from a fall: tetanus, which is an infection, proceeds from a wound: an old lady may die in a
+hospital from hypostatic pneumonia months after a fall which injured her hip. It is suggested that in so
+far as the terminal cause of death directly and consequentially follows from a definable event the death
+should be regarded as being caused by the definable event.
+He went as far as to hold that the approach of the coroner in the case before
+him of only focusing upon the terminal cause of death was erroneous and
+misconceived the function of the coroner. He found that what the coroner was
+obliged to do was to address the "real cause" of death, namely the disease, injury
+or complication, not the mode of dying, such as, for instance, heart failure,
+asphyxia or asthenia. In the case before him, he found that the pneumonia
+suffered in his last days of hospitalisation was not the real cause of death of the
+deceased; this was merely a final result operating on a man who was suffering
+from a bed sore, bladder infection, secondary infection from the bed sore, who
+was inert, vegetative, and incontinent of urine and faeces. He found that if what
+brought the deceased to such a pass was "poisoning", then poisoning could be
+said to be the real cause of death.
+From an international perspective, the leading decision on the subject of
+causation in a multi-factorial coronial context savours more of the malice of a
+legal academic, setting an impossible problem for his or her students, than of real
+life. However, although the facts explored in R v Poplar Coroner; ex parte
+Thomas70 were quite extraordinary, they allowed an opportunity for important
+consideration of where lines should be drawn in terms of remoteness or, put
+another way, insignificance of certain of multiple factors contributing to a cause
+of death.
+Miss Thomas, a young woman of 17, suffered a severe attack of asthma at
+1.00am. Her family telephoned for an ambulance when the attack began but only
+received a recorded message, "There is no-one here at present. Please hold on and
+we will answer your call as soon as we can". When the message was repeated,
+they decided to take Miss Thomas to hospital in their car. On the way, she
+deteriorated and the car was stopped. She was laid out on the pavement, alive but
+unconscious and the police urgently requested an ambulance once more at
+1.15am. Two further calls were made at 1.17am and 1.32am. An ambulance
+arrived at 1.33am but before it arrived, Miss Thomas had suffered a cardiac
+arrest. Attempts by ambulance personnel to revive her were fruitless.
+The analysis of the Court of Appeal was directed toward whether Miss
+Thomas' death was unnatural. For these purposes, though, the analysis was
+relevant because the court held that the determination of whether the deceased's
+death was natural or unnatural depended on what was the cause of death. The
+argument mounted on behalf of the relatives of Miss Thomas was that the chance
+of saving her life was unacceptably diminished because such a long time – 33
+minutes – elapsed between the first abortive emergency call and the time when
+finally the ambulance arrived. In essence, the reasoning pressed upon the Court
+of Appeal was a version of lost chance reasoning.71
+Lord Justice Dillon commented that:
+It is easy to think of a variety of different scenarios as a result of which an ambulance could have arrived
+too late to save a patient who had suffered a severe attack of asthma like Miss Thomas's, eg (i) the
+distance from the ambulance centre to the patient's home was too great for there to have ever been any
+chance of the ambulance arriving in time to save the patient, (ii) there was much more traffic than
+normal in the locality and so the ambulance was delayed and arrived just too late, (iii) the ambulance
+was diverted on its journey and had to take a much longer route because of flooding caused by a burst
+water main, which may have been due to lack of proper maintenance by the water company, (iv) a newly
+installed computer installed by the ambulance service to handle emergency calls more efficiently
+malfunctioned, as newly installed computers are prone to, or (v) the ambulance came late because the
+ambulance crew were inefficient and the management was slack.72
+On each of these scenarios, he (with Farquaharson LJ agreeing) found that the
+cause of death was the asthmatic attack. Lord Justice Simon Brown was more
+hesitant in his concurrence, specifically accepting that courts often find there to
+have been multiple causes to a given eventuality. He commented that if a civil
+action were brought, it could not be doubted that Miss Thomas' death was in part
+caused by the late arrival of the ambulance. Thus, his inquiry was into what view
+should be taken of causes that were secondary but were "not self-evidently
+irrelevant". He provided this example:
+Take a medical condition between the two extremes postulated by the coroner in this case – neither a
+condition like a strangulated hernia or ectopic pregnancy which clearly ought never to result in death
+and which, if it does, will require an inquest, but not a condition as serious as this deceased's asthma
+with its considerable risk of natural mortality rate; assume that consequent upon some clear failure of
+the emergency services the condition, unusually, proved fatal. Would not common sense dictate that that
+was an unnatural death?73
+He concluded that the circumstances before him would have constituted a
+cause if the arrival of the ambulance had constituted a more extreme failure of
+the service than it did.
+Standard of Proof of Causation in Coronial Law
+Findings as to causation, as in relation to other matters in respect of which
+coroners are statutorily obliged to make findings, are on the criminal standard of
+beyond reasonable doubt in England,74 at least in respect of matters such as
+homicide, including suicide,75but on the balance of probabilities in Canada76 and
+Australia.77 In Australia, this analysis is affected by the so-called "Briginshaw
+principle" 78 which results in a coroner needing to factor into his or her
+determination both the seriousness of allegations against a person and the likely
+impact of a finding that the allegations are made out. Thus, in Anderson v
+Blashki79 Gobbo J held that because of the gravity of an assault allegation in the
+coronial context, proof of what in fact constituted a criminal act had to be
+"cogent and exact and when considering such proof, weight must be given to the
+presumption of innocence."80 In addition, he held that the extremely deleterious
+effect that an adverse finding would have on the character of the person accused,
+as well as upon his reputation and employment prospects, meant that that weight
+of evidence was necessary which was commensurate with the gravity of the
+allegation against him. In practice, this means that in some circumstances, where,
+for instance, the allegation is tantamount to murder, the coroner needs to arrive
+at a high level of satisfaction before making a finding about contribution in
+relation to cause of death. The law in Canada is not dissimilar, proof where there
+are serious allegations being to "a high degree of probability".81
+Conclusion
+In Environmental Agency v Empress Car Co (Abertillery) Ltd,82 Lord Hoffmann
+observed that: "[C]ommon sense answers to questions of causation will differ
+according to the purpose for which the question is asked." To a similar effect,
+Gaudron J in Chappel v Hart83 has pointed out that "Questions of causation are
+not answered in a legal vacuum. Rather, they are answered in the legal
+framework in which they arise." The unique nature of the coronial jurisdiction
+has generated its own substantial jurisprudence in relation to causation. Much of
+it is affected by the emerging role of the modern coroner as an inquirer and
+maker of recommendations about avoidable death.
+It has become apparent that the call in the common law of Australia to have
+resort simply to common sense has not proved adequate. The need for causation
+findings to be made in all inquests has brought about many analyses of difficult
+issues such as the criteria for attributing not just causation but causation framed
+in such a way as to denote or imply fault. In addition, many cases have had to
+confront where the cut-off should be made in terms of proximate causation and
+indirect causation. No consistent or coherent approach can readily be discerned,
+the most substantial set of analyses being present in the English jurisprudence
+concerning neglect and self-neglect, where the demand of the appellate courts has
+been that the nexus between the unsatisfactory conduct and the death be close,
+namely clear and direct. Inevitably, some room remains open for subjectivity, but
+the message from the English Court of Appeal is that the connection cannot in
+any sense be remote.
+In Australia the criminal law appears generally to have been adopted in
+coronial law, meaning that the connection between the act or omission and the
+death must be "real" or perhaps "significant" or "substantial". Confidence in
+relation to a coroner's finding of causation must be beyond reasonable doubt in
+England but on the sliding scale of the balance of probabilities in Australia and
+Canada. Clear criteria for differentiating amongst differently contributing
+causative factors where they exist in numbers have not been identified, save that
+in respect of any given causative factor the tests in the criminal law seem to be
+applied.
+For coroners the core function of identifying both the circumstances around a
+death, in particular, those which gave rise to a death, and attributing a causative
+role to them, are unresolved. This is highly problematic as determination of
+causation is so central to the coronial function as to leave unclear the extent to
+which it is proper for coroners to inquire into, and make decisions about, indirect
+factors giving rise to deaths and other phenomena. This has been addressed in
+New Zealand's coronial legislation with sl5 of the Coroners Act 1988 (NZ)
+permitting a coroner to inquire into matters that he or she concludes are likely to
+result in recommendations conducive to public health and safety. There is much
+to be said for such a revised conceptualisation of the coroner's role.
+It is likely, arid a constructive development, that the increasingly recognised
+role of the coroner as an instrument for identifying, developing and promoting
+community safety will lead to the adoption of an approach along the lines of that
+in New Zealand. It assists the community little to identify by formal coronial
+findings only the proximate or terminal events around deaths. Frequently, it is as
+to the environment within which the acts and omissions which resulted in a
+death, as well as in relation to the potentiating and exacerbating nature of factors
+leading to the death, that analysis needs to be undertaken if the incidence of
+avoidable death is to be reduced. Often it is intangible factors such as workplace
+culture, longstanding practices of neglect or insensitivity, lack of awareness of
+options different from those adopted that need to be identified if important
+changes are to be made which will reduce unsafe practices. It is coroners who are
+best positioned as a result of the formal hearing process of inquests to discern
+such issues, to make findings about them and to make recommendations about
+how they can be changed. A range of public policy reasons, distinct and separate
+from those operating in the civil and criminal contexts, suggest that the notion of
+causation needs to be construed more broadly in the coronial context than in
+most others within the contemporary legal system.
+* Barrister in full-time private practice in Melbourne, Australia, Professor in the Department, of
+Psychological Medicine, Adjunct Professor in the Law Faculty and an Honorary Associate Professor
+in the Department of Forensic Medicine at Monash University, Adjunct Professor in the Department
+of Law and Legal Studies, La Trobe University.
+1 [1989] VR 989 at 995.
+2 [1965] NSWR 1598 at 1604.
+3 A point made by Australian High Court Justice, Ian Callinan, in his fictional work: I Callinan, The
+Coroner's Conscience, Central Queensland University Press, Rockhampton, 1999, at p9.
+4 See D McCann, "The Range of Findings Open to the Coroner" in H Selby (ed), The Aftermath of Death,
+Federation Press, Sydney, 1992; G Johnstone, "Coroners' Inquiries and Recommendations" in H Selby
+(ed), The Inquest Handbook, Federation Press, Sydney, 1998.
+5 See R v South London Coroner, ex parte Thompson (1982) 126 SJ 125; In re Rapier (1986) 150 JP 481.
+6 See W Holdsworth, A History of English Law, Vol 1, 7th edn, Methuen & Co, London, 1964, 84-5.
+7 See K Waller, Coronial Law and Practice in New South Wales, 3rd edn, Butterworths, Sydney, 1994, 1.
+8 See DM Walker, Oxford Companion to Law, Oxford University Press, Oxford, 1980 for definition of
+"hundred" and "hundred court".
+9 M Baden, Unnatural Death: Confession of a Medical Examiner, Sphere Books, London, 1989, at p48; DS
+Jones, Speaking for the Dead, Ashgate, Dartmouth, 2000.
+10 See RH Vickers, The Powers and Duties of Police Officers and Coroners, TH Flood & Co, London, 1889,
+at p214.
+11 J Johnson, "Coroners, Corruption and the Politics of Death: Forensic Pathology in the United States" in
+M Clark & C Crawford, Legal Medicine in History, Cambridge University Press, Cambridge, 1994,
+269.
+12 Ibid, at p272.
+13 See I Freckelton & D Ranson (eds), Coronial Law and Medicine, Oxford University Press, Melbourne,
+2002 (forthcoming).
+14 See also Law Commission of New Zealand, Coroners, Report No 62, Law Commission, Wellington,
+2000.
+15 See People First of Ontario v Niagara (Regional Coroner) (1991) 85 DLR (4th) 174, 187.
+16 See G Johnstone, "Coroner's Inquiries and Recommendations" in H Selby (ed), The Inquest Handbook,
+Federation Press, Sydney, 1998, 38.
+17 RF Hunnisett, The Medieval Coroner, Cambridge University Press, Cambridge, 1961.
+18 Ibid, at p34.
+19 Ibid, at p143.
+20 See J Sim & T Ward, "The Magistrate of the Poor? Coroners and Deaths in Custody in Nineteenth
+Century England" in M Clark & C Crawford, Legal Medicine in History, Cambridge University Press,
+Cambridge, 1994, 256ff.
+21 Registrar-General, Nineteenth Annual Report, PP, 1857-8, XXIII, 1, 198.
+22 (1982) 126 Sol Jo 625.
+23 R v South London Coroner; Ex parte Thompson (1982) 126 Sol Jo 625 (QB), Lord Lane CJ at 628.
+24 (1991) 85 DLR 174 at 183-4.
+25 Ibid, at p184.
+26 See P Matthews. "Involuntary Manslaughter: A View from the Coroner's Court" (1996) 60 Crim LJ 189
+at 191. See also the Report of the Committee on Death Certification and Coroners, September 22 1971,
+Cmnd 4810, chaired by N Brodrick QC; H Hallenstein, "Coronership – the Practical Application of
+Law, Medicine, Science and Specialty Knowledge", paper presented to Australian Institute of
+Criminology Conference, Surfers Paradise, Institute of Criminology, 1993. The coronial hearing as a
+procedure for investigating controversial deaths has its detractors, however. In England, see for
+instance. G Robertson, The Justice Game, Random House, London, 1998, at p201.
+27 See, for example, G Johnstone, "An Avenue for Death and Injury Prevention", in H Selby (ed), The
+Aftermath of Death, Federation Press, Sydney, 1992; J Harrison & J Moller, "Learning from Experience
+– Toward Prevention", in H Selby (ed), The Inquest Handbook, Federation Press, Sydney, 1997.
+Concerns about the extent to which this may fundamentally change the role of the coroner have also
+been expressed:
+I Freckelton, "Expert Proof in the Coroner's Jurisdiction", in H Selby (ed), The Aftermath of Death,
+Federation Press, Sydney, 1992. For the view of the coroner in a "social context", see R v Faber [1976]
+2 SCR 9 at 30 per De Grandpre J.
+28 Cmnd 5070.
+29 Cmnd 4810.
+30 Criminal Law Act 1977 (UK), s56(1).
+31 See M Levine & J Pyke, Levine on Coroners' Courts, Sweet & Maxwell, London, 1999, at pl45.
+32 JG Norris, The Coroners Act 1958: A General Review, Law Printer, Melbourne, 1981.
+33 Coroners Act 1985 (Vic). It proved to be a model for a number of Australian states and territories.
+34 (1991) 85 DLR (4th) 174 at 183-4.
+35 See R v South London Coroner; ex parte Thompson (1982) 126 Sol Jo 625; P Matthews, "Involuntary
+Manslaughter: A View from the Coroner's Court" (1996) 60 Criminal Law Journal 189 at 191; Report
+of the Committee on Death Certification and Coroners (chair: N Brodrick QC), Cmnd 4810, 1971.
+36 [1995] QB 1.
+37 R v HM Coroner for Birmingham, ex parte Secretary of State for the Home Department (1990) 155 JP 107
+per Hutchison LJ and Watkins LJ.
+38 Under s11 of the Coroners Act 1988 (UK).
+39 [1995] QB 1 at 8.
+40 [1999] VSC 530.
+41 Warren J's decision was successfully appealed to the Victorian Court of Appeal in Khan v Keown [2001]
+VSCA 137 but the general issue of the meaning of "how" was not finally resolved.
+42 Health Services (Residential Care) Regulations 1991 (Vic), Reg 303(1)(b).
+43 Re David Nixon Deceased, Victorian Coroner's Court, 2001.
+44 [1995] QB 1.
+45 R v HM Coroner for Birmingham, ex parte Secretary of State for the Home Department (1990) 155 JP
+107; R v HM Coroner for East Berkshire, ex parte Buckley (1992) 157 JP 425; R v Coroner for Inner
+North London, ex parte Diesa Koto (1993) 157 JP 857; R v HM Coroner for South Yorkshire, ex parte
+Stringer (1993) 158 JP 453; R v HM Coroner for Western District of east Sussex; ex parte Homberg
+(1994) 158 JP 357.
+46 R v HM Coroner for North Humbersicle and Scunthorpe; ex parte Jarnieson [1995] QB 1 at 26; see also R
+v HM Coroner for Swansea and Gower, ex parte Chief Constable of Wales (199) 164 JP 191 at 197.
+47 In R v HM Coroner for Coventry, ex parte Chief Constable of Staffordshire (2000) 164 JP 665.
+48 See too R v HM Coroner for Wiltshire, ex parte Clegg (1997) 161 JP 521 at 529.
+49 [1989] VR 989.
+50 Harmsworth v State Coroner [1989] VR 989, Nathan J at 995. See also the analysis in People First of
+Ontario v Niagara (Regional Coroner) (1991) 85 DLR (4th) 174, 187.
+51 Harmsworth v State Coroner [1989] VR 989 at 996.
+52 Ibid.
+53 Ibid.
+54 (1996) 161 JP 417 at 427.
+55 C Dorries, Coroner's Courts: A Guide to Law and Practice, John Wiley & Sons, Chichester, 1999, at p223.
+56 (1976) 62 Cr App R 41 at 46.
+57 R v HM Coroner for Exeter & East Devon; ex parte Palmer, unreported, Court of Appeal, 10 December
+1997.
+58 Ex parte Minister of Justice; Re Malcolm [1965] NSWR 1598 (SC), McClemens J at 1604.
+59 Eg R v Hallett [1969] SASR 141; R v Evans and Gardiner (No 2) [1976] VR 523.
+60 (1991) 172 CLR 378.
+61 Brennan J at 298; Deane and Dawson JJ at 411.
+62 Deane and Dawson JJ at 298; McHugh J at 449.
+63 [1996] 2 VR1.
+64 (1991) 171 CLR 506 at 522.
+65 [1996] 2 VR 1 at 17.
+66 (1998) 101 A Crim R 503.
+67 Ibid, at p511. Compare the so-called "NESS test": a person's breach is a cause of death or injury if it is a
+necessary element of a set of conditions sufficient to bring about the death or injury: R Wright,
+"Causation, Responsibility, Risk. Probability, Naked Statistics, and Proof: Pruning the Bramble Bush
+by Clarifying the Concepts" (1988) 73 Iowa Law Review 1001; see also D Hamer, "Proof of Causation
+and Quantum in an Unpredictable World" (1999) 23 Melbourne University Law Review 557.
+68 Kozub v HMTQ [2000] BCSC 0194 at [5].
+69 Ex parte Minister of Justice; Re Malcolm [1965] NSWR 1598.
+70 [1993] QB 610.
+71 For "loss of chance reasoning" in the economic loss context, see Hotson v East Berkshire Area Health
+Authority [1987] AC 750 at 759-60; Sellars v Adelaide Petroleum NL (1994) 179 CLR 332 at 355; in the
+context of medical negligence, see Naxakis v Western General Hospital (1999) 162 ALR 540; Chappel
+v Hart (1998) 156 ALR 517; Gavalas v Singh [2001] VSCA 23; N Moshinsky, "'Loss of a Chance of
+Successful Treatment" (2000) 8 Journal of Law and Medicine 216; I Freckelton, "Malpractice Actions
+Against Health Care Professionals" in I Freckelton & K Petersen (eds), Controversies in Health Law,
+Federation Press, Sydney, 1999. See also Luntz in this collection.
+72 At All ER 386.
+73 Ibid, at p3 88.
+74 See R v West London Coroner's Court; ex parte Gray [1988] 1 QB 467; R v Wolverhampton Coroner; ex
+parte McCurbin [1990] 2 All ER 759.
+75 See R v HM Coroner for Solihull; ex parte Nutt [1993] COD 449; R v HM Coroner for Northamptonshire,
+ex parte Tomkinson [1996] COD 191.
+76 Re Beckon (1992) 93 DLR (4th) 161 at 175.
+77 See Anderson v Blashki [1993] 2 VR 89; Secretary, Department of Health and Community Services v
+Gurvich [1995] 2 VR 69; Chief Commissioner of Police v Hallenstein [1996] 2 VR 1.
+78 Briginshaw v Briginshaw (1938) 60 CLR 336.
+79 [1993] 2 VR 88 at 95-6.
+80 Citing Cuming Smith & Co Ltd v Western Farmers Co-operative Ltd [1979] VR 129 at 147.
+81 Re Beckon (1992) 93 DLR (4th) 161 at 175.
+82 [1999] 2 AC 22 at 29.
+83 (1998) 195 CLR 232 at 238 [7].

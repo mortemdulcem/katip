@@ -1,0 +1,24 @@
+@startuml soru1_seq
+!include _seq.iuml
+title Şekil 1b · Personel Takvimi — Etkinlik saati değişimi (Observer + Mediator)
+actor Personel
+participant "etk : Etkinlik" as E
+participant "tak : Takvim" as T
+participant "kb : KatilimciBildirimi" as KB
+participant "salon : SalonRandevuSistemi" as S
+Personel -> E : saatGuncelle(yeniSaat)
+activate E
+E -> E : durumGuncelle()
+E -> T : ayniGunSonrakiler()
+T --> E : sonrakiEtkinlikler
+E -> KB : guncelle()  <<Observer>>
+E -> S : guncelle()  <<Observer>>
+activate S
+S -> S : salonCakismaDenetle()  <<Mediator>>
+deactivate S
+deactivate E
+note over KB, S
+  Etkinlik somut alıcıyı bilmez; yeni bildirim
+  kanalı eklemek etkinliği değiştirmez.
+end note
+@enduml

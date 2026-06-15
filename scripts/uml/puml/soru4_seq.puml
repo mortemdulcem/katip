@@ -1,0 +1,22 @@
+@startuml soru4_seq
+!include _seq.iuml
+title Şekil 4b · Kitap ödünç alma ve iade (Alan modeli — ilişki sınıfı)
+actor Ogrenci
+participant "sis : KutuphaneSistemi" as S
+participant "od : Odunc" as O
+participant "kitap : Kitap" as K
+Ogrenci -> S : oduncAl(kitap)
+activate S
+S -> O : <<create>> Odunc{alisTarihi=bugun, iadeTarihi=boş}
+S --> Ogrenci : ödünç kaydı
+deactivate S
+... bir süre sonra ...
+Ogrenci -> S : iadeEt(kitap)
+activate S
+S -> O : iadeTarihiAyarla(bugun)
+deactivate S
+note over O
+  Her ödünç olayı ayrı Odunc kaydıdır; geçmiş
+  kayıtlar korunur (bir kitap zamanla çok öğrenciye gider).
+end note
+@enduml

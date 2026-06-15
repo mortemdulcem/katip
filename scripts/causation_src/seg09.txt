@@ -1,0 +1,443 @@
+Part B:
+The Concept of Justice and Causal
+Responsibility in Tort Law
+6 Legal Rules Governing the
+Requirement of Causation in Tort Law
+IAN CALLINAN*
+It is not without significance that philosophy and science each attempt
+explanations of cause and effect. A body of scientists now subscribe to chaos
+theory. I sometimes think that that theory may have relevance to the legal theory
+of causation. The theory, as I understand it, is essentially that normal actions are
+not always productive of predictable consequences: they can cause random
+results. A mathematician wrote a book called Does God Play Dice? The
+Mathematics of Chaos. The most trivial of events he theorised, might, in
+combination with other trivial causes, contribute to major catastrophes – the
+butterfly wings theory. He wrote:1
+The flapping of a single butterfly's wing today produces a tiny change in the state of the atmosphere.
+Over a period of time, what the atmosphere actually does diverges from what it would have done. So, in
+a month's time, a tornado that would have devastated the Indonesian coast doesn't happen. Or maybe
+one that wasn't going to happen, does.
+I will not dwell on the theoretical notions underpinning the requirement of
+causation. That is the task of others. I will merely focus on the legal rules, which
+are, in the end, those set by the court of which I am a member.
+However, any discussion about the legal rules governing causation in tort
+would be incomplete without some reference to the piecemeal development of the
+law of negligence. It is open to question whether there is any underlying,
+universal principle. Each category of tort has a different history. Just as it is said
+of Roman Law, that to use the word "contract" is misleading for suggesting
+greater unity in the law than actually existed, to use the term "tort" may be
+similarly misleading.2
+Developing in an unprincipled way, as actions on the case, torts were not
+underpinned by broader legal principles, as, for example occurred in other areas
+of the law, such as real and personal property. An example which springs to mind
+is the recent case of Perre v Apand Pty Ltd,3 a case about pure economic loss
+which provoked an immediate critical response in an article in the Australian
+Law Journal by Justice Pincus of the Court of Appeal of Queensland.4
+Until Caltex Oil (Australia) Pty Ltd v The Dredge "Willemstad",5 negligent
+cause leading to pure economic loss, although accepted as apparently falling
+within such principles as had evolved, was on policy grounds excluded as an
+enforceable cause of action. Caltex was the ground-breaking Australian case in
+this field. It has still not attracted the support of the House of Lords or the Privy
+Council.6 In Perre, most Justices agreed that the appellants in that case could
+recover for losses which were purely economic. Seven separate judgments were
+published, none of which formulated the tests in exactly the same way, but all of
+which subscribed to a number of identical or similar themes.7
+The High Court is, I can say, in my brief experience of it, not insensitive to the
+need for bright lines of demarcation and clear principle so that judges may apply,
+and the law schools may teach, the law with confidence. But a strength of the
+common law is that it does not seek to impose an inflexible principle when and
+before it is possible to do so: it acknowledges the need for building blocks of
+principle over time. This inherent common law protection should ensure that by
+the time a principle is articulated, its bases have been applied to a range of
+different factual circumstances throughout the country and throughout the
+common law world. I said in Perre:8
+[I]t must be accepted that this is an area of the law in which the courts should move incrementally and
+very cautiously indeed. It is not yet possible to identify a bright line of demarcation between those cases
+of pure economic loss in which damages are recoverable and those in which they are not. The law is still
+developing in the somewhat piecemeal fashion that Stephen J predicted in Caltex:9
+"As the body of precedent accumulates some general area of demarcation between what is and is not a
+sufficient degree of proximity in any particular class of case of pure economic loss will no doubt emerge;
+but its emergence neither can be, nor should it be, other than as a reflection of the piecemeal conclusions
+arrived at in precedent cases."
+People ought not be too ready to criticise final courts for adopting an
+evolutionary or incremental approach to causation because difficult problems not
+surprisingly sometimes provoke difficult solutions. The test of causation
+expressed in the very early cases, of "immediacy" and "remoteness" were
+deceptively simple and involved, in any event, value judgments.10 Those tests are
+no less arbitrary than those presently applied. The very early cases, of course,
+were based not on negligence, but on an act causing damage. They were simple
+tests, "whether the person slain was nearer to death or further from life":11 not
+much of a value judgment in that, but certainly more extensive liability. A man
+was said to act at his peril. Tests of that kind make our current problems seem
+small in comparison.
+Causation, and especially causation in medical negligence cases, has been
+described as one of the most difficult tasks that the courts must undertake. There
+is little doubt that it has emerged as one of the most controversial and
+problematic in expression and application. But why is this problem exciting so
+much interest now? Causation is not a new doctrine. The concept of causation
+pre-dates negligence.
+One complicating factor is technological development. Theorists and
+philosophers have said that technology causes us to reconsider long-accepted
+notions: technology solves problems, but also creates new ones.12 Although I
+think this is often overstated, it has an element of truth to it in the case of
+causation. Perhaps medical care is the field in which this is most evident. The
+philosopher Mesthene points to two relevant factors: first, the availability of
+treatments not before possible; and, secondly, delivery of medical care to the
+population at large as a matter of right, not privilege.13
+Palliative care may provide a good example to illustrate this. Technology gives
+us a greater ability to control life, pain and death. With that enhanced ability
+comes the need to negotiate more difficult issues. As human endeavour breaks
+further boundaries, courts will be presented with new circumstances and choices
+of policy. Technology is important to causation because the more we can create,
+do, control and affect, the more we are able to "cause". I will return briefly to
+palliative care later. Professor Ashby's contribution to this book deals with that
+topic from a medical perspective.14
+It was in the case of March v Stramare (E & MH) Pty Ltd15 that the High Court
+rejected the so-called "but for" test as the exclusive test of factual causation.
+Instead, the but for test was to be accompanied or perhaps even superseded by a
+test of common sense principles. A passage from the judgment of Mason CJ is
+often cited to explain the logic of applying a test of common sense. The Chief
+Justice said:16
+In philosophy and science, the concept of causation has been developed in the context of explaining
+phenomena by reference to the relationship between conditions and occurrences.
+In law, Mason CJ said, problems arise in the context of apportioning legal
+responsibility.17 Therefore, the test becomes whether a particular act or omission
+can fairly and properly be considered a cause of the accident.18 The implication of
+March is, in one sense, clear. Establishing causation in a but for sense is not
+sufficient to establish causation generally.
+This reminds me of a parody of causation which appeared in the New Yorker
+in 1998. It went something like this:19
+Your dog ate my philodendron which depressed my mother who in a stupor voted for Marion Barry
+causing an upswing in crack sales that allowed Peru to maintain an embassy and accumulate parking
+tickets, encouraging me to stay a meter maid rather than become an Imagineer.
+I accept that may be an overstatement of the "but for" test.
+March may be the bridge between two conflicting views. The first was that
+satisfaction of the "but-for" test exhausts the causation issue, with policy
+considerations being considered at a different stage of the enquiry. The second
+view which, I should say, has prevailed, is that the but for test, will not of itself,
+usually be enough to make an act or omission a cause of damage for legal
+purposes.
+The current generation of judges is certainly not the first to grapple with the
+problem of causation. The common sense test must be distinguished from the last
+clear chance rule which is said to have been formulated in Davies v Mann.20 The
+test was that if both parties were negligent, but if one had a last clear chance of
+avoiding the harm, that person would be solely responsible for the harm. That
+rule has been trenchantly criticised, not only for being an inept way of giving
+effect to sensible policy, but also for masquerading as a common sense test and an
+excuse for throwing the whole blame on the defendant. The rule was abolished
+with the introduction of apportionment statutes.21
+The High Court recently applied,22 but with heavy qualification, the "but-for"
+test in the context of the Trade Practices Act 1974 (Cth) which provided for an
+examination of whether the applicant suffered damage by the conduct of the
+respondent. The provisions of the statute were held to require the identification
+of a causal link between loss or damage and conduct done in contravention of the
+Act. The Court noted the problems with the "but-for" test in March v Stramare23
+but preferred to resolve the case by comparing the position of the plaintiff with
+the position that the party would have been in but for the contravening conduct.
+On the facts of the case, it was held that no loss had been suffered as a result of
+the misleading conduct.
+It is in the field of medicine, however, that causation poses special problems. I
+hardly need say, as Justice Kirby recently said, that causation, in the context of
+establishing a causal connection between medical negligence and damage, is
+often the most difficult task for a plaintiff in medical malpractice litigation.
+Fleming describes causation as "plaguing" the courts and scholars.24 But courts do
+not even agree on that. Justice Gaudron, in Naxakis v Western General
+Hospital,25 thought there was a tendency to exaggerate the difficulties associated
+with the proof of causation.
+While the process is difficult and we have undoubtedly much further to go in
+arriving at a clear solution, the broad tension can be simply stated. Not all causes
+of damage should give rise to legal liability. Put simply, at what stage does cause
+become blame? What are the right rules to apply to limit legal liability
+appropriately?
+By the time Chappel v Hart26 came to be decided, the proponents of the stand-
+alone "but-for" test knew that the law had changed. The case was argued in the
+High Court on the basis of a lack of causal connection between the patient's
+injury and the doctor's conduct. It was argued as a loss of chance case. Loss of
+chance is now a well-settled basis for recovery in contract.27 Its emergence as a
+basis for damages in tort28 has occurred later. In Naxakis Gaudron J observed that
+the loss of chance approach is distinct from the "all or nothing approach involved
+in allowing damages for the actual harm suffered".29 That feature of the doctrine
+has made it attractive to academics, some of whom are of the view that it also
+alleviates problems associated with causation,30 especially, as Jansen observes,
+where there is "uncertain partial causation". Although the view that the
+difficulties associated with proof of causation may simply re-appear as difficulties
+in establishing the value of the chance in question must be taken into account,31 I
+think, tentatively I might say, that the approach of looking to just what damage
+was caused by the tort, rather than an "all or nothing" approach may have some
+attractions.
+There are still, however, many differences of opinion to be overcome with
+respect to loss of chance. There is judicial authority to suggest it is simply a
+matter to be taken into account in assessing damages32 and that loss of chance
+does not apply where the plaintiff sustains physical injury.33 Many of the views
+are contradictory.
+The second point I wish to make in relation to Chappel v Hart is this. I would
+not be overstating the position to say, perhaps not surprisingly, that Chappel v
+Hart has been trenchantly criticised and not dispassionately, by medical
+practitioners. They point to the inherent unpredictability of the human body, of
+tissue and of risks of infections.
+There may be a tendency for lawyers to believe that all is controllable; that
+scientific development has replaced biological uncertainty.
+If the courts apply a "plain person's" test of causation, then there are several
+very significant factors which must be considered when determining the extent
+to which legal responsibility will attach to tortious conduct.
+The community generally has high expectations of professionals who hold
+themselves out as highly skilled, charge accordingly and have in part at least,
+been expensively educated by public subsidy. But it may now be another question
+whether public expectations may be tending to overreach the capacity (or indeed
+the public interest of the community) to match them. When the law of negligence
+started to assume its modern shape in 1932, concern soon mounted over the
+liability that manufacturers, and others in the community, might incur as a result
+of what they regarded as no more than mere mischance. There was always going
+to be a need for some kind of balancing exercise to ensure that a true victim was
+properly compensated, but that any burden upon the community to discharge
+liability, whether by increased insurance charges or higher prices for
+commodities and services, would not be intolerable.
+In Esanda Finance Corporation Ltd v Peat Marwick Hungerfords,34 McHugh J
+considered the importance of the willingness and ability of people to undertake
+the essential work of auditing, without the fear of being confronted by enormous
+claims for damages by people of whom they might be unaware. His Honour
+warned against the costs to society of too expansive a view of liability:35
+... it is likely that the public will have to pay, directly or indirectly, for the risk of those [economic] losses.
+His Honour then went on to quote with approval Professor Siliciano:36
+Both potential loss spreaders – the accountant and the third party – can expend resources to minimise
+the losses incurred; the accountant can attempt to audit more thoroughly, while the third party can audit
+the client independently or bear the investment risks. Both actors can theoretically pass on such costs,
+plus any residual losses, to the public: the accountant, through increases in the cost of its services; and
+the third party, through increases in the costs of its credit. Either way, the increased costs initially are
+imposed on the client class, which in turn passes it on to the public in the form of price increases.
+McHugh J added:37
+From the public's point of view, therefore, the primary question is, who is the more efficient absorber of
+the losses?
+It is true that medical practitioners are paying very high insurance premiums.
+It is also true that some insurers have withdrawn from the market. It is worrying,
+as Mendelson has observed, that there is a perception that the law is imposing
+standards that are impossible to attain.38
+These are no more than considerations which must be taken into account as
+the rules of causation are fashioned.
+Causation in the criminal context arose for consideration in the recent case of
+Osland v R.39 Since Royall v R,40 there has been discussion of which of the various
+tests that were applied in that case would be adopted by the Australian High
+Court in future cases. In Osland the deceased had been drugged and then beaten
+to death. A mother and her son were the accused. They had jointly selected the
+weapon, the mother had drugged the deceased, and then the son beat him to
+death. The mother held the deceased down, either while he was being struck, or
+immediately after the blows had been administered. These acts were in pursuance
+of a preconceived plan.
+A majority of the court found that the mother was causally responsible as a
+principal for the death. The test preferred by McHugh J in Royall was applied,
+that is, whether the act or omission was "sufficiently significant", or the operating
+and substantial cause test. There was a difference, however, in the result that was
+reached on the application of the test. It does not mean that the other tests have
+been rendered inapplicable; they may still be applicable in appropriate
+circumstances.
+Royall and Osland highlight the fact that there is nothing novel in courts
+disagreeing from time to time about the applicable test and its application.
+On the horizon there may be looming problems, particularly with respect to,
+but perhaps not confined to medical cases, with respect to the proper measure of
+damages. I said earlier that in Naxakis Justice Gaudron referred to loss of chance
+as one method of avoiding the "all or nothing approach involved in allowing
+damage for the actual harm suffered".41 It should be remembered, however, that
+loss of chance will not always work to the advantage of the plaintiff. I said in
+Naxakis that there is room for the operation of the loss of chance rule:42
+If the chance that has been lost is a 51 per cent or greater chance, why should not the plaintiff be taken to
+have proved his or her case on the balance of probabilities? I think that in such a situation, the plaintiff
+has, and should recover his or her damages in full. Rogers v Whitaker43 is, in one sense, such a case. The
+Court there accepted on the balance of probabilities, that the plaintiff would not have had the operation
+to which she submitted, and which caused the problems for her that it did, if she had been warned of the
+risk that the Court thought material there. Perhaps the plaintiff's damages there might have been
+reduced, and indeed significantly so, if what had been established there, was that she might not have
+had, as opposed to, would not have had the operation.
+On the other hand, in other cases, there is a risk, it might be said, that in almost every instance there is a
+lost chance of some kind, perhaps even a 1 per cent or 5 per cent chance, and on that basis every plaintiff
+will succeed to some extent. The answer to this must be that the loss of a remote, or very slight chance
+should not attract an award of damages. The chance lost must be a real one and of some substance, even
+though less than a 50 per cent chance. In the practice of medicine, usually a definite, successful result will
+not be able to be guaranteed. Just as the practitioner should not suffer on that account, nor should the
+plaintiff, who is precluded from saying what the outcome would have been had the procedure or
+treatment not performed been performed, for the very reason that it has not been performed.
+I might tentatively suggest that some of the problems might be resolved if the
+necessity to keep the issues distinct is kept in mind, and the issues discretely
+treated. The first inquiry is did the act or omission cause non-minimal damage?44
+If that question is affirmatively answered, the plaintiff has a cause of action in
+negligence and the case can move to the second stage of inquiry. The second
+question then becomes what damage was caused by the act or omission?
+Some people might even ask the question, what actual damage was caused by
+the act or omission, thereby reducing the possible measure of damages. Some
+people would say, measure the chance lost. To some it certainly would be
+anomalous that if you lose a 30 per cent chance you can nevertheless recover in
+full. To others, it may seem strange that if you lost 50 per cent chance, only
+nominal damages would be awarded.
+None of this is to suggest any clear solutions. Indeed it would be wrong for me
+to generalise anyway because the outcome of particular cases will depend upon
+the arguments and the facts of them. Do not, however, be too critical of me.
+Cause and effect are not merely legal problems. They are problems, as I suggested
+in the beginning, which concern the philosophy of life itself. On one view,
+Nietzsche was one of the first deconstructionists and in his "The Will to Power"
+he spoke of cause and effect in terms of chronological reversal:45
+The fragment of the outside world of which we become conscious comes after the effect that has been
+produced on us and is projected a posteriori as its "cause". In the phenomalism of the "inner world" we
+invert the chronology of cause and effect. The basic fact of "inner experience" is that the cause gets
+imagined after the effect has occurred.
+I mentioned earlier that palliative care is one area in which rules of causation
+are being tested. As is often the case with the intersection of law and medicine,
+approaches to causation and palliative care do not sit easily together. The spectre
+of criminal sanction for the administration of palliative care may produce
+defensive medicine with the consequence that patients do not receive adequate
+pain management. Equally, the law's demarcation between lawful palliative care
+and unlawful homicide on the basis of the intention of the medical profession
+administering the treatment does not always sit comfortably in the law of
+homicide. Of course this issue raises fundamental ethical and legal problems,
+which is undoubtedly one of the reasons that the present position is so uncertain.
+That uncertainty must inevitably result in very difficult decisions for the
+practising profession.
+It is accepted that palliative care is concerned with the reduction of pain, an
+incident of which may be bringing about the death of the patient more quickly
+than otherwise. This can be distinguished from euthanasia, which seeks to relieve
+pain and suffering by inducing death. The difference, according to Casswell is
+"intended
+and
+between
+but
+consequences
+foreseeable
+unintended
+consequences".46
+It is arguable that palliative care demonstrates some of the inherent limitations
+of the "but-for" test. Obviously, the underlying pathology of a terminally-ill
+patient can be said to be the cause of death: but for that illness, the patient would
+not die as he or she did. However, application of the same test could assign
+responsibility to a practitioner for causing death through the administration of
+large doses of morphine: but for the medical intervention, the patient would not
+have died when he or she did.
+The legal approach to causation in palliative care, however, is not the
+application of the simple "but for" test, contrary to the views of some members of
+the medical profession. The line between homicide and death brought about by
+palliative care is drawn on the basis of intent – if the doctor deliberately gives a
+patient an overdose of narcotics for the purpose of bringing about death, this will
+constitute homicide. If the motivation is pain relief, then the fact that death is
+incidental will not be sufficient to attract the operation of the criminal law.
+In Airedale NHS v Bland, Lord Goff noted the established rule:47
+A doctor may, when caring for a patient who is, for example, dying of cancer, lawfully administer pain-
+killing drugs despite the fact that he knows that an incidental effect of the application will be to
+abbreviate the patient's life. Such a decision may properly be made as part of the care of the living
+patient, in his best interests; and, on this basis, the treatment will be lawful. Moreover, where the doctor's
+treatment of his patient is lawful, the patient's death will be regarded in law as exclusively caused by the
+injury or disease to which his condition is attributable.
+It must be accepted that this is not a "but for" test.
+Haugen notes that no doctor has ever been held liable in murder or assisted
+suicide for providing a patient with high doses of medication for pain relief.48 An
+English case which dealt with the liability of a medical practitioner for the
+administration of life-shortening palliative care is R v Adams.49 Implicit in the
+charge of Devlin J to the jury was the notion that administration of treatment
+with the intent to relieve pain does not attract the censure of criminal law:
+If the first purpose of medicine is the restoration of health, could no longer be achieved, there was still
+much for the doctor to do, and he is entitled to do all that is proper and necessary to relive pain and
+suffering, even if the measures he takes may incidentally shorten life.
+His Lordship stated the distinction between culpable homicide and lawful
+medical conduct as being a deliberate cutting of the thread of life, as opposed to
+the administration of medical treatment which had the incidental effect of
+determining the exact moment of death.
+But what are the remaining problems with causation in the context of
+palliative care? First, Haugen has observed that the greatest impediment to
+successful prosecution of medical practitioners for assisting the death of a patient
+through the administration of pain relief is causation. "Absent very aggravated
+factors, the prosecution always has an uphill battle".50 Secondly, there is little
+clear guidance given by the law to physicians concerning possible criminal
+liability.51 Thirdly, it has been argued that a strict application of the criminal law
+would result in far greater frequency of prosecution, because liability could be
+established where acts are committed with the knowledge that death will result:
+that hastening death is sufficient to constitute murder.52 Clearly, there is a tension
+between the strict dictates of criminal law and the practice of palliative care.
+Fourthly,
+the misunderstanding in the medical profession about the nature of the correct
+test of causation to be applied may lead to defensive medicine, resulting in
+inadequate medication of terminally ill patients. It is even more ironic that if the
+profession understood the test of intent which is in fact applied, they may still
+practice defensive medicine in the knowledge that on a strict application of the
+criminal law, they may find themselves liable in homicide.
+However, all this must be tempered by the recognition that palliative care and
+euthanasia are components of the same spectrum and that the Australian
+legislatures have responded to the problems. In the Australian Capital Territory,
+legislation ensures that patients have a right to receive adequate pain relief which
+is "reasonable in the circumstances"53 and in South Australia, palliative care can
+be administered to people who are dying and to protect them from medical
+treatment which is "intrusive, burdensome and futile".54
+* Justice of the High Court of Australia.
+1 I Stewart, Does God Play Dice? The Mathematics of Chaos, Penguin, London, 1990, at 141.
+2 B Nicholas, An Introduction to Roman Law, Oxford University Press, Oxford, 1962, at 165.
+3 (1999) 73 ALJR 1190.
+4 (1999) 73 Australian Law Journal 802-3.
+5 (1976) 136 CLR 529.
+6 See, respectively, Caparo Industries Plc v Dickman [1990] 2 AC 605; Candlewood Navigation
+Corporation Ltd v Mitsui OSK Lines Ltd [1986] AC 1.
+7 The similar strains which can be identified in the judgments are as follows. A) the circumstances in
+which the common law recognises a duty of care such as will permit the recovery of pure economic
+loss are not yet governed by any definite general principle, but by other factors which are still
+developing. B) the law accepts the undesirability of imposing indeterminate liability on an
+indeterminate class of persons and the imposition of liability in the pursuit of legitimate commercial
+interests. C) factors of relevance are: common sense and practicality; avoiding interference or
+impairment of legal rights, freedoms and controls established by common law and statute; the
+plaintiff's vulnerability; whether the defendant knew or ought to have known that the plaintiff was
+likely to suffer loss; whether the tortfeasor should have had the interests of the plaintiff in mind; the
+defendant's capacity to avoid harm.
+8 (1999) 73 ALJR 1190 at [405].
+9 (1976) 136 CLR 529 at 576.
+10 W Holdsworth, A History of English Law, 5th edn, Vol III, Methuen, London, 1942, at 379.
+11 W Holdsworth, A History of English Law, 4th edn, Vol II, 1936, at 52.
+12 See R Helme and D Mendelson, Chapter 13, below.
+13 E Mesthene, "The Role of Technology in Society" in A Teich (ed), Technology and Man's Future, 2nd
+edn, St Martin's Press, New York, 1977, at 160.
+14 See Chapter 11, beiow.
+15 (1991) 171 CLR 506.
+16 Ibid, at 509.
+17 Ibid.
+18 Fitzgerald v Penn (1954) 91 CLR 268 at 276; Chappel v Hart (1998) 195 CLR 232 at 243 per Gaudron J.
+19 S Martin, "Studies in the New Causality", The New Yorker, 26 October 1998.
+20 (1842) 10 M&W 546 [152 ER 588.,
+21 J Fleming, The Law of Torts, 9th edn, Law Book Company, London, 1998, at 31.3
+22 Marks v GIO Australia Holdings Ltd (1998) 73 ALJR 12.
+23 (1991) 171 CLR 506.
+24 Fleming, op cit, n21, at 218.
+25 (1999) 162 ALR 540 at 547.
+26 (1998) 195 CLR 232.
+27 Chaplin v Hicks [1911] 2 KB 786 (deprivation of all chance of obtaining a prize); cf McRae v
+Commonwealth Disposals Commission (1951) 84 CLR 377 at 412 (where the chance lay not in giving
+the plaintiff a chance, but in the nature of the thing contracted for itself); Sellars v Adelaide
+Petroleum (1994) 179 CLR 332 (loss of an opportunity to obtain a commercial advantage or benefit).
+28 See Kirby J in Chappel v Hart (1998) 195 CLR 232 at 274-5 and Gaudron J in Naxakis v Western General
+Hospital (1999) 162 ALR 540 at 547-8.
+29 Naxakis v Western General Hospital (1999) 162 ALR 540 at [30].
+30 N Jansen, "The Idea of a Lost Chance" (1999) 19(2) Oxford Journal of Legal Studies 271.
+31 See Gaudron J in Naxakis v Western General Hospital (1999) 162 ALR 540 at [32].
+32 Chappel v Hart (1998) 195 CLR 232 at [61] per Gummow J.
+33 Chappel v Hart (1998) 195 CLR 232 at [16] per Gaudron J.
+34 (1997) 188 CLR 241.
+35 Ibid, at 285.
+36 Ibid, at 285-6 (footnote omitted).
+37 Ibid, at 286.
+38 D Mendelson, "The Breach of the Medical Duty to Warn and Causation: Chappel v Hart and the
+Necessity to Reconsider Some Aspects of Rogers v Whitaker" (1998) 5 Journal of Law and Medicine
+312 at 317-18.
+39 (1998) 159 ALR 170.
+40 (1991) 172 CLR 378.
+41 Naxakis v Western General Hospital (1999) 162 ALR 540 at [30] per Gaudron J.
+42 Naxakis v Western General Hospital (1999) 162 ALR 540 at [129]-[130].
+43 (1992) 175 CLR 479.
+44 See Cartledge v E Jopling & Sons Ltd [1963] AC 758.
+45 Quoted in JD Culler, On Deconstruction, Cornell University Press, Ithaca, New York, 1982, at 86.
+46 DG Casswell, "Rejecting Criminal Liability for Life-Shortening Palliative Care" (1990) 6 Journal of
+Contemporary Health Law and Policy 127 at 130, citing "President's Commission for the Study of
+Ethical Problems in Medicine and Biomedical and Behavioural Research, Deciding to Forego Life-
+Sustaining Treatment" 82 (1983) 77.
+47 [1993] 2 WLR 316 at 379.
+48 P Haugen, "Pain Relief for the Dying: The Unwelcome Intervention of the Criminal Law" (1997) 23
+William Mitchell Law Review 325 at 329. However, since this article Dr Jack Kervorkian has been
+convicted in a Michigan court of second degree murder on 26 March 1999.
+49 Central Criminal Court, London, 1957, unreported, discussed in Palmer, "Dr Adams' Trial for Murder"
+[1957] Crim LR 365.
+50 Haugen, op cit, n48, at 356.
+51 Casswell, op cit, n46, at 137-8.
+52 See Active Voluntary Euthanasia – A Timely Reappraisal, University of Tasmania Law School
+Occasional Paper, 1991.
+53 Medical Treatment Act 1994 (ACT) s 4.
+54 Consent to Medical Treatment and Palliative Care Act 1995 (SA) s 3(c).

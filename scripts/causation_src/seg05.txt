@@ -1,0 +1,822 @@
+2 Scientific and Legal Approaches to
+Causation
+JANE STAPLETON*
+Introduction
+I should like to make a provocative claim. Causation is not a concept at all.
+Causation is simply a term we sometimes use to answer one question about some
+transition that has happened in the world, and sometimes to answer a quite
+different question about such a transition.
+When we think about some transition that has happened in the world, there
+are two questions we might ask.1 These two inquiries are:
+First, how did the transition come about ... this is a factual question about
+history, though there may be value choices about how we should frame
+this history question, as I will explain later.
+The second question is, of all the myriad of factors that we know came
+together to produce that transition, which ones seem, in our individual
+opinions, to be important for the particular purpose we have at hand.
+Clearly our answer to the second inquiry will vary according to what it
+was we perceived our purpose to be in asking the question and the
+perspective on that purpose each of us individually took in the light of our
+experience and common sense.
+When we come to express our answers to these two questions, we might well
+happen to use causal language, although in both we might alternatively choose
+non-causal language.2 When causation is being discussed among lawyers and
+scientists, a basic source of difficulty they have in understanding one another is
+that, when scientists use causal language they are always pursuing facts, whether
+this is in the shape of the exhaustive historical inquiry or in the shape of a more
+focused inquiry. If a scientist knows all the facts of how a transition came about,
+he or she would not consider that there was any room for a dispute labelled as
+one about the "causation" of the transition. In contrast, when lawyers use causal
+language, they sometimes are applying it to cases where the parties agree about
+all the facts, but have nevertheless framed their dispute as one about "causation".
+The Scientist
+Let me explain. Imagine a scientist is investigating why a wheat crop
+unexpectedly fell over before the time for harvest. In the context of the
+exhaustive first, historical, inquiry about how the transition came about, gravity
+must be included as a factor in the answer; and the scientist may choose to
+express this in terms of gravity being one of the "causes" of the crop falling over.
+Though the scientist always has in mind this exhaustive, indeed infinitely long,
+list of factors which would satisfy this inquiry, in the real world scientists must
+narrow their inquiries to the practically manageable. They do this by focusing on
+a particular, usually very specific, hypothesis: for example, was the absence of
+rainfall in the preceding month a relevant factor in explaining the fall of the
+crop? That scientific inquiry is narrowed in this way to provide a short cut to
+practical knowledge does not mean that it is not concerned with the discovery of
+facts, or is inevitably riddled with bias and opinion. The validity of the scientific
+results of such a narrowed study are preserved by the strictures of scientific
+method which requires the assiduous and clear acknowledgment of the purpose
+and assumptions of the study (the specification of its narrow limits), and the
+specification of the hypothesis that it is testing.
+It is important to realise how labile and shifting can be one person's use of
+causal language. Take our wheat scientist: she may well use causal language in
+answering the exhaustive historical, inquiry about how the transition came about
+and say gravity was a "cause" of the crop fall, and yet in the more focused
+purposive inquiry of whether the absence of rainfall had made a relevant
+explanatory difference she might dismiss gravity as not being a "cause" because
+relative to the hypothetical world she will have explicitly or implicitly specified,
+namely one in which a wheat crop does not fall over, the factor of gravity has not
+varied. Clearly, our scientist means quite different things by the same word,
+"cause", in the two contexts. In the focused context her causal usage is different,
+not because she has forgotten that gravity is part of the factual history of how the
+fall of the crop came about, but because she has used scientific method to
+structure her inquiry, confining her explicit analysis to factors which are
+potential variables relative to the implicitly assumed alternative universe, only
+against which a transition appears to be a transition.
+The wheat crop example not only confirms the labile nature of causal usage,
+but it also illustrates a number of important points about scientific inquiry. First,
+it is always directed at the discovery of facts and facts alone, Ideally, a desire or
+"bias" for a particular answer to the inquiry should be absent. Ideal scientific
+method requires that any choices made by the scientist, for example in the
+specification of the alternative world against which the question of explanatory
+relevance is asked, must be disclosed. Secondly, a scientist has no difficulty, as
+some philosophers seem to have, in identifying an absence or omission of a factor
+as being part of the history of the transition. Indeed, a great deal of experimental
+method employs a comparison of simple differences between systems, in one of
+which a factor is present and in the other the system is identical save for the
+absence of that factor.
+Yet a third feature of scientific inquiry may be illustrated by an extension of
+the wheat crop example. There may be an alternative hypothesis of practical
+relevance about the history of the fallen wheat. Perhaps in the preceding month
+not only was there an absence of rainfall but also a rare series of severe frosts.
+The scientist's aim will be to determine, by suitably controlled experiments,
+whether either factor (drought; frosts) was alone capable of producing the effect
+observed. She will consider all possibilities: that neither was capable of producing
+the effect alone and that only in combination were the factors capable of
+producing the effect; or that each alone would have been sufficient. This latter
+possibility produces a phenomenon, sometimes described by lawyers as "multiple
+sufficient causation" and by philosophers as "over-determination": the crop has
+fallen over after the operation of two factors either of which without the other
+would have been sufficient to produce the effect. Importantly, the scientist is in
+no way troubled by this possibility: if the experiments show it to be the case, then
+the factual history of the crop fall is understood: the scientist would not consider
+there was any room thereafter for a dispute labelled as one about the "causation"
+of the transition.
+When scientists disagree in the course of such inquiries, they are disagreeing
+about the experimental design or theoretical techniques (such as the appropriate
+statistical method) by which facts are discovered or deduced, how to eliminate
+bias and so on: it is worth emphasising that scientists simply do not have
+disagreements about what this word "causation" means, or the role the but-for
+idea should play as a so-called "causal test": causal theory does no work for them.
+Of course, as Dr Greenberg explains in his chapter, scientists often have to deal
+with the problem of gaps in knowledge. But the processes they study are the
+consequence of natural laws. As he succinctly puts it: here "teleological notions
+are irrelevant".
+The Lawyer
+Lawyers also use causal language in different contexts and it therefore also has a
+shifting meaning in their mouths. In some cases, lawyers are concerned with the
+first, historical, question: for example, was the heart seizure the result of the drug
+the patient ingested? Was it part of the history of that seizure? Though the
+context here concerns a fact, the difficult problem for the law is not a question of
+fact in the sense the scientist, or indeed the citizen, would understand it. The task
+of weighing evidence, judgment, is not itself conceptually problematic. What
+really confronts the law as a critical problem in cases of this kind is the legal
+policy question of how to proceed when the evidence about the facts of past
+transitions is patchy. Courts cannot order experiments to fill evidentiary gaps. At
+most they can take expert evidence. Yet if there had been agreement between
+experts there would be no legal dispute on the issue. This means that the first,
+historical, inquiry is only presented to a court when there is a dispute between
+witnesses, some testifying that the relevant factor, let us say the defendant's
+breach of obligation, was a part of the history of the plaintiff's condition (ie that
+aspect of it of which she is complaining) and some testifying that it was not. The
+problem here is that, as we will see, appellate courts need to choose rules about
+how to resolve these disputes arising from evidentiary gaps, what should be
+required of the plaintiff in order to prove her case and so on. Ideally these choices
+will be guided by the overall purpose of the law in these contexts, namely the
+allocation of legal responsibility. Specifically, they should be guided by what the
+court perceives to be moral and policy goals of the particular rule of obligation.
+But it is also true that in many of the contexts where lawyers use causal terms,
+they are in fact dealing with the second, purposive, inquiry (namely, which of the
+factors that, it is agreed, brought about the transition seem important in the
+context of a legal dispute about responsibility) and are asking it for the purpose of
+how legal responsibility should be allocated in the context of a legal dispute.3
+Where, as in law, the purpose at hand is the moral or policy evaluation of human
+conduct, this second inquiry can never be reduced to a question of fact. Indeed, it
+is only reached after the facts have been agreed or decided. This is why it is so
+misleading when lawyers couch disputes about the answer to the second inquiry
+in causal language and why courts mystify ordinary people when they describe
+the dispute as a question of fact. The distinction between the historical inquiry
+and the purposive legal inquiry is implicit in a well-known dictum of Lord Reid:
+The question [of legal causation] must be determined by applying common sense to the facts of each
+particular case. One may find that as a matter of history several people have been at fault and that if any
+one of them had acted properly the accident would not have happened, but that does not mean that the
+accident must be regarded as having been caused by the faults of all of them. One must discriminate
+between those faults which must be discarded as being too remote and those which must not.4
+Earlier I argued that in cases formally concerned with whether the breach of
+obligation by the defendant had anything to do with the history by which the
+plaintiff's misfortune came about, the critical problem for the law is not a
+question of fact even though the context concerns a fact. It is the legal policy
+question of which rules to choose when confronting evidentiary gaps. I have now
+argued that where the legal dispute arises from agreed facts and concerns the
+weight to put on a particular historically relevant factor in allocating legal
+responsibility, courts must also use the moral and policy goals of the particular
+rule of obligation to resolve the issue. The important conclusion from this is that
+in both contexts in which disputes might be presented to appellate courts in
+causal language, the critical task of the court is to choose which legal rule best
+fits the perceived goals of the law. In both contexts it is bizarre and highly
+misleading to the average citizen for the court to assert they are confronting
+questions of fact. In this important sense, appellate problems of "causation in law"
+are not questions of fact.
+The Double Hunters’ Illustration: March v Stramare
+A startling example of the different goals pursued by lawyers and scientists is
+their reaction to what I will call the "double hunters' case". Here two hunters
+carelessly shoot into a wood, both bullets hitting a beater who dies, the medical
+evidence being clear that either shot would have been sufficient to kill the beater:
+in philosopher's jargon, the death was "over-determined". Scientists see no
+difficulty in this case because it is quite clear how the death came about. If forced
+to give an answer to the exhaustive first question, the scientist will include the
+decision of the great grandmother of Hunter No 1 to have children because that is
+certainly a factor in the prior history of the death of the beater. If asked the more
+focused explanatory question of what made a difference here, relative to the
+normal experience of human society (a qualification scientific method would
+require to be made clear), the scientist would be able to select the unusual
+features of both hunters' negligence. Relative to the observed manners of human
+society, this was unusual, a variable.
+But lawyers regard the case as very problematic: some arguing that each
+hunter would be able to deny he was a "cause" because "but for" his act the death
+would still have occurred. Others argue that the law should not apply the "but
+for" "test of causation" but a different "test", known as the NESS test (the
+"necessary element in a sufficient set" test first formulated by Hart and Honoré),
+which compares the prospects of the victim to a world where the other hunter
+did not behave carelessly.5 The NESS approach is the correct one for determining
+whether a factor played a role in the history of the outcome,6 so the dispute here
+is not about what happened, but about the appropriate approach to the second,
+purposive, inquiry. That is when and why, in a context where the relevant
+purpose is the allocation of legal responsibility, the law should hold a defendant
+responsible for a transition that would have happened anyway.7 The confusing
+thing is that under our unfortunate current structures of legal rhetoric this
+dispute is typically paraded as one about the correct causal "tests" to apply to the
+agreed facts, rather than a direct investigation of the opposing arguments about
+responsibility and about legal policy.
+Exactly the same divergence of approach can be seen in responses to the facts
+of March v Stramare (E & MH) Pty Ltd,8 one of the leading High Court
+authorities on causation in law. Here a drunk driver had been injured when at
+night his speeding car hit a truck that had been parked (by an employee of the
+defendant) straddling the centre line of a 6-lane road with its hazard lights on.
+The scientist has no problem with this case: it is clear how the injury came about
+and no past facts are in dispute. But there was a legal dispute. In the case this
+was, unfortunately, framed in causal language: here the litigants described the
+issue as whether the plaintiff-driver's conduct was something called a "novus
+actus interveniens": and whether it broke something called the "chain of
+causation". But, again, this is an unfortunate configuration for legal reasoning to
+adopt because it tends to mask the real nature of the dispute: which is one about
+competing values and policies concerning what responsibilities citizens should be
+held to owe one another in relation to their control of vehicles.
+Instead of discussing this slippery non-concept called "causation", I am going to
+go back to discuss the two types of inquiry that can be made about a transition in
+the world and give examples of how medico-legal disputes can arise within them.
+In so doing I want first to make brief comments about how lawyers and scientists
+might better make themselves understood to one another.
+Advice to the Two Professions
+As I have just been suggesting, courts would make themselves clearer to scientists
+and other citizens if they explicitly distinguished between these two types of
+inquiry: historical involvement; and purposive relevance. In particular, when
+courts are presented with cases where the substance of the dispute is about the
+rules governing how to fill evidentiary gaps in relation to past facts, or where the
+substance of the dispute is about the weight to put on agreed facts, courts should
+openly recognise the case is really about competing views of legal responsibility.
+Courts should refuse to accept a formulation of the dispute as one about
+"causation" and so-called "causal tests", but instead insist that the parties argue
+directly and in non-causal terms about the issues of policy and principle relevant
+to the question of responsibility.
+For their part scientists should remember that judges face three major
+constraints. First, a court must reach a clear decision in a case and do so within a
+tight time frame. A court does not have the option of waiting and seeing, or of
+delivering a merely interim opinion. Where there are gaps in our knowledge of
+the world, including both gaps in our knowledge of past events as well as gaps in
+our knowledge about what would have happened in a hypothetical situation, the
+court must form a final view. In a sense it must make an informed guess. The
+court cannot postpone its decision until the results of conclusive empirical
+research become available, if ever. Clearly, in many cases medical practitioners
+are constrained in similar ways.
+Secondly, since judgments of appellate courts constitute binding or persuasive
+precedents for future courts they should enunciate clearly the principles and
+policies that have guided those guesses. This is why a judgment in favour of one
+side of a legal dispute cannot convincingly turn on mere assertions that it is a
+pragmatic matter of "common sense". This approach manages to be both
+patronising and mystifying to ordinary people because it suggests that if the
+decision goes against what the particular observing citizen believes is fair this is
+because he or she is too obtuse to grasp what lawyers like the judge can see as
+pragmatic common sense.
+Thirdly, the scientist should remember that the law must itself construct a firm
+framework within which legal findings are finally determined: for example, it
+must construct a rule relating to the appropriate burden of proof in a case,
+whether the actionable damage can be constituted by the loss of a chance, rules
+for assessment of damages and so on.
+The First Historical Inquiry: Did this Factor Play a
+Role in the History of this Outcome?
+Evidentiary gaps concerning past facts: McGhee’s case
+The first set of problems that can arise here is that it may not be clear what
+happened. This can be illustrated by what I will call the "single hunter's problem".
+This is like our earlier "double hunters' case", but now only one of the two bullets
+hits the beater and there is no evidence to tell from which hunter's gun that bullet
+came. Exactly such cases have been presented to appellate courts in North
+America9 and parallel cases have also arisen elsewhere.
+The classic example of these latter cases is a case presented to the House of
+Lords in 1973 called McGhee v National Coal Board.10 Here the victim contracted
+dermatitis after two types of exposure to brick dust: exposure during work; and
+exposure after work as he travelled home caked with the dust of the day on his
+skin. It was only in relation to the second period of exposure, that is on the way
+home, that a legal complaint was pursued against the employer.
+The medical evidence was clear that exposure to brick dust seemed to increase
+the probability of dermatitis. So in this case each period of exposure, the period at
+work and the period as the victim travelled home, could be said to have
+materially increased the probability of the dermatitis. Now, in an appropriate
+case, the law has no objection to a fact being proved merely by statistics based on
+the level of exposure to risk. If we know that a particular surgical error
+quadruples the risk of post-operative cardiac arrest, and a patient suffers that
+error and then post-operative arrest it may well be that the court will accept the
+statistic as evidence that the arrest was due to the error. Indeed, it may be held
+that the assessment of the level of material contribution to risk may need be no
+more precise than that it "more than doubled" the existing risk: for this is
+evidence that can go to establish that, on the balance of probabilities, the
+misfortune was more likely than not due to that source of added risk.
+Moreover, courts are prepared to be quite rough and ready about these things.
+For example, in a case where it is known that the misfortune occurs through an
+instance of infection and that the risk of infection during two exposures is at the
+same level of intensity, courts may well be willing to take a temporal approach
+and regard the fact that the longer period of exposure was that due to the
+defendant's breach of obligation as evidence towards showing that, on the
+balance of probabilities, the infection occurred during that period. Of course, the
+temporal approach is also the rough and ready way courts handle medical
+conditions that are known to be cumulative in the sense that it is known that
+every exposure to the source of harm precipitates some deterioration in the
+condition. Thus, in the landmark industrial disease case of Thompson v Smiths
+Shiprepairers (North Shields) Ltd11 each exposure of the employee to industrial
+noise was known to have increased his deafness: the court was then prepared to
+use the length of employment with the various employers to apportion between
+them legal responsibility for the total level of deafness presented by the employee
+at trial. The case is also illuminating for its illustration of the legal principle that
+to succeed in establishing liability against a particular defendant the plaintiff
+need not show that his entire condition was the result of that defendant's breach:
+it is sufficient if he can establish that the breach "contributed" to that total
+condition. Indeed it is a much better illustration of this principle than the case
+usually cited for it: Bonnington Castings Ltd v Wardlaw,12 a problematic
+precedent because, although the medical condition there was the result of a
+cumulative mechanism, apportionment was not discussed or applied, leaving the
+defendant liable to pay for a loss which had not been produced by his breach of
+obligation (that due to those periods of exposure not due to his breach).
+McGhee's case was, however, different from these cases because here not only
+could the medical experts not put a figure on the level of contribution to risk
+presented by the period of exposure due to the defendant's breach, they could not
+even say whether or not it was more likely to have operated to produce the
+dermatitis than the other source of risk The reason for this major evidentiary gap
+was that the aetiology of this particular form of dermatitis was simply not
+known. As we have seen, had there been evidence that the biological relation of
+exposure to condition had been cumulative (as it is for deafness) the law might
+have been willing simply to apportion between the two periods of exposure on
+the basis of their length: holding the employer liable only for that proportion of
+the total condition corresponding to the proportion that the period after work
+was of the total exposure time. But, as the Law Lords implicitly accepted, the
+evidence did not allow them to assume a cumulative mechanism.14 This was
+because the mechanism might just as easily have been a "trigger" type of
+mechanism akin to the "isolated incident of infection" mechanism. If this had
+been the case and the level of risk of triggering rose exponentially over time so
+that, say, a 20 minute exposure at the end of a 8 hour exposure created more risk
+than the entire first 8 hours, the pursuer (for McGhee's case was an appeal from a
+Scottish decision) might have been able to win and recover damages for his entire
+condition using orthodox legal ideas. This is because the evidence of contribution
+to risk might have showed that the risk posed by the period of exposure at work
+was less than the risk posed by the period of exposure as the employee cycled
+home, even though the latter was very considerably shorter in time. But the
+evidence did not point to a trigger mechanism any more than it pointed to a
+cumulative mechanism.
+What the Law Lords did with the problem in McGhee's case was to allow the
+pursuer to leap what they recognised was an "evidentiary gap". The technical
+argument for the workman was that: since he could prove that the fault of the
+employer (in not providing showers after work) had materially increased the risk
+of dermatitis, this material increase in risk should, in the circumstances, be
+accepted by the law as sufficient to establish a material contribution to the
+dermatitis from which he suffered. As we have seen, a material increase in risk
+may well be enough to be accepted by the law as establishing the appropriate
+historical connection if there is simply enough evidence to show that it adds more
+than the existing risk. What was so extraordinary here was that the pursuer could
+not even show this crude relation. Yet the Law Lords chose to allow the pursuer's
+argument. Moreover, they allowed him to recover damages for his total condition,
+a result that is a radical departure from orthodoxy, and would have been so even
+if the pursuer had been able to establish a cumulative mechanism.15
+One might be tempted to dismiss McGhee as a peculiar case that should be
+confined tc its facts. Certainly that is what a later generation of Law Lords tried,
+unsuccessfully, to do in a medical negligence case called Wilsher v Essex Area
+Health Authority.16 But in terms of practice and litigation, the decision in
+McGhee's case has proved to be exceptionally important. It has, for example,
+come to haunt much of the asbestos litigation in Australia where an influential
+dictum of Dixon J has been thought, mistakenly in my view, to give it added
+importance.17 Even more strikingly, it was critical to the success, in 1998, of the
+largest personal injury claim in British history, a case concerning ex-miners
+suffering from a range of chest illnesses linked to exposure to coal dust other than
+pneumoconiosis (eg bronchitis, asthma, emphysema and small airways disease).18
+The success of these cases depended on the trial judge agreeing to apply the
+approach to medical evidence approved by the Lords in McGhee's case. For
+political reasons – Tony Blair described the compensation settlement as "a debt
+we all owe to the ex-pitmen"19 – that trial decision was not appealed. As a result,
+in 1999 a record settlement was agreed for the benefit of 100,000 ex-pitmen of £2
+billion. This sum, payable by the taxpayer, is more than the sum the Conservative
+Government had received from the privatisation and associated asset sales of the
+coal industry.20 So, at least in terms of socio-economic impact, McGhee must now
+be recognised as one of the most important post-war decisions of the common
+law.
+In the context of this chapter, the point to emphasise about McGhee is that the
+Law Lords were faced with an issue they could not postpone until science had
+discovered the mechanism of dermatitis. Moreover, though the central issue arose
+from the first, historical, inquiry that can be made about a transition to an
+outcome, the real issue for the Lords was not what had or had not happened in
+the past in the sense that a scientist would be interested. It was about what rules
+the law should select to deal with evidentiary gaps concerning what happened in
+the past. What moral ideas and what legal policies should guide those choices
+was the question before that tribunal. Only when non-lawyers understand this
+will the ruling in the case be intelligible to them. And only when courts openly
+face and assess the moral and policy disputes at the heart of McGhee will they
+begin to construct coherent boundaries for its use in the future.21
+Loss of a Chance: Redefining the “Damage” forming
+the “Gist” of the Action
+The dilemma for the Law Lords in McGhee arose from the difficulty of knowing
+what physical processes occurred in the past. Another example of this
+phenomenon is Hotson v East Berks Area Health Authority,22 a so-called pure loss
+of a chance case, where the plaintiff formulated his complaint in terms of the
+chance of avoiding an outcome. In this classic example a boy fell from a tree and
+suffered a particular injury to his hip. The medical evidence was that of people
+injured in that way 75 per cent would suffer necrosis. The boy went to hospital
+but was treated in such a careless way that even had he not been one of these
+doomed people he would have suffered the necrosis complication. Now, if the boy
+had formulated his legal complaint of "damage" in terms of the necrosis he would
+have lost. The law would have applied its traditional but-for test and the critical
+fiction associated with it in this context: namely the law would have asked but
+for the hospital's negligence would the boy have suffered the necrosis. This
+question is evaluated as things stood just before the boy reaches hospital. Now at
+that time, of 100 boys in his position 75 were doomed and 25 were not. But we
+will never know, certainly not in the time-scale of the litigation, whether our
+plaintiff was one of the doomed or one of the not doomed. So the law resorts to a
+fiction based on the statistics of groups: and because it is more likely he was one
+of the doomed, the law then adopts the fiction that he was doomed: hence the
+hospital's conduct is treated as having had no effect on him.
+The plaintiff can avoid this dead-end if he formulates his complaint in terms of
+the "damage" of a loss of a chance (to avoid the necrosis) and persuades the court
+to adopt a competing fiction: under this fiction every boy arriving at the hospital
+has a 25 per cent chance of avoiding necrosis. Since this boy contracted necrosis,
+it is clear that the hospital took away that chance and thus the boy is treated as
+having suffered the injury of "the loss of his chance of avoiding the necrosis". If
+the plaintiff is allowed to reformulate the "actionable damage", or as I have called
+it elsewhere the "gist damage",23 in this way he will then be able to reformulate
+the historical inquiry (which depends on that formulation) into one which he can
+easily satisfy: was the defendant's fault part of the history by which the plaintiff
+lost the chance of avoiding necrosis?
+The dilemma underlying the debate about the loss of a chance argument is
+again an example of the wider phenomenon I have been discussing: the law
+having to choose which rules are appropriate where there are evidentiary gaps as
+to what happened in a case. The choice is not about causal theories but about
+what policies might be thought to justify expanding the way legal complaints can
+be formulated, what can form the subject-matter of complaint: can it extend to a
+"pure" loss of a chance. It is worth noting that in Hotson's case the Court of
+Appeal embraced the fiction underlying the loss of a chance reformulation of the
+gist damage while the House of Lords, in an unsatisfactorily reasoned set of
+speeches, seemed to prefer the fiction underlying the traditional formulation of
+actionable damage.
+How to Define History? Choice of Parallel Worlds
+The problems in McGhee and Hotson arose from the gaps in our knowledge of
+what physical processes occurred in the past when the evidence of those
+processes is sketchy. But there is an even more difficult aspect to our historical
+inquiry of how a transition came about and what factors were and were not
+involved. This is that the inquiry can only be made in relation to some fictional
+world.24 Yet there may be more than one parallel world we can envisage and so
+the question becomes: relative to which parallel universe should our questions of
+history be framed?
+For the physical scientist trying to establish whether a factor was part of the
+history of an outcome, this problem of the parallel universe against which the
+history question is asked is ameliorated by the ability to run multiple experiments
+and draw on known physical relations. As noted earlier, it is also ameliorated by
+the very nature of scientific method, which requires that the scientist state
+implicitly or explicitly the assumptions of the study. These define and confine the
+history question internally to those parameters.25
+But consider the difficulties that may confront judges. The law is centrally
+concerned with human behaviour and often needs to make a decision about
+whether a piece of human conduct was part of the history of an outcome about
+which the plaintiff is complaining. But in the legal context there are many
+potential near-parallel worlds that could be used when it comes to human
+behaviour because there are many potential shapes26 the court could give to the
+relevant obligation in issue. Typically, because there is disagreement between the
+two parties before the court about the shape of the obligation, there is no
+agreement about which near-parallel world should be used to determine whether
+the conduct of the defendant was part of the history of the injury of the victim.
+Logically, the dispute about the shape of the obligation must be resolved before
+the historical issue can be addressed because until then the relevant hypothetical
+cannot be crystallised.
+Moreover, even once the court has chosen the shape of the obligation and
+therefore which parallel world it is appropriate to envisage, it may not be clear
+what would have happened there. Specifically, it may not be clear what a
+particular individual would have done in certain circumstances. The court never
+has the option of ordering an experiment modelled on the hypothetical world. At
+best it is going to make a guess based on evidence, often evidence relating to
+hypothetical human behaviour that a scientist would regard as very weak or
+speculative.
+(i) Harness case
+Say on one particular occasion an employer carelessly fails to provide a safety
+harness that would have saved a workman from tumbling to his death.27 The
+estate of the victim might well be able to establish that the employer was in
+breach of a duty of care in not providing the harness. But unless it can also
+establish that this failure was part of the history of the death of the victim the
+claim will fail. Now say that the workman was well known not to have used the
+harness on those occasions when the employer had actually provided it. The
+defendant will urge the court that the appropriate alternative universe to use
+when asking if the defendant's omission of the harness was a part of the history
+of the death is simply these other occasions when the harness was provided but
+not used by the workman. If the court confines the shape of the employer's
+obligation to the provision of the harness it will use this hypothetical and the
+estate will lose because, even if the defendant had not failed to provide a harness,
+the victim would have died anyway.
+But this is not the only available near-parallel universe that might be used. As I
+have noted, logically we do not get to this question until we decide what the
+shape of the defendant's obligation was and there are many choices here. The
+estate might urge the court to construct the obligation on employers to include
+not only the provision of harnesses but vigorous surveillance to ensure that they
+were used. If the court chooses to impose an obligation of this shape, the estate
+has a much greater chance of showing that the employer's conduct was part of
+the history of the death because now the alternative universe in play is one
+where the employer not only provided harnesses but also was assiduous about
+the workers using them.
+What these cases show is that a court often faces a choice of the context in
+which it asks the first, historical, inquiry of whether the defendant was part of
+the history of the victim's misfortune, and that this choice arises directly from the
+antecedent choices the court has in moulding the shape of the defendant's
+obligation. His Honour Keith Mason discussed this inter-relationship28 and it is
+one that Lord Hoffman has touched on in a series of recent judgments.29 It is also
+a central issue in the palliative medicine and euthanasia contexts, a point
+confirmed by Professor Ashby.30
+(ii) Failure to warn cases
+Sometimes a legal dispute arises not because there is any dispute about the shape
+of the obligation but because there is a dispute about what limits the law should
+put on the extent of liability for the consequences of breach of that obligation. It
+is a bizarre feature of traditional legal rhetoric that this dispute about
+responsibility and policy can be concealed by being presented to the court as a
+matter concerning which near-parallel universe to use to decide if the breach of
+the defendant was part of the history of the injury.
+Let me illustrate this with two failure to warn cases from the Canadian
+Supreme Court. In Dow Corning Corp v Hollis,31 a claim against a product
+manufacturer, the majority held that the plaintiff needed only to show that, had
+the defendant warned her, she herself probably would not have used the product.
+In other words, the hypothetical used to address the historical inquiry was the
+subjective hypothetical of what this specific plaintiff would have done if warned.
+She did not have to show that a reasonable person receiving the warning would
+have declined the product. However, in Arndt v Smith,32 a claim against a
+physician, the majority adopted a more demanding test33 for the historical
+hypothetical: namely, the plaintiff must show that a reasonable person, albeit one
+sharing the reasonable beliefs, fears, desires and expectations of the patient,
+would not have agreed to the medical procedure.34
+Now my point about these contrasting cases is that, although the Supreme
+Court described what they were doing as setting the appropriate "test of
+causation" in failure to warn situations, that terminology obscures what was
+really going on. What was really going on was a competition between different
+conceptions of responsibility and the different extent of liability for consequences
+these conceptions produce. The rule in Arndt truncates the liability of the
+physician for losses that were precipitated by the defendant-physician's breach of
+obligation more narrowly than the rule in Hollis truncates the liability of
+manufacturers. Under Hollis it was regarded as appropriate that the scope of
+liability for breach extended to include losses that would not have happened had
+the plaintiff been given the warning. Thus, if even if the psychological response
+of the plaintiff was so unreasonable that no one else would have declined the
+product on receiving the warning, if she would have declined use and thereby
+avoided the loss that loss fell with the extent of the Hollis obligation. In contrast,
+the Arndt obligation was held to extend only to those losses which would have
+been avoided by someone sharing the reasonable beliefs, fears, desires and
+expectations of the plaintiff. My point is that these are not disputes about matters
+of past fact or evidence. In both cases the failure to warn played a role in the
+history of the outcome suffered by the particular plaintiff. They are disputes
+about responsibility and policy. In other words, they are disputes about the
+second, purposive, inquiry: namely whether the loss to the plaintiff (in the history
+of which the defendant's tortious conduct played a role) should be held to be
+within the appropriate scope of liability for consequences of the tortious conduct.
+Causal language is simply not the appropriate vehicle for these determinations
+because it may suggest the dispute is one of objective fact when it clearly is not,
+as these two contrasting decisions illustrate.
+The Second Inquiry: Is this Historical Factor Relevant
+to our Purpose?
+Novus actus cases
+The same problem arises when courts use casual language to address other types
+of dispute where the facts are agreed. This is because they are all really disputes
+about what answer the law should give to the second inquiry: about which
+factors making up the history of an injury should be regarded by the law as being
+relevant in terms of this type of legal responsibility. A very common form of this
+responsibility question is whether an intervening event provides a reason for
+truncating the responsibility of a defendant.
+For example take cases where: a defendant carelessly breaks the plaintiff's leg
+but:
+on the way to hospital in an ambulance the victim is struck by lightning
+and killed; or
+at hospital a careless doctor maltreats the leg, necessitating amputation;
+or
+the victim has a rare allergy to some part of the medicinal treatment and
+dies; or
+the victim refuses a blood transfusion and dies; or
+the victim later becomes depressed by the accident and commits suicide
+or murder or rape.
+Here, as in the double hunters' case and March v Stramare (E & MH) Pty Ltd,
+there is no dispute about the facts or about the history of what happened. The
+dispute is about the answer to our second purposive inquiry and our purpose is
+allocating legal responsibility. To couch the dispute in any of these cases as being
+about whether the intervening event was or was not a novus actus simply tends
+to mask the real issue here: an issue about what limits the law should choose to
+place on the scope of the legal responsibility of the defendant and why it should
+do so.35 Lord Steyn succinctly emphasised this point in the recent "unwanted
+baby" case of Macfarlane v Tayside Health Board, where the facts would have
+allowed the argument, made in earlier parallel cases in other jurisdictions, that
+the decision of the parents to proceed with the unwanted pregnancy had been a
+novus actus breaking some "chain of causation":
+My Lords, to explain decisions denying a remedy for the cost of bringing up an unwanted child by
+saying that there is ... no causative link ... is to resort to unrealistic and formalistic propositions which
+mask the real reasons for the decisions. And judges ought to strive to give the real reasons for their
+decision.36
+Chappel v Hart
+Finally, let me turn to two troublesome features of Australian High Court
+jurisprudence in this area. In March v Stramare (E & MH) Pty Ltd Mason CJ said
+this:
+A factor, which secures the presence of the plaintiff at the place where and at the time when he or she is
+injured, is not causally connected with the injury, unless the risk of the accident occurring at that time
+was greater.37
+With respect, the problem with this statement is that, by being couched in
+causal language it gives a misleading impression of the role that the concept of
+"risk" plays in our understanding of the world.38 We use the concept of risk as a
+way of dealing with lack of information. If, after an event, we understand exactly
+how it came about and all the factors relevant to its history, there is no role for
+the idea of risk when we are asking the historical question of what happened. Put
+crudely, once such an injury has happened we know for certain that "a factor,
+which secured the presence of the plaintiff at the place where and at the time
+when he was injured" was indeed part of the history of how the injury came
+about. Far from the relation between that factor and the outcome being one of
+risk, we now know the relation to have been one of certainty:39 because given
+that we now know all the other factors were going to be present, we can see that
+the existence of the factor in question had in fact doomed the person to suffer the
+injury.
+But while risk plays no role in the historical inquiry in such a case, it often
+plays a critical role in the second inquiry about relevance to our legal purpose.
+This is because when we ask what factors were important in our dispute about
+legal responsibility we often tend to think that it is relevant to know whether the
+defendant could foresee that what he or she was doing was increasing the
+apparent risks the plaintiff faced. This is very neatly illustrated by an example
+given by Mahoney JA in Alexander v Cambridge Credit Corp Ltd:
+If a defendant promises to direct me where I should go and, at a crossroads, directs me to the left road
+rather than the right road, what happens to me on the left road is, in a sense, the result of what the
+defendant has done ... But ... if, being on the left road, I slip and fall, the fact alone that it was the
+defendant's direction, in breach of (his obligation), which put me there will not, without more, make the
+defendant liable for my broken leg. I say "without more": if ... the left road was known to be dangerous
+[the defendant] may be liable.40
+In other words, it is relevant to the responsibility issue to ask whether the
+defendant could reasonably foresee that he was exposing me to an increased risk
+relative to that which I would otherwise face. If there had been no such
+foreseeability then, on our current moral views about fault-based responsibility,
+the defendant would not be held responsible.
+In the context of our discussions about "medical causation" this scenario is
+very important because it is very like that in the recent High Court case of
+Chappel v Hart.41 Let me simplify the facts of that case to these: a patient suffers
+from a progressive throat condition which will sooner or later require an
+operation which, no matter how carefully performed, carries a slight but
+foreseeable risk of permanent damage to the vocal cords. The defendant does not
+warn of the risk, and though he performs the surgery carefully the vocal cords
+are damaged.
+There is no question here of how the injury occurred and that the defendant's
+failure to warn was part of that history because the evidence was that had she
+been warned Mrs Hart would have gone to a different surgeon at a different time
+and so on. The dispute relates only to the second, purposive, inquiry: was that
+failure to warn relevant to the type of legal responsibility in question. It is critical
+to observe that, like the person giving me directions in the Justice Mahoney
+example, Dr Chappel had no reason to foresee that the injury would actually
+happen when he operated. As far as he or anyone knew, or could have known,
+the woman needed the operation at some time and so long as the operation was
+carried out carefully there would be no greater risk to the vocal cords if Dr
+Chappel operated rather than another doctor. Dr Chappel did not foresee and
+could not reasonably have foreseen that his failure to warn might expose the
+women to any greater risk than she would have faced anyway.
+A 3:2 majority of the High Court found the doctor liable to compensate the
+woman for the damage to the vocal cords. In the context of this book, I want to
+make only a short comment about the case. It is that, although this legal dispute
+raised a number of difficult issues (and I have certainly simplified the facts for
+the sake of discussion), the High Court was prevented from really getting to grips
+with them because the parties couched their dispute in causal terms.
+Put shortly, the first problem here is that the only rationale for requiring the
+doctor to give a warning in such a case (at least on the facts as I have simplified
+them) is to preserve the autonomy of the patient in being able to choose when
+and where she ran the relevant risk. We must remember that the law often
+ignores our interest in this sort of autonomy. For example, in the situation
+described by Justice Mahoney the law does not require the person giving me
+directions to tell me that both the left and right turnings seem to carry an equal
+risk of my slipping on the pavement. Typically we are not required to warn of
+such "apparently equal risks". So the first issue the High Court did not get to
+analyse because the parties in Chappel v Hart presented their dispute in terms of
+a dispute about causation was when and why duties to warn should be imposed
+merely to protect the autonomy of decision-makers. Clearly a critical issue here
+would be whether the decision-maker had questioned the adviser about the
+relevant type of risk.42
+Of course, there is nothing to prevent the law protecting such an interest by
+imposing an obligation on one party for the benefit of another. But, as we saw in
+the harness case, it is only once we know what the obligation is that we can
+determine whether the behaviour allegedly in breach of that obligation injured
+the interest protected by the obligation. Yet it is not convincing for the court
+merely to assert that a warning of the "apparently equal risk" was the "very
+thing" the obligation was imposed to ensure, or was "called into existence because
+of the forseeability of that very risk".43 There must be an explanation of why it is
+imposed in this situation when in other situations obligations to warn of
+"apparently equal risks" are typically not imposed.
+The other problem with liability here is that if the obligation is aimed at
+protecting autonomy, then one might expect the damages to be assessed in
+relation to the injury to that interest in autonomy, however that is to be
+assessed.44 But here Mrs Hart recovered for injury to another interest, namely the
+injury to her vocal cords, even though no one at the time the defendant failed to
+warn would have foreseen that his conduct was exposing her to any increased
+risk of injury to this interest at all. Again, the problem with the parties having
+delivered the dispute to the High Court as one about causation is that it
+hampered open scrutiny and analysis of this radical basis of recovery of damages.
+Causation in Criminal Law
+It is worth noting that one area in which the slippery idea of causation produces
+particularly intractable problems at the interface of law and medicine is in the
+criminal law. Chief Justice Malcolm45 and Professor Lanham46 both address this
+area in their chapters, so my comment will be brief.
+There are twin sources of difficulty here. First, in criminal cases of importance
+the fact-finders are the members of the jury, and they give no reasons for their
+decision. It is they who must, within the legal principles of responsibility
+explained to them by the judge, apply the law to the case. Yet, unlike the law of
+tort, those principles do not allow a separation of the question of historical
+relevance from the question of whether a particular historical factor (the
+defendant's wrongful conduct) is relevant to the law's purpose in the situation.
+Thus, while the existing analytical categories of tort might be used to accomplish
+this – with "causation in fact" being reserved for the historical relevance issue,
+and the "remoteness" category accommodating the issue of the degree of
+relevance an historical factor has for responsibility purposes, specifically for the
+scope of responsibility for consequences47 – there is no equivalent conceptual
+opportunity in the conceptual apparatus of the criminal law as it is currently
+constructed. The two functions or issues are at present compounded in the one
+step.
+This gives rise to judicial statements in which causal language intertwines with
+responsibility language. For example in Campbell v The Queen Burt CJ said:
+It would seem to me to be enough if juries were told that the question of cause for them to decide is not a
+philosophical or a scientific question, but a question to be determined by them applying their common
+sense to the facts as they find them appreciating that the purpose of the inquiry is to attribute legal
+responsibility in a criminal matter.48 (emphasis added).
+Similarly in Royall v The Queen Deane and Dawson JJ wrote:
+... it may assist the jury if the trial judge points out not only that there must be a causal connection
+between the acts (or, more rarely, omissions) of the accused and the death of the deceased, but that the
+causal connection must be sufficiently substantial to enable responsibility for the crime to be attributed to
+the accused.49 (emphasis added).
+What these quotations illustrate is that while some normative principles
+governing the attribution of criminal responsibility will rest openly with the
+judge whose exposition of them will be subject to the control of the appellate
+courts, the jury's decision will also turn on other normative issues of principle
+where the jury is free to apply their own choices, though unable to enunciate
+them. This phenomenon is masked, however, because the language of "causation"
+with which the jury is charged by the judge fuses these normative issues of
+responsibility with the factual question of historical relevance. Thus, for example,
+while the motive and intention of a doctor in administering or withdrawing
+medical assistance will have no effect on the question of whether this conduct
+was of historical relevance, it will typically be critical to one's attitude to the
+question of his or her criminal responsibility. The same can be said of other
+factors that form the focal point of competing approaches to "causation" in
+criminal law50 such as forseeability.
+Of course, we may well be content with this robust arrangement, at least in the
+delicate areas of palliative care and so on. Perhaps we think juries will always
+manage to, or appear to, "do the right thing" in relation to medical-defendants
+while not giving unsettling symbolic messages in detailed written judgments to a
+society unclear about the appropriate way to resolve the underlying moral and
+policy dilemmas such situations throw up. My point is that such a state of affairs
+is only achieved by our willingness to pack into the idea of "causation" issues of
+great controversy and by the chameleon-like ability of that concept to mean
+vastly different things to different people.
+Conclusion
+These few examples illustrate just some of the ways a gap in understanding can
+sometimes open up between lawyers and scientists. One step courts could take to
+help close that gap is by relying less on the causal packaging of legal disputes and
+by paying more attention to the responsibility and the policy disputes that lie at
+their heart.
+* Professor within the Law Program of the Research School of Social Sciences at the Australian National
+University in Canberra, and a Statutory Visiting Professor at Oxford University.
+1 For a more detailed explanation of these levels of inquiry and my overall thesis with regard to
+causation in legal disputes, see, J Stapleton, "Perspectives or Causation" in J Horder (ed), Oxford
+Essays in Jurisprudence, 4th series, Oxford University Press, Oxford, 2000, pp61-84; "Legal Cause:
+Cause-in-Fact and the Scope of Liability for Consequences" (2001) 54 Vanderbilt LJ 942-1009;
+"Unpacking 'Causation'" in P Cane & J Gardner (eds), Relating to Responsibility, Hart Publishing,
+Oxford, 2001.
+2 For example that a factor "produced an outcome"; that an outcome "resulted from" a factor.
+3 This is why lawyers who seek or offer some singular "legal notion of causation" do law a disservice
+because this conflates usages from two quite separate inquiries.
+4 Stapley v Gypsum Mines Ltd [1953] AC 663.
+5 See Hart and Honoré, Causation in the Law, 2nd edn, Oxford University Press, Oxford, 1985, discussed
+in "Perspectives on Causation" op cit, n1. Their NESS approach was popularised by R Wright,
+"Causation in Tort Law" (1985) 73 Cal L Rev 1735; R Wright, "Causation, Responsibility, Risk,
+Probability, Naked Statistics and Proof: Pruning the Bramble Bush by Clarifying the Concept" (1988)
+73 Iowa Law Rev 1001. Liability for over-determined outcomes is one of the examples underlying
+statements such as that of Mason CJ in March v Stramare (E & MH) Pty Ltd (1991) 171 CLR 506 at 509
+that "the legal concept of causation differs from philosophical and scientific notions of causation".
+6 See J Stapleton, "Unpacking 'Causation'" in P Cane & J Gardner (eds), Relating to Responsibility, Hart
+Publishing, Oxford, 2001.
+7 See J Stapleton, "Legal Cause: Cause-in-Fact and the Scope of Liability for Consequences" (2001) 54
+Vanderbilt LJ 942-1009.
+8 March v Stramare (E & MH) Pty Ltd (1991) 171 CLR 506.
+9 See eg Cook v Lewis [1951] 1 SCR 830.
+10 McGhee v National Coal Board [1973] 1 WLR 1.
+11 [1984] QB 405.
+12 [1956] AC 613. Compare Holtby v Brigham & Cowan (Hull) Ltd [2000] 3 All ER 421.
+13 For another important and striking scenario consider a claim for nervous shock where "the psychiatric
+expert witnesses could not distinguish between the shock associated with the crash in which she was
+involved and the trauma brought about by the plaintiff's concern for the injuries suffered by her
+husband": D Mendelson, The Interfaces of Medicine and Law, Ashgate/Dartmouth, London, 1998, at
+p233.
+14 This was what generated the problematic "evidentiary gap". In general, see J Stapleton. "The Gist of
+Negligence, Part II: the Relationship between 'Damage' and Causation" (1988) 104 LQR 389 at 401-6.
+15 See Stapleton, 1988, op cit, nl4, at 405. Contrast Wilsher v Essex Area Health Authority [1988] 2 WLR
+557.
+16 [1988] 2 WLR 557. In general see J Stapleton, 1988, op cit, n14.
+17 In Betts v Whittingslowe (1945) 71 CLR 637 at 649 Dixon CJ said, albeit in relation to a statutory duty:
+"breach of duty coupled with an accident of the kind that might thereby be caused is enough to
+justify an inference, in the absence of any sufficient reason to the contrary, that in fact the accident
+did occur owing to the act or omission amounting to the breach" (emphasis added). Clearly the
+presence of another potential source of risk of that same accident should constitute "sufficient reason
+to the contrary".
+18 Judgment of Turner J in Griffiths v British Coal Corporation (23 January 1998, QBD).
+19 Telegraph, 27 March 1999.
+20 Guardian Weekly, 4 April 1999.
+21 On possible special policy justifications for a limited application for McGhee see Stapleton, 1988, op cit,
+nl4, at 406.
+22 [1987] AC 750, on which see also Stapleton, 1988, op cit, n14.
+23 See also Stapleton, 1988, op cit, n14.
+24 In other words, the perception of historical involvement is relative. It is only seen as history because we
+can envisage another world. This has both a proof aspect and a policy aspect. We can only establish
+that something bore a but for relation to a transition if we can imagine a world without that factor.
+Until gravity was a factor in the world that we noticed, no one would have thought to ask whether
+part of the history of an event was the presence of gravity.
+25 Thus an exhaustive description of the history of any meteorological process on earth would cite the
+presence of gravity: the scientist can now envisage a world without gravity, and is thereby prompted
+to ask whether gravity was a necessary or duplicative force producing the meteorological process.
+26 By "shape" here I mean not only the incidence of the obligation (in the duty of care sense, a relational
+issue) but its content in the sense of what is the type of conduct required for its discharge.
+27 See eg McWilliams v Arrol [1962] 1 WLR 295.
+28 See Mason, Chapter 7, below.
+29 Empress Car Co (Abertillery) Ltd v National Rivers Authority [1998] 1 All ER 481; Reeves v
+Commissioner of Police for the Metropolis [1999] 3 All ER 897.
+30 See Ashby, Chapter 11, below.
+31 [1995] 4 SCR 634.
+32 (1997) 148 DLR (4th) 48. For another critical perspective on the Arndt case see T Honoré, "Causation
+and Disclosure of Medical Risks" (1998) 114 LQR 52.
+33 The so-called "modified objective test" from the earlier case of Reibl v Hughes (1980) 114 DLR (3rd) 1.
+34 The majority of the court adopted this line for policy reasons. Yet if couched as an approach to the
+history inquiry in the case, it seems very odd to be asking what someone else might have done. How
+should that be relevant to what happened to this patient?
+35 In contrast to Professor Honoré, I am skeptical about the utility of examining, in the context of legal
+disputes, the patterns of how ordinary people use causal words. In my view this is too variable,
+unstable and opaque to serve the goals of the law. Moreover, even when an ordinary person uses such
+language he would be able to give his reasons for how and why he has used it a certain way in a
+particular context. As the comment from Lord Steyn emphasises, this underlying reasoning needs to
+be laid bare by judges resolving legal disputes.
+36 [1999] 4 All ER 961 at 977.
+37 March v Stramare (E & MH) Pty Ltd (1991) 171 CLR 506 at 516.
+38 A less ambiguous term is "probability": see J Stapleton, "Unpacking 'Causation'" in P Cane & J Gardner
+(eds), Relating to Responsibility, Hart Publishing, Oxford, 2001.
+39 Except in the case of over-determined events such as the double hunters' case.
+40 Mahoney JA in Alexander v Cambridge Credit Corp Ltd (1987) 9 NSWLR 310 at 333.
+41 Chappel v Hart (1998) 195 CLR 232; 156 ALR 517.
+42 Originally an issue of contention in Chappel v Hart (1998) 195 CLR 232; 156 ALR 517 esp at p542.
+43 156 ALR 517 at 520 (per Gaudron J).
+44 This is itself problematic because, as with injury to reputation, injury to autonomy cannot be directly
+calculated in dollar amounts.
+45 See Malcolm, Chapter 12, below.
+46 See Lanham, Chapter 10, below.
+47 This is one of the themes of "Perspectives on Causation" op cit, n1, where I argue for the renaming of
+the "remoteness of damage" analytical category.
+48 Campbell v The Queen (1981) WAR 286 at 290.
+49 Royall v The Queen (1991) 65 ALJR 451 at 465.
+50 See the fine exposition of these by Malcolm, op cit, n45.

@@ -1,0 +1,240 @@
+[
+ {
+  "num": 1,
+  "title": "The Forensic Autopsy",
+  "start": 622,
+  "end": 5885,
+  "lines": 5263
+ },
+ {
+  "num": 2,
+  "title": "The Pathophysiology of Death",
+  "start": 5885,
+  "end": 11886,
+  "lines": 6001
+ },
+ {
+  "num": 3,
+  "title": "The Establishment of Identity of Human Remains",
+  "start": 11886,
+  "end": 15703,
+  "lines": 3817
+ },
+ {
+  "num": 4,
+  "title": "The Pathology of Wounds",
+  "start": 15703,
+  "end": 18307,
+  "lines": 2604
+ },
+ {
+  "num": 5,
+  "title": "Head and Spinal Injuries",
+  "start": 18307,
+  "end": 22824,
+  "lines": 4517
+ },
+ {
+  "num": 6,
+  "title": "Chest and Abdominal Injuries",
+  "start": 22824,
+  "end": 24151,
+  "lines": 1327
+ },
+ {
+  "num": 7,
+  "title": "Self-Inflicted Injury",
+  "start": 24151,
+  "end": 25032,
+  "lines": 881
+ },
+ {
+  "num": 8,
+  "title": "Gunshot and Explosion Deaths",
+  "start": 25032,
+  "end": 27815,
+  "lines": 2783
+ },
+ {
+  "num": 9,
+  "title": "Transportation Injuries",
+  "start": 27815,
+  "end": 29590,
+  "lines": 1775
+ },
+ {
+  "num": 10,
+  "title": "Abuse of Human Rights",
+  "start": 29590,
+  "end": 30609,
+  "lines": 1019
+ },
+ {
+  "num": 11,
+  "title": "Burns and Scalds",
+  "start": 30609,
+  "end": 31818,
+  "lines": 1209
+ },
+ {
+  "num": 12,
+  "title": "Electrical Fatalities",
+  "start": 31818,
+  "end": 32983,
+  "lines": 1165
+ },
+ {
+  "num": 13,
+  "title": "Complications of Injury",
+  "start": 32983,
+  "end": 34368,
+  "lines": 1385
+ },
+ {
+  "num": 14,
+  "title": "Suffocation",
+  "start": 34368,
+  "end": 35779,
+  "lines": 1411
+ },
+ {
+  "num": 15,
+  "title": "Fatal Pressure on the Neck",
+  "start": 35779,
+  "end": 36242,
+  "lines": 463
+ },
+ {
+  "num": 16,
+  "title": "Immersion Deaths",
+  "start": 36242,
+  "end": 39439,
+  "lines": 3197
+ },
+ {
+  "num": 17,
+  "title": "Neglect, Starvation and Hypothermia",
+  "start": 39439,
+  "end": 40193,
+  "lines": 754
+ },
+ {
+  "num": 18,
+  "title": "Deaths Associated with Sexual Offences",
+  "start": 40193,
+  "end": 40487,
+  "lines": 294
+ },
+ {
+  "num": 19,
+  "title": "Deaths Associated with Pregnancy",
+  "start": 40487,
+  "end": 41895,
+  "lines": 1408
+ },
+ {
+  "num": 20,
+  "title": "Child Homicide",
+  "start": 41895,
+  "end": 43142,
+  "lines": 1247
+ },
+ {
+  "num": 21,
+  "title": "Sudden Death in Infancy",
+  "start": 43142,
+  "end": 44549,
+  "lines": 1407
+ },
+ {
+  "num": 22,
+  "title": "Fatal Child Abuse",
+  "start": 44549,
+  "end": 46601,
+  "lines": 2052
+ },
+ {
+  "num": 23,
+  "title": "Deaths Associated with Surgical Procedures",
+  "start": 46601,
+  "end": 47504,
+  "lines": 903
+ },
+ {
+  "num": 24,
+  "title": "Dysbaric Fatalities and Barotrauma",
+  "start": 47504,
+  "end": 47988,
+  "lines": 484
+ },
+ {
+  "num": 25,
+  "title": "The Pathology of Sudden Death",
+  "start": 47988,
+  "end": 51555,
+  "lines": 3567
+ },
+ {
+  "num": 26,
+  "title": "Forensic Dentistry for the Pathologist",
+  "start": 51555,
+  "end": 52975,
+  "lines": 1420
+ },
+ {
+  "num": 27,
+  "title": "Poisoning and the Pathologist",
+  "start": 52975,
+  "end": 54094,
+  "lines": 1119
+ },
+ {
+  "num": 28,
+  "title": "Forensic Aspects of Alcohol",
+  "start": 54094,
+  "end": 54752,
+  "lines": 658
+ },
+ {
+  "num": 29,
+  "title": "Carbon Monoxide Poisoning",
+  "start": 54752,
+  "end": 55526,
+  "lines": 774
+ },
+ {
+  "num": 30,
+  "title": "Organophosphorus Poisoning",
+  "start": 55526,
+  "end": 55924,
+  "lines": 398
+ },
+ {
+  "num": 31,
+  "title": "Poisoning by Medicines",
+  "start": 55924,
+  "end": 60144,
+  "lines": 4220
+ },
+ {
+  "num": 32,
+  "title": "Death from Narcotic and Hallucinogenic Drugs",
+  "start": 60144,
+  "end": 60994,
+  "lines": 850
+ },
+ {
+  "num": 33,
+  "title": "Corrosive and Metallic Poisoning",
+  "start": 60994,
+  "end": 61974,
+  "lines": 980
+ },
+ {
+  "num": 34,
+  "title": "Deaths from Organic",
+  "start": 61974,
+  "end": 63339,
+  "lines": 1365
+ }
+]

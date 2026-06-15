@@ -1,0 +1,368 @@
+Part A:
+The Concept of Causation in Law,
+Medicine and Science
+1 Principles and Values Underlying the
+Concept of Causation in Law
+ANTONY HONORÉ*
+Introduction
+What principles and values underlie the concept of causation in law? This brief
+discussion of a far-ranging question will concentrate on values. Of special interest
+to the consideration of causation in law and medicine is whether different values
+underlie the concept of causation in the two disciplines. I argue that the values
+underlying the concept are the same in both, but that the values underlying law
+and medicine differ. A consequence of this is that law and medicine are
+concerned with different types of cause and use the concept for different
+purposes.
+Some values hold good outside law and medicine. They are important in
+everyday life even in areas which are no concern of either. Others are values of
+the legal system, in particular of adjudication. An example is procedural fairness.
+Without procedural fairness adjudication is unjust. And healing and the relief of
+suffering is a value specific to medicine. In my view, however, no value underlies
+the concept of causation in law or causation in medicine as such. The notion of
+cause is the same in law, medicine, science and everyday life. This point is one
+that common law judges have often stressed, when they say that causation in law
+is a matter of common sense. Whether one thing has caused another is to be
+judged by criteria that prevail outside the law.
+Three topics will be dealt with in the light of this distinction between values
+that mark everyday life and those specific to law or medicine. These topics are
+causation, responsibility and legal liability. The concept of cause dominates our
+inquiries into the processes by which things happen, or have happened.
+Responsibility for good or bad outcomes of human conduct forms the link
+between causation and legal liability. It is central to the assessment of people's
+lives and doings, their successes and failures. But both causation and
+responsibility, though important in law, are concepts drawn from everyday life.
+The third topic is specific to law. It concerns the conditions that, in the interests
+of fairness, limit the extent to which people can be made liable for causing harm.
+It may help to list at the outset the values that will be mentioned. In my view
+those that underlie causation concern the external world, which is, within limits,
+conceived as objective, regular and knowable. The knowledge that we acquire
+with its help enables us to survive in an uncertain world. That we should be
+responsible for our conduct and its outcome serves a different set of values. It
+encourages people to act in a way that will lead to good outcomes and it
+promotes a sense of personal identity. The restrictions on legal liability for harm
+caused to others rest on various aspects of fair adjudication, especially fair
+procedure. Fair adjudication is obviously not a medical value. Though the
+concept of cause is also not specially medical, its role in providing explanations of
+disease and recipes for cure is crucial to medical science and practice.
+Values Underpinning the Concept of Cause
+To take Kant as a starting point, causation can be thought of as a category, like
+space and time, built into our make-up. We cannot help conceiving the external
+world in terms of it. If Kant is right, it follows that it is an across-the-board
+notion, applied not only in law but in science, medicine, history, ethics, politics
+and, if it comes to that, cricket. The concept of cause is the same in every sphere
+of life. That the moon's shadow caused the eclipse of the sun; that the defendant's
+speeding caused the plaintiff's trauma; that the Plasmodium parasite caused the
+patient's malaria; and that Steve Waugh's leadership was the cause of Australia's
+victory in the World Cup – all apply the same notion. Causation is an all-purpose
+tool for inquiring into the relation between one event and another.
+Some philosophers and lawyers conceive the cause of an event as a necessary
+condition (sine qua non) of the outcome, others as a condition that, along with
+others, is sufficient for the outcome. Whichever view is preferred,1 a cause is
+something like an ingredient in a recipe: an element in a combination that, if
+repeated, will yield a similar outcome. Both views presuppose that we can
+generalise about the way things happen. We can say that when conditions A, B
+and C are present together this will lead in stages to D but that if A is absent and
+only B and C are present D will not follow, at any rate not by the same stages.
+Observation and experiment pick out the conditions that in combination
+consistently give rise to processes that yield a given outcome. The recipe idea has
+been refined to such an extent that with its help a rocket can be dispatched to
+Jupiter in the reasonable expectation that it will get there at a given moment. At a
+more mundane level the recipe idea applies to medical therapy. Given the
+patient's condition (A and B) doctors try to find a treatment (C) that will result in
+a cure. And if causation can be used in a forward-looking way to provide recipes
+it can also be used in retrospect to explain events, for example to diagnose illness.
+To say that one thing caused or will cause another is therefore to refer
+indirectly to what happens in general. But in practice the sort of A,B,C formula
+just set out is not easy to discover or to apply to a given sequence of events,
+partly because the relation of particular to general varies with the type of process
+analysed. In the world of physics we can specify rather precisely what conditions
+will lead to what outcomes. Otherwise we could not send a rocket to Jupiter.
+Organic matter is less easy to analyse in terms of causal sequences because living
+creatures are complex. Members of a species do not react in a uniform way. The
+confidence that can be placed in judgements of cause in medicine differs from
+that in physics even though the concept of cause remains the same. A doctor may
+believe that, given complete knowledge of the relevant conditions, he could
+predict exactly the outcome of treating a patient with a certain drug, yet in
+practice seldom be able to do so. Patients do not react in the uniform, way in
+which rockets do. Medical science of course assumes that the condition from
+which a patient is suffering has a determinate cause and that the therapy will
+have a determinate effect. But often this does not make it possible either to
+diagnose or to treat the condition with confidence. Doctors have to go by
+probabilities, based for example on the frequency with which a certain drug is
+followed by a cure, even when the details of the process are unknown. It was
+reasonable to assume that penicillin attacked streptococcal infection and that
+most of the patients suffering from this infection to whom penicillin was given
+recovered because of it, long before anyone could show how this happened.
+Lawyers need, I think, to bear this in mind when weighing medical evidence that
+is couched, as it often has to be, in causal terms. The causes of most diseases lie in
+a complex of factors any one of which can be said only to contribute to the
+pathology.
+If the concept of cause is hard to apply in the organic world of living matter it
+is not clear that it applies at all to the way in which human beings decide what to
+do. When people decide what to do they have reasons for deciding. But we need
+not and often do not think that these reasons would persuade everyone in a
+similar situation or that they would persuade the same person on another
+occasion. It is not clear that, if we knew all there was to know about the person
+who has to decide what to do, we could predict their decision with certainty. The
+decision need not be seen as an instance of a general law about the way in which
+human beings in general, or that particular person, react. For this reason the law,
+which is deeply concerned with human decision and action, often employs
+concepts that are only loosely analogous to causal connection in the world of
+inorganic or organic matter. The difference between human decision-making and
+the material world is marked by speaking of reasons for deciding and acting
+rather than causes. Advising someone to invest in a certain stock, even if they
+take the advice, is not the same as causing them to invest in it. But there is an
+analogy between deciding to act for a certain reason and being subject, as we all
+are, to the principles of physics and biology. To be satisfied that a person acted for
+a given reason, say that they invested on the advice of their stockbroker, we must
+believe that in the mind of the person to whom the stockbroker's advice was
+given it was sufficient to induce them to make the investment.2
+What values, then, does the concept of causation serve? It presupposes three
+features of the external world that help us to survive. It assumes that the world
+we live in is within limits objective, regular and knowable. To the extent that this
+is true we can understand what happens around us and achieve at least some of
+our aims. The external world is conceived as objective in that it exists
+independently of us. But it does not follow that the way in which we conceive it
+is independent of our make-up and situation. For example, according to the
+theory of relativity certain data are relative to the position and motion in space
+and time of the subject observing them. Though there is an external world
+independent of us, it is plausible to think with Kant that the way we are made,
+and with Darwin that our need to survive, structure the way in which we see it.
+A second value presupposed by the concept of cause is regularity. We are
+aware not merely of an objective world but of one in which patterns repeat
+themselves so that when similar conditions are present in different times and
+places similar outcomes follow. The universe treats like cases alike. But, as noted,
+our access to reliable generalisations is greater in the world of physics than in the
+world of living matter. This is not because causal regularities are not present in
+the organic world, if we can get at them, but because it is more difficult to get at
+them. It is less clear that causal regularities govern human decision-making and
+action. We do not and perhaps cannot know if determinism is true. So, even if
+causation is a category from which we cannot escape when we analyse the
+external world, it does not follow that we have to analyse everything that
+happens in terms of cause.
+A third value presupposed by the concept of cause is that the way in which
+things happen is within limits knowable. Even if we cannot know how things are
+in themselves – and Kant thought we could not – we can know them as they
+appear to us human beings. That is in practice enough for us to find our way
+around and to survive. It does not follow that everything that happens is in
+principle knowable and, if known, would be seen as an instance of an objective
+and regular sequence of events. The point is worth making because thinkers such
+as Newton and Einstein conceived their inquiries into how events happen as an
+effort to understand the mind of God. Access to that would, they thought, yield a
+set of principles that operate with complete objectivity and regularity. That belief
+may or may not be correct. Many scientists think that it is not true at the level of
+fundamental particles or cosmology. But it is in any case separate from a belief in
+the value of the concept of cause. The value attaching to causation remains even
+if some events have no cause and if our makeup is such that we are tempted, by a
+sort of evolutionary overkill, to use the concept in unsuitable contexts.
+Values Underlying the Concept of Responsibility
+Human responsibility links causation and the law. But responsibility is not a
+purely legal concept. That people are responsible for their actions and the
+outcome of their actions is central to everyday life. We judge ourselves and others
+on the basis that we are responsible for what we do and bring about irrespective
+of whether what we did was legal. Only in a limited class of cases are we not
+only responsible for the harm we bring about but also legally liable for it. But
+these cases are common and important enough for causation to feature
+prominently in legal argument.3
+The mention of "harm" may mislead. We are responsible not only for the bad
+things we do and bring about but also for the good things. Being responsible for
+good actions and outcomes is important in everyday life but not often in law. We
+are, and wish to be seen as, responsible for our successes. But we cannot take
+credit for them without also incurring discredit for our failures. Responsibility
+cuts both ways.
+In ordinary language there is a close link between causation and responsibility
+even when natural events are concerned. The Plasmodium parasite was
+"responsible" for the patient's malaria. But human responsibility for outcomes is a
+narrower notion and rests on different values. It is used to pick out a certain type
+of cause, namely the person, if any, whose conduct explains what has happened.
+It focuses for example on the person who exposed the patient to the malaria
+parasite, rather than on the parasite itself. The outcome, welcome or unwelcome,
+is then attributed to that person and they must account for it, as the term
+"responsible" implies. So responsibility, and at one remove legal liability, are
+concerned with a different type of cause from the causes of disease and cure with
+which medicine is concerned, but not with a different concept of causation.
+What values underlie the use of the concept of cause to fix responsibility? If
+the world is to be a good place to live in we must be alert to the difference people
+make to it, for better or worse, by their interventions.4 People change the world.
+So do malaria parasites. But malaria parasites cannot be called to account.
+Holding people responsible is requiring them to account for the changes they
+bring about.
+We need the concept of cause to decide what changes a person's conduct has
+brought about. For this purpose we compare the world as it is after the person has
+intervened with the world as it would have been had they not intervened. To
+make the comparison we must know what the person did, the circumstances in
+which they did it, and the relevant causal generalisations. These together tell us
+what would have happened (or more often what would probably have happened)
+if the person concerned had not done what they did. We then know what
+changes, if any, the person in question has to account for. If the motorist had
+driven at a reasonable speed the pedestrian would (or would not), given distance
+and speed of reaction, have been able to cross the road in time to avoid being hit.
+If the doctor had not advised against it, the patient would have had the
+inoculation and avoided (or not avoided) the disease. Causation is an essential
+tool for holding people responsible for the changes they make in the world.
+Why should we want to hold people responsible? Responsibility has a
+pragmatic value. Holding people responsible for the changes they make
+encourages them to change the world for the better and discourages them from
+changing it for the worse. To credit people with the good they bring about and
+debit them with the harm they do provide incentives to do good and avoid harm.
+The consequences of treating people as responsible are likely to be better than if
+they were treated as automata.
+A second value is, in my view, more basic. If people are made responsible for
+their actions and the outcome of their actions they acquire a history of actions,
+achievements and failures which are genuinely theirs. This history helps to form
+their character and identity. It gives them a sense of themselves and others as
+individuals, each unique, because each has done or brought about different
+things. So the process by which we come to think of ourselves and others as
+distinct, unique people depends indirectly on our grasp of causal generalisations.
+Given this, when the patient who has undergone a difficult operation recovers,
+the surgeon who operated can be credited with a success. When a burst tyre
+causes a road accident this can be attributed to the clumsy way in which the
+garage mechanic fixed it. It is his failure, for which discredit attaches to him.
+But the use of causal principles in the context of responsibility carries with it a
+built-in limit. We are responsible because we have intervened in the world.
+Consistently with this idea, what is attributed to us as part of our intervention
+extends only to the later events that our intervention explains. It explains the
+sequels that happen in the normal course of events but not what happens when
+some other person or coincidental event later intervenes in a way that serves to
+explain what happens thereafter. The patient's recovery is attributed to the
+surgeon's intervention. But if on recovering the ex-patient takes up a successful
+career in computing that is not the surgeon's doing, though he made it possible.
+The mechanic's clumsiness is responsible for the burst tyre and the accident that
+ensues but not for the fact that the owner then decides to buy a more expensive
+car. The decision to buy an expensive car, like the decision to take up computing,
+begins a new chapter of events that serves to explain what happens afterwards. It
+is not conceived as part of the earlier sequence of events, since these do not serve
+to explain it, though they provided the opportunity or occasion for the later
+decisions to take up computing or buy the expensive car. This idea of a later
+intervention (sometimes described in law by the ugly and pretentious but not
+inaccurate phrase novus actus interveniens) does not imply any break in the
+physical continuity of events. But it does mark a break in the explanatory power
+of the earlier cause. It fits in with the idea of a cause as a recipe or explanation.
+It also serves to limit human responsibility so that each person can be credited
+with achievements and debited with failures that are uniquely their own. If our
+responsibility extended to everything that would not have happened had we not
+done what we did, we would share responsibility with many other people and the
+sense of personal identity that responsibility serves to foster would be eroded. So
+to understand how the concept of causation applies to problems of human
+responsibility we need to be conscious of the functions that being responsible
+fulfils in our lives. Responsibility for outcomes is limited in such a way that it
+retains the power to explain events and at the same time fosters our sense of
+ourselves and others as individuals.
+Values Underlying Limitations on Legal Liability
+Law does not punish people or make them pay compensation for all the losses
+they inflict or all the harm they do. Often we intervene in the world and cause
+loss to others without incurring either legal liability or moral blame. Competitors
+in business, love, politics and sport cause loss to and even humiliate their rivals,
+but unless the successful competitor resorts to cheating, success is neither illegal
+nor immoral. Even when harm is inflicted – and I mean by harm something like
+bodily injury which in principle no one should inflict on another except in self-
+defence – special legal values must be satisfied before the person responsible for
+causing the harm is made subject to sanctions.
+Law limits liability for harm caused out of regard for justice in adjudication.
+This takes the form on the one hand of corrective justice, which requires the
+person who causes harm to another without justification to make the harm good.
+On the other hand, it takes the form of procedural justice or fairness to the person
+on whom the sanction of punishment or compensation may be imposed. Fairness
+suggests that at least three conditions should be met before a person who is said
+to have caused harm can be made legally liable for it. The person must have had
+notice that if they did so-and-so and thereby caused such-and-such harm they
+would be liable to such-and-such a sanction. The sanction must be roughly
+proportional to the conduct. And the connection between conduct and harm must
+be proved. These values do not apply in quite the same way in criminal and civil
+law but they have always to be kept in mind.
+These legal values balance regard for the doer with regard for the victim. In
+civil law the principle of corrective justice makes the doer morally responsible for
+harm caused without justification but leaves open what is due by way of
+reparation. To turn the duty to made amends for the harm into a legal duty to
+pay money involves a form of state intervention in the victim's favour. It needs to
+be balanced by measures to protect the defendant. One measure that fairness
+requires is that the defendant should have been able to choose whether to run the
+risk of incurring the sanction.
+To respect freedom of choice, the Saw should define in advance, at least in
+general terms, the type of conduct and outcome that may entail liability and the
+sanctions that may be imposed on the person responsible. Hence in law we are
+almost never faced, except at a preliminary stage, with the open-ended inquiry
+What caused this harm? The question is rather "Did so-and-so's unlawful
+conduct5 cause this harm?" Law prescribes what must be shown to have caused
+what. If a person causes harm by doing something that the law does not forbid,
+or else does something that it forbids but thereby causes harm for which it gives
+no remedy, the doer obviously incurs no legal liability. If the doer causes harm
+without fault in jurisdiction in which fault is condition of liability, or causes
+harm of a sort which is not the subject of compensation (for example, pure
+economic loss or psychological trauma in a jurisdiction that does not recognise
+these as grounding compensation) there is no recovery at law. Both ends of the
+causal chain, conduct and harm, have to satisfy legal criteria.
+Fairness also requires that a sanction should not be disproportionate to the
+gravity of the conduct for which it is imposed. In civil law this serves to exclude
+liability for harm of an unforeseeable type even when caused by the defendant's
+wrongful conduct, for example for the result of an explosion when only a
+collision was to be feared. That the sanction would be disproportionate to the
+gravity of the conduct is a distinct ground for limiting liability. It can justify
+refusing compensation even when the harm was caused by the wrongful conduct
+and not by a later intervention. This point is sometimes obscured by the use of
+the umbrella term "remoteness of damage". To take a familiar example, a motorist
+negligently runs someone over. When the victim is taken to hospital, the hospital
+is struck by lightning and the victim suffers burns in the resulting fire. The burns
+will be regarded as caused by the lightning, a later intervention, rather than the
+negligent driving. The motorist's intervention in the world does not explain the
+burns though it forms part of the history of how they came about. But if the
+motorist runs into the boot of a car that is unexpectedly carrying explosives and
+the resultant explosion causes widespread damage, the motorist's negligent
+driving undoubtedly caused the widespread damage. But to make the motorist
+liable for the explosion might be disproportionate to his fault and hence unfair. In
+legal terms it would be damage of an unforeseeable type.
+A third value that, law insists on in the interests of fairness to the person
+potentially liable is that the unlawful conduct must be proved to have caused the
+damage claimed. Here, I think, it is easy for lawyers and physicians to
+misunderstand one another. To be fair to the person potentially liable, causal
+connection between conduct and harm must be proved according to the
+appropriate standard of proof, whether on a balance of probabilities or to a more
+rigorous standard. Whatever the standard, there will be cases when, from a
+medical point of view, the connection between, say, physical injury and
+psychological trauma seems clear but the evidence fails to persuade the judge or
+jury because the onus of proof lies on the victim. The Riles about onus of proof in
+civil law rest on the view that money should not be transferred from one person
+to another without a good reason. It must be fair to the defendant to order money
+compensation. Hence there are injuries that go uncompensated not because
+lawyers and doctors have differing conceptions of causation but because in
+treating patients doctors, even if they are practising "evidence based medicine",
+often have to act on probabilities that fall short of the standard of proof required
+by courts.
+There is also the point noted earlier, that causal generalisations are more
+difficult to establish for organic biological, processes than for inorganic ones.
+Thus "the pathogenesis of PTSD (post-traumatic-stress disorder) and a number of
+other affective disorders still remains to be solved".6 This problem might be
+alleviated by altering the rules about proving causal connection. Sometimes there
+is a statistical correlation between trauma type A and trauma type B (say a
+physical injury and psychological sequel), but causal connection between them is
+not established, because we do not know the stages, if any, by which one leads to
+the other. If that is so, the law could perhaps retain the need to prove causal
+connection, but put on the person alleged to have caused trauma B the burden,
+once trauma A is established, of producing evidence to show that B was not
+caused by A. If it is desirable to extend compensation in this way – and to my
+mind the theory of compensation needs rethinking – it would be better to change
+the rules of proof in this way rather than to create a cause of action for exposing
+another to a statistical risk of injury of a given type, such as trauma type B. It is
+important to keep the law aligned as far as possible with the values that prevail in
+everyday life, and to insist on proof of causal connection is one way of doing this.
+Conclusion
+In the upshot, this brief survey leads to, the conclusion that causation,
+responsibility and adjudication all embody different values that have a bearing
+on the extent to which a person who has caused harm to another should be made
+liable in law to pay compensation. There is no single key to the solution of the
+complex problems involved, no guiding star. As in many areas of life, values
+conflict, and the law must try to adjust the conflicts so as to promote, to the
+limited extent that it can, a harmonious and stable society.
+* Fellow of the British Academy, Formerly Regius Professor of Civil Law, Fellow and Acting Warden of
+All Souls College, Fellow of Queen's College and Fellow of New College, Oxford.
+1 In favour of sufficiency, see T Honoré, "Necessary and Sufficient Conditions in Tort Law", in DG Owen
+(ed), Philosophical Foundations of Tort Law, Oxford, 1995, pp363-85.
+2 Honoré, above n1, pp380-4.
+3 In insurance law and some other contexts responsibility for harm caused by events such as riot, war
+and shipwreck is in issue.
+4 Also with the changes they have failed to bring about by not intervening in the world when they were
+called on to do so.
+5 Or some person or thing for whom he is vicariously responsible or some thing for which he is strictly
+liable.
+6 D Mendelson, The Interfaces of Medicine and Law: The History of the Liability for Negligently Caused
+Psychiatric Injury (Nervous Shock), Dartmouth, Ashgate, 1998, p288.

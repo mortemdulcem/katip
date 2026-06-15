@@ -1,0 +1,475 @@
+7 Fault, Causation and Responsibility: Is
+Tort Law Just an Instrument of
+Corrective Justice?
+KEITH MASON*
+You look at where you're going and where you are and it never makes sense, but then you look back to
+where you've been and a pattern seems to emerge. And if you project forward from that pattern, then
+sometimes you can come up with something.1
+Like the Irish jury that were unanimous that they could not agree, the High Court
+of Australia laboured mightily in Perre v Apand Pty Ltd2 before recognising lack
+of consensus or even a majority position about the essentials of the action in
+negligence for pure economic loss. Only Kirby J saw merit in the three stage
+framework favoured in England. Their Honours agreed that the animal exists.
+But proximity was rejected as a useful taxonomic guide. General reliance is no
+longer generally relied on by the hunters. The creature could not be identified by
+its foreseeability spots, but its known vulnerability was proposed as a working
+hypothesis.3
+The lack of agreement is hardly surprising. The framework of modern tort law
+is elusive, perhaps inherently protean. Maybe Cooke P was correct in his gloomy
+prognostication that:
+Ultimately the exercise can only be a balancing one and the important object is that all relevant factors
+be weighed. There is no escape from the truth that, whatever formula be used, the outcome in a grey area
+case has to be determined by judicial judgment. Formulae can help to organise thinking but they cannot
+provide answers.4
+Whether a new age of certainty will dawn in the High Court is unknown. In
+the meantime, the decision to proceed slowly and see what turns up was
+inevitable. It is hardly unprecedented. Even Sir Owen Dixon once confided to
+Chief Justice Latham:5
+In [s92] cases relating to transport ... I think it is almost clear that we must proceed by arbitrary methods.
+No doubt there will be limits but political and economic considerations will guide the instinct of the
+Court chiefly. In time the thing will work back to some principle or doctrine.
+Perhaps Sir Owen had tongue in cheek, recognising the need for himself to
+mark time to allow his arbitrary brethren time to fall into line with his own clear
+logic.6
+Very recently, in Crimmins v Stevedoring Industry Finance Committee,7
+McHugh J warned that incremental development by analogy must be rooted in
+principle and policy. Frank discussion about policy factors must not abandon the
+search for a linking chain of reasoning. His Honour stressed the merits of
+predictability and sought to confine the uncertainties of Perre to cases of pure
+economic loss. It may not be reading too much into his judgment to see it as a
+plea to his brethren not to revisit well-established areas of tort law in the quest to
+find and apply principles of general application.8
+The concepts of "fault" and "responsibility" are part of the landscape of modern
+tort law, but they usually lie hidden. "Responsibility" covers a wide spectrum. It
+does not necessarily import legal liability or moral blame, although it is a
+condition of both. As Professor Honoré points out, human responsibility may
+relate to (a) our own conduct, (b) the responsibility that we choose to take on for
+other people, things and events; and (c) the responsibility that society thrusts
+upon us.9 I shall confine myself to the field of legal responsibility as reflected in
+the law of tort, principally the expanding field of negligence. That area is more
+than large enough. Professor Honoré's three aspects of responsibility are still
+relevant. They remind us that liability may stem from omissions as well as acts,
+including the acts or omissions of a third party. And they show the fallacy of
+limiting duty of care to "assumption" of an obligation to control a person or
+situation.
+The general rule is that a plaintiff bears the onus of proof on all matters.10
+Proving liability is one thing, getting all of the damages claimed is another.
+Academic lawyers tend to concentrate on the former. Practitioners and judges
+spend most of their time dealing with the latter. Many injured plaintiffs come
+with a history of other problems or acquire one after the tortious injury and
+before trial. The task of segregating the loss actually stemming from the tort may
+be complex and problematic. It is generally true that the tortfeasor takes the
+victim as found, but it is certainly not the corollary that the court ignores the
+victim's antecedent incapacities or potential disabilities and illnesses when
+assessing damages.11 Nor does the victim get reparation for every loss stemming
+however remotely from the wrongdoer's fault. Many factual and legal issues
+require unravelling.
+In Perre, McHugh J propounded the theses that tort law is "an instrument of
+corrective justice";12 and that "negligence at common law is still a fault-based
+system".13
+McHugh J's references to the law of tort being an instrument of corrective
+justice draw attention to a sophisticated debate occurring in North America.14 At
+the broadest level, this theory sees tort law as grounded upon "correlativity",
+requiring those who have harmed others without justification to put the matter
+right by reparation (damages), specific relief (eg return of a detained chattel) or
+other means (eg an apology). It requires proof of harm done to the plaintiff for
+which the defendant bears some causal responsibility.
+But the wrongdoer may be impossible to identify or not worth suing. Exclusive
+adherence to corrective justice principles is not good enough for plaintiffs who go
+in search of "peripheral" parties.15 An American newspaper headline summed it
+up:
+Can't sue the person who hurt you? Don't sulk. Hire a personal-injury lawyer and sue someone else.
+Corrective justice does not fully explain the rules of tort.16 Even within
+negligence, the silent but insistent demands of distributive justice may enlarge
+liability, for example by imposing strict or near strict liability upon classes of
+persons involved in risky undertakings or by favouring liability against insured
+defendants.17 Conversely, they may restrict liability, for example by control
+devices in the field of nervous shock, that are difficult to justify in principle.18
+The highway non-feasance rule cannot be explained except according to
+principles of distributive justice.
+Recently the House of Lords has given explicit recognition to distributive
+justice principles as reasons for limiting tort liability. Frost v Chief Constable of
+South Yorkshire19 involved claims by police officers with respect to psychiatric
+injury suffered after helping victims at the Hillsborough disaster where 96
+spectators were crushed to death at a soccer match. The negligence of the officers'
+employer was held insufficient to ground recovery for pure psychiatric injury.20
+Their Lordships expressed concern about the impact of a litigation explosion in
+this area, including concern about the burden of damages and the impact upon
+crowded court lists. It is also clear that they recognised the difficulty of justifying
+how it would be fair to award compensation to police officers when it had
+already been refused to family members of those killed or maimed at the
+disaster.21 Lord Hoffmann referred to competing proposals to scrap all "control
+mechanisms" in relation to psychiatric damage or alternatively to abolish
+recovery for psychiatric injury altogether. He continued:22
+The appeal of these two opposing proposals rather depends upon where one starts from. If one starts
+from the proposition that in principle the law of torts is there to give legal force to an Aristotelian system
+of corrective justice, then there is obviously no valid distinction to be drawn between physical and
+psychiatric injury. On this view, the control mechanisms merely reflect a vulgar scepticism about the
+reality of psychiatric injury or a belief that it is less worthy of compensation than physical injury: therein
+the patient must minister to himself. On the other hand, if one starts from the imperfect reality of the
+way the law of torts actually works, in which the vast majority of cases of injury and disability, both
+physical and psychiatric, go uncompensated because the persons (if any) who caused the damage were
+not negligent (a question which often involves very fine distinctions), or because the plaintiff lacks the
+evidence or the resources to prove to a court that they were negligent, or because the potential
+defendants happen to have no money, then questions of distributive justice tend to intrude themselves.
+Why should X receive generous compensation for his injury when Y receives nothing? Is the
+administration of so arbitrary and imperfect a system of compensation worth the very considerable cost?
+On this view, a uniform refusal to provide compensation for psychiatric injury adds little to the existing
+stock of anomaly in the law of torts and at least provides a rule which is easy to understand and cheap to
+administer.
+In McFarlane v Tayside Health Board23 the House of Lords held that damages
+were not recoverable for the maintenance of a healthy child born following a
+negligently performed vasectomy operation on her father. The child's mother was
+allowed general damages for the pain, suffering and inconvenience of childbirth.
+But the parents were refused their claim for the costs of maintaining and
+educating their healthy "unplanned" child. Lord Steyn said:24
+It is possible to view the case simply from the perspective of corrective justice. It requires somebody who
+has harmed another without justification to indemnify the other. On this approach the parents' claim for
+the cost of bringing up Catherine must succeed. But one may also approach the case from the vantage
+point of distributive justice. It requires a focus on the just distribution of burdens and losses among
+members of a society. If the matter is approached in this way, it may become relevant to ask of the
+commuters on the Underground the following question: "Should the parents of an unwanted but healthy
+child be able to sue the doctor or hospital for compensation equivalent to the cost of bringing up the
+child for the years of his or her minority, ie until about 18 years?" My Lords, I have not consulted my
+fellow travellers on the London Underground but I am firmly of the view that an overwhelming number
+of ordinary men and women would answer the question with an emphatic "No". And the reason for such
+a response would be an inarticulate premise as to what is morally acceptable and what is not. Like
+Ognall J in Jones v Berkshire Area Health Authority, 2 July 1986, they will have in mind that many
+couples cannot have children and others have the sorrow and burden of looking after a disabled child.
+The realisation that compensation for financial loss in respect of the upbringing of a child would
+necessarily have to discriminate between rich and poor would, surely appear unseemly to them. It would
+also worry them that parents may be put in a position of arguing in court that the unwanted child, which
+they accepted and care for, is more trouble than it is worth. Instinctively, the traveller on the
+Underground would consider that the law of tort has no business to provide legal remedies consequent
+upon the birth of a healthy child, which all of us regard as a valuable and good thing.
+It is interesting that in Esanda Finance Corporation Ltd v Peat Marwick
+Hungerfords25 McHugh J effectively recognised that distributive justice could
+temper even "the most insistent demands of corrective justice". He saw the
+extension of auditor's liability to cover cases like Esanda as:
+... likely to mean that courts and judges hearing such cases will be tied up for many months – sometimes
+for more than a year – to the detriment of other litigants. Only the most insistent demands of corrective
+justice should induce the common law courts to mould legal rules to cover cases that bring about this
+consequence in an era when court resources are already stretched to breaking point and courts are forced
+to send many cases out to private arbitrators for determination.
+It is too early to declare corrective justice as the victor in the field. But it
+remains a predominating force.
+Cutting across this corrective-distributive justice debate, but mainly within the
+corrective justice framework, lies the question of the role of fault.
+Occasionally judges acknowledge the impact of fault and the way that moral
+responsibility is relevant in a marginal case.26 In Caltex Oil (Australia) Pty Ltd v
+The Dredge "Willemstad",27 Stephen J referred to "a general public sentiment of
+moral wrongdoing for which the offender must pay" as a broad principle
+underlying liability in negligence.
+Sir John Salmond denied the existence of a single law of tort. At the same time,
+he argued that a condition usually demanded for liability in an action of tort was
+either wrongful intention or culpable negligence on the part of the defendant. For
+him, there was no reason why a loss should be shifted from one person's
+shoulders to another's except, in general, to punish or deter wrongful intent or
+negligence.28 Salmond was logically compelled to say of the decision in Rylands v
+Fletcher,29 which is founded upon a theory of strict liability:30
+No decision in the law of torts has done more to prevent the establishment of a simple, uniform, and
+intelligible system of civil responsibility.
+The High Court took note in Burnie Port Authority v General Jones Pty Ltd.31
+McHugh J's protest that "the common law holds no prejudice against strict
+liability"32 did not sway the majority.
+The overruling of Beaudesert Shire Council v Smith33Northern Territory of
+Australia v Mengel34 points in a similar direction. There have also been recent
+stern reminders that the action for breach of statutory duty does not exist in the
+absence of clearly expressed legislative intent to confer a personal right.35 Other
+pockets of residual strict liability are being identified and exterminated in the
+"staggering march of negligence".36
+But the trend is not all one-way. The desire to find identifiable and deep-
+pocketed defendants has pushed the boundaries of vicarious liability and non-
+delegable duties of care. Indeed, there are strong hints by McHugh J and Kirby J
+in Northern Sandblasting Ply Ltd v Harris37 that the time is ripe for the High
+Court to consider adopting a principle of vicarious liability for the acts and
+omissions of independent contractors. It is impossible to fit these developments
+within the correlative framework of the corrective justice model.
+"It's your fault, you should pay for it" represents the response of a primary
+school child whose treasured toy is broken by a playmate. Childish insights to
+ethical issues are not necessarily deficient. But complexities enter as the child
+matures, especially if he or she stands in the wrongdoer's shoes.
+The childish response occurs where causation in fact is clear, at least to the
+child. There is a single wrongdoer whose responsibility stems directly from
+smashing the toy. To the naive victim, the wrongdoer's capacity for self-discipline
+does not enter into the equation, nor the unexpected extent of the loss, nor its
+lack of proportion to the fault of the wrongdoer, nor the wrongdoer's capacity to
+pay. These things only occur as the growing child starts to perceive that
+standards set for others may be applied in reverse. Later comes the idea that it is
+more useful to lay the problem at the feet of the wrongdoer's parents.
+Similar developments affect the mature common law as it is asked to make
+someone pay for every conceivable species of harm. Let me illustrate. P suffers
+blood poisoning in hospital where he is a temporary patient following a minor
+road accident. The simple example may throw up a plethora of issues:
+Which individuals are liable: the doctor, the nurses, the driver?
+Which organisations are liable because of vicarious liability or a non-
+delegable duty: the hospital, the driver's employer, the car owner, the
+highway authority?
+What damages are payable by each defendant? Does every person liable
+pay for both the bruising and the damage stemming from the blood
+poisoning?
+Are damages reduced for contributory negligence?
+Can the defendants share the loss amongst themselves?
+Several doctrines aid injured plaintiffs in their quest to find someone "to pay"
+and pay in full. These include substantive rules like the "egg shell skull" rule.
+There are also rules of procedure which aid plaintiffs uncertain whom to sue38 or
+which allow (but do not compel) inferences of causation to be drawn against
+persons whose negligence is followed by an accident of the kind within the scope
+of the relevant duty.39 Indeed there is a current debate about whether persons
+who create or increase a risk of injury should (without proof on the probabilities
+that the risk came home) bear legal responsibility if the risk comes home.40 The
+plaintiff's task is eased by the need to show only that the injuries were "caused or
+materially contributed to" by the wrongful conduct of the chosen defendant or
+defendants,41 and by the law's adherence to the concept of solidary liability.42
+The fault notion may act as a control device. It is seen as unfair to place the
+burden of loss upon the shoulders of a tortfeasor whose fault is disproportionate
+to the loss claimed by one or many plaintiffs. To the extent that fault and degrees
+of fault influence findings as to liability or the extent of liability, there is a
+tempering of corrective justice in deference to a retribution principle in which
+there is proportionality between the gravity of the defendant's conduct and the
+extent of reparation.43
+(Sometimes legislatures intervene to close floodgates. Occasionally defendants
+are given statutory immunity, which the courts construe narrowly.44 More
+common are legislative caps which preclude certain heads of damages or limit
+their extent.)
+Causation is a "central organising concept",45 usually a control device, in tort
+law's quest to keep law (liability) and morality (fault) in step. Causation
+reasoning is often used to expand or to stem liability for particular losses flowing
+from an act of negligence.
+Tracing tort law's use and abuse of causation discloses major developments in
+the quest to recognise fault but to stem its disproportionate outcome. Many hard
+issues have been hidden beneath the beguiling veneer of causation. In his
+introduction to Responsibility and Fault, Professor Honoré states46 that "people
+are never legally liable merely because they have caused someone harm".
+It may be possible to see four stages in the use and abuse of causation.
+Like the child whose toy is broken, the ancient common law usually treated
+legal responsibility as a self-evident consequence of causation of damage,
+regardless of fault. This is hardly surprising since concern was focused on
+physical injury and since the action for trespass dealt with direct and intentional
+acts. Even the action on the case refused until the nineteenth century to recognise
+openly that absence of fault was an excuse.47 So mechanistic was the early
+common law that it compensated for death by confiscation of the offending
+animal or object or requiring the owner to pay its value. In this institution of
+deodand, blame or fault was usually irrelevant, but juries sometimes imposed
+nominal deodands if fault was absent.48
+By the nineteenth century a tort of negligence had emerged, but Rylands v
+Fletcher illustrates that strict liability remained well entrenched. Re Polemis and
+Furness, Withy & Co Ltd49 epitomises the second stage of the role of causation in
+tort damages. Liability now depends, in the main, upon proof of lack of due care
+(fault) in established duty categories. But responsibility in damages (still almost
+invariably for physical loss and damage) extends to all of the direct consequences
+of a negligent act. On the plaintiff's side of the equation, contributory negligence
+is a complete defence.
+Ostensibly, causation reasoning provided answers for plaintiffs and defendants
+in this era. To limit liability for negligent defendants and to permit recovery by
+negligent plaintiffs judges developed metaphysical causation principles, using
+them like circuit breakers. Concepts such as novus actus interveniens were
+introduced as control devices to block Cardozo CJ's hideous spectre of liability "in
+an indeterminate amount for an indeterminate time to an indeterminate class".50
+In many cases, the judges were driven "to take refuge in metaphor or Latin".51
+Refinements such as causa causans, effective cause, proximate or legal cause and
+novus actus interveniens were introduced to reflect degrees of fault and to deal
+with difficulties presented by the distinction between acts and omissions and
+where the acts of third persons or natural forces are concerned. Negligent
+plaintiffs sometimes succeeded by showing that the defendant had the "last
+opportunity" to avoid an accident, and until at least the 1950s "last opportunity"
+was viewed in terms of breaking a chain of causation stemming from the
+plaintiff's own negligence.52
+Wagon Mound (No 1) gave greater emphasis to the fault concept by overruling
+Re Polemis and offering foreseeability of damage as a control device.53 However,
+Viscount Simond's test was really "a flexible concept deprive[d] ... of any
+fettering rigidity".54 It warned not to take causation too far, but it did not change
+much. Re Polemis would probably be decided the same today. Wagon Mound has
+spawned its own complex distinctions between foreseeability as to kinds of
+damage and foreseeability as to the manner in which damage might occur.55
+Around the 1960s and 1970s there was a determined effort by appellate judges
+to expel metaphysical theory with its attendant metaphors and latinisms.
+Windeyer J once joked that:
+those who would explain common law principles by exotic Latin maxims ought surely to remember that
+these are to be understood secundum subjectam materiam.56
+What were we offered in its place? Enter the third phase. "Causation" was still
+seen as central, because reasonable foreseeability only "mark[ed] the limits
+beyond which a wrongdoer will not be held responsible for damage resulting
+from his wrongful act".57 However, we were assured that causation problems
+could be solved by the robust application of "common sense". Thus, in Alphacell
+Ltd v Woodward58 Lord Salmon said that:
+... what or who has caused a certain event to occur is essentially a practical question of fact which can
+best be answered by ordinary common sense rather than by abstract metaphysical theory.
+This robust approach was particularly suitable in the era when juries decided
+liability and damages.59
+March v E & MH Stramare Pty Ltd60 is the Australian authority still often cited
+for the glib submission that causation is a question of fact and a matter of
+common sense. It is frequently invoked in a context suggesting that hard
+questions of responsibility for fault can be solved once the causation issue is
+properly addressed. In fact, March is the modem turning point and the start of a
+fourth era in which causation reasoning becomes increasingly unfashionable. The
+CLR headnote reiterates the mantra that causation is essentially a question of fact
+to be answered by reference to common sense and experience. But this
+misrepresents March, which substantially qualifies or undermines this
+proposition by going on to emphasise that questions of policy and value
+judgments necessarily affect legal responsibility, measure of damages,
+contributory negligence and apportionment. The judgments in March
+acknowledge that the attribution of responsibility is a value-laden exercise even if
+the language of causation is used. Mason CJ was even critical of the view that
+value judgment has no part to play even in resolving causation as an issue of
+fact.61
+Building on March, there has been a further retreat in the last decade from the
+misplaced and misleading confidence that causation can be reduced to an opaque
+jury instruction about using common sense. Lord Hoffmann's speech in
+Environment Agency v Empress Car Co (Abertillery) Ltd62 is a milestone. His
+Lordship put the matter bluntly in a recent paper:63
+The reason why courts get the wrong answer on questions of causation is not usually because they have
+misunderstood the facts or lack common sense but because they have got the law wrong.
+We are now urged to ask necessary causation questions in their particular
+factual and legal context and, in the case of tort, from the point of view of the
+injured plaintiff and the wrong sued upon. Professor Stapleton helpfully describes
+this as the perspective through which the objective phenomenon of causation is
+judged.64 Thus, in Chappel, Gaudron J said:65
+Questions of causation are not answered in a legal vacuum. Rather, they are answered in the legal
+framework in which they arise. For present purposes, that framework is the law of negligence. And in
+that framework, it is important to bear in mind that that body of law operates, if it operates at all, to
+assign a duty to take reasonable steps to prevent a foreseeable risk of harm of the kind in issue.
+Cases such as Medlin v State Government Insurance Commission66 applied this
+approach to mitigation issues. The last of the metaphysical latinisms using the
+language of causation (novus actus interveniens) was shown the door, without
+actually being booted out. The High Court there emphasised that the
+reasonableness of the plaintiff's conduct was to be judged, as between the
+plaintiff and the defendant, and from the perspective of the plaintiff's injured
+condition.
+Appeals to common sense should nevertheless serve to remind us that the
+exercise is one in which judges and juries should have confidence in their
+personal sense of wisdom and reasonableness. But the task remains normative,
+because in the final analysis the various tests "allow the tribunal of fact to
+determine legal liability on broad grounds of moral responsibility for the damage
+which has occurred".67
+In March, the High Court exposed the presence of policy values sheltering
+behind the glib language of causation. In later cases, that Court has commenced
+to articulate those values. The guidance from the recent cases is that ultimate
+questions such as "was there breach?", "did it affect the plaintiff's conduct?" and
+"did it cause the damage claimed?" must be asked in the context of the
+defendant's legal responsibility to the particular plaintiff. This may involve
+considering the scope of the risk in contemplation of the legal duty.
+A cynical response to the title of my paper would be to propound the thesis
+that if a judge is moved by fault then he or she will find legal responsibility. But
+the books are full of cases "which show how shadowy is the line between
+culpability and compensation".68 Recent decisions and recent academic writing
+have cast much light on the subject. The shadows remain, but the focus is clearer.
+* President of the New South Wales Court of Appeal.
+1 Robert M Pirsig, Zen and the Art of Motor Cycle Maintenance: An Inquiry into Values, W Morrow,
+New York, 1983, p162.
+2 [1999] HCA 36, 73 ALJR 1190, 164 ALR 606.
+3 Support for this factor has firmed in Crimmins v Stevedoring Industry Finance Committee (1999) 167
+ALR 1 at [3] per Gleeson CJ (agreeing with McHugh J), [43] per Gaudron J, [100], [104] per McHugh
+J, [233] per Kirby J.
+4 South Pacific Manufacturing Co Ltd v New Zealand Security Consultants & Investigations Ltd [1992] 2
+NZLR 282 at 294. See also J Stapleton, "Duty of Care Factors: A Selection from the Judicial Menus" in
+P Cane and J Stapleton (eds), The Law of Obligations: Essays in Celebration of John Fleming,
+Clarendon Press, Oxford, 1998.
+5 Letter dated 1 June 1937 quoted by Bennett, Keystone of the Federal Arch, p 67.
+6 This, of course, happened. The new age of certainty dawned in Hughes & Vale Pty Ltd v New South
+Wales [1955] AC 241. It was to flourish for a time, before a new dark age, followed by a new age of
+certainty was to reappear (Cole v Whitfield (1988) 165 CLR 360) briefly (cf Bath v Alston Holdings Pty
+Ltd (1988) 165 CLR 411).
+7 [1999] HCA 59 at [73]-[78].
+8 Kirby J spoke to same effect at [226] n262.
+9 See T Honoré, Responsibility and Fault, Hart Publishing, Oxford, 1999, pp125-9. This book republishes
+essays written during the last decade, with an introduction drawing together the various strands.
+10 A number of ostensibly procedural rules assist plaintiffs in their quest to prove a tort case against
+chosen defendants (see nn41, 42 below).
+11 Wilson v Peisley (1975) 7 ALR 571, 50 ALJR 207.
+12 Perre at [103], [151]. See also Esanda Finance Corporation Ltd v Peat Marwick Hungerfords (1997) 188
+CLR 241 at 284, 289.
+13 Perre at [131]. See also Gummow J at [171].
+14 See, eg EJ Weinrib, "The Special Morality of Tort Law" (1989) 34 McGill Law Rev 403; RW Wright,
+"Substantive Corrective Justice" (1992) 77 Iowa Law Rev 625; Honoré, op cit, n9, pp73-6.
+15 See J Stapleton, "Duty of Care: Peripheral Parties and Alternative Opportunities for Deterrence" (1995)
+111 LQR 301; Crimmins at [306] (Hayne J).
+16 See generally P Cane, "Corrective Justice and Correlativity in Private Law" (1996) 16 Ox Jo LS 471;
+Honoré, op cit, n9, pp80-7.
+17 At present the availability of insurance is, in theory, an irrelevant factor; see Kars v Kars (1996) 187
+CLR 354 at 378-9; Esanda at 302-3.
+18 See J Stapleton, "In Restraint of Tort" in P Birks (ed), The Frontiers of Liability, Oxford University Press,
+Oxford, New York, 1994, vol 2, p95.
+19 [1999] 2 AC 455.
+20 Whether this represents the Australian law is unclear. Cf Mount Isa Mines Ltd v Pusey (1970) 125 CLR
+383.
+21 Alcock v Chief Constable of South Yorkshire Police [1992] 1 AC 310.
+22 At 503.
+23 [1999] 3 WLR 1301.
+24 At 1318.
+25 (1997) 188 CLR 241 at 284.
+26 See, eg McLoughlin v O'Brian [1983] AC 410 at 441 (Lord Bridge).
+27 (1976) 136 CLR 529 at 575. The passage is cited by Gummow J in Perre at [171]. Stephen J was quoting
+from Lord Atkin's speech in Donoghue v Stevenson [1932] AC 562 at 580.
+28 Sir John William Salmond, The law of torts: a treatise on the English law of liability for civil injuries,
+6th edn. Sweet & Maxwell, London, 1924, pp12-13. See discussion by RFV Heuston & RA Buckley in
+Salmond and Heuston on the Law of Torts, 21st edn, Sweet & Maxwell, London, 1996, pp21-5.
+29 (1866) LR 1 Ex 265, (1868) LR 3 HL 330.
+30 Salmond on Torts, 6th edn, op cit, n28, at viii.
+31 (1994) 179 CLR 520.
+32 At 593. Only Brennan J joined him in dissent.
+33 (1966) 120 CLR 145.
+34 (1995) 185 CLR 307.
+35 Ibid, at 343-4; Byrne v Australian Airlines Ltd (1995) 185 CLR 410 at 458-9; Crimmins at [157]-[158]
+(Gummow J).
+36 See T Weir, "The staggering march of negligence" in Cane and Stapleton, op cit, n4. Professor Weir
+instances developments in relation to nuisance, trespass, defamation and other areas where there are
+intrusions of negligence's concepts of reasonableness, foreseeability, proximity, remoteness etc.
+37 (1997) 188 CLR 313 at 366, 392. For recent cases illustrating difficulties with the existing law, see
+Newcastle Entertainment Security Pty Ltd v Simpson [1999] NSWCA 351, Mollis v Vabu Pty Ltd (T/as
+Crisis Couriers) [1999] NSWCA 334.
+38 See Bendix Mintex Pty Ltd v Barnes (1997) 42 NSWLR 307 at 317.
+39 See Belts v Whittingslowe (1945) 71 CLR 637 at 649; Chappel v Hart (1998) 195 CLR 232 at 238-9, 247-8,
+257, 273-4; Naxakis v Western General Hospital [1999] HCA 22 at [31], [76], [127],
+40 The debate centres on the interpretation or re-interpretation of Lord Wilberforce's speech in McGhee v
+National Coal Board [1973] 1 WLR 1 at 6-7. Some propose effective reversal of onus of proof as
+distinct from the reasoning process referred to the authorities cited in the previous footnote. Cf
+Bennett v Minister for Community Welfare (1992) 176 CLR 408 at 420-1, esp fn (23) (Gaudron J);
+Chappel at 273-4 (Kirby J); J Stapleton, "The Gist of Negligence" (1988) 104 LQR 389 at 401-7. Within
+New South Wales much of the debate is focused on the correctness or otherwise of my reasons in
+Bendix Mintex in their application to mesothelioma cases.
+41 March v E & MH Stramare Pty Ltd (1991) 171 CLR 506 at 514.
+42 This enables the plaintiff to take action against one of many defendants and to receive full
+compensation from that defendant, leaving it to the defendant to seek to recover a share of the
+damages from any other liable defendant. See generally New South Wales Law Reform Commission,
+Contribution Between Persons Liable for the Same Damages, 1999, R99.
+43 See Honoré, op cit, n9, pp85-7.
+44 See, eg Puntoriero v Water Administration Ministerial Corporation (1999) 165 ALR 337, (1999) 73 ALJR
+1359.
+45 Weinrib, op cit, n14, p404.
+46 Ibid, at p7.
+47 Alford v Magee (1952) 85 CLR 437 at 453. Generally, see C Peck, "Negligence and Liability Without
+Fault in Tort Law" (1971) 46 Washington L Rev 225 at 225-7.
+48 See T Sutton, "The Deodand and Responsibility for Death" (1997) 18 Legal History 44.
+49 [1921] 3 KB 560.
+50 Ultramares Corp v Touche 174 NE 441 at 444 (1931).
+51 Environment Agency v Empress Car Co (Abertillery) Limited [1999] 2 AC 22 at 29 per Lord Hoffmann.
+52 In Alford v Magee (1952) 85 CLR 437 the High Court exploded this view. But the proposition that the
+last opportunity rule was not a test of causation had to be reiterated in Chapman v Hearse (1961) 106
+CLR 112 at 123-4. See also March at 511-4.
+53 Overseas Tankership (UK) Ltd v Mort's Dock & Engineering Co Ltd ("The Wagon Mound") [1961] AC
+388.
+54 Sir Robin Cooke, "Remoteness of Damages and Judicial Discretion" [1978] Cam LJ 501 at 537. In March
+(at 510), Mason CJ explained that reasonable foresight was later to be rejected as a test of causation
+(in Chapman v Hearse) and as an exclusive criteria of responsibility (in McKew v Holland & Hannen
+& Cubitts [1970] SC (HL) 20 and Mahoney v J Kruschich (Demolitions) Pty Ltd (1985) 156 CLR 522).
+55 Chapman at 120-1; Hughes v Lord Advocate [1963] AC 837; Commonwealth v McLean (1996) 41 NSWLR
+389 at 402-7.
+56 Smith v Jenkins (1970) 119 CLR 397 at 410.
+57 Chapman at 122 per curiam.
+58 [1972] AC 824 at 847. Lord Hoffmann describes this as being "in the best tradition of English anti-
+intellectualism" Common Sense and Causing Loss, lecture to the Chancery Bar Association, 15 June
+1999, p2. See also Clay v A J Crump & Sons Ltd [1964] 1 QB 533 at 568-9 per Upjohn LJ ("... causation
+is almost entirely a question of fact in each case").
+59 See Fitzgerald v Penn (1954) 91 CLR 268.
+60 (1991) 171 CLR 506.
+61 At 515-7. See also Deane J at 523-4.
+62 [1999] 2 AC 22.
+63 See footnote 58.
+64 J Stapleton, "Perspectives on Causation" in Oxford Essays in Jurisprudence, 4th series, Oxford
+University Press, Oxford 1999.
+65 (1998) 195 CLR 232 at 238.
+66 (1995) 182 CLR 1. In so doing, the court effectively applied what Mason CJ and McHugh J had said
+about novus actus interveniens in March. See Kavanagh v Akhtar (1998) 45 NSWLR at 597-9.
+67 March at 531 per McHugh J.
+68 Wagon Mound (No 1) at 418 per Viscount Simonds.

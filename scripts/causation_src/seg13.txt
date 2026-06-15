@@ -1,0 +1,615 @@
+Part C:
+Issues of Causal Responsibility, Agency
+and Harm in Criminal Law
+10 Principles of Causation in Criminal
+Law
+DAVID LANHAM*
+Introduction
+Questions of causation in the context of crimes involving personal injury can
+present themselves across the whole spectrum of such offences, from the causing
+of transitory pain to the infliction of death. Most of the major reported cases have
+been decided in the context of homicide. The principles emerging from those
+cases are, in general, and with appropriate allowance for the different level of
+harm caused, applicable to crimes involving non-fatal injuries. From this point,
+however, in order to keep the explanation reasonably simple the discussion will
+focus on causing death.
+In that context, causation resolves itself into two questions: first is there a
+factual link between the defendant's conduct and the victim's death, secondly is
+the link sufficiently substantial to make the defendant's conduct the cause of
+death?1
+In the main, the proving of the factual link raises questions of evidence rather
+than theory. So in R v White,2 the defendant placed poison in his mother's drink.
+She consumed the drink and died, but the medical evidence showed that she died
+of a heart attack unconnected with the poison. As no factual link was made out
+the defendant could not be found guilty of murder.
+The factual link may be indirect. In Sirinjui Biagwei v R3 two natives J and S
+cast spears into the victim. J threw four spears and then S threw his four. It was
+not clear whose spear caused the death nor was it a case of aiding and abetting.
+Each native was acting independently, but there was a native custom under
+which natives who joined in a killing gained prestige. The court held that J was
+guilty but S was not.
+The result can be explained as follows. There was not enough evidence to
+establish a factual link between S's action and the death. The victim may have
+been dead by the time S threw his first spear. J however could be held guilty on
+either of two hypotheses. If his spear caused the death there would be no
+problem. If S's spear caused the death, J could be held liable since his action
+induced S to act. The factual link was established.
+It may be objected that even though there was a factual link, the link was too
+weak to justify holding J guilty because S was an independent actor. This goes to
+the strength rather than the existence of the link, a matter to be taken up below.
+For the moment it seems that the native custom was regarded as strong enough
+to overcome the objection that S's act was independent.
+What I have called the factual link is sometimes described as the "but for"
+requirement or "sine qua non test". According to this test, causation is not
+established if the death would not have occurred but for the act of the defendant.
+In many cases this way of describing the requirement will work well enough. In
+R v White,4 the poisoning case, the mother would have died even if the defendant
+had not poisoned her drink. It could not be said that she would not have died but
+for the defendant's action.
+But other cases which seem to cry out for liability would yield the wrong
+result under a "but for" test. Suppose A and B independently place two grains of
+poison each into V's drink, and that the fatal dose is two grains. V dies of the
+poison. There is clearly a factual link between A's act and the death, but it would
+be wrong to say that V would not have died but for the action of A. If A had done
+nothing V would still have died. The same is true of B. The result of a "but for"
+test would be that both would have to be acquitted even though each contributed
+in a substantial way to the death. Such a result would be intolerable and its
+avoidance justifies the wider factual link test. Professor J Andenaes suggests that
+both would be liable under Norwegian criminal law5 and the same should be true
+of Australian law. Both should also be liable where neither act is enough by itself
+to cause death but in combination the two acts do. Suppose in the poison case the
+fatal dose is 3 grains. A's 2 grains would not have killed nor would B's. But their
+combined four grains would be enough.6
+A more borderline case would be that where A gives 3 grains (the fatal dose)
+and B gives 2. Andenaes notes a conflict of opinion in Norwegian law on this
+point.7 There might be room for a distinction between cases where the whole of
+the drink was consumed and those where something less was taken. But this
+could lead to complicated questions of medical proof and it would seem better to
+hold both guilty.
+Once the "but for" requirement is abandoned other cases which might cause
+difficulty can be more easily solved. Hart and Honoré8 adapting a problem set by
+McLaughlin,9 pose a problem along these lines: V is entering a desert. A secretly
+places poison10 in V's water keg, B steals the keg and V dies of thirst. The "but
+for" test would lead to the acquittal of both A and B. But there is a clear factual
+link between A's act and V's death, but no factual link between B's act and the
+death. V has died because of the absence of drinkable water. It cannot matter
+whether the death is due to poisoning or thirst.11 Suppose B had not intervened
+but V had somehow discovered the water was poisoned. V might throw the
+poison away, preferring the risk of death by thirst to the certainty of death by
+poison. A could not complain that the death occurred in a manner different from
+that contemplated. B's intervention makes no difference. There is no factual link
+between B's act and V's death. B has unwittingly prolonged V's life. The
+withdrawal of drinkable water by A remains the cause of V's death.
+Where causation is a matter for the general (common) law the "but for" test
+creates no difficulties because there is nothing to require the courts to apply it.
+But where causation has been embodied in legislation there may be less room for
+a sensible result. Section 153(2) of the Tasmanian Criminal Code for example
+expressly adopts the "but for" test. It would do well to abandon it.
+If the factual link is established, the next question is whether that link is
+sufficiently strong to attribute the death to the defendant's action. Three matters
+need to be considered: first the general formula, secondly special sub-rules and
+thirdly the significance of intention, foresight and foreseeability.
+General Formula
+Australian law adopts the view that to found liability a cause must be a
+substantial and operating cause. This was the test set out in the English decision
+of R v Smith,12 where a person who had been stabbed by the defendant was
+dropped by stretcher bearers and given poor medical treatment. The Court of
+Criminal Appeal held that the defendant was guilty as his act was a substantial
+and operating cause of the death. This test has been adopted by Australian state
+full courts.13 The position taken by the High Court of Australia is more obscure.
+A rather special aspect of the law of causation arose in Royall v R14 where the
+problem was whether one who frightens another into killing herself accidentally
+can be held to have caused the death. This question was the main focus of the
+judgments but there were some, largely conflicting, views expressed about
+causation more generally. It is virtually impossible to find a majority position.
+Only McHugh J attempted an overall theory of causation, based upon
+foreseeability,15 but this led him into dissent on the main question before the
+court, and this approach was in effect rejected by the other judges. But not much
+positive was put in its place. There is a majority appeal to common sense,16 but it
+is clear that common sense provides no test at all. It is true that common sense or
+sound judgment will need to be applied in assessing any matters of degree which
+the legal tests present, but common sense will not provide those tests. We need
+look no further than the main legal point at issue in the Royall case itself to see
+that common sense can lead to either of two different rules. At its simplest the
+question was: if the victim reacts unreasonably to the defendant's threats and in
+doing so accidentally kills herself, has the defendant caused the death? Most of
+the judges said no, but McHugh J said maybe. Both answers are consistent with
+common sense.
+Three judges referred to a significant contribution.17 Deane and Dawson JJ
+appear to have regarded "significant" as meaning the same as "substantial", as
+does McHugh J.18 There certainly seems no good reason to reject the learning
+based on the word "substantial" and introduce doubts based on the slightly
+different word "significant". The majority judgments on the reasonable reaction
+question suggests no desire to widen the rules of causation through the adoption
+of the word "significant". The result seems to be that the basic approach taken in
+England and adopted by State courts in Australia remains.19
+Do we need two words to capture the basic principle in causation? In R v
+Malcherek,20 an English case involving the withdrawal of life support from
+victims injured by the defendants and close to death, the Court of Appeal said
+that the operating cause did not need to be substantial. As there was no doubt in
+the case that the original injury was a substantial cause of death the question did
+not arise for decision, but the comment looks wrong. There must be a point at
+which a cause is still operating but is so insubstantial that it should not result in
+liability. If either of the words is to be rejected it should be the word "operating",
+but simply on the ground that it is superfluous. A cause cannot be substantial
+unless it is operating. But that is clear from the further explanation of the formula
+adopted in R v Smith.21 Speaking of the case where there is an original injury and
+a second and more direct cause of the death, like poor medical treatment, the
+court said that only if the second cause is so overwhelming as to make the
+original wound part of the history can it be said that death does not flow from
+the wound. This test seems to reflect the requirement of substance rather than
+mere operational quality, and seems an equally appropriate test whether the word
+"operating" appears in the formula or not.
+The substantial cause test is flexible enough to cover most causation questions,
+but there are recurring situations where some sort of additional rule is advisable
+either to exemplify, qualify or supplement the basic test.
+Special Rules
+(i) Physical infirmity
+Cases can occur where a fairly minor blow can cause death because the victim
+suffers from an unusual physical condition like an egg-shell skull or haemophilia.
+In such cases it might be argued that the pre-existing physical condition rather
+than the blow is the substantial cause of death. The criminal law deflects this line
+of reasoning by adopting a notion that defendants take their victims as they find
+them. On the question of causation they cannot avoid liability on the ground that
+their attack would not have killed a person within the normal range of health. So
+in R v Hayward,22 a husband chased his wife, threatening violence. She was
+suffering from a persistent thymus gland so that the combination of physical
+exertion and fright was enough to kill her. Ridley J told the jury that the threats
+were a sufficient cause of the death. The jury convicted the husband of
+manslaughter. The Laws of Australia23 accept the general rule but suggest that it
+applies only to the pre-existing condition of the intended victims and not to those
+unintentionally harmed. The author relies upon Timbu Kolian v R,24 where a
+husband aimed a blow of moderate but illegal chastisement at his wife in the
+dark. She was carrying a baby in her arms and the blow hit the baby on the head
+killing him. The husband was held not guilty of manslaughter, but the ground of
+acquittal was that the mental or fault element of the crime was not made out, not
+that the husband's act had not caused the death of the child.25
+(ii) Victim’s reaction to threats
+Another case where the defendant's physical contribution to the death might be
+regarded as minimal is that where the defendant threatens the victim who reacts
+in such a way as to cause her own death. There is no problem with the factual
+link in these cases, but how is the requirement of substantial cause to be
+satisfied? There are three main tests: substantial consequence, foreseeability and
+reasonable response.
+Under the substantial consequence test, apart from the question of degree,
+nothing more would need to be shown than that the threat was the substantial
+cause of the victim's killing herself. In R v Halliday,26 a husband made threats
+against his wife's life and to escape him she got out by a window and injured
+herself. The husband had made frequent threats of violence before but had not
+used actual violence. The Court for Crown Cases Reserved held that he was liable
+for her injuries. The court adopted a wide principle.
+If a man creates in another man's mind an immediate sense of danger which causes ... such person to try
+to escape and in doing so he injures himself the person who creates such a state of mind is responsible
+for the injuries which result.
+The strength of this case is diminished by the fact that the trial judge had
+expressed the law in a way more favourable to the defendant. He did so by
+requiring that the fear of the victim should be well grounded and the action of
+the victim reasonable.27 It may be that the appellate court's wide statement needs
+to be understood in the light of the facts which were consistent with the trial
+judge's narrower approach to causation. Even so, the appellate judgment at face
+value may show that there is no inflexible rule that the reaction must be a
+reasonable one and founded on a reasonable belief.
+The second approach, that of foreseeability, would lay down a narrower test of
+causation, but would not necessarily demand that the victim's belief or response
+be reasonable. This was the line taken by McHugh J in Royall v R.28 The facts
+were unclear but one possibility was that the defendant had made threats against
+the victim's life and that the latter had jumped out of a window to escape, killing
+herself. The High Court of Australia upheld the defendant's conviction for
+murder, but the judges differed on the test of causation. McHugh J favoured a
+reasonable foreseeability test. On this basis a defendant could be held guilty of
+causing the death even if the victim's fear was not reasonable or if the victim's
+reaction was unreasonable. Reasonableness either of belief or action on the part
+of the victim would be merely a factor in assessing reasonable foreseeability.
+There are however difficulties in relying on reasonable foreseeability as the
+dominant approach to questions of causation. These will be considered later, but
+the possibility that unreasonable beliefs or actions may be foreseeable argues
+against a universal rule that unreasonableness breaks the chain of causation.
+The third approach takes just that line. This is the approach favoured by
+modern English cases29 and by most of judges of the High Court of Australia in
+Royall v R.30 While some of the majority judges recognised that foreseeability lay
+behind at least some rules of causation,31 they preferred to adopt a rule which
+made the reasonableness or unreasonableness of the victim's belief or action the
+crucial test of whether the threat caused the death.
+If unreasonable conduct on the part of the victim does break the chain of
+causation in these cases, there is room for considering whether a distinction
+should be made between unreasonable beliefs and unreasonable reaction.32 A
+victim may have a reasonable fear of great harm but may select an unreasonable
+method of escape. Even where there is only one escape route, it may be one that
+leads inevitably to death so that the mode of escape is unreasonable. This
+distinction could lead to a salutary narrowing of the requirement of
+reasonableness but it would be better to drop it altogether as an automatic
+requirement in establishing causation.
+(iii) Reaction to injuries
+If an unreasonable reaction to a threat breaks the chain of causation, what about
+an unreasonable reaction to an actual injury? Cases before Royall v R33 reject any
+hard and fast rule that unreasonable conduct by the victim breaks the chain. A
+modern case is R v Blaue.34 The defendant stabbed the victim piercing her lung.
+She was a Jehovah's Witness and refused to have a blood transfusion which was
+necessary to save her life. The defendant argued that her refusal was
+unreasonable and so broke the chain of causation. The Court held that attackers
+must take their victims as they find them and so the defendant caused the death.
+This reasoning may go too far, but the case supports a proposition that there is no
+automatic rule that intervening unreasonable conduct by the victim will break
+the chain of causation in this kind of case. Blaue's case was approved by the
+Victorian Court of Criminal Appeal in R v Evans and Gardiner.35
+At one level there is an inconsistency between the cases in this section and
+those in the last. In both cases there is a factual link between the defendant's
+action and the death, but the immediate cause of death is unreasonable conduct
+on the part of the victim. This breaks the chain of causation in the case of threats,
+but not in the case of injuries. The best solution would be to bring the threats
+cases into line with the injuries ones so that unreasonable conduct would not
+break the causal link, but the two lines of cases can be reconciled on the basis
+that by itself a threat cannot (except where a person is literally frightened to
+death) be the cause of death, whereas an injury of any seriousness may be. This
+might explain a difference between the two situations.
+(iv) Third party reaction to threats
+The direct cause of death may be an act by a third party who reacts to a threat by
+the defendant. In R v Pagett,36 the defendant shot at armed police and used the
+victim as a shield. The police returned the fire, killing the victim. The defendant
+was held guilty of causing the death. The court held that a reasonable act in self
+defence or in the execution of a legal duty did not break the chain of causation.
+What if the police officers had acted unreasonably, for example by using
+excessive force or by unduly risking the victim's life where no one was in
+immediate danger? The situation would then be analogous to that in Royall v R,
+discussed in section (ii) above.
+(v) Negligent intervening conduct by a third party
+The typical case is negligent medical treatment, though any negligent action in
+response to the original attack would raise the same principle. Until relatively
+recently intervening negligence by a third party seems to have broken the chain
+of causation, at least if the original injury was not itself life threatening. In the
+17th century, Hale37 said that if the injury was not mortal and the victim dies of
+the ill application of unwholesome medicine which causes the death the original
+assailant is not guilty. This view was followed in the United States decision of
+Bush v Commonwealth38 where a wound was treated by a doctor suffering from
+scarlet fever. The victim died of this fever and the original assailant was held not
+guilty. The court seems to have regarded the scarlet fever as a wholly
+independent instrumentality, but that seems doubtful as it was carried by a
+physician treating the wound. The case was rather one of negligent medical
+treatment39 and so stands for the proposition that, in the case of non-mortal
+injuries, such treatment breaks the chain of causation. The same principle seems
+to have been applied as one of the grounds of decision in R v Jordan.40 The
+defendant stabbed the victim, but after the wound had largely healed the victim
+was given medical treatment to which he was intolerant and which the appeal
+court said was palpably wrong. The court held in effect that the treatment broke
+the chain of causation. Though on one view it was the abnormality of the
+treatment which broke the chain of causation, the case must be seen in the
+context of an original wound that had almost healed. On this latter basis, the
+original wound had ceased to be a substantial cause of death so that the case
+supports no general principle that abnormal treatment or negligent treatment
+breaks the chain of causation.
+This is the way R v Jordan has been treated by later English and Australian
+cases which have held that medical negligence does not necessarily break the
+chain of causation.
+In England the turning point came in 1959 in the shape of R v Smith.41 The
+defendant soldier stabbed the victim, another soldier, with a bayonet. The wound
+might not have been fatal, but the victim was dropped while being carried to the
+medical centre and at the centre he received inappropriate medical treatment.
+The Courts-Martial Appeal Court refused to regard the intervening negligent
+treatment as something breaking the chain of causation and held the defendant
+liable on the basis that the stabbing was a substantial and operating cause of the
+death. This approach was approved and the Jordan case was confined to cases of
+insubstantial cause by the Jehovah's Witness case R v Blaue42 and by R v
+Malcherek,43 a case which involved the withdrawal of a respirator when there
+was no hope of recovery from the defendant's attack. Not surprisingly, the
+withdrawal did not break the chain of causation.
+The operating and substantial cause approach in R v Smith was adopted by the
+Full Court of Victoria in R v Evans and Gardiner (No 2).44 Here the victim
+received a bowel resection operation for a stab wound inflicted by the defendant.
+The operation was initially successful but about eleven months later, the victim
+suffered pain and vomiting. He received treatment but died from a stricture in the
+bowel. There was evidence that this should have been diagnosed and could have
+been rectified by operative treatment. Nonetheless the Full Court held that the
+alleged negligent medical treatment did not break the chain of causation.
+Though intervening medical negligence, or other negligent third party conduct
+will not necessarily break the chain of causation, it will do so if it renders the
+defendant's action a less than substantial cause. In R v Cheshire45 the Court of
+Appeal said that it was wrong for the judge to tell the jury that only reckless
+medical treatment would break the chain of causation. Negligent treatment
+would do so if independent of the defendant's acts and so potent as to make the
+contribution of those acts insignificant.
+In Australia it is possible that a narrower view of causation will be held as a
+result of the decision of the High Court in Royall v R.46 There the majority held
+that an unreasonable reaction to a threat would break the chain of causation. If
+this reasoning were extended to the intervening medical treatment context,
+negligent treatment would break the chain. This would overturn cases like R v
+Evans and Gardiner and restore R v Jordan to centre stage. That case however
+has rightly had few champions and some limit to the Royall case is desirable.
+Recognition that medical negligence may, where independent and potent, break
+the chain of causation would be an appropriate way of limiting the effect of the
+Royall case, while it stands.
+The criminal codes of Queensland, Western Australia,48 Tasmania49 and the
+Northern Territory50 contain variations on these themes, the main thrust of
+which is to hold that the chain of causation is broken where the immediate cause
+of death is improper medical treatment.51 This seems an unduly restrictive
+approach to causation.
+(vi) Suicide by the victim
+If any reaction to the defendant's conduct is going to break the causal link, a
+deliberate act of self destruction seems a prime candidate. But there is no blanket
+rule that even a deliberate suicide will of necessity break the chain of causation.
+In R v Hallett52 the Full Court of South Australia considered whether suicide by a
+victim after a severe beating would break the chain of causation, but left the
+matter unresolved, save to refer to United States cases discussed in Howard's
+Criminal Law text.53
+One of the American cases cited by Professor Howard does support the view
+that suicide breaks the chain of causation. In State v Angelina54 the defendant
+inflicted a serious wound which could have itself caused death, but the victim
+committed suicide. The court held that if the suicide was the act of an
+independent responsible agent, it broke the chain of causation, but that if the
+victim was rendered irresponsible by the wound inflicted by the defendant, the
+chain was not broken. The court equated a responsible act of suicide with
+negligent medical treatment and with the independent act of deliberate killing on
+the part of an intervening third person.55
+This case is in line with the early 20th century thinking on intervening medical
+negligence but is weakened by later developments which hold that medical
+negligence does not automatically break the chain of causation. Even so, suicide
+is a stronger basis for breaking the chain than negligence and there is some merit
+in the principle laid down by the court. Much depends, however, on the meaning
+of "independent" and "responsible".
+The notion that a non responsible act of suicide will not break the causal link
+was taken further in Stephenson v State.56 The defendant brutally raped the
+victim and bit her all over her body. She poisoned herself. On the trial for murder
+the defendant argued that the victim's suicide broke the chain of causation. At
+the appeal court two judges would have held that the victim's suicide broke the
+chain unless the victim was irresponsible in the sense of insane within the
+meaning of the defence of insanity. But the majority took a wider view of non-
+responsibility. The fact that the victim was distracted by pain and shame was
+enough to remove her responsibility for the act of suicide and so render the
+defendant liable for her death.
+But even this may be too narrow a rule. A third American case focuses more
+on the question of independence than on that of the responsible nature of the act
+of suicide. In People v Lewis57 the defendant shot the victim who then cut his own
+throat, hastening the death. It was unclear why the victim killed himself. It may
+have been because of the pain from the gunshot wound, from remorse or from a
+desire to shield the defendant who was the victim's brother in law. The Supreme
+Court of California held that the defendant was guilty of murder, whichever of
+the three reasons was the true reason for the suicide. The court seems to have
+been persuaded by the fact that the original gun shot wound was mortal in the
+sense that it would inevitably have led to death within the hour. It took the view
+that if the wound had been merely painful and not mortal and if the victim knew
+this, the suicide would have broken the chain.
+What is noticeable about the Lewis case is that what is regarded as important
+is not whether the suicide was a responsible act, but whether it was caused by the
+wounding. This seems a better test than that in the other two American cases, but
+the application of the principle may have gone too far on the facts of the case. If
+there really was a reasonable doubt whether the victim killed himself out of
+remorse, the defendant should have been acquitted of the full crime.58 The
+remorse reason suggests that the victim killed himself because of his own earlier
+blameworthy actions (the two men had quarrelled) rather than the defendant's
+act of wounding. But the reference to remorse is brief in the extreme and the
+point is not examined. It is possible that, despite mentioning remorse as a possible
+motive, the court did not take the possibility at all seriously. On either of the
+other (more plausible) possible motives, the causal potency of the wound on the
+suicide seems substantial. On that basis the case is in line with most of the
+Australian cases on causation. Certainly, it does not seek to erect a hurdle of
+reasonableness. While the motive of pain might have made the self destruction a
+reasonable act, the desire to shield the assailant from the law could hardly have
+been regarded as reasonable. Yet neither motive would have led to a break in the
+chain of causation.
+(vii) Intervening deliberate act of killing by X
+Perhaps the strongest case for recognising a break is that where the immediate
+cause of death is a deliberate act of killing by a third party. In a United States
+case, State v Scales,59 the defendant inflicted severe burns on the victim but the
+immediate cause of death was a blow to the head by X, an unidentified third
+party. It was assumed that the act of X was independent of the infliction of the
+burns. The court held that the independent act of killing by X meant that the
+defendant had not caused the death. The court said that where the intervening
+act was independent, the original assailant could not be said to have killed the
+victim without involving the absurdity of saying that the victim was killed twice.
+This reasoning is unsatisfactory. It would apply equally to a case where the
+second act of killing was dependent on, in the sense of a reaction to, the first
+attack. We can ascribe two (among many) possible motives to killer X. One is that
+X wanted the victim dead for X's own purpose and was not willing to entrust the
+death to the burning. A sufficiently massive blow to the head might properly
+break the chain of causation. The second is that X found the victim in an
+apparently painful and hopeless condition and inflicted the blow to the head as
+an act of mercy. There would then be no good reason to deny the liability of the
+defendant.
+A case from Papua New Guinea provides a more borderline example. As was
+seen earlier, in Sirinjui Biagwei v R,60 the first defendant threw four spears at the
+victim and then the second defendant did the same. The second defendant acted
+in accordance with a native custom which accorded honour to those who joined
+in a killing. That custom removed the quality of independence from the second
+defendant's acts so that they did not break the chain of causation.
+Another situation in which the original assailant should be held liable is that
+where the original blow continues to be a substantial factual cause of death even
+though the second blow is given by a fully independent third party with his or
+her own reasons for wanting the victim dead. In People v Lewis61 the Supreme
+Court of California said that in this situation both assailants could be guilty of
+homicide, and this seems the right solution.
+(viii) Independent intervening human actions which represent
+the sole or overwhelming actual cause of death
+Quite a mouthful, but there seems little doubt that this kind of intervening action
+would break the chain of causation, whether or not the original injury was likely
+of itself to result in death. The principle is clearly stated in Bush v
+Commonwealth62 and State v Scales,63 cases referred to earlier, but neither the
+application of the principle in Bush nor the reasoning behind it in Scates is
+entirely satisfactory. The difficulty perhaps is not so much in stating the principle
+as in applying it. Independence lies not in the fact that the intervening actor may
+be criminally or civilly liable as the court in the Scates case seems to have
+thought, but in the fact that the intervening act is not a reaction to the original
+injury. It does not turn on the culpability or level of culpability of the intervening
+actor, as an act can be independent in the sense used here, whether it is
+deliberate, negligent or innocent, justified, excused or illegal.
+Suppose in time of war or rebellion a fighter pilot aims a missile at what he
+believes is the enemy's headquarters but hits what turns out to be a field hospital
+killing dying patients and doctors. Whatever the legality of the pilot's act, it
+would break the chain of causation in relation to any patient killed solely by the
+missile. The killing would be in no way a reaction to the original injury. But were
+a patient in the far end of the hospital to die partly of the original wound and
+partly by some aggravation of that wound by shock from the missile, the chain of
+causation would not necessarily be broken. It would not be broken if the original
+wound was still a substantial cause of the death.
+(ix) Intervening act of nature
+Suppose the defendant's act leaves the victim vulnerable to the forces of nature
+which are the immediate cause of the death. Here the law draws a distinction
+between the ordinary course of nature and extraordinary events. So if the
+defendant knocks the victim unconscious and leaves him on the sea shore and he
+is drowned by the incoming tide, the defendant is liable, but if the victim is killed
+by an earthquake on a tidal wave, the chain of causation is broken.64
+(x) Intention, foresight and foreseeability
+There are two extreme views on the relationship between causation and
+intention, foresight and foreseeability. At one end of the spectrum is the notion
+that causation is a matter of objective fact and that questions of intention,
+foresight and foreseeability have nothing to do with this part of the case. This
+was the position taken by the Full Court of South Australia in R v Hallett.65 At
+the other extreme, foreseeability is a, if not the, central test of causation. This was
+the approach taken by McHugh J in Royall v R66 and by Smith and Hogan's
+Criminal Law.67 The current position seems to be that foreseeability is not
+necessary for causation, but that intention, foresight or foreseeability may
+sometimes establish causation where otherwise it would be lacking.
+If we take a case where normally causation would not be made out, we can see
+how intention might make a difference. Suppose the defendant knocks the victim
+unconscious and the victim is killed by an earthquake. Hallett's case contemplates
+that the defendant would not be guilty of causing the death. This would be so
+whether the defendant intended to kill the victim by the attack or was merely
+grossly negligent. But suppose the defendant knows that an earthquake is
+imminent and leaves the victim in a place where he or she hopes the earthquake
+will cause death. The defendant should be held liable. Though R v Hallett seems
+to deny liability even where this kind of intention is present, the High Court of
+Australia in Royall v R68 would impose liability. Mason CJ said that state of mind
+could be relevant to causation for example where the defendant intended the
+injury should result in the way in which it did.69 Brennan J applied a similar
+principle to the case where the victim reacts unreasonably to the defendant's
+threat. If the defendant intended that the threat should cause the reaction,
+causation is made out.70
+This principle extends to foresight.71 Even if the defendant does not want the
+victim to die and is not virtually certain that she will, he may be liable if he
+foresees that death is likely to (or may as a real possibility) occur in the way that
+it does. The degree of probability has not yet been worked out, but real, as
+opposed to fanciful possibility should be enough to establish causation.
+Where does that leave foreseeability? We saw earlier that in Royall v R only
+McHugh J was prepared to regard foreseeability as the appropriate criterion of
+causation to ask the jury to apply. The other judges rejected that approach.
+Implicit in that rejection are two consequences. First, that one can be held to
+cause death even if the manner of death is not reasonably foreseeable. The
+stabbing of a Jehovah's Witness who refuses a biood transfusion seems to fall into
+that category. Secondly, it is not generally appropriate to ask the jury to consider
+the foreseeability of the manner of death in deciding matters of causation.
+Leaving an unconscious person on the sea shore where she is drowned by the
+incoming tide is an example. It would be profitless to clutter up the issue with the
+question whether a reasonable person would foresee that the tide might come in
+and drown the victim. Better to have a fully objective rule which recognises the
+effect of the normal course of nature. So is there any room at all for
+foreseeability? There is one function it could perform. Like intention and
+foresight, it might be allowed to widen the notion of causation to cases it would
+not normally reach. But in order to play this part it would have to be something
+different from a reasonable person style of foreseeability. In order to justify a
+widening of the ordinary rules of causation, the foreseeability would have to be
+personal to the particular defendant. The point can be illustrated by reference to
+the reaction to threat kind of homicide. The rule that the reaction must be
+reasonable can be reframed as a rule that the reaction must be reasonably
+foreseeable together with a sub-rule that unreasonable reactions are not
+reasonably foreseeable. This last proposition could be restated in terms that a
+reasonable person would not foresee a real possibility that the victim would react
+in an unreasonable fashion. (It could not plausibly be stated that a reasonable
+person could foresee no possibility whatever that the victim would act
+unreasonably.) This way of expressing the law would simply be a clumsier, more
+convoluted and more confusing way of arriving at the same position as the more
+direct rule that an unreasonable reaction breaks the chain of causation. So if
+foreseeability has any useful part to play it must be what this defendant could
+reasonably be expected to foresee. So if there is evidence to show that this
+defendant should, say by reason of past experience, have realised that the victim
+would act in an unreasonable way, that should be enough to prevent the break in
+the chain of causation.
+Causation and the Model Criminal Code
+The Commonwealth, States and Territories, through the Standing Committee of
+Attorneys-General, are working on a Model Criminal Code intended for adoption
+by all Australian jurisdictions. Clause 5.1.3 of the Model Criminal Code provides
+that a person's conduct causes death or harm if it substantially contributes to the
+death or harm. This is designed to codify Australian common law's preference for
+substantial cause over any test based on foreseeability.72 It also seems designed to
+overrule Royall v R73 on the point that an unreasonable reaction by a frightened
+victim would break the chain of causation.74 The Committee did not consider the
+question whether intention, foresight or foreseeability might provide a basis for
+causation where objectively causation would not be made out, as in the predicted
+earthquake case. The formulation in clause 5.1.3 seems flexible enough to cater
+for such cases.
+* Professorial Fellow at the Faculty of Law, the University of Melbourne.
+1 A person's act may be a cause of death even if it is justified, as in a case of self defence – see Keown v
+Khan [1999] 1 VR 69. Problems such as the administration of pain-killers which may shorten life are
+also better dealt with under a theory of defences than by overloading the rules of causation: see D
+Lanham, "Euthanasia, Painkilling, Murder and Manslaughter" (1994) 1 J of Law and Medicine 146.
+2 [1910] 2KB 124.
+3 (1962) 36 ALR 9 (High Court) and (1962) 1967-68 PNGLR 209 (retrial).
+4 [1910] 2 KB 124, above.
+5 The General Part of the Criminal Law of Norway, Fred B Rothman, South Hackensack NJ, 1965, at p118.
+6 Andenaes, op cit, n5, at p121.
+7 Ibid.
+8 Causation in the Law, 2nd edn, 1985, at p239.
+9 JA McLaughlin, "Proximate Cause" (1925-6) 39 Harvard Law Review 149 at p155.
+10 To avoid ambiguity we need to assume that the poison would kill instantaneously so that the poisoned
+water would not postpone death by overcoming thirst for a short while: see J Stapleton, "Perspectives
+on Causation" in J Horder (ed), Oxford Essays in Jurisprudence, 4th Series, Oxford Uni Press, Oxford,
+2000, at p84.
+11 M Hale, 1 PC 617.
+12 [1959] 2 QB 36.
+13 Eg R v Hallett [1969] SASR 141; R v Evans and Gardiner (No 2) [1976] VR 523.
+14 (1991) 172 CLR 378.
+15 At p449.
+16 Mason CJ at p387, Dean and Dawson JJ at pp411-12; Toohey and Gaudron JJ at p423.
+17 Brennan J at p298; Deane and Dawson JJ at p411.
+18 At p449.
+19 The substantial cause test seems to have been approved by the High Court of Australia in Osland v R
+(1998) 73 ALJR 173 but there the defendant was also acting in concert.
+20 [1981] 2 All ER 422 at 428.
+21 [1959] 2 QB 193 at 198.
+22 (1908) 1 Cox CC 692. See also Mamote Kulang v R (1964) 111 CLR 62 (Papua New Guinea Code).
+23 Criminal Law, Homicide, para 2[17].
+24 (1968) 119 CLR 47.
+25 This is also the case of the majority judgment of the High Court of Australia in R v Van Den Bemd
+(1994) 179 CLR 137. See also J Blackwood, "Humpty Dumpty Was Pushed Off the Wall ..." (1996) 15
+Univ of Tasmania LR 306.
+26 (1889) 61 LT 701.
+27 At p702.
+28 (1991) 172 CLR 378 at p450. Contrast Brennan J who seems to have equated reasonable response with
+foreseeability (at p394).
+29 Eg DPP v Daley (1979) 69 Cr App R 39; R v Williams and Davis (1992) 95 Cr App R 1; R v Mackie (1973)
+57 Cr App R 453; R v Marjoram, The Times, 3 December 1999.
+30 (1991) 172 CLR 378.
+31 Eg Mason CJ at 390; Deane and Dawson JJ at 412; Toohey and Gaudron JJ at 425.
+32 A point left open by Mason CJ at 339.
+33 (1991) 172 CLR 378.
+34 [1975] 1 WLR 1411. See also R v Wall (1802) 28 State Tr 51; R v Holland (1841) 2 Mood and R 351.
+35 [1976] VR 523 at 527. See also R v Bingapore (1975) 11 SASR 469.
+36 (1983) 76 Cr App R 279.
+37 1 Pleas of the Crown 428.
+38 78 Ky 268 (1880).
+39 See p271.
+40 (1956) 40 Cr App R 152.
+41 [1959] 2 QB 35.
+42 [1975] 1 WLR 1411.
+43 [1981] 1 WLR 690. For a similar case under the Queensland Criminal Code, see R v Kinash [1982] Qd R
+648.
+44 [1976] VR 523.
+45 (1991) 93 Cr App R 251. See also R v McKechnie (1992) 94 Cr App R 51.
+46 (1991) 172 CLR 378.
+47 Criminal Code (Qd) s298.
+48 Criminal Code (WA) s275.
+49 Criminal Code (Tas) sl54(b).
+50 Criminal Code (NT) s160.
+51 Treatment includes a medical decision not to give treatment: R v Cook (1979) 2 A Crim R 151.
+52 [1969] SASR 141.
+53 C Howard, Australian Criminal Law, Law Book Co, Melbourne, Sydney, 1965, pp32-3.
+54 80 SE 141 (1913).
+55 At 142-3.
+56 179 NE 633 (1933).
+57 57 P 470 (1899). See also US v Hamilton, 182 FS 548 (1960).
+58 There is some support for this view in R v Dear [1996] Crim L R 595.
+59 50 NC 409 (1858).
+60 (1962) 36 ALJR 9 and [1967-68] PNGLR 209.
+61 57 P 470 at 473 (1899).
+62 78 Ky 268 (1880).
+63 50 NC 409 (1858).
+64 R v Hallett [1969] SASR 141 at 150.
+65 [1969] SASR 141.
+66 (1991) 172 CLR 378 at 451. See also S Yeo, "An Australian Evaluation of Causation in Fright Cases"
+(1943) J of Criminal Law 390.
+67 (9th edn, 1999) at pp 339-44.
+68 (1991) 172 CLR 378.
+69 At 390. See also R v Michael (1840) 9 C and P 356.
+70 (1991) 172 CLR 378 at 400.
+71 R v Jemielita (1996) 81 A Crim R 409.
+72 Model Criminal Code Officers Committee, Fatal Offences Against the Person, Discussion Paper, 1998, at
+pp25-31.
+73 (1991) 172 CLR 378.
+74 Note 72, at pp27-31.

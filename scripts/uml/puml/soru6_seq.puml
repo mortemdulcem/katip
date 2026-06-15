@@ -1,0 +1,32 @@
+@startuml soru6_seq
+!include _seq.iuml
+title Şekil 6b · İçecek + eklenti + indirim fiyatı (Decorator — özyinelemeli)
+actor Musteri
+participant "kar : Karamel" as KAR
+participant "sut : Sut" as SUT
+participant "esp : Espresso" as ESP
+participant "kamp : KampanyaIndirimi" as KAM
+participant "ogr : OgrenciIndirimi" as OGR
+Musteri -> KAM : fiyat()
+activate KAM
+KAM -> OGR : fiyat()
+activate OGR
+OGR -> KAR : fiyat()
+activate KAR
+KAR -> SUT : fiyat()
+activate SUT
+SUT -> ESP : fiyat()
+ESP --> SUT : temel fiyat
+SUT --> KAR : +süt
+deactivate SUT
+KAR --> OGR : +karamel
+deactivate KAR
+OGR --> KAM : -öğrenci ind.
+deactivate OGR
+KAM --> Musteri : -kampanya = SON FİYAT
+deactivate KAM
+note over KAR, ESP
+  Eklentiler: new Karamel(new Sut(espresso)).
+  İndirimler üstte sarmalanır: new KampanyaIndirimi(new OgrenciIndirimi(icecek)).
+end note
+@enduml

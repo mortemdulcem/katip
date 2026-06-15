@@ -1,0 +1,50 @@
+@startuml soru5
+!include _style.iuml
+title Soru 5 — Sinema Bilet Sistemi · Alan Modeli
+
+class Film {
+  - ad : String
+  - sure : int
+}
+class Salon {
+  - salonNo : int
+  - kapasite : int
+}
+class Seans {
+  - tarih : Date
+  - saat : Time
+}
+class Koltuk {
+  - sira : String
+  - koltukNo : int
+}
+class Musteri {
+  - musteriNo : String
+  - ad : String
+}
+class Bilet {
+  - ucret : double
+}
+
+Film "1" -- "0..*" Seans : gösterilir >
+Salon "1" -- "0..*" Seans : ev sahibi >
+Salon "1" *-- "1..*" Koltuk : içerir >
+Seans "1" -- "0..*" Bilet : satılır >
+Koltuk "1" -- "0..*" Bilet : için kesilir >
+Musteri "1" -- "0..*" Bilet : satın alır >
+
+note bottom of Bilet
+  <b>{kısıt}</b> Aynı (Seans, Koltuk) çifti
+  <b>en çok bir</b> Bilet'e bağlanır:
+  bir koltuk her seansta yalnız bir kez satılır,
+  ama farklı seanslarda yeniden satılabilir.
+end note
+
+note bottom of Seans
+  <b>GoF örüntüsü gerekmez — saf alan modellemesi.</b>
+  Bir film çok seansa sahip; her seans tek salonda;
+  bir seansa çok bilet. Bir Bilet tek koltuk + tek seans
+  için kesilir; bir Koltuk farklı seanslarda çok bilete girer.
+  Koltuk salona <b>kompozisyon</b> ile bağlıdır (salon yoksa koltuk da yok).
+end note
+@enduml

@@ -1,0 +1,39 @@
+### Histoloji
+
+Daha 1893’te Virchow, özellikle adli tıp uygulamalarıyla ilgili diseksiyon tekniği kitabında, bazı patolojik değişikliklerin çıplak gözle değil, ancak mikroskop ya da büyüteç yardımıyla tanınabileceğini vurgulamıştır.60
+
+Mümkün olduğu her durumda, tüm otopsilerde belli bir dizi dokudan histolojik inceleme yapılması tavsiye edilir. Otopsilerde ve kaçınılmaz olarak tüm ceza soruşturması konusu olan ya da çekişmeli (davalı) vakalarda, doğal hastalıkların varlığını doğrulamak veya dışlamak için histoloji gerekir. Diğer durumlarda histoloji; lezyonların zamanlaması, yaşamsallığı (vitalitesi) ve nedenleriyle ilgili sorulara yanıt sağlayabilir veya hava yollarında ya da gastrointestinal kanalda bulunan aspire edilmiş ya da yutulmuş materyalin niteliğinin belirlenmesine yardımcı olabilir. İzole doku fragmanlarının insan kökenli olduğunun teyidine ihtiyaç duyulabilir; örneğin kitlesel felaketlerde. Ancak şahsi kimliğin belirlenmesi için moleküler biyolojik yöntemler zorunludur.
+
+Avrupa Konseyi’nin adli otopsilerin uyumlaştırılmasına ilişkin tavsiye kararında, her otopsiden histolojik örnek alınması önerilmektedir.15 Benzer şekilde, Royal College of Pathologists (Birleşik Krallık) tarafından Eylül 2002’de yayımlanan otopsi uygulama rehberi, tüm otopsilerde histoloji için tüm başlıca organlardan örnek alınmasını en iyi uygulama (best practice) olarak önermektedir.14
+
+Home Office Policy Advisory Board for Forensic Pathology ve Royal College of Pathologists tarafından hazırlanan *Code of practice and performance standards for forensic pathologists* ile İskoç Hükümeti, Crown Office Procurator Fiscal Service (COPFS) ve Royal College of Pathologists tarafından yayımlanan *Code of Practice and Performance Standards for Forensic Pathologists dealing with Suspicious Deaths in Scotland* dokümanları şu tavsiyede bulunmaktadır: 
+
+> “Tüm şüpheli ölümlerde, başlıca organların (ileri derecede çürümemiş olmaları koşuluyla) histolojik incelemesi, bizzat patologlar tarafından yapılmalıdır. Histoloji, ölüm nedenine katkıda bulunmuş olabilecek doğal hastalık süreçlerini doğrulamada, değerlendirmede ve kimi zaman bunlara ilişkin seyri yeniden gözden geçirmede önem taşır. Olayın koşullarına bağlı olarak, örneğin yaraların yaş tayini (aging of injuries) amacıyla, histolojik inceleme için başka örnekler de alınmalıdır. Histolojik inceleme yapmama yönündeki herhangi bir kararın gerekçeleri yeterince kaydedilmeli, böylece patolog gerekmesi halinde bu kararı savunabilecek durumda olmalıdır.”.62
+
+> **💬 Çevirmen notu:** Bu yaklaşım, Türkiye’de de adli otopsilerde histoloji alınmasının önemini vurgular. Özellikle CMK kapsamındaki şüpheli ölümlerde, histoloji alınmaması durumunda bunun tıbben ve hukuken savunulabilir biçimde gerekçelendirilmesi gerekir. Aksi halde, sonradan açılabilecek disiplin veya tazminat davalarında patolog zor durumda kalabilir.
+
+Bu önerilere, mümkün olduğunca uyulmalıdır; her ne kadar bazı adli otopsilerde, bu tür tekniklerin maliyeti sorun yaratabilse ve coroner veya otopsiyi talep eden diğer merci bu işlemi finanse etmeyi reddedebilse de. Uygulamada en azından beyin, kalp, akciğer, karaciğer, böbrek, pankreas, dalak, tiroid, adrenal (sürrenal) bez ve kastan örnek alınması gelenekseldir. Çürümüş cesetlerde bile histoloji, histoloji yapılmadığı takdirde saptanamayacak hastalık süreçlerini zaman zaman ortaya koyabilir.
+
+Yazar (PS) bir hastane ölümünde otopsi yapmıştır; hastada sırt ağrısı ve merdivenden düşme öyküsü vardır, ardından çift taraflı bacaklarda güçsüzlük, ilerleyici paraparezi ve eşlik eden duyu kusurları gelişmiştir. Hasta tanı konulamadan ölmüş ve hastane patoloğu, ölüm nedeni belirsiz olduğundan otopsi yapmayı reddetmiştir. Sonraki bürokratik gecikmeler nedeniyle, adli otopsi yapıldığında ceset artık çürümüş durumdaydı. Otopsi tamamen negatif sonuçlanmış, ancak klinik bulgular sırt bölgesinde yoğunlaştığı için omurilik, diğer organlarla birlikte histoloji için çıkarılmıştır. Toksikoloji dahil tüm yardımcı incelemelerin sonuçları negatiftir; yalnızca omurilik histolojisinde, ileri derecede çürümeye rağmen granülosit olarak tanınabilen bol inflamatuvar hücre infiltrasyonu saptanmış ve bu bulgu miyelit (myelitis) düşündürmüştür.
+
+> **💬 Çevirmen notu:** Yoğun çürüme bulunan olgularda bile, özellikle merkezi sinir sistemi ve kalp gibi organlara ait histoloji, doğal hastalıkları ve bazı inflamatuvar süreçleri gösterebilir. Türkiye’de “ceset çürük, histolojiye gerek yok” yaklaşımı zaman zaman görülebilse de, bu örnek, histolojiden vazgeçilmemesi gerektiğini iyi gösterir.
+
+Vücudun başka bölgelerinin incelenmesi için endikasyon bulunduğunda, bu bölgelerden de rutin dokulara ek olarak örnekler alınır. Bulguların yorumunu güçleştirecek artefaktları önlemek için kesiler daima keskin aletlerle yapılmalıdır. Örneklerin alındığı bölgeler otopsi tutanağında kaydedilmeli ve numaralandırılmalıdır; böylece topografik korelasyon, makroskopik bulgularla karşılaştırma, olası daha sonraki gözden geçirmeler ve kalite güvencesi önlemleri mümkün olur.
+
+Dokular ya otopsi sırasında nispeten büyük parçalar halinde alınır (ki bunlar kısa süre sonra uygun boyuta küçültülür) ya da otopsi esnasında standart boyutta bloklar (örneğin 20 × 12 × 3 mm) halinde kesilir. Güvenilir sonuçlar için uygun histolojik yöntemlerin seçimi son derece önemlidir. Rutin histopatoloji için çoğu doku, otolitik süreçleri ve bakteriyel yıkımı durdurmak ve proteinleri stabilize etmek amacıyla tamponlu formaldehit (buffered formaldehyde, buffered formalin) ile fikse edilir. Örneklerin büyüklüğü ve kalınlığı, seçilen fiksasyon ve boyama yöntemleriyle uyumlu olmalıdır. Doku, geniş hacimde tamponlu formol–salin (formol–saline) içine konur ve işleme alınmadan önce en az birkaç gün fikse olmasına izin verilir.
+
+Bununla birlikte, immünohistokimya (immunohistochemistry) gibi özel yöntemler kullanılacaksa, daha kısa fiksasyon süresi gerekebilir; çünkü çok uzun fiksasyon, dokunun antijenik özelliklerini bozarak yalancı negatif sonuçlara yol açabilir. Fiksatif hacmi, doku toplam hacminin en az altı katı olmalıdır; ne yazık ki, dokuların sıkıştırılarak küçük bir kaba doldurulduğu, formalinle zar zor örtüldüğü, yarı fikse hatta kısmen kurumuş halde bırakıldığı durumlara sıklıkla rastlanmaktadır.
+
+> **💬 Çevirmen notu:** Uygun fiksasyon, özellikle adli olgularda sonradan yapılabilecek ek boyamalar (immünohistokimya, özel boyalar) açısından kritik önem taşır. Türkiye’de uygulamada sık görülen “küçük kapta çok sayıda parça” yaklaşımı, hem artefaktlara hem de tanısal bilgi kaybına neden olabilir.
+
+---
+
+### Otopsi radyolojisi ve ölüm sonrası görüntüleme
+
+#### Tarihsel bir giriş
+
+Kasım 1895’te Wilhelm Conrad Roentgen (1845–1923) tarafından yeni, bilinmeyen bir radyasyon türü olan “X-ışınları”nın keşfinden ne kadar kısa süre sonra adli tıpta uygulanmaya başladığı şaşırtıcıdır.63,64 Adli bağlamda radyolojinin ilk kaydı, 1895 yılına uzanır; insan elinin ilk grafisinden yalnızca birkaç hafta sonra, Montreal, Kanada’da klinik bir adli vakada X-ışınları kullanılmıştır. Deney, ateşli silah yaralanması mağdurunun bacağındaki merminin yerini saptamak amacıyla yapılmıştır. Bu aynı zamanda, Kuzey Amerika’da mahkemede delil olarak kabul edilen ilk “X-ray” filmi olmuştur.65,66
+
+> **💬 Çevirmen notu:** Bu örnek, radyolojinin daha ortaya çıktığı ilk yıllardan itibaren adli tıbba entegre olduğunu gösterir. Günümüzde BT, MRG ve post-mortem BT anjiyografi gibi tekniklerin adli soruşturmadaki rolü, bu tarihsel çizginin doğal bir uzantısıdır.
+
+Manchester, Birleşik Krallık’taki Owens College’da görev yapan Profesör Arthur Schuster, Büyük Britanya’da Lord Kelvin ile birlikte, Roentgen’den 1895/96 yılının başında orijinal monografi ve fotoğrafları almış iki fizikçiden biriydi. Nisan 1896’da Schuster, Britanya’daki uzak bir yere gitmek üzere görevlendirildi…

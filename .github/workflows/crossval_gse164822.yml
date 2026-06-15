@@ -1,0 +1,58 @@
+name: GSE164822 dlPFC BULK crossval (chr3:32781045 window)
+
+# Recompute the dlPFC BULK cohort (GSE164822) per-probe window region-FDR from the
+# raw ~1 GB matrix that cannot be decompressed inside the local 120s environment.
+# The regenerated crossval JSON (with the CI run id recorded in crossval_provenance)
+# is committed back so the artifact scan's most important arm is independently
+# reproducible. The window artifact scan then reads this freshly-generated JSON.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crossval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      OPIOID_DIR: scripts/revize/realdata/human/opioid
+      MATRIX_URL: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164822/suppl/GSE164822_M_final.txt.gz
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install --quiet numpy pandas scipy
+      - name: Download GSE164822 matrix (~1 GB)
+        run: |
+          mkdir -p _matrix
+          curl -fSL --retry 5 --retry-delay 10 -C - -o _matrix/GSE164822_M_final.txt.gz "$MATRIX_URL"
+          ls -la _matrix
+          echo "MATRIX_SHA256=$(sha256sum _matrix/GSE164822_M_final.txt.gz | cut -d' ' -f1)" >> "$GITHUB_ENV"
+      - name: Recompute GSE164822 window crossval JSON
+        env:
+          MATRIX_PATH: _matrix/GSE164822_M_final.txt.gz
+          OUT_PATH: scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+        run: python "$OPIOID_DIR/opioid_chr3_crossval_gse164822.py"
+      - name: Show regenerated JSON head + recorded run id
+        run: |
+          python - <<'PY'
+          import json
+          p = "scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json"
+          d = json.load(open(p))
+          print("verdict:", d["verdict"])
+          print("min_fdr_region:", d["min_fdr_region"])
+          print("crossval_provenance:", json.dumps(d.get("crossval_provenance"), indent=2))
+          assert d.get("crossval_provenance", {}).get("recomputed_in_ci") is True, "run id not recorded"
+          assert d.get("crossval_provenance", {}).get("github_run_id"), "missing github_run_id"
+          PY
+      - name: Commit regenerated crossval JSON back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/revize/realdata/human/opioid/out/GSE235818_chr3_32781045_crossval_GSE164822.json
+          git commit -m "GSE164822 dlPFC BULK crossval recomputed from raw matrix (run ${GITHUB_RUN_ID})" || echo "no changes"
+          git push || echo "push failed"

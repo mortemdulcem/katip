@@ -1,0 +1,1864 @@
+20 Epilogue: Dilemmas in Proof of
+Causation
+IAN FRECKELTON*
+Causation is routinely described by English and Australian appellate decisions as
+a matter of common sense.1 However, such an analysis in practice is often
+simplistic and can be unhelpful when the occasion arises for legal advice to be
+given, for cases to be run in court and for issues of causation to be proved. It
+broadcasts beguilingly mixed messages to expert witnesses seeking to assist
+decision-makers to evaluate complex issues such as whether a breach of duty has
+caused an adverse outcome or is likely to produce such an outcome. It is
+dependent upon the unarticulated notion that decision-makers are able,
+unassisted by rules, guidelines or explanations, to reach "the right result" about
+difficult matters such as connections, influences, aetiologies and causalities by
+employing some kind of wisdom or intuition. This is curial mysticism at its most
+problematic.
+Within this book the unlikelihood of such a felicitous outcome where the proof
+offered of causation is by way of statistics is exposed, save if significant steps are
+taken to assist decision-makers.2 At a practical level, the common sense test of
+causation leaves proof of causation by a number of different routes difficult and
+unpredictable. It fails to address the fact that the application of common sense
+alone has the potential to generate multiple and variable results, some of them
+wrong, in a context where consistency and correctness should be legitimate
+expectations held by parties to litigation.
+While proof of causation is fundamental for the resolution of almost all forms
+of litigation, it. is afflicted by many theoretical and practical conundra and is the
+subject of complex rules involving shifting burdens of proof, and a conceptually
+problematic combination of objective and subjective tests. Much of such proof
+derives from the opinions of expert witnesses. Judges and magistrates latterly
+have expressed considerable concern about unacceptable levels of objectivity and
+scientific rigour in such evidence.3 In the recent era, courts have stressed that
+they particularly value in expert opinions the application of scientific
+methodology and the expression of comprehensible and objective views on the
+basis of identified and proven data. Yet in the context of causation, decision-
+makers are often confronted by problems of evaluation in relation to opinions
+that are not only complex, conflicting, and conceptually demanding but both
+partisan and subjectively based.
+Causation evidence not only demands high quality inferential reasoning on the
+part of experts but also a capacity on the part of counsel to subject the opinions
+of doctors, scientists, accountants and others to effective testing via cross-
+examination. It offers an important example of the practical application of
+scientific/medical criteria for proof as against those generally applied in the legal
+context.
+This chapter reviews a selection of contemporary controversies in relation to
+the proof of causation. It does not purport to provide an exhaustive treatment of
+the subject but, instead, focuses upon conceptual difficulties and inconsistencies
+amongst them. It does so against the employment of a threefold division within
+science in relation to influence and causation, a distinction being drawn amongst
+"observations", "generalisations" and "explanations".
+It is an aim of the chapter to explore the similarities arid differences in the
+scientific/medical and legal views of proof of causation and to tease out some of
+the contemporary problems experienced in relation to establishment of causation
+in both civil and criminal litigation. The chapter highlights the connection
+between the theoretical uncertainties attending the notion of what constitutes
+causation as a matter of law, thereby building upon a number of other chapters
+within this selection, as well as the difficulties in interpreting and applying
+criteria for proof of causation. It argues that the outcome of such problems is an
+unsatisfactory role for expert witnesses and unhelpful difficulties for fact-finders
+called upon to evaluate such evidence. It contends that there is a need for clearer
+tests of causation as a matter of law and for greater synchronicity between
+scientific/medical criteria for proof of causation and those used in law.
+Proof of Causation
+Establishment by evidence that an event took place or that inferences can be
+drawn about matters such as causation is the very essence of the capacity of the
+prosecution to discharge its burden in criminal litigation and of plaintiffs to
+discharge their burden in civil litigation. In administrative law matters, the
+decision-maker needs to reach a level of "reasonable satisfaction" about issues
+such as causation on the basis of "clear, cogent and exact evidence".4 The rules of
+proof which govern the means by which causation can be established, as well as
+the party which has the burden to prove or disprove causation, are fundamental
+to the balance within the litigation system. So too is the level of satisfaction that
+needs to be arrived at by decision-makers in relation to causation. This balance is
+readily tilted or confused by changes to statutory and court rules, as well as by
+judicial decisions about evidence, proof and procedure. The balance in both
+criminal and civil trials has changed in recent decades in a number of countries.
+Generally, in the criminal area, proof of facts which need to be established to
+prove the guilt of the accused, such as the causation of a victim's injuries, must be
+beyond reasonable doubt. However, even in this regard the distinction between
+"'essential" and "non-essential" facts, "primary" and "secondary" facts, "crucial"
+and "background" facts, is not easy. Just to articulate the variously termed
+distinctions draws attention to the diversity of legal approaches to the issue.
+In the civil area, proof is on the balance of probabilities. All important
+elements of a cause of action, such as causation (as distinct from the quantum of
+damages), must be established to that level of proof, save where an even higher
+level is needed, such as where the allegations are tantamount to a criminal charge
+and carry the potential for serious consequences for the defendant.5 However, in
+some situations, proof need not reach so high a level – such as where it relates to
+a potential future event, including the need for particular treatment measures or,
+where it is suggested by the defence, that conduct or circumstances other than
+that for which the defendant is responsible may have contributed to, or may in
+due course contribute to, the plaintiff's injuries, impairment or loss of capacity to
+work. Then, statistically relatively unlikely matters can be taken into account.
+The difficulty is that while the past has already taken place and, in principle at
+least, is knowable, the future, of its very nature, is a matter of chance, and is a far
+less certain object of knowledge. To a degree it is always speculative. It is in this
+context that the evidence of actuaries and epidemiologists can become relevant
+both in terms of providing circumstantial evidence and in terms of interpreting
+those facts which might conduce toward an inference of connectedness between
+suspected causes and outcomes.
+The Role of Expert Evidence
+Even proof of causation in relation to matters in the past is frequently difficult,
+though, especially where there have been multiple contributing factors to
+something that has happened. The light of medical, scientific, accounting and
+other disciplines often needs to be shone in order to contextualise and clarify the
+importance of contributing factors and to distinguish between those that might
+be classified as operative as against those that are "background".6 In particular,
+the relativities amongst the factors and the extent to which they can properly be
+designated as causative are not easily evaluated by fact-finders, frequently
+needing to be the subject of complex specialised opinions, in respect of which
+reasonable experts can and do differ. The extent to which matters in the past, but
+to some degree manifest in consequence now, will affect the future is especially
+problematic. The line between expert opinion and conjecture in this regard can be
+grey indeed. This is so even where the evidence upon which such inferences can
+be drawn is numerical. At one level, such evidence reassures because it looks
+both certain and precise; at another it is prone to be misconstrued and can be
+misleading because of its assumptions and the methodologies employed en route
+to the opinions.
+The controversies about the contribution of experts to enhance decision-
+makers' understanding of the potential for nexus arise in part because of the need
+of the courts for specialised assistance in relation to causation and influence and
+in part because the assistance is a fragile commodity, prone to go awry, especially
+in the context of evidence based upon statistical analyses.7 In certain
+circumstances, for instance, burdens of proof shift – such as where failure to
+adhere to a proper standard of care is proved and an injury follows shortly
+thereafter, as well as where the doctrine of res ipsa loquitur applies.8
+Sometimes, direct evidence can be given which establishes a clear connection
+between an event and an outcome. Often, though, proof is arrived at via
+circumstantial evidence and by expert evidence framed in terms of possibility and
+probability. In toxic tort litigation, and in criminal cases where conduct
+endangering life is alleged by the prosecution, epidemiological evidence falls into
+this category.
+In criminal charges of sexual assault, evidence from forensic physicians and
+paediatricians is often prominent in establishing causation. In coronial cases and
+homicide cases in the criminal domain, evidence from pathologists about cause of
+death can be important for decision-making. In civil cases involving allegations
+of medical negligence, evidence from other medical practitioners working in the
+pertinent area generally carries weight in determining whether there has been
+tortious malpractice, after which, evidence from accountants and actuaries will
+address the need to evaluate the adverse financial consequences which may be
+referable to the negligence. Assertions from plaintiffs that they would not have
+undergone a procedure, had they been properly advised of risks is more difficult,
+clearly enough having the potential to be infected by hindsight knowledge and
+conscious or unconscious self-interest. In psychiatric injury cases, it is
+reconstructive or projective evidence from psychiatrists and psychologists,
+postulating the impact which a particular event or events has had or might have
+upon the mental health of the plaintiff, upon which disagreement is often
+ventilated before courts.
+Scientific Views about Causation
+Scientific discoveries are made at three levels:
+Observations: isolated measurements or records of events. It is important
+that observations be independently verifiable and that the errors of
+measurement are properly reported. Facts may sometimes appear to be
+related, this giving them the potential to mislead. The "observation level"
+is classified as the lowest kind of scientific discovery but, of course,
+nothing in science and medicine is possible without observation and
+inferences based upon it. An example is the reporting and collection in a
+national database of individual cases of breast cancer including
+pathologists' and cytologists' reports.
+Generalisations: discoveries of connections between observational
+variables but without any claim that the connections are causal.
+Experimental generalisations are economical ways of describing in brief
+compass what otherwise might require volumes of observational data.
+When they cover important and verified sets of observations in a
+straightforward way, they are often called "laws of nature". A
+generalisation might suggest an explanation or a causal nexus but this is
+not true in general. Correlations may be false, arising from bias, or from
+experimental error or from too ready an entry into causal inferences, or
+from faulty methodologies. An example is the discovery that in milk duct
+breast cancers a highly aggressive character and the absence of oestrogen
+receptors are strongly correlated with overproduction of the HER2
+protein.
+Explanations: explanatory theories are the real objective of science. Once
+verified, they show why the laws of nature hold true because they provide
+fundamental causal connections. A single theory may explain a host of
+generalisations and unify a wide variety of apparently disparate
+phenomena in a context-independent way. An example is the discovery
+that cells of some breast cancers multiply uncontrollably because of the
+large numbers of the HER2 protein, a molecule which facilitates signalling
+inside duct cells to initiate cell growth. The more common, less aggressive
+ductal breast cancers do not grow by this mechanism; as in the case of
+breast tissue developing at puberty, their cell multiplication is stimulated
+by the release of oestrogen.
+The value of making these distinctions in the forensic context lies in the way
+they clarify the scientific claims and counter-claims about evidence given during
+litigation. Most of the disagreement and most of the difficulty in giving proper
+weight to an item of evidence is related to the differences amongst the assertions
+at these three levels. Of course, the distinctions can only be applied to the
+scientific content of items of evidence within the same area of science.
+Determining the combined weight of items of evidence from different areas of
+science is another issue altogether and is not generally a scientific question.
+In 1966 Hempel9 usefully argued that two criteria exist for explanation. The
+first was what he called the criterion of "explanatory relevance": "the explanatory
+information adduced affords good grounds for believing that the phenomenon to
+be explained did. or does, indeed occur." That information has two components,
+one supplied by the scientific theory and the other consisting of auxiliary
+information. He explained the relationship of providing good grounds as
+implying or conferring a high probability which is not lowered by the existence
+of other information. The second criterion to which he had reference was the
+requirement of testability, made best known by Karl Popper as falsifiability.10
+Typically within science, therefore, a theory of, for instance, causation is
+regarded as explanatory if it is possible to carry out an ex post facto prediction of
+the consequence of an act from the theory together with suitable conditions
+antecedent to the act. The explanatory power of a theory of causation is generally
+viewed as consisting in its capacity to serve as a basis for the opposite of a
+prediction, a "retrodiction".
+This threefold typology of discovery, as exemplified by Hempel's analysis, is
+employed within this chapter to classify, where possible, the level of causation
+theory advanced.
+Circumstantial Evidence
+An important way in which proof of matters in dispute concerning causation is
+established in all forms of litigation is via the inferences that can be drawn from
+circumstantial evidence. Circumstantial evidence is evidence that is suggestive of
+the existence of a matter needing to be proved in a trial, but does not itself
+directly bear upon it.11 Put another way. it is "evidence of circumstances
+surrounding, and related to, a subject of inquiry, from which a court may reason
+in order to reach conclusions about important facts in dispute", such as the
+causation of deaths, injuries and losses.12 Often it is expert evidence about the
+match of particles, including hairs, fibres and spicules found on the accused to
+those present at the crime scene. Sometimes it is lay evidence. It is proffered in
+aid of proof of causation in all areas of the law. However, such causation theories
+often do not exceed simple "observation level" discoveries and risk the drawing of
+faulty inferences without the presence of clear information establishing that the
+factors leading to apparent connectedness are both causal and independent. Such
+attempts to prove causation are often no better than conjectures based on
+correlations without causal credentials (generalisation level relationships).
+With good reason, circumstantial evidence has prompted anxiety on the part of
+both judges and commentators. Jeremy Bentham, for instance, called for "rules
+capable of rendering right decisions secure" to guard against the risks of
+misestimating such evidence13 and Burrill in 1868 bewailed the "lamentable
+mistakes" made by judges acting on circumstantial evidence.14 However, the
+dichotomy between "direct" and "circumstantial" evidence is now generally, and
+for good reason, regarded as lacking theoretical justification,15 the real issue
+being the degree of probative value properly attaching to either form of evidence.
+Similes seem to have been liberally employed by the courts in an attempt to
+explain proof by circumstantial evidence. The New Zealand Court of Appeal, for
+instance, noted that circumstantial evidence has been likened to a rope composed
+of a series of cords, a sufficient number of which, taken together, may without the
+others support the burden of proof, some jurors finding it supported by some
+cords, others by other cords.16
+In a famous passage Lord Chancellor Cairns in the English House of Lords put
+the role of circumstantial evidence similarly but employed another analogy:
+My Lords, in dealing with circumstantial evidence, we have to consider the weight which is to be given
+to the united force of all the circumstances put together. You may have a ray of light so feeble that by
+itself it will do little to elucidate a dark corner. But, on the other hand, you will have a number of rays,
+each of them insufficient, but all converging and brought to bear on the same point, and when united,
+producing a body of illumination which will clear away the darkness which you are endeavouring to
+dispel.17
+Jurors are entitled to draw an inference of guilt from a combination of facts,
+none of which viewed alone would support that inference.18 Those facts may
+include any number of circumstantial matters. An inference of guilt in a criminal
+trial, which will have as its basis a series of findings as to causation (such as a
+blow causing death), can be drawn if it is based upon primary facts which are
+found beyond reasonable doubt and if it is the only inference which is reasonably
+open upon the whole body of primary facts.19 An inference of guilt may properly
+be drawn, although any particular primary fact, or any collection of primary facts
+falling short of the whole, would be insufficient to exclude other inferences.
+Australia's leading case on the use that can be made of circumstantial evidence
+is the High Court decision of Chamberlain v The Queen20 in which Gibbs CJ and
+Mason J (Murphy and Brennan JJ agreeing on the point) held that the process of
+reasoning in a case featuring circumstantial evidence gives rise to two
+possibilities of error: first from the chances of error in respect of each fact or
+consideration forming the steps, and second, from the chance of error in
+reasoning to the conclusion. However, they held that the various stages in the
+evaluation process do not have to be disaggregated – findings on questions of
+primary fact do not have to be made. From a reasoning point of view, this has the
+potential to be highly problematic, as it risks unrecognised errors residing within
+the inference-drawing process, such as confusing the "generalisation" and
+"explanation" levels, or not recognising when facts are dependent.
+In Australia, in terms of outcome from reasoning processes, it is clear that
+jurors who agree in reaching the same ultimate conclusions can disagree as to
+what evidence is to be accepted, or as to what inferences should be drawn from
+evidence which they do accept.21
+The High Court's decision in Chamberlain v The Queen22 provides a good
+example of the practical difficulties. The accused mother and father were charged
+with murder but the body of the allegedly deceased baby was never found. The
+defence postulated that the cause of the death of the Chamberlain baby was that
+it had been carried off and killed by a dingo. However, proof of causation of
+death, namely by infliction of violence on the baby by the accused, remained the
+burden of the prosecution, only able to be discharged by proof beyond reasonable
+doubt.
+There were no eyewitnesses. The prosecution case was circumstantial and
+heavily dependent upon scientific evidence. Motive for the parents killing their
+baby was almost completely absent. The prosecution relied on a number of
+different groups of evidence: (i) evidence of foetal haemoglobin in the car of the
+accused and in their camera case; (ii) evidence of likely bleeding if a dingo had
+seized the baby's head and of the absence of large quantities of blood in the tent
+in which the deceased had been at the time; and (iii) evidence of the condition of
+the baby's jumpsuit and singlet and the arrangement of the baby's clothes when
+they were found.
+As it turned out, there were difficulties with the foetal haemoglobin evidence.
+One of the issues requiring determination by the High Court was whether the
+fact that the foetal haemoglobin evidence was flawed meant that the jury verdict
+should be quashed. Chief Justice Gibbs and Mason J drew a distinction between
+"crucial" (or "primary") facts and "secondary" facts, both of which have the
+potential to be proved by scientific evidence:
+[T]he jury cannot view a fact as a basis for an inference of guilt unless at the end of the day they are
+satisfied of the existence of the fact beyond reasonable doubt. When the evidence is circumstantial, the
+jury, whether in a civil or in criminal case, are required to draw an inference from the circumstances of
+the case; in a civil case the circumstances must raise a more probable inference in favour of what is
+alleged, and in a criminal case the circumstances must exclude any reasonable hypothesis consistent with
+innocence.23
+They held that it is not possible for a decision-maker in a criminal case to be
+satisfied beyond reasonable doubt of an inference drawn from facts about the
+existence of which he or she is in doubt.
+Justice Deane held that it is not the law that a juror is precluded in all
+circumstances from drawing an inference from a primary fact unless it is proved
+beyond reasonable doubt. However, if a primary fact constitutes an essential
+element of a crime charged, he held that a juror must be persuaded that that fact
+has been proved beyond reasonable doubt before properly joining in a verdict of
+guilty. He found that those bodies of evidence were cumulative:
+The jury was entitled to pay regard to all of them, even if unpersuaded that any or all of them was
+proved beyond reasonable doubt. Thus a conclusion that the evidence directed to showing the presence
+of foetal haemoglobin in the car was persuasive only to the extent of balance of probability does not
+mean that the conclusion and the evidence should be rejected as irrelevant. Even though the evidence,
+viewed discretely, does no more than establish the presence of foetal haemoglobin on the balance of
+probabilities, it remains part of the totality of the admissible and relevant evidence in the context of
+which the ultimate question whether Mrs Chamberlain's guilt was established beyond reasonable doubt
+fell and falls to be determined.24
+Causation is frequently determined on the basis of inferences drawn from
+primary facts. In the criminal domain, where such primary facts are essential to
+the drawing of the ultimate inferences, decision-makers must be satisfied of them
+in Australia beyond reasonable doubt, even before they accept expert opinions on
+the subject. The fact that an alternative interpretation of a primary fact is possible
+often forms the basis for appellate litigation. This highlights the importance of
+accurate representation by expert witnesses of a number of matters: the reliability
+of the "observations" which they have taken into account; the processes by which
+they have arrived at the inferences that they have drawn; and finally, the actual
+opinions which they have formed.
+Expert Evidence of the Possibility of Causation
+An issue that flows from Deane J's analysis, in particular, is the difficult question
+of the use that can properly be made of expert and other evidence of a low order
+of probative value, when such evidence contributes to the evaluation of a critical
+issue such as causation in a criminal or civil case. At one level, there cannot be a
+simple addition of relatively unlikely or dubious possibilities, resulting in a
+beyond reasonable doubt or a balance of probabilities determination. Such a
+process is vulnerable to erroneous inferences on the basis of mere observational
+data, when in fact there may be alternative explanations or the data may have
+relationships one to another.
+Our legal system has long been mistrustful of "trial by numbers", in good part
+because it may utterly miscarry. The issue has been controversial and the subject
+of considerable amounts of heated academic discourse since the late 1960s. A
+major fillip was given to discussion of the use of statistical proof in the courts by
+the elementary misuse of statistics in the 1968 Californian decision of People v
+Collins:25 It prompted Professor Laurence Tribe of Harvard Law School26 to
+challenge the overt use of mathematical arguments in courts on grounds of public
+policy, assuming that the criteria for probability judgments in the courts were in
+principle mathematical. Shortly afterwards, though, the English philosopher
+Jonathan Cohen challenged this assumption, arguing in The Probable and the
+Provable in 197727 that not all reasoning about probabilities is mathematical
+(Pascalian) and contending that some judgments of probability can be justified by
+non-mathematical (Baconian) criteria. This resulted in a substantial debate
+between Pascalians and Baconians.
+Most recently, Rose LJ in the English Court of Appeal in a leading DNA
+profiling case expressed anxiety about the use of "apparently objective numerical
+figures" and repudiated the notion that juries should find guilt "by means of a
+formula, numerical or otherwise", preferring the use of "individual common sense
+and knowledge of the world".28 The debate in turn has prompted a series of
+attempts to make statistical reasoning accessible and applicable to forensic
+scenarios29 and the advancement of the argument from some quarters that
+decision-marking by judges and jurors is, conceptually, a mathematical process.30
+However, Australian, English and North American courts have exhibited
+considerable anxiety about the use of statistical evidence, especially in the
+context of cases where DNA profiling evidence has been proffered by the
+prosecution,31 acknowledging the potential for misapprehension by lay decision-
+makers of the contentions by experts of causation, association and nexus. This
+has generated particular concern during the past decade in relation to the use to
+be made of numerically dramatic assertions by DNA scientists of the likelihood of
+positive matches between crime scene samples and samples taken from other
+than the suspect. The risks that have been identified are that because of the way
+in which statistical evidence is presented wrong inferences may be drawn. In
+addition, because of the "numbers" involved jurors may lose sight of associated
+issues such as whether or not a "victim" in whom the accused person's semen was
+found consented to sexual intercourse.32 In short, there is a risk that jurors will be
+overwhelmed by the statistics.
+Perhaps the greatest danger is that juries will become confused or distracted by
+some kinds of evidence, lay or expert, which add to the prosecution or the
+plaintiff's case, but do so only at a low level or only marginally. The issue has
+been grappled with in the criminal law where persons who have put others at
+risk of being infected with the HIV virus have been charged with conduct
+endangering injury or life.33 If the risk of infection is only one in 200, for
+instance, but the consequences of such infection are dire, is the conduct, properly
+analysed, conduct of criminal endangerment? Is the connection between the
+intercourse and the potential for infection too remote? The question for the court
+is the likelihood at the time of the intercourse of infection, incorporating for the
+accused person his or her capacity to foresee such a potential. Epidemiology
+evidence has been the resort of the prosecution in order to attempt to show
+sufficiency of nexus between conduct and potential outcome. However, the key to
+the probative value of such evidence lies in drawing a distinction between
+evidence at the "generalisation" and "explanation" levels. The evidence may be
+suggestive of an explanatory theory but epidemiology necessarily seeks
+correlations and is tightly chained to "generalisation" level relationships.
+In the civil context, epidemiology evidence does no more than suggest the
+potential for a nexus between a teratogen or carcinogen and a birth defect or
+cancer. It is particularly problematic. As noted previously, the evidence can
+constitute an assertion about a correlation, but may have very little probative
+value by reason of its level of generalisation. Viewed in another way, such
+evidence can relate to the potential for such a nexus at a general level within the
+population or within a particular population, but fail to factor in circumstances
+personal to the plaintiff. The difficulty is at its most pronounced where the
+evidence is adduced only at a general level in terms of enhanced risk of, for
+instance, contraction of a disease by reason of exposure to a particular substance.
+However, the problem can exist also where the statistical association of
+exposure is personalised to the particular health and lifestyle circumstances of the
+plaintiff. Judge Weinstein in the United States in the course of the Agent Orange
+litigation defined the issue helpfully:
+While it may be possible to prove, through the use of such proof as ... epidemiological evidence, that such
+harm – for example cancer – can be "caused" by a particular substance, it may be impossible to pinpoint
+which particular person's cancer would have occurred naturally and which would not have occurred but
+for exposure to the substance.34
+Judge Weinstein is not alone in identifying the potential for misevaluation of
+epidemiology evidence. Two decades before his decision, Bradford Hill, a
+renowned epidemiologist, stressed the risk of what might be called the
+"association fallacy"35 – the confusion of association with cause. This is simply
+another way of acknowledging that there is a risk of confusing "generalisation
+level" discovery with "explanation level" discovery.
+The issue was pointedly raised, too, in the early debates about aetiology of
+AIDS. It was observed by researchers in the mid-1980s that there was a statistical
+association between AIDS and the illicit use of nitrate inhalants, leading to
+suggestions that such inhalants may have caused the depressed immune system
+in AIDS. Only later was it realised that AIDS was caused by human
+immunodeficiency virus ("HIV") and that the statistical correlation between AIDS
+and usage of nitrate inhalants was in no relevant sense causative. It was simply
+that a considerable percentage of those who contracted HIV and went on to
+contract AIDS were homosexual and that some of them had used nitrate
+inhalants.36 This was a classic example of "generalisation level" analysis being
+mistaken for "explanation level".37
+The risks of false imputation of causation have led to considerable concern
+about the potential for courts, and in particular jurors, to misunderstand the
+limits of epidemiology evidence.38 The risks identified by Hill prompted him to
+develop criteria for the drawing of causal inferences in epidemiology, which have
+since been applied in many legal contexts:
+Statistical Association. There must be some degree of statistical
+association between a cause and its effect, A strong association (large in
+magnitude) is more likely to represent causation than a weak association
+(small in magnitude).
+Temporality. A cause must precede its effect. Strength in temporality,
+such as when a cause immediately precedes its effect, supports an
+inference of causation.
+Biological Plausibility and Coherence. A cause and effect relationship
+between exposure and disease should be biologically plausible and
+consistent with other information about the disease or harm.
+Dose-Response Effect. Causation is more likely if greater amounts of the
+putative cause are associated with corresponding increases in the
+occurrence of the disease or harm.
+Consistency. When similar findings are generated by several
+epidemiological studies involving various investigators, causation tends to
+be supported.
+Analogy. Substantiation of relationships similar to the putative causal
+relationship increases the likelihood of causation.
+Experimental Evidence. Causation is more likely if removing the exposure
+in a population results in a decrease in the occurrence of disease or harm.
+Specificity. When there is but a single putative cause for the disease or
+harm, causation is supported.39
+The insight behind these criteria, given that epidemiology was a very young
+science when they were proposed, genuinely deserves praise. However, they do
+not displace the need for rigorous, scientific scrutiny of the individual items of
+epidemiological evidence brought to court. It is notable too that a new sub-
+science has now been spawned within the epidemiology domain, "meta-analysis"
+– the analysis of epidemiological analysis to enable the results of epidemiological
+studies of different types and of different validity to be combined to produce
+overall conclusions.
+The admissibility and probative value of epidemiological evidence has been
+considered in three illustrative cases: the English medical negligence decisions of
+Vadera v Shaw40 and Loveday v Renton41 and then at length in the New South
+Wales Court of Appeal decision of Seltsam Pty Ltd v McGuiness ("the Seltsam
+case"),42 dealing with allegedly asbestos-caused cancer.
+The English Decisions
+In Loveday v Renton, the plaintiff sued Dr Renton for damages in the form of
+permanent brain damage after being treated with pertussis whooping cough
+vaccine. The question before the court was whether the vaccine had caused or
+could reasonably have been foreseen to cause brain damage in young children.
+There were four mechanisms by which the plaintiff in principle could have
+suffered the brain injury as a result of the vaccine: febrile convulsions,
+anaphylactic shock, neurotoxic effect and adjuvant effect. The major
+epidemiology evidence was from the National Childhood Encephalopathy Study
+which concluded that there was a temporal proximity between the usage of the
+vaccine and the suffering occasionally of encephalopathy resulting in brain
+damage. Stuart-Smith LJ held that the four biological mechanisms proposed by
+the plaintiff were implausible and that the epidemiological evidence did not
+establish that it was the vaccine which had caused the brain damage. He
+concluded that the relative risk of 2.5 shown by the studies, a figure which
+showed that it was two and a half times as likely that a person exposed to the
+vaccine would contract the illness as one not exposed, was not statistically
+significant. He took into account that in the revised version of the figures which
+he employed, there were very few children who contracted the damage. Thus, he
+concluded that the evidence was not strong enough to enable the plaintiff to
+establish causation. Put another way, the evidence was at the "observational
+level", falling well short of the scientific requirements for "explanatory level"
+relationships.
+In Vadera v Shaw the plaintiff sued her general practitioner for prescribing and
+continuing to prescribe her an oral contraceptive pill. The plaintiff began to take
+"the pill" in October and in November suffered a serious brain stem stroke as a
+result of a thrombosis in the basilar artery, rendering her almost completely
+disabled, suffering a condition known as "locked-in syndrome".
+The plaintiff was initially prescribed "the pill" when her blood pressure was
+somewhat raised. High blood pressure was conceded to be a contraindicator for
+prescription of "the pill". She also claimed to have informed her doctor that she
+suffered from migraines, another contra-indicator for the prescription of the oral
+contraceptive pill. The Court of Appeal found that the trial judge had been
+entitled to find on the facts that the plaintiff did not suffer from hypertension
+when she was prescribed "the pill" and to decline to find that the plaintiff had a
+history of headaches. It also found that the trial judge had been correct in finding
+on the expert evidence that the causal relationship between "the pill" and strokes
+had not been established.
+It is the final matter, that dealing with the causation issue, which is of most
+interest in this context.43 The trial judge concluded that it could not be
+established, applying the discipline of statistics to the available figures, that the
+association between a person taking the medication and that person suffering a
+stroke was more than a relationship of chance. It followed (bearing in mind that
+the burden of proof on this issue rested with the plaintiff) that it could not be
+established on the balance of probabilities that the plaintiff suffered her stroke by
+reason of the taking of the medication. He concluded that the studies adduced
+before him did not establish a statistically significant connection between the
+medication and strokes. What existed was a set of data established at
+"generalisation level", but there was no satisfactory justification for equating it
+with "explanation level" information.
+The Court of Appeal upheld the trial judge's decision. Lord Justice Henry for
+the court held that:
+It is as common sense a conclusion as one could wish to say that if the connection between A and B
+cannot be shown with confidence to be other than a coincidence, then it cannot be held on the balance of
+probabilities that A caused B, This is not to allow scientists or statisticians to usurp the judge's function,
+but rather to permit him to use their skills to discern a connection, or a lack of connection, between two
+phenomena.44
+Out of deference to arguments mounted in the case, the court looked at the
+relevance of the epidemiological evidence, on the assumption that the plaintiff
+did suffer from pre-existing hypertension. It noted that there was evidence that
+hypertension implied a 4.6 times increased risk of cerebral thrombosis and, if
+combined with oral contraception use, a 10.7 times increased risk. The court,
+however, was influenced by the evidence that oral contraception was but one of a
+number of risk factors for thrombosis, in fact being a weaker risk factor than a
+number of others. Moreover, the mechanism of increased risk of arterial
+thrombosis with oral contraceptives was unclear but was thought to be in the
+promotion of the thrombosis. The Court of Appeal accepted the argument that
+since the medication did not increase the risk of hypertension-related stroke
+when given to a hypertensive patient, it followed that the medication had no
+more causative effect in relation to a stroke when given to a hypertensive patient
+than when given to a "normal" patient. This meant that the causal relationship
+between the medication and a stroke is the same as in the ordinary case which, as
+the court found, on the balance of probabilities could not be shown to exist. In
+other words, the science employed existed at the level of generalisation,
+deceptively suggestive of causation.
+The Vadera decision of the Court of Appeal constituted a sophisticated and
+careful analysis of the circumstances in which, amongst other things,
+epidemiology evidence can assist the evaluation of facts proved to a court. It
+emerged upon such analysis that significant care needed to be taken with the
+expert evidence – the correlations between hypertension, contraceptive pill use
+and thrombosis and also between migraines, contraceptive pill use and
+thrombosis needed to be viewed discerningly. In fact, the combination of factors
+left contraceptive pill use providing little by way of significant causative nexus in
+the context of either hypertension or migraines.
+Seltsam v McGuinness
+The Seltsam decision took place against the backdrop of the High Court of
+Australia having emphasised that the common law test of balance of probabilities
+is not satisfied by evidence which does no more than establish a possibility of
+nexus.45 As Mason J held in Tubemakers of Australia v Fernandez:46 "the plaintiff
+will fail if all that he can show is that his disability might have been ... caused" by
+the alleged wrongful conduct. However, expert evidence is not essential in all
+situations. Findings of causal connection can be made without medical evidence
+to support them47 or where the expert evidence does not rise above the opinion
+that such a connection is possible.48 The key question is whether "the materials
+offered justify an inference of probable connection. This is the only principle of
+law. Whether its requirements are met depends upon the evaluation of the
+evidence."49
+The first question determined by the New South Wales Court of Appeal in
+Seltsam was as to the admissibility of "possibility evidence". The primary issue
+litigated on appeal from the decision of the Dust Diseases Tribunal was whether
+the kidney cell cancer suffered by the plaintiff had been "caused" by his exposure
+in the workplace to amounts of crocidolite. The epidemiology evidence on the
+subject was equivocal. Other facts known to raise the likelihood of contraction of
+the plaintiff's form of cancer were smoking and obesity. The plaintiff was a
+moderate smoker and was significantly overweight. Thus, the task faced included
+how to evaluate what were multiple and potentially connected causes of the
+plaintiff's cancer.50
+The key evidence proffered by the plaintiff was epidemiological evidence to the
+effect that a person exposed to crocidolite was 1.4 times as likely to experience
+renal cell carcinoma as a person not so exposed.51 Clear figures of a comparable
+kind were not available either for smoking or obesity or for the combination of
+them, still less for the combination of crocidolite exposure, obesity and smoking.
+A significant difficulty confronted the Tribunal, therefore, in terms of the use
+which it could properly make of the epidemiological evidence which to a modest
+degree assisted the plaintiff's case but which, on its own, could not be said to
+advance it to the point where it proved nexus between exposure and outcome on
+the balance of probabilities. Framed another way, the question was whether the
+correlations between the observational variables were in fact causative – was it
+legitimate to move from the "generalisation level" to the "explanation level" and
+to determine that a causation relationship existed between crocidolite exposure
+and the contraction of renal cell carcinoma?
+In the leading judgment of the Court of Appeal, Spigelman CJ held that the
+fact that epidemiology evidence only establishes possibility does not preclude
+admissibility. The second question determined by the court was as to the use that
+could legitimately be made of "possibility epidemiology evidence". Chief Justice
+Spigelman held that when evidence only goes so far as to establish possibility, it
+must be weighed in the balance with other factors in determining whether or not
+on the balance of probabilities an inference of causation in a particular case could
+or should be drawn.52 He held that where the whole of the evidence,
+incorporating the epidemiology evidence does not rise above the level of
+possibility, either alone or cumulatively, an inference of causation cannot be
+drawn.53
+The Chief Justice found that the test for the particular case in respect of
+causation was whether on the basis of primary facts it was reasonable to draw
+the inference that the nexus existed on the balance of probabilities.54 He held that
+evidence of possibility, including epidemiological studies, should be regarded as
+circumstantial evidence which has the potential, alone or in combination with
+other evidence, to establish causation in the particular case. He held that
+causation, like any other fact, can be established by a process of inference which
+combines primary facts like "strands in a cable" rather than "links in a chain". In
+so doing, his Honour was viewing epidemiological evidence in the same way as
+the New Zealand Court of Appeal, as pointed out above.55
+He held that in the case before him the "primary" facts consisted in large
+measure of the epidemiological studies which established that nexus could
+possibly exist. This, he found, was not necessarily a bar to the plaintiff succeeding
+as epidemiological studies and expert opinions based on such studies are able to
+form strands in a cable of a circumstantial case,56The question was whether the
+studies showed the connection between the inhalation of asbestos and renal cell
+carcinoma to be "sufficiently close" to warrant a reasonable mind to conclude
+that the possible cause was the actual cause.
+In investigating this question, Spigelman CJ held that the issue before the court
+was whether an increased risk caused or materially contributed to the injury
+actually suffered. He held that the test of actual persuasion in respect of causation
+does not require epidemiological studies to reach the level of a relative risk of 2.0
+(namely where the incidence of contraction of cancer doubles on exposure by
+contrast with that applicable without exposure), even when that is the only
+evidence available to a court. However, he noted that "the closer the ratio
+approaches 2.0, the greater the significance that can be attached to the studies for
+the purposes of drawing an inference of causation in an individual case. The
+'strands in the cable' must be capable of bearing the weight of the ultimate
+inference."57
+Chief Justice Spigelman applied a variant on the Hill criteria, classifying the
+indicia that he set out as "uncomplicated statements of commonsense
+propositions" for the interpretation of epidemiological evidence:
+Strength of the Association, In general the higher the risk estimate, the less likely the finding is
+a result of confounding or bias ...
+Dose Response Effect. If the risk of the disease rises with increasing exposure, a causal
+interpretation of the association is more plausible
+Time Sequence. The exposure or risk factor must precede the disease ...
+Consistency. Results from other epidemiological studies of the exposure-disease association
+should be similar. If similar results are found in different populations using various study
+designs, the plausibility of a causal interpretation is increased. An alternative explanation of
+bias or confounding would have to be apply to each of the different studies, a highly
+implausible explanation.
+Biological Coherence. Does the exposure-disease association make biological sense given what is
+known of the natural history of the disease? Do animal experiments support the association?
+Do other types of collateral evidence support the association, such as secular trends of the
+exposure factor in the disease. Unfortunately, for many diseases little is known about their
+aetiologies, so the informational background by which to judge biological coherence is often
+limited. Thus, failure of this broad principle does not necessarily weaken the plausibility of a
+causal interpretation.
+The first three principles can be applied to an individual study and used to assist the findings. The last
+two principles referred to results outside their particular study and relate more to external issues of
+coherence or consistency. All of the criteria or principles should be viewed as guidelines. Except, perhaps,
+for time sequence, none is a necessary condition for a causal interpretation.58
+He held that these criteria could be taken into account in determining whether
+or not a court should infer, on the balance of probabilities that a particular
+exposure caused injury in the specific case before the court. However, he noted
+that while the evidence of epidemiologists with respect to the identification and
+application of the criteria may be of assistance by force of their reasoning, they
+did not constitute a scientific opinion which the court was bound to accept.
+Significantly, too, he found that when assessing expert evidence on causation, the
+legal concept of causation requires a court to approach the matter in a
+distinctively different manner from that "which may be appropriate in either
+philosophy or science, including the science of epidemiology. The commonsense
+approach to causation at common law is quite different from a scientist's
+approach to causation." ... An inference of causation for the purposes of the tort
+of negligence may well be drawn when a scientist, including an epidemiologist,
+would not draw such an inference,"60 A significant culture clash hereby becomes
+apparent with a problem existing in terms of the use the law should make of
+evidence from representatives of other disciplines, but the nature of the culture
+clash is not so clear. Unfortunately, his Honour did not flesh the question out
+further. It appears inherent in his analysis though that he was suggesting that the
+test of at least the civil law may well be lower than that of, for instance,
+epidemiology, enabling possibility evidence, when added to other forms of
+evidence, to be sufficient to allow a finding of causation on the balance of
+probabilities. In terms of proof, this requires very careful usage of terminology
+both by the law and epidemiology – each may be using words in different ways,
+opening up significant possibilities of misunderstanding, especially when the
+ultimate test is formulated in terms of "common sense". However, the curious
+factor is that at essence, Spigelman CJ for the court was holding that science and
+the law probably had the same approach to the question at hand. So far as the
+individual items of epidemiological evidence were concerned, generalisations
+which might have seemed possible were not justified because the correlations
+between the variables were too weak. As a matter of science, the evidence did not
+even reach the level of generalisation and, definitely, in the absence of established
+causal connections, the "explanation level" had not even been approached. This
+coincided with the legal reasoning.
+A number of aspects of the Seltsam decision are at significant variance to the
+approach adopted in United States cases where even the admissibility of
+possibility epidemiology evidence has been refused where it falls short of
+reaching the relative risk ratio mark of 2.0. In the United States an arbitrary, but
+clear, rule has been developed that the threshold for concluding that an agent is
+more likely than not the cause of a disease is a relative risk of greater than 2.0. As
+the Federal Judicial Center Manual on Scientific Evidence points out, "When the
+relative risk reaches 2.0, the agent is responsible for cases equal in number to
+those from all other background causes. Thus, a relative risk of 2.0 implies a 50
+per cent likelihood than an exposed individual's disease was caused by the
+agent."61 This has been applied in the context of determining the teratogenicity of
+a morning sickness medication,62 the likelihood of asbestos causing colon
+cancer,63 the likelihood of swine flu vaccine causing Guillain Barre syndrome,64
+the likelihood of pelvic inflammatory disease having been caused by an intra-
+uterine device65 and the impact of Agent Orange upon a variety of diseases
+suffered by Vietnam Veterans and their offspring,66 to name just a few examples.
+The advantage of such a rule is its clarity. The difficulty with an approach which
+permits epidemiological evidence falling some distance short of 2.0 is that courts
+will seek refuge in the imprecise language of "possibility" and "common sense"
+which can result in inexact and impenetrable reasoning.
+The New South Wales Court of Appeal has rejected the United States rule and
+opted to factor epidemiology evidence falling short of the 2.0 relative risk ratio
+into the mix of factors that can be considered in determining in civil matters
+whether causation is proved on the balance of probabilities. That this approach is
+fraught with difficulties is exemplified by the terms on which the Court of
+Appeal itself divided on the facts, as well as by the criticisms levelled by the
+majority at the trial judge, in particular that he inadequately evaluated the
+complex and conflicting epidemiology evidence adduced before him.
+The second important question left unresolved by the Seltsam decision is the
+relevance of epidemiological evidence to the particular case, especially where the
+litigant falls into the category of person with other risk factors for incurring the
+disease or injury claimed to be attributable to the defendant's negligence. A
+substantial series of factors personal to the plaintiff may heighten their
+susceptibility. In turn epidemiology evidence can assist with evaluating the
+significance of such factors and providing statistical likelihoods of the plaintiff
+suffering the illness or sustaining the injury, but for the exposure to the agent.
+The difficulty can be the ambiguities and uncertainties within such categories of
+information.
+The Bradford-Hill criteria and their variant applied by Spigelman CJ furnish a
+useful set of guidelines against which to measure the probative value of
+epidemiology evidence about causation. However, only two are necessary for
+causal inference: temporality and statistical association, although they are not, of
+course, determinative of causation. The challenge for expert witnesses, advocates
+and decision-makers is to determine appropriate use of epidemiology evidence
+that is at a general level, rather than personal to the individual plaintiff's
+situation, and to evaluate dispassionately associations between exposure and
+contraction of disease when the hard evidence is ambivalent. The New South
+Wales Court of Appeal has offered few tools to grapple with this challenge.
+The Temporal Dilemma
+Important dilemmas exist at the heart of the proof of causation, A number of
+them lie in the very tests set out by the courts for causation. Decisions have
+drawn a distinction between establishing causation in different situations. When
+the issue in dispute is the connection between matters in the past and the present,
+the test is objective, proceeding on the basis that it is simply a matter of
+discerning the nexus, using agreed methods and rules, and evaluating whether it
+constitutes proof of causation. If the plaintiff cannot reach this point on the
+mathematical probability of more probable than not, more than 50 per cent, they
+recover nothing. This is the "all or nothing rule". By contrast, though, the law in
+both England and Australia regards proof of causation between a past event and
+events in the future, and compensation for them, as resting on subjective
+considerations. The plaintiff is entitled to receive proportional compensation,
+commensurate with the probability that they will incur a pecuniary loss.
+Reconciliation between these approaches is problematic. From the perspective of
+proof the evidence adduced in support of either issue is generically much the
+same –expert evidence that relies inevitably upon a degree of informed
+speculation. It has to be conceded, though, that particularly difficult challenges
+are posed for the plaintiffs seeking to persuade decision-makers, be they judges,
+jurors or magistrates, that mathematical calculations involved in the
+establishment of percentile chances of loss, rather than a rule of thumb "rough
+approximation", should be employed to establish future loss.
+Troubled as prediction of future loss by reference to statistical likelihood is, a
+conceptually preferable way of viewing the issue is to dispense with the temporal
+distinction currently adopted by the law and to acknowledge the subjective,
+predictive, speculative component in attributing from today's perspective, based
+upon such "facts" as can be garnered for a court, that one thing caused or will
+contribute to an outcome. The advantage of constructing the jurisprudential
+notion of causation in this more flexible way is that it would enable a consistent
+approach to causation – extending both to past and future matters, and
+comprehending both determination of what occurred and calculation of damages
+caused by reason of negligence. However, a consequence of such an approach
+would be that even calculation of pre-trial loss of earnings would be viewed as
+non-factual,67 leading to the abandonment of the "all or nothing rule" in the same
+way that it is eschewed for future losses. This in turn would place additional
+pressure on those seeking to assist courts in their calculation of pre-trial losses.
+Proving Causation of Injuries
+Fundamental to success for plaintiffs in personal injuries litigation is proof that
+not only has there been a failure to adhere to a proper standard of care by the
+defendant but that it has been the failure which has caused the plaintiff's injuries.
+The legal burden of proving causation is a substantial one.68 In the medical
+negligence context it has been described as "Herculean".69 It has also been
+characterised as "the most formidable obstacle confronting healthcare
+consumers".70 Justice Kirby of the Australian High Court has commented of the
+issue that:
+The reasons include the imprecision of, and uncertainty about, some medical conditions; the progressive
+nature of others; the complexity of modern medical practice and technology; and the fact that some
+mistakes, serious enough in themselves, have no untoward results which can properly be attributed to
+them.71
+A significant divergence on the issue has opened between the English, United
+States and Australian courts. The difference has repercussions whose practical
+significance is often not sufficiently recognised.72 Its genesis can been seen in the
+controversial decision of Lord Wilberforce in McGhee v National Coal Board73
+which was rejected by the House of Lords in Wilsher v Essex Area Health
+Authority.74
+In McGhee the plaintiff sued the National Coal Board on the basis of dermatitis
+he had suffered after being required to clean out coal kilns. Although the working
+conditions of the plaintiff were hot and dirty, the defendant failed to provide
+proper washing facilities, resulting in McGhee cycling home covered in dirt and
+grime. The trip home added to his potential for developing the disease. The
+defendant sought to rely upon this aspect of the plaintiff's behaviour to exculpate
+itself from all or any of liability for the plaintiff's dermatitis. The House of Lords
+rejected the defence, holding that a defendant is liable in negligence if its breach
+of duty has "caused" or "materially contributed to" an injury suffered by a
+plaintiff, notwithstanding that there may be other factors that have contributed
+to the plaintiff's injuries, Lord Wilberforce, agreeing in the result with the other
+members of the House of Lords, advanced an important new interpretation:
+[I]n the absence of proof that the culpable condition had, in the result, no effect, the employers should be
+liable for an injury, squarely within the risk which they created and that they, not the [plaintiff], should
+suffer the consequence of the impossibility, foreseeably inherent in the nature of his injury, of
+segregating the precise consequence of their default.75
+So far as the facts of the case were concerned, it is arguable that it fell into the
+"observational level" of case, the correlation of cause and effect being available to
+observation, enough to raise suspicion, but not necessarily actually existing.
+Sufficient data simply were not to hand.
+In Wilsher Lord Wilberforce's approach fell for review. A premature baby was
+bom suffering from various illnesses including oxygen deficiency. A special baby
+unit at the hospital was shown to have inserted a catheter twice into the baby's
+vein, rather than into an artery, with the result that he received too much oxygen.
+The issue was whether it had been proven by the infant plaintiff that the baby's
+retinal condition (retrolental fibroplasia) had been caused by the health
+authority's negligence, the issue being complicated by the fact that his condition
+had a number of potential aetiologies related to prematurity. The House of Lords
+overturned the application by the trial judge and by the Court of Appeal of the
+presumption subsequently applied in the Australian High Court in Chappel v
+Hart. It held that where a plaintiff's injury is attributable to a number of possible
+causes, one of which is the defendant's negligence, the combination of the breach
+of the defendant's duty and the plaintiff's injury does not give rise to any
+presumption that the defendant's negligence is the cause of the plaintiff's injury.
+The causal link must be proved to the requisite degree. For the infant plaintiff in
+Wilsher this meant that he was unable to discharge his onus of proof to show that
+it was the defendant's negligence which had caused his retinal condition.76
+Again, applying the threefold typology, the evidence was equivocal. There was
+the appearance that there might be a correlation between the retinal deficiency
+and the oxygen deprivation but as an isolated datum it never rose above the level
+of observational potential.
+In the United States, a series of cases has reversed the usual burden of proof in
+cases where difficulty has presented in proving which manufacturer's product
+was used. The result has been that defendant manufacturers have had to show on
+the balance of probabilities that the product used was not that of the
+manufacturer. Where proof is lacking, damages have been apportioned on the
+basis of the market share of the particular product. The approach was pioneered
+in a series of cases involving Diethylstilbestrol (DES), an oestrogen hormone,77
+which was discovered to cause vaginal and cervical cancerous growths in
+daughters between ten and 20 years after their mothers took the drug to prevent
+miscarriages.78
+By contrast, while the Australian position on the issue remains somewhat
+unclear, the position for the moment is that the law is much more advantageous
+for plaintiffs and assists them when they encounter the logistical problem of
+proving on the balance of probabilities that it was the departure from due
+standards by the defendant that was responsible for their injuries.
+The Australian law on the subject is best exemplified by the High Court
+decision in Chappel v Hart,79 in which a series of Australian authorities on the
+subject from the 1990s were applied.80 Justice Kirby held that once a plaintiff
+demonstrates that a breach of duty has occurred which is closely followed by
+damage, a prima facie causal connection is established and that it is then for the
+defendant to show that the plaintiff should not recover damages. Generally, such
+an attempt to gainsay the prima facie nexus will be via expert evidence.81
+Similarly, an important aspect of the decision of Gaudron J in Chappel v Hart
+was that once a physical injury has occurred to a patient, breach of a duty, such
+as the duty to warn of a risk, is "treated as materially causing or contributing to
+that injury unless there is 'sufficient reason to the contrary'".82 She regarded
+inevitability of injury, whether or not the negligence occurred, and randomness
+of injury, to which the plaintiff consented, as potential examples of "sufficient
+reason". Justice Gummow, along similar lines, held that in the absence of
+evidence that a breach of duty had no effect or that the injury that followed
+would have occurred in spite of the absence of the breach of duty, the breach of
+duty should be taken to have caused the injury.83
+Justices Kirby, Gaudron and Gummow therefore appear to contemplate a
+burden shifting substantively to the defendant to disprove causation of injury,
+upon the proof on the balance of probabilities of preceding negligence. Justice
+McHugh, however, did not go so far, only finding that an evidentiary burden
+shifted to the defendant. He held that although the onus of proving breach of the
+applicable standard of care, such as to provide appropriate information about
+risks and side-effects of a procedure, remains with the plaintiff:
+Once the plaintiff proves that the defendant breached a duty to warn of a risk and that the risk
+eventuated and caused harm to the plaintiff, the plaintiff has made out a prima facie case of causal
+connection. An evidentiary onus then rests on the defendant to point to other evidence suggesting that
+no causal connection exists. Examples of such evidence are: evidence which indicates that the plaintiff
+would not have acted on the warning because of lack of choice or personal inclination; evidence that no
+alternative course of action would have eliminated or reduced the risk of injury. Once the defendant
+points to such evidence, the onus lies on the plaintiff to prove that in all the circumstances a causal
+connection existed between the failure to warn and the injury suffered by the plaintiff.84
+Thus, from McHugh J's perspective, all that occurs upon the establishment of
+both breach of a duty and subsequent injury is the transfer of an evidentiary
+onus, the plaintiff being deemed to have made out a prima facie case for
+connection. Justice Gummow, subsequently, in Rosenberg v Percival85 specifically
+adopted McHugh J's analysis in Chappel v Hart.
+In Mrs Hart's case, in the absence of evidence that the breach of duty to warn
+properly had no effect on her decision to submit to the Dohlman's Pouch
+procedure, or that the injury would have occurred even had the warning been
+given, the breach of duty was found by Gummow J to have caused the injury.86
+Justice Kirby87 adopted the same approach, as did Gaudron J.
+The issue constitutes a vital dynamic in assessing the balance between the
+parties in personal injuries litigation. As soon as a plaintiff can show a breach of
+the duty to advise of risks, then under one analysis the burden shifts
+affirmatively to the defendant to adduce evidence. If no adequate evidence is
+adduced by the defendant, then the plaintiff succeeds. Alternatively, under the
+analysis of McHugh J, as now accepted by Gummow J, the evidentiary burden
+shifts to the defendant but the plaintiff retains the overall burden of proving that
+the injuries ensuing after the operative procedure are to be attributed to the
+failure to warn.88
+The claimed impact of non-provision of information
+Different approaches have been adopted internationally to evaluate the
+protestation by plaintiffs that they would have made a different decision about a
+medical procedure had they been properly informed of its risks. Again, such
+evidence has the potential to have a significant impact upon the decision-maker's
+determination of whether there is a causative relationship between failure to
+advise of risks and the subsequent adverse outcome sustained by plaintiffs. In
+some cases though there may be independent evidence that the giving of the
+warning would have made no difference.89
+In Canada and the United States the test is objective, focusing upon what a
+"reasonable" or "prudent" patient would have done in the circumstances of the
+plaintiff.90 What the individual plaintiff says that they would have done is of
+little relevance. In England, where the test is subjective.91 the difficulties of
+evaluating the weight to be given to a plaintiff's assertions from the statement of
+claim and the witness box have been specifically acknowledged. Justice
+Hutchison in Smith v Barking, Havering and Brentwood recognised too the
+artificiality of the question posed in the forum of the courtroom:
+Accordingly, it would, in my judgment, be right in the ordinary case to give particular weight to the
+objective assessment. If everything points to the fact that a reasonable plaintiff, properly informed,
+would have assented to the operation, the assertion from the witness box, made after the adverse
+outcome is known, in a wholly artificial situation and in the knowledge that the outcome of the case
+depends upon that assertion being maintained, does not carry great weight unless there are extraneous or
+additional factors to substantiate it. By extraneous or additional factors I mean, and I am not doing more
+than giving examples, religious or some other firmly-held convictions; particular social or domestic
+considerations justifying a decision not in accordance with what, objectively, seems the right one;
+assertions in the immediate aftermath of the operation made in a context other than that of a possible
+claim for damages; in other words, some particular factor which suggests that the plaintiff had grounds
+for not doing what a reasonable person in her situation might be expected to have done.92
+The approach in Australia is subjective.93 The most detailed analysis of the
+tools by which the standard plaintiff's assertion of causation in a failure to warn
+case should be accepted by a trier of fact, namely the contention that had the
+plaintiff been properly warned of the risks of a procedure, they would not have
+consented to it, is the decision of the High Court in Rosenberg v Percival.94 In that
+case the plaintiff was a nurse with doctoral qualifications. She submitted to an
+osteotomy, but without having been warned of a remote chance that temporo-
+mandibular symptoms, if already existing could be worsened, or even caused,
+temporarily, by the procedure. Recalled in additional examination-in-chief, and
+then cross-examined about her assertion, she held firmly to the proposition that
+had she been properly warned, she would not have agreed to the procedure,
+instead seeking alleviation of her mal-occlusion by other means.
+The trial judge did not accept the evidence of the plaintiff and rejected her as a
+credible witness. Much of the High Court's decision was devoted to analysis of
+the circumstances in which it is proper for an appellate court to overturn a trial
+judge's analysis of credibility, the appellate court lacking the same opportunity as
+the trial court to observe witnesses and thereby to form impressions of them. The
+High Court ultimately reinstated the trial judge's rejection of the evidence of the
+plaintiff. However, in so doing, a number of judgments discussed the
+circumstances in which this crucial aspect of proof of causation can be satisfied.
+The court affirmed its earlier ruling that the test is subjective, and followed the
+English approach on the subject, finding that the question to be asked is whether
+the particular plaintiff would have proceeded with the procedure had she or he
+been warned of material facts about the procedure.95 However, McHugh and
+Kirby JJ emphasised that a trier of fact is not bound to accept uncritically
+protestations by plaintiffs about the hypothetical question of whether they would
+have behaved differently in respect of the proposed procedure if properly
+informed about its risks. Justice McHugh held that in a case where there is no
+direct evidence as to what the plaintiff would have done, an inference could be
+drawn from the objective facts that the plaintiff would not have undergone the
+procedure. In what he termed "exceptional cases", he found too that although a
+plaintiff's testimony may be rejected as lacking credibility, an inference could still
+be drawn "from the objective facts" that the plaintiff would not have submitted to
+the procedure: "That inference would ordinarily be based not only on the
+objective facts but also on the tribunal's assessment of the general character and
+personality of the patient."96
+Justice McHugh found that if a plaintiff in a failure to warn case is believed in
+relation to their protestation that they would not have proceeded if properly
+warned, they will succeed even though the objective facts may point the other
+way. However, if the evidence of the plaintiff is rejected, he or she "carries the
+heavy evidentiary burden of persuading the court to make a favourable finding
+on the causation issue solely by reference to the objective facts and
+probabilities,"97 He held that the critical fact is whether the patient would have
+taken action – refusing to have the operation – that would have avoided the
+harm suffered. But he observed that that fact can only be determined by making
+an "anterior finding" as to what the patient would have decided to do, if given the
+relevant warning:
+It is not possible to find what the patient would have done without deciding, expressiy or by necessary
+implication, what decision the patient would have made, if the proper warning had been given. If the
+court finds that the patient would have decided not to have the operation, it concludes that he or she
+would not have had the operation. What the patient would have decided and what the patient would
+have done are hypothetical questions. But one relates to a hypothetical mental state and the other to a
+hypothetical course of action. The answer concerning the hypothetical mental state provides the answer
+to the hypothetical course of action. The onus is on the patient to prove that he or she would have
+decided not to have the operation if given a warning of the risk of harm. That means that the patient
+must prove what he or she would have decided to do. When the direct testimony of that person on the
+causation issue has been rejected, it is unlikely, as a matter of fact, that the patient will succeed on that
+issue unless the objective evidence in favour of the patient is very strong.98
+Justice Gummow, examining the same question, noted that the credibility of a
+plaintiff's contention as to what he or she would have done if properly apprised
+of the risks of a procedure will both be hypothetical and will be "affected, no
+matter how honest he is, by his own particular experience."99 Justice Kirby
+expressed a similar view, finding that courts could be trusted to reject self-
+interested assertions, lacking in credibility, but acknowledged the "practical
+problems" of the exercise, and recognised the practicalities of the scenario:
+Allowing that the patient concerned is sufficiently disappointed with the outcome of some healthcare
+procedure that he or she has ventured upon expensive, time-consuming and stressful litigation to obtain
+redress, it is scarcely conceivable that such a patient would destroy the case by equivocating in evidence
+over such a matter.100
+The result of the various judicial analyses in Rosenberg v Percival is that the
+subjective test remains ascendant in Australia, as in England, but that courts will
+be guided consistently, not so much by what can be expected to be self-serving
+assertions by plaintiffs that if they had been properly advised they would have
+behaved differently, but by what medical evidence establishes were the real
+options for plaintiffs at the time that they underwent the procedure. If expert
+evidence establishes that a particular plaintiff had little option but to submit to
+the procedure, the chain of causation flowing from the negligent non-disclosure
+is likely to be regarded as broken. The uncertain scenarios will be where plaintiffs
+maintain that even at a risk to themselves they would have delayed the procedure
+or, perhaps, sought to have it performed by another professional who may have
+run a lower risk of the complication of which they were not advised by reason of
+the other professional's skill and competence. Much will depend on the decision-
+maker's assessment of whether such a delay or a procedure undertaken by
+different hands would have made any difference to the outcome for the patient
+and therefore whether the adverse sequelae in fact experienced were attributable
+to the negligent non-disclosure.
+Evaluation of the Causation of Psychiatric Injuries
+One of the most difficult issues faced by plaintiffs in psychiatric injury cases lies
+in proving that a single tortious act caused or at least materially contributed to
+the current state of a plaintiff's psychiatric condition. Frequently, plaintiffs in
+sexual assault claims, for instance, have been reared in circumstances of familial
+dysfunction. They may have been the victims of childhood sexual or physical
+abuse. In their teenage years they may have exhibited signs of a conduct disorder,
+incorporating self-harming behaviours, such as self-mutilation, substance abuse,
+and precocious sexual activity, or impaired learning performance and difficulties
+with authorities, such as law enforcement personnel. Whether or not their
+allegation is that they were sexually assaulted during their childhood or adult
+years, attribution of causation from a trigger to their adult psychiatric and
+psychological condition becomes extremely problematic, to the point often of
+bordering on the arbitrary and the capricious.
+Again, the threefold typology can offer conceptual assistance. The mere
+existence of a wrongful behaviour by a defendant and a subsequent psychiatric
+condition does not take matters beyond the "observational level". From a
+scientific perspective, more is necessary. Unfortunately, the research necessary to
+establish the connections at the generalisation level has not yet been
+performed.101
+Additional aspects of difficulty which regularly present to fact-finders are
+when a plaintiff maintains that he or she was sexually or physically assaulted
+over an extensive period of time but is only able to pinpoint a modest number of
+specific incidents with sufficient particularity for them to be properly alleged in a
+statement of claim. Another common problem is where incidents comparable to
+those the subject of the litigation occurred prior to or subsequent to those alleged
+in the litigation. The question arises of the extent to which, therefore, there is a
+pre-existing condition, prodromal condition or a subsequent condition which
+complicates assessment of the extent to which the tortious incident is responsible
+for the plaintiff's condition as now identifiable.
+A plaintiff is entitled to be compensated for the injury caused to them by a
+tortious act. The "talem qualem rule" provides that a defendant is liable to
+compensate a plaintiff even though the defendant's wrongful conduct has caused
+harm of an extent which they could not have foreseen. So long as the defendant
+could reasonably have foreseen that his or her conduct would be likely to cause
+some damage to a victim, the defendant is liable to compensate the victim, taking
+the victim as they are at the time of the tortious action inflicting injury.102
+Where the action of a tortfeasor renders symptomatic a latent or degenerative
+condition that was previously asymptomatic, or aggravates a previously
+symptomatic condition, the tortfeasor will be held liable for that condition, but
+the fact that the condition was present and would in due course have become
+symptomatic must be taken into account. Thus, in Wilson v Peisly103 Barwick CJ
+held that:
+The trauma of the accident for which the appellant was responsible no doubt made a present reality of
+that which was ever a real possibility. Thus, whilst the appellant must pay for bringing out that
+condition, what he must pay must, in my opinion, justly reflect the fact that that condition was not
+merely latent in the respondent but that events, not of an unusual or unlikely kind, could and might in
+the ordinary course of life have evoked that condition had not the appellant's negligence intervened.
+It is thus necessary in Australia to assess the damages in respect of the
+bringing on of a latent disorder by considering its onset following the accident
+compared with its hypothetical onset had the accident not occurred, applying the
+principles set down by Deane, Gaudron and McHugh JJ in Malec v JC Hutton Ply
+Ltd104 and discounting the award of damages to take account of the probability of
+onset in any event105 (see below).
+Where the plaintiff suffered from a pre-existing anxiety, depressive or other
+psychiatric condition, the pecuniary entitlement of the successful plaintiff is
+calculated by reference to the extent to which the tortious act exacerbated their
+previous condition. If the plaintiff's life circumstances simply rendered them
+vulnerable to a particularly adverse response to the tortious act, that is
+unfortunate for the tortfeasor – the tortfeasor must take his or her victims as they
+come, sometimes unusually resilient, sometimes with an egg-shell psyche.
+However, such an articulation of conventional legal principle can be beguiling. At
+the practical level of proof, the assessment of the distinction between pre-existing
+vulnerability and preexisting illness can be a fine one. It is at its most difficult, as
+indicated above, where it is contended by the defendant that the plaintiff was
+previously prodromal or would have developed their subsequent condition,
+regardless of the commission of the tort by the tortfeasor.
+A typical case involving complexity of causes occurred in the Victorian
+criminal injuries compensation case of Martin v Crimes Compensation
+Tribunal.106 The applicant for compensation had lived for some time in an
+abusive relationship with a man who was an amphetamine addict, subject to
+worsening paranoias and to considerable lability of mood. He had threatened a
+murder-suicide on a number of occasions. One night he returned to the home
+from which he had been excluded by his de facto wife, was heavily intoxicated,
+mostly by amphetamines, and was hallucinatory and delusional. He insisted on
+staying with his children for the night. When his de facto wife arose in the
+morning, after only a very short period of sleep, she found him acting eerily and
+surrounded by weapons with their children within arms' reach. She panicked and
+ran for help, fearing all the while that he would plunge one of the weapons into
+her back. As it turned out, he neither did her nor their children any physical
+harm. It was for the trauma arising from this incident for which she applied for
+compensation. But he had been violent toward his wife on many occasions
+previously and some months later than the incident the subject of the application
+again persuaded her that he had turned over a new leaf. He returned temporarily
+to cohabit with the applicant before becoming violent again and being excluded
+from the family home once more. A particularly difficult issue of proof arose in
+the context of evaluating the extent to which the applicant's psychiatric
+symptoms were attributable to one incident which, while it had particularly
+frightening and memorable characteristics, was just one in a substantial sequence
+of acts of violence perpetrated against the plaintiff. The difficulty would have
+been even more pronounced had the plaintiff been assaulted by a number of
+persons other than the defendant. It is not rare for people to become involved in
+serial violent relationships. This is not a far-fetched scenario.
+Much devolved in Martin v Crimes Compensation Tribunal, and devolves in
+other cases, to the ability of the experts called for the applicant/plaintiff to
+identify the significance in terms of the victim's mental health history of the
+incident the subject of the litigation. The task can be an artificial one, but
+decision-makers are obliged to have regard to the actual case before them,
+namely the impact of the particular incident, only after that assessment
+evaluating where the incident ranks, within the context of other potential
+contributions to the victim's current mental health. On occasions, this can involve
+evaluating whether a particular incident caused a condition such as post-
+traumatic stress disorder and even whether a plaintiff can legitimately be
+diagnosed as having more than one post-traumatic stress disorder at the one time,
+arising from more than one traumatic incident occurring at different times in
+their presence.
+Proof of Psychiatric Injury
+A practical response within the litigation context has been a propensity for
+psychiatric injury claims during the past decade to assert a post-traumatic stress
+disorder ("PTSD"), rather than a depression, an anxiety disorder or an adjustment
+disorder, to have been caused by the tort of the tortfeasor. The forensic advantage
+of a PTSD diagnosis is that it postulates as one of its prerequisites that the
+psychiatric condition of the victim has been caused by the event (or tort) which is
+the subject of the re-experiencing phenomena. Thus, in short, if the person has a
+PTSD which is referable to a tortious event, it can readily be claimed that the
+condition has been caused by the event. This presumptive nexus, inherent within
+the indicia of PTSD, makes it the single most attractive psychiatric disorder
+within DSM-IV-TR and ICD-10 from the perspective of plaintiffs.
+However, something of a backlash may be seen to what has been described as
+the litigation epidemic of PTSD during the 1990s. Controversies rage about the
+extent to which diagnosis of PTSD has been excessive and of poor quality, with
+suggestions from a number of eminent quarters that PTSD too often is
+nomogenic.107 It has been argued in many cases and by a number of academic
+writers and clinicians that the diagnosis is unreliable by reason of its heavy
+reliance upon self-report of symptomatology by plaintiffs.
+What can be discerned in PTSD cases in a number of countries is an escalating
+insistence by the courts that the criteria for the disorder, as defined by DSM-IV-
+TR and ICD-10, be rigorously proved.'108 Without such proof, nexus between the
+tort and the subsequent symptomatology becomes problematic from a scientific
+point of view, using the threefold typology, and also from a legal point of view.
+This has resulted in an escalation in the incidence of informed and probing cross-
+examination of plaintiffs and the expert witnesses commissioned on their behalf
+with a focus upon whether the self-report of symptoms by plaintiffs is accurate
+and has been accepted uncritically by forensic assessors, be they psychiatrists or
+psychologists.
+Given the importance of PTSD as a means of proving both psychiatric injury
+and causation of adverse mental health symptomatology, it is inevitable that the
+demands for scientific rigour in diagnosing the condition will continue to grow
+both in the clinical and forensic domains. It is likely that greater scrutiny will be
+given to clinical assessments unsupported by psychometric and other testing in
+recognition that in such circumstances the nexus required within the criteria for
+the disorder will not have been established adequately. The stakes for defendants
+will provide the incentive for consistent and demanding scrutiny in the witness
+box of the soundness of expert diagnoses of PTSD.
+Discounting of Damages for Injury where Injury
+Likely to Have Ensued Anyway
+A particularly difficult issue of proof relates to the calculation of damages where
+the injury attributed by the plaintiff in civil litigation may have ensued through
+other causes, not the fault of the defendant, had the defendant not been tortiously
+responsible for the injury being sustained.
+For Australia, the key decision is that of the High Court in Malec v JC
+Hutton109 where the defendant employed the plaintiff as a labourer in a meat
+works between 1972 and 1980. In 1977 the plaintiff was diagnosed as suffering
+from brucellosis, a disease acquired from animals. A possible sequela of
+brucellosis is the development of a depressive illness; another is the development
+of an organic condition which results in a degenerative condition in the spine.
+The trial judge found that since at least 1982 the plaintiff had suffered from
+symptoms in his cervical and lumbar spine but was not satisfied that the
+condition was a consequence of the brucellosis. In other words, the connection
+between the exposure and the injury was weak, existing at "experimental level"
+but unable to satisfy the requirements of the "generalisation level".
+He concluded that a neurotic illness which was diagnosed in 1979 was
+precipitated by the brucellosis but found that it was at least as probable as not
+that the neurotic condition from which the plaintiff suffered at the time of trial
+was unrelated to the brucellosis. What is involved in this context is therefore a
+conditional scenario where the existence of the neurosis could have been related
+to the physical illness but could also have had another aetiology. From a scientific
+perspective, unless the evidence clearly demands rejection of the null hypothesis
+("the neurotic illness would have developed even in the absence of the exposure"),
+the alternative hypothesis cannot be considered. In this case, the null hypothesis
+could not be rejected.
+This set of findings about causation led to an important analysis by the High
+Court of Australia. The court identified the kinds of proof necessary for the
+recovery of damages for injuries existing by the time of the trial. It held that since
+the plaintiff proved that, at the date of the trial, as the result of the defendant's
+negligence, he suffered from a psychiatric condition which rendered him
+unemployable, subject to an allowance for the ordinary vicissitudes of life, the
+plaintiff was prima facie entitled to be compensated for the near certainty that, as
+the result of the defendant's negligence, he would suffer from his psychiatric
+condition and be unemployable for the rest of his life. This meant that Mr Malec,
+who was 49 at the time of trial, had to be compensated for his loss of earning
+capacity.
+The majority of the court held that the "all or nothing" approach to damages
+for past and present events applied in the context of evaluation of eligibility for
+future damages. This meant that if a court determines on the balance of
+probabilities that an injury occurred and was attributable at least to the level of a
+51 per cent probability, that is treated as certain, while if it concludes on the
+balance of probabilities that something may not have occurred, namely not being
+satisfied to the 50 per cent level, it is concluded as certain that it has not occurred.
+In this instance the plaintiff could show on the balance of probabilities that he did
+contract brucellosis as a result of the defendant's negligence. This then was
+treated as a certainty. The plaintiff further established on the balance of
+probabilities that he had contracted a psychiatric illness which was a medical
+sequela of brucellosis, and that the psychiatric condition had rendered him
+unemployable. Thus, the High Court was prepared to treat these two past events
+and a future prediction of unemployability stemming from them as a certainty,
+and to assess his damages accordingly.
+By contrast, it found that the plaintiff was unable to show on the balance of
+probabilities that his painful cervical and lumbar spine were attributable to
+brucellosis. This meant under the "all or nothing" rule that he should not receive
+any compensation for it.
+These were past and present events. The employer argued that, on the balance
+of probabilities it was likely that the plaintiff's back condition would have
+rendered him unemployable at the age of 44 even if he had not contracted
+brucellosis. It contended that there was a chance that as a result of the spinal
+condition and consequent unemployability, the plaintiff would have developed a
+psychiatric condition similar to that which was accepted by the court to have
+occurred as a result of brucellosis. This meant, according to the employer, that
+damages for the pain and suffering occasioned by the psychiatric condition which
+he developed as a result of brucellosis should be awarded only for the period
+1979-1982, and that no award should be made for care and attention provided by
+his wife because the plaintiff had a similar psychiatric condition consequent upon
+a condition for which the employer should not be held responsible and which
+would have necessitated similar attention and care.
+The High Court of Australia rejected the employer's arguments on the basis
+that the employer was inviting the court to take account of hypothetical events
+the proof of which is unattainable. It accepted that questions as to the future or
+hypothetical effect of a physical injury or degeneration are not commonly
+susceptible of scientific demonstration or proof. It found that it was proper to
+have resort to the probabilities of such events occurring, accepting that the
+probabilities may be very high or very low. Thus, courts must assess the degree of
+probability that an event would have occurred, or might occur. On that basis they
+should adjust their award of damages to reflect that degree of probability. These
+hypothetical or future events can be established as possibilities. When so
+established, it found that a court can take them into account when assessing
+damages, but only in terms of adjusting (either by an increase or a decrease) the
+amount of damages which would otherwise have been awarded.
+For the plaintiff, this meant that he was entitled to be compensated for the
+near certainty that he had contracted a psychiatric condition as a result of which
+he would thenceforth be unemployable. The court accepted that there was a
+chance that the plaintiff's back condition, for which the defendant was not
+responsible, would have rendered him unemployable. It was appropriate for his
+damages for his future loss of earning capacity to be reduced on this basis. There
+was also a chance that although his back condition would have made him
+unemployable, he would have gone through life without suffering a neurotic
+condition of the kind with which he presented. It found that in determining the
+chance that unemployability as the result of the back condition would have
+precipitated a similar neurotic condition brought into play two factors:
+the degree of probability that he would have become unemployable in
+any event as the result of his back condition; and
+the degree of probability that the unemployability as a result of the back
+condition would have caused a neurotic condition.
+The court found that it was appropriate to multiply these two possibilities. If,
+for example, there was a 75 per cent probability of his becoming unemployable
+by reason of his back condition even if he had not contracted brucellosis and a 75
+per cent chance that that unemployability would have caused a similar neurotic
+condition, there was only a 56.25 per cent chance (75 per cent x 75 per cent) that,
+if he had not contracted brucellosis, he would have developed a similar
+condition.110
+In short, therefore, it found that the plaintiff was entitled to be compensated
+for pain and suffering on the basis that his neurotic condition was the direct
+result of the defendant's negligence. However, it accepted that the damages
+should be reduced to take account of the chance that factors unconnected with
+the defendant's negligence might have brought about the onset of a similar
+condition. This analysis also entailed that the plaintiff was entitled to be
+compensated for the care and attention provided by his wife, an amount to be
+reduced to take account of the chance that factors unconnected with the
+defendant's negligence would have necessitated similar care and attention.
+Thus, in the wake of Malec v JC Hutton two different tests exist for
+determination of causation. The test in relation to the nexus between matters in
+the past, such as a negligent act or omission, and the current condition of a
+plaintiff must be proved on the balance of probabilities, whereupon it
+transmogrifies into a certainty in the "all or nothing" approach for calculating
+damages. This is in spite of the fact that it is common for there to be multiple
+logistical difficulties lying in the way of the plaintiff proving the nexus or the
+degree of nexus between his or her current health condition and a previous
+negligent act or omission. By contrast, even remote percentile chances are taken
+into account when the focus is turned toward the future. This means differing
+problems for the marshalling and presentation of expert evidence and a
+potentially highly confusing situation for decision-makers, especially jurors, who
+at the one time are instructed to entertain sophisticated estimates of chance by
+statisticians and epidemiologists and at another are told that if proof falls even
+marginally short of 50 per cent causation is not established and recovery is not
+permitted.
+Res Ipsa Loquitur
+In some limited circumstances the law has accepted that strict proof is not
+required that an accident was caused by a breach of a duty of care and that the
+defendant was the person responsible. In Australia a plaintiff can rely on the
+notion that the circumstances speak for themselves, that res ipsa loquitur,
+provided that the trier of fact is persuaded that:
+there is an "absence of explanation" of the occurrence that caused the
+injury;
+the occurrence was of such a kind that it does not ordinarily occur
+without negligence; and
+the instrument or agency that caused the injury was under the control of
+the defendant.111
+Prima facie the conduct of the defendant must have been of a kind that does
+not ordinarily happen without negligence and it must be clear that it was the
+defendant who was responsible.112 The principal function of the doctrine of res
+ipsa loquitur is to absolve the plaintiff of the need to prove matters which are
+clear without proof and where the facts may not be within the plaintiff's
+knowledge or easy means of proof. It functions as a presumption of negligence,113
+described by Field114 as "almost impossible to define, since it is merely the
+operation of a natural principle which ensures that when one party produces a
+cogent case which prima facie points the finger of blame at the other, then that
+other party would be well advised to adduce evidence which dispels the
+presumption of culpability thereby created."115
+In the early case of Byrne v Boadle116 Pollock CB spoke of the doctrine in terms
+of a "presumption".117 It appears that the predominant view in Australia118 and
+New Zealand,119 as well as formerly in Canada,120 although not in England,121 is
+that the doctrine raises no more than a permissive presumption, entitling an
+inference about a fact in issue from circumstantial evidence. This means that the
+burden of proving the case remains with the plaintiff122 – if an accident is wholly
+unexplained and there are two hypotheses about its cause, one consistent with
+the negligence of the defendant, the other inconsistent with it, the doctrine will
+not apply, meaning that the plaintiff will not have discharged the burden of
+proof.123 The contrast with the situation applying to the inferences that should be
+drawn after a breach of duty is proved and an injury follows under the approach
+of Kirby and Gaudron JJ is apparent and not easily reconciled.
+While many difficult issues continue to envelop the circumstances in which
+technically a res ipsa loquitur allegation of tortious impropriety can be made
+out,124 expert evidence adduced on the part of the defendant can go a significant
+way to proving that the maxim should not apply. Such evidence can raise the
+serious possibility that causation other than tortious conduct by the defendant
+could have been responsible for the accident which caused injury to the plaintiff.
+Such evidence will often be counterintuitive in the sense of raising for
+consideration possibilities of causation of an accident which would not otherwise
+readily occur in the mind of the trier of fact. When such matters become
+apparent, proof depends on "observational level" information – an apparent nexus
+is illusory because other factors may have been responsible for the outcome.
+Proving Causation of Injuries and Offending at the
+Sentencing Hearing
+A difficult and important question at the sentencing stage of criminal
+proceedings relates to proof of causation, and impact, of offending, an issue that
+has the potential both to improve and to worsen the situation of the accused
+person. It arises frequently in the context of the offender attempting to point to
+indirect factors as explaining, albeit not justifying, his or her offending and the
+prosecution seeking to ensure that the sentencer has an appreciation not just of
+the bare facts of the offending but the full context of the criminal behaviour,
+including its impact upon the victim. This will involve the sentencing judge or
+magistrate taking into account the physical and psychological effects of the crime
+upon the victim and also factoring into consideration a range of mitigatory facts
+asserted to detract from the offender's culpability.
+Generally, it is the prosecution that seeks to adduce victim impact information
+in order to apprise the sentencer of the context in which the sentencing exercise
+is taking place. Often the victim impact statement will highlight sequelae of the
+crime which demonstrate in an eloquent way how adversely the offence has
+impacted upon the primary victim and even upon secondary victims, such as the
+surviving relatives of a homicide victim. Such information has the potential to
+worsen the disposition imposed by the sentencer.
+Because of its ramifications for the disposition, there is an incentive for the
+accused to dispute the assertions of the victim. Generally the victim impact
+statement will simply be the expression of sentiment and (subjective) experience
+by the victim. This is not to downplay its legitimacy, simply to reflect that it is
+the articulation of the experience of pain and distress by the victim, often its tone
+depending upon the stage of resolution or accommodation which the victim has
+reached psychologically to the consequences of what has been done to them by
+the offender. On occasions, too, the victim impact information is bolstered by
+evaluation of the victim's condition by expert assessment – frequently by the
+victim's treaters, sometimes by forensic assessors.
+A further consideration also intrudes from time to time upon the information
+placed before the court at the time of sentencing. In a number of Australian
+jurisdictions, in particular in New South Wales, Victoria and South Australia,
+substantial awards of compensation have been made by courts against
+offenders.125 It is in the interests of the victim of the crime to have such
+information placed before courts in order to maximise the award of
+compensation. Tactically the best time for this information to go before a court is
+at the time of sentencing – at this stage the defendant is likely to be at his or her
+most conciliatory, seeking to minimise their sentence.
+It can be advantageous for the offender to be seen not to oppose an application
+for compensation by a victim. It tends to suggest insight into the consequences of
+the offending and a preparedness to take responsibility for the ramifications of
+the crime – in short, it suggests a diminished likelihood of recidivism, thereby
+raising the possibility of a sentence that is not too oriented toward retribution,
+punishment and individual deterrence. In South Australia, the sentencing
+legislation even obliges the sentencer to take into account the compensation order
+for the sentencing disposition to be imposed on the offender.126 It is likely that
+unofficially this occurs in other jurisdictions also.127
+Although it is advantageous for the victim to make an application for
+compensation against an offender, where the offender has means, and although
+there can be forensic opportunities for the offender in being seen to acquiesce in
+such an order, this does not mean that the information thereby placed before a
+court will always be accurate. In fact, there are considerable reasons why the
+provision of such information may be exaggerated or embellished – either
+deliberately or inadvertently. In such circumstances, there can be good reason for
+the offender to contest the assertions of psychological and somatic harm and to
+dispute the aetiology of the victim's current condition, contending that the victim
+suffered a preexisting condition or that other factors have influenced the
+seriousness of their current symptomatology.
+It is standard sentencing law that, broadly speaking, an offender takes his or
+her victim as they are.128 In Australia, it appears reasonably clear that if the
+victim of criminal violence has suffered particularly adverse consequences, that
+can constitute an aggravating feature for the purposes of sentencing.129 However,
+where the commission of an offence produces an outcome which is totally
+unforeseen and was unforeseeable by a reasonable person, then the outcome is
+not regarded as relevant for sentencing purposes, save as evidencing the infliction
+of some degree of harm to the victim.130 By contrast, if the victim has been
+particularly resilient or stoic and has suffered less than might have been expected
+by way of negative sequelae, this does not constitute a mitigating factor.131
+However, if an offender was in a position to appreciate the particular
+vulnerability of the victim, such as that they would be vocationally, educationally
+or psychologically harmed by the crime, this constitutes an aggravating matter
+for the purposes of sentencing.
+The other side of the coin is that offenders frequently wish to inform the
+sentencer of personal circumstances, such as abuse previously visited upon them,
+impaired educational opportunities, dependence upon alcohol or drugs, and a
+range of life's vicissitudes which might be regarded as detracting from their
+moral turpitude in having offended. Such information is routinely provided from
+the bar table but, where it is important, and really has the likelihood of bearing
+upon the sentence to be imposed, it is unsatisfactory for courts to be dependent
+upon assertions made from the bar table. Such assertions need to be the subject of
+evidence and proof in the usual way.
+The question that rose for the Australian High Court in Olbrich v The Queen132
+was as to whether different standards of proof apply to information proffered by
+the prosecution to the detriment of the offender, on the one hand, and evidence
+proffered by the offender to his or her advantage, on the other. It held that there
+are different standards, the court applying an earlier Victorian Court of Appeal
+decision on the subject.133 It determined that where information placed before the
+sentencing court is deleterious for the offender, it must be proved beyond
+reasonable doubt. However, where the information is advantageous for the
+offender, it need only be proved on the balance of probabilities. This has
+important tactical and practical consequences. It means that while it is
+strategically incumbent or advantageous for the victim to set before the court
+their circumstances at the time of sentencing, such matters, need only be proved
+to the civil standard. However, where information placed before the court is
+adverse for the accused, it needs to be proved by the prosecution to the criminal
+standard. An example of such material is evidence that tends to establish a
+particularly adverse impact of the crime upon the victim, perhaps even in
+circumstances that were reasonably within the foresight of the offender. Thus,
+putting such material before the sentencing court, and proving it beyond
+reasonable doubt is advantageous for the prosecution. Viewed another way, the
+offender is best positioned to contest such material at the time of sentencing; if a
+compensation application is made at the time of the sentencing hearing or shortly
+afterwards the victim will need to prove the impact only on the balance of
+probabilities.
+The ailing of the High Court stops short of the practice in England where upon
+a plea of guilty and there being a conflict on the facts, a sentencing judge is
+regarded as having three options: (1) to empanel a jury to determine the issue; (2)
+to decide the issue him or herself on the basis of evidence; (3) to hear submissions
+on the issue but if there are substantial conflicts on the issue, so far as possible to
+accept the position advanced on behalf of the accused.134
+The tenor of both the Australian and the English approaches is to facilitate the
+offender placing before the court information which has the potential to put into
+context how it was that they came on this occasion to break the criminal law,
+thereby causing harm or injury to the victim. What would otherwise be a heavy
+burden in the criminal process for the offender to prove such matters is eased
+where there are conflicts between the prosecution and the offender, and in
+Australia where the offender seeks to establish facts that are put as mitigatory. By
+contrast, where information is sought to be advanced that would aggravate the
+situation of the offender, the prosecution is put to a high level of proof, thereby in
+principle enabling the offender to contest such matters effectively. However, the
+realities of the criminal trial leave the prosecution in a strong position where it is
+contended that the offending has caused serious sequelae for the victim. First,
+there is a major disincentive for the offender to be seen to dispute such matters,
+for fear of being perceived as lacking in empathy and insight for the victim's
+plight, such a perception on the part of the sentencer making a heavier sentence
+for the offender more likely. Secondly, the entitlement of the offender to have the
+victim medically examined to ascertain the reliability and objectivity of the
+victim impact information placed before the sentencing court by the prosecution
+is dubious. This means that although the evidentiary rules about burden and
+standard of proof are relatively benign so far as the offender is concerned, the
+realities for the offender in relation to disputing the extent and causation of the
+victim's post-crime injuries are otherwise.
+Conclusion
+It is apparent that many items of evidence suspected of belonging to a causal
+relationship in fact reach no higher level than "observations" or "generalisations".
+It is important for the accuracy of the fact-finding process that these levels not be
+confused with the "explanation level" where science and medicine would say
+with confidence that one fact has been a cause or the cause of another. This
+requires a sophisticated understanding by triers of fact about distinctions and
+subtleties in areas of endeavour outside the law. Such an understanding can be
+acquired by effective and sophisticated communication within the body of
+forensic reports and via oral evidence in the courtroom. However, all too often
+expert evidence, especially of a numerate form, has fallen short of such standards
+and has had the potential to lead to misunderstanding and misestimation by lay
+persons such as judges, magistrates and jurors. Not only this; it has fuelled the
+mistrust and anxiety about expert evidence harboured by both appellate and trial
+judges.
+Proof of causation lies at the very heart of the resolution of most civil and
+criminal litigation. The identity of the party carrying the burden of proof and the
+standard of proof needing to be discharged by a litigant establish the ground rules
+for how the litigation contest is fought and resolved. One of the difficulties that
+has pervaded the various legal tests applicable to the means by which causation
+can be proved and disproved is the uncertain formulations enunciated by the law
+about what actually constitutes causation, as well as the resort in desperation to
+idealised notions of intuition and common knowledge. Where recourse is had by
+the courts to such vague formulations as common sense, in rejecting options such
+as the "but for test", it leaves the role of proof – especially by expert evidence –
+problematic and uncertain. This is especially so where such evidence is far from
+determinative but simply forms part of a body of information which is indicative
+of connectnedness between what is said to be a wrongful act and an adverse
+outcome.
+In Australia, by contrast with most parts of the United States, it is now the law
+that possibility expert evidence in the civil context, such as epidemiology
+evidence of a low order, is admissible. However, how decision-makers will
+actually integrate such evidence into the task of determining whether a teratogen
+or carcinogen claim is established is much less clear.135
+In the context of evaluating the extent in the civil trial to which the tortfeasor's
+tortious behaviour has resulted in the current physical and psychological
+condition of the plaintiff, rather than merely contributing to a condition affected
+by pre-existing or subsequently caused injuries, or that was latent or prodromal
+at the time of the commission of the tort, again expert evidence plays a major
+role. However, the extent to which psychiatrists and psychologists ex post facto
+can accurately arrive at such opinions is open to significant doubt, the task being
+inherently a forensic, and an arbitrary one, not a role customarily encountered in
+the clinical context where the focus is upon remediation rather than attribution
+of contribution to different incidents and events.
+When it falls to the defendant to contest the nexus between a tortious act and a
+subsequent injury, the burden again falls heavily upon expert evidence. In
+Australia, once a tortious act is established, a presumption appears to exist that
+an injury manifesting in its aftermath is attributable to the tort. Whether the
+presumption is substantive or evidentiary is unclear but what can be said is that
+if the defendant must disprove causation, this is not an easy task in personal
+injuries litigation or in the context of a medical negligence trial. It is clear that
+limited weight will henceforth be given to plaintiffs' assertions in "failure to warn
+cases" that had they been properly warned they would not have submitted to the
+procedure or would have made different arrangements for the procedure to be
+undertaken. More weight will be placed upon what options from a medical point
+of view actually were open to them.
+The provision of such informed opinions by specialist witnesses requires
+dispassionate, evidence-based expert opinion. Generally the theories underlying
+such evidence will need to be falsifiable, to have been ventilated for peer
+assessment in appropriate professional literature, to be subject to controlled tests
+and to be accepted by a reasonable percentage of professionals practising in the
+area.136 This is so in the United States federal jurisdictions as a threshold
+admissibility criterion and as a factor assisting evaluation of the probative value
+of such evidence in other countries. Evidence complying with such demands is
+consistent with the movement toward evidence-based clinical practice in
+medicine137 and with rigorous scientific standards generally in respect of
+causation.
+In determining the adequacy of causation evidence about the relationship
+between the current or future condition or capacity of a plaintiff and an earlier
+breach of duty by a defendant, the law has created a distinction between the
+kinds of proof required. As to the future, probabilities falling even well short of
+likelihood are contemplated. At a practical level, the complexities in such an
+exercise are significant indeed. For the past, expert evidence must simply be
+addressed to whether it is more likely than not that the breach of duty caused the
+current condition. To this extent, at least, the task for the decision-maker, while
+conceptually difficult to justify, is somewhat more straightforward. The difficulty
+is that, while it is comforting to think of the past as knowable and definite,
+frequently in practice exigencies of available evidence render the situation
+otherwise. The best that a combination of pertinent expert and lay evidence can
+do is to satisfy a decision-maker to a degree that a correlation that is causative
+exists. Thus the need for a consistency between the criteria for determining
+correlations between past and the future, on the one hand, and past/present and
+the future, on the other. However, it must be conceded that were such an
+approach to be adopted the pressure would be placed even more squarely upon
+decision-makers to be enabled to assimilate and effectively deal with the kinds of
+complex statistical evidence that is presented to them in Malec v JS Hutton
+scenarios.
+Similarly, there can be a gap between the technical rules of proof and the
+reality. An example exists in the sentencing phase of criminal trials. The
+considerable strategic disincentive and logistical impediments to the offender
+effectively contesting an assertion by the prosecution about the aetiology and
+extent of the victim's allegedly criminally caused injuries render it highly
+problematic for the offender to dispute the contentions of the prosecution. This is
+the more serious because the expert evidence from the prosecution/victim will
+tend to be from treaters of the victim and may well be advanced in the
+anticipation of second-phase litigation relating to entitlement to criminal injuries
+compensation. If such evidence is to be reliable, much will depend upon
+individual experts' commitment to objectivity and fair-mindedness of assessment.
+Proof of causation therefore is dominated by considerations of likelihood and
+chance, as well as being dependent upon experts' capacity to make such notions
+accessible. As already described, legal tests for causation and its proof remain in a
+considerable degree of flux and by reason of their ambiguity are difficult of
+practical exegesis and application. The day-to-day pressure is placed upon expert
+witnesses and report-writers to address these complex issues and mathematically
+expressed potentials to produce a forensic outcome. In principle, the hallmarks of
+expert evidence that will constructively inform decision-makers are scientific
+rigour, the extent to which it is based upon data and evidence of fact, and the
+degree to which its reasoning processes are both transparent and falsifiable.
+However, for as long as the law seeks refuge in unscientific notions such as
+common sense and intuitive assessment of causation, and for as long as it
+arbitrarily imposes different tests for matters that are conceptually
+indistinguishable, proof of causation by expert and lay evidence alike will remain
+the unsatisfactory handmaiden of such phenomena as the aura of persuasiveness
+of an individual witness on a given court day. This is a recipe for inconsistency
+and error in decision-making.
+* Barrister in full-time private practice in Melbourne, Australia, Professor in the Department of
+Psychological Medicine, Adjunct Professor in the Law Faculty and an Honorary Associate Professor
+in the Department of Forensic Medicine at Monash University, Adjunct Professor in the Department
+of Law and Legal Studies, La Trobe University. The author acknowledges the generous and patient
+assistance given to him with earlier drafts by Eric Magnusson in relation to his appreciation of
+scientific matters, and Belinda Bennett, John Devereux, Hugh Selby and Danuta Mendelson in
+relation to his appreciation of legal matters.
+1 See eg March v E & MH Stramare Pty Ltd (1991) 171 CLR 506 at 509; Chappel v Hart [1998] HCA 55 at
+[24]; Fitzgerald v Penn (1954) 91 CLR 268 at 277-8; Environment Agency v Empress Car Co
+(Abertillery) Ltd [1999] 2 AC 22 at 29.
+2 See E Magnusson, "Statistical Proof of Causation", Chapter 19.
+3 See in particular R v Karger [2001] SASC 64; I Freckelton. P Reddy & H Selby, Australian Judicial
+Perspectives on Expert Evidence, AIJA. Melbourne, 1999; I Freckelton, P Reddy & H Selby, Australian
+Magistrates' Perspectives on Expert Evidence: A Comparative Study, AIJA, Melbourne, 2001.
+4 Cuming Smith & Co Ltd v Western Farmers' Co-operative Ltd [1979] VR 129 at 147; Anderson v Blashki
+[1993] 2 VR 89 at 95-6; Basser v Medical Board of Victoria [1981] VR 953 at 969.
+5 See Briginshaw v Briginshaw (1938) 60 CLR 336.
+6 See eg Keown v Khan (1998) 101 A Crim R 503.
+7 WC Thompson, "Are Juries Competent to Evaluate Statistical Evidence?" (1989) 52 Law Contemp
+Problems 9; DH Kaye & JJ Koehler, "Can Jurors Understand Probabilistic Evidence?" (1991) 154 J R
+Statist Soc A 75.
+8 For a useful analysis of the presumptions in the law, see E Ullmann-Margalit, "On Presumption" (1983)
+L XXX Journal of Philosophy 143.
+9 CG Hempel, The Philosophy of Natural Science, Prentice-Hail, New Jersey, 1966.
+10 K Popper, The Logic of Scientific Discovery, Hutchinson, London, 1959; see also T Kuhn. The Structure
+of Scientific Revolutions, 2nd edn, University of Chicago Press, Chicago, 1970. Latterly, see AF
+Chalmers, What is This Thing Called Science?, 3rd edn, University of Queensland Press, 1999.
+11 An earlier terns for such evidence was "presumptive evidence": see JH Wigmore, The Science of Judicial
+Proof Little, Brown & Co, Boston, 1937 at para 6: J Stone & WAN Wells, Evidence: Its History and
+Policies, Butterworths, Sydney, 1991, at p132.
+12 WAN Wells, Evidence and Advocacy, Butterworths, Sydney, 1988, at p218.
+13 J Bentham, Rationale of Judicial Evidence in The Works of Jeremy Bentham, Russell and Russell, New
+York, 1962, Vol VII, pp308-9.
+14 AM Burrill, A Treatise on the Nature, Principles and Rules of Circumstantial Evidence, JS Voorhies,
+New York, 1856, p207, as to which see Wigmore, op cit, nil, at p795. See also W Wills, An Essay on the
+Principles of Circumstantial Evidence, Butterworths, London, 1902.
+15 See, for instance, Stone & Wells, op cit, n11.
+16 See R v Thomas [1972] NZLR 34 at 41 per Thomas J.
+17 Belhaven and Stenton Perlerage (1875) 1 App Cas 278 at 279.
+18 Chamberlain v The Queen No 2 (1984) 153 CLR 521 at 536 per Gibbs CJ and Mason J.
+19 Chamberlain v The Queen No 2 (1984) 153 CLR 521 at 598 per Brennan J; at 536 per Gibbs CJ and Mason
+J; see also Moss v Baines [1974] WAR 7 at 11.
+20 (1984) 153 CLR 521.
+21 Ibid, at 537-8.
+22 (1984) 153 CLR 521; 51 ALR 225.
+23 CLR at 536; ALR at 237.
+24 CLR at 627; ALR at 313. In Chamberlain v The Queen the High Court found that although the scientific
+evidence that blood under the dashboard and in the car of the accused parents was foetal blood and
+the evidence of a pathologist that he saw on the jumpsuit of the deceased the imprint of a hand in
+blood were unsafe to form the basis of an inference of guilt, the jury's finding of guilt should not be
+disturbed because of the existence of other legitimate bases for their decision. In R v Anderson [2000]
+1 VR 1 at 26 the Victorian Court of Appeal applied the same principle to insist that a jury should have
+been instructed that they could only accept the opinions expressed by two treating doctors that
+wounds on the accused had been self-inflicted, to the exclusion of opinions on the same subject
+expressed by a forensic physician and a forensic pathologist, if satisfied beyond reasonable doubt that
+the former opinions were correct: see also R v Sodo (1975) 61 Cr App R 131 at 134; R v Van Beelen
+(1973) 4 SASR 353.
+25 68 Cal 2d 319, 438 P 2d 33 (1968).
+26 LH Tribe, "Trial by Mathematics: Precision and Ritual in the Legal Process" (1971) 84 Harvard Law
+Review 1329; see also T Starkie, A Practical Treatise on the Law of Evidence, 7th American edition, T
+& JW Johnson, Philadelphia, 1842, Vol 1, p568: "The Notions of those who have supposed that mere
+moral probabilities or relations could ever be represented by numbers or space, and thus subjected to
+arithmetical analysis, cannot but be regarded as visionary and chimerical."
+27 LJ Cohen, The Probable and the Provable, Clarendon Press, Oxford, 1977.
+28 Adams v The Queen [1996] 2 Cr App R 467 at 481.
+29 See eg P David, "Probability and Proof: Some Basic Concepts" in T Anderson & W T wining, Analysis
+of Evidence, Weidenfeld & Nicholson, London, 1991.
+30 See eg B Grofman, "Mathematical Models of Juror and Jury Decision-Making" in BD Sales, The Trial
+Process, Plenum Press, New York, 1981.
+31 See E Magnusson, "Statistical Proof of Causation", Chapter 19.
+32 See I Freckelton & H Selby, Expert Evidence: Law, Practice and Procedure, 2nd edn, Law Book Co,
+Sydney, 2002.
+33 See eg Mutemeri v Cheesman (1999) 100 A Crim R 397; see also D Groves, "Commentary" (1998) 22
+Criminal Law Journal 357 at 359; D Lanham, "Danger Down Under" [1999] Criminal Law Review 960.
+34 In re Agent Orange Product Liability Litigation, 597 F Supp 740 at 834 (EDNY, 1984).
+35 AB Hill, "The Environment and Disease: Association or Causation?" (1965) 58 Proceedings of the Royal
+Society of Medicine 295 at 299.
+36 A point made in another context by P Sherman, "Agent Orange and the Problem of the Indeterminate
+Plaintiff" (1986) 52 Brooklyn Law Review 369 at 384.
+37 Note that parallel to the explanation ultimately found for AIDS causation, there was also an
+explanation for the valid but misleading generalisation about nitrate inhalants. See M Dore, "A
+Commentary on the Use of Epidemiology Evidence in Demonstrating Cause-in-Fact" (1983) 7
+Harvard Environmental Law Review 429; TA Brennan, "Untangling Causation Issues in Law and
+Medicine: Hazardous Substance Litigation" (1987) 107 Annals of Internal Medicine 741; HM Ginzburg,
+"Use and Misuse of Epidemiological Data in the Courtroom: Defining the Limits of Inferential and
+Particularistic Evidence in Mass Tort Litigation" (1986) 12 American Journal of Law and Medicine
+423.
+39 Hill, op cit, n35, at 95; see also MM Thompson, "Causal Inference in Epidemiology: Implications for
+Toxic Tort Litigation" (1992) 71 North Carolina Law Review 247.
+40 (1998) 45 BMLR 162.
+41 [1990] 1 Med LR 117.
+42 [2000] NSWCA 347; see also I Freckelton, "Epidemiology Evidence" (2000) 8 Journal of Law and
+Medicine 133.
+43 See in this regard R Goldberg, "The Contraceptive Pill, Negligence and Causation: Views on Vadera v
+Shaw" 12000) 8 Medical Law Review 316.
+44 Vadera v Shaw (1998) 45 BMLR 162, Lexis-Nexis, p13.
+45 See eg St George Club Ltd v Hines (1962) 35 ALJR 106 at 107; Bonnington Castings Ltd v Wardlaw
+[1956] AC 613.
+46 (1976) 50 ALJR 720 at 724.
+47 Nicolia v Commissioner for Railways (NSW) (1970) 45 ALJR 465.
+48 EMI (Australia) Ltd v Bes [1970] 2 NSWR 238.
+49 Fernandez v Tubemakers of Australia Ltd (1975) 2 NSWLR 190 at 197 per Glass JA.
+50 For a useful analysis of this issue, see D Kaye, "The Limits of the Preponderance of the Evidence
+Standard: Justifiably Naked Statistical Evidence and Multiple Causation" (1982) 2 American Bar
+Foundation Research Journal 487, also found in W Twining & A Stein (eds), Evidence and Proof,
+Dartmouth, Aldershot, 1992; see also GO Robinson, "Multiple Causation in Tort Law: Reflections on
+the DES Cases" (1982) 68 Vanderbilt Law Review 713. See also AG Celli Jr, "Toward a Risk
+Contribution Approach to Tortfeasor Identification and Multiple Causation Cases" (1990) 65 New
+York University Law Review 635.
+51 Relative ratios between 1.1 and 3 are generally described as "weak" (ARP between 9 per cent and 67 per
+cent), relative ratios between 3 and 8 are "moderate" (ARP between 67 per cent and 87 per cent);
+between 8 and 16 as "strong" (ARP between 87 per cent and 94 per cent), and between 16 and 40+ as
+"extremely strong" (ARP between 94 per cent and 97.5 per cent).
+52 Seltsam, at [79].
+53 Ibid, at [79].
+54 Applying Layton v Vines (1952) 85 CLR 352 at 358.
+55 See R v Thomas [1972] NZLR 34 at 41 per Thomas J.
+56 Seltsam, at [98].
+57 At [137]. See Thompson, op cit, n39, at 251 for a useful analysis of risk ratio, pointing out that it can be
+calculated as the risk of disease in the exposed group divided by the risk of disease in an unexposed
+group; or the number of exposed persons developing a disease over time divided by the total number
+of exposed people, that result being divided by the number of unexposed persons developing disease
+over time divided by the total number of unexposed people. The attributable risk proportion ("ARP")
+is the proportion of exposed persons who have contracted the disease for whom the disease in
+attributable to the exposure. It is calculated as follows: ARP = risk ratio -1 divided by risk ratio.
+58 Seltsam, at [139].
+59 Citing National Insurance Co of New Zealand Ltd v Espagne (1961) 105 CLR 569 at 591; March v E &
+MH Stramare Ptv Ltd (1991) 171 CLR 506 at 509, 522. 530-1; Chappel v Hart (1998) 195 CLR 232 esp at
+[6]-[7], [23], [62]-[64], [93], [111], [122].
+60 Seltsam, at [142]-[143].
+61 Federal Judicial Center, Manual on Scientific Evidence, US Government Printing Office, Washington
+DC, 1994, at p168.
+62 De Luca v Merrell Dow Pharmaceutics Inc, 911 F 941 at 958-9.
+63 In Re Joint E & S Dists Asbestos Litig, 758 F Supp 199 at 203 (SDNY 1991).
+64 Manko v United States, 636 F Supp 1419 at 1434 (WD Mo 1986).
+65 Marder v GD Searle & Co, 630 F Supp 1087 at 1092 (D Md 1986).
+66 In re >Agent Orange= Prod Liab Litig, 597 F Supp 740 at 835-7 (EDNY, 1984).
+67 Hamer calls such matters "counterfactual": D Hamer, "Proof of Causation and Quantum in an
+Unpredictable World" (1999) 23 Melbourne University Law Review 557.
+68 See the comments of Sopinka J in Snell v Farrell [1990] 2 SCR 311 at 320-1.
+69 Russell, "Establishing Medical Negligence – A Herculean Task?" (1998) 3 Scots Law Times 17 at 20-2.
+70 R Milstein, "Causation in Medical Negligence – Recent Developments" (1997) 6 Australian Health Law
+Bulletin 21.
+71 Chappel v Hart (1998) 156 ALR 517 at 546.
+72 This is often the case with matters relating to burden and standard of proof: see A Kiralfy (ed), The
+Burden of Proof, Professional Books Ltd, London, 1987.
+73 [1972] 3 All ER 1008; for a critical analysis see JG Fleming, "Probabilistic Causation in Tort Law: A
+Postscript" (1991) 70 Canadian Bar Review 136.
+74 [1988] AC 1074.
+75 McGhee v National Coal Board [1972] 3 All ER 1008 at 1013. By contrast, for instance, the position of
+Lord Salmon (at 1018) was that when it is proved on the balance of probabilities that an employer has
+been negligent and that the negligence has materially increased the risk of an employee contracting
+an industrial disease, the employer is liable in damages if the employee contracts the disease
+notwithstanding that the employer is not responsible for other factors which materially contributed
+to the contraction of the disease.
+76 A recent development is the decision of the Court of Appeal in Holtby v Brigham & Cowan (Hull Ltd)
+[2000] 3 All ER 421 at 428-9, where the Court of Appeal applied the reasoning in McGhee to a case
+involving serial causation; the plaintiff had been exposed to asbestos by two or more persons. The
+court affirmed the requirement of McGhee that the plaintiff must show that the defendant's conduct
+materially contributed to the plaintiff's injury. However, it found the defendant liable only to the
+extent of that injury.
+77 See Sindell v Abbott Laboratories, 607 P 2d 924 (1980); Hymonowtitz v Eli Lilly, 541 NYS 2d 941 (CA
+1989); see also R Goldberg, Causation and Risk in the Law of Torts, Hart Publishing, Oxford, 1999, at
+pi 1.
+78 For the contrary approach, see Zafft v Eli Lillv & Co, 676 SW 2d 241 (Mo 1984); Mulcahy v Eli Lilly &
+Co, 386 NW 2d 67 (Iowa 1986).
+79 (1998) 195 CLR 232.
+80 Sutherland Shire Council v Heyman (1985) 157 CLR 424 at 487 per Brennan J; Bennett v Minister of
+Community Welfare (1992) 176 CLR 408 at 422 per Gaudron J.
+81 Compare H v The Royal Alexandra Hospital for Children [1990] Med LR 297.
+82 Ibid, citing as authority Sutherland Shire Council v Heyman (1985) 157 CLR 424 at 487 per Brennan J:
+Bennett v Minister of Community Welfare (1992) 176 CLR 408 at 422 per Gaudron J.
+83 Chappel v Hart, at [68].
+84 Ibid, at 527.
+85 [2001] HCA at [89].
+86 Chappel v Hart, at [68] citing Bennett v Minister of Community Welfare (1992) 176 CLR 408 at 420-1.
+87 Chappel v Hart, at [32]-[34]; Rosenberg, at [88].
+88 For defendant concern about the impact of the shift in burden, see J Lavery, "Chappel v Hart: The High
+Court's Lost Chance" (1998) 7(3) Australian Health Law Bulletin 25 at 29.
+89 In the context of Canadian law, the decision of Linden J in Davidson v Connaught Laboratories (1980)
+14 CCLT 251 is an example. It was held that the warnings from a pharmaceutical company in relation
+to a rabies vaccine were unsatisfactory but that the role of the doctors in the case showed that even if
+there had been a proper warning it would have made no difference to the ultimate outcome as the
+doctors did not discuss neurological side-effects with their patients for fear that they would decline
+necessary treatment; in other words a proper warning would have been mediated by medical practice
+and would not have resulted in the patient failing to be exposed to the vaccine.
+90 Arndt v Smith [1997] 2 SCR 539; Reibl v Hughes [1980] 2 SCR 880 at 898-9; Canterbury v Spence, 464 F
+2d 772 at 791 (1972).
+91 Chatterton v Gerson [1981] QB 432 at 445.
+92 (1994) 5 Med LR 285 at 289.
+93 Rogers v Whitaker (1992) 175 CLR 479 at 490; Chappel v Hart (1998) 195 CLR 232 at 246 [32], 272 [93];
+Rosenberg v Percival [2001] HCA 18.
+94 Rosenberg v Percival [2001] HCA 18; see further I Freckelton, "Revisiting the Duty to Warn; the High
+Court's decision in Rosenberg v Percival" (2001) 9 Journal of Law and Medicine 5.
+95 Watt or Thomas v Thomas [1947] AC 484 at 488; see also Paterson v Paterson (1953) 89 CLR 212 at 224.
+96 Rosenberg v Percival [2001] HCA 18 at [25].
+97 Ibid, at [44].
+98 Ibid, at [45].
+99 Citing Gover v Slate of South Australia and Perriam (1985) 39 SASR 543 at 566 per Cox J; see also Ellis v
+Wallsend District Hospital (1989) 17 NSWLR 553 at 559-60, 581.
+100 Rosenberg v Percival [2001] HCA 18 at [155].
+101 See the aspiration of the courts in the "child sexual abuse accommodation syndrome" cases for a clear
+correlation between childhood sexual abuse and later behavioural "symptoms": R v B [1987] 1 NZLR
+362 at 368; R v Accused [1989] 1 NZLR 714; Ingles v The Queen, unreported, Tasmanian Court of
+Criminal Appeal, 4 May 1993; R v C (1993) 60 SASR 467; J v The Queen (1994) 75 A Crim R 522; F v
+The Queen (1995) 83 A Crim R 502.
+102 See Tame v Morgan [2000] NSWCA 121; Beavis v Apthorpe (1962) 80 WN (NSW) 852 at 857; Bourhill v
+Young [1943] AC 92.
+103 (1975) 7 ALR 571 at 575.
+104 (1990) 169 CLR 638 at 642-3.
+105 See eg Thompson v Evanoss [2000] ACTSC 73.
+106 (1995) 8 VAR 39; (1997) 91 A Crim R 301.
+107 See eg AA Stone, "Post-Traumatic Stress Disorder and the Law: Critical Review of the New Frontier"
+(1993) 21(1) Bulletin of the American Academy of Psychiatry and Law 23; AC McFarlane, "Post-
+Traumatic Stress Disorder" in I Freckelton & H Selby (eds), Expert Evidence, 5 vol looseleaf service &
+CD Rom, Law Book Co, Sydney, 1993-...; LA Neal, "The Pitfalls of Making a Categorical Diagnosis of
+Post-Traumatic Stress Disorder in Personal Injury Litigation" (1994) 34 Medicine, Science and the Law
+117; J Ellard, "The Epidemic of Post-Traumatic Stress Disorder: A Passing Phase" (1997) 166 Medical
+Journal of Australia 84.
+108 For a fuller analysis of this issue see I Freckelton. "Trauma Evidence" in I Freckelton & H Selby (eds),
+Expert Evidence, 5 vol looseleaf service & CD Rom, Law Book Co, Sydney, 1993-...; I Freckelton,
+Criminal Injuries Compensation: Law, Practice and Policy, Law Book Co, Sydney, 2001, Chapter 13.
+109 (1990) 169 CLR 638 at 642-3.
+110 Ibid.
+111 Schellenberg v Tunnel Holdings Pty Ltd [2000] HCA 18 at [25]. In Mummery v Irvings Pty Ltd (1956) 96
+CLR 99 at 116 Dixon CJ, Webb, Fullagar and Taylor JJ emphasised that the requirement that the
+accident "must be such as in the ordinary course of things does not happen if those who have the
+management use proper care is of vital importance and fully explains why in such circumstances res
+ipsa loquitur."
+112 Thus for instance in the leading Scottish authority on the subject, Devine v Colvilles Ltd (1969) SLT 154
+a workman who had leapt from a platform as a result of a nearby violent explosion, it was found that
+it was self-evident that an explosion of such violence that causes fear of imminent danger to workers
+does not occur in the ordinary course of things in a steel works if those who have responsibility for
+management use proper care.
+113 Although technically to describe it as a presumption is not helpful, a better approach being to describe
+it as an inference of negligence or even as a subset of circumstantial evidence: see JW Strong,
+McCormick on Evidence, West Publishing Co, St Paul, 1992; WL Prosser, Handbook of the Law of
+Torts, 4th edn, West Publishing Co, St Paul, 1971.
+114 D Field, The Law of Evidence of Scotland, W Green & Son, Edinburgh, 1988, at p83.
+115 See also WL Morrison, "The Quantum of Proof in Relation to Motions for Non-Suit and Verdicts by
+Direction" in HH Glass (ed), Seminars on Evidence, Law Book Co, Sydney, 1970.
+116 (1863) 2 H & C 722; 159 ER 299.
+117 Two years later in Scott v London and St Katherine Docks Co (1865) 3 H & C 596 at 601; 159 ER 665 at
+667 Erie CJ enunciated the basis of the res ipsa loquitur doctrine in terms that have subsequently
+been consistently applied in Australia, New Zealand and England: 'There must be reasonable
+evidence of negligence. But where the thing is shown to be under the management of the defendant
+or his servants, and the accident is such as in the ordinary course of things does not happen if those
+who have the management use proper care, it affords reasonable evidence, in the absence of
+explanation by the defendants, that the accident arose from want of care." See later Moore v R Fox &
+Sons [1965] 1 QB 596 at 611; Schellenberg v Tunnel Holdings Pty Ltd [2000] HCA 18 at [2Iff].
+118 See eg Nominal Defendant v Halbauer (1967) 117 CLR 448; GIO v Fredrichberg (1968) 118 CLR 403.
+119 Hawke's Bay Motor v Russell [1972] NZLR 542.
+120 Temple v Terrace Co (1966) 57 DLR (2d) 631. More recently, however, the Supreme Court of Canada has
+repudiated the doctrine in Fontaine v British Columbia (Official Administrator) [1998] 1 SCR 424; see
+further M Mclnnes, "The Death of Res Ipsa Loquitur in Canada" (1998) 114 Law Quarterly Review 547.
+121 Moore v Fox [1956] 1 QB 596; but see Lloyde v West Midlands Gas [1971] 1 WLR 749 at 755; see further
+PS Atiyah, "Res Ipsa Loquitur in England and Australia" (1972) 35 Modern Law Review 337.
+122 Anchor Products Ltd v Hedges (1966) 115 CLR 493 at 500 per Windeyer J; Schellenberg v Tunnel
+Holdings Pty Ltd [2000] HCA 18 at [72] per Gaudron J.
+123 Schellenberg v Tunnel Holdings Pty Ltd [2000] HCA 18 at [98] per Kirby J.
+124 For instance, there is ongoing uncertainty in Australia about whether the maxim is applicable to
+medical negligence cases: see eg Elliott v Bickerstaff [1999] NSWCA 453.
+125 See I Freckelton, Criminal Injuries Compensation: Law, Practice and Policy, LBC, Sydney, 2001.
+126 Criminal Law (Sentencing) Act 1988 (SA), s53.
+127 Arguably, s50 of the Sentencing Act 1991 (Vic) enables this to be done to some extent.
+128 See eg R v Webb [1971] VR 147 at 150-1.
+129 See eg Rv Mallinder (1986) 23 A Crim R 179 at 184-5.
+130 See Agius (2000) 115 A Crim R 387 at 389, 401; Feldtnan v Samuels [1956] SASR 55 at 57; Mayne (1987)
+137 LSJS 100 at 101; Boyd v The Queen [1975] VR 168 at 172.
+See also Teremoana (1990) 49 A Crim R 207 at 208; Royall (1991) 172 CLR 378 al 398-9; 412, 451. Compare
+Inkson (1996) 88 A Crim R 334.
+131 See eg Wiidkey, Boogna and Charles (1994) 76 A Crim R 302 at 318.
+132 [1999] HCA 54; (1999) 108 A Crim R 464.
+133 R v Storey [1998] 1 VR 359.
+134 Newton v The Queen (1982) 77 Cr App R 13; see also R v Gandy [1990] Crim LR 346. See Z Cowen & PB
+Carter, Essays on the law of Evidence, Greenwood Press, Westport, 1955, at p242ff about the earlier
+confusion in relation to standard of proof applied by the English courts in a variety of contexts.
+135 In relation to matters where potentially confusing statistics are a feature of the evidence, one option is
+the increased use of court-appointed experts. For a case example of this device, see R Coulam & SE
+Fienberg, "The Use of Court-Appointed Statistical Experts: A Case Study" in MH De Groot, SE
+Fienberg & JB Kadane (eds), Statistics and the Law, John Wiley & Sons, New York, 1986.
+136 See Daubert v Merrell Dow Pharmaceuticals, 125 L Ed (2d) 469; 113 S Ct 2786 (1993); Kumho Tire Co Ltd
+v Carmichael, United States Supreme Court, 23 March 1999; see also R v Johnston (1992) 69 CCC 395
+at 415; R v Meleragni (1992) 73 CCC (3d) 348 at 352; R v Calder, unreported, High Court of New
+Zealand, 12 April 1995; R v Brown, unreported, High Court of New Zealand, 19 September 1997.
+137 See WA Silverman, Where's the Evidence? Controversies in Medicine, Oxford University Press, Oxford,
+1998; S Hamer & G Collinson, Achieving Evidence-Based Practice, B Tindall, Edinburgh, 1999; DF
+Friedland, Evidence-Based Medicine: A Framework for Clinical Practice, Appleton & Lange, Stamford,
+1998.

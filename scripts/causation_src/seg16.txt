@@ -1,0 +1,588 @@
+13 Issues of Medical and Legal Causation
+Relating to Alzheimer’s Disease
+ROBERT HELME AND DANUTA MENDELSON*
+Introduction
+Biological, physical and environmental factors can cause or induce all kinds of
+medical conditions, including dementia, in humans, apes or mice. In
+contradistinction, only humans can cause or produce legally binding directives
+and instruments. In private law, these include testamentary and inter vivos
+dispositions, as well as directions about medical treatment. Thus, the discourse of
+causation differs in medicine and law. Issues of causation in the two disciplines
+intersect, however, when the validity of a transaction, a disposition or executed
+instrument is questioned on the ground of legal competence. The issue is
+complicated by the fact that the medical nature of dementia is yet to be fully
+ascertained, and that its progress and symptoms are often misunderstood.
+The law presumes that adults of "sound mind" are legally competent.
+Consequently, an otherwise binding decision may not be followed when the
+presumption of "sound mind" is displaced. The terms "sound mind" and
+competence are not part of medical nosology. They refer to a person's legal status:
+his or her cognitive competence to make valid dispositions and binding decisions.
+Competence can only be determined by a judge or an administrative body
+empowered to make guardianship decisions. Psychiatrists or a psychologists may
+be called in to assist in ascertaining someone's decision-making capacity.1 In the
+eyes of the law then, the cause of change in the validity of a person's dispositions
+and decisions is a lack of competence. Medicine may provide a diagnosis and an
+explanation of the condition that impaired the person's decision-making capacity,
+however, the aetiology – the precise medical cause of the condition, is usually
+only of secondary interest to this area of the law.
+Yet an understanding of the nature of dementia and its nuances can be vital in
+determining a person's competence. This is because the concept of legal
+competence traditionally refers to the person's cognitive capacity "to understand
+and process information so that a decision can be made and communicated",2 and
+dementia is a cognitive disorder characterised by gradual onset and continuing
+cognitive decline. However, the process of this decline fluctuates, and, as will be
+discussed below, a demented person may retain reasonable cognitive capacity in
+relation to certain life activities but not others.3 Consequently, a mere diagnosis
+of dementia cannot not of itself pre-determine the issue of competence.
+Alzheimer's disease is presently considered to be the most common cause of
+dementia.4 The vast majority of persons previously labelled as suffering senility
+prove to have Alzheimer's disease. The prevalence of this disease in all countries
+where data are available, including Australia,5 increases exponentially from 1 per
+cent of those aged 60 to more than 30 per cent of those aged 80. It is estimated
+that by 2021, there will be 2.26 million Australians aged over 65, or 12 percent of
+the population. The number of Australians over 80 years old has grown from
+260,000 in 1991 to a projected 560,000 in 2001, and will grow to 790,000 in 2021.6
+The legal issue of competence involves a medical understanding of capacity to
+consent to matters relating to medical treatment and decisions relating to wealth
+transfer through inter vivos and testamentary dispositions. The growing
+importance of such an understanding is highlighted by rapidly growing costs to
+society associated with the health and welfare of older people and the high
+proportion of wealth owned by this age group.7 Health and welfare costs increase
+approximately five-fold for persons over 65 years of age over younger adults.
+Conversely, it is estimated that most of Britain's and Australia's wealth is owned
+by these same people.
+In several jurisdictions legislative attempts have been made to deal with the
+issue of consent to and refusal of medical treatment by incompetent persons. The
+enactments usually provide for appointment of agents with enduring medical
+powers of attorney.8 These instruments, however, can be executed only by
+persons of "sound mind". In cases where dementia has rendered the person
+incompetent, a legal guardian with power to make medical decision on behalf of
+the patient may be appointed by a superior court of record under its inherent
+parens patriae jurisdiction, a Guardianship Board or Tribunal. Issues of wealth
+transfer are regulated under succession and probate legislation. Some
+jurisdictions have provisions that enable courts to authorise wills for mentally
+incompetent persons.9 Dispositions of vulnerable and mentally impaired persons
+are also protected by common law actions of duress and fraud, and by equitable
+remedies of unconscionability and undue influence. This chapter will focus on
+only two aspects of medical and legal causation relating to Alzheimer's disease –
+questions of decisional competence relating to refusal and withdrawal of medical
+treatment, and issues of competence and decisional capacity relating to inter
+vivos and testamentary dispositions in the context of the equitable doctrines of
+unconscionability and undue influence.
+Legal Tests of Competence
+Not surprisingly, given its socio-economic importance, the jurisprudence of legal
+competence for the purposes of private law10 was initially developed in the area
+of testamentary law. Sound mind is a prerequisite of testamentary capacity.11 In
+Greenwood v Greenwood12 and Harwood v Baker,13 English courts provided an
+undemanding test of competence or "sound mind". It required testators to know:
+the nature and extent of their property; the natural objects of their bounty, and
+how the will disposed of their property. They also were required to have the
+ability to make a rational plan for the disposition of the property.14 Once these
+criteria were met, testators were considered to be of sound mind, and were free to
+make eccentric or unusual dispositions. The notion of "sound mind" was
+negatively defined by Lord Cockburn CJ in Banks v Goodfellow.15 His Lordship
+wrote that:
+It is essential ... that no disorder of his [the testator's] mind should poison his affections, pervert his sense
+of right, or prevent the exercise of his natural faculties – that no insane delusions shall influence his will
+in disposing of his property and bring about a disposal of it, which if the mind had been sound, would
+not have been made.16
+Lord Cockburn thus defined testamentary capacity in terms of absence of two
+inter-related "disorders of mind". The first relates to the testator's emotional,
+moral and cognitive capacity ("poisoning of affections"; "perverting" of the sense
+of right; impairment in the exercise of "natural faculties"). The second, in the
+form of "insane delusions", relates to cognition, and could be described as a
+psychiatric disorder. More recently, "insane delusions" have been re-interpreted as
+beliefs and ideations that are "not capable of rational explanation or amenable to
+reason, and ... not explicable by reference to the subject person's education and
+culture."17 However, the mere presence of a "disorder of mind" is not sufficient to
+displace the presumption of "sound mind", and hence testamentary capacity.18 To
+ground invalidity, such delusions, poisoned affections, etc, must influence the
+person's will in disposing of the property, in a way in which he or she would not
+have done otherwise. The standard for determining the existence of testamentary
+capacity is therefore subjective. The question is not how a reasonable person in
+the shoes of the testator would have decided to dispose of the property in
+question, but what the actual testator would have done, absent the "disorder of
+mind".
+Thus the test of competence for testamentary capacity, involves the person's
+intellectual capacity to understand, weigh and consider the nature of the
+proposed course of action.19 For example, in Banks v Goodfellow, the testator
+though convinced that he was pursued by evil spirits, nevertheless had the
+capacity to attend to his financial affairs and had given clear and rational
+instructions for his will, which left the greater part of his fortune to the niece
+who had looked after him. His will was challenged by other members of the
+family, but it was held that it was valid, on the basis that an "insane delusion"
+from which the testator suffered did not influence his capacity to make
+testamentary dispositions.20
+Finally, "free will" in the sense of autonomy – the ability to form independent
+judgment – is also a prerequisite for both, valid property dispositions and binding
+directions regarding medical treatment.
+Thus there are three cumulative legal standards which test the validity of
+binding dispositions and directions: absence of "internal" coercion of the will
+through "disorder of mind"; absence of external coercion of the person's will by
+other parties; and the cognitive competence to understand the subject-matter of
+the decision. Several major questions arise in relation to these tests. The first
+concerns the applicability of general legal standards for valid medical treatment
+decisions of persons with intricate cognitive and affective disorders caused by
+dementia. The second is a jurisprudential issue of the tension between the
+importance of individual autonomy in lawful decisions regarding one's property21
+on the one hand, and law's willingness to invalidate or vary inter vivos and
+testamentary dispositions on the other.22 Underlying these questions is the
+problem of how the courts and physicians interpret behavioural, cognitive,
+affective and expressive aspects of dementia. The final legal question posed is
+whether the present tests of competence and sound mind are appropriate to
+safeguard the interests of persons diagnosed with dementia.
+Medical Nature of Dementia
+Alzheimer's disease is but one cause of dementia. Indeed, it has been postulated
+that there are a number of Alzheimer's diseases and that they occur
+simultaneously with other pathologic forms of dementia. When severe, the
+diagnosis of this and other dementias is easily made. In its earliest stages,
+however, even the most skilled clinicians remain unsure. This has led to a
+classification of severity of 0.5, 1, 2 and 3, where 1, 2 and 3 correspond to mild,
+moderate and severe degrees of the disease. The category of 0.5 is unsure
+territory, where the diagnosis may be that of normality within a wide range of
+functional ability; examples of which might include eccentricity, senile squalor
+syndrome and age-associated memory impairment. Once the examiner is sure
+that cognitive impairment is present, other diagnostic dilemmas arise. Firstly,
+there are the more than 150 documented causes of dementia to be considered.
+Some, such as depression, the effects of concomitant medication, and intercurrent
+illness which may lead to acute or subacute brain failure or delirium, must be
+excluded by history and laboratory investigation, and specific treatments need to
+be instituted.
+The clinical course of a patient with Alzheimer's disease is most easily judged
+at a distance in place and time. The attentive observer, however, is always
+impressed by fluctuation in cognitive and emotional abilities, whether globally or
+individually, from moment to moment, hour to hour, day to day and week to
+week. Intercurrent reversible illnesses compound this fluctuation. This makes the
+task of judging competence particularly difficult. The final diagnosis of
+Alzheimer's disease depends on histological examination, a facility rarely present
+during life because brain biopsy is not generally accepted as a routine
+investigation in most western countries given the potential for serious associated
+morbidity. At best, clinical diagnosis is associated with only a ninety per cent
+sensitivity and specificity for assured diagnosis. The judgment of pathologists as
+the final gold standard arbiter has also been questioned, and found to be less than
+hundred percent reliable. This is not surprising when it is realised that the
+aetiology and pathogenesis of this disease remain uncertain.
+Dementia is a behavioural syndrome best thought of as a consequence of
+chronic brain failure. There is an assumption that the affected individual has
+previously had sufficient intellectual capacity to function as a normal
+independent member of the community. Increasing age is associated with
+diminished organ structure and function (including brain function), which is a
+consequence of the biological processes of ageing, age-associated disease, disuse,
+and short and long term latent effects of environmental stimuli. Current medical
+understanding of the processes underlying these factors is limited. There is a
+limited capacity to measure the effects of each factor, the relative contribution
+one makes to the other, and any interactions between them. Clinical assessment
+and diagnosis depend on observation of the signs of the condition, asking the
+patient or a carer about symptoms; obtaining social and family history from the
+patient or a carer, and, performing physical examination and laboratory
+investigations. With a wide range of acceptable errors to each of these
+components, statistically inevitable multiplication of these errors in identifying a
+single cause for a decline in function, it is easy to understand that diagnostic
+precision and an ability to monitor the indicia of well being are low in the
+practice of medicine for older people. This situation is compounded by
+interaction of the several disease states, and discrete treatments for all or some of
+them, that are usually present in the older person.23
+Refusal, Withholding and Withdrawal of Medical
+Treatment
+Patients with Alzheimer's disease and their carers are also faced with the effects
+of ageing biology, disuse and environment. One pertinent example is the paradox
+whereby the use of narcotic analgesics may worsen pain in such a person. Pain is
+a sensory, emotional and cognitive experience. We all make cognitive appraisals
+of noxious stimuli which are compared to beliefs we have about their influence.
+Generally, coping strategies that lead to positive behaviours tend to reduce pain:
+we wince, limp, go to the doctor, take analgesics and reason that the pain must
+not otherwise dominate our lives. These abilities are not so available to the
+patient with Alzheimer's disease. For example, patients working at the limit of
+their cognitive ability may refuse medication. In such cases, the side-effects of a
+narcotic on cognition, and thereby coping capacity, may outweigh its analgesic
+effect. A further complication is their manifestation in opposite ways in different
+patients, or even in the same patient: consistent screaming at one time, deathly
+silence and inactivity at another. Both are manifestations of suffering.
+With regard to cognitive losses, inability to change concept is often the easiest
+loss to document objectively, and is usually associated with a particular decline in
+capacity for self-care. It also means that a person may well, and repeatedly,
+understand a line of reasoning at one point in time, but an examiner may be
+unable to demonstrate a similar understanding at a similar level of complexity
+when the patient is examined serially, or at another time. Understanding of these
+clinical features of dementia is particularly important in cases where the patient
+refuses life-saving medical treatment or requests euthanasia. Modern common
+law jurisprudence has developed a doctrine of inviolability of individual
+decisions regarding one's body.24 Under the law of trespass to the person, a
+competent adult patient has the right to make a voluntary choice whether to
+refuse or consent to any medical intervention, including life-saving or life-
+sustaining treatment.25 The right to refuse life-saving or life-sustaining medical
+treatment is commonly referred to as the "right to die". Lord Mustill in the
+Airedale NHS Trust v Bland expressed this rule in the following terms:
+If the patient is capable of making a decision on whether to permit treatment and decides not to permit it
+his choice must be obeyed, even if on any objective view it is contrary to his best interests. A doctor has
+no right to proceed in the face of objection, even if it is plain to all, including the patient, that adverse
+consequences and even death will or may ensue.26
+The rule is based on the notion that with regard to voluntary decisions of
+competent adults, "the principle of the sanctity of human life must yield to the
+principle of self-determination."27 In relation to patients with mild to moderate
+dementia, the undemanding criterion of competence may well be fulfilled
+enabling them to make valid decisions to refuse medical treatment. Common
+examples of such decisions include requests for institution or withdrawal of
+mechanical life-sustaining treatments, the use of antibiotics, antidepressants,
+fluids and food, and restraint. Yet many patients with mild dementia have a
+syndrome known as "word-finding difficulty". They are often unable to articulate
+ideas (expressive aphasia), or to apprehend (internalise) ways of reasoning other
+than the one they have adopted. The vocabulary of such patients is very limited.
+Therefore, once they have articulated an idea, they keep reiterating it, as if
+"stuck" in the groove of their narrow and rigid conceptual framework. It is in this
+context that repeated requests for euthanasia or repeated denials of a medical
+condition and refusal of life-saving medical treatment need to be understood.
+Frequently, mild to moderate dementia is co-morbid with depression, which is
+an affective disorder.28 This raises an ethical dilemma associated with the first
+generation of medications known to influence cognition and behaviours in
+patients with Alzheimer's disease. These medications are only of partial benefit in
+that they do not arrest cognitive decline. Difficult medical decisions that must
+made include a judgment on whether it is appropriate to prolong depression in
+patients with mild to moderate disease who still have insight into their condition,
+and when to withdraw treatment in someone of moderate to severe impairment
+knowing that their decline will probably accelerate?29 The legal causative
+conundrum is whether continuation of depression or acceleration of dementive
+process should be ascribed to the underlying illness or the medical decision to
+withdraw the medication. The common law's approach to causation is not
+settled.30 However, it is agreed that "in the realm of negligence, causation is
+essentially a question of fact, to be resolved as a matter of common sense."31
+Consequently, the court, presumably, would regard dementia rather than the
+physician's decision to withdraw the medication to be the legal cause of the
+patient's condition.
+With all patients who have early (0.5) to moderate (2) dementia, great caution
+is needed to ascertain whether their decisions and statements adequately reflect
+their affective state. Given the difficulties of psychiatric assessment, when a
+person refuses medical treatment while expressing the wish to die, the right to
+exercise this choice should be held paramount only after a very careful
+consideration of the way in which the decision was made, and its social,
+emotional and organic context. In the case of In re T,32 Lord Donaldson MR
+suggested the following four rules pertaining to the patient's capacity to make
+legally binding choices concerning medical treatment:
+(1) Prima facie every adult has the right and capacity to decide whether or not he will accept medical
+treatment, even if a refusal may risk permanent injury to his health or even lead to premature death.
+Furthermore, it matters not whether the reasons for the refusal were rational or irrational, unknown or
+even non-existent. This is so, notwithstanding the very strong public interest in preserving the life and
+health of all citizens. However, the presumption of capacity to decide, which stems from the fact that the
+patient is an adult, is rebuttable. (2) An adult patient may be deprived of his capacity to decide by long-
+term mental incapacity ... (3) If an adult patient did not have the capacity to decide at the time of the
+purported refusal and still does not have that capacity, it is the duty of the doctors to treat him in
+whatever way they consider, in the exercise of clinical judgment, to be in his best interests. (4) Doctors
+faced with a refusal of consent have to give very careful and detailed consideration to what was the
+patient's capacity to decide at the time when the decision was made. It may not be a case of capacity or
+no capacity. It may be a case of reduced capacity. What matters is whether at that time the patient's
+capacity was reduced below the level needed in the case of a refusal of that importance, for refusals can
+vary in importance. Some may involve a risk to life or of irreparable damage to health. Others may
+not."33
+In short, persons with dementia should not be treated against their will, but
+neither should life-saving treatment be withheld from them because their
+condition has made them incapable of expressing their actual wishes. The "facts"
+that contribute to a particular behavioural outcome in a patient with Alzheimer's
+disease should always be subject to close analysis to ensure that interpretations
+are not contaminated by unrealistic expectations of cognitive performance from a
+diseased brain. Indeed, behaviours in patients with Alzheimer's disease may be
+entirely the opposite of what might be expected from a normal adult. To
+complicate matters further, the demented person may have windows of lucidity
+when they may be judged competent to make decisions for themselves, or they
+may at various times during the course of the disease, be able to make decisions
+in some matters but not others.
+In severe cases, losses associated with frontal lobe are often accompanied by
+positive physical signs of a reflex nature and which remain unrecognised or
+misinterpreted by observers. These include grasp reflexes, sucking responses, and
+blepharospasm or involuntary prolonged eye closure following visual threat. In
+cases where the patient is connected to life-supports, grasp reflexes whereby the
+patient pulls out alimentation tubes are often misinterpreted as an indication that
+he or she wishes to have them withdrawn. In fact, however, these patients are
+incompetent, and their movements do not reflect cognitive awareness or
+intellectual insight. In relation to persons with severe dementia, the decision to
+withdraw life-sustaining treatment should not be made on the basis that the
+patient "demonstrated" a wish to refuse further treatment, but in accordance with
+the doctrine of best interests, taking into consideration the appropriateness of the
+treatment and its therapeutic burdens and benefits.
+Unconscionable Conduct and Undue Influence
+As noted above, dementia manifests as a slowly progressive loss of cognitive
+ability over many months to as many as 15 years, The disorder is characterised
+by loss of cognitive and emotional control which are functions of the cerebral
+cortex, the largest component of the human brain. Thus memory, language,
+complicated motor and sensory tasks and visuospatial performance become
+noticeably impaired. Most of the cerebral cortex of the frontal lobes, however, is
+concerned with executive functions that underlie complex behaviours such as
+judgment, reasoning and ability to change concepts. The manifestations of
+dementia depend on intellectual and practical demands made of the individual.
+Early in the clinical course, and sometimes for years, external demands may
+imperceptibly reduce, so that decline in cognitive ability goes unrecognised. For
+example, a businessman may have put in place such a robust support system of
+colleagues that his cognitive losses remain hidden for remarkably long periods of
+time.34 On the other hand, some individuals have such a large cognitive reserve
+that much erosion is required before cognition is manifestly impaired. This effect
+can be global or focal. For instance, an accountant may retain arithmetic skills
+well beyond the time when all other cognitive abilities are noted to be impaired
+by even the most casual observer.
+As the population ages, challenges to validity of dispositions by those
+diagnosed with dementia either at the time, or soon after of making a disposition
+or will, became more frequent. A fairly common case scenario may provide a
+basis for further discussion. It involves a businessman who, during the period of
+two years after diagnosis of early dementia at 0.5 level, had given a business
+colleague large sums of money, including some significant family assets over
+which he had sole control. The colleague was aware of the businessman's
+cognitive impairments, but "covered" for him in running the business until the
+dementia became moderate to severe. The businessman's gifts were dispositions
+inter vivos, but often a similar scenario arises when testamentary bounties to
+friends, close neighbours and institutional and private carers of the demented
+testator are challenged by disgruntled relatives. Can these dispositions be
+invalidated on the ground that they were created by persons with dementia, and
+thus subject to the doctrines of undue influence or unconscionable conduct?
+All dispositions may be open to challenge on the ground that, due to "defective
+faculties",35 the disposing or transacting party was incapable of understanding
+their significance and purpose.36 This will often be the case in moderate to severe
+dementia. However, in the example under discussion, the nature and effect of the
+dispositions was understood. Whether the dementia constituted a relevant
+"disorder of mind", either in the sense of impairment of "natural faculties",
+"poisoning of affections" or "insane delusions" would very much depend on the
+individual signs and symptoms. However, the competence challenge to the
+validity of the businessman's gifts would turn on whether they would have been
+made at all in the absence of dementia. At this point, the legal issue of causation
+becomes a chicken and egg question, since but for the dementia he would have
+required his colleague's help. Thus, but for the dementia the reason for the gifts
+would not have arisen. Is it fair therefore to invalidate them on the ground that
+dementia made the businessman vulnerable to undue influence or
+unconscionable conduct by his colleague?
+In the case of Bridgewater v Leahy,37 the majority of the High Court of
+Australia reiterated the notion that undue influence and unconscionable conduct
+"may be seen as a species of that genus of equitable intervention to refuse
+enforcement of or to set aside transactions which, if allowed to stand, would
+offend equity and good conscience". Since neither the standard of "equity" or
+"good conscience" are defined, the courts have wide discretion in the
+interpretation and application of these two doctrines.
+In the case of the businessman, early dementia was the factual cause of his
+decision to make gifts to his colleague, who was helping him to stay in business
+for an extra two years. Yet, one suspects that the dispositions would be open to
+challenge on the ground of unconscionability because, according to the majority
+of the High Court of Australia, a donor's disposition may be invalidated even
+though that person far from being "of weak mind", and was "perfectly competent
+to understand what she or he was doing, had done, or proposed to do, if the court
+finds that the intention [to execute the disposition] was produced as a result of
+undue influence or unconscionable conduct".38
+In other words, factors associated with the person's ability to form an
+independent intention to dispose of property rather than his or her cognitive
+capacity will be determinative of the validity of the disposition. Thus, the
+businessman, possibly persuaded by his family, through a litigation guardian
+could ask the court to set aside his dispositions of the family assets on the ground
+of unconscionable conduct. He could plead that his early dementia placed him
+under a serious disadvantage when he was deciding that his best interests were
+served by staying on in business and making expensive gifts to a colleague rather
+than by retiring, and that the colleague-recipient knew of his impaired
+competence and took advantage of it. In Bridgewater v Leahy,39 the High Court of
+Australia reaffirmed the general principle that the essence of unconscionable
+conduct is the combined inability of the disposing party to consider his or her
+best interests, and the unfair exploitation of this circumstance by another.40
+Mason J noted that:
+the disabling condition or circumstance is one which seriously affects the ability of the innocent party to
+make a judgment as to his own best interests, when the other party knows or ought to know of the
+existence of that condition or circumstance and of its effect on the innocent party.41
+Would the action be successful? Historically, lack of intelligence,42 alcoholic
+daze,43 infatuation of an elderly solicitor with a younger woman,44 and the
+emotional dependence of an elderly but competent uncle upon his nephew45 have
+all been considered sufficient disabling conditions for the purposes of
+unconscionability. One of the symptoms of dementia is an impaired ability to
+change concepts. It is arguable that once the businessman decided to remain in
+the business, his medical condition prevented him from even contemplating any
+other alternative. On this analysis, it could be said that his actions, including
+making gifts to the colleague were subject to an "internal coercion". Yet, at the
+time of the dispositions the businessman had early dementia, suggesting only a
+slight cognitive impairment. This may not have involved conceptual rigidity, at
+least with respect to the dispositions.
+Almost certainly, by the time the case reached the courts, the businessman's
+dementia would have been sufficiently advanced to render him an incompetent
+witness. In a way, the position would be practically the same as that of a
+challenged will. The difference between the colleague and beneficiaries under
+challenge is that having received the gifts, he is in a better financial position than
+they to defend the claim. The court would doubtless consider circumstantial
+evidence to determine whether dementia constituted a "disabling condition" in
+the context of his business activities. The determination would thus be based on
+inferences drawn from general medical theory and evidence provided by
+witnesses. The question of whether the colleague acted unfairly or took
+unconscientious advantage of the opportunity created by the early dementia
+would remain. The colleague enabled the businessman to continue to enjoy the
+status, respect and prestige. These norms of community approval unfortunately
+disappear once a diagnosis of dementia is made. Arguably, it was reasonable for
+the businessman to decide that the price – in the form of gifts – was worth
+paying for the help in retaining the community's esteem.
+But then, the definition of what constitutes unconscionable conduct is vague
+and open-ended. According to Lord Brightman unconscionable conduct is
+"victimisation, which can consist either of the active extortion of a benefit or the
+passive acceptance of a benefit in unconscionable circumstances."46 Any human
+act as well as dynamics of any relationship can be interpreted negatively, so this
+definition invites challenges to dispositions along a wide spectrum of psychiatric
+and emotional conditions, as well as old age.47 Motives that activate human
+conduct are intricate, and only rarely can be compartmentalised into purely
+angelic and purely devilish. In a society where greed is regarded as virtue, there
+are many who prey on the vulnerable and the lonely, including the demented.
+The elderly with even mild dementia are not great company. If they are lucky,
+their loving family and devoted friends will visit them regularly. But those who
+live away from the family have to rely on strangers. Again, if they are lucky, non-
+family carers, neighbours, new friends and partners may visit and help them out
+of the goodness of their heart. Alternatively, these legal strangers (like some
+family members) may do so for strictly mercenary purposes. However, if either
+way the result is that donors or testators are made to feel special, respected and
+cared for, then their dispositions - often by way of a codicil – should be analysed
+from their perspective. Accordingly, whereas moderate and severe dementia
+should always be regarded as a serious disadvantage and a disabling condition in
+relation to the doctrine of unconscientious conduct, this might not necessarily be
+the case with early dementia.
+Although jurisprudential distinctions between unconscionable conduct and
+undue influence are somewhat blurred, the characteristic feature of the doctrine
+of undue influence is that a gift by a donor can be set aside even "where a donor
+is perfectly competent to understand and intend what he or she did."48 This
+doctrine instead focuses on decisional independence or freedom within the
+relationship between two parties.49 In relation to dispositions inter vivos, the gist
+of undue influence lies in the impairment of freedom and voluntary judgment of
+the donor by the stronger party to the relationship.50 The court examines "the
+quality of the donor's intention or the means by which it [the intention] was
+produced,"51 in the sense of ascertaining that the intention was not subject to the
+influence of a person in a position of dominance. Thus, the critical issue is not
+decisional competence, but whether the donor executed the dispositions "as the
+result of the free exercise of his independent will".52 Evidence of diminished
+competence due to dementia may raise a presumption that the donee was in a
+position to influence the donor's intentions. It could be claimed on behalf of the
+businessman that, by definition, his early dementia made him a weaker party vis-
+a-vis the colleague, and thus open to undue influence. The conclusion that the
+businessman, like the uncle-transferor in Bridgewater v Leahy,53 was emotionally
+and professionally dependant on the colleague may be well founded.
+Nevertheless, as a ground for legal challenge, the case in which such conclusion
+might be drawn sits uncomfortably with the principle that all of us. even the
+elderly, have the right to dispose of property in any lawful manner we wish.
+Conclusion
+Major misjudgments may occur as a consequence of not recognising the
+complexity of conditions that cause dementia together with the dynamic inter-
+relationship of brain and environment. Considerable care must be taken in
+making causal judgments based on personal interpretations of observed
+behaviour. Law, with the help of medicine, must strive to understand behaviours
+from the point of view of an affected person's brain. It must also recognise that
+even a seriously impaired brain may be able to provide a suitable response to
+current perceptions of external threat.
+This area of interface between medicine and law can be expected to grow
+substantially over the next few years as we witness a major increase in the
+number of patients with Alzheimer's disease. Their families and carers are likely
+to have unrealistic expectations of the ability of both medicine and law to resolve
+the ethically and legally difficult questions that affect health and wealth, unless
+members of the legal profession specifically pay attention to the growing medical
+understanding of the nature and epistemology of cognitive disorders.
+* Robert Helme, Former Director of the National Ageing Research Institute, North West Hospital,
+Parkville, Victoria, Professorial Associate, Department of Medicine of the Royal Melbourne Hospital,
+Chairman of the Parkville Campus of the North West Hospital Special Clinical School. Danuta
+Mendeison, Senior Lecturer at the School of Law at Deakin University.
+1 PS Appelbaum & TG Gutheil, Clinical Handbook of Psychiatry and the Law, 2nd edn, Williams &
+Wilkins, Baltimore, 1991; S Crowe, "Forensic Neuropsychology" in I Freckelton & H Selby (eds),
+Expert Evidence, Law Book Co, Sydney, 1993-....
+2 JE Rein, "Ethics and the Questionably Competent Client: What the Model Rules Say and Don't Say"
+(1998) 9 Stanford Law & Policy Rev 241 at 242.
+3 Dementia usually leads to death in a severely debilitated, immobile state between four and fifteen
+years after its onset: American Psychiatric Association, Diagnostic and Statistical Manual of Mental
+Disorders – DSM-IV-TR, American Psychiatric Association, Washington, DC, 2000.
+4 Alzheimer's Type Dementia is the major cause of dementia (70 per cent), however, dementia can also
+be produced by stroke, which damages patches of the brain and produces "multi-infarct" dementia.
+Dementia may also be caused by AIDS, Huntington's Chorea, Parkinson's disease, or by alcohol-
+induced brain damage.
+5 AF Jorm & AS Henderson, Dementia in Australia, Department of Health and Family Services,
+Australian Government Publishing Service, Canberra, 1998.
+6 Human Rights and Equal Opportunity Commission, Human Rights and Mental Illness. Report of the
+National Inquiry into the Human Rights of People with Mental Illness, Australian Government
+Publishing Service, Canberra, 1993, at p510.
+7 OECD Economic Surveys, 1998-1999, Australia, 1999.
+8 Legislation providing for statutory agency under enduring powers of attorney for medical treatment
+have been enacted in Victoria, South Australia, Northern Territory and South Australia: Medical
+Treatment Act 1988 (Vic) s 6; Consent to Medical Treatment and Palliative Care Act 1995 (SA) ss 7
+and 8; Natural Death Act 1988 (NT) s 4; Medical Treatment Act 1994 (ACT) ss 6 and 13, In New South
+Wales and Tasmania, as well as in Victoria, Guardianship Acts provide for surrogate decisions with
+respect to medical treatment to be made by especially appointed guardians on behalf of an
+incompetent patient.
+9 Mental Health Act 1983 (UK) Part VII; Wills Act 1936 (SA) s 7; Wills Act 1997 (Vic) s 21.
+10 In criminal law, the rules of criminal insanity in McNaghten's Case (1843) 10 CI & F 200; 8 ER 718
+provide the legal test for the plea of insanity defence. See D Mawson, "Specific defences to a criminal
+charge: assessment for court" in R Bluglass & P Bowden (eds), Principles and Practice of Forensic
+Psychiatry, Churchill Livingstone, Edinburgh, 1990, O Wood & GL Certoma, Succession. Commentary
+and Materials, Law Book Co, Sydney, 1990.
+11 The testator must be of sound mind at the time of signing the will: Marquess of Winchester's Case
+(1598) 6 Co Rep 23a; Arthur v Bokenham (1708) 11 Mod Rep 148.
+12 Greenwood v Greenwood (1790) 163 ER 930.
+13 Harwood v Baker (1840) 13 ER 117.
+14 LA Frolik, "The Biological Roots of the Undue Influence Doctrine: What's Love Got To Do With It?"
+(1996) 57 U Pitt L Rev 841 at 849.
+15 Banks v Goodfellow (1870) 5 QB 549; followed in Australia in In Will of Wilson (1897) 23 VLR 197;
+Timbury v Coffee (1941) 66 CLR 277.
+16 Banks v Goodfellow at 565.
+17 Re Hodges (1988) 14 NSWLR 698 at 706 per Powell J; applied in Re Crichton, (unreported, Supreme
+Court of New South Wales, Probate Division, 22 July 1994), and in Re Crooks (unreported, Supreme
+Court of New South Wales, Probate Division, 4 December 1994).
+18 See further J Devereux, "Competence to Make Decisions" in I Freckelton & K Petersen (eds),
+Controversies in Health Law, Federation Press, Sydney, 1999.
+19 HJ Bursztajn, HP Harding, TG Gutheil & A Brodsky, "Beyond Cognition: the Role of Disordered
+Affective States in Impairing Competence to Consent to Treatment" (1991)
+19 Bulletin of the American Academy of Psychiatry and Law 383.
+20 In NSW, the court held that being a protected person under the Protected Estates Act 1983 (NSW) did
+not of itself raise a conclusive presumption of incompetence to make a will: Perpetual Trustee Co Ltd
+v Fairlie-Cunninghame (1993) 32 NSWLR 377. Likewise, in the American case of In re Estate of
+Gentry, 573 P 2d 322 (Or Ct App 1978), it was held that the testator who was suffering from
+schizophrenia and was under a guardianship was lucid, and therefore competent to execute and sign
+a will.
+21 JW de Furia Jr, in "Testamentary Gifts Resulting from Meretricious Relationships: Undue Influence or
+Natural Beneficence?" (1989) 64 Notre Dame L Rev 200 at 200 noted that "freedom of testamentary
+disposition has been described as one of the basic tenets of our social structure."
+22 Nattrass v Nattrass [1999] WASC 77 (25 June 1999).
+23 DS Fairweather & AJ Campbell, "Diagnostic Accuracy: The Effects of Multiple Aetiology and the
+Degradation of Information in Old Age" (1991) 25 J Royal College Physicians of London 105.
+24 Schloendorff v Society of New York Hospital, 105 NE 92 at 93 (1914).
+25 Secretary, Department of Health & Community Services (NT) v JWB and SMB (Marion's case) (1992) 175
+CLR 218.
+26 Airedale NHS Trust v Bland [1993] AC 789 at 891.
+27 Ibid, at 864 per Lord Goff of Chieveley. See also 826-7 (Hoffmann LJ).
+28 A person's "affect" refers to his or her immediate emotional experience. In psychiatric practice,
+subjective affective sensations such as pleasure, displeasure, irritation, etc, as reported by the patient
+are equivalent to symptoms; the observed mood and affective display (anger, joy, sadness, hurt, etc)
+serve as objective signs. The term "mood" refers to a more sustained and less flexible mental state
+over a longer period of time. In depression, the affective sensations are often shallow, inadequate or
+flattened: R Ketal, "Affect, Mood, Emotion and Feeling: Semantic Considerations" (1975) 132 Am J
+Psychiatry 1215.
+29 The rationale for the Commonwealth government, and hence our society, to underwrite the cost of
+these medications is currently the cost-savings in delaying and thus shortening residential care.
+30 Chappel v Hart (1998) 195 CLR 232.
+31 Bennett v Minister of Community Welfare (1992) 176 CLR 408 at 412-413.
+32 In re T (Refusal of Medical Treatment) [1992] 3 WLR 782.
+33 Ibid, at 797.
+34 It is said that this situation has pertained to more than one head of state in the contemporary world.
+35 The High Court of Australia still refers to "defective faculties" in its judgments: see Bridgewater v
+Leahy (1998) 194 CLR 457 at 475 per Gaudron, Gummow, Kirby JJ.
+36 Gibbons v Wright (1954) 91 CLR 423 at 449; Blomley v Ryan (1956) 99 CLR 362 at 401.
+37 Bridgewater v Leahy, op cit, fn 35, at 477 per Gaudron, Gummow, Kirby JJ.
+38 Ibid, at 492 per Gaudron, Gummow, Kirby JJ.
+39 Ibid.
+40 "Whenever one party by reason of some condition or circumstance is placed at a special disadvantage
+vis-a-vis another and unfair or unconscientious advantage is then taken of the opportunity thereby
+created ...": Commercial Bank of Australia Ltd v
+Amadio (1983) 151 CLR 447 at 462, per Mason J referring to Fuliagar J in Blomlev v Ryan (1956) 99 CLR
+362 at 386.
+41 Commercial Bank of Australia Ltd v Amadio (1983) 151 CLR 447 at 462.
+42 Wilton v Farnworth (1948) 76 CLR 646.
+43 Blomley v Ryan (1956) 99 CLR 362.
+44 Louth v Diprose (1992) 175 CLR 621.
+45 Bridgewater v Leahy, op cit, fn 35.
+46 Hart v O'Connor [1985] AC 1000 at 1024. Cited with approval in Bridgewater v Leahy [1998] HCA 66;
+(1998) 194 CLR 457 at 479-80, per Gaudron, Gummow, Kirby JJ.
+47 In Bridgewater v Leahy, op cit, fn 35, the majority determined that testator's old age affected the quality
+of his consent or assent to the transfers.
+48 Bridgewater v Leahy, op cit, fn 35, at 479-80 Gaudron, Gummow, Kirby JJ, referring to Lord Eldon LC's
+statements in Huguenin v Baseley (1807) 14 Ves Jun 273 at 299-300 33 ER 526 at 536.
+49 In Mountain v Bennet (1787) 29 ER 1200 the judge instructed the jury to invalidate a will if they
+believed that "the dominion or influence" of another prevented the exercise of independent discretion
+by the testator.
+50 Kinleside v Harrison (1818) 2 Phillim 449; (1818) 161 ER 1196 established the principle that certain
+confidential relationships, such as member of the clergy and parishioner, parent and child, guardian
+and ward, solicitor and client, as well as physician and patient raise a presumption of undue
+influence. See also: Commercial Bank of Australia Ltd v Amadio (1983) 151 CLR 447 at 461, 474.
+51 Bridgewater v Leahy, op cit, fn 35, at 475 per Gaudron, Gummow, Kirby JJ.
+52 Ibid.
+53 In Bridgewater v Leahy, op cit, fn 35, the owner of land entered into a contract to sell it to his nephew
+for a price of $A696,811 and at the same time executed transfers of the land and a deed of forgiveness
+for $A546,811 of the price. Although the Australian High Court acknowledged that at the time of
+execution of the transfers, the owner was of sound mind, it set aside the deed of forgiveness of price
+on sale of land.

@@ -1,0 +1,806 @@
+Part E:
+Causation, Evidence and Proof in Law
+and Medicine
+17 Causation in Law and Psychiatry
+RALPH SLOVENKO*
+In the law-psychiatry intermix, causation involving mental illness can, broadly
+speaking, be categorised: (1) behaviour as a result of mental illness, and (2)
+mental illness as a result of a stressor.
+Behaviour as a Result of Mental Illness
+People rarely ask if praiseworthy behaviour is a product of mental illness, though
+it is sometimes asked about the creativity of artists (as in the case of Vincent van
+Gogh), but on the other hand, when a person harms someone, the question is
+invariably raised whether the behaviour is a result of mental illness. If the
+behaviour is a result or product of mental illness, society will act one way; if not,
+society will take a different stance. Social convention brings sick people to
+doctors; evil people, on the other hand, go to jail.
+Time and again, forensic experts are asked to say whether the behaviour of the
+individual is fundamentally the result or product of mental illness or merely
+representative of a lifestyle. Put another way, the question is raised whether the
+person's behaviour or thoughts are ego-dystonic or ego-syntonic (that is, viewed
+by the self as repugnant or inconsistent with the total personality, or as
+acceptable and consistent with the total personality).
+Every test of responsibility, whether in criminal or civil law, contains a product
+or "on account of" mental illness question. That is, was a pathological condition,
+like a human agent, the motivating force behind the act? A person compelled to
+commit an act (crime or contract) at gunpoint is not held responsible. Likewise,
+according to logic, mental illness may threaten a person and force him or her to
+do things he would not ordinarily do. Not long ago, the blame was put on the
+devil.
+In Edward Oxford's trial in 1840, Lord Denman instructed the jury, "If some
+controlling disease was, in truth, the acting power within him which he could not
+resist, then he will not be held responsible".1 Under the M'Naghten Rules set out
+by the House of Lords in 1843, the accused, to be deemed not responsible, must
+suffer from a disease of the mind so severe as to render him or her incapable of
+knowing the nature and quality of the act or of knowing that the act was wrong.2
+The American Law Institute's test of 1955, which has also been widely adopted,
+provides that a "person is not responsible for criminal conduct if at the time of
+such conduct as a result of mental illness or defect, his capacity either to
+appreciate the criminality of his conduct or to conform his conduct to the
+requirements of law is so substantially impaired that he cannot justly be held
+responsible" (emphasis added).3 The Federal Insanity Defense Reform Act
+exculpates a defendant when as "as a result of a severe mental disease or defect,
+he was unable to appreciate the nature and quality or wrongfulness of his act"
+(emphasis added).
+An act is not the result of mental illness merely because of the presence of
+mental illness. Looking at a movie is not a pathological act although, at the time,
+the person viewing the film may be pathologically depressed. Correlation is not
+causation – there is correlation but not causation of summertime with an increase
+in crime. Correlation and causation can be distinguished by experimentation.
+The interactions between mental illness and criminality may be summarised:
+(1) Mental illness may simply coexist with criminality, without having any causal
+significance; (2) mental illness may predispose toward criminality, as in the case
+of M'Naghten's delusion that he was the victim of persecution by the Prime
+Minister of England, or it may be due to a compulsion, ranging from paraphilias,
+impulse disorders, Tourette's syndrome, post-traumatic stress disorder (eg,
+"Vietnam syndrome") to automatism; and (3) the mental illness may inhibit
+criminality, as catatonia would inhibit a person who otherwise would commit a
+rape.4 The commission of a crime, it must also be noted, may cause mental illness
+rather than mental illness being the cause of the crime; facing prosecution or
+punishment is a significant stressor and potentially pathogenic.
+In 1954, in Durham v United States Judge David Bazelon of the United States
+Court of Appeals for the District of Columbia formulated a "disease-defect-
+product" test. Trial judges attempted to instruct juries on the meaning of the rule.
+Three years later, seeking to clarify it, the DC Court of Appeals said:
+When we say the defense of insanity requires that the act be a "product of" a disease, we mean that the
+facts on the record are such that the trier of the facts is enabled to draw a reasonable inference that the
+accused would not have committed the act he did commit if he had not been diseased as he was. There
+must be a relationship between the disease and the act, and that relationship, whatever it may be in
+degree, must be. . . critical in its effect in respect to the act. By "critical" we mean decisive, determinative,
+causal; we mean to convey the idea inherent in the phrases "because of", "except for", "without which",
+"but for", "effect of", "result of", "causative factor"; the disease made the effective or decisive difference
+between doing and not doing the act. The short phrases "product of" and "causal connection" are not
+intended to be precise, as though they were chemical formulae. They mean that the facts concerning the
+disease and the facts concerning the act are such as to justify reasonably the conclusion that "But for this
+disease the act would not have been committed."
+To the precise logician deduction of the foregoing inference involves a tacit assumption that if the disease
+had not existed the person would have been a law-abiding citizen. This latter is not necessarily factually
+true and can rarely, if ever, be proved, but in the ordinary conduct of these cases we make that tacit
+assumption. For ordinary purposes we make no mention of this logician's nicety, (emphasis added.)5
+The widely adopted formula set out in 1955 in the ALI Model Penal Code,
+which contains a combination of the right-wrong test and an updated version of
+irresistible impulse, does not resolve the questions presented by the Durham
+formula. The issues persist. The ALI formula, as we have noted, provides that the
+impairment of cognition or control must be "a result of mental disease or defect".
+The M'Naghten test asks the same about impairment of cognition. The Durham
+formula brought "result" or "product" to centre-stage. It asked a more direct
+question: was the defendant's conduct itself the "product" of mental illness?
+Causal nexus between behaviour and illness is asked as well in other areas of
+the law. The test on competency to stand trial asks whether the incompetency
+was a result of mental illness. The law on civil commitment asks whether on
+account of mental illness the person is dangerous or in need of care or treatment.
+The law of contracts provides that certain people should not be held responsible
+for their agreements if they were mentally ill and as a consequence did not know
+what they were doing. The law on testamentary capacity asks whether mental
+illness prevented the testator from realising the nature and extent of his or her
+property or the natural objects of his or her bounty. A testament that is "the
+direct unqualified offspring of a morbid delusion" is null and void.
+The question arises: does major mental disorder equal violent tendencies?
+From early times, a relationship between mental disorder and violence was
+recognised. The Talmud said, "No man commits a crime except when a spirit of
+madness has entered into him". On the other hand, it has been claimed that
+psychotic people are not particularly prone to be assaultive. Following the
+Kennedy assassination, an American Psychiatric Association study claimed that
+the incidence of criminal behaviour among discharged patients of mental
+institutions was not significantly higher than among the general population.6
+Another study estimated the probability of violent behaviour in this category of
+seriously mentally ill persons at five in 10,000.7 The MacArthur Risk Assessment
+Study found that 27 per cent of released male and female patients committed at
+least one violent act within a mean of four months after discharge.8 Dr E Fuller
+Torrey points out that, contrary to claims by advocates attempting to decrease the
+stigma against mental illness, random community surveys indicate that seriously
+mentally ill individuals are significantly more dangerous than the general
+population. He observed: "The frequency with which individuals with
+schizophrenia reported having use a weapon in a fight - 21.5 times more than
+individuals with no psychiatric disorder - is especially noteworthy."9
+Current research points to a high incidence of mental disorder among
+individuals who have committed violent crimes. Although there is general
+agreement that individuals with certain characteristics of mental disorder are
+more prone to violence than other individuals, there is still debate concerning the
+prevalence of violent behaviour among various diagnostic groups. Current data
+suggest that schizo-affective diagnosis, paranoid features, psychotic symptoms,
+and substance abuse may all be associated with greater risk of serious violence.10
+When, then, is it justified to posit a causal nexus between behaviour and
+illness? How does one distinguish between behaviour that is a product of illness
+and behaviour that is a reaction to it? When is mental disorder "causative" or
+merely "correlated with" criminal behaviour? Does mental disorder "cause"
+behaviour in the same sense that epilepsy "causes" seizures? What does it mean to
+say that certain behaviour is a product or a feature of mental illness? Is the
+answer anything more than opinion? The French philosopher Voltaire, a fervent
+believer in free will, satirised the way people would excuse their brutal actions by
+attributing them to a providential command. One could say that mental illness
+tinges all aspects of the thought processes of the mentally ill individual, and that
+every act of the individual is at least partially affected by mental illness. There
+may be sick and healthy aspects of mental functioning within the same person.
+The terms used by the legislatures or the courts - "product of", "a result of",
+"causal connection", "because of", "causative factor" - are unsatisfying and
+impenetrable.
+There is the "bad seed" hypothesis. One belief is that criminals suffer a
+physiological dysfunction that may be hereditary or result from trauma. Brain
+lesions or tumours, temporal lobe epilepsy, blood chemistry changes, glandular
+abnormality, and hypoglycemia are among the organic factors linked to
+criminality. Is there a connection among genes, mental disorder, and violence?
+Biological psychiatry holds that mental illness stems from a chemical imbalance
+in the brain, and that many human traits are genetically influenced. In the past
+few decades, the majority of researchers have endeavoured to show that
+psychiatric disorders are triggered by chemical imbalances in the brain that can
+be rectified with medication. The American Journal of Psychiatry is now almost
+entirely organic psychiatry; it used to be biopsychosocial and before that,
+psychosocial. Limitations on insurance coverage and developments in
+neuroscience technology propel that direction.
+With the focus increasingly on the organic, and on psychopharmacology, the
+term "organic disorder" is eliminated from the American Psychiatric Association's
+Diagnostic and Statistical Manual (DSM-IV) on the grounds that it is misleading
+in implying that other psychiatric disorders do not have an organic component.11
+In the 1960s a controversy arose over whether criminals have special
+chromosome patterns. Some criminal defendants (presumably those with no
+better alibi) presented expert testimony that they possessed an extra Y
+chromosome, causing them to be legally insane at the time of the crime.12 The
+defence in the trial of John Hinckley Jr, the would-be assassin of President
+Reagan, submitted CAT scans to show a slightly shrunken brain.13 Andrei
+Chikatilo, who murdered 52 people over a 12-year period in Russia, requested
+that, following his execution, his brain be dissected to learn why he committed
+the crimes.14 Advances in neurology, many neurological experts say, enable them
+to probe the brain's anatomy and function to reveal abnormalities caused by
+disease or trauma that may spark violence. They buttress a defence of not guilty
+by reason of insanity ("NGRI") with brain scans and other tests that underscore
+claims of derangement in a seemingly direct and objective way.
+The nature-nurture controversy asks whether genetics (nature) or cultural and
+experiential factors (nurture) is the more important determinant of human
+behaviour. The nature-nurture debate became highly politicised in the early part
+of the twentieth century. In 1933, shortly after assuming chancellorship of
+Germany, Adolf Hitler convinced the Reichstag to pass the Law for the
+Prevention of Genetically Diseased Offspring, a law closely patterned after a 1922
+model statute drawn up in America. By that time the United States had carried
+out about 20,000 sterilisations, most of them involuntary.
+Nazi Germany's program evolved into "the destruction of unworthy life." The
+Nazi program, with strong support from the medical community, was represented
+as "applied eugenics" - the Nazis were carrying out "purification." In America, as
+eugenicists and others favouring a genetic view of human behaviour became
+linked in the public mind with events taking place in Germany, those favouring a
+cultural view of human behaviour grew progressively stronger. Nature was
+silenced, and nurture was Freudianised, as illustrated in the writings of Franz
+Boas, Ruth Benedict and Margaret Mead. The name "Freud," once merely a
+euphemism for sex, turned into a broader symbol of non-genetic approaches to
+human behaviour.
+The nature-nurture debate ended in 1946 at Nuremberg. Nature was put on
+trial along with the Nazi leaders. Henceforth, theories, including Freud's,
+extolling nurture as the primary antecedent of human behaviour would take
+centre stage and encounter little intellectual opposition. Nurture ruled, but
+instead of a competition against nature there was a debate among supporters of
+nurture as to whether early childhood experiences or cultural factors were more
+important determinants of human behaviour. By the mid-1950s the flow of
+Freud's ideas through popular magazines reached fluvial proportions. On the
+paediatric frontier, Dr Benjamin Spock was the Freudian missionary. Spock
+taught that early childhood experiences, particularly those sexual in nature, are
+crucial determinants for personality development.
+The arguments about criminal behaviour became part of the broader nature-
+nurture debate. By the early 1920s, Freudian theory was widely discussed in
+criminology and forensic science. The question was whether criminals were born
+as such or whether they were the products of early childhood experiences and
+social forces. In Nazi Germany genetic theories of criminality had been
+prominent, but in the aftermath of the Second World War, theorists about crime
+in America could talk only about its social, economic and familial antecedents.
+Treatment facilities to "cure" prisoners of their criminal behaviour were opened in
+various states.
+Experts nowadays frequently argue a neurological defense, even in cases of
+seemingly calculated violence. They argue that the violence was actually the
+uncontrollable by-product of damage to a specific region of the brain, caused
+genetically or by years of physical abuse during childhood, but neurologists have
+yet to demonstrate a necessary correlation between a non-limbic (frontal lobe)
+abnormality in the brain and violent behaviour. Individuals convicted of violent
+crimes do show a higher incidence of certain factors associated with brain
+damage - abuse, head injuries, malnutrition, lower IQ, seizures, and subtle
+neuropsychological deficits –than do people in control groups, but most people
+thus afflicted do not commit violent crimes. In a number of writings, neurologist
+Richard Restak has pointed out that the more complex and symbolically
+meaningful the behaviour, the less likely it can be linked to a specific region of
+the brain. The line of causation is hard to draw for premeditated acts of violence.
+Neuropsychological examinations do not account for motivation.15
+The kind of violent behaviour that results from damage to the limbic system,
+unlike a non-limbic abnormality, is relatively easy to identify. People who suffer
+from episodic dyscontrol - also known as intermittent explosive disorder - display
+spells of violence grossly out of proportion to any preceding event. These
+intermittent paroxysms of aggression strike out of nowhere, and the individual
+expresses a genuine sense of regret when the spells pass.16
+The appropriate insanity defence on these types of cases requires specification
+and corroboration of symptoms of loss of reality-related cognition, or loss of
+control during the crime, or both. For the needs of the courts, the important
+questions are: What was the nature of the violent act and the circumstances
+surrounding it? Does the defendant exhibit signs of neurological damage? If so, is
+it likely with a reasonable degree of medical certainty that, absent the
+neurological impairment, the violence would not have taken place?
+Speculations about the relations between brain dysfunctions and behavioural
+aberrations, however, do not form a proper basis for asserting, with the degree of
+certainty required by the law, that a violent act was committed on the basis of
+some form of neurological dysfunction. But that has not stopped experts from
+testifying on the slimmest evidence. People who kill others often report
+disturbances in consciousness, including depersonalisation and feelings of
+unreality. It is not to be assumed that all such people are suffering from
+neurological damage, especially since the same experiences are regularly reported
+by people suffering from disturbances that are not considered neurological and
+may occur in anyone. Assuming neurological damage simply because a person
+has undergone some impairment in consciousness ignores studies that report 65
+per cent of all murderers have amnesia for the act itself.17 It is always
+questionable whether the dissociation took place before, during, or after the
+killing.
+Tracing criminal violence to a specific region in the brain is reminiscent of
+ancient times when it was believed that demon possession caused mental illness,
+and, in turn, unlawful behaviour. "The devil made me do it" is the old saying, or
+in the Talmud's phrasing, "No man commits a crime except when a spirit of
+madness has entered into him". Demonic possession is with us still, even if the
+label is different. The various tests of criminal responsibility are grounded on
+something like a demon possession theory. Although the criminal law tests do not
+mention demons, mental illness, as used in these tests, is regarded essentially as a
+form of demoniacal manipulation. Under the M'Naghten, Durham, or ALI rule, it
+is necessary to establish that a disease or defect of the mind exists and impairs
+cognition or control. The operational use of the concept illustrates what the
+philosopher Alfred North Whitehead called "misplaced concreteness", that is, an
+abstraction is reified: a process is turned into an entity. Restak pointed out how,
+in our vocabulary, we tend to describe the mental processes mediated by our
+brain as a machine. "He had a mental crack-up." "His mind is 'rusty' or unable to
+'grind out' solutions to problems." At other times, our mind is "sharp as a razor"
+or "really revved up", "the wheels are turning" within our heads. "His ego is easily
+bruised." "His mind was shattered." "He went to pieces." "His mind just snapped
+from the shock of it all."18
+The terms "result of" and "product" in the test of criminal responsibility denote
+separateness and imply a lineal causation. Behaviour is a unitary process, but,
+with licence, it is spoken of in terms of either its subjective elements or its
+outward appearances. It is like talking about the mind and body as though they
+had separate existence. We do it because we do not have the language expressive
+of continuous interactions with multiple or circular causality. Our language limits
+us to a lineal step codification of reality and to a world of single one-to-one
+causality. Dr Philip Q Roche wrote in his Isaac Ray award book:
+In the language of the law, cause is regarded as an event which has direct or proximate connection in
+sequence with another event, ... [W]e can recognize that, when viewed within a moral system, out of our
+own psychological needs and design we are impelled arbitrarily to dichotomize behaviour into subjective
+(motivational) and objective elements. This dichotomy sets and maintains the alignments of the
+adversary system of resolving moral problems. At the same time, however, the dichotomy opens the door
+to the realm of infinite differences which may come less out of actual differences in nature, and more out
+of the differences in the persons who report and evaluate them. ... Seemingly, by an inner psychological
+necessity we are impelled to abstract the outward act from the hypothetical subjective element and to
+regard the act as a "product."19
+The way society labels a particular cluster of mental characteristics
+corresponds to how it feels about the individual, and society is constantly
+changing its mind to accommodate competing policy interests. Society's
+representatives may benefit from psychiatric expertise in determining which
+cognitive and emotional characteristics are features of a diagnostic category, but
+it is up to society, through its representatives, to decide whether a behaviour is a
+product of mental illness or not. The decision of whether behaviour is a "product"
+or a "result" of mental illness is not a matter of scientific expertise but a matter of
+social policy.20 Under an amendment of the Federal Rules of Evidence, as
+provided by Congress as part of the Insanity Defense Reform Act of 1984,21 the
+expert may be asked whether the individual suffers a mental illness but the
+expert may not be asked: "Was the accused able to appreciate the nature and
+quality of his act?", "Was the accused able to appreciate the wrongfulness of his
+acts?", or "Was the act the product of that disease or defect?" Taken literally,
+under the amendment, the jury is to decide causation issues without the
+assistance of expert testimony.
+Mental Illness as a Result of a Stressor
+Traditionally in a tort action, recovery at law for emotional distress was only
+recognised as an additional or parasitic element of damages. Thus, where the
+tortious conduct inflicted bodily harm, the ensuing emotional distress could be
+taken into account in assessing damages. Emotional distress could be the sole
+basis of a claim only in cases of intentional wrongdoing for assault, defamation,
+false imprisonment, invasion of privacy, and malicious prosecution. In the mid
+1950s, the courts in various states of the United States began to allow an action
+for the intentional infliction of emotional distress, as when a jokester tells a
+woman that her son has been mutilated in an accident.
+In cases of negligence resulting in fright, shock, or other mental suffering, the
+various jurisdictions have required proof of physical impact or injury. Over the
+years, the law has been concerned about a flood of litigation or fraudulent claims
+if compensation were awarded in cases of negligence alleging mental distress
+without accompanying physical impact or injury. The physical impact or injury
+would establish causal nexus. Of course, in all torts in which there is physical
+injury, be it an intentional tort or negligence, damages are awarded for pain and
+suffering.
+Beginning in the mid-twentieth century, an increasing number of states in the
+United States, one by one, removed the physical impact or injury limitation in
+negligence actions. The law in a near majority of states has moved from that of
+requiring physical impact or injury to allowing claims without insisting either
+that the victim feared for his or her own safety or even suffered physical injury,
+such as a heart attack or miscarriage. In 1968, a trend began in allowing an action
+for mental distress even for bystanders witnessing negligent injury. That year, in
+the famous case of Dillon v Legg,22 the California Supreme Court set out
+standards for a bystander action: a close relationship to the person injured, close
+proximity to the scene, and "sensory and contemporaneous observation" of the
+accident. A number of jurisdictions have loosened the requirement that the
+plaintiff has to be at the scene of the alleged act that caused the mental suffering.
+In the Dillon case, the distressed mother was outside the zone of danger - there
+was no possibility that she would be hit by the car that killed her daughter, but
+she was at the scene.
+Fear, when well founded, of becoming ill at a later date may also be
+compensable. The question has arisen in litigation over toxic torts and latent
+diseases, as in lawsuits brought by those who have been exposed to asbestos or
+by the daughters of women who took the drug diethylstilbestrol (DES).23 In a
+Wisconsin case, the plaintiff claimed damages for a physical injury and for her
+phobia that she might develop a cancer from broken pieces of a catheter that
+could not be removed from her body. The court said, without further explanation,
+that "although there is no question about there being in fact a fear of future
+cancer, the claim of damages (by way of cancer) is so remote and is so out of
+proportion to the culpability of the tortfeasor that, as a matter of public policy,
+we conclude that the defendants are not to be held liable for this element of
+damages."24
+The most frequently cited public policy factors a court will consider when
+deciding whether liability should not attach to damages caused by a defendant's
+negligence are: (1) The injury is too remote from the negligence; (2) the injury is
+wholly out of proportion to the defendant's culpability; (3) in retrospect, it
+appears extraordinary that the negligence would have brought about the harm;
+(4) allowing recovery places an unreasonable burden on the defendant; (5)
+allowing recovery is too likely to open the way for fraudulent claims; (6) allowing
+recovery will enter a field having no sensible or just stopping point.
+A psychiatric diagnostic category is not essential to a cause of action, but the
+listing of stress reactions in the DSM has tended to give the claim more
+legitimacy. Forensic psychiatrists pushed the listing of post-traumatic stress
+disorder (PTSD) in the DSM. With the inclusion of PTSD, victims of trauma have
+increasingly used that formulation in civil and criminal cases. As expert
+witnesses, psychiatrists embrace PTSD to explain the psychological sequelae of
+trauma in personal injury cases.
+In tort litigation, PTSD is a favoured diagnosis in cases of emotional distress
+because it is incident specific. It tends to rule out other factors important to the
+determination of causation. Thus plaintiffs can argue that all of their
+psychological problems issue from the alleged traumatic event and not from
+myriad other sources encountered in life. A diagnosis of depression, in contrast,
+opens the issue of causation to many factors other than the stated cause of action.
+Questions asked on direct examination and cross-examination reflect the
+concern over causation and malingering. "What is the relationship, if any", the
+expert is asked, "between the trauma and the plaintiff's mental disorder?" "Can
+the plaintiff work?" "What is the type and length of treatment required?" "What
+part does litigation play in the plaintiff's mental illness?" "How do you know that
+the plaintiff is not faking?" If the expert has concluded that the plaintiff is
+suffering from PTSD, he or she is asked to explain it, at which time the plaintiff's
+history is used to illustrate the DSM criteria for PTSD.
+Wholly aside from the question of how far the law should go in protecting
+against emotional disturbance, there are difficult evidentiary questions not only
+of causation, but also of fault and assessment of damages. The vulnerability of the
+victim is considered differently in each of these various elements that together
+constitute a tort.
+For fault, the risk reasonably to be perceived determines the duty of care.
+Foreseeability is the traditional test. Thus a greater duty of care is imposed on a
+motorist when he or she sees a handicapped person or child crossing the street.
+When the vulnerability of a person is not reasonably apparent, he or she may
+fairly be assumed to be an ordinary individual. Negligence is failing to observe
+the care of a reasonable person in like circumstances.
+For causation, the law looks for proximate cause. There is no litmus test for
+determining proximity, and there may be more than one proximate cause. Some
+courts use the foreseeability test in determining causation, as is done in
+determining fault, but usually the courts say that for causation it is a question of
+the objective evidence. For causation, there is the well-known expression, "the
+tortfeasor must take his victim as he finds him", so peculiar vulnerability to harm
+does not excuse. It may be argued, however, sometimes successfully, that "the
+straw that broke the camel's back" is not a proximate cause.
+So-called delayed PTSD may be the result of a cumulation of events resulting
+in a crisis. (In law, the limitation period begins when the injury is made known.)
+The proximate cause may arguably be either the earlier or a later event. The term
+"proximate" has connotations of nearness in time, but that is not its meaning in
+law. Legal cause and responsible cause are more appropriate terms, but those
+terms also leave much room for vagaries in decision-making. In a number of
+cases, the courts have said that the determination of proximate cause is the
+province of judges, not juries, but more often than not, it is a decision left to the
+jury.
+In days gone by, when the term "traumatic neurosis" was used, psychiatrists
+distinguished between a true traumatic neurosis in which a healthy individual
+suffers emotional distress as a result of an overwhelming stress, and a triggered
+neurosis, in which a vulnerable individual decompensates as a result of stress that
+would be quite inconsequential to a healthy individual. Theoretically, in law,
+however, the distinction is one without a difference, but in the case of a triggered
+neurosis, the argument is made that a triggering event is not a proximate cause.
+Trauma, of course, is a relative concept - stimulus in relation to the coping
+ability of an individual - but when a stressor is not outside the range of common
+experience, the evidence tends to support a finding that it is not a proximate
+cause. Also, when a stressor is not outside the range of common experience,
+suspicion arises of malingering.
+In assessing damages, testimony of the condition of the claimant before and
+after the occurrence of the stressor is crucial to the case. (Punitive damages are
+another matter.) The forensic examiner is called on to make a long-term
+assessment of impairment. The before-and-after testimony dwells on difference
+in personality, character traits, and behaviour, such as outgoing versus
+withdrawn, loving versus indifferent, mild-mannered versus abusive, reliable
+versus erratic, and clean versus slovenly. When pre-existing psychological
+problems are aggravated, accelerated, or reactivated by trauma, a court may have
+qualms about ascribing the full injury to the defendant. As a matter of law, a jury
+is to discount what would have happened anyhow.25
+Actually, what difference does a diagnosis make when before-and-after
+determines the measure of damage? In fact, a diagnosis is not necessary to
+establish what the claimant was able to do before and after the trauma. Lay
+witnesses can attest to that, but the DSM is state-of-the-art, and the forensic
+expert is invariably asked to label the claimant's suffering.
+Theoretically a diagnosis informs about prognosis. In general, claimants have
+an obligation to minimise their damages. In some cases, PTSD symptoms
+diminish over time, in association with many differing factors, whereas in other
+cases, they do not diminish and in fact may worsen in the absence of treatment.
+A wide variety of factors may affect the course of PTSD, including coping
+mechanisms, social support, type and duration of stress, family functioning,
+personality, other disorders and so on.
+Syndrome Evidence
+The search for evidence, particularly in child abuse cases, has led to a new species
+of medical evidence: the "syndrome" diagnosis. This type of evidence, designed to
+establish a stressor, apparently originated historically in radiology and clinical
+observation. John Caffey, the father of paediatric radiology, spent 20 years trying
+to fit the bony abnormalities seen on childhood x-rays into known syndromes.
+He noted abnormalities that must be associated with child abuse as they were not
+seen in any known disease.26 In 1962, Dr C Henry Kempe drew the attention of
+the medical profession to a set of presenting symptoms for which he coined the
+term "battered child syndrome".27
+The term "syndrome" is well known in the medical community as being "a
+running together", a "sundromos " in the Greek, or as the Oxford English
+Dictionary puts it, "a concurrence of several symptoms in a disease". Normally a
+syndrome is regarded as being identifiable when a collection of symptoms occurs
+together so often that they provide a recognisable clinical entity. There is
+controversy, however, over the admissibility of "syndrome" evidence in criminal
+or tort cases to establish either that a particular traumatic event or stressor
+actually occurred or to explain the behaviour of the victim. In a child abuse case
+a psychiatrist or psychologist is presented to testify that the child exhibits the
+characteristics of a sexually abused child and that, by implication, the child was
+sexually abused.28 (Experts use the term "rape trauma syndrome" in the case of a
+young girl as well as in the case of an adult woman, and they tend to use the
+term "sexually abused child syndrome" in the case of a child of tender years or
+when the offender is a family member.)29 Because the defence in these cases is
+usually that the abuse did not occur and that the child is making it up, the
+testimony is designed to bolster the credibility of the child.30
+Proponents of syndrome evidence argue that it is probative and logical. After
+all, what could seem more sensible than to look for patterns? In medical
+diagnosis, of course, the symptoms of an individual are compared with a pattern
+and a conclusion is drawn about aetiology. As the comedian Jimmy Durante once
+put it, "If something looks like a duck, walks like a duck, and quacks like a duck,
+it must be a duck". Some courts call it the "the duck test". Its application should be
+cautious, however, when it is based only on symptoms. Dr Albert Drukteinis put
+it thus: Medical conditions, generally, can be defined on different levels,
+depending on structural pathology, etiology, deviation from some physiological
+norm, observable signs or symptom presentation. As definitions move from more
+objective criteria of identifiable and measurable pathology to symptom
+presentation only, they change from disease to syndrome. Therefore, a syndrome
+is more likely to include arbitrary or subjective criteria, and to lie in a more gray
+area of certainty. However, by using the term "syndrome", a word which has its
+roots in medicine, the symptom pattern described gains medical legitimacy.31
+Certain assumptions about psychological evidence to ascertain a stressor are
+particularly questionable. One is the assumption that a certain post-traumatic
+stress syndrome is the pathway of a particular kind of stressor. In actuality, a
+wide variety of stressors may result in the trauma. Second is the assumption that
+victims of a particular stressor react in the same manner. Moreover, it would be
+surprising for someone to have no other stressors in his or her life other than the
+one associated with the alleged event.
+In actuality, the impact of stressors depend upon the interaction between
+predisposition and environmental influence. One person may break down;
+another may be stoic. In short, not all victims react with the same characteristics,
+and many persons with these characteristics have not been abused but instead,
+may be suffering from something else, or they may be malingering or acting
+hysterically.32
+Freud's patients recalled their trauma "with all the feelings that belong to the
+original experience". In 1895-96, Freud, in listening to his female patients, felt that
+something dreadful and violent lay in their past. The psychiatrists before Freud
+who had heard seduction stories believed their patients to be hysterical liars and
+dismissed their memories as fantasy. Freud believed that his patients were
+reporting the actuality. However, some nine years later he publicly retracted his
+theory about the aetiology of hysteria. His patients, he now said in an about-face,
+had been deceiving themselves and him, "I was at last obliged to recognize that
+these scenes of seduction had never taken place, and that they were only fantasies
+that my patients had made up."33 Other therapists, however, find that the incest
+fantasies of their patients are based on a history of incest.34 "Revival of memory"
+therapists link problems of depression, eating disorders, and multiple personality
+disorder to childhood sexual abuse.35
+Therapists who "uncover" dissociative identity disorder claim that its genesis is
+childhood abuse, so in every case of dissociative identity disorder, they say, an
+allegation of child abuse is warranted. In a 1988 article in Psychiatric Annals,
+Daniel Hardy, a psychiatrist who also holds a law degree, wrote, "The psychiatrist
+or therapist must be alert to the potential danger of a malpractice suit arising
+from failure to diagnose multiple personality disorder".36
+As it turned out, just the opposite has happened, to wit, diagnosing or
+uncovering dissociative identity disorder has been regarded as malpractice, which
+follows the proposition that dissociative identity disorder is treatment-created or
+sometimes the result of self-hypnosis. Dr Paul McHugh, chairman of the
+Department of Psychiatry and Behavioural Science at Johns Hopkins, wrote, "
+[Dissociative identity disorder] is an iatrogenic behaviour syndrome, promoted
+by suggestion and maintained by clinical attention". He noted that multiple
+identities disappear when the therapist does not ask about them, take notes about
+them, or otherwise take an interest in them.37
+So, out of concern for relevance, comes the legal question: Does the victim's
+clinically observed emotional trauma support the allegation about the stressor? In
+the usual tort or criminal case, an act is not in dispute - say, an automobile
+accident - but rather causation and damages are in dispute. In a turnaround, in
+cases involving syndrome evidence, symptoms are offered as evidence that a
+certain act occurred, but is trauma stressor specific? Is there something peculiar
+about the trauma suffered by a victim of a tort or crime that is different from the
+trauma suffered as a result of other stressors such as a hurricane or an automobile
+accident? Are subcategories of PTSD warranted - such as "sexually abused child
+syndrome", "rape trauma syndrome", "battered spouse", "battered elderly", or
+"incest trauma"?38 These terms have developed to encompass the recurrent
+pattern of certain victims. Should they be elevated to the level of diagnostic
+nomenclature? Should they simply all be called PTSD? They are not listed as
+separate syndromes in the DSM, the state of the art, but who knows, perhaps
+some day they will.
+A number of appellate decisions have been rendered on syndrome evidence.
+For some purposes, some appellate courts have recognised a number of categories
+of PTSD and have allowed testimony on them.39 In rulings followed by many
+other courts, the California Supreme Court has admitted testimony on the
+battered child syndrome to prove child abuse but has excluded the rape trauma
+syndrome to prove that a rape had occurred. In People v Bledsoe,40 the California
+Supreme Court made an attempt at explanation, saying that expert testimony
+concerning the battered child syndrome is admissible because that concept was
+devised for the purpose of determining whether a child's injuries were
+intentionally inflicted.
+Dr Kempe's formulation of the syndrome, however, was based on physical
+evidence. Put another way, the physical injuries sustained by the child do not
+form any injury pattern normally sustained by children in day-to-day activities.
+The "battered child syndrome" indicated that the injuries suffered by the child
+were not the result of an accident. Following Dr Kempe's formulation, courts in
+various jurisdictions allowed an expert medical witness to express an opinion
+that a child exhibits the battered child syndrome. In these cases the expert is
+permitted to give an opinion as to the cause of a particular injury, either on the
+basis of the expert's deduction from the appearance of the injury itself of from the
+syndrome.
+Sexual child abuse, on the other hand, often leaves no physical injuries on
+which a diagnosis of "battered child syndrome" could be based. And what about
+an alleged rape? Should a rape counsellor or other mental health professional be
+permitted to testify to an individual's post-incident emotional trauma - "a
+constellation of symptoms experienced by the victims of sexual assault" or "rape
+trauma syndrome" - in order to prove that a rape in fact occurred (or a "sexual
+abuse syndrome" to prove that molestations occurred)? In a rape case, it is argued
+that the complainant would not suffer the symptoms if she had consented to the
+sexual act.41 (Consent is no defence, of course, in cases of sexual abuse involving
+children. In these cases, the issue is whether it occurred or whether the accused is
+the perpetrator.)
+In Bledsoe, the California Supreme Court noted that the rape trauma syndrome
+is a fundamentally different concept from the battered child syndrome because
+the "[the rape trauma syndrome] was not devised to determine the truth or
+accuracy of a particular past event". Rather, the court said, it is "a therapeutic
+tool" used to treat victims by counsellors who consciously "avoid judging the
+credibility of their clients".42 The distinction has been widely but not always
+followed.43 Actually any of the PTSDs are treatable without regard to the nature
+of the stressor or even whether a stressor actually occurred. (The "rape crisis
+centre" could be "crisis centre" for all people in emotional distress.)
+While courts have more often rejected than accepted "rape trauma syndrome"
+in establishing the stressor, they have allowed evidence of a "child sexual abuse
+syndrome" to show that the child was sexually abused. As a result of the concern
+about child abuse, in the trial of accused child molesters, many courts in recent
+years in the United States have allowed mental health professionals to testify that
+the psychological problems of a child are evidence that abuse has in fact
+occurred.44 Other courts draw a distinction without a difference, saying that an
+expert may testify that the particular behaviour of the child was characteristic of,
+or "consistent with", the behaviour pattern of child sexual abuse victims
+generally, but the expert may not testify about whether the victim's allegations
+are truthful or whether sexual abuse did occur.45
+In proving the rape of an adult, however, many courts like the California
+Supreme Court in Bledsoe, have concluded that rape trauma syndrome does not
+meet the standard of general acceptance in the scientific community.46 The court
+emphasised, however, that while such testimony is not admissible for the purpose
+of proving that a rape occurred, it may be admissible for other purposes, such as
+explaining to the jury certain popular myths concerning rape victims. It may be
+used to explain a delay in reporting. Likewise, in battered spouse cases,
+prosecutors call mental health professionals as expert witnesses to explain the
+individual's failure to make a timely report for fear of reprisal, fear of being
+blamed, and fear of terminating the relationship.47 Quite frequently the
+prosecutor seeks to introduce evidence to explain behaviour unique to victims of
+sexual assault in order to enhance the credibility of its witnesses. Some child or
+adult victims of sexual assault, for example, may fear retaliation and may delay
+reporting the crime for a longer period than the victims of other crimes. Others
+may delay out of shame; still, others may recant their earlier allegations. The
+"child sexual abuse accommodation syndrome" (developed by Dr Roland Summit)
+has as its premise that children do not lie about sexual abuse, but change their
+stories for other reasons.48
+Promptness in the report of a crime tends to be taken as evidence of reliability.
+It is regarded as an indication that the accusation is not a concoction. Indeed, the
+law of evidence regards spontaneity of a statement as an indicium of trust or
+trustworthiness and makes an exception for it in the rule against hearsay.49 How
+can a prosecutor deal with a delay in reporting, or with a recanting of the story?
+In Bledsoe, the court said: "[I]n such a context expert testimony on rape trauma
+syndrome may play a particularly useful role by disabusing the jury of some
+widely held misconceptions about rape and rape victims, so that it may evaluate
+the evidence free of the constraints of popular myths."50 Thus, in another case, in
+Washington, a worker at a "sexual assault centre" was allowed to testify that in
+over 50 per cent of sexual abuse cases involving children there is a delay in
+reporting.51
+Syndromes are multiplying. In the 1970s, there was much publicity about a
+disorder called the "Stockholm Syndrome." The presenting symptom of this
+affliction affected hostages who, showed signs of sympathy for the captors who
+had terrorised them. This condition was offered as an explanation for Patty
+Hearst's taking part alongside her former captors in a bank robbery. Not much is
+heard now about the "Stockholm Syndrome"; but we hear a lot about many
+others. The Montana Supreme Court upheld an award to a farmer because the
+state's nearby highway construction was stressful to his pigs. A veterinarian gave
+expert testimony about "porcine stress syndrome".52 After a few days in
+Jerusalem, the Holy City, apparently normal pilgrims imagine they are biblical
+figures. The Holy City derangement is labelled "Jerusalem Syndrome".
+In Werner v State,53 Judge Marvin Teague of the Texas Court of Criminal
+Appeals described the proliferation in this way: "Today, we have the following
+labels: 'The Battered Wife Syndrome'; 'The Battered Child Syndrome'; 'The
+Battered Husband Syndrome'; 'The Battered Patient Syndrome'; 'The Familial
+Child Sexual Abuse Syndrome'; 'The Rape Trauma Syndrome'; 'The Battle Fatigue
+Syndrome'; 'The Vietnam Post-Traumatic Stress Syndrome'; 'The Policeman's
+Syndrome'; 'The Whiplash Syndrome'; 'The Low-Back Syndrome'; 'The Lover's
+Syndrome'; 'The Love Fear Syndrome'; 'The Organic Delusional Syndrome'; and
+'The Holocaust Syndrome.' Tomorrow, there will be additions to the list, such as
+'The Appellate Court Judge Syndrome'."
+Werner involved the admissibility of evidence on the "Holocaust Syndrome",
+offered in support of a plea of self-defence (just as evidence of "battered spouse"
+is offered to establish a lower threshold of self-defence). The syndrome is one
+exhibited by children of survivors of the Nazi Holocaust who grew up hearing
+the stories from their parents of how entire Jewish families perished in the
+concentration camps during the Second World War without resisting. These
+children have formed a firm determination that if their lives are ever threatened,
+they will immediately resist forcibly and not permit injustice to be foisted upon
+them. This mind-set makes them vulnerable to precipitous use of deadly force in
+what they believe is self-defence when confronted with assaultive behaviour.
+In this case, a psychiatrist would have testified (if allowed) that the defendant
+showed "some" of the characteristics of the syndrome associated with children of
+survivors of Nazi concentration camps. He would also have testified "that one
+does not need to be thinking of an event for another event in one's life to have an
+effect, a subconscious effect on him". The State objected to the proffered
+testimony on the ground of relevancy; that is, if self-defence is urged, the test to
+be applied is "the standard of an ordinary and prudent person in the defendant's
+position at the time of the offence". The majority of the Texas Court of Criminal
+Appeals, agreed; but Judge Teague, while mocking the proliferating phenomenon
+of syndrome evidence, argued in dissent that the "Holocaust Syndrome" should be
+given the same deference as the "Battered Spouse Syndrome", or other syndrome,
+that is allowed to explain the effects of abuse on the condition of a defendant's
+mind.
+It remains a controversial issue whether syndrome evidence should be
+admissible as evidence to establish that a specific stressor has in fact occurred.
+Because symptoms of a psychological nature are not stressor-specific, the "duck
+test" is of questionable value. These symptoms do not imply aetiology. With few
+exceptions, the DSM does not set out the aetiology of the disorders.54 A wide
+variety of stressors may give rise to a given symptom, which may also be
+attributable to normal developmental variations.55 During a therapy session, the
+poet Anne Sexton asked, "Do I make up a trauma to go with my symptoms?"
+As we have noted, a number of courts have allowed evidence of PTSD to
+explain the behaviour of the victim in delaying a report or in recanting, while
+they have been divided on allowing it to establish the nature of a stressor or
+whether any stressor in fact occurred. To disallow syndrome evidence to directly
+prove an occurrence but to allow it to indirectly prove an occurrence by proving
+the complainant's credibility is to draw a distinction without a difference,56 In
+either case, the aim in the last analysis is to establish the occurrence of a stressor,
+either directly or through the truthfulness of the complainant. Explaining the
+delay in reporting by syndrome evidence is to enhance the credibility of the
+complaining witness and thereby, in effect, to establish the stressor. It is yet
+another way around the bar on credibility testimony.
+To sum up
+In the law-psychiatry intermix, public policy very much determines whether
+certain behaviour will be considered to be the result of mental illness, or whether
+mental illness will be considered to be the result of a particular stressor. Quite
+often psychiatric input is allowed to assist in reaching a decision. Forensic experts
+are asked to say whether the behaviour of the individual is fundamentally the
+result or product of mental illness and they are asked to say whether mental
+illness is the result of a particular stressor.
+* Professor of Law and Psychiatry at Wayne State University in Michigan, a member of the American,
+Kansas, Louisiana, and Michigan Bar Associations, a scientific associate of the American Academy of
+Psychoanalysis, and amicus of the American Academy of Psychiatry and Law.
+1 R v Oxford (1843) 9 CNP 525.
+2 M'Naghten Case (1843) 10 Clark & Fin 200, 8 ER 718.
+3 ALI Model Penal Code §4.01 (1955).
+4 See P Dietz, "'The Mentally Disordered Offender: Patterns in the Relationship between Mental Disorder
+and Crime" (1992) 15 Psych Clin North America 539; J Monahan & HJ Steadman, "Crime and Mental
+Disorder: An Epidemiological Approach" in M
+Tonry & N Morris (eds), Crime and Justice; An Annual Review of Research, No 4, University of Chicago
+Press, Chicago, 1983, 145.
+5 Carter v United States, 252 F 2d 608, 617 (DC Cir 1957).
+6 Reported in JR Rappeport (ed), The Clinical Evaluation of the Dangerousness of the Mentally Ill,
+Thomas, Springfield, IL, 1967; see also SB Guze, Criminality and Psychiatric Disorders, Oxford
+University Press, New York, 1976.
+7 H Hafner & W Boker, Crimes of Violence by Mentally Abnormal Offenders, Cambridge University
+Press, Cambridge, 1982.
+8 Cited in J Monahan, "Mental Disorder and Violent Behaviour/Perceptions and Evidence" (1992)
+American Psychologist 47.
+9 M Moran, "Seriously Mentally Ill Do Have Higher Rates of Violence, Torrey Reports" (19 November
+1993) Psychiatric News 5.
+10 S Hodgins (ed), Mental Disorder and Crime, Sage, Newbury Park, CA, 1993.
+11 RL Spitzer, MB First, JBW Williams, K Kendler, HA Pincus & G Tucker, "Now Is the Time to Retire the
+Term 'Organic Mental Disorders'" (1992) 149 Amer J Psychiatry 240.
+12 PJ Farrell, "The XYY Syndrome in Criminal Law: An Introduction" (1969) 44 St John's L Rev 217.
+13 AP news release, "Witness Talks of Hinckley's Brain Scans," 2 June 1982.
+14 W Sloane (AP news release), "Russian Cannibal Convicted in Killings," 15 October 1992.
+15 RM Restak, "See No Evil/The Neurological Defense Would Blame Violence on the Damaged Brain"
+(July-August 1992) Sciences 16.
+16 Ibid.
+17 Reported in R Restak, "Violence and the Brain" (November-December 1992) Sciences, p4.
+18 R Restak, The Brain Has a Mind of Its Own, Crown, New York, 1991, pl8.
+19 PQ Roche, The Criminal Mind/A Study of Communication Between the Criminal Law and Psychiatry,
+Greenwood Press. Westport CT, 1958, pp259-60.
+20 B Bursten, Beyond Psychiatric Expertise, Thomas, Springfield, IL, 1984,
+2l Federal Rules of Evidence 704(b), as amended.
+22 68 Cal 2d 728, 441 P 2d 912, 69 Cal Rptr 72 (1968).
+23 See, eg, Gideon v Johns-Manville Sales Corp, 761 F 2d 1129 (5th Cir 1985) (asbestos-related cancer);
+Techalloy Co v Reliance Ins Co, 338 Pa Super 1, 487 A2d 820 (1984) (toxic chemicals); Payton v Abbott
+Laboratories, 386 Mass 540, 437 NE 2d 171 (1982) (diethylstilbestrol).
+24 Howard v Mt Sinai Hosp, 63 Wis 2d 515, 219 NW 2d 576 (1974).
+25 Steinhauser v Hertz Corp, 421 F 2d 1169 (2d Cir 1970).
+26 J Caffey, "Pediatric X-Ray Diagnosis," in Yearbook, Medical Publishers, Chicago, 7th edn, 1978, pl335; J
+Caffey, "The Parent-Infant Traumatic Stress Syndrome" (1972) 114 Am J Radiology 218.
+27 CH Kempe, FN Silverman, BF Steele, W Droegemueller & HJ Silver, "The Battered Child Syndrome"
+(1962) 181 J Am Med Assn 17.
+28 See, eg, People v James, 451 NW 2d 611 (Mich App 1990).
+29 See, eg, People v Bledsoe, 36 Ca! 3d 236, 203 Cal Rptr 450, 681 P 2d 291(1984); State v McCoy, 400 NW 2d
+807 (Minn App 1987).
+30 RJ Roe, "Expert Testimony in Child Sexual Abuse Cases" (1985) 40 U Miami L Rev 97.
+31 AM Drukteninis. "Overlapping Somatoform Syndromes in Personal Injury Litigation," presented at the
+annual meeting on 30 March 2000 of the American College of Forensic Psychiatry in Newport Beach,
+CA.
+32 See PR McHugh, "How Psychiatry Lost its Way" Commentary, December 1999. p32: Note, "Unreliability
+of Expert Testimony on Typical Characteristics of Sexual Abuse Victims" (1980) 74 Georgetown L J
+429.
+33 See JM Masson, "Freud and the Seduction Theory" (February 1984) Atlantic. p33. See also DP Spence,
+Narrative Truth and Historical Truth/Meaning and Interpretation in Psychoanalysis, Norton, New
+York, 1982.
+34 Reported by Dr Bertram Karon of Michigan State University in an address on delusions presented at a
+meeting of the Detroit Psychoanalytic Society, 11 April 1987, in Ann Arbor, MI.
+35 See WM Grove & RC Barden, "Protecting the Integrity of the Legal System: The Admissibility of
+Testimony from Mental Health Experts Under Daubert/Kumho Analyses" (1999) 5 Psychology, Public
+Policy and Law 224.
+36 DW Hardy, "Multiple Personality: Failure to Diagnose and the Potential for Malpractice Liability" (1988)
+18 Psychology Annals 543.
+37 P McHugh, "Psychiatric Misadventures" (Autumn 1992) American Scholar, p497.
+38 For a discussion, see DW Shuman, "The Diagnostic and Statistical Manual of Mental Disorders in the
+Courts" (1989) 17 Bull Amer Acad Psych & Law 25.
+39 Evidence of rape trauma syndrome was allowed in State v Marks, 231 Kan 645, 647 P 2d 1292 (1982), but
+was rejected in State v Saldana, 324 NW 2d 227 (Minn 1982). See Annot, "Admissibility, at Criminal
+Prosecution, of Expert Testimony on Rape Trauma Syndrome," 42 ALR 4th 879 (1985).
+40 36 Cal 3d 236, 203 Cal Rptr 450, 681 P 2d 291 (1984).
+41 In United States v Wesson, 779 F 2d 1443 (9th Cir 1986), the Ninth Circuit allowed a doctor's testimony
+that the alleged rape victim's injuries were not consistent with consensual intercourse to "aid the jury
+in determining the credibility of the alleged victim's claim that the intercourse was nonconsensual."
+779 F 2d at 1444. Similarly, in Henson v State, 535 NE 2d 1189 (Ind 1989), the Indiana Supreme Court
+held that "fundamental fairness" required that the defense be allowed to present rape trauma
+syndrome evidence to show that the victim's behaviour was inconsistent with that of a rape victim.
+See also United States v Rivera, 43 F 3d 1291 (9th Cir 1995); State v Wilkerson, 295 NC 559, 247 SE 2d
+905 (1978): People v Whitfield, 425 Mich 116, 388 NW 2d 206 (1986).
+42 The Bledsoe case involved a 28-year-old offender and a 14-year-old victim.
+43 In Spencer v General Electric Co, 688 F Supp 1072 (ED Va 1988); Commonwealth v Zamarripa, 379 Pa
+Super 20, 549 A 2d 980 (Pa Super Ct 1988). There are decisions to the contrary. See, eg, State v
+Allewalt, 308 Md 89, 517 A 2d 741 (1986). See TM Massaro, "Experts, Psychology, Credibility and
+Rape: The Rape Trauma Syndrome Issue and its Implications for Expert Psychological Testimony"
+(1985) 69 Minn L Rev 495; D McCord, "Syndromes Profiles and Other Mental Exotica: A New
+Approach to the Admissibility of Nontraditional Psychological Evidence in Criminal Cases" (1987) 66
+Oregon L Review 19; D McCord, "The Admissibility of Expert Testimony
+Regarding Rape Trauma Syndrome in Rape Prosecutions" (1985) 26 Bost Coll L Rev 1143.
+44 People v Lukity, 596 NW 2d 607 (Mich 1999); State v McCoy, 400 NW 2d 807 (Minn App 1987).
+45 People v Beckley, 434 Mich 691, 456 NW 2d 391 (1990); In re Brimer, 191 Mich App 401, 478 NW 2d 689
+(1991). The rule applies to child protective proceedings as well as to criminal prosecution.
+46 See Frye v United States, 293 Fed 1013 (D C Cir 1923).
+47 See Ibn-Tamas v United States, 407 A 2d 626 (DC 1979); Commonwealth v Craig, 783 SW 2d 387 Ky
+(1990). For discussion of the "battered woman syndrome," see L Walker, The Battered Woman
+Syndrome, Springer, New York, 1984. The prominent Australian barrister Ian Freckelton argues
+against the role of syndrome evidence in the legal system and questions whether "battered woman
+syndrome" and "rape trauma syndrome" merit the status that they have been accorded by some
+courts; I Freckelton, "Contemporary Comment; When Plight Makes Right - The Forensic Abuse
+Syndrome" (1994) 18 Criminal Law Journal 29. See also AL Hyams, "Expert Psychiatric Evidence in
+Sexual Misconduct Cases Before State Medical Boards" (1992) 17 Am J Law & Medicine 171.
+48 RC Summit, "The Child Sexual Abuse Accommodation Syndrome" (1983) 7 Child Abuse & Neglect 177;
+see SJ Ceci & H Hembrooke (eds), Expert Witnesses in Child Abuse Cases, Washington, DC,
+American Psychological Association, 1998; see also TG Gutheil & PK Sutherland, "Forensic
+Assessment, Witness Credibility and the Search for Truth through Expert Testimony in the
+Courtroom" (1999) 27 J Psychiatry & Law 289.
+49 Federal Rules of Evidence, Rule 803 (2).
+50 681 P 2d at 298,
+51 State v Petrich, 101 Wash 2d 566, 683 P 2d 173 (1984).
+52 State of Montana v Howery, 204 Mont 417, 664 P 2d 1287 (1983).
+53 711 S W 2d 639 (Tex Cr App 1986).
+54 For example, the most common childhood diagnosis - attention deficit/hyperactivity disorder -
+describes behaviour without in any way explaining its origin.
+55 In United States v Charley, 176 F 3d 1265 at 1281 (10th Cir 1999), the Tenth Circuit ruled that a mental
+health counsellor's opinion that the child's symptoms were more consistent with symptoms of
+children who have been sexually abused than with the symptoms of children who witness physical
+abuse of their mother was erroneously admitted. The court made its decision, citing Kumho Tire Co v
+Carmichael, 119 S Ct 1167 (1999), because no sufficient foundation was laid for this kind of expert's
+analysis, and no reliability inquiry was undertaken.
+56 In State v Hall, 330 NC 808, 412 SE 2d 883 (1992), evidence that a victim's symptoms are consistent with
+those of the typical sexual or physical abuse victim was held admissible, but only to aid the jury in
+assessing the complainant's credibility.

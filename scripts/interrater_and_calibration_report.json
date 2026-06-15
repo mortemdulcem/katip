@@ -1,0 +1,277 @@
+{
+  "inter_rater": {
+    "n": 35,
+    "agree": 29,
+    "po": 0.8285714285714286,
+    "pe": 0.36081632653061224,
+    "kappa": 0.731800766283525,
+    "ci95_bootstrap": {
+      "lo": 0.5231607629427792,
+      "hi": 0.9086161879895561,
+      "B": 2000
+    },
+    "landis_koch": "iyi",
+    "labels": [
+      {
+        "no": 1,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 2,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 3,
+        "R1": "IRR",
+        "R2": "REL",
+        "match": false
+      },
+      {
+        "no": 4,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 5,
+        "R1": "IRR",
+        "R2": "REL",
+        "match": false
+      },
+      {
+        "no": 6,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 7,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 8,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 9,
+        "R1": "IRR",
+        "R2": "REL",
+        "match": false
+      },
+      {
+        "no": 10,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 11,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 12,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 13,
+        "R1": "PARTIAL",
+        "R2": "IRR",
+        "match": false
+      },
+      {
+        "no": 14,
+        "R1": "PARTIAL",
+        "R2": "REL",
+        "match": false
+      },
+      {
+        "no": 15,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 16,
+        "R1": "PARTIAL",
+        "R2": "PARTIAL",
+        "match": true
+      },
+      {
+        "no": 17,
+        "R1": "PARTIAL",
+        "R2": "PARTIAL",
+        "match": true
+      },
+      {
+        "no": 18,
+        "R1": "PARTIAL",
+        "R2": "PARTIAL",
+        "match": true
+      },
+      {
+        "no": 19,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 20,
+        "R1": "PARTIAL",
+        "R2": "IRR",
+        "match": false
+      },
+      {
+        "no": 21,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 22,
+        "R1": "PARTIAL",
+        "R2": "PARTIAL",
+        "match": true
+      },
+      {
+        "no": 23,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 24,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 25,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 26,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 27,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 28,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 29,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 30,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 31,
+        "R1": "PARTIAL",
+        "R2": "PARTIAL",
+        "match": true
+      },
+      {
+        "no": 32,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      },
+      {
+        "no": 33,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 34,
+        "R1": "IRR",
+        "R2": "IRR",
+        "match": true
+      },
+      {
+        "no": 35,
+        "R1": "REL",
+        "R2": "REL",
+        "match": true
+      }
+    ]
+  },
+  "calibration": {
+    "turkish_clean_n": 313,
+    "turkish_buckets": {
+      "abruption": 10,
+      "fetal_death": 30,
+      "preterm": 46,
+      "mvc": 22,
+      "ipv": 93,
+      "blunt_abdominal": 10
+    },
+    "benchmarks": {
+      "elKady": {
+        "n": 10316,
+        "abruption": 361,
+        "fetal_death": 206,
+        "preterm": 2321
+      },
+      "aboutanos": {
+        "n": 321,
+        "fetal_death": 32
+      }
+    },
+    "comparisons": {
+      "abruption_vs_elKady": {
+        "or": "0.91",
+        "ci": "0.48–1.72",
+        "chi": "0.02",
+        "p_approx": "9.91e-1"
+      },
+      "fetal_death_vs_elKady": {
+        "or": "5.20",
+        "ci": "3.48–7.77",
+        "chi": "77.10",
+        "p_approx": "1.81e-17"
+      },
+      "preterm_vs_elKady": {
+        "or": "0.59",
+        "ci": "0.43–0.81",
+        "chi": "10.24",
+        "p_approx": "5.98e-3"
+      },
+      "fetal_death_vs_aboutanos": {
+        "or": "0.96",
+        "ci": "0.57–1.62",
+        "chi": "0.00",
+        "p_approx": "1.00e+0"
+      }
+    },
+    "caveat": "Türk korpusu yargı kararı korpusudur; popülasyon-tabanlı klinik insidans değil. Bu nedenle OR mutlak risk farkı değil, korpus içi göreli prevalans karşılaştırmasıdır."
+  }
+}

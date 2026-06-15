@@ -1,0 +1,915 @@
+- Software Architecture Concepts –
+from the book:
+
+Software Systems Architecture - Working with Stakeholders using
+Viewpoints and Perspectives, 2nd ed; Rozanski & Woods
+
+BYZ652 Software Architectures (Week #2)
+
+Software Architecture (1)
+• All computer systems are made up of the same three
+fundamental parts:
+– hardware (e.g., processors, memory, disks, network cards);
+– software (e.g., programs or libraries); and
+– data, which may be either transient (in memory) or persistent (on
+disk or ROM).
+
+• When you try to understand a computer system, you are
+interested in:
+– what its individual parts actually do,
+– how they work together, and
+– how they interact with the world around them;
+
+in other words, its architecture.
+-2-
+
+Software Architecture (2)
+Definition:
+• The architecture of a software-intensive system is the structure or
+structures of the system, which comprise software elements, the
+externally visible properties of those elements, and the
+relationships among them.
+
+Principle:
+• Every computer system has an architecture, whether or not it is
+documented and understood.
+
+-3-
+
+System Structures
+• The static structures of a system tell you what the design-time form of a system is—
+what its elements are and how they fit together.
+– Define its internal design-time elements and their arrangement.
+• Internal design-time software elements might be modules, object-oriented classes or
+packages, database stored procedures, services, or any other self-contained code unit.
+• Internal data elements include classes, relational database entities/tables, and data files.
+• Internal hardware elements include computers or their constituent parts such as disk or CPU
+and networking elements such as cables, routers, or hubs.
+
+• The dynamic structures show how the system actually works—what happens at
+runtime and what the system does in response to external/internal stimulus.
+– Define its runtime elements and their interactions.
+• These internal interactions may be:
+– flows of information between elements (element A sends messages to element B) or
+– the parallel or sequential execution of internal tasks (element X invokes a routine on element Y), or
+
+• They may be expressed in terms of the effect they have on data:
+– data item D is created, updated many times, and finally destroyed.
+-4-
+
+Externally Visible Properties
+• Manifest themselves in two different ways:
+– Externally visible behavior (what the system does)
+• Defines the functional interactions between the system and its environment.
+– This includes flows of information in and out of the system, the way that the system
+responds to external stimuli, and the published “contract” or API that the architecture
+has with the outside world.
+– External behavior may be modeled by treating the system as a black box so that you
+don’t know anything about its internals. Alternatively, it may consider changes to
+internal system state in response to external stimuli.
+
+– Quality properties (how the system does it).
+• An externally visible, nonfunctional property of a system such as
+performance, security, or scalability.
+– How does the system perform under load? What is the peak throughput given certain
+hardware? How is the information in the system protected from malicious use? How
+often is it likely to break? How easy is it to manage, maintain, and enhance? How easily
+can it be used by people who are disabled?
+– Which of these characteristics are relevant depends on your circumstances and on the
+concerns and priorities of your stakeholders.
+-5-
+
+Example (1): Airline Reservation System
+•
+
+An airline reservation system supports
+a number of different transactions to
+book airline seats, update or cancel
+them, transfer them, upgrade them,
+and so forth.
+
+•
+
+The externally visible behavior of the
+system (what it does) is its response to
+the transactions that can be submitted
+by customers, such as booking a seat,
+updating a reservation, or canceling a
+booking. The quality properties of the
+system (how it does it) include the
+average response time for a
+transaction under a specified load, the
+maximum throughput the system can
+support, system availability, and the
+time required to repair defects.
+-6-
+
+Example (2): A client/server or two-tier approach
+•
+
+•
+
+The static structure (design-time organization) for this client/server architecture consists of
+the client programs further broken down into presentation, business logic, database, and
+network layers (in this example), the server, and the connections between them.
+The dynamic structure (runtime organization) is based on a request/response model:
+Requests are submitted by a client to the server over the WAN, and responses are returned
+by the server to the client.
+
+-7-
+
+Example (3): A three-tier or thin-client approach
+•
+
+•
+
+The static structure for this architecture consists of the client programs further broken down into
+presentation and network layers (in this example), the application server (here, business logic,
+database, and network layers), the database server, and the connections between them.
+The dynamic structure is based on a three-tier request/response model: Requests are submitted by
+a client to the application server over the WAN, the application server submits requests to the
+database server if necessary, and responses are returned by the application server to the client.
+
+-8-
+
+Example (4): Which architecture is better?
+
+• Candidate architectures:
+– The architect might identify the two-tier approach as appropriate for the
+architecture because of its relative operational simplicity, because it can be
+developed quickly by the organization’s software developers, because it can
+be delivered at lower cost than other options, or for a range of other reasons.
+– Alternatively, the architect may consider the three-tier approach to be right
+for the architecture because it provides better options for scalability as
+workload increases, because less powerful client hardware is needed,
+because it may offer better security, or for other reasons.
+
+• Whichever approach the architect considers to be most appropriate, s/he
+chooses it because it provides the best match between the system
+properties promised by the approach and the requirements of the system.
+
+-9-
+
+Candidate Architecture
+Definition:
+
+• A candidate architecture for a system is a particular arrangement of static and
+dynamic structures that has the potential to exhibit the system’s required
+externally visible behaviors and quality properties.
+– Although all candidate architectures are believed to share the same important
+externally visible behaviors (here, responses to booking transactions) and general
+quality properties (acceptable response time, throughput, availability, time to repair),
+they are likely to differ in the specific set of quality properties that each exhibits (such
+as one being easier to maintain but more expensive to build than another).
+– In each case, the extent to which the candidate actually exhibits these behaviors and
+properties must be determined by further analysis of its static and dynamic structures.
+
+- 10 -
+
+Architectural Elements
+Definition:
+• An architectural element (or just element) is a fundamental
+piece from which a system can be considered to be constructed.
+– Often known informally as components or modules
+
+• An architectural element should possess the following key
+attributes:
+– A clearly defined set of responsibilities
+– A clearly defined boundary
+– A set of clearly defined interfaces, which define the services that the
+element provides to the other architectural elements
+
+- 11 -
+
+Stakeholders
+Definition:
+•
+
+A stakeholder in a software architecture is a person, group, or entity with an interest in or
+concerns about the realization of the architecture.
+– Software systems are not just used: They have to be built and tested, they have to be operated,
+they may have to be repaired, they are usually enhanced, and of course they have to be paid for.
+– A stakeholder often represents a class of person, such as user or developer – not an individual.
+
+Definition:
+•
+
+A concern about an architecture is a requirement, an objective, an intention, or an
+aspiration a stakeholder has for that architecture.
+
+Principles:
+•
+•
+
+Architectures are created solely to meet stakeholder needs.
+A good architecture is one that successfully meets the objectives, goals, and needs of its
+stakeholders.
+- 12 -
+
+Example (Concerns):
+Software Project’s Quality Triangle
+
+- 13 -
+
+Architectural Description (1)
+• Specifying the architecture is a key opportunity for the stakeholders
+to direct its shape and direction.
+Definition:
+• An architectural description (AD) is a set of products that documents
+an architecture in a way its stakeholders can understand and
+demonstrates that the architecture has met their concerns.
+– “Products” in this context consists of a range of things—particularly
+architectural models, but also scope definition, constraints, and principles.
+– A description of an architecture has to present the essence of the architecture
+and its detail at the same time.
+
+- 14 -
+
+Architectural Description (2)
+Principles:
+• Although every system has an architecture, not every system has an
+architecture that is effectively communicated via an architectural
+description.
+• A good architectural description is one that effectively and
+consistently communicates the key aspects of the architecture to
+the appropriate stakeholders.
+
+- 15 -
+
+Core Concepts: A Summary
+
+- 16 -
+
+Chapter 2: Why is Software
+Architecture Important?
+Ah, to build, to build! That is the
+noblest art of all the arts.
+—Henry Wadsworth Longfellow
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Thirteen Reasons
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+11.
+12.
+13.
+
+An architecture will inhibit or enable a system’s driving quality attributes.
+The decisions made in an architecture allow you to reason about and manage change
+as the system evolves.
+The analysis of an architecture enables early prediction of a system’s qualities.
+A documented architecture enhances communication among stakeholders.
+The architecture is a carrier of the earliest and hence most fundamental, hardest-tochange design decisions.
+An architecture defines a set of constraints on subsequent implementation.
+The architecture dictates the structure of an organization, or vice versa.
+An architecture can provide the basis for evolutionary prototyping.
+An architecture is the key artifact that allows the architect and project manager to
+reason about cost and schedule.
+An architecture can be created as a transferable, reusable model that form the heart
+of a product line.
+Architecture-based development focuses attention on the assembly of components,
+rather than simply on their creation.
+By restricting design alternatives, architecture channels the creativity of developers,
+reducing design and system complexity.
+An architecture can be the foundation for training a new team member.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(1) Inhibiting or Enabling a System’s
+Quality Attributes
+• Whether a system will be able to exhibit its desired (or required) quality
+attributes is substantially determined by its architecture.
+– Performance:
+• You must manage the time-based behavior of elements, their use of shared resources, and the
+frequency and volume of inter-element communication.
+
+– Modifiability:
+• Assign responsibilities to elements so that the majority of changes to the system will affect a
+small number of those elements.
+
+– Security:
+• Manage and protect inter-element communication and control which elements are allowed to
+access which information; you may also need to introduce specialized elements (such as an
+authorization mechanism).
+
+– Scalability:
+• Localize the use of resources to facilitate introduction of higher-capacity replacements, and you
+must avoid hardcoding in resource assumptions or limits.
+
+– Incremental subset delivery:
+• Manage inter-component usage.
+
+– Reusability:
+• Restrict inter-element coupling, so that when you extract an element, it does not come out with
+too many attachments to its current environment.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(2) Reasoning About and Managing
+Change
+• About 80 percent of a typical software system’s total cost occurs after initial
+deployment
+– accommodate new features,
+– adapt to new environments,
+– fix bugs, and so forth.
+
+• Every architecture partitions possible changes into three categories
+– A local change can be accomplished by modifying a single element.
+– A nonlocal change requires multiple element modifications but leaves the
+underlying architectural approach intact.
+– An architectural change affects the fundamental ways in which the elements
+interact with each other and will probably require changes all over the system.
+
+• Obviously, local changes are the most desirable.
+• A good architecture is one in which the most common changes are local, and
+hence easy to make.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(3) Early Prediction of System
+Qualities
+• If we know that certain kinds of architectural decisions
+lead to certain quality attributes in a system, we can
+make those decisions and rightly expect to be rewarded
+with the associated quality attributes.
+• When we examine an architecture we can look to see if
+those decisions have been made, and confidently predict
+that the architecture will exhibit the associated qualities.
+• The earlier you can find a problem in your design, the
+cheaper, easier, and less disruptive it will be to fix.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(4) Enhancing Communication
+Among Stakeholders
+•
+
+Software architecture represents a common abstraction of a system that most, if not all,
+of the system’s stakeholders can use as a basis for creating mutual understanding,
+negotiating, forming consensus, and communicating with each other.
+
+•
+
+The architecture—or at least parts of it—is sufficiently abstract that most nontechnical
+people can understand it adequately.
+
+•
+
+Each stakeholder of a software system—customer, user, project manager, coder, tester,
+and so on—is concerned with different characteristics of the system that are affected by
+its architecture. For example:
+– The user is concerned that the system is fast, reliable, and available when needed.
+– The customer is concerned that the architecture can be implemented within schedule and budget.
+– The manager is worried (in addition to concerns about cost and schedule) that the architecture will
+allow teams to work largely independently, interacting in disciplined and controlled ways.
+– The architect is worried about strategies to achieve all of those goals.
+
+•
+
+Architecture provides a common language in which different concerns can be
+expressed, negotiated, and resolved at a level that is intellectually manageable even for
+large, complex systems.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(5) Earliest Design Decisions
+• Software architecture is a manifestation of the earliest design decisions about
+a system.
+– These early bindings carry enormous weight with respect to the system’s remaining
+development, its deployment, and its maintenance life.
+
+• Each decision constrains the many decisions that follow.
+
+• What are these early design decisions embodied by software architecture?
+– Will the system run on one processor or be distributed across multiple processors?
+– Will the software be layered? How many layers will there be? What will each one do?
+– Will components communicate synchronously or asynchronously? Will they interact
+by transferring control or data or both?
+– Will the system depend on specific features of the operating system or hardware?
+– Will the information that flows through the system be encrypted or not?
+– What communication protocol will we choose?
+
+• Imagine the nightmare of having to change any of these decisions!
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(6) Defining Constraints on an
+Implementation
+• An implementation exhibits an architecture if it conforms to the design
+decisions prescribed by the architecture.
+– The solution must be implemented as the set of prescribed elements.
+– These elements must interact with each other in the prescribed fashion.
+– Each element must fulfill its responsibility to the other elements as dictated
+by the architecture.
+
+• Each of these prescriptions is a constraint on the implementer.
+
+• Element builders may not be aware of the architectural tradeoffs—the
+architecture (or architect) simply constrains them in such a way as to
+meet the tradeoffs.
+– Example: an architect assigns performance budget to the pieces of software
+involved in some larger piece of functionality.
+• If each software unit stays within its budget, the overall transaction will meet its
+performance requirement.
+• Implementers of each of the constituent pieces may not know the overall budget,
+only their own.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(7) Influencing the Organizational
+Structure
+• Architecture prescribes the structure of the system being developed.
+• That structure becomes engraved in the structure of the development project
+(and sometimes the structure of the entire organization).
+
+• The architecture is typically used as the basis for the work-breakdown structure.
+• The work-breakdown structure in turn dictates:
+– units of planning, scheduling, and budget;
+– inter-team communication channels;
+– configuration control and file-system organization;
+– integration and test plans and procedures;
+– much more.
+
+• The maintenance activity will also reflect the software structure, with teams
+formed to maintain specific structural elements from the architecture.
+– If these responsibilities have been formalized in a contractual relationship, changing
+responsibilities could become expensive or even litigious.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(8) Enabling Evolutionary
+Prototyping
+• Once an architecture has been defined, it can be analyzed and prototyped
+as a skeletal system.
+– A skeletal system is one in which at least some of the infrastructure —how
+the elements initialize, communicate, share data, access resources, report
+errors, log activity, and so forth— is built before much of the system’s
+functionality has been created.
+
+• This approach aids the development process because the system is
+executable early in the product’s life cycle.
+• The fidelity of the system increases as stubs are instantiated, or prototype
+parts are replaced with complete versions of these parts of the software.
+
+• This approach allows potential performance problems to be identified
+early in the product’s life cycle.
+• These benefits reduce the potential risk in the project.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(9) Improving Cost and Schedule
+Estimates
+• One of the duties of an architect is to help the project manager create
+cost and schedule estimates early in the project life cycle.
+– Top-down estimates are useful for setting goals and apportioning budgets.
+
+• Cost estimations that are based on a bottom-up understanding of the
+system’s pieces are typically more accurate than those that are based
+purely on top-down system knowledge.
+– Each team or individual responsible for a work item will be able to make
+more-accurate estimates for their piece than a project manager and will
+feel more ownership in making the estimates come true.
+
+• The best cost and schedule estimates will typically emerge from a
+consensus between the top-down estimates (created by the architect
+and project manager) and the bottom-up estimates (created by the
+developers).
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(10) Transferable, Reusable Model
+• Reuse of architectures provides tremendous leverage for systems with
+similar requirements.
+– Not only can code be reused, but so can the requirements that led
+to the architecture in the first place, as well as the experience and
+infrastructure gained in building the reused architecture.
+– When architectural decisions can be reused across multiple
+systems, all of the early-decision consequences are also transferred.
+• A software product line or family is a set of software systems that are
+all built using the same set of reusable assets.
+– Chief among these assets is the architecture that was designed to
+handle the needs of the entire family.
+– The architecture defines what is fixed for all members of the
+product line and what is variable.
+– The architecture for a product line becomes a capital investment by
+the organization.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(11) Using Independently Developed
+Components
+• Architecture-based development often focuses on components that are likely to
+have been developed separately, even independently, from each other.
+• The architecture defines the elements that can be incorporated into the system.
+• Commercial off-the-shelf components (COTS), open source software (OSS),
+publicly available apps, and networked services are examples of
+interchangeable software components.
+• The payoff can be:
+–
+–
+–
+–
+
+Decreased time to market
+Increased reliability (widely used software should have its bugs ironed out already)
+Lower cost (the software supplier can amortize development cost across their customer base)
+Flexibility (if the component you want to buy is not terribly special purpose, it’s likely to be
+available from several sources, thus increasing your buying leverage)
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(12) Restricting Design Vocabulary
+• As useful architectural patterns are collected, we see the benefit in
+voluntarily restricting ourselves to a relatively small number of choices
+of elements and their interactions.
+– We minimize the design complexity of the system we are building.
+– Enhanced reuse.
+– More regular and simpler designs that are more easily understood and
+communicated.
+– More capable analysis.
+– Shorter selection time.
+– Greater interoperability.
+
+• Architectural patterns guide the architect and focus the architect on the
+quality attributes of interest in large part by restricting the vocabulary of
+design.
+– Properties of software design follow from the choice of an architectural
+pattern.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+(13) Basis for Training
+• The architecture documentation can serve as the first
+introduction to the system for new project members.
+
+• Module views are excellent for showing someone the structure
+of a project
+– Who does what, which teams are assigned to which parts of the
+system, and so forth.
+
+• Component-and-connector views are excellent for explaining
+how the system is expected to work and accomplish its job.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Ch.2 Summary / 1
+1. An architecture will inhibit or enable a system’s driving
+quality attributes.
+2. The decisions made in an architecture allow you to reason
+about and manage change as the system evolves.
+3. The analysis of an architecture enables early prediction of
+a system’s qualities.
+4. A documented architecture enhances communication
+among stakeholders.
+5. The architecture is a carrier of the earliest and hence most
+fundamental, hardest-to-change design decisions.
+6. An architecture defines a set of constraints on subsequent
+implementation.
+7. The architecture dictates the structure of an organization,
+or vice versa.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Ch.2 Summary / 2
+8. An architecture can provide the basis for evolutionary
+prototyping.
+9. An architecture is the key artifact that allows the architect
+and project manager to reason about cost and schedule.
+10. An architecture can be created as a transferable, reusable
+model that form the heart of a product line.
+11. Architecture-based development focuses attention on the
+assembly of components, rather than simply on their
+creation.
+12. By restricting design alternatives, architecture channels
+the creativity of developers, reducing design and system
+complexity.
+13. An architecture can be the foundation for training a new
+team member.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Chapter 3: Understanding
+Quality Attributes
+Quality is never an accident; it is always
+the result of high intention, sincere effort,
+intelligent direction and skillful execution.
+—William A. Foster
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Chapter Outline
+• Architecture and Requirements
+• Functionality
+• Quality Attribute Considerations
+• Specifying Quality Attribute Requirements
+• Achieving Quality Attributes through Tactics
+• Guiding Quality Design Decisions
+• Summary
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Architecture and Requirements
+System requirements can be categorized as:
+– Functional requirements.
+• These requirements state what the system must do, how it must
+behave or react to run-time stimuli.
+
+– Quality attribute requirements.
+• These requirements annotate (qualify) functional requirements.
+– E.g., how fast the function must be performed, how resilient it must be
+to erroneous input, how easy the function is to learn, etc.
+
+– Constraints.
+• A constraint is a design decision with zero degrees of freedom.
+– That is, it’s a design decision that has already been made for you.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Functionality
+• Functionality is the ability of the system to do the
+work for which it was intended.
+• Functionality has a strange relationship to
+architecture:
+– functionality does not determine architecture;
+• given a set of required functionality, there is no end to the
+architectures you could create to satisfy that functionality
+
+– functionality and quality attributes are orthogonal
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Quality Attribute Considerations / 1
+If a functional requirement is "when the user presses
+the green button the Options dialog appears”:
+– a performance QA annotation might describe how quickly
+the dialog will appear;
+– an availability QA annotation might describe how often
+this function will fail, and how quickly it will be repaired;
+– a usability QA annotation might describe how easy it is to
+learn this function.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Quality Attribute Considerations / 2
+There are three problems with previous discussions
+of quality attributes:
+1. The definitions provided for an attribute are not testable.
+It is meaningless to say that a system will be “modifiable”.
+2. Endless time is wasted on arguing over which quality a
+concern belongs to.
+E.g. Is a system failure due to a denial of service attack an aspect
+of availability, performance, security, or usability?
+
+3. Each attribute community has developed its own
+vocabulary.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Quality Attribute Considerations / 3
+• A solution to the first two of these problems
+(untestable definitions and overlapping concerns) is
+to use quality attribute scenarios as a means of
+characterizing quality attributes.
+• A solution to the third problem is to provide a
+discussion of each attribute, concentrating on its
+underlying concerns, to illustrate the concepts that
+are fundamental to that attribute community.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Specifying Quality Attribute
+Requirements / 1
+• We use a common form to
+specify all quality attribute
+requirements as scenarios.
+• Our representation of quality
+attribute scenarios has these
+parts:
+
+1.
+2.
+3.
+4.
+5.
+6.
+
+Stimulus source
+Stimulus
+Artifact
+Environment
+Response
+Response measure
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Specifying Quality Attribute
+Requirements / 2
+1.
+2.
+3.
+
+4.
+
+5.
+6.
+
+Source of stimulus. This is some entity (a human, a computer
+system, or any other actuator) that generated the stimulus.
+Stimulus. The stimulus is a condition that requires a response when
+it arrives at a system.
+Environment. The stimulus occurs under certain conditions. The
+system may be in an overload condition or in normal operation, or
+some other relevant state. For many systems, “normal” operation
+can refer to one of a number of modes.
+Artifact. Some artifact is stimulated. This may be a collection of
+systems, the whole system, or some piece or pieces of it.
+Response. The response is the activity undertaken as the result of
+the arrival of the stimulus.
+Response measure. When the response occurs, it should be
+measurable in some fashion so that the requirement can be tested.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Specifying Quality Attribute
+Requirements / 3
+We distinguish:
+general quality attribute scenarios ("general
+scenarios")—that are system independent and can,
+potentially, pertain to any system—
+
+from:
+concrete quality attribute scenarios ("concrete
+scenarios")—that are specific to the particular
+system under consideration.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Specifying Quality Attribute
+Requirements / 4
+Example general scenario for availability:
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Achieving Quality Attributes
+Through Patterns and Tactics / 1
+• There are a collection of primitive design techniques
+that an architect can use to achieve a quality
+attribute response.
+• We call these architectural design primitives tactics.
+
+• Tactics, like design patterns, are techniques that
+architects have been using for years.
+– We do not invent tactics, we simply capture what
+architects do in practice.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Achieving Quality Attributes
+Through Patterns and Tactics / 2
+• An architectural pattern describes a recurring design
+problem that arises in specific design contexts and presents
+a well-proven architectural solution for the problem.
+• The solution is specified by describing:
+– the roles of its constituent elements,
+– their responsibilities and relationships, and
+– the ways in which they collaborate.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Achieving Quality Attributes
+Through Patterns and Tactics / 3
+• Patterns typically comprise multiple design
+decisions and, in fact, often comprise multiple
+quality attribute tactics.
+
+• We say that patterns often bundle tactics and,
+consequently, frequently make tradeoffs
+among quality attributes.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Achieving Quality Attributes
+Through Tactics / 4
+Patterns are ubiquitous. Why do we do also bother with
+tactics? There are three reasons:
+1. Design patterns are complex; they are a bundle of design
+decisions. But patterns are often difficult to apply as is; so
+architects need to modify and adapt the patterns.
+By understanding tactics, an architect can assess options for
+augmenting an existing pattern to achieve a quality attribute goal.
+
+2. If no pattern exists to realize the architect’s design goal, tactics
+allow the architect to construct a design fragment from “first
+principles”.
+3. Tactics provide a way of making design and analysis more
+systematic.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Example:
+Concrete Availability Scenario
+• A server in a server farm fails during normal
+operation, and the system informs the operator and
+continues to operate with no downtime.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Example (cont’d):
+
+Goal of Availability Tactics
+• A failure occurs when the system no longer delivers a service
+consistent with its specification
+– This failure is observable by the system’s actors.
+– A fault (or combination of faults) has the potential to cause a failure.
+
+• Availability tactics enable a system to endure faults so that
+services remain compliant with their specifications.
+– The tactics keep faults from becoming failures or at least bound the
+effects of the fault and make repair possible.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Example (cont’d):
+
+Availability Tactics
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Analyzing QA Design Decisions:
+Tactics-Based Questionnaires / 1
+• Analyzing how well quality attributes have been
+achieved is a critical part of the task of designing
+an architecture.
+• You shouldn’t wait until your design is "complete"
+before you begin to do it.
+• Opportunities for quality attribute analysis crop up
+at many different points in the software
+development life cycle, even very early ones.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Analyzing QA Design Decisions:
+Tactics-Based Questionnaires / 2
+• The accuracy of the analysis and expected degree of
+confidence in the analysis results will vary according
+to the maturity of the available artifacts.
+• Tactics-based questionnaires can be helpful in
+gaining insights into the architecture’s ability to
+support the needed quality attributes.
+– Tactics-based questionnaires will be provided in Ch.s 4-13.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Analyzing QA Design Decisions:
+Tactics-Based Questionnaires / 3
+For each question in the questionnaire, the analyst records the
+following information:
+1.
+
+Whether each tactic is supported by the system’s architecture.
+
+2.
+
+Whether there are any obvious risks in the use (or nonuse) of this tactic.
+If the tactic has been used, record how it is realized in the system, or
+how it is intended to be realized (e.g., via custom code, generic frameworks,
+or externally produced components).
+
+3.
+
+The specific design decisions made to realize the tactic and where in the
+code base the implementation (realization) may be found.
+This is useful for auditing and architecture reconstruction purposes.
+
+4.
+
+Any rationale or assumptions made in the realization of this tactic.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Ch.3 Summary / 1
+• Requirements for a system come in three categories.
+1.
+2.
+3.
+
+Functional. These requirements are satisfied by including an appropriate
+set of responsibilities within the design.
+Quality attribute. These requirements are satisfied by the structures and
+behaviors of the architecture.
+Constraints. A constraint is a design decision that’s already been made.
+
+• To express a quality attribute requirement we use a quality attribute
+scenario. The parts of the scenario are:
+1.
+2.
+3.
+4.
+5.
+6.
+
+Source of stimulus.
+Stimulus
+Environment.
+Artifact.
+Response.
+Response measure.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+

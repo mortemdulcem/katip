@@ -1,0 +1,12 @@
+[
+ {"num":0,"title":"Ön Kısım (Önsöz, Foreword, Teşekkür)","start":79,"end":128},
+ {"num":1,"title":"Giriş (Introduction)","start":167,"end":716},
+ {"num":2,"title":"Travma-Biyomekaniğinde Yöntemler (Methods in Trauma-Biomechanics)","start":716,"end":2313},
+ {"num":3,"title":"Kafa Yaralanmaları (Head Injuries)","start":2313,"end":3495},
+ {"num":4,"title":"Omurga Yaralanmaları (Spinal Injuries)","start":3495,"end":5224},
+ {"num":5,"title":"Toraks Yaralanmaları (Thoracic Injuries)","start":5224,"end":6042},
+ {"num":6,"title":"Abdominal (Karın) Yaralanmaları (Abdominal Injuries)","start":6042,"end":6510},
+ {"num":7,"title":"Pelvis ve Alt Ekstremite Yaralanmaları (Pelvis and Lower Extremities)","start":6510,"end":7617},
+ {"num":8,"title":"Üst Ekstremite Yaralanmaları (Upper Extremities)","start":7617,"end":8195},
+ {"num":9,"title":"Kronik Mekanik Maruziyete Bağlı Bozukluk ve Yaralanmalar (Chronic Mechanical Exposure)","start":8195,"end":8431}
+]

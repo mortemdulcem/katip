@@ -1,0 +1,62 @@
+name: DMP substances batch 3
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dmp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: gse287261
+            script: scripts/revize/realdata/scripts/44_dmp_ketamine_gse287261.py
+            deps: numpy pandas scipy
+          - name: gse151485
+            script: scripts/revize/realdata/scripts/45_dmp_rx_opioid_gse151485.py
+            deps: numpy pandas scipy methylprep
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install --quiet ${{ matrix.deps }}
+      - name: Run DMP (${{ matrix.name }})
+        run: python ${{ matrix.script }}
+      - name: List outputs
+        run: ls -la scripts/revize/realdata/out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dmp-${{ matrix.name }}
+          path: |
+            scripts/revize/realdata/out/*_validation.json
+            scripts/revize/realdata/out/*_dmp.csv
+          if-no-files-found: error
+
+  aggregate:
+    needs: dmp
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: _art
+      - name: Stage validation JSONs (commit small results only)
+        run: |
+          mkdir -p scripts/revize/realdata/out
+          find _art -type f -name '*_validation.json' -exec cp {} scripts/revize/realdata/out/ \;
+          ls -la scripts/revize/realdata/out
+      - name: Commit results back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/revize/realdata/out/*_validation.json
+          git commit -m "DMP batch3 results: GSE287261 ketamine (PBMC within-subject), GSE151485 short-term prescription opioids (within-person)" || echo "no changes"
+          git push || echo "push failed"

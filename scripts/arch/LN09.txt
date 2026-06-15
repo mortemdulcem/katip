@@ -1,0 +1,604 @@
+Chapter 21: Evaluating an
+Architecture
+A doctor can bury his mistakes, but an architect
+can only advise his clients to plant vines.
+—Frank Lloyd Wright
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Chapter Outline
+• Evaluation as a Risk Reduction Activity
+• Contextual Factors
+• The Architecture Tradeoff Analysis Method (ATAM)
+• Lightweight Architecture Evaluation
+• Summary
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Evaluation as a Risk Reduction
+Activity
+• Every architecture comes with risks.
+• The output of an architecture evaluation
+includes an identification of risky portions of
+the architecture.
+– Fixing those risks is not an output of the evaluation.
+
+• Evaluations act like an insurance policy.
+– How much insurance you need depends on how
+exposed you are to the risk of an unsuitable
+architecture and your risk tolerance.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Key Evaluation Activities
+• Every evaluation should include (at least) the
+following steps:
+1. The reviewers individually ensure that they
+understand the current state of the architecture.
+2. The reviewers determine a number of drivers to
+guide the review.
+3. For each scenario, each reviewer should determine
+whether the scenario is satisfied.
+4. The reviewers capture potential problems exposed
+during the prior step.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+How Much Analysis?
+• How much analysis should you do?
+• This depends on:
+– The importance of the decision.
+– The number of potential alternatives.
+– Good enough as opposed to perfect.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Who Performs the Evaluation?
+• Three options:
+– The architect
+– Peers
+
+– Outsiders
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Evaluation by the Architect
+• Evaluation is done—implicitly or explicitly—
+every time the architect makes a key design
+decision to address an ASR or completes a
+design milestone.
+• This evaluation primarily involves deciding
+among the competing alternatives.
+– As we saw in Ch20.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Peer Review
+• Architectural designs can be peer reviewed,
+just as code can.
+• A peer review can be carried out at any point
+of the design process where a candidate
+architecture, or at least a coherent reviewable
+part of one, exists.
+• Allocate at least several hours and possibly
+half a day.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Analysis by Outsiders
+• Outside evaluators cast an objective eye on an architecture.
+– “Outside” is relative; this may mean:
+• outside the development project;
+• outside the business unit where the project resides but within the
+same company; or
+• outside the company altogether.
+
+• Outsiders are chosen because they possess specialized
+knowledge or experience, or long experience successfully
+evaluating architectures.
+– Managers tend to be more inclined to listen to problems
+uncovered by an outside team.
+– An outside team tends to be used to evaluate complete
+architectures.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Contextual Factors for Evaluation
+• What artifacts are available? To perform an architectural evaluation,
+there must be an artifact that describes the architecture.
+• Who sees the results? Some evaluations are performed with the full
+knowledge and participation of all of the stakeholders. Others are
+performed more privately.
+• Who performs the evaluation? Evaluations can be carried out by an
+individual or a team.
+• Which stakeholders will participate? The evaluation process should
+provide a method to elicit the goals and concerns that the important
+stakeholders have regarding the system. Identifying the individuals who
+are needed and assuring their participation in the evaluation is critical.
+• What are the business goals? The evaluation should answer whether
+the system will satisfy the business goals.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+The Architecture Tradeoff Analysis
+(ATAM) Method
+• The Architecture Tradeoff Analysis Method
+(ATAM) has been used for over a decade to
+evaluate software architectures in domains
+ranging from automotive to financial to defense.
+• The ATAM is designed so that:
+– evaluators need not be familiar with the architecture
+or its business goals,
+– the system need not yet be constructed, and
+– there may be a large number of stakeholders.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Participants in the ATAM
+• The evaluation team.
+– External to the project whose architecture is being evaluated.
+– Three to five people; a single person may adopt several roles in an ATAM.
+– They need to be recognized as competent, unbiased outsiders.
+
+• The project’s decision makers.
+– These people are empowered to speak for the development project or have the authority to
+mandate changes to it.
+– They usually include the project manager, and if there is an identifiable customer who is
+footing the bill for the development, he or she may be present (or represented) as well.
+– The architect is always included – the architect must willingly participate.
+
+• The architecture stakeholders.
+– Stakeholders have a vested interest in the architecture performing as advertised.
+– Stakeholders include: developers, testers, integrators, maintainers, performance engineers,
+users, builders of systems interacting with the one under consideration, and, possibly, others.
+– Their job is to articulate the specific quality attribute goals that the architecture should meet.
+– Expect to enlist 12 to 15 stakeholders for the evaluation of a large enterprise-critical
+architecture.
+
+ATAM Evaluation Team Roles
+Role
+
+Responsibilities
+
+Team leader
+
+Sets up the evaluation; coordinates with client, making sure client’s needs are
+met; establishes evaluation contract; forms evaluation team; sees that final
+report is produced and delivered (although the writing may be delegated)
+
+Evaluation
+leader
+
+Runs evaluation; facilitates elicitation of scenarios; administers scenario
+selection/prioritization process; facilitates evaluation of scenarios against
+architecture; facilitates on-site analysis
+Writes scenarios on flipchart or whiteboard during scenario elicitation;
+captures agreed-on wording of each scenario, halting discussion until exact
+wording is captured
+Captures proceedings in electronic form on laptop or workstation: raw
+scenarios, issue(s) that motivate each scenario (often lost in the wording of
+the scenario itself), and resolution of each scenario when applied to
+architecture(s); also generates a printed list of adopted scenarios for handout
+to all participants
+Raises issues of architectural interest, usually related to the quality attributes
+Len Bass, Paul Clements, Rick Kazman,
+in which he or she©has
+expertise
+distributed under Creative Commons
+
+Scenario
+scribe
+
+Proceedings
+scribe
+
+Questioner
+
+Attribution License
+
+Outputs of the ATAM / 1
+1. A concise presentation of the architecture, which is presented in one hour.
+
+2. Articulation of the business goals. Frequently, the business goals presented in
+the ATAM are being seen by some of the assembled participants for the first
+time and these are captured in the outputs.
+3. Prioritized quality attribute requirements expressed as quality attribute
+scenarios. These quality attribute scenarios take the form described in Ch 4.
+4. A set of risks and non-risks.
+– A risk is defined as an architectural decision that may lead to undesirable
+consequences in light of quality attribute requirements.
+– A non-risk is an architectural decision that, upon analysis, is deemed safe.
+– The identified risks form the basis for an architectural risk mitigation plan.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Outputs of the ATAM / 2
+5. A set of risk themes. When the analysis is complete, the evaluation team
+examines the full set of discovered risks to look for overarching themes
+that identify systemic weaknesses in the architecture or even in the
+architecture process and team. If left untreated these will threaten the
+project’s business goals.
+6. Mapping of architectural decisions to quality requirements. For each
+quality attribute scenario examined during an ATAM, those architectural
+decisions that help to achieve it are determined and captured.
+7. A set of identified sensitivity and tradeoff points. These are architectural
+decisions that have a marked effect on one or more quality attributes.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Intangible Outputs
+• There are also intangible results of an ATAM-based
+evaluation. These include:
+– a sense of community on the part of the stakeholders;
+– open communication channels between the architect and the
+stakeholders;
+– a better overall understanding on the part of all participants
+of the architecture and its strengths & weaknesses.
+
+• While these results are hard to measure, they are no
+less important than the others and often are the
+longest-lasting.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Phases of the ATAM
+Phase
+
+Activity
+
+Participants
+
+Typical duration
+
+0
+
+Partnership and preparation:
+Logistics, planning, stakeholder
+recruitment, team formation
+
+Evaluation team
+leadership and key
+project decision-makers
+
+Proceeds informally
+as required, perhaps
+over a few weeks
+
+1
+
+Evaluation: Steps 1-6
+
+Evaluation team and
+project decision-makers
+
+1-2 days followed by
+a hiatus of 2-3 weeks
+
+2
+
+Evaluation: Steps 7-9
+
+Evaluation team, project
+decision makers,
+stakeholders
+
+2 days
+
+3
+
+Follow-up: Report generation and
+delivery, process improvement
+
+Evaluation team and
+evaluation client
+
+1 week
+
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Step 1: Present the ATAM
+• The evaluation leader presents the ATAM to the
+assembled project representatives.
+– This time is used to explain the process that everyone will be
+following, to answer questions, and to set the context and
+expectations for the remainder of the activities.
+
+• Using a standard presentation, the leader describes the
+ATAM steps in brief and the outputs of the evaluation.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 2: Present Business Drivers
+• Everyone involved in the evaluation needs to understand the
+context for the system and the primary business drivers
+motivating its development.
+• In this step, a project decision maker (ideally the project
+manager or the system’s customer) presents a system overview
+from a business perspective.
+• The presentation should describe the following:
+– The system’s most important functions
+– Any relevant technical, managerial, economic, or political constraints
+– The business goals and context as they relate to the project
+– The major stakeholders
+– The architectural drivers (that is, the architecturally significant
+requirements)
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 3: Present the Architecture
+• The lead architect (or architecture team) makes a presentation
+describing the architecture.
+– The architect covers technical constraints such as OS, hardware, or middleware
+prescribed for use, and other systems with which the system must interact.
+– The architect describes the architectural approaches (or patterns, or tactics, if
+the architect is fluent in that vocabulary) used to meet the requirements.
+
+• The architect’s presentation should convey the essence of the
+architecture and not stray into ancillary areas or delve too deeply into
+the details of just a few aspects.
+• The architect should present the views that s/he found most important
+during the creation of the architecture and the views that help to reason
+about the most important quality attribute concerns of the system.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 4: Identify Architectural
+Approaches
+• The ATAM focuses on analyzing an architecture by understanding its
+architectural approaches, especially patterns & tactics.
+
+• By now, the evaluation team will have a good idea of what patterns
+and tactics the architect used in designing the system.
+– They will have studied the architecture documentation.
+– They will have heard the architect’s presentation in step 3.
+– The team should also be adept at spotting approaches not mentioned
+explicitly.
+
+• The evaluation team simply catalogs the patterns and tactics that
+have been identified.
+– The list is publicly captured and will serve as the basis for later analysis.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 5: Generate Utility Tree
+• The quality attribute goals are articulated in detail via a
+quality attribute utility tree.
+– Utility trees serve to make the requirements concrete by defining
+precisely the relevant quality attribute requirements that the
+architects were working to provide.
+
+– The important quality attribute goals for the architecture
+under consideration were named in step 2.
+
+• In this step, the evaluation team works with the project
+decision makers to identify, prioritize, and refine the
+system’s most important quality attribute goals.
+– These are expressed as scenarios, which populate the leaves
+of the utility tree.
+– The scenarios are assigned a rank of importance (H/M/L).
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Reminder: Example Utility Tree
+
+Technical risk
+Business value
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 6: Analyze Architectural
+Approaches
+• The evaluation team examines the highest-ranked scenarios one at a time;
+the architect explains how the architecture supports each one.
+– Evaluation team members—especially the questioners—probe for the
+architectural approaches that the architect used to carry out the scenario.
+
+• The evaluation team documents the relevant architectural decisions and
+catalogs their risks, non-risks, sensitivity points, and tradeoffs. Examples:
+– Risk: The frequency of heartbeats affects the time in which the system can detect a
+failed component. Some assignments will result in unacceptable values of this response.
+– Sensitivity point: The number of simultaneous database clients will affect the number of
+transactions that a database can process per second.
+– Tradeoff: The heartbeat frequency determines the time for detecting a fault. Higher
+frequency leads to better availability but consumes more processing time and
+communication bandwidth (potentially reducing performance).
+
+• This analysis is not comprehensive.
+– The key is to elicit sufficient architectural information to establish a link between the
+architectural decisions made and the driving quality attribute requirements.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Example
+of an
+Analysis
+
+© Len Bass, Paul Clements, Rick Kazman,
+distributed under Creative Commons
+Attribution License
+
+Step 7: Brainstorm and Prioritize
+Scenarios
+• The stakeholders brainstorm scenarios that are operationally meaningful with
+respect to the stakeholders’ individual roles.
+– A maintainer will likely propose a modifiability scenario
+– A user will probably come up with a scenario that expresses useful functionality or
+ease of operation
+– A quality assurance person will propose a scenario about testing the system or
+being able to replicate the state of the system leading up to a fault.
+
+• The purpose of brainstorming is to take the pulse of the larger stakeholder
+community: to learn what system success means to them.
+• Once the scenarios have been collected, they are prioritized by voting.
+• The list of prioritized scenarios is compared with those from the utility tree.
+– If they agree, it indicates good alignment between what the architect had in mind
+and what the stakeholders actually wanted.
+– If additional driving scenarios are discovered—and they usually are—this may itself
+be a risk, if the discrepancy is large. This indicates that there was disagreement in
+the system’s important goals between the stakeholders and the architect.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 8: Analyze Architectural
+Approaches
+• In this step the evaluation team performs the same activities as
+in step 6, using the highest-ranked, newly generated scenarios.
+• The evaluation team guides the architect in the process of
+carrying out the highest ranked new scenarios.
+• The architect explains how relevant architectural decisions
+contribute to realizing each one.
+• This step might cover the top 5-10 scenarios, as time permits.
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 9: Present Results / 1
+• The evaluation team confers privately to group risks into risk themes,
+based on some common underlying concern or systemic deficiency.
+– For example, a group of risks about inadequate or out-of-date documentation
+might be grouped into a risk theme stating that documentation is given
+insufficient consideration.
+– A group of risks about the system’s inability to function in the face of various
+hardware and/or software failures might lead to a risk theme about
+insufficient attention to backup capability or providing high availability.
+
+• For each risk theme, the evaluation team identifies which of the
+business drivers listed in step 2 are affected.
+– This elevates the risks that were uncovered to the attention of management,
+who cares about the business drivers.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Step 9: Present Results / 2
+• The collected information from the evaluation is
+summarized and presented to stakeholders.
+• The following outputs are presented:
+– The architectural approaches documented
+– The set of scenarios and their prioritization from the
+brainstorming
+– The utility tree
+– The risks discovered
+– The non-risks documented
+– The sensitivity points and tradeoff points found
+– Risk themes and the business drivers threatened by each one
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+An Example
+Evaluation Report
+
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Lightweight Architectural
+Evaluation
+• An ATAM is a substantial undertaking.
+– It requires some 20 to 30 person-days of effort from an evaluation team, plus even
+more for the architect and stakeholders.
+– Investing this amount of time makes sense on a large and costly project, where the
+risks of making a major mistake in the architecture are unacceptable.
+
+• We have developed a Lightweight Architecture Evaluation (LAE) method, based
+on the ATAM, for smaller, less risky projects.
+– May take place in a single day, or even a half-day meeting.
+– May be carried out entirely by members internal to the organization.
+– Of course this lower level of scrutiny and objectivity may not probe the architecture
+as deeply.
+
+• Because the participants are all internal to the organization and fewer in
+number than for the ATAM, giving everyone their say and achieving a shared
+understanding takes much less time.
+• The steps and phases of a Lightweight Architecture Evaluation can be carried
+out more quickly.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+Typical Agenda: 4-6 Hours
+Step
+
+Time
+
+Notes
+
+1. Present the
+LAE
+
+0 hours
+
+Participants already familiar with process.
+
+2. Review
+business goals
+
+0.25 hours
+
+3. Review the
+architecture
+
+0.5 hours
+
+4. Review the
+architectural
+approaches
+
+0.25 hours
+
+The participants are expected to understand the system and its business goals
+and their priorities. A brief review ensures that these are fresh in everyone’s
+mind and that there are no surprises.
+All participants are expected to be familiar with the system. A brief overview of
+the architecture, using at least module and C&C views, is presented. 1-2
+scenarios are traced through these views.
+The architecture approaches for specific quality attribute concerns are identified
+by the architect. This may be done as a portion of step 3.
+
+5. Review the
+QA utility tree
+
+0.5- 1.5
+hours
+
+6. Brainstorm
+scenarios
+
+0 hours
+
+7. Analyze
+architectural
+approaches
+
+2-3 hours
+
+This step—mapping the highly ranked scenarios onto the architecture—
+consumes the bulk of the time and can be expanded or contracted as needed.
+
+8. Capture
+results
+
+0.5 hours
+
+At the end of an evaluation, the team reviews the existing and newly discovered
+© Len Bass, Paul Clements, Rick Kazman,
+risks, non-risks,
+sensitivities,
+and
+tradeoffs and discusses whether any new risk
+distributed
+under Creative
+Commons
+themes have arisen.
+Attribution License
+
+A utility tree may already exist. If not, scenarios might exist from previous
+evaluations, part of design, part of requirements elicitation. Put these in a tree.
+A brief brainstorming activity can occur at this time to establish whether any new
+scenarios merit analysis.
+
+Summary
+• If a system is important enough for you to explicitly design its architecture, then
+that architecture should be evaluated.
+
+• The number of evaluations and the extent of each evaluation may vary from
+project to project.
+– A designer should perform an evaluation during the process of making an important
+decision.
+– Lightweight evaluations can be performed several times during a project as a peer
+review exercise.
+
+• The ATAM is a comprehensive method for evaluating software architectures.
+– It works by having project decision makers and stakeholders articulate a precise list of
+quality attribute requirements (in the form of scenarios) and by illuminating the
+architectural decisions relevant to carrying out each high-priority scenario.
+– The decisions can then be understood in terms of risks or non-risks to find any trouble
+spots in the architecture.
+
+• Lightweight Architecture Evaluation, based on the ATAM, provides an inexpensive,
+low-ceremony architecture evaluation that can be carried out in an afternoon.
+© Len Bass, Paul Clements, Rick Kazman, distributed under Creative Commons Attribution License
+
+

@@ -1,0 +1,24 @@
+Illumina array probe -> hg38 (GRCh38) coordinate annotation
+===========================================================
+Used to map GSE235818 bisulfite CpG chr3:32781045 (hg38) to the nearest 450K/EPIC
+array probe(s) for cross-validation in array-based opioid/brain datasets.
+
+Source: Zhou-lab (sesame) InfiniumAnnotation, hg38-mapped manifests.
+  HM450.hg38.manifest.tsv.gz
+    https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/HM450/HM450.hg38.manifest.tsv.gz
+    SHA-256: a15528e69c21d9bb46f3633673650e63fe708e4b1de2c660ab5338aaaa3332f4
+  EPIC.hg38.manifest.tsv.gz
+    https://github.com/zhou-lab/InfiniumAnnotationV1/raw/main/Anno/EPIC/EPIC.hg38.manifest.tsv.gz
+    SHA-256: 7ebba6a5caad511b7d00fe904f0da37da1a458f1f880bef85abebb9b66777892
+
+The full manifests (~22 MB / ~38 MB) are NOT committed to keep the repo light.
+Only the chr3:32779045-32783045 region rows are extracted into
+region_probes_chr3_32781045_hg38.tsv (columns: Probe_ID, CpG_chrm, CpG_beg,
+CpG_end, array). Re-derive with:
+
+  zcat HM450.hg38.manifest.tsv.gz | awk -F'\t' \
+    'NR==1{print "Probe_ID\tCpG_chrm\tCpG_beg\tCpG_end\tarray";for(i=1;i<=NF;i++)h[$i]=i} \
+     NR>1 && $h["CpG_chrm"]=="chr3" && $h["CpG_beg"]>32779045 && $h["CpG_beg"]<32783045 \
+     {print $h["Probe_ID"]"\t"$h["CpG_chrm"]"\t"$h["CpG_beg"]"\t"$h["CpG_end"]"\tHM450"}'
+
+Nearest probe to chr3:32781045: cg18028347 @ chr3:32781025-32781027 (20 bp away).
